@@ -1,0 +1,2041 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="A daily rarity trivia game played as trading cards. Call your shot, flip the card, and play the answer nobody else holds.">
+<meta property="og:title" content="Long Tail">
+<meta property="og:description" content="A daily rarity trivia game played as trading cards. Call your shot, flip the card, and play the answer nobody else holds.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#16121E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%226%22%20fill%3D%22%23221A33%22/%3E%3Crect%20x%3D%224%22%20y%3D%225%22%20width%3D%224.5%22%20height%3D%2222%22%20rx%3D%221%22%20fill%3D%22%23C9C2D6%22/%3E%3Crect%20x%3D%229.5%22%20y%3D%2212%22%20width%3D%224.5%22%20height%3D%2215%22%20rx%3D%221%22%20fill%3D%22%2334C47C%22/%3E%3Crect%20x%3D%2215%22%20y%3D%2218%22%20width%3D%224.5%22%20height%3D%229%22%20rx%3D%221%22%20fill%3D%22%234A8BFF%22/%3E%3Crect%20x%3D%2220.5%22%20y%3D%2221.5%22%20width%3D%223.5%22%20height%3D%225.5%22%20rx%3D%221%22%20fill%3D%22%23A86BFF%22/%3E%3Crect%20x%3D%2225%22%20y%3D%2223.5%22%20width%3D%223.5%22%20height%3D%223.5%22%20rx%3D%221%22%20fill%3D%22%23FFB13B%22/%3E%3C/svg%3E">
+<script>
+  // Settings. To switch on analytics, put your GoatCounter code (the "xyz" in xyz.goatcounter.com)
+  // or your Plausible site domain below. Leave both empty to keep tracking off.
+  window.LT_CONFIG = { siteUrl: "https://vishalkj-ai.github.io/long-tail/", goatcounter: "", plausible: "" };
+</script>
+<title>Long Tail</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Big+Shoulders+Display:wght@700;800;900&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a trading-card game on a playmat. Every prompt is a card dealt face down; you call your shot, it flips, and the answer you give comes back as a card in its rarity frame.
+   Dark-first: the playmat. Light: a binder page. Card stock stays light in both. Rarity uses the loot convention; Legendary gets holo foil, the one loud effect. */
+:root {
+  --mat: #16121E;
+  --mat-2: #211B2C;
+  --mat-3: #2C2439;
+  --line: #3B3250;
+  --text: #EEEAF6;
+  --text-2: #A69EBB;
+  --stock: #F4F2F7;
+  --stock-2: #E6E2EE;
+  --ink: #1B1626;
+  --ink-2: #5F5772;
+  --gold: #F4C24E;
+  --gold-ink: #241A05;
+  --bad: #FF6E6E;
+  --t-head: #9AA3B2;
+  --t-hipster: #C68C5C;
+  --t-body: #34C47C;
+  --t-tail: #4A8BFF;
+  --t-deep: #A86BFF;
+  --t-outlier: #FFB13B;
+  --f-display: "Big Shoulders Display", "Arial Narrow", Impact, system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "DM Mono", ui-monospace, Menlo, Consolas, monospace;
+  --r-card: 16px;
+  --foil: linear-gradient(100deg, #FFD36B 0%, #FF7AD9 28%, #7BE7FF 52%, #B8FF7A 74%, #FFD36B 100%);
+  --shadow: 0 18px 40px -18px rgba(0, 0, 0, 0.7), 0 2px 6px rgba(0, 0, 0, 0.35);
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --mat: #E6E3EC; --mat-2: #F3F1F7; --mat-3: #DAD5E3; --line: #C9C2D6; --text: #1B1626; --text-2: #5F5772;
+    --stock: #FFFFFF; --stock-2: #EEEBF3; --gold: #E9AE2B; --bad: #D23C3C;
+    --t-head: #7D8696; --t-hipster: #A86E43; --t-body: #1F9C62; --t-tail: #2E6BDB; --t-deep: #8448E0; --t-outlier: #E08A0F;
+    --shadow: 0 16px 32px -18px rgba(40, 20, 70, 0.45), 0 1px 3px rgba(40, 20, 70, 0.18);
+    --foil: linear-gradient(100deg, #B86E00 0%, #C2188F 28%, #0B7FA8 52%, #3E8A0C 74%, #B86E00 100%);
+    color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --mat: #E6E3EC; --mat-2: #F3F1F7; --mat-3: #DAD5E3; --line: #C9C2D6; --text: #1B1626; --text-2: #5F5772;
+  --stock: #FFFFFF; --stock-2: #EEEBF3; --gold: #E9AE2B; --bad: #D23C3C;
+  --t-head: #7D8696; --t-hipster: #A86E43; --t-body: #1F9C62; --t-tail: #2E6BDB; --t-deep: #8448E0; --t-outlier: #E08A0F;
+  --shadow: 0 16px 32px -18px rgba(40, 20, 70, 0.45), 0 1px 3px rgba(40, 20, 70, 0.18);
+  --foil: linear-gradient(100deg, #B86E00 0%, #C2188F 28%, #0B7FA8 52%, #3E8A0C 74%, #B86E00 100%);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background-color: var(--mat);
+  background-image:
+    radial-gradient(1200px 500px at 50% -120px, var(--mat-3), transparent 70%),
+    repeating-linear-gradient(135deg, transparent 0 14px, color-mix(in srgb, var(--line) 22%, transparent) 14px 15px);
+  color: var(--text);
+  font: 16px/1.5 var(--f-body);
+  padding-inline: 16px;
+  padding-block: 0 56px;
+}
+.wrap { max-width: 760px; margin: 0 auto; }
+button, input { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; font-weight: 800; letter-spacing: 0.005em; }
+h1 { font-size: clamp(44px, 9vw, 72px); line-height: 0.92; text-transform: uppercase; font-weight: 900; }
+h2 { font-size: clamp(30px, 6vw, 44px); line-height: 0.95; text-transform: uppercase; }
+h3 { font-size: 24px; line-height: 1; text-transform: uppercase; }
+p { margin: 0; }
+.eyebrow { font: 500 12px/1.3 var(--f-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-2); }
+.muted { color: var(--text-2); }
+.small { font-size: 14px; }
+.mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.stack { display: flex; flex-direction: column; gap: 18px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.panel { background: color-mix(in srgb, var(--mat-2) 88%, transparent); border: 1px solid var(--line); border-radius: 14px; padding: clamp(16px, 4vw, 26px); }
+
+/* holo foil: the one loud effect */
+.holo-text {
+  background: var(--foil);
+  background-size: 220% 100%;
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  animation: foil 6s linear infinite;
+}
+@keyframes foil { to { background-position: 220% 0; } }
+
+/* buttons */
+.btn { appearance: none; border: 1.5px solid var(--line); background: var(--mat-2); color: var(--text); border-radius: 10px; padding: 12px 18px; font-weight: 700; cursor: pointer; line-height: 1.2; transition: transform 0.08s ease, border-color 0.15s, background-color 0.15s; }
+.btn:hover { border-color: var(--text-2); }
+.btn:active { transform: translateY(1px); }
+.btn.primary { background: var(--gold); border-color: var(--gold); color: var(--gold-ink); }
+.btn.primary:hover { background: color-mix(in srgb, var(--gold) 88%, white); }
+.btn.quiet { background: transparent; color: var(--text-2); font-weight: 400; padding: 8px 12px; }
+.btn[disabled] { opacity: 0.45; cursor: default; }
+.linkish { appearance: none; border: 0; background: none; padding: 0; color: var(--text); font: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+
+/* tiers */
+.c-head { --c: var(--t-head); } .c-hipster { --c: var(--t-hipster); } .c-body { --c: var(--t-body); }
+.c-tail { --c: var(--t-tail); } .c-deep { --c: var(--t-deep); } .c-outlier { --c: var(--t-outlier); } .c-miss { --c: var(--bad); }
+.tag { display: inline-flex; align-items: center; gap: 6px; font: 500 12px/1 var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--c, var(--text-2)); white-space: nowrap; }
+.sym { font-family: system-ui, sans-serif; color: var(--c); }
+
+/* header */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 18px 8px; flex-wrap: wrap; }
+.mark-word { display: flex; align-items: baseline; font-family: var(--f-display); font-weight: 900; line-height: 1; text-transform: uppercase; letter-spacing: 0.01em; border: 0; padding: 0; cursor: pointer; }
+.mark-word span { display: inline-block; }
+.mark-word span:nth-child(5) { width: 8px; }
+.top-right { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; justify-content: flex-end; }
+.top-stats { display: flex; gap: 14px; font: 500 12px/1 var(--f-mono); color: var(--text-2); letter-spacing: 0.06em; text-transform: uppercase; }
+.top-stats b { color: var(--text); font-weight: 500; }
+.navlink { appearance: none; border: 1px solid var(--line); background: var(--mat-2); border-radius: 999px; padding: 7px 12px; font: 500 12px/1 var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--text); cursor: pointer; }
+
+/* ---------- the card ---------- */
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  margin-inline: auto;
+  background: var(--stock);
+  color: var(--ink);
+  border-radius: var(--r-card);
+  padding: 9px;
+  box-shadow: var(--shadow);
+}
+.card .frame { border: 3px solid var(--c, var(--ink)); border-radius: 10px; overflow: hidden; display: grid; background: var(--stock); }
+.card .namebar { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 9px 12px 8px; background: color-mix(in srgb, var(--c, var(--ink)) 14%, var(--stock)); border-bottom: 2px solid var(--c, var(--ink)); }
+.card .namebar b { font: 800 24px/1 var(--f-display); text-transform: uppercase; letter-spacing: 0.01em; min-width: 0; overflow-wrap: anywhere; }
+.card .namebar .set { font: 500 11px/1 var(--f-mono); letter-spacing: 0.1em; color: var(--ink-2); white-space: nowrap; }
+.card .namebar .sym { font-size: 22px; line-height: 1; }
+.card .art {
+  min-height: 168px; display: grid; place-items: center; text-align: center; padding: 22px 18px;
+  background:
+    radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--c, var(--ink)) 10%, transparent), transparent 60%),
+    repeating-linear-gradient(45deg, transparent 0 10px, color-mix(in srgb, var(--ink) 4%, transparent) 10px 11px),
+    var(--stock-2);
+}
+.card .art .clue { font: 800 clamp(26px, 6vw, 34px)/1.04 var(--f-display); letter-spacing: 0; text-wrap: balance; }
+.card .typeline { display: flex; justify-content: space-between; align-items: center; gap: 6px 10px; padding: 7px 12px; border-block: 2px solid var(--c, var(--ink)); font: 500 12px/1.2 var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; background: var(--stock); flex-wrap: wrap; }
+.card .textbox { padding: 11px 14px 12px; font-size: 15px; line-height: 1.45; min-height: 64px; display: grid; gap: 8px; align-content: start; }
+.card .textbox .flavor { font-style: italic; color: var(--ink-2); }
+.card .foot { display: flex; justify-content: space-between; gap: 10px; padding: 6px 4px 0; font: 500 11px/1.2 var(--f-mono); letter-spacing: 0.06em; color: var(--ink-2); text-transform: uppercase; }
+.callchip { display: inline-flex; gap: 6px; align-items: center; font: 500 11px/1 var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; color: #fff; background: var(--cc, var(--ink)); border-radius: 999px; padding: 5px 9px; }
+.call-safe { --cc: var(--ink); } .call-bold { --cc: var(--t-tail); } .call-allin { --cc: var(--t-deep); }
+
+/* card back */
+.card.back { color: #fff; background: #221A33; --foil: linear-gradient(100deg, #FFD36B 0%, #FF7AD9 28%, #7BE7FF 52%, #B8FF7A 74%, #FFD36B 100%); }
+.card.back .frame { border-color: var(--gold); background:
+    radial-gradient(circle at 50% 42%, rgba(244, 194, 78, 0.22), transparent 52%),
+    repeating-conic-gradient(from 0deg at 50% 42%, rgba(255, 255, 255, 0.05) 0 6deg, transparent 6deg 12deg),
+    linear-gradient(160deg, #2D2147, #160F24);
+  min-height: 100%; place-items: center; text-align: center; padding: 26px 16px; gap: 16px; align-content: center; }
+.card.back .emblem { display: grid; gap: 10px; justify-items: center; }
+.card.back .emblem svg { width: 74px; height: 74px; }
+.card.back .emblem b { font: 900 34px/1 var(--f-display); text-transform: uppercase; letter-spacing: 0.04em; }
+.card.back .topic { font: 800 30px/1 var(--f-display); text-transform: uppercase; color: #fff; }
+.card.back .count { font: 500 12px/1 var(--f-mono); letter-spacing: 0.1em; text-transform: uppercase; color: #CFC6E4; }
+
+/* flip */
+.flip { perspective: 1400px; }
+.flip-inner { display: grid; transition: transform 0.55s cubic-bezier(0.3, 0.7, 0.2, 1); transform-style: preserve-3d; }
+.flip-inner > .card { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-inner > .card.front { transform: rotateY(180deg); }
+.flip.flipped .flip-inner { transform: rotateY(180deg); }
+.flip.instant .flip-inner { transition: none; }
+
+/* holo + tilt for Legendary */
+.card.holo, .mini.holo { --mx: 50%; --my: 30%; transition: transform 0.15s ease-out; }
+.card.holo::after, .mini.holo::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; mix-blend-mode: color-dodge; opacity: 0.55;
+  background:
+    radial-gradient(circle at var(--mx) var(--my), rgba(255, 255, 255, 0.75), transparent 38%),
+    linear-gradient(115deg, transparent 15%, rgba(255, 90, 210, 0.55) 32%, rgba(90, 230, 255, 0.55) 48%, rgba(190, 255, 110, 0.5) 62%, rgba(255, 210, 90, 0.55) 76%, transparent 90%);
+  background-size: 100% 100%, 260% 260%;
+  animation: sheen 5s ease-in-out infinite;
+}
+@keyframes sheen { 0%, 100% { background-position: 0 0, 100% 50%; } 50% { background-position: 0 0, 0% 50%; } }
+.card.shiny::after, .mini.shiny::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0.35; mix-blend-mode: soft-light;
+  background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, 0.9) 48%, transparent 66%); background-size: 260% 100%; animation: sheen 6s ease-in-out infinite;
+}
+
+/* mini cards: hand, binder, could-have-played */
+.mini { position: relative; width: 100%; aspect-ratio: 5 / 7; background: var(--stock); color: var(--ink); border-radius: 9px; padding: 4px; box-shadow: 0 8px 18px -10px rgba(0, 0, 0, 0.7); }
+.mini .mf { height: 100%; border: 2px solid var(--c, var(--ink)); border-radius: 6px; display: grid; grid-template-rows: auto 1fr auto; overflow: hidden; background: var(--stock-2); }
+.mini .mt { font: 500 10px/1 var(--f-mono); letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 6px; background: color-mix(in srgb, var(--c, var(--ink)) 18%, var(--stock)); display: flex; justify-content: space-between; gap: 4px; }
+.mini .mn { display: grid; place-items: center; text-align: center; padding: 6px; font: 800 15px/1.02 var(--f-display); text-transform: uppercase; overflow-wrap: anywhere; hyphens: auto; }
+.mini .mp { font: 500 10px/1 var(--f-mono); padding: 5px 6px; text-align: right; color: var(--ink-2); min-height: 20px; }
+.mini.empty { background: transparent; box-shadow: none; border: 2px dashed color-mix(in srgb, var(--c) 70%, transparent); display: grid; place-items: center; padding: 0; color: var(--c); }
+.mini.empty span { font-size: 20px; opacity: 0.8; }
+.mini.dud .mf { border-color: var(--ink-2); }
+.mini.dud .mn { color: var(--ink-2); }
+.mini.back-mini { background: #221A33; }
+.mini.back-mini .mf { border-color: var(--gold); background: radial-gradient(circle at 50% 45%, rgba(244, 194, 78, 0.28), transparent 55%), linear-gradient(160deg, #2D2147, #160F24); place-items: center; grid-template-rows: 1fr; }
+.mini.back-mini svg { width: 40px; height: 40px; }
+
+/* ---------- home ---------- */
+.hero { display: grid; gap: 20px; padding-block: 14px 8px; }
+.hero > p { font-size: 18px; max-width: 34em; }
+.cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.cta .btn { padding: 14px 22px; font-size: 17px; }
+.fan, .hand { display: flex; justify-content: center; padding: 18px 0 10px; }
+.fan > div, .hand > div { width: 104px; flex: none; margin-inline: -16px; transform-origin: 50% 130%; }
+.done-note { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; }
+.endless-pick { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { appearance: none; border: 1px solid var(--line); background: var(--mat-2); border-radius: 999px; padding: 7px 13px; font-size: 14px; cursor: pointer; color: var(--text); }
+.chip[aria-pressed="true"] { background: var(--gold); color: var(--gold-ink); border-color: var(--gold); }
+.ladder { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px 22px; margin: 0; padding: 0; list-style: none; }
+.ladder li { display: grid; grid-template-columns: 2.6em 1fr; column-gap: 10px; align-items: baseline; }
+.ladder .pts { font: 800 28px/1 var(--f-display); color: var(--c, var(--cc)); text-align: right; }
+.ladder .nm { font-weight: 700; display: flex; gap: 6px; align-items: baseline; }
+.ladder .ds { grid-column: 2; font-size: 14px; color: var(--text-2); }
+.how { display: grid; grid-template-columns: minmax(0, 190px) minmax(0, 1fr); gap: 22px; align-items: center; }
+.how .mini .mn { font-size: 24px; }
+.chart { width: 100%; display: block; overflow: visible; }
+.chart text { font-family: var(--f-mono); font-size: 11px; fill: var(--text-2); }
+.chart .lbl { fill: var(--text); font-weight: 500; font-size: 12px; }
+.chart .pin { stroke: var(--text); stroke-width: 1.2; stroke-dasharray: 2 3; }
+.chart .axis { stroke: var(--line); stroke-width: 1; }
+.chart .dim { opacity: 0.35; }
+.f-head { fill: var(--t-head); } .f-hipster { fill: var(--t-hipster); } .f-body { fill: var(--t-body); }
+.f-tail { fill: var(--t-tail); } .f-deep { fill: var(--t-deep); } .f-outlier { fill: var(--t-outlier); }
+.s-head { stroke: var(--t-head); } .s-hipster { stroke: var(--t-hipster); } .s-body { stroke: var(--t-body); }
+.s-tail { stroke: var(--t-tail); } .s-deep { stroke: var(--t-deep); } .s-outlier { stroke: var(--t-outlier); }
+.foot { margin-top: 26px; font-size: 13px; color: var(--text-2); }
+
+/* ---------- play ---------- */
+.play-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.ticks { display: flex; gap: 5px; }
+.ticks i { width: 20px; height: 28px; border-radius: 4px; border: 1.5px solid var(--line); background: var(--mat-2); }
+.ticks i.now { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 25%, var(--mat-2)); }
+.ticks i[data-t] { background: var(--c); border-color: var(--c); }
+.calls { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; max-width: 560px; width: 100%; margin-inline: auto; }
+.call { appearance: none; text-align: left; border: 1.5px solid var(--line); background: var(--mat-2); border-radius: 12px; padding: 13px; cursor: pointer; display: grid; gap: 6px; color: var(--text); align-content: start; transition: border-color 0.12s, transform 0.1s; min-width: 0; }
+.call:hover { border-color: var(--cc); transform: translateY(-2px); }
+.call.call-safe { --cc: var(--text); }
+.call .head { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; }
+.call .nm { font-weight: 700; }
+.call .mult { font: 900 46px/0.85 var(--f-display); color: var(--cc); }
+.call .cond { font-size: 13px; color: var(--text-2); }
+.call .meter { height: 5px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.call .meter i { display: block; height: 100%; background: var(--cc); }
+.call kbd { font: 500 11px var(--f-mono); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; color: var(--text-2); }
+.round { display: grid; gap: 12px; max-width: 460px; width: 100%; margin-inline: auto; }
+.clock { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; }
+.clock-bar { height: 8px; background: var(--mat-3); border-radius: 4px; overflow: hidden; }
+.clock-fill { height: 100%; width: 100%; background: var(--gold); transform-origin: left; }
+.clock.low .clock-fill { background: var(--bad); }
+.clock-num { font: 500 15px/1 var(--f-mono); font-variant-numeric: tabular-nums; min-width: 3.4em; text-align: right; }
+.clock.low .clock-num { color: var(--bad); }
+.answer { display: flex; gap: 8px; }
+.answer input { flex: 1; min-width: 0; border: 2px solid var(--line); border-radius: 10px; background: var(--mat-2); padding: 13px 14px; font-size: 19px; color: var(--text); }
+.answer input:focus { border-color: var(--gold); outline: none; }
+.answer input::placeholder { color: var(--text-2); }
+.answer.shake { animation: shake 0.28s; }
+@keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+.confirm { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 14px; border: 1.5px solid var(--gold); border-radius: 10px; padding: 10px 12px 10px 14px; background: var(--mat-2); }
+.confirm p { font-size: 17px; min-width: 0; overflow-wrap: anywhere; }
+.confirm .btn { padding: 8px 16px; }
+.ask { font-size: 15px; color: var(--text-2); }
+.misses { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.misses li { font-size: 14px; padding: 7px 10px; border: 1px dashed var(--bad); color: var(--bad); border-radius: 8px; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.misses li span { font: 500 11px var(--f-mono); margin-left: auto; }
+.misses li.trap { border-style: solid; color: var(--text); }
+.misses li.trap b { color: var(--bad); }
+.misses li.trap em { color: var(--text-2); }
+.misses li.under { border-style: solid; border-color: var(--c); color: var(--text); }
+.misses li.under span { color: var(--c); }
+.named { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.named li { font-size: 15px; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--c); border-left-width: 4px; background: var(--mat-2); }
+.named li.new::after { content: "new"; margin-left: 6px; font: 500 10px var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--c); }
+.toast { position: relative; height: 0; }
+.toast div { position: absolute; right: 0; top: -8px; font: 500 13px/1 var(--f-mono); color: var(--c); background: var(--mat-2); border: 1px solid var(--c); border-radius: 6px; padding: 6px 9px; animation: rise 1.1s ease forwards; z-index: 2; }
+@keyframes rise { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(-26px); } }
+.play-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 460px; width: 100%; margin-inline: auto; }
+
+/* ---------- reveal ---------- */
+.verdict-big { font: 900 clamp(40px, 9vw, 56px)/0.9 var(--f-display); text-transform: uppercase; color: var(--c); }
+.card.result .art { min-height: 150px; gap: 6px; align-content: center; }
+.card.result .art .pts { font: 900 58px/0.9 var(--f-display); color: var(--c, var(--ink)); }
+.card.result .art .of { font: 500 12px/1 var(--f-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
+.note { font-size: 14px; color: var(--text-2); }
+.could { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.traps { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.traps li { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--mat); }
+.traps li > b { color: var(--bad); }
+.traps li.fell { border-color: var(--bad); }
+.traps li > span { grid-column: 2; color: var(--text-2); font-size: 14px; }
+details.all summary { cursor: pointer; font-weight: 700; }
+.all-tier { margin-top: 12px; }
+.all-tier ul { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0 0; padding: 0; list-style: none; font-size: 15px; }
+.all-tier li.me { font-weight: 700; color: var(--gold); }
+.judge { border: 1px dashed var(--line); border-radius: 12px; padding: 14px; display: grid; gap: 10px; }
+.judge-out { font-size: 15px; }
+
+/* ---------- results ---------- */
+.score-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; }
+.score-big { font: 900 clamp(70px, 17vw, 112px)/0.85 var(--f-display); letter-spacing: -0.01em; }
+.score-of { font: 500 16px var(--f-mono); color: var(--text-2); }
+.tbl-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th { text-align: left; font: 500 11px var(--f-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-2); padding: 0 8px 8px 0; border-bottom: 1px solid var(--line); }
+td { padding: 10px 8px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+td.n { text-align: right; font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+td .muted { display: block; font-size: 13px; }
+.share { width: 100%; min-height: 110px; border: 1px solid var(--line); border-radius: 10px; background: var(--mat); padding: 10px 12px; font: 14px/1.5 var(--f-mono); resize: vertical; color: var(--text); }
+.statgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; }
+.stat { border-top: 2px solid var(--gold); padding-top: 8px; }
+.stat b { display: block; font: 800 32px/1 var(--f-display); }
+.stat span { font-size: 13px; color: var(--text-2); }
+
+/* ---------- binder ---------- */
+.tier-tally { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 10px; }
+.tier-tally div { border-top: 3px solid var(--c); padding-top: 6px; }
+.tier-tally b { display: block; font: 800 24px/1.1 var(--f-display); }
+.tier-tally span { font-size: 13px; color: var(--text-2); }
+.shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(108px, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.coll-group { display: grid; gap: 4px; }
+details.page { border-bottom: 1px solid var(--line); }
+details.page summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; padding: 12px 0; }
+details.page summary::-webkit-details-marker { display: none; }
+details.page summary .tt { font: 800 20px/1 var(--f-display); text-transform: uppercase; }
+details.page summary .qq { grid-column: 1; font-size: 14px; color: var(--text-2); }
+details.page summary .ct { grid-row: 1 / span 2; grid-column: 2; font: 500 13px var(--f-mono); color: var(--text-2); white-space: nowrap; }
+.tierbar { grid-column: 1 / -1; display: flex; gap: 2px; height: 6px; margin-top: 6px; }
+.tierbar span { display: block; background: var(--mat-3); border-radius: 2px; overflow: hidden; min-width: 3px; }
+.tierbar i { display: block; height: 100%; background: var(--c); }
+.slots { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; padding: 4px 0 16px; }
+.slots .mini .mn { font-size: 13px; }
+.page-foot { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; padding-bottom: 16px; }
+.empty { color: var(--text-2); font-size: 15px; }
+
+/* coach marks, challenge banner, past draws, share */
+.coach { border: 1.5px solid var(--gold); background: color-mix(in srgb, var(--gold) 12%, var(--mat-2)); border-radius: 12px; padding: 14px 16px; display: grid; gap: 8px; max-width: 560px; width: 100%; margin-inline: auto; }
+.coach .eyebrow { color: var(--gold); }
+.coach .btn { justify-self: start; }
+.banner { border: 1.5px solid var(--gold); border-radius: 14px; padding: 16px 18px; display: grid; gap: 10px; background: color-mix(in srgb, var(--gold) 10%, var(--mat-2)); }
+.banner .big { font: 800 30px/1 var(--f-display); text-transform: uppercase; }
+.rival { font-size: 15px; color: var(--text-2); }
+.rival b { color: var(--text); }
+.versus { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; font: 800 26px/1.1 var(--f-display); text-transform: uppercase; }
+.past { display: grid; margin: 0; padding: 0; list-style: none; }
+.past li { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.past li:last-child { border-bottom: 0; }
+.past .when { font: 500 12px var(--f-mono); color: var(--text-2); letter-spacing: 0.06em; text-transform: uppercase; margin-left: 6px; }
+.past .sc { font: 800 22px/1 var(--f-display); }
+.share-name { display: flex; gap: 8px 12px; align-items: center; flex-wrap: wrap; }
+.share-name input { border: 1.5px solid var(--line); border-radius: 8px; background: var(--mat); color: var(--text); padding: 8px 10px; font-size: 15px; width: 14em; max-width: 100%; }
+.share-name input:focus { border-color: var(--gold); outline: none; }
+
+@media (max-width: 560px) {
+  .calls { grid-template-columns: 1fr; }
+  .call { grid-template-columns: auto 1fr; column-gap: 14px; align-items: center; }
+  .call .mult { grid-row: 1 / span 4; font-size: 52px; }
+  .call .head, .call .cond, .call .meter, .call .small { grid-column: 2; }
+  .answer { flex-direction: column; }
+  .answer .btn { width: 100%; }
+  .how { grid-template-columns: 1fr; }
+  .how > div:first-child { max-width: 170px; margin-inline: auto; width: 100%; }
+  .fan > div { width: 76px; margin-inline: -14px; }
+  .hand { flex-wrap: wrap; gap: 8px; }
+  .hand > div { width: 84px; margin: 0; transform: none !important; }
+  .slots { grid-template-columns: repeat(auto-fill, minmax(68px, 1fr)); gap: 8px; }
+  .slots .mini .mn { font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <button class="mark-word holo-text" id="home-link" aria-label="Long Tail, back to start" type="button"></button>
+    <div class="top-right">
+      <div class="top-stats" id="top-stats"></div>
+      <button class="navlink" id="nav-collection" type="button">Binder</button>
+    </div>
+  </header>
+
+  <!-- HOME -->
+  <main id="home" data-screen class="stack">
+    <section class="hero">
+      <div class="fan" id="fan" aria-hidden="true"></div>
+      <p class="eyebrow" id="home-eyebrow">Daily draw</p>
+      <h1>Play the answer <span class="holo-text">nobody else</span> holds.</h1>
+      <p>Seven prompt cards a day, dealt face down. Call your shot, flip, and name any correct answer in 25 seconds. Common answers score 10. Legendary ones score 150.</p>
+      <div class="banner" id="challenge-banner" hidden>
+        <p class="eyebrow">You've been challenged</p>
+        <p class="big" id="challenge-title"></p>
+        <p class="muted" id="challenge-sub"></p>
+        <div class="row"><button class="btn primary" id="btn-challenge" type="button">Accept the challenge</button><button class="btn quiet" id="btn-challenge-x" type="button">Not now</button></div>
+      </div>
+      <div id="home-done" class="done-note" hidden></div>
+      <div class="cta">
+        <button class="btn primary" id="btn-daily" type="button">Draw today's cards</button>
+        <button class="btn" id="btn-endless" type="button">Endless run</button>
+      </div>
+      <div id="endless-panel" class="stack panel" hidden>
+        <p class="small muted">One shared clock. Every correct answer buys time, and rarer answers buy more. Pick a topic:</p>
+        <div class="endless-pick" id="endless-pick" role="group" aria-label="Topic for the endless run"></div>
+        <div><button class="btn primary" id="btn-endless-go" type="button">Start the run</button></div>
+      </div>
+      <p class="small muted" id="home-coll"></p>
+    </section>
+
+    <section class="panel stack" aria-labelledby="how-h">
+      <p class="eyebrow" id="how-h">How rarity scores</p>
+      <div class="how">
+        <div id="how-card"></div>
+        <div class="stack" style="gap:10px">
+          <h3 id="ex-q"></h3>
+          <svg class="chart" id="ex-chart" height="150" role="img" aria-label="Bar chart of every accepted answer, from most common to rarest"></svg>
+        </div>
+      </div>
+      <ul class="ladder" id="tier-list"></ul>
+    </section>
+
+    <section class="panel stack" aria-labelledby="calls-h">
+      <p class="eyebrow" id="calls-h">Call your shot</p>
+      <p style="max-width:40em">Before each daily card flips you see only its topic and how many answers it has. Then you call:</p>
+      <ul class="ladder" id="call-list"></ul>
+      <p class="small muted">A correct answer that's too common for your call costs 3 seconds, and you keep digging. Run out of time and the card scores nothing.</p>
+    </section>
+
+    <section class="panel stack" aria-labelledby="past-h" id="past-panel">
+      <p class="eyebrow" id="past-h">Past draws</p>
+      <ul class="past" id="past-list"></ul>
+      <p class="small muted">Past draws don't count towards your streak.</p>
+    </section>
+
+    <p class="foot" id="foot"></p>
+  </main>
+
+  <!-- PLAY -->
+  <main id="play" data-screen class="stack" hidden>
+    <div class="play-top">
+      <div class="ticks" id="ticks" aria-hidden="true"></div>
+      <p class="eyebrow" id="play-status"></p>
+    </div>
+    <div class="flip" id="flip">
+      <div class="flip-inner">
+        <article class="card back" id="card-back" aria-hidden="true"></article>
+        <article class="card front" id="card-front"></article>
+      </div>
+    </div>
+    <div class="coach" id="coach" hidden aria-live="polite"><p class="eyebrow"></p><p></p><button class="btn primary" type="button" hidden></button></div>
+    <div class="calls" id="calls" role="group" aria-label="Choose your call"></div>
+    <div class="round" id="round-panel">
+      <div class="clock" id="clock">
+        <div class="clock-bar"><div class="clock-fill" id="clock-fill"></div></div>
+        <div class="clock-num" id="clock-num" aria-hidden="true">25.0</div>
+      </div>
+      <form class="answer" id="answer-form" autocomplete="off">
+        <label for="answer-input" style="position:absolute;left:-9999px">Your answer</label>
+        <input id="answer-input" type="text" placeholder="Type an answer" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go">
+        <button class="btn primary" type="submit">Lock in</button>
+      </form>
+      <div class="confirm" id="confirm" hidden role="group" aria-labelledby="confirm-q">
+        <p id="confirm-q"></p>
+        <div class="row" style="gap:8px">
+          <button class="btn primary" id="confirm-yes" type="button">Yes</button>
+          <button class="btn" id="confirm-no" type="button">No</button>
+        </div>
+      </div>
+      <p class="ask" id="ask" hidden aria-live="polite"></p>
+      <div class="toast" id="toast" aria-live="polite"></div>
+      <ul class="named" id="named" hidden aria-live="polite"></ul>
+      <ul class="misses" id="misses" aria-live="polite"></ul>
+    </div>
+    <div class="play-foot" id="play-foot">
+      <p class="small muted" id="play-hint"></p>
+      <button class="btn quiet" id="btn-pass" type="button">Pass</button>
+    </div>
+  </main>
+
+  <!-- REVEAL -->
+  <main id="reveal" data-screen class="stack" hidden>
+    <div class="play-top">
+      <div class="ticks" id="ticks-r" aria-hidden="true"></div>
+      <p class="eyebrow" id="reveal-status"></p>
+    </div>
+    <div class="stack" style="gap:8px;text-align:center">
+      <p class="eyebrow" id="r-q"></p>
+      <p class="verdict-big" id="r-verdict"></p>
+      <p class="note" id="r-said"></p>
+      <p class="rival" id="r-rival" hidden></p>
+    </div>
+    <article class="card result" id="r-card"></article>
+    <p class="note" id="r-note" style="text-align:center" hidden></p>
+    <div class="coach" id="coach-r" hidden aria-live="polite"><p class="eyebrow"></p><p></p><button class="btn primary" type="button" hidden></button></div>
+    <section class="panel stack">
+      <svg class="chart" id="r-chart" height="170" role="img"></svg>
+      <p class="small muted">Rarity tiers are hand-ranked estimates of how often people give each answer.</p>
+      <div class="stack" style="gap:10px" id="r-could-wrap">
+        <h3 id="r-could-h">Rarer cards you could have played</h3>
+        <ul class="could" id="r-could"></ul>
+      </div>
+      <div class="stack" style="gap:10px" id="r-traps-wrap">
+        <h3>Traps</h3>
+        <ul class="traps" id="r-traps"></ul>
+      </div>
+      <details class="all" id="r-all"><summary id="r-all-sum"></summary><div id="r-all-body"></div></details>
+      <div class="judge" id="r-judge" hidden>
+        <p><b>Think one of your answers should have counted?</b> <span class="muted small">Claude can rule on one appeal per card. If it's valid and meets your call, you get the points, and the game remembers it.</span></p>
+        <div class="row" id="r-judge-btns"></div>
+        <p class="judge-out" id="r-judge-out" aria-live="polite"></p>
+      </div>
+    </section>
+    <div class="row" style="justify-content:flex-end">
+      <button class="btn primary" id="btn-next" type="button">Next card</button>
+    </div>
+  </main>
+
+  <!-- RESULTS -->
+  <main id="results" data-screen class="stack" hidden>
+    <div class="hand" id="res-hand" aria-hidden="true"></div>
+    <section class="panel stack">
+      <p class="eyebrow" id="res-eyebrow"></p>
+      <div class="score-line">
+        <span class="score-big" id="res-score"></span>
+        <span class="score-of">pts</span>
+      </div>
+      <h2 id="res-band"></h2>
+      <div class="versus" id="res-versus" hidden></div>
+      <div class="tbl-wrap">
+        <table>
+          <thead id="res-head"></thead>
+          <tbody id="res-rows"></tbody>
+        </table>
+      </div>
+      <div class="stack" style="gap:10px">
+        <p class="eyebrow">Share and challenge</p>
+        <div class="share-name"><label for="share-name" class="small muted">Your name on the challenge (optional)</label><input id="share-name" type="text" maxlength="24" placeholder="e.g. Vishal" autocomplete="nickname"></div>
+        <textarea id="share-text" class="share" readonly aria-label="Your result and challenge link"></textarea>
+        <div class="row"><button class="btn primary" id="btn-share" type="button">Challenge a friend</button><button class="btn" id="btn-copy" type="button">Copy result</button><span class="small muted" id="copy-note" aria-live="polite"></span></div>
+        <p class="small muted">Your link opens the same seven cards for them, and shows them what you played after each one.</p>
+      </div>
+    </section>
+    <section class="statgrid" id="res-stats"></section>
+    <div class="row">
+      <button class="btn primary" id="btn-res-endless" type="button">Endless run</button>
+      <button class="btn" id="btn-res-coll" type="button">Open binder</button>
+      <button class="btn" id="btn-res-home" type="button">Back to start</button>
+    </div>
+  </main>
+
+  <!-- RUN OVER (endless and hunt) -->
+  <main id="over" data-screen class="stack" hidden>
+    <section class="panel stack">
+      <p class="eyebrow" id="over-eyebrow">Endless run</p>
+      <div class="score-line">
+        <span class="score-big" id="over-score"></span>
+        <span class="score-of" id="over-of"></span>
+      </div>
+      <p id="over-best"></p>
+      <ul class="shelf" id="over-list" hidden></ul>
+      <p class="small muted" id="over-left" hidden></p>
+      <div class="tbl-wrap" id="over-table">
+        <table>
+          <thead><tr><th>Card</th><th>You played</th><th style="text-align:right">Pts</th></tr></thead>
+          <tbody id="over-rows"></tbody>
+        </table>
+      </div>
+    </section>
+    <div class="row">
+      <button class="btn primary" id="btn-again" type="button">Run again</button>
+      <button class="btn" id="btn-over-coll" type="button">Open binder</button>
+      <button class="btn" id="btn-over-home" type="button">Back to start</button>
+    </div>
+  </main>
+
+  <!-- BINDER -->
+  <main id="collection" data-screen class="stack" hidden>
+    <section class="panel stack">
+      <p class="eyebrow">Your binder</p>
+      <div class="score-line">
+        <span class="score-big" id="coll-found"></span>
+        <span class="score-of" id="coll-of"></span>
+      </div>
+      <p class="muted">Every correct answer you play, in any mode, goes in your binder. Hunt a card to fill its page faster: 60 seconds, as many answers as you can name.</p>
+      <div class="tier-tally" id="coll-tally"></div>
+    </section>
+    <section class="panel stack">
+      <h3>Grails</h3>
+      <p class="small muted">Your Epic and Legendary pulls.</p>
+      <ul class="shelf" id="coll-shelf"></ul>
+    </section>
+    <section class="panel stack" id="coll-groups"></section>
+  </main>
+</div>
+
+<script>
+(function (root) {
+  "use strict";
+
+  // Rarity tiers. weight = estimated share of players, used only to draw the curve.
+  const TIERS = [
+    { key: "head",    pts: 10,  name: "Common",     weight: 100, bonus: 3,  sq: "⬜", sym: "●" },
+    { key: "hipster", pts: 20,  name: "Overplayed", weight: 58,  bonus: 3,  sq: "🟫", sym: "◑" },
+    { key: "body",    pts: 40,  name: "Uncommon",   weight: 30,  bonus: 5,  sq: "🟩", sym: "◆" },
+    { key: "tail",    pts: 70,  name: "Rare",       weight: 11,  bonus: 7,  sq: "🟦", sym: "★" },
+    { key: "deep",    pts: 100, name: "Epic",       weight: 3.6, bonus: 9,  sq: "🟪", sym: "✦" },
+    { key: "outlier", pts: 150, name: "Legendary",  weight: 1.1, bonus: 12, sq: "🟧", sym: "✹" },
+  ];
+  const TIER = Object.fromEntries(TIERS.map((t) => [t.key, t]));
+  const MISS_SQ = "⬛";
+
+  const GROUPS = {
+    geo: "Geography", sci: "Science", cul: "Culture", spo: "Sport", his: "History",
+  };
+  const groupOf = (p) => String(p.id).split("-")[0];
+
+  // ---------- normalisation ----------
+  const ROM = [[10, "x"], [9, "ix"], [5, "v"], [4, "iv"], [1, "i"]];
+  function roman(n) {
+    let s = "";
+    for (const [v, r] of ROM) while (n >= v) { s += r; n -= v; }
+    return s;
+  }
+  const ORDINALS = {
+    first: 1, second: 2, third: 3, fourth: 4, fifth: 5, sixth: 6, seventh: 7, eighth: 8,
+    ninth: 9, tenth: 10, eleventh: 11, twelfth: 12, thirteenth: 13, fourteenth: 14,
+    fifteenth: 15, sixteenth: 16, seventeenth: 17, eighteenth: 18,
+  };
+
+  function words(s) {
+    s = String(s).normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    s = s
+      .replace(/ß/g, "ss").replace(/æ/g, "ae").replace(/œ/g, "oe").replace(/ø/g, "o")
+      .replace(/ł/g, "l").replace(/đ/g, "d").replace(/ı/g, "i").replace(/þ/g, "th")
+      .replace(/&/g, " and ").replace(/\+/g, " plus ")
+      .replace(/['’‘`´ʻ]/g, "")
+      .replace(/(\d)(st|nd|rd|th)\b/g, "$1")
+      .replace(/[^a-z0-9#]+/g, " ").trim();
+    let w = s.split(" ").filter(Boolean);
+    // "Henry the Eighth" -> "henry viii"; "Henry 8" / "Henry 8th" -> "henry viii"
+    w = w.map((t) => (ORDINALS[t] ? roman(ORDINALS[t]) : t));
+    w = w.map((t) => (/^\d+$/.test(t) && +t > 0 && +t < 40 ? roman(+t) : t));
+    const out = [];
+    for (let i = 0; i < w.length; i++) {
+      if (w[i] === "the" && i + 1 < w.length && /^[ivx]+$/.test(w[i + 1]) && i > 0) continue;
+      out.push(w[i]);
+    }
+    if (out.length > 1 && out[0] === "the") out.shift();
+    return out;
+  }
+  const key = (s) => words(s).join("");
+
+  function variants(k) {
+    const v = [k];
+    if (k.length > 3 && k.endsWith("s")) v.push(k.slice(0, -1));
+    if (k.length > 4 && k.endsWith("es")) v.push(k.slice(0, -2));
+    return v;
+  }
+
+  // ---------- index ----------
+  const PARTICLES = new Set(["van", "von", "de", "da", "di", "du", "del", "der", "le", "la", "dos", "das", "mac", "st", "ter", "ten", "lloyd"]);
+  const SUFFIXES = new Set(["jr", "sr", "ii", "iii", "iv"]);
+
+  function buildIndex(p, learned) {
+    const entries = [];
+    for (const t of TIERS) {
+      for (const name of (p.tiers && p.tiers[t.key]) || []) {
+        entries.push({ name, tier: t.key, pts: t.pts });
+      }
+    }
+    for (const x of learned || []) {
+      if (TIER[x.tier]) entries.push({ name: x.name, tier: x.tier, pts: TIER[x.tier].pts, learned: true });
+    }
+    const map = new Map(); // key -> [{entry, strength}]
+    const add = (k, e, strength) => {
+      if (!k) return;
+      for (const v of strength >= 2 ? variants(k) : [k]) {
+        const s = v === k ? strength : strength - 0.25;
+        const list = map.get(v) || [];
+        const existing = list.find((x) => x.e === e);
+        if (existing) existing.s = Math.max(existing.s, s);
+        else list.push({ e, s });
+        map.set(v, list);
+      }
+    };
+    const aliases = p.alias || {};
+    for (const e of entries) {
+      add(key(e.name), e, 3);
+      // "Lyndon Johnson", "Chester Arthur": the name without middle initials
+      const wn = words(e.name);
+      const bare = wn.filter((t, i) => i === 0 || i === wn.length - 1 || t.length > 1);
+      if (bare.length < wn.length) add(bare.join(""), e, 2.5);
+      for (const a of aliases[e.name] || []) add(key(a), e, 2);
+      if (p.surnames) {
+        const w = words(e.name).filter((t) => !SUFFIXES.has(t));
+        if (w.length >= 2) {
+          add(w[w.length - 1], e, 1);
+          if (w.length >= 3 && PARTICLES.has(w[w.length - 2])) add(w[w.length - 2] + w[w.length - 1], e, 1.5);
+        }
+      }
+    }
+    // tempting wrong answers, each with a reason
+    const traps = new Map();
+    for (const [name, why] of Object.entries(p.traps || {})) {
+      const t = { name, why };
+      for (const v of variants(key(name))) if (!map.has(v)) traps.set(v, t);
+      // "UK" for United Kingdom
+      const ini = words(name).filter((w) => !["of", "the", "and"].includes(w)).map((w) => w[0]).join("");
+      if (ini.length >= 2 && words(name).length >= 2 && !map.has(ini)) traps.set(ini, t);
+      if (p.surnames) {
+        const w = words(name);
+        if (w.length >= 2 && !map.has(w[w.length - 1])) traps.set(w[w.length - 1], t);
+      }
+    }
+    return { entries, map, traps, surnames: !!p.surnames };
+  }
+
+  // Optimal string alignment distance: insert, delete, substitute, or swap two adjacent letters.
+  function lev(a, b, max) {
+    if (Math.abs(a.length - b.length) > max) return max + 1;
+    let pp = null;
+    let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+    for (let i = 1; i <= a.length; i++) {
+      const cur = [i];
+      let rowMin = i;
+      for (let j = 1; j <= b.length; j++) {
+        let c = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+        if (pp && i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) c = Math.min(c, pp[j - 2] + 1);
+        cur.push(c);
+        if (c < rowMin) rowMin = c;
+      }
+      if (rowMin > max) return max + 1;
+      pp = prev;
+      prev = cur;
+    }
+    return prev[b.length];
+  }
+
+  // Sequel numbers and regnal numbers must match exactly; typo tolerance never bridges "Cars 2" and "Cars 3".
+  const numSig = (s) => words(s).filter((t) => /^[ivx]+$/.test(t) || /^\d+$/.test(t)).join(",");
+
+  // Every answer and alias in the whole bank. An input that exactly names something real elsewhere
+  // ("Iceland", "Boris Johnson") never gets typo or surname leniency here.
+  let LEX = null;
+  const setLexicon = (set) => { LEX = set; };
+
+  const commonest = (list) => list.slice().sort((x, y) => x.e.pts - y.e.pts || y.s - x.s)[0];
+
+  // Returns null, or {status, entry, options}:
+  //   "exact"     accept now
+  //   "suggest"   a near miss (typo or nickname): ask "Did you mean <entry>?"
+  //   "ambiguous" a surname shared by several answers (options): ask for a first name
+  //   "trap"      a known wrong answer, with the reason (trap)
+  function match(index, input) {
+    const k = key(input);
+    if (!k) return null;
+    let best = [];
+    let bestS = -1;
+    for (const v of variants(k)) {
+      for (const c of index.map.get(v) || []) {
+        const s = v === k ? c.s : c.s - 0.25;
+        if (s > bestS) { best = [{ e: c.e, s }]; bestS = s; }
+        else if (s === bestS && !best.some((b) => b.e === c.e)) best.push({ e: c.e, s });
+      }
+    }
+    if (best.length) {
+      if (best.length > 1) return { status: "ambiguous", entry: null, options: best.map((b) => b.e) };
+      return { status: "exact", entry: commonest(best).e, options: [] };
+    }
+    for (const v of variants(k)) {
+      const t = index.traps && index.traps.get(v);
+      if (t) return { status: "trap", entry: null, options: [], trap: t };
+    }
+    if (LEX && LEX.has(k)) return null;
+    // "Abe Lincoln": a nickname in front of a known surname (first initial must agree)
+    if (index.surnames) {
+      const w = words(input);
+      if (w.length >= 2) {
+        const hits = (index.map.get(w[w.length - 1]) || []).filter((c) => c.s <= 1 && words(c.e.name)[0][0] === w[0][0]);
+        if (hits.length) return { status: "suggest", entry: commonest(hits).e, options: [] };
+      }
+    }
+    // typo tolerance, scaled by length; the player confirms before it counts
+    const max = k.length >= 13 ? 3 : k.length >= 8 ? 2 : k.length >= 4 ? 1 : 0;
+    if (!max) return null;
+    const sig = numSig(input);
+    let bestD = max + 1;
+    let cands = [];
+    for (const [mk, list] of index.map) {
+      if (mk.length < 4 || mk[0] !== k[0]) continue;
+      const d = lev(k, mk, max);
+      if (d > max) continue;
+      // surname-only keys take typos only when they're long enough to be distinctive
+      const strong = list.filter((c) => (c.s >= 1.5 || mk.length >= 6) && numSig(c.e.name) === sig);
+      if (!strong.length) continue;
+      if (d < bestD) { bestD = d; cands = strong.slice(); }
+      else if (d === bestD) for (const c of strong) if (!cands.some((x) => x.e === c.e)) cands.push(c);
+    }
+    if (!cands.length) return null;
+    return { status: "suggest", entry: commonest(cands).e, options: [] };
+  }
+
+  // ---------- seeded selection ----------
+  function rng(seed) {
+    let a = seed >>> 0;
+    return function () {
+      a = (a + 0x6d2b79f5) >>> 0;
+      let t = a;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function shuffle(arr, r) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(r() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+  // A fixed, category-interleaved order per cycle so consecutive days spread topics and don't repeat.
+  function cycleOrder(prompts, cycle) {
+    const r = rng(0x9e3779b1 ^ (cycle * 7919 + 17));
+    const groups = {};
+    for (const p of prompts) (groups[groupOf(p)] = groups[groupOf(p)] || []).push(p);
+    const order = shuffle(Object.keys(groups).sort(), r);
+    const queues = order.map((g) => shuffle(groups[g], r));
+    const out = [];
+    while (queues.some((q) => q.length)) {
+      for (const q of queues) if (q.length) out.push(q.shift());
+    }
+    return out;
+  }
+  function dailySet(prompts, day, n) {
+    n = n || 7;
+    const N = prompts.length;
+    const cache = {};
+    const at = (i) => {
+      const c = Math.floor(i / N);
+      cache[c] = cache[c] || cycleOrder(prompts, c);
+      return cache[c][i % N];
+    };
+    const out = [];
+    const seen = new Set();
+    for (let i = day * n; out.length < Math.min(n, N); i++) {
+      const p = at(i);
+      if (!seen.has(p.id)) { seen.add(p.id); out.push(p); }
+    }
+    return out;
+  }
+
+  // ---------- curve data ----------
+  // Every accepted answer, most common first, with an estimated share for drawing.
+  function curve(p) {
+    const out = [];
+    for (const t of TIERS) {
+      const list = (p.tiers && p.tiers[t.key]) || [];
+      const next = TIERS[TIERS.indexOf(t) + 1];
+      const floor = next ? next.weight : t.weight * 0.6;
+      list.forEach((name, i) => {
+        const f = list.length > 1 ? i / (list.length - 1) : 0;
+        out.push({ name, tier: t.key, w: t.weight - (t.weight - floor) * 0.55 * f });
+      });
+    }
+    return out;
+  }
+
+  // Short stable hash (FNV-1a, base 36) for challenge links: prompt ids and answer names.
+  function hash36(str, len) {
+    let h = 2166136261;
+    for (const ch of String(str)) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619) >>> 0; }
+    let h2 = h ^ 0x9e3779b9;
+    for (const ch of String(str)) { h2 ^= ch.codePointAt(0); h2 = Math.imul(h2, 2246822519) >>> 0; }
+    return (h.toString(36) + h2.toString(36)).padStart(len, "0").slice(-len);
+  }
+
+  // Collector grades. Daily max is 3,150 (seven All-in Legendaries); a careful Safe player lands near 300.
+  const BANDS = [
+    [2000, "Gem mint"],
+    [1400, "Grail"],
+    [900, "Chase card"],
+    [550, "Staple"],
+    [300, "Playable"],
+    [0, "Bulk"],
+  ];
+  const band = (score) => BANDS.find(([min]) => score >= min)[1];
+
+  root.LT = { hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, words, key, buildIndex, match, rng, shuffle, dailySet, curve, band };
+})(typeof window !== "undefined" ? window : globalThis);
+
+</script>
+<script>
+const PROMPTS = [{"id":"cul-pixar-one-word","cat":"Film","title":"Just one word","q":"Pixar films with a one-word title","rule":"Pixar features up to Hoppers (2026). The title must be a single word as printed, so 'The Incredibles' and 'Cars 2' are out; WALL-E counts as one word.","tiers":{"head":["Up","Cars","Coco"],"hipster":[],"body":["WALL-E","Ratatouille","Brave","Soul"],"tail":["Luca","Onward","Hoppers"],"deep":["Lightyear","Elemental"],"outlier":["Elio"]},"fact":"Only one of these twelve titles is an acronym: WALL-E, short for Waste Allocation Load Lifter: Earth-Class.","traps":{"Incredibles":"The film is 'The Incredibles', two words.","Cars 2":"Add the sequel number and it's no longer one word.","Inside Out":"Two words.","Frozen":"That's Disney Animation Studios, not Pixar.","Shrek":"That's DreamWorks, not Pixar."}},{"id":"cul-bond-one-word","cat":"Film","title":"Shaken, one word","q":"James Bond films with a one-word title","rule":"The 25 Eon Productions films, Dr. No (1962) to No Time to Die (2021). The title must be one word as printed; 'Dr. No' is two.","tiers":{"head":["Skyfall","Goldfinger"],"hipster":[],"body":["GoldenEye","Thunderball","Spectre"],"tail":["Moonraker"],"deep":[],"outlier":["Octopussy"]},"fact":"GoldenEye is named after Ian Fleming's Jamaican estate, where he wrote the Bond novels.","traps":{"Casino Royale":"Two words.","Dr. No":"Two words once 'Dr.' is counted.","Quantum of Solace":"Three words.","Never Say Never Again":"Not an Eon film, and four words.","Licence to Kill":"Three words."}},{"id":"cul-christie-number-titles","cat":"Books","title":"Count the clues","q":"Agatha Christie novels with a number in the title","rule":"Judged on the current UK title, with a cardinal number as digits or a word (zero counts). Ordinals like 'Third' don't, and neither do short-story collections or US-only titles.","tiers":{"head":["Five Little Pigs","4.50 from Paddington"],"hipster":["Towards Zero"],"body":["One, Two, Buckle My Shoe","Three Act Tragedy"],"tail":["Seven Dials Mystery"],"deep":[],"outlier":["Big Four"]},"fact":"Two of these titles are nursery rhymes, and US editions renamed both: Five Little Pigs became Murder in Retrospect, and One, Two, Buckle My Shoe became The Patriotic Murders.","traps":{"Third Girl":"'Third' is an ordinal, not a number.","The Thirteen Problems":"A short-story collection, not a novel.","Thirteen at Dinner":"A US title; the UK title, Lord Edgware Dies, has no number.","And Then There Were None":"'None' isn't a number.","The ABC Murders":"Letters, not numbers."},"alias":{"4.50 from Paddington":["450 from Paddington","What Mrs McGillicuddy Saw"],"Five Little Pigs":["Murder in Retrospect"],"One, Two, Buckle My Shoe":["The Patriotic Murders","An Overdose of Death"],"Three Act Tragedy":["Murder in Three Acts"]}},{"id":"cul-disney-hero-name-titles","cat":"Film","title":"Name tag","q":"Disney animated classics titled with just the hero's name","rule":"Disney Animation Studios canon only (Snow White to Zootopia 2), so no Pixar. The whole title must be the hero's name or nickname, so sequels like Moana 2 don't count.","tiers":{"head":["Aladdin","Cinderella","Pinocchio","Moana"],"hipster":[],"body":["Bambi","Dumbo","Peter Pan","Mulan","Hercules","Tarzan"],"tail":["Pocahontas","Robin Hood","Bolt"],"deep":["Winnie the Pooh","Chicken Little"],"outlier":["Wreck-It Ralph"]},"fact":"Pocahontas (1995) was Disney's first animated feature based on a real historical figure.","traps":{"Snow White":"The full title is Snow White and the Seven Dwarfs.","Sleeping Beauty":"That's a description; the heroine's name is Aurora.","Rapunzel":"Disney's version is called Tangled.","Lilo & Stitch":"Two heroes' names, not one.","Luca":"That's Pixar, not Disney Animation Studios."},"alias":{"Winnie the Pooh":["Pooh"]}},{"id":"cul-ghibli-not-miyazaki","cat":"Film","title":"Not Hayao","q":"Studio Ghibli films not directed by Hayao Miyazaki","rule":"From the 25 features Nausicaä to The Boy and the Heron, including The Red Turtle. The directing credit decides, so films he only wrote, like Whisper of the Heart, count.","tiers":{"head":["Grave of the Fireflies","Arrietty"],"hipster":[],"body":["Whisper of the Heart","Cat Returns","When Marnie Was There","Tale of the Princess Kaguya"],"tail":["From Up on Poppy Hill","Pom Poko","Only Yesterday","Tales from Earthsea"],"deep":["Earwig and the Witch","My Neighbors the Yamadas"],"outlier":["Red Turtle","Ocean Waves"]},"fact":"Hayao Miyazaki's son Gorō directed three of these films: Tales from Earthsea, From Up on Poppy Hill and Earwig and the Witch.","traps":{"Spirited Away":"Miyazaki directed it.","My Neighbor Totoro":"Miyazaki directed it.","Howl's Moving Castle":"Miyazaki directed it.","Princess Mononoke":"Miyazaki directed it.","Kiki's Delivery Service":"Miyazaki directed it."},"alias":{"Grave of the Fireflies":["Fireflies"],"Arrietty":["Secret World of Arrietty","Borrower Arrietty"],"When Marnie Was There":["Marnie"],"Tale of the Princess Kaguya":["Princess Kaguya","Tale of Princess Kaguya"],"From Up on Poppy Hill":["Poppy Hill"],"Only Yesterday":["Omohide Poro Poro"],"Tales from Earthsea":["Earthsea","Gedo Senki"],"Earwig and the Witch":["Aya and the Witch","Earwig"],"My Neighbors the Yamadas":["My Neighbours the Yamadas","Yamadas"],"Ocean Waves":["I Can Hear the Sea"]}},{"id":"cul-beatles-womens-names","cat":"Music","title":"Her name was","q":"Beatles album tracks with a woman's name in the title","rule":"Songs from the 12 UK studio albums plus Magical Mystery Tour. Martha counts though she's a sheepdog; Penny Lane is a street and Honey Pie a pet name, so they don't.","tiers":{"head":["Eleanor Rigby","Lucy in the Sky with Diamonds","Michelle"],"hipster":[],"body":["Dear Prudence","Lovely Rita","Julia","Martha My Dear"],"tail":["Sexy Sadie","Polythene Pam"],"deep":["Maggie Mae","Dizzy Miss Lizzy"],"outlier":["Anna (Go to Him)"]},"fact":"Martha My Dear is about Paul McCartney's Old English sheepdog, and Sexy Sadie began life as a barb at the Maharishi.","traps":{"Lady Madonna":"A standalone single, not on any of those albums.","Penny Lane":"Penny Lane is a Liverpool street, not a woman.","Girl":"'Girl' isn't a name.","Honey Pie":"A pet name, not a given name.","Hey Jude":"Jude is a man, and it wasn't on a UK studio album."},"alias":{"Eleanor Rigby":["Eleanor"],"Lucy in the Sky with Diamonds":["Lucy in the Sky"],"Dear Prudence":["Prudence"],"Lovely Rita":["Rita"],"Martha My Dear":["Martha"],"Sexy Sadie":["Sadie"],"Polythene Pam":["Pam"],"Maggie Mae":["Maggie May"],"Dizzy Miss Lizzy":["Dizzy Miss Lizzie"],"Anna (Go to Him)":["Anna"]}},{"id":"cul-monopoly-uk-properties","cat":"Games","title":"Pass Go","q":"Properties you can buy on the classic London Monopoly board","rule":"The 28 buyable spaces on the classic UK board: 22 streets, 4 stations and 2 utilities. Themed, city and 'Here & Now' editions don't count.","tiers":{"head":["Mayfair","Park Lane","Old Kent Road","Trafalgar Square"],"hipster":[],"body":["Oxford Street","Bond Street","Regent Street","Leicester Square","Piccadilly","Pall Mall","King's Cross","Liverpool Street"],"tail":["Whitehall","Fleet Street","Strand","Whitechapel Road","Euston Road","Marylebone","Fenchurch Street","Electric Company","Water Works"],"deep":["Angel Islington","Pentonville Road","Coventry Street","Northumberland Avenue","Bow Street","Marlborough Street"],"outlier":["Vine Street"]},"fact":"Bow Street, Marlborough Street and Vine Street, the orange set, each had a magistrates' court or police station.","traps":{"Baker Street":"Famous, but not on the board.","Paddington":"The four stations are King's Cross, Marylebone, Fenchurch Street and Liverpool Street.","Downing Street":"Not on the board.","Covent Garden":"Not on the board.","Carnaby Street":"Not on the board."},"alias":{"Old Kent Road":["Old Kent Rd"],"Trafalgar Square":["Trafalgar Sq"],"Oxford Street":["Oxford St"],"Bond Street":["Bond St","New Bond Street"],"Regent Street":["Regent St"],"Leicester Square":["Leicester Sq"],"King's Cross":["Kings Cross Station"],"Liverpool Street":["Liverpool Street Station"],"Fleet Street":["Fleet St"],"Whitechapel Road":["Whitechapel"],"Marylebone":["Marylebone Station"],"Fenchurch Street":["Fenchurch Street Station"],"Electric Company":["Electric Co"],"Angel Islington":["The Angel"],"Pentonville Road":["Pentonville"],"Coventry Street":["Coventry St"],"Northumberland Avenue":["Northumberland Ave"],"Bow Street":["Bow St"],"Marlborough Street":["Marlborough St"],"Vine Street":["Vine St"]}},{"id":"cul-voldemort-horcruxes","cat":"Books","title":"Soul searching","q":"Voldemort's seven Horcruxes, made on purpose or by accident","rule":"The seven vessels that held a piece of his soul in the Harry Potter novels. Voldemort's own body doesn't count, and neither do the Deathly Hallows.","tiers":{"head":["Tom Riddle's Diary","Nagini"],"hipster":[],"body":["Slytherin's Locket","Hufflepuff's Cup","Ravenclaw's Diadem"],"tail":["Marvolo Gaunt's Ring"],"deep":[],"outlier":["Harry Potter"]},"fact":"Voldemort meant to make six Horcruxes, but he made a seventh by accident in Harry on the night he failed to kill him.","traps":{"Elder Wand":"A Deathly Hallow, not a Horcrux.","Resurrection Stone":"It was set in the Gaunt ring; the ring was the Horcrux, not the stone.","Invisibility Cloak":"A Deathly Hallow, not a Horcrux.","Sword of Gryffindor":"It destroyed Horcruxes rather than being one.","Voldemort":"His own body held the main part of his soul, so it isn't a Horcrux."},"alias":{"Tom Riddle's Diary":["Diary","Riddle's Diary","Riddle Diary","Tom Riddle Diary"],"Nagini":["Snake"],"Slytherin's Locket":["Locket","Salazar Slytherin's Locket","Slytherin Locket"],"Hufflepuff's Cup":["Cup","Helga Hufflepuff's Cup","Hufflepuff Cup"],"Ravenclaw's Diadem":["Diadem","Lost Diadem","Rowena Ravenclaw's Diadem","Ravenclaw Diadem"],"Marvolo Gaunt's Ring":["Ring","Gaunt's Ring","Gaunt Ring","Peverell Ring"],"Harry Potter":["Harry","Potter"]}},{"id":"cul-thriller-tracks","cat":"Music","title":"King of Pop","q":"The nine tracks on Michael Jackson's Thriller (1982)","rule":"The original album track list only. Bonus tracks on reissues and songs from his other albums don't count.","tiers":{"head":["Thriller","Billie Jean","Beat It"],"hipster":[],"body":["Wanna Be Startin' Somethin'","Human Nature"],"tail":["Girl Is Mine","P.Y.T. (Pretty Young Thing)"],"deep":["Baby Be Mine"],"outlier":["Lady in My Life"]},"fact":"Seven of Thriller's nine tracks were released as singles and all seven reached the US top ten, a first for any album.","traps":{"Smooth Criminal":"From Bad (1987).","Man in the Mirror":"From Bad (1987).","Don't Stop 'Til You Get Enough":"From Off the Wall (1979).","Black or White":"From Dangerous (1991).","Say Say Say":"A McCartney duet, but from Paul's Pipes of Peace (1983)."},"alias":{"Wanna Be Startin' Somethin'":["Wanna Be Starting Something","Wanna Be Startin Something"],"P.Y.T. (Pretty Young Thing)":["PYT","Pretty Young Thing"]}},{"id":"cul-pokemon-stone-evolutions","cat":"Games","title":"Set in stone","q":"Original 151 Pokémon you get by using an evolution stone","rule":"The evolved Pokémon you end up with after a Fire, Water, Thunder, Leaf or Moon Stone in Red, Blue and Yellow. Trade evolutions and the pre-evolved forms don't count.","tiers":{"head":["Raichu","Vaporeon","Jolteon","Flareon"],"hipster":[],"body":["Arcanine","Ninetales","Starmie","Wigglytuff"],"tail":["Nidoking","Nidoqueen","Clefable","Vileplume","Exeggutor"],"deep":["Cloyster","Victreebel"],"outlier":["Poliwrath"]},"fact":"In Red and Blue, Eevee is the only Pokémon that evolves with more than one kind of stone: Water, Thunder or Fire for Vaporeon, Jolteon or Flareon.","traps":{"Pikachu":"Pikachu is the Pokémon you use the stone on; it becomes Raichu.","Eevee":"Eevee is the Pokémon you use the stone on, not the result.","Alakazam":"Evolves by trade, not a stone.","Gengar":"Evolves by trade, not a stone.","Golem":"Evolves by trade, not a stone."}},{"id":"cul-hobbit-dwarves","cat":"Books","title":"Unexpected party","q":"The thirteen dwarves of Thorin's company in The Hobbit","rule":"Thorin himself counts. Only the thirteen who set out from Bag End do; dwarves met later, like Dáin, don't.","tiers":{"head":["Thorin Oakenshield","Balin","Fíli","Kíli"],"hipster":[],"body":["Dwalin","Bombur","Glóin"],"tail":["Óin","Bofur","Bifur"],"deep":["Dori","Nori"],"outlier":["Ori"]},"fact":"Tolkien took the names of most of Thorin's company, and Gandalf's too, from a list of dwarves in the Old Norse poem Völuspá.","traps":{"Gimli":"Glóin's son, but he's in The Lord of the Rings, not Thorin's company.","Dáin Ironfoot":"Thorin's cousin, who only arrives for the Battle of Five Armies.","Thráin":"Thorin's father, long gone by the time of the quest.","Gandalf":"A wizard, not a dwarf.","Bilbo Baggins":"A hobbit, the fourteenth member of the party."},"alias":{"Thorin Oakenshield":["Thorin","Oakenshield"]}},{"id":"cul-got-great-houses","cat":"TV","title":"Bend the knee","q":"The nine Great Houses of Westeros in Game of Thrones","rule":"The Great Houses as they stand at the start of A Game of Thrones, counting Targaryen as the deposed royal house. Later risers like Bolton and Frey don't count.","tiers":{"head":["Stark","Lannister","Targaryen"],"hipster":[],"body":["Baratheon","Greyjoy"],"tail":["Tyrell","Martell"],"deep":["Arryn"],"outlier":["Tully"]},"fact":"House Tully, lords of Riverrun, has a leaping trout for its sigil and 'Family, Duty, Honor' as its words.","traps":{"Bolton":"Stark bannermen who only rose after the war began.","Frey":"Lords of the Crossing, not a Great House at the start.","Mormont":"A minor Northern house, sworn to the Starks.","Hightower":"Bannermen of the Tyrells in the main story.","Velaryon":"A Targaryen-kin house from House of the Dragon, not a Great House."},"alias":{"Stark":["House Stark"],"Lannister":["House Lannister"],"Targaryen":["House Targaryen"],"Baratheon":["House Baratheon"],"Greyjoy":["House Greyjoy"],"Tyrell":["House Tyrell"],"Martell":["House Martell"],"Arryn":["House Arryn"],"Tully":["House Tully"]}},{"id":"geo-france-neighbours","cat":"Geography","title":"Walk it","q":"Countries that share a land border with France","rule":"Overseas territories count, so the borders of French Guiana and Saint Martin are in.","tiers":{"head":["Spain","Germany","Belgium","Italy"],"hipster":["Andorra"],"body":["Switzerland","Luxembourg"],"tail":["Monaco"],"deep":["Brazil","Suriname"],"outlier":["Netherlands"]},"fact":"France's longest land border is with Brazil, via French Guiana. It also touches the Netherlands, on the Caribbean island of Saint Martin.","traps":{"United Kingdom":"The Channel Tunnel isn't a land border.","Portugal":"Spain is in the way.","Austria":"Switzerland and Germany sit in between.","Guyana":"Suriname sits between Guyana and French Guiana.","Liechtenstein":"Switzerland and Austria sit in between."},"alias":{"Netherlands":["Holland","Sint Maarten","Kingdom of the Netherlands"],"Suriname":["Surinam"]}},{"id":"geo-z-countries","cat":"Geography","title":"Zed or zee","q":"Countries with the letter Z in their name","rule":"UN member states, judged on today's English name, so former names don't count.","tiers":{"head":["Zimbabwe","Zambia","Brazil","New Zealand"],"hipster":["Switzerland"],"body":["Mozambique","Tanzania","Venezuela","Kazakhstan","Czechia"],"tail":["Belize","Azerbaijan","Uzbekistan"],"deep":["Bosnia and Herzegovina"],"outlier":["Kyrgyzstan"]},"fact":"Herzegovina comes from the German Herzog, 'duke', so Bosnia and Herzegovina is quite literally 'Bosnia and the Duke's land'.","traps":{"Swaziland":"It became Eswatini in 2018, and the Z went with it.","Zanzibar":"It's part of Tanzania, not a country.","Zaire":"That was the old name of DR Congo, which has no Z today.","Mexico":"That's an X, not a Z."},"alias":{"Czechia":["Czech Republic"],"Bosnia and Herzegovina":["Bosnia","Bosnia-Herzegovina","Herzegovina"],"Kyrgyzstan":["Kyrgyz Republic"]}},{"id":"geo-twin-initials","cat":"Geography","title":"Twin initials","q":"Capital cities that start with the same letter as their country","rule":"UN members plus Vatican City. Any official capital counts, so split capitals like Sri Lanka's qualify.","tiers":{"head":["Mexico City","Panama City","Brussels","Singapore"],"hipster":["Luxembourg","Monaco"],"body":["Stockholm","Seoul","Brasília","Kuwait City","Guatemala City","Tunis","Algiers","Vatican City"],"tail":["Georgetown","Bridgetown","Maputo","Malé","San Marino","Andorra la Vella","Port Moresby","Niamey"],"deep":["Belmopan","Djibouti","Majuro","São Tomé","Bandar Seri Begawan"],"outlier":["Bujumbura","Sri Jayawardenepura Kotte"]},"fact":"Sri Lanka's parliament sits in Sri Jayawardenepura Kotte, a suburb of Colombo, which makes the island an S-for-S match that few people spot.","traps":{"San Salvador":"The country is El Salvador, which starts with E.","Santo Domingo":"The country is the Dominican Republic, which starts with D.","Colombo":"Colombo starts with C, but Sri Lanka starts with S.","Tripoli":"It's Libya's capital, and Libya starts with L."},"alias":{"Mexico City":["Mexico"],"Panama City":["Panama"],"Kuwait City":["Kuwait"],"Guatemala City":["Guatemala"],"Luxembourg":["Luxembourg City"],"Monaco":["Monaco-Ville"],"Vatican City":["Vatican","Holy See"],"San Marino":["City of San Marino"],"Andorra la Vella":["Andorra","Andorra Vella"],"Djibouti":["Djibouti City"],"São Tomé":["São Tomé City"],"Brussels":["Bruxelles"],"Algiers":["Alger"],"Sri Jayawardenepura Kotte":["Kotte","Sri Jayawardenepura"]}},{"id":"geo-stan-land","cat":"Geography","title":"Stan by me","q":"Countries whose names end in -stan or -land","rule":"Sovereign states only, and the name must end exactly in -stan or -land.","tiers":{"head":["Pakistan","Afghanistan","Iceland","Finland"],"hipster":[],"body":["Ireland","Poland","Thailand","Switzerland","Kazakhstan"],"tail":["New Zealand","Uzbekistan"],"deep":["Turkmenistan","Tajikistan"],"outlier":["Kyrgyzstan"]},"fact":"The ending -stan is Persian for 'land', so the seven -stan countries are, in effect, -land countries too.","traps":{"Netherlands":"It ends in -lands, with an S, so it misses by a letter.","Swaziland":"It was renamed Eswatini in 2018.","Scotland":"It's part of the United Kingdom, not a sovereign state.","England":"It's part of the United Kingdom, not a sovereign state.","Greenland":"It's a self-governing territory of Denmark."},"alias":{"Ireland":["Republic of Ireland"],"Kyrgyzstan":["Kyrgyz Republic"]}},{"id":"geo-double-letter-states","cat":"Wordplay","title":"Double trouble","q":"US states with a double letter in their name","rule":"Two identical letters side by side, anywhere in the name. Washington DC isn't a state.","tiers":{"head":["Mississippi","Tennessee","Massachusetts","Illinois"],"hipster":["Hawaii"],"body":["Pennsylvania"],"tail":["Missouri"],"deep":["Connecticut"],"outlier":["Minnesota"]},"fact":"Mississippi and Tennessee are the only states that double up three times: ss-ss-pp and nn-ss-ee.","traps":{"Alabama":"Its four As are never side by side.","Kansas":"The two Ss are separated by an A.","Colorado":"The two Os are separated.","Louisiana":"No letter doubles up next to itself.","Wisconsin":"Two Ss and two Ns, but none side by side."},"alias":{"Massachusetts":["Mass"],"Pennsylvania":["Penn"]}},{"id":"geo-china-neighbours","cat":"Geography","title":"Big neighbourhood","q":"Countries that share a land border with China","rule":"Mainland land borders only; disputed or undemarcated frontiers still count.","tiers":{"head":["India","Russia","Mongolia","Vietnam"],"hipster":[],"body":["North Korea","Pakistan","Nepal","Kazakhstan","Myanmar"],"tail":["Laos","Bhutan","Kyrgyzstan"],"deep":["Tajikistan"],"outlier":["Afghanistan"]},"fact":"China and Russia share the world record of 14 land neighbours. China meets Afghanistan only at the far end of the narrow Wakhan Corridor.","traps":{"Thailand":"Myanmar and Laos sit in between.","South Korea":"Only the Yellow Sea lies between them.","Uzbekistan":"Kazakhstan, Kyrgyzstan and Tajikistan sit in between.","Bangladesh":"India and Myanmar sit in between.","Japan":"It's an island nation with no land borders at all."},"alias":{"Russia":["Russian Federation"],"North Korea":["DPRK"],"Myanmar":["Burma"],"Laos":["Lao PDR"],"Kyrgyzstan":["Kyrgyz Republic"]}},{"id":"geo-danube","cat":"Geography","title":"Going with the flow","q":"Countries the River Danube flows through or runs along","rule":"The Danube itself must pass through the country or form part of its border. Tributaries don't count.","tiers":{"head":["Austria","Hungary","Germany","Romania"],"hipster":[],"body":["Serbia","Slovakia","Bulgaria"],"tail":["Croatia"],"deep":["Ukraine"],"outlier":["Moldova"]},"fact":"The Danube touches ten countries, more than any other river, but Moldova gets only a short riverfront near Giurgiulești, under a kilometre.","traps":{"Czechia":"It sits in the Danube basin, but the river itself never touches it.","Switzerland":"The Inn rises there and joins the Danube later, but the Danube never enters Switzerland.","Slovenia":"The Sava drains it into the Danube, but the Danube doesn't touch it.","Bosnia and Herzegovina":"The Sava forms its northern border, not the Danube."}},{"id":"geo-prime-meridian","cat":"Geography","title":"Zero degrees","q":"Countries the Prime Meridian passes through on land","rule":"The Greenwich meridian (0 degrees longitude) crossing a country's land. Antarctic claims don't count.","tiers":{"head":["United Kingdom","France"],"hipster":[],"body":["Spain","Ghana"],"tail":["Algeria","Mali"],"deep":["Togo"],"outlier":["Burkina Faso"]},"fact":"Null Island, where the Prime Meridian meets the Equator at 0°N 0°E, is open sea in the Gulf of Guinea, hundreds of kilometres south of Ghana.","traps":{"Portugal":"All of it lies west of the line.","Ireland":"All of it lies west of the line.","Morocco":"All of it lies west of the line, which passes through neighbouring Algeria instead.","Benin":"All of it lies east of the line.","Netherlands":"All of it lies east of the line."},"alias":{"United Kingdom":["UK","Britain","Great Britain","England"],"Burkina Faso":["Burkina","Upper Volta"]}},{"id":"geo-drive-left","cat":"Travel","title":"Wrong side?","q":"Countries where traffic drives on the left","rule":"UN member states only. England, Scotland, Wales and Northern Ireland count as the United Kingdom.","tiers":{"head":["United Kingdom","Australia","Japan","India"],"hipster":[],"body":["Ireland","New Zealand","South Africa","Jamaica","Singapore","Thailand","Malaysia","Pakistan","Indonesia","Kenya","Bangladesh","Sri Lanka","Cyprus","Malta"],"tail":["Bahamas","Barbados","Trinidad and Tobago","Fiji","Zimbabwe","Zambia","Uganda","Tanzania","Botswana","Namibia","Mauritius","Nepal","Brunei","Maldives","Guyana","Papua New Guinea"],"deep":["Bhutan","Malawi","Mozambique","Lesotho","Eswatini","Seychelles","Antigua and Barbuda","Grenada","Saint Lucia","Dominica","Solomon Islands","Tonga","Saint Vincent and the Grenadines","Saint Kitts and Nevis","Kiribati","Nauru","Tuvalu"],"outlier":["Timor-Leste","Suriname","Samoa"]},"fact":"Samoa switched from the right to the left in 2009, so it could import cheaper right-hand-drive cars from Australia, New Zealand and Japan.","traps":{"Hong Kong":"Traffic keeps left there, but it isn't a country.","Sweden":"It switched to driving on the right in 1967.","Nigeria":"It switched to driving on the right in 1972.","Myanmar":"It switched to driving on the right in 1970, even though many of its cars are right-hand drive.","Vanuatu":"It drives on the right, despite its British and French past."},"alias":{"United Kingdom":["UK","Britain","Great Britain","England","Scotland","Wales","Northern Ireland"],"Trinidad and Tobago":["Trinidad","Tobago"],"Antigua and Barbuda":["Antigua","Barbuda"],"Saint Lucia":["St Lucia"],"Saint Vincent and the Grenadines":["St Vincent","Saint Vincent","The Grenadines"],"Saint Kitts and Nevis":["St Kitts and Nevis","St Kitts","Saint Kitts","Nevis"],"Timor-Leste":["East Timor"],"Papua New Guinea":["PNG"],"Eswatini":["Swaziland"],"Brunei":["Brunei Darussalam"]}},{"id":"geo-half-hour-clocks","cat":"Travel","title":"Half past","q":"Countries with a time zone offset by 30 or 45 minutes from UTC","rule":"Standard time ending in :30 or :45. Any inhabited part of a country counts, so overseas territories do too.","tiers":{"head":["India","Australia"],"hipster":["Nepal"],"body":["Iran","Canada","Sri Lanka"],"tail":["Afghanistan","Myanmar"],"deep":["New Zealand"],"outlier":["France"]},"fact":"France qualifies through the Marquesas Islands in French Polynesia, which keep UTC-9:30. New Zealand qualifies through the Chatham Islands, at UTC+12:45.","traps":{"Pakistan":"It runs on UTC+5, a whole hour.","Bangladesh":"It runs on UTC+6, a whole hour.","Bhutan":"It runs on UTC+6, a whole hour.","Venezuela":"It kept a half-hour offset until 2016, then moved to whole-hour UTC-4.","North Korea":"Its half-hour Pyongyang Time lasted from 2015 to 2018, then it went back to UTC+9."},"alias":{"Myanmar":["Burma"]}},{"id":"geo-four-letters","cat":"Wordplay","title":"Short and sweet","q":"Countries with exactly four letters in their name","rule":"UN member states, using the usual short English name.","tiers":{"head":["Cuba","Peru","Iran","Iraq"],"hipster":[],"body":["Chad","Mali","Oman"],"tail":["Fiji"],"deep":["Togo"],"outlier":["Laos"]},"fact":"Four letters is as short as a country name gets: no UN member state has a three-letter English name.","traps":{"Haiti":"Five letters, not four.","Nepal":"Five letters, not four.","Chile":"Five letters, not four.","Guam":"It has four letters, but it's a US territory, not a country.","Niue":"It has four letters, but it isn't a UN member state."},"alias":{"Laos":["Lao PDR"]}},{"id":"geo-smaller-than-wales","cat":"Geography","title":"Fit in Wales","q":"Countries smaller than Wales (about 20,800 km²)","rule":"UN members plus Vatican City, by total area. Wales is 20,779 km². Israel is too close to call, so it's out.","tiers":{"head":["Vatican City","Monaco","Malta","Luxembourg"],"hipster":[],"body":["Liechtenstein","San Marino","Singapore","Andorra","Maldives","Cyprus","Jamaica","Barbados","Bahrain","Qatar"],"tail":["Brunei","Lebanon","Kuwait","Fiji","Bahamas","Trinidad and Tobago","Mauritius","Seychelles","Montenegro","Gambia","Grenada","Saint Lucia","Antigua and Barbuda","Tuvalu","Nauru"],"deep":["Vanuatu","Cabo Verde","Samoa","Tonga","Dominica","Saint Vincent and the Grenadines","Saint Kitts and Nevis","Palau","Marshall Islands","Comoros","Kiribati","Micronesia","São Tomé and Príncipe"],"outlier":["Slovenia","Timor-Leste","Eswatini"]},"fact":"Slovenia, Kuwait, Fiji and Eswatini are all smaller than Wales, which could hold the Vatican more than 40,000 times.","traps":{"El Salvador":"At about 21,000 km² it is just bigger than Wales.","Belize":"At about 23,000 km² it is bigger than Wales.","Djibouti":"At about 23,200 km² it is bigger than Wales.","Rwanda":"At about 26,300 km² it is bigger than Wales.","Lesotho":"At about 30,400 km² it is bigger than Wales."},"alias":{"Vatican City":["Vatican","Holy See"],"Cabo Verde":["Cape Verde"],"Micronesia":["Federated States of Micronesia"],"Eswatini":["Swaziland"],"Timor-Leste":["East Timor"],"São Tomé and Príncipe":["São Tomé"],"Antigua and Barbuda":["Antigua"],"Saint Kitts and Nevis":["St Kitts and Nevis","St Kitts","Saint Kitts"],"Saint Lucia":["St Lucia"],"Saint Vincent and the Grenadines":["St Vincent","Saint Vincent"],"Trinidad and Tobago":["Trinidad"],"Brunei":["Brunei Darussalam"]}},{"id":"his-next-in-line","cat":"US Politics","title":"Next in line","q":"Presidents who first took office when their predecessor died or resigned","rule":"Counts even if they later won election in their own right; vice presidents elected directly, like Nixon and Biden, do not.","tiers":{"head":["Lyndon B. Johnson","Harry S. Truman","Gerald Ford"],"hipster":["Millard Fillmore"],"body":["Theodore Roosevelt","Andrew Johnson"],"tail":["Calvin Coolidge"],"deep":["John Tyler"],"outlier":["Chester A. Arthur"]},"fact":"Gerald Ford is the only person to have served as both vice president and president without ever being elected to either office.","traps":{"Richard Nixon":"He was Eisenhower's vice president but won the 1968 election outright.","Joe Biden":"He was Obama's vice president but won the 2020 election outright.","George H. W. Bush":"Neither Bush moved up mid-term: the father won in 1988, the son in 2000.","Martin Van Buren":"He moved up from vice president by winning the 1836 election.","John Adams":"He became president by winning the 1796 election, not by succession."},"surnames":true,"alias":{"Lyndon B. Johnson":["LBJ"],"Gerald Ford":["Gerald R. Ford","Jerry Ford"],"Theodore Roosevelt":["Teddy Roosevelt","TR"],"Calvin Coolidge":["Silent Cal"],"Chester A. Arthur":["Chester Arthur"]}},{"id":"his-one-syllable-presidents","cat":"US Politics","title":"Short and sweet","q":"Presidents whose surname has just one syllable","rule":"Judged by how the surname is spoken; both Presidents Bush count, and Trump counts once.","tiers":{"head":["Donald Trump","George W. Bush"],"hipster":[],"body":["Gerald Ford","Ulysses S. Grant","George H. W. Bush"],"tail":["William Howard Taft","James K. Polk"],"deep":["Franklin Pierce"],"outlier":["Rutherford B. Hayes"]},"fact":"Rutherford B. Hayes won the 1876 election by a single electoral vote, 185 to 184, despite losing the popular vote.","traps":{"Jimmy Carter":"Car-ter has two syllables.","Richard Nixon":"Nix-on has two syllables.","John Adams":"Ad-ams has two syllables.","Herbert Hoover":"Hoo-ver has two syllables.","Joe Biden":"Bi-den has two syllables."},"surnames":true,"alias":{"George W. Bush":["George Bush Jr","George Bush Junior","Dubya"],"George H. W. Bush":["George Bush Sr","George Bush Senior","Bush Sr"],"Gerald Ford":["Gerald R. Ford","Jerry Ford"],"Ulysses S. Grant":["Ulysses Grant","Hiram Ulysses Grant"],"William Howard Taft":["William Taft"],"James K. Polk":["James Polk"],"Rutherford B. Hayes":["Rutherford Hayes"]}},{"id":"his-caesars-bad-ends","cat":"Ancient Rome","title":"Bad ends","q":"Of the Twelve Caesars, those who were killed or took their own lives","rule":"Julius Caesar counts; the rumoured poisonings and smotherings of Augustus, Tiberius and Claudius do not.","tiers":{"head":["Julius Caesar","Caligula","Nero"],"hipster":[],"body":["Domitian"],"tail":["Galba"],"deep":["Vitellius"],"outlier":["Otho"]},"fact":"Galba, Otho and Vitellius all met violent ends within the single year AD 69, and Otho's reign lasted only about three months.","traps":{"Augustus":"He died in his bed at Nola in AD 14; the poisoning story is only a rumour.","Claudius":"Probably poisoned, but the ancient sources disagree and it is not settled.","Tiberius":"He died at Misenum in AD 37, and the smothering tale is unproven.","Vespasian":"He died of illness in AD 79, reportedly joking about becoming a god.","Titus":"He died of a fever in AD 81, aged just 41."},"alias":{"Julius Caesar":["Caesar","Gaius Julius Caesar"],"Caligula":["Gaius","Gaius Caligula","Gaius Germanicus"],"Nero":["Nero Claudius Caesar","Nero Caesar"],"Domitian":["Domitianus","Titus Flavius Domitianus"],"Galba":["Servius Galba","Servius Sulpicius Galba"],"Vitellius":["Aulus Vitellius"],"Otho":["Marcus Otho","Marcus Salvius Otho","Otto"]}},{"id":"his-pms-died-in-office","cat":"British Politics","title":"Last post","q":"UK Prime Ministers who died while still in office","rule":"Counts from Walpole's era onwards; anyone who resigned first, however shortly before dying, does not count.","tiers":{"head":["Spencer Perceval"],"hipster":[],"body":["William Pitt the Younger","Lord Palmerston"],"tail":["George Canning"],"deep":["Marquess of Rockingham","Henry Pelham"],"outlier":["Earl of Wilmington"]},"fact":"George Canning died in office in 1827 after only 119 days, the shortest premiership on record until Liz Truss's 49 days in 2022.","traps":{"Winston Churchill":"He left office in 1955 and died in 1965.","Neville Chamberlain":"He resigned in May 1940 and died that November.","Henry Campbell-Bannerman":"He resigned in April 1908, a few weeks before he died.","Bonar Law":"He resigned in May 1923 and died that October.","Robert Peel":"He died after a riding accident in 1850, four years after leaving office."},"surnames":true,"alias":{"William Pitt the Younger":["Pitt the Younger","Pitt Younger","William Pitt","Pitt"],"Lord Palmerston":["Viscount Palmerston","Henry John Temple","Henry Temple","Palmerston"],"Marquess of Rockingham":["Marquis of Rockingham","Lord Rockingham","Charles Watson-Wentworth","Rockingham"],"Earl of Wilmington":["Spencer Compton","Lord Wilmington","Wilmington"]}},{"id":"his-hyphenated-pms","cat":"British Politics","title":"Double-barrelled","q":"UK Prime Ministers with a hyphenated surname","rule":"The surname as normally written must have a hyphen (so not Churchill or Lloyd George); peers may be given by title.","tiers":{"head":["Alec Douglas-Home"],"hipster":[],"body":["Henry Campbell-Bannerman"],"tail":["Lord Salisbury"],"deep":["Duke of Newcastle","Earl of Aberdeen","Earl of Derby"],"outlier":["Duke of Portland","Marquess of Rockingham"]},"fact":"Henry Campbell-Bannerman added 'Bannerman' to his surname in 1871, when he inherited a wealthy uncle's estate.","traps":{"David Lloyd George":"His double-barrelled name was written without a hyphen.","Lloyd George":"His double-barrelled name was written without a hyphen.","Winston Churchill":"Born Spencer-Churchill, but he normally used plain Churchill.","Boris Johnson":"No hyphen: 'de Pfeffel' is one of his middle names.","Theresa May":"No hyphen; she was born Theresa Brasier."},"surnames":true,"alias":{"Alec Douglas-Home":["Douglas Home","Alec Home","Lord Home","Earl of Home","Sir Alec Douglas-Home"],"Henry Campbell-Bannerman":["Campbell Bannerman","Sir Henry Campbell-Bannerman"],"Lord Salisbury":["Marquess of Salisbury","Marquis of Salisbury","Robert Gascoyne-Cecil","Gascoyne-Cecil","Robert Cecil","Salisbury"],"Duke of Newcastle":["Thomas Pelham-Holles","Pelham-Holles","Lord Newcastle","Newcastle"],"Earl of Aberdeen":["Lord Aberdeen","George Hamilton-Gordon","Hamilton-Gordon","Aberdeen"],"Earl of Derby":["Lord Derby","Edward Smith-Stanley","Smith-Stanley","Derby"],"Duke of Portland":["William Cavendish-Bentinck","Cavendish-Bentinck","Lord Portland","Portland"],"Marquess of Rockingham":["Marquis of Rockingham","Lord Rockingham","Charles Watson-Wentworth","Watson-Wentworth","Rockingham"]}},{"id":"his-greek-lookalikes","cat":"Wordplay","title":"Greek in disguise","q":"Greek capital letters that look just like a Latin capital letter","rule":"Judged in a standard font: Alpha (A) counts, but Delta, Gamma, Sigma, Pi and Omega match no Latin capital.","tiers":{"head":["Alpha","Beta"],"hipster":["Omicron"],"body":["Epsilon","Zeta","Mu","Kappa"],"tail":["Tau","Rho","Chi","Iota"],"deep":["Eta","Nu"],"outlier":["Upsilon"]},"fact":"'Xmas' is not a secular dodge: the X is the Greek capital Chi, the first letter of Christos, which happens to look like a Latin X.","traps":{"Omega":"Ω is a horseshoe shape, not any Latin capital.","Delta":"Δ is a triangle, which no Latin capital resembles.","Pi":"Π is a table shape, not any Latin capital.","Sigma":"Σ is not shaped like any Latin capital.","Gamma":"Γ is not shaped like any Latin capital."},"alias":{"Omicron":["Omikron"],"Upsilon":["Ypsilon"],"Chi":["Khi"]}},{"id":"his-bible-four-letters","cat":"Wordplay","title":"Four-letter words","q":"Books of the Bible with four letters or fewer in their name","rule":"Uses the 66-book Protestant Bible; ignore numbering, so 1 John counts as John.","tiers":{"head":["John","Mark","Luke"],"hipster":[],"body":["Job","Ruth","Acts"],"tail":["Amos","Joel"],"deep":["Ezra"],"outlier":["Jude"]},"fact":"Job has the shortest name of any Bible book at three letters, yet it runs to 42 chapters.","traps":{"Titus":"Five letters, one too many.","James":"Five letters, one too many.","Micah":"Five letters, one too many.","Peter":"Five letters, one too many.","Esther":"Six letters, two too many."},"alias":{"John":["1 John","2 John","3 John","Gospel of John","Book of John"],"Mark":["Gospel of Mark","Book of Mark"],"Luke":["Gospel of Luke","Book of Luke"],"Job":["Book of Job"],"Ruth":["Book of Ruth"],"Acts":["Acts of the Apostles","Book of Acts"],"Amos":["Book of Amos"],"Joel":["Book of Joel"],"Ezra":["Book of Ezra"],"Jude":["Epistle of Jude","Book of Jude"]}},{"id":"his-nato-founders","cat":"Cold War","title":"Class of '49","q":"The twelve founding members of NATO","rule":"Countries that signed the North Atlantic Treaty in April 1949; later joiners such as West Germany and Spain do not count.","tiers":{"head":["United States","United Kingdom","France"],"hipster":[],"body":["Canada","Italy","Belgium","Netherlands"],"tail":["Norway","Denmark","Portugal"],"deep":["Iceland"],"outlier":["Luxembourg"]},"fact":"Iceland, a NATO founder, has never had a standing army, and Portugal joined in 1949 while still under Salazar's dictatorship.","traps":{"Germany":"West Germany only joined in 1955.","Spain":"Franco's Spain stayed out; it joined in 1982.","Greece":"Greece and Turkey joined together in 1952.","Turkey":"Turkey joined in 1952, not 1949.","Sweden":"Sweden stayed neutral until it joined in 2024."},"alias":{"United States":["USA","US","America","United States of America"],"United Kingdom":["UK","Britain","Great Britain"],"Netherlands":["Holland"]}},{"id":"his-warsaw-pact","cat":"Cold War","title":"Eastern bloc","q":"The eight original signatories of the Warsaw Pact","rule":"The states that signed in 1955; Czechoslovakia counts as one, and Cuba, Mongolia and Yugoslavia were never members.","tiers":{"head":["Soviet Union","Poland"],"hipster":["East Germany"],"body":["Czechoslovakia","Hungary"],"tail":["Romania"],"deep":["Bulgaria"],"outlier":["Albania"]},"fact":"Albania stopped taking part in 1961 and formally quit in 1968, weeks after the pact's armies invaded Czechoslovakia.","traps":{"Yugoslavia":"Tito broke with Stalin in 1948 and stayed non-aligned.","Cuba":"A Soviet ally, but never a member of the pact.","Mongolia":"A Soviet ally, but never a full member of the pact.","China":"Communist, but never a member of the pact.","Ukraine":"It was a Soviet republic, not a separate signatory."},"alias":{"Soviet Union":["USSR","Russia","CCCP"],"East Germany":["GDR","German Democratic Republic","DDR"],"Czechoslovakia":["Czech Republic","Czechia","Slovakia"]}},{"id":"his-gunpowder-plotters","cat":"British History","title":"Remember, remember","q":"The thirteen conspirators in the 1605 Gunpowder Plot","rule":"The thirteen plotters traditionally named; priests and informers such as Henry Garnet do not count.","tiers":{"head":["Guy Fawkes"],"hipster":["Robert Catesby"],"body":["Thomas Percy"],"tail":["Thomas Wintour","Francis Tresham","Everard Digby"],"deep":["Robert Keyes","Ambrose Rookwood","John Wright","Christopher Wright","Robert Wintour"],"outlier":["Thomas Bates","John Grant"]},"fact":"The plot's leader was Robert Catesby, not Fawkes; he was shot dead at Holbeche House three days after Fawkes was arrested.","traps":{"Henry Garnet":"A Jesuit priest executed for knowing of the plot, but not one of the thirteen.","Lord Monteagle":"He received the anonymous warning letter that exposed the plot.","Robert Cecil":"He was the king's spymaster who helped to uncover the plot.","King James":"He was the target of the plot, not a plotter."},"surnames":true,"alias":{"Guy Fawkes":["Guido Fawkes","Guido"],"Thomas Wintour":["Thomas Winter","Tom Wintour","Winter"],"Robert Wintour":["Robert Winter"],"Robert Keyes":["Robert Keys"],"Francis Tresham":["Frances Tresham"]}},{"id":"his-seven-hills-rome","cat":"Ancient Rome","title":"Hill walk","q":"The seven hills of Rome in the traditional list","rule":"Only the traditional seven count; the Pincian, Vatican and Janiculum hills are not among them.","tiers":{"head":["Palatine"],"hipster":[],"body":["Capitoline","Aventine"],"tail":["Quirinal","Esquiline"],"deep":["Viminal"],"outlier":["Caelian"]},"fact":"The English word 'palace' comes from the Palatine, the hill where Rome's emperors built their residences.","traps":{"Vatican":"Vatican Hill is across the Tiber, outside the traditional seven.","Janiculum":"It rises on the Tiber's west bank, so it is not one of the seven.","Pincian":"The Pincio was outside the old city and is not one of the seven.","Monte Testaccio":"It is a mound of discarded Roman amphorae, not a natural hill.","Colosseum":"It stands in a valley between hills and is not a hill itself."},"alias":{"Palatine":["Palatine Hill","Mons Palatinus","Palatino"],"Capitoline":["Capitoline Hill","Capitolium","Campidoglio"],"Aventine":["Aventine Hill","Aventino"],"Caelian":["Celian","Coelian","Caelian Hill","Celio"],"Esquiline":["Esquiline Hill","Esquilino"],"Viminal":["Viminal Hill","Viminale"],"Quirinal":["Quirinal Hill","Quirinale"]}},{"id":"his-shakespeare-kings","cat":"Monarchy","title":"Title role","q":"English kings who give their name to a Shakespeare history play","rule":"Histories printed in the First Folio only; Scottish or legendary kings and the disputed Edward III do not count.","tiers":{"head":["Richard III","Henry V"],"hipster":[],"body":["Henry VIII","Henry IV","Richard II"],"tail":["Henry VI"],"deep":[],"outlier":["King John"]},"fact":"A cannon fired during a performance of Henry VIII set the thatched roof alight and burned down the Globe in June 1613.","traps":{"Macbeth":"He was a King of Scotland, not of England.","King Lear":"A legendary king of ancient Britain, not a historical English monarch.","Henry VII":"Shakespeare wrote no play named for the first Tudor king.","Edward II":"That play is by Christopher Marlowe, not Shakespeare.","Edward III":"Only partly attributed to Shakespeare, and not in the First Folio."},"alias":{"King John":["John","The Life and Death of King John"],"Henry IV":["Henry IV Part 1","Henry IV Part 2"],"Henry VI":["Henry VI Part 1","Henry VI Part 2","Henry VI Part 3"],"Henry VIII":["All Is True"]}},{"id":"sci-moons-bigger-than-pluto","cat":"Space","title":"Pluto's bullies","q":"Moons in the Solar System that are bigger than Pluto","rule":"Pluto is about 2,377 km across. Earth's own Moon counts.","tiers":{"head":["Moon","Titan"],"hipster":["Ganymede"],"body":["Europa","Io"],"tail":["Callisto"],"deep":[],"outlier":["Triton"]},"fact":"Triton orbits Neptune backwards, strong evidence that it was captured from the Kuiper Belt, the same region Pluto comes from.","traps":{"Titania":"Uranus's biggest moon is only about 1,580 km across.","Charon":"Pluto's own moon is about half Pluto's width.","Enceladus":"Famous for its geysers, but only about 500 km across.","Rhea":"Saturn's second-largest moon is about 1,530 km across, still smaller than Pluto.","Iapetus":"Saturn's two-tone moon is about 1,470 km across."},"alias":{"Moon":["Luna","Earth's Moon","Our Moon"]}},{"id":"sci-apollo-left-orbit","cat":"Space","title":"Leaving home","q":"Crewed Apollo missions that left Earth orbit","rule":"Apollo 13 counts because it looped around the Moon. Apollo 1 never flew and Apollo 4 to 6 had no crew.","tiers":{"head":["Apollo 11","Apollo 13"],"hipster":["Apollo 8"],"body":["Apollo 17","Apollo 12"],"tail":["Apollo 14","Apollo 15"],"deep":["Apollo 16"],"outlier":["Apollo 10"]},"fact":"Apollo 10's lunar module, Snoopy, skimmed to about 15 km above the Moon in a full dress rehearsal for the landing, without touching down.","traps":{"Apollo 7":"The first crewed Apollo flight stayed in Earth orbit.","Apollo 9":"It tested the lunar module, but only in Earth orbit.","Apollo 1":"It never flew: the crew died in a launch-pad fire in 1967.","Apollo 18":"Cancelled before it ever flew.","Apollo-Soyuz":"The 1975 handshake in space happened in Earth orbit."},"alias":{"Apollo 8":["8"],"Apollo 10":["10"],"Apollo 11":["11"],"Apollo 12":["12"],"Apollo 13":["13"],"Apollo 14":["14"],"Apollo 15":["15"],"Apollo 16":["16"],"Apollo 17":["17"]}},{"id":"sci-constellation-birds","cat":"Space","title":"Fly by night","q":"Constellations named after a real bird","rule":"Official IAU constellations only. Mythical birds such as the phoenix do not count.","tiers":{"head":["Cygnus","Aquila"],"hipster":["Corvus"],"body":["Pavo"],"tail":["Tucana","Columba"],"deep":["Grus"],"outlier":["Apus"]},"fact":"Apus, the bird of paradise, means 'no feet' in Greek: early specimens reached Europe with their feet removed, so people thought the birds never landed.","traps":{"Phoenix":"It is a real constellation, but the phoenix is a mythical bird.","Pegasus":"A winged horse, not a bird.","Draco":"The dragon is mythical, and not a bird anyway.","Lyra":"It depicts a lyre, a musical instrument.","Owl":"There is no owl constellation."},"alias":{"Cygnus":["Swan"],"Aquila":["Eagle"],"Corvus":["Crow","Raven"],"Pavo":["Peacock"],"Tucana":["Toucan"],"Columba":["Dove"],"Grus":["Crane"],"Apus":["Bird of Paradise"]}},{"id":"sci-mercury-seven","cat":"Space","title":"Right stuff","q":"Members of NASA's original Mercury Seven","rule":"The seven astronauts NASA announced in April 1959, whether or not they ever flew a Mercury mission.","tiers":{"head":["John Glenn","Alan Shepard"],"hipster":[],"body":["Gus Grissom"],"tail":["Wally Schirra","Gordon Cooper"],"deep":["Scott Carpenter"],"outlier":["Deke Slayton"]},"fact":"Deke Slayton was grounded for a heart condition and finally reached space in 1975, aged 51, on the Apollo-Soyuz mission.","traps":{"Neil Armstrong":"He joined NASA in 1962, in the second astronaut group.","Buzz Aldrin":"He was picked in 1963, in the third astronaut group.","Yuri Gagarin":"A Soviet cosmonaut, not a NASA astronaut.","Chuck Yeager":"The famous test pilot had no college degree, so he was never eligible.","Jim Lovell":"He was picked in 1962, in the second astronaut group."},"surnames":true,"alias":{"John Glenn":["John Herschel Glenn","John H. Glenn"],"Alan Shepard":["Al Shepard","Alan B. Shepard"],"Gus Grissom":["Virgil Grissom","Virgil Ivan Grissom","Virgil I. Grissom"],"Wally Schirra":["Walter Schirra","Walter M. Schirra"],"Gordon Cooper":["Gordo Cooper","Leroy Gordon Cooper","L. Gordon Cooper"],"Scott Carpenter":["Malcolm Scott Carpenter","M. Scott Carpenter"],"Deke Slayton":["Donald Slayton","Donald K. Slayton","Donald Kent Slayton"]}},{"id":"sci-si-units-people","cat":"Science","title":"Unit of honour","q":"SI units named after a real person","rule":"Base units and named derived units only. Non-SI units such as the gauss or the curie do not count.","tiers":{"head":["Newton","Watt","Joule","Volt"],"hipster":["Kelvin"],"body":["Pascal","Ampere","Hertz","Ohm","Tesla","Coulomb"],"tail":["Farad","Henry","Degree Celsius","Becquerel"],"deep":["Weber","Siemens","Gray"],"outlier":["Sievert"]},"fact":"The gray and the sievert are both one joule per kilogram; the sievert just adds a weighting for how harmful the radiation is to living tissue.","traps":{"Fahrenheit":"A person's name, but not an SI unit: the kelvin and the Celsius degree are the SI temperature units.","Gauss":"A CGS unit named after a person; the SI unit of magnetic flux density is the tesla.","Curie":"An older radioactivity unit, replaced in SI by the becquerel.","Decibel":"It honours Alexander Graham Bell, but it is not an SI unit.","Mole":"It comes from 'molecule', not from a person called Avogadro."},"alias":{"Ampere":["Amp"],"Degree Celsius":["Celsius","Degrees Celsius","Centigrade"]}},{"id":"sci-geological-periods","cat":"Earth","title":"Deep time","q":"Geological periods of the Phanerozoic, the last 539 million years","rule":"The 12 periods from the Cambrian onward. Epochs (Eocene, Pleistocene), eras (Mesozoic) and the proposed Anthropocene do not count.","tiers":{"head":["Jurassic","Cretaceous","Triassic"],"hipster":["Cambrian"],"body":["Permian","Devonian","Carboniferous","Quaternary"],"tail":["Silurian","Ordovician"],"deep":["Paleogene"],"outlier":["Neogene"]},"fact":"Tyrannosaurus rex lived closer in time to us than to Stegosaurus: Stegosaurus was Jurassic, and T. rex came some 80 million years later.","traps":{"Pleistocene":"The Ice Age epoch is part of the Quaternary period, not a period itself.","Holocene":"Our own epoch is part of the Quaternary period.","Mesozoic":"An era, made up of the Triassic, Jurassic and Cretaceous periods.","Anthropocene":"Proposed, but geological authorities rejected it as an official unit in 2024.","Ediacaran":"A real period, but it ended just before the Cambrian began."},"alias":{"Jurassic":["Jurassic period"],"Cretaceous":["Cretaceous period"],"Triassic":["Triassic period"],"Cambrian":["Cambrian period"],"Permian":["Permian period"],"Devonian":["Devonian period"],"Carboniferous":["Mississippian","Pennsylvanian","Carboniferous period"],"Quaternary":["Quaternary period"],"Silurian":["Silurian period"],"Ordovician":["Ordovician period"],"Paleogene":["Palaeogene","Paleogene period","Palaeogene period"],"Neogene":["Neogene period"]}},{"id":"sci-hand-wrist-bones","cat":"Body","title":"Lend a hand","q":"Bones in the human hand and wrist","rule":"Wrist bones, palm bones, finger bones and the thumb's sesamoids count. Forearm and foot bones do not.","tiers":{"head":["Phalanx","Metacarpal","Carpal","Scaphoid"],"hipster":["Pisiform"],"body":["Capitate","Hamate","Lunate"],"tail":["Trapezium","Trapezoid"],"deep":["Triquetrum"],"outlier":["Sesamoid bone"]},"fact":"The pea-shaped pisiform is the smallest wrist bone, and it is really a sesamoid: a bone that grows inside a tendon, like the kneecap.","traps":{"Radius":"A forearm bone: it meets the wrist but is not part of it.","Ulna":"A forearm bone, not a hand or wrist bone.","Metatarsal":"That is the foot's version of the metacarpal.","Talus":"The ankle bone, in the foot.","Cuboid":"A bone of the foot, not the hand."},"alias":{"Phalanx":["Phalanges","Phalange","Finger bone","Proximal phalanx","Middle phalanx","Distal phalanx"],"Metacarpal":["Metacarpals","Palm bone"],"Carpal":["Carpals","Wrist bone"],"Lunate":["Semilunar"],"Triquetrum":["Triquetral"],"Trapezium":["Greater multangular"],"Trapezoid":["Lesser multangular"],"Capitate":["Os magnum"],"Hamate":["Unciform"],"Sesamoid bone":["Sesamoid"]}},{"id":"sci-cranial-nerves","cat":"Body","title":"Nerve centre","q":"The twelve cranial nerves","rule":"Cranial nerves I to XII, with or without the word 'nerve'. Nerves that leave the spinal cord, like the sciatic, do not count.","tiers":{"head":["Optic nerve","Olfactory nerve"],"hipster":["Vagus nerve"],"body":["Facial nerve","Trigeminal nerve"],"tail":["Oculomotor nerve","Hypoglossal nerve","Glossopharyngeal nerve"],"deep":["Vestibulocochlear nerve","Accessory nerve","Abducens nerve"],"outlier":["Trochlear nerve"]},"fact":"The trochlear nerve is the only cranial nerve to leave the brainstem from the back, and it drives a single muscle, the superior oblique of the eye.","traps":{"Sciatic nerve":"It runs from the lower spine down the leg, so it is a spinal nerve.","Ulnar nerve":"The 'funny bone' nerve is a spinal nerve running down the arm.","Median nerve":"A spinal nerve of the arm and hand.","Phrenic nerve":"It serves the diaphragm and arises from the neck's spinal nerves.","Radial nerve":"A spinal nerve of the arm."},"alias":{"Olfactory nerve":["Olfactory","Cranial nerve I","CN I","CN1"],"Optic nerve":["Optic","Cranial nerve II","CN II","CN2"],"Oculomotor nerve":["Oculomotor","Cranial nerve III","CN III","CN3"],"Trochlear nerve":["Trochlear","Cranial nerve IV","CN IV","CN4"],"Trigeminal nerve":["Trigeminal","Cranial nerve V","CN V","CN5"],"Abducens nerve":["Abducens","Abducent nerve","Abducent","Cranial nerve VI","CN VI","CN6"],"Facial nerve":["Facial","Cranial nerve VII","CN VII","CN7"],"Vestibulocochlear nerve":["Vestibulocochlear","Auditory nerve","Acoustic nerve","Cranial nerve VIII","CN VIII","CN8"],"Glossopharyngeal nerve":["Glossopharyngeal","Cranial nerve IX","CN IX","CN9"],"Vagus nerve":["Vagus","Vagal nerve","Cranial nerve X","CN X","CN10"],"Accessory nerve":["Accessory","Spinal accessory nerve","Spinal accessory","Cranial nerve XI","CN XI","CN11"],"Hypoglossal nerve":["Hypoglossal","Cranial nerve XII","CN XII","CN12"]}},{"id":"sci-living-apes","cat":"Animals","title":"Monkey business","q":"Types of ape alive today","rule":"Humans count as apes. Monkeys and lemurs do not, and extinct apes are out.","tiers":{"head":["Gorilla","Chimpanzee"],"hipster":["Human"],"body":["Orangutan","Gibbon"],"tail":["Bonobo"],"deep":[],"outlier":["Siamang"]},"fact":"Gibraltar's famous 'Barbary apes' are tailless macaques, so they are monkeys, and the only wild monkeys in Europe.","traps":{"Baboon":"A baboon is an Old World monkey with a tail.","Barbary ape":"Despite the name, the Gibraltar 'apes' are tailless macaques, which are monkeys.","Mandrill":"The colourful-faced mandrill is a monkey.","Spider monkey":"A New World monkey with a long grasping tail.","Lemur":"Lemurs are more distant primates, neither monkeys nor apes."},"alias":{"Chimpanzee":["Chimp","Common chimpanzee"],"Gorilla":["Western gorilla","Eastern gorilla","Mountain gorilla","Lowland gorilla"],"Orangutan":["Bornean orangutan","Sumatran orangutan","Tapanuli orangutan"],"Human":["Homo sapiens","Man"],"Gibbon":["Lar gibbon","Hoolock gibbon","Crested gibbon","White-handed gibbon"],"Bonobo":["Pygmy chimpanzee"],"Siamang":["Symphalangus"]}},{"id":"sci-big-si-prefixes","cat":"Science","title":"Going large","q":"Metric prefixes that mean a million or more","rule":"Official SI prefixes, from mega upward. Binary prefixes like mebi and informal words like googol do not count.","tiers":{"head":["Mega","Giga","Tera"],"hipster":[],"body":["Peta"],"tail":["Exa"],"deep":["Zetta","Yotta"],"outlier":["Ronna","Quetta"]},"fact":"Ronna and quetta, adopted in 2022, were the first new SI prefixes since 1991, when yotta, zetta, yocto and zepto arrived.","traps":{"Kilo":"Only a thousand, which is smaller than a million.","Hecto":"Only a hundred.","Micro":"A millionth, the opposite direction.","Mebi":"A binary prefix (2 to the power 20), not an SI prefix.","Googol":"A huge number, but not a metric prefix."}},{"id":"sci-american-wild-cats","cat":"Animals","title":"Wild at heart","q":"Wild cat species native to the Americas","rule":"Living species only. Domestic and feral cats, extinct cats like Smilodon, and colour forms like the 'black panther' do not count.","tiers":{"head":["Jaguar","Cougar","Bobcat"],"hipster":["Ocelot"],"body":["Canada lynx","Jaguarundi","Margay"],"tail":["Geoffroy's cat","Kodkod","Pampas cat"],"deep":["Andean mountain cat","Northern oncilla"],"outlier":["Southern oncilla"]},"fact":"The margay can rotate its hind ankles 180 degrees, so it can climb down trees headfirst like a squirrel.","traps":{"Leopard":"Leopards live in Africa and Asia. The big spotted cat of the Americas is the jaguar.","Lion":"Wild lions live in Africa and India. America's lions died out about 11,000 years ago.","Cheetah":"Cheetahs live in Africa, with a tiny group in Iran. None live in the Americas.","Black panther":"Not a species: it is a dark leopard or jaguar.","Iberian lynx":"That one lives in Spain and Portugal."},"alias":{"Cougar":["Puma","Mountain lion","Catamount"],"Bobcat":["Bay lynx"],"Canada lynx":["Canadian lynx","Lynx"],"Jaguarundi":["Eyra","Eyra cat","Otter cat"],"Margay":["Tree ocelot"],"Kodkod":["Guiña","Huiña"],"Pampas cat":["Colocolo","Pantanal cat"],"Andean mountain cat":["Andean cat"],"Northern oncilla":["Oncilla","Tigrina","Little spotted cat","Northern tiger cat"],"Southern oncilla":["Southern tigrina","Southern tiger cat"]}},{"id":"sci-british-wild-deer","cat":"Animals","title":"Oh deer","q":"Deer species living free in the British countryside","rule":"Includes the free-ranging reindeer herd in the Cairngorms. Deer kept only in parks or zoos do not count.","tiers":{"head":["Red deer","Roe deer"],"hipster":["Reindeer"],"body":["Fallow deer","Muntjac"],"tail":["Sika deer"],"deep":[],"outlier":["Chinese water deer"]},"fact":"Chinese water deer have no antlers but grow long tusk-like canine teeth, and escapes from Woburn gave Britain a big share of the world's wild population.","traps":{"Elk":"Elk (what Americans call moose) died out in Britain thousands of years ago.","Moose":"Not found wild in Britain.","Pere David's deer":"Only kept in parks, such as Woburn, not living free.","Stag":"A stag is a male deer, not a species.","Hind":"A hind is a female red deer, not a species."},"alias":{"Red deer":["Red"],"Roe deer":["Roe"],"Reindeer":["Caribou"],"Fallow deer":["Fallow"],"Muntjac":["Reeves's muntjac","Barking deer","Chinese muntjac"],"Sika deer":["Sika","Japanese deer"],"Chinese water deer":["Water deer"]}},{"id":"spo-euro-cup-british","cat":"Football","title":"Big ears","q":"British clubs that won the European Cup or Champions League, up to 2025","rule":"Finals from 1956 to 2025 only; Cup Winners' Cup, UEFA Cup and Europa League wins do not count.","tiers":{"head":["Liverpool","Manchester United","Chelsea"],"hipster":[],"body":["Manchester City"],"tail":["Nottingham Forest"],"deep":["Aston Villa"],"outlier":["Celtic"]},"fact":"Nottingham Forest won the European Cup in 1979 and 1980, yet have been champions of England only once, in 1977-78.","traps":{"Arsenal":"Lost the 2006 final to Barcelona.","Tottenham Hotspur":"Lost the 2019 final to Liverpool.","Leeds United":"Beaten finalists in 1975.","Rangers":"Their only European trophy is the 1972 Cup Winners' Cup.","Aberdeen":"Won the 1983 Cup Winners' Cup, not the European Cup."},"alias":{"Manchester United":["Man United","Man Utd","Man U"],"Manchester City":["Man City"],"Nottingham Forest":["Forest","Notts Forest","Nottm Forest"],"Aston Villa":["Villa"]}},{"id":"spo-world-cup-hosts","cat":"Football","title":"Host nations","q":"Hosts of the men's football World Cup, from 1930 to 2026","rule":"Co-hosts count (South Korea and Japan in 2002; Canada, Mexico and the USA in 2026), and West Germany counts as Germany.","tiers":{"head":["Brazil","Germany","England","Qatar"],"hipster":[],"body":["France","Italy","Spain","United States","Russia","Mexico","South Africa","Japan","South Korea"],"tail":["Argentina","Uruguay","Canada"],"deep":["Chile","Sweden"],"outlier":["Switzerland"]},"fact":"Colombia withdrew as 1986 hosts, so Mexico stepped in and became the first country to host the men's World Cup twice; 2026 gave it a record third.","traps":{"Colombia":"Awarded the 1986 tournament but withdrew, and Mexico took over.","Netherlands":"Three-time runners-up, but never hosts.","Portugal":"Hosted Euro 2004, not a World Cup.","Australia":"Co-hosted only the 2023 Women's World Cup.","China":"Hosted the Women's World Cup, not the men's."},"alias":{"England":["United Kingdom","UK","Great Britain","Britain"],"Germany":["West Germany"],"United States":["USA","US","America","United States of America"],"South Korea":["Korea","Republic of Korea","Korea Republic"]}},{"id":"spo-f1-one-title","cat":"Formula 1","title":"One and done","q":"Retired F1 drivers who won the world title exactly once","rule":"Drivers' titles from 1950 to 2025. Hill and Rosberg appear twice, so give a first name.","tiers":{"head":["Nigel Mansell","Jenson Button","James Hunt","Damon Hill"],"hipster":["Jacques Villeneuve"],"body":["Kimi Räikkönen","Nico Rosberg","Mario Andretti","John Surtees","Mike Hawthorn"],"tail":["Jody Scheckter","Alan Jones","Keke Rosberg","Phil Hill"],"deep":["Jochen Rindt","Denny Hulme"],"outlier":["Giuseppe Farina"]},"fact":"Jochen Rindt is the only posthumous F1 champion: he was killed at Monza in September 1970 and no rival could overhaul his points lead.","traps":{"Stirling Moss":"Runner-up four years running (1955-58) but never champion.","Graham Hill":"Won two titles, in 1962 and 1968.","Gilles Villeneuve":"Never champion; Jacques's father was runner-up in 1979.","Felipe Massa":"Lost the 2008 title to Lewis Hamilton by a single point.","Lando Norris":"Champion in 2025 but still racing, so not counted here."},"surnames":true,"alias":{"Giuseppe Farina":["Nino Farina","Giuseppe Nino Farina"],"Denny Hulme":["Denis Hulme"],"Keke Rosberg":["Keijo Rosberg"],"Mike Hawthorn":["Michael Hawthorn"],"Nigel Mansell":["Sir Nigel Mansell"]}},{"id":"spo-ballon-dor-english-club","cat":"Football","title":"Home turf","q":"Ballon d'Or winners who won it while playing for an English club","rule":"Men's winners 1956 to 2025, judged by the club in the award year. Plain \"Ronaldo\" is taken as Cristiano.","tiers":{"head":["Cristiano Ronaldo","George Best","Bobby Charlton"],"hipster":["Michael Owen"],"body":["Rodri"],"tail":["Denis Law"],"deep":[],"outlier":["Stanley Matthews"]},"fact":"Stanley Matthews won the first Ballon d'Or in 1956 at the age of 41, while at Blackpool, and is still the oldest winner.","traps":{"Kevin Keegan":"Won in 1978 and 1979 while playing for Hamburg in Germany.","Luis Suárez":"The 1960 winner was a Spaniard at Barcelona; the Liverpool striker never won.","Wayne Rooney":"Never won the Ballon d'Or.","Steven Gerrard":"Never won the Ballon d'Or.","Eric Cantona":"Never won the Ballon d'Or."},"surnames":true,"alias":{"Cristiano Ronaldo":["CR7","Cristiano Ronaldo dos Santos Aveiro"],"Bobby Charlton":["Sir Bobby Charlton","Robert Charlton"],"Rodri":["Rodrigo Hernández"],"Stanley Matthews":["Stan Matthews","Sir Stanley Matthews"],"Denis Law":["Dennis Law"]}},{"id":"spo-pl-founders-1992","cat":"Football","title":"Class of '92","q":"Clubs that played in the first Premier League season, 1992-93","rule":"The 22 clubs that kicked off in August 1992; clubs promoted a year later do not count.","tiers":{"head":["Manchester United","Liverpool","Arsenal","Chelsea"],"hipster":["Wimbledon"],"body":["Manchester City","Tottenham Hotspur","Everton","Aston Villa","Leeds United","Blackburn Rovers","Nottingham Forest","Crystal Palace","Southampton"],"tail":["Norwich City","Coventry City","Middlesbrough","Sheffield Wednesday"],"deep":["Ipswich Town","Queens Park Rangers","Sheffield United"],"outlier":["Oldham Athletic"]},"fact":"Brian Deane's goal for Sheffield United against Manchester United on 15 August 1992 was the first in Premier League history.","traps":{"Newcastle United":"Won the second tier in 1992-93 and joined a year later.","West Ham United":"Promoted in 1993, so their first season was 1993-94.","Leicester City":"Only reached the Premier League in 1994, via the play-offs.","Sunderland":"Stayed in the second tier until 1996.","Derby County":"Stayed in the second tier until 1996."},"alias":{"Manchester United":["Man United","Man Utd","Man U"],"Manchester City":["Man City"],"Tottenham Hotspur":["Spurs","Tottenham"],"Aston Villa":["Villa"],"Leeds United":["Leeds"],"Blackburn Rovers":["Blackburn"],"Nottingham Forest":["Forest","Notts Forest","Nottm Forest"],"Crystal Palace":["Palace"],"Norwich City":["Norwich"],"Coventry City":["Coventry"],"Middlesbrough":["Boro"],"Sheffield Wednesday":["Sheffield Wed","Sheff Wed"],"Ipswich Town":["Ipswich"],"Queens Park Rangers":["QPR"],"Sheffield United":["Sheffield Utd","Sheff Utd"],"Oldham Athletic":["Oldham"],"Wimbledon":["Wimbledon FC"],"Southampton":["Saints"]}},{"id":"spo-football-league-1888","cat":"Football","title":"Founding fathers","q":"Founder members of the Football League in 1888","rule":"The 12 clubs of the first season, 1888-89. Accrington means the old Accrington FC, not Accrington Stanley.","tiers":{"head":["Everton","Aston Villa","Blackburn Rovers"],"hipster":[],"body":["Wolverhampton Wanderers","Burnley","Derby County"],"tail":["Bolton Wanderers","West Bromwich Albion","Preston North End"],"deep":["Stoke City","Notts County"],"outlier":["Accrington"]},"fact":"Accrington FC dropped out of the league in 1893 and folded within three years; today's Accrington Stanley is an entirely separate club.","traps":{"Liverpool":"Not founded until 1892.","Manchester United":"Joined in 1892, as Newton Heath.","Arsenal":"Joined in 1893, as Woolwich Arsenal.","Sunderland":"Elected in 1890, after the League began.","Sheffield Wednesday":"Joined in 1892."},"alias":{"Aston Villa":["Villa"],"Blackburn Rovers":["Blackburn"],"Wolverhampton Wanderers":["Wolves"],"Derby County":["Derby"],"Bolton Wanderers":["Bolton"],"West Bromwich Albion":["West Brom","WBA"],"Preston North End":["Preston","PNE"],"Stoke City":["Stoke"],"Notts County":["Notts"],"Accrington":["Accrington FC","Old Accrington"]}},{"id":"spo-olympic-hosts-non-capital","cat":"Olympics","title":"Not the capital","q":"Summer Olympic host cities that aren't national capitals","rule":"Games from 1896 to 2024; capital means capital of a sovereign country today, so Amsterdam is out and Rio and Barcelona are in.","tiers":{"head":["Los Angeles","Sydney","Barcelona"],"hipster":[],"body":["Atlanta","Rio de Janeiro","Munich","Melbourne"],"tail":["Montreal"],"deep":["Antwerp"],"outlier":["St. Louis"]},"fact":"Melbourne 1956 was the first Games in the Southern Hemisphere, but the equestrian events were held in Stockholm because of Australian quarantine rules.","traps":{"Chicago":"Bid for 2016 but lost out to Rio; never hosted.","Istanbul":"Bid several times but has never hosted.","Brisbane":"Hosts in 2032, so not yet.","Amsterdam":"It is the capital of the Netherlands.","Calgary":"Winter Games only, in 1988."},"alias":{"Los Angeles":["LA"],"Rio de Janeiro":["Rio"],"Munich":["München"],"Antwerp":["Antwerpen","Anvers"],"St. Louis":["Saint Louis"]}},{"id":"spo-pl-golden-boot","cat":"Football","title":"Golden touch","q":"Premier League top scorers of the season, 1992-93 to 2024-25","rule":"Anyone who won or shared the Golden Boot in those 33 seasons.","tiers":{"head":["Alan Shearer","Thierry Henry","Mohamed Salah","Erling Haaland"],"hipster":["Cristiano Ronaldo"],"body":["Harry Kane","Luis Suárez","Sergio Agüero","Didier Drogba","Robin van Persie","Son Heung-min","Jamie Vardy","Michael Owen","Ruud van Nistelrooy"],"tail":["Andy Cole","Sadio Mané","Pierre-Emerick Aubameyang","Carlos Tevez","Dimitar Berbatov","Jimmy Floyd Hasselbaink","Dwight Yorke","Nicolas Anelka"],"deep":["Kevin Phillips","Chris Sutton","Teddy Sheringham"],"outlier":["Dion Dublin"]},"fact":"Three-way ties for the Golden Boot came in 1997-98 (Owen, Sutton and Dublin, all on 18), in 1998-99 and in 2018-19.","traps":{"Ian Wright":"Never won the Golden Boot, despite scoring heavily for Arsenal.","Wayne Rooney":"Scored 208 Premier League goals but never finished top.","Robbie Fowler":"Never top; Shearer pipped him in 1995-96.","Eric Cantona":"Never finished as the league's top scorer.","Frank Lampard":"Never finished as the league's top scorer."},"surnames":true,"alias":{"Mohamed Salah":["Mo Salah"],"Erling Haaland":["Erling Braut Haaland"],"Cristiano Ronaldo":["CR7"],"Sergio Agüero":["Kun Aguero"],"Son Heung-min":["Heung-min Son"],"Robin van Persie":["RVP"],"Ruud van Nistelrooy":["Van Nistelrooy"],"Carlos Tevez":["Carlitos Tevez"],"Pierre-Emerick Aubameyang":["Auba","PEA"],"Jimmy Floyd Hasselbaink":["Jimmy Hasselbaink"],"Teddy Sheringham":["Edward Sheringham","Ted Sheringham"]}},{"id":"spo-poker-hands","cat":"Games","title":"Show your hand","q":"A ranked hand in standard five-card poker","rule":"Standard 52-card deck with no wild cards; Royal Flush counts separately from Straight Flush.","tiers":{"head":["Royal Flush","Full House","Flush","Straight"],"hipster":[],"body":["Pair","Three of a Kind","Four of a Kind"],"tail":["Straight Flush","Two Pair"],"deep":[],"outlier":["High Card"]},"fact":"Only 4 of the 2,598,960 possible five-card hands are royal flushes, while about half of all hands are just High Card.","traps":{"Five of a Kind":"Needs a wild card; impossible with a standard deck.","Three Pair":"Needs six cards; a five-card hand holds two pairs at most.","Dead Man's Hand":"Aces and eights is a famous two pair, not a ranking.","Flush Draw":"A draw is an unfinished hand, not a ranked one."},"alias":{"Royal Flush":["Royal Straight Flush"],"Full House":["Full Boat","Boat"],"Pair":["One Pair","Single Pair","A Pair"],"Three of a Kind":["Trips","Triplet","3 of a Kind"],"Four of a Kind":["Quads","4 of a Kind"],"High Card":["Nothing","No Pair","Junk","Highest Card"]}},{"id":"spo-pokemon-original-types","cat":"Games","title":"Old school","q":"Pokémon types that existed in the first generation of games","rule":"The 15 types in Red, Green, Blue and Yellow; Dark, Steel and Fairy came later.","tiers":{"head":["Fire","Water","Grass","Electric"],"hipster":[],"body":["Psychic","Ghost","Dragon","Fighting"],"tail":["Poison","Ice","Rock","Ground"],"deep":["Flying","Bug"],"outlier":["Normal"]},"fact":"Ghost moves were meant to be super effective against Psychic types, but a bug in Red and Blue made them do no damage at all.","traps":{"Dark":"Added in Gold and Silver in 1999.","Steel":"Added in Gold and Silver in 1999.","Fairy":"Added much later, in X and Y in 2013."},"alias":{"Fighting":["Fight"],"Psychic":["Psy"]}},{"id":"spo-snooker-crucible-champions","cat":"Snooker","title":"Crucible kings","q":"World Snooker champions crowned at the Crucible, 1977 to 2025","rule":"Winners from 1977 to 2025. Higgins appears twice (Alex and John), so give a first name; earlier champions do not count.","tiers":{"head":["Ronnie O'Sullivan","Steve Davis","Stephen Hendry","John Higgins"],"hipster":["Dennis Taylor"],"body":["Mark Selby","Mark Williams","Judd Trump","Alex Higgins","Neil Robertson","Ray Reardon","Shaun Murphy","Ken Doherty","Kyren Wilson"],"tail":["John Parrott","Peter Ebdon","Graeme Dott","Stuart Bingham","Luca Brecel","Zhao Xintong"],"deep":["Terry Griffiths","John Spencer","Cliff Thorburn"],"outlier":["Joe Johnson"]},"fact":"Cliff Thorburn, from Canada, was the Crucible's first overseas champion in 1980; Zhao Xintong became the first Chinese world champion in 2025.","traps":{"Joe Davis":"Won 15 world titles, all between 1927 and 1946.","Fred Davis":"Won his world titles before the Crucible era began in 1977.","Jimmy White":"Lost six Crucible finals and never won the title.","Willie Thorne":"Never won the world title.","Eddie Charlton":"Never won the world title."},"surnames":true,"alias":{"Ronnie O'Sullivan":["Ronnie Sullivan","Rocket Ronnie"],"Alex Higgins":["Hurricane Higgins","Alexander Higgins"],"Ray Reardon":["Raymond Reardon"],"Cliff Thorburn":["Clifford Thorburn"],"Joe Johnson":["Joseph Johnson"],"Zhao Xintong":["Xintong Zhao"],"Terry Griffiths":["Terence Griffiths"],"Stephen Hendry":["Steven Hendry"]}},{"id":"spo-cricket-first-class-counties","cat":"Cricket","title":"Shire power","q":"First-class cricket counties in the County Championship","rule":"The 18 first-class counties; Minor Counties sides such as Devon and Norfolk do not count.","tiers":{"head":["Yorkshire","Lancashire","Surrey","Kent"],"hipster":[],"body":["Essex","Middlesex","Sussex","Hampshire","Somerset"],"tail":["Nottinghamshire","Warwickshire","Worcestershire","Derbyshire","Gloucestershire","Durham"],"deep":["Leicestershire","Northamptonshire"],"outlier":["Glamorgan"]},"fact":"Durham joined the County Championship only in 1992, yet had won it by 2008 and added titles in 2009 and 2013.","traps":{"Devon":"A Minor Counties side, not first-class.","Cornwall":"A Minor Counties side, not first-class.","Norfolk":"A Minor Counties side, not first-class.","Berkshire":"A Minor Counties side, not first-class.","Cambridgeshire":"A Minor Counties side, not first-class."},"alias":{"Yorkshire":["Yorks"],"Lancashire":["Lancs"],"Hampshire":["Hants"],"Nottinghamshire":["Notts"],"Warwickshire":["Warks"],"Worcestershire":["Worcs"],"Derbyshire":["Derbys"],"Gloucestershire":["Glos"],"Leicestershire":["Leics"],"Northamptonshire":["Northants"],"Durham":["Durham County"]}}];
+(function () {
+  "use strict";
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const { TIERS, TIER } = LT;
+  const TIER_IDX = Object.fromEntries(TIERS.map((t, i) => [t.key, i]));
+  const BY_ID = Object.fromEntries(PROMPTS.map((p) => [p.id, p]));
+  LT.setLexicon(new Set(PROMPTS.flatMap((p) => TIERS.flatMap((t) => p.tiers[t.key] || []).flatMap((n) => [n, ...((p.alias && p.alias[n]) || [])])).map(LT.key)));
+  // collector numbers: a fixed order through the set
+  const ORDER = PROMPTS.map((p) => p.id).sort();
+  const SETCODE = { geo: "GEO", sci: "SCI", cul: "CUL", spo: "SPO", his: "HIS" };
+  const collNo = (p) => `${SETCODE[LT.groupOf(p)] || "LT"} ${String(ORDER.indexOf(p.id) + 1).padStart(3, "0")}/${String(ORDER.length).padStart(3, "0")}`;
+  const LAUNCH = Date.UTC(2026, 9, 7) / 864e5;
+  const today = () => Math.floor(Date.now() / 864e5);
+  const ROUND_MS = 25000, PENALTY_MS = 2000, UNDER_MS = 3000, ENDLESS_MS = 45000, SKIP_MS = 3000, HUNT_MS = 60000;
+  const REDUCED = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+
+  // Where the game lives publicly; share links always point there. Analytics are off until configured.
+  const CFG = Object.assign({ siteUrl: "https://vishalkj-ai.github.io/long-tail/", goatcounter: "", plausible: "" }, window.LT_CONFIG || {});
+  const ON_OWN_SITE = /^https?:$/.test(location.protocol) && !/claude|anthropic|usercontent|localhost|127\.0\.0\.1/.test(location.hostname);
+  const BASE_URL = ON_OWN_SITE ? location.origin + location.pathname : CFG.siteUrl;
+
+  // Privacy-friendly analytics (GoatCounter or Plausible): events only, no personal data.
+  const track = (function () {
+    const enabled = ON_OWN_SITE && !!(CFG.goatcounter || CFG.plausible);
+    const queue = [];
+    let ready = false;
+    function send(name, props) {
+      try {
+        if (CFG.plausible && window.plausible) window.plausible(name, { props: props || {} });
+        else if (CFG.goatcounter && window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "event/" + name, title: name, event: true });
+      } catch (e) { /* analytics must never break the game */ }
+    }
+    if (enabled) {
+      const sc = document.createElement("script");
+      if (CFG.plausible) {
+        window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments); };
+        sc.defer = true; sc.src = "https://plausible.io/js/script.tagged-events.js"; sc.dataset.domain = CFG.plausible;
+        ready = true;
+      } else {
+        sc.async = true; sc.src = "https://gc.zgo.at/count.js"; sc.dataset.goatcounter = `https://${CFG.goatcounter}.goatcounter.com/count`;
+        sc.onload = () => { ready = true; while (queue.length) send.apply(null, queue.shift()); };
+      }
+      document.head.appendChild(sc);
+    }
+    return function (name, props) {
+      if (!enabled) return;
+      if (ready) send(name, props); else queue.push([name, props]);
+    };
+  })();
+
+  // Challenge links: #c.<day>.<per card: prompt hash ×5, call digit, answer hash ×4>.<name>
+  // Only letters, digits, "." "-" "_" so the token survives any host.
+  const b64url = (str) => btoa(unescape(encodeURIComponent(str))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  const fromB64url = (str) => { try { return decodeURIComponent(escape(atob(str.replace(/-/g, "+").replace(/_/g, "/")))); } catch (e) { return ""; } };
+  function encodeChallenge(res, name) {
+    const body = res.rounds.map((r) => LT.hash36(r.id, 5) + Math.max(0, CALL_ORDER.indexOf(r.call || "safe")) + (r.tier && r.answer ? LT.hash36(r.answer, 4) : "----")).join("");
+    return `c.${res.day.toString(36)}.${body}${name ? "." + b64url(name.slice(0, 24)) : ""}`;
+  }
+  function decodeChallenge(tok) {
+    const parts = tok.split(".");
+    if (parts.length < 3 || parts[0] !== "c") return null;
+    const day = parseInt(parts[1], 36);
+    const body = parts[2];
+    if (!Number.isFinite(day) || !body || body.length % 10) return null;
+    const rounds = [];
+    for (let i = 0; i < body.length; i += 10) {
+      const p = PROMPTS.find((x) => LT.hash36(x.id, 5) === body.slice(i, i + 5));
+      const call = CALL_ORDER[+body[i + 5]];
+      if (!p || !call) return null;
+      const ah = body.slice(i + 6, i + 10);
+      const a = ah === "----" ? null : allAnswers(p).find((x) => LT.hash36(x.name, 4) === ah);
+      const mult = CALLS[call].mult;
+      rounds.push({ id: p.id, call, mult, answer: a ? a.name : null, tier: a ? a.tier : null, pts: a ? TIER[a.tier].pts * mult : 0 });
+    }
+    const name = parts[3] ? fromB64url(parts[3]).slice(0, 24) : "";
+    return { day, rounds, name, score: rounds.reduce((t, r) => t + r.pts, 0) };
+  }
+  let incoming = null;
+  const readChallenge = () => { const h = (location.hash || "").slice(1); return h.startsWith("c.") ? decodeChallenge(h) : null; };
+  const EMBLEM = `<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="5" width="4.5" height="22" rx="1" fill="#C9C2D6"/><rect x="9.5" y="12" width="4.5" height="15" rx="1" fill="#34C47C"/><rect x="15" y="18" width="4.5" height="9" rx="1" fill="#4A8BFF"/><rect x="20.5" y="21.5" width="3.5" height="5.5" rx="1" fill="#A86BFF"/><rect x="25" y="23.5" width="3.5" height="3.5" rx="1" fill="#FFB13B"/></svg>`;
+
+  // Call your shot
+  const CALLS = {
+    safe:  { key: "safe",  name: "Safe",   mult: 1, min: "head", cond: "Any correct answer" },
+    bold:  { key: "bold",  name: "Bold",   mult: 2, min: "tail", cond: "Rare or rarer" },
+    allin: { key: "allin", name: "All-in", mult: 3, min: "deep", cond: "Epic or rarer" },
+  };
+  const CALL_ORDER = ["safe", "bold", "allin"];
+  const KEYCAP = { 1: "1️⃣", 2: "2️⃣", 3: "3️⃣" };
+  const meets = (call, tier) => TIER_IDX[tier] >= TIER_IDX[CALLS[call || "safe"].min];
+
+  // ---------- per-viewer storage (optional) ----------
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("lt:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem("lt:" + k, JSON.stringify(v)); } catch (e) { /* storage blocked */ } },
+  };
+  let learned = store.get("learned", {});
+  let found = store.get("found", {});
+  const indexCache = {};
+  const indexFor = (p) => indexCache[p.id] || (indexCache[p.id] = LT.buildIndex(p, learned[p.id]));
+  const stats = () => Object.assign({ played: 0, best: 0, streak: 0, lastDay: null, endlessBest: 0 }, store.get("stats", {}));
+  const allAnswers = (p) => [...TIERS.flatMap((t) => (p.tiers[t.key] || []).map((name) => ({ name, tier: t.key }))), ...(learned[p.id] || [])];
+  const totalOf = (p) => allAnswers(p).length;
+  const foundOf = (p) => Object.keys(found[p.id] || {}).length;
+  const qualifying = (p, call) => allAnswers(p).filter((a) => meets(call, a.tier)).length;
+  function collect(pid, name, tier) {
+    const f = found[pid] || (found[pid] = {});
+    if (f[name]) return false;
+    f[name] = tier;
+    store.set("found", found);
+    return true;
+  }
+
+  let game = null;
+  let timer = null;
+  let sample = null;
+
+  // ---------- wordmark: letters shrink along the tail ----------
+  (function () {
+    const sizes = [36, 33, 30, 27, 0, 24, 21.5, 19, 17];
+    $("home-link").innerHTML = "Long Tail".split("").map((ch, i) => `<span style="font-size:${sizes[i]}px">${ch === " " ? "" : ch}</span>`).join("");
+  })();
+
+  function show(id) {
+    for (const s of document.querySelectorAll("[data-screen]")) s.hidden = s.id !== id;
+    window.scrollTo(0, 0);
+  }
+  function renderTopStats() {
+    const s = stats();
+    const n = PROMPTS.reduce((a, p) => a + foundOf(p), 0);
+    $("top-stats").innerHTML = `<span>Streak <b>${s.streak}</b></span><span>Best <b>${s.best}</b></span>`;
+    $("nav-collection").textContent = `Binder ${n}`;
+  }
+
+  // ---------- card builders ----------
+  function promptCardHTML(p, opts) {
+    opts = opts || {};
+    const call = opts.call ? CALLS[opts.call] : null;
+    return `<div class="frame">
+      <div class="namebar"><b>${esc(p.title || p.cat)}</b><span class="set">${esc(collNo(p))}</span></div>
+      <div class="art"><span class="clue">${esc(p.q)}</span></div>
+      <div class="typeline"><span>${esc(p.cat)} · ${totalOf(p)} answers</span>${call ? `<span class="callchip call-${call.key}">${call.name} ×${call.mult}${call.mult > 1 ? ` · ${call.cond}` : ""}</span>` : ""}</div>
+      <div class="textbox">${p.rule ? `<span>${esc(p.rule)}</span>` : `<span class="flavor">Any correct answer counts.</span>`}</div>
+    </div>
+    <div class="foot"><span>Long Tail</span><span>${esc(opts.footer || "")}</span></div>`;
+  }
+  function backCardHTML(p) {
+    return `<div class="frame">
+      <div class="emblem">${EMBLEM}<b class="holo-text">Long Tail</b></div>
+      <div><div class="topic">${esc(p.cat)}</div><div class="count" style="margin-top:8px">${totalOf(p)} possible answers</div></div>
+    </div>`;
+  }
+  function miniHTML(name, tier, sub, cls) {
+    const t = TIER[tier];
+    const fx = tier === "outlier" ? " holo" : tier === "deep" ? " shiny" : "";
+    return `<div class="mini c-${tier}${fx}${cls ? " " + cls : ""}"><div class="mf"><div class="mt"><span>${t.name}</span><span class="sym">${t.sym}</span></div><div class="mn">${esc(name)}</div><div class="mp">${esc(sub || "")}</div></div></div>`;
+  }
+  const dudHTML = (label, sub) => `<div class="mini dud"><div class="mf"><div class="mt"><span>No card</span><span>×</span></div><div class="mn">${esc(label)}</div><div class="mp">${esc(sub || "")}</div></div></div>`;
+  const backMiniHTML = () => `<div class="mini back-mini"><div class="mf">${EMBLEM}</div></div>`;
+
+  // Legendary cards tilt toward the pointer
+  function armTilt(el) {
+    if (REDUCED || !el) return;
+    el.onpointermove = (e) => {
+      const r = el.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      el.style.setProperty("--mx", `${(x * 100).toFixed(1)}%`);
+      el.style.setProperty("--my", `${(y * 100).toFixed(1)}%`);
+      el.style.transform = `perspective(900px) rotateY(${((x - 0.5) * 12).toFixed(2)}deg) rotateX(${((0.5 - y) * 10).toFixed(2)}deg)`;
+    };
+    el.onpointerleave = () => { el.style.transform = ""; };
+  }
+  function fanStyle(i, n) {
+    const mid = (n - 1) / 2;
+    return `transform: rotate(${((i - mid) * 6).toFixed(1)}deg) translateY(${(Math.abs(i - mid) * 5).toFixed(1)}px); z-index:${i + 1}`;
+  }
+  const fanHTML = (items) => items.map((html, i) => `<div style="${fanStyle(i, items.length)}">${html}</div>`).join("");
+
+  // ---------- chart ----------
+  function drawTail(svg, p, hiName) {
+    const data = LT.curve(p);
+    const W = Math.max(260, Math.round(svg.getBoundingClientRect().width || 600));
+    const H = +svg.getAttribute("height");
+    const padT = 30, padB = 30, padX = 2;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const n = data.length;
+    const bw = (W - padX * 2) / n;
+    const gap = bw > 7 ? 2 : bw > 3.5 ? 1 : 0;
+    const max = data[0].w;
+    const ih = H - padT - padB;
+    let out = "";
+    let hiX = null, hiTop = null, hiTier = null;
+    data.forEach((d, i) => {
+      const h = Math.max(2.5, (ih * d.w) / max);
+      const x = padX + i * bw;
+      const y = padT + ih - h;
+      const isHi = hiName && d.name === hiName;
+      if (isHi) { hiX = x + (bw - gap) / 2; hiTop = y; hiTier = d.tier; }
+      out += `<rect x="${x.toFixed(2)}" y="${y.toFixed(2)}" rx="${bw > 6 ? 2 : 0}" width="${Math.max(0.8, bw - gap).toFixed(2)}" height="${h.toFixed(2)}" class="f-${d.tier}${hiName && !isHi ? " dim" : ""}"><title>${esc(d.name)}</title></rect>`;
+    });
+    out += `<line class="axis" x1="0" x2="${W}" y1="${padT + ih + 0.5}" y2="${padT + ih + 0.5}"/>`;
+    let i0 = 0;
+    for (let i = 1; i <= n; i++) {
+      if (i === n || data[i].tier !== data[i0].tier) {
+        const t = data[i0].tier;
+        const x1 = padX + i0 * bw, x2 = padX + i * bw - gap;
+        out += `<line class="s-${t}" stroke-width="3" x1="${x1.toFixed(1)}" x2="${Math.max(x1 + 2, x2).toFixed(1)}" y1="${padT + ih + 7}" y2="${padT + ih + 7}"/>`;
+        const name = TIER[t].name;
+        if (x2 - x1 > name.length * 7 + 4) out += `<text x="${x1.toFixed(1)}" y="${padT + ih + 22}">${name}</text>`;
+        i0 = i;
+      }
+    }
+    out += `<text x="0" y="12">more common</text><text x="${W}" y="12" text-anchor="end">rarer →</text>`;
+    if (hiX != null) {
+      const right = hiX > W * 0.62;
+      out += `<line class="pin" x1="${hiX}" x2="${hiX}" y1="${Math.max(18, hiTop - 40)}" y2="${hiTop - 3}"/>`;
+      out += `<circle cx="${hiX}" cy="${hiTop - 3}" r="3.5" class="f-${hiTier}"/>`;
+      out += `<text class="lbl" x="${right ? hiX - 6 : hiX + 6}" y="${Math.max(28, hiTop - 30)}" text-anchor="${right ? "end" : "start"}">${esc(hiName)}</text>`;
+    }
+    svg.innerHTML = out;
+  }
+
+  // ---------- home ----------
+  const TIER_DESC = {
+    head: "The first thing most people say.",
+    hipster: "The \"clever\" answer everyone thinks of.",
+    body: "Well known, not top of mind.",
+    tail: "Takes real knowledge.",
+    deep: "Very few people get here.",
+    outlier: "The rarest answer on the card.",
+  };
+  const CALL_DESC = {
+    safe: "Any correct answer scores its normal points.",
+    bold: "Only Rare, Epic or Legendary answers count, at double points.",
+    allin: "Only Epic or Legendary answers count, at triple points.",
+  };
+  let endlessGroup = "all";
+
+  function renderHome() {
+    const day = today();
+    const num = day - LAUNCH + 1;
+    $("home-eyebrow").textContent = `Daily draw #${num} · ${new Date(day * 864e5).toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" })}`;
+    const saved = store.get("daily:" + day);
+    const done = $("home-done");
+    if (saved) {
+      done.hidden = false;
+      done.innerHTML = `<span class="mono" style="font-size:22px">${saved.score}</span><span class="muted">today · ${esc(LT.band(saved.score))}. New cards are dealt at midnight UTC.</span>`;
+      $("btn-daily").textContent = "See today's hand";
+      $("fan").innerHTML = fanHTML(saved.rounds.map((r) => (r.tier && TIER[r.tier] ? miniHTML(r.answer, r.tier, `${r.pts} pts`) : dudHTML("Miss", "0 pts"))));
+    } else {
+      done.hidden = true;
+      $("btn-daily").textContent = "Draw today's cards";
+      $("fan").innerHTML = fanHTML(Array.from({ length: 7 }, backMiniHTML));
+    }
+    // the example: a Legendary card from a prompt with a good spread
+    const ex = PROMPTS.find((p) => (p.tiers.outlier || []).length && (p.tiers.head || []).length && TIERS.reduce((a, t) => a + (p.tiers[t.key] || []).length, 0) >= 12) || PROMPTS[0];
+    if (ex) {
+      const hi = ex.tiers.outlier[0];
+      $("how-card").innerHTML = miniHTML(hi, "outlier", "150 pts");
+      armTilt($("how-card").firstElementChild);
+      $("ex-q").textContent = `${ex.title ? ex.title + ": " : ""}${ex.q}`;
+      requestAnimationFrame(() => drawTail($("ex-chart"), ex, hi));
+    }
+    $("tier-list").innerHTML = TIERS.map((t) => `<li class="c-${t.key}"><span class="pts">${t.pts}</span><span class="nm"><span class="sym">${t.sym}</span>${t.name}</span><span class="ds">${TIER_DESC[t.key]}</span></li>`).join("");
+    $("call-list").innerHTML = CALL_ORDER.map((k) => `<li class="call-${k}" style="${k === "safe" ? "--cc:var(--text)" : ""}"><span class="pts">×${CALLS[k].mult}</span><span class="nm">${CALLS[k].name}</span><span class="ds">${CALL_DESC[k]}</span></li>`).join("");
+    const answers = PROMPTS.reduce((a, p) => a + TIERS.reduce((b, t) => b + (p.tiers[t.key] || []).length, 0), 0);
+    $("foot").textContent = `${PROMPTS.length} cards · ${answers.toLocaleString()} accepted answers. Every card has a closed answer set, so a correct answer is never turned away. Rarity is ranked by hand from how often people reach for each answer.`;
+    const groups = ["all", ...Object.keys(LT.GROUPS).filter((g) => PROMPTS.some((p) => LT.groupOf(p) === g))];
+    $("endless-pick").innerHTML = groups.map((g) => {
+      const count = g === "all" ? PROMPTS.length : PROMPTS.filter((p) => LT.groupOf(p) === g).length;
+      return `<button type="button" class="chip" data-g="${g}" aria-pressed="${g === endlessGroup}">${g === "all" ? "Everything" : LT.GROUPS[g]} <span>${count}</span></button>`;
+    }).join("");
+    const fTotal = PROMPTS.reduce((a, p) => a + foundOf(p), 0);
+    $("home-coll").innerHTML = fTotal
+      ? `Your binder: <b>${fTotal}</b> of ${answers.toLocaleString()} answers collected. <button type="button" class="linkish" id="home-coll-open">Open binder</button>`
+      : `Every correct answer you play goes in your binder. <button type="button" class="linkish" id="home-coll-open">See the binder</button>`;
+    $("home-coll-open").onclick = renderCollection;
+    renderChallengeBanner();
+    renderPast();
+    renderTopStats();
+    show("home");
+  }
+  $("endless-pick").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-g]");
+    if (!b) return;
+    endlessGroup = b.dataset.g;
+    for (const c of $("endless-pick").children) c.setAttribute("aria-pressed", String(c === b));
+  });
+  $("btn-endless").addEventListener("click", () => { $("endless-panel").hidden = !$("endless-panel").hidden; });
+  $("btn-endless-go").addEventListener("click", () => startEndless(endlessGroup));
+  $("btn-daily").addEventListener("click", () => startDaily());
+
+  function renderChallengeBanner() {
+    const b = $("challenge-banner");
+    b.hidden = !incoming;
+    if (!incoming) return;
+    const who = incoming.name || "A friend";
+    const official = LT.dailySet(PROMPTS, incoming.day, 7).map((p) => p.id).join() === incoming.rounds.map((r) => r.id).join();
+    const played = official && store.get("daily:" + incoming.day);
+    $("challenge-title").textContent = `${who} scored ${incoming.score}. Beat it.`;
+    $("challenge-sub").textContent = played
+      ? `You've already played draw #${incoming.day - LAUNCH + 1}. Compare your hands card by card.`
+      : `Draw #${incoming.day - LAUNCH + 1}: the same seven cards. After each one you'll see what ${incoming.name || "they"} played.`;
+    $("btn-challenge").textContent = played ? "Compare hands" : "Accept the challenge";
+  }
+  $("btn-challenge").addEventListener("click", () => { if (incoming) startDaily(incoming.day, incoming); });
+  $("btn-challenge-x").addEventListener("click", () => {
+    incoming = null;
+    try { history.replaceState(null, "", location.pathname + location.search); } catch (e) { /* hash stays; harmless */ }
+    renderChallengeBanner();
+  });
+
+  function renderPast() {
+    const t = today();
+    const days = [];
+    for (let d = t - 1; d >= Math.max(LAUNCH, t - 7); d--) days.push(d);
+    $("past-panel").hidden = !days.length;
+    $("past-list").innerHTML = days.map((d) => {
+      const saved = store.get("daily:" + d);
+      const date = new Date(d * 864e5).toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
+      return `<li><span><b>Draw #${d - LAUNCH + 1}</b><span class="when">${date}</span></span><span class="sc">${saved ? saved.score : ""}</span><button type="button" class="btn quiet" data-day="${d}">${saved ? "See hand" : "Play"}</button></li>`;
+    }).join("");
+  }
+  $("past-list").addEventListener("click", (e) => { const b = e.target.closest("[data-day]"); if (b) startDaily(+b.dataset.day); });
+  $("home-link").addEventListener("click", () => leave(renderHome));
+  $("nav-collection").addEventListener("click", () => leave(renderCollection));
+  function leave(next) { stopTimer(); hideConfirm(); game = null; next(); }
+
+  // ---------- timer ----------
+  function startTimer(ms, onEnd) {
+    stopTimer();
+    timer = { deadline: performance.now() + ms, total: ms, onEnd, raf: 0 };
+    tick();
+  }
+  function tick() {
+    if (!timer) return;
+    const left = timer.deadline - performance.now();
+    timer.total = Math.max(timer.total, left);
+    $("clock-fill").style.transform = `scaleX(${Math.max(0, left / timer.total)})`;
+    $("clock-num").textContent = Math.max(0, left / 1000).toFixed(1) + "s";
+    $("clock").classList.toggle("low", left < 6000);
+    if (left <= 0) { const f = timer.onEnd; stopTimer(); f(); return; }
+    timer.raf = requestAnimationFrame(tick);
+  }
+  const addTime = (ms) => { if (timer) timer.deadline += ms; };
+  function stopTimer() { if (timer) cancelAnimationFrame(timer.raf); timer = null; }
+
+  // ---------- play ----------
+  const newRound = (p) => ({ id: p.id, call: "safe", misses: [], traps: [], under: [], answer: null, tier: null, base: 0, mult: 1, pts: 0 });
+  const dailyTotal = () => game.rounds.reduce((a, r) => a + r.pts, 0);
+
+  function renderTicks(el) {
+    if (game.mode !== "daily") { el.innerHTML = ""; return; }
+    el.innerHTML = game.ids.map((id, i) => {
+      const r = game.rounds[i];
+      if (r) return `<i data-t class="c-${r.tier || "miss"}"></i>`;
+      return `<i class="${i === game.i ? "now" : ""}"></i>`;
+    }).join("");
+  }
+
+  // "call" shows the card back and the call buttons; "play" shows the face and the answer box
+  function setPhase(phase, instant) {
+    const flip = $("flip");
+    flip.classList.toggle("instant", !!instant || REDUCED);
+    flip.classList.toggle("flipped", phase === "play");
+    $("calls").hidden = phase !== "call";
+    $("round-panel").hidden = phase !== "play";
+    $("play-foot").hidden = phase !== "play";
+  }
+
+  function renderRound() {
+    const p = BY_ID[game.cur.id];
+    const footer = game.mode === "daily" ? `Daily #${game.day - LAUNCH + 1} · ${game.i + 1}/${game.ids.length}` : game.mode === "hunt" ? "Hunt" : "Endless";
+    $("card-front").innerHTML = promptCardHTML(p, { call: game.mode === "daily" ? game.cur.call : null, footer });
+    $("misses").innerHTML = "";
+    $("answer-input").value = "";
+    $("toast").innerHTML = "";
+    hideConfirm();
+    renderTicks($("ticks"));
+    $("named").hidden = game.mode !== "hunt";
+    if (game.mode === "daily") {
+      const c = CALLS[game.cur.call];
+      $("play-status").textContent = `Card ${game.i + 1} of ${game.ids.length} · ${dailyTotal()} pts`;
+      $("play-hint").textContent = c.mult > 1 ? "Wrong −2s. Correct but too common for your call −3s." : "One answer per card. A wrong guess costs 2 seconds.";
+      $("btn-pass").textContent = "Pass";
+    } else if (game.mode === "endless") {
+      $("play-status").textContent = `${game.rounds.filter((r) => r.tier).length} played · ${game.score} pts`;
+      $("play-hint").textContent = "Common +3s · Uncommon +5s · Rare +7s · Epic +9s · Legendary +12s. Wrong −2s.";
+      $("btn-pass").textContent = "Skip (−3s)";
+    } else {
+      $("named").innerHTML = "";
+      updateHuntStatus();
+      $("play-hint").textContent = "Name as many as you can. Wrong guesses cost nothing here.";
+      $("btn-pass").textContent = "Finish";
+    }
+  }
+  function focusInput() {
+    const inp = $("answer-input");
+    try { inp.focus({ preventScroll: true }); } catch (e) { inp.focus(); }
+  }
+
+  // ----- daily -----
+  function startDaily(day, challenge) {
+    day = day == null ? today() : day;
+    const draw = LT.dailySet(PROMPTS, day, 7).map((p) => p.id);
+    const ids = challenge ? challenge.rounds.map((r) => r.id) : draw;
+    // "official" = this is the day's own draw, so the result is saved under that day
+    const official = ids.join() === draw.join();
+    const saved = official ? store.get("daily:" + day) : null;
+    if (saved) return showResults(saved, challenge);
+    game = { mode: "daily", day, ids, i: 0, rounds: [], official, challenge: challenge || null, tutorial: !store.get("tut", false) };
+    track(challenge ? "challenge_start" : day === today() ? "daily_start" : "archive_start");
+    beginDailyRound();
+  }
+  function beginDailyRound() {
+    const p = BY_ID[game.ids[game.i]];
+    game.cur = newRound(p);
+    game.calling = true;
+    renderTicks($("ticks"));
+    const rv = game.challenge && game.challenge.rounds[game.i];
+    $("play-status").textContent = `Card ${game.i + 1} of ${game.ids.length} · ${dailyTotal()} pts · make your call${rv ? ` · ${game.challenge.name || "your friend"} went ${CALLS[rv.call].name}` : ""}`;
+    $("card-back").innerHTML = backCardHTML(p);
+    $("card-front").innerHTML = promptCardHTML(p, { footer: "" });
+    const total = totalOf(p);
+    $("calls").innerHTML = CALL_ORDER.map((k, i) => {
+      const c = CALLS[k];
+      const q = qualifying(p, k);
+      return `<button class="call call-${k}" data-call="${k}" type="button">
+        <span class="mult">×${c.mult}</span>
+        <span class="head"><span class="nm">${c.name}</span><kbd>${i + 1}</kbd></span>
+        <span class="cond">${c.cond}</span>
+        <span class="meter"><i style="width:${((100 * q) / total).toFixed(1)}%"></i></span>
+        <span class="small muted">${q} of ${total} answers qualify</span>
+      </button>`;
+    }).join("");
+    setPhase("call", true);
+    show("play");
+    $("calls").querySelector("[data-call]").focus({ preventScroll: true });
+    coach(game.tutorial && game.i === 0 ? 1 : 0);
+  }
+
+  // ---------- guided first card ----------
+  const COACH = {
+    1: ["Step 1 of 3 · Pick your risk", "You can see the topic but not the question yet. Safe scores any correct answer. Bold doubles your points, but only Rare or rarer answers count. All-in triples them, for Epic or rarer."],
+    2: ["Step 2 of 3 · Answer", "Type any answer that fits the card. You get 25 seconds and one answer, and a wrong guess costs 2 seconds. Close spellings get a “Did you mean?”.", "Start the clock"],
+    3: ["Step 3 of 3 · Collect", "Your answer is now a card in your binder. The chart shows how rare it was, and the traps show what catches people out. Six more cards to go.", "Got it"],
+  };
+  function coach(step, onGo) {
+    $("coach").hidden = true;
+    $("coach-r").hidden = true;
+    if (!step) return;
+    const el = step === 3 ? $("coach-r") : $("coach");
+    const [head, text, btn] = COACH[step];
+    el.children[0].textContent = head;
+    el.children[1].textContent = text;
+    const b = el.children[2];
+    b.hidden = !btn;
+    b.textContent = btn || "";
+    b.onclick = () => { el.hidden = true; if (onGo) onGo(); };
+    el.hidden = false;
+    if (btn) b.focus({ preventScroll: true });
+  }
+  $("calls").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-call]");
+    if (b) chooseCall(b.dataset.call);
+  });
+  function chooseCall(k) {
+    if (!game || game.mode !== "daily" || !game.calling) return;
+    game.calling = false;
+    game.cur.call = k;
+    renderRound();
+    setPhase("play", false);
+    focusInput();
+    const cur = game.cur;
+    const go = () => {
+      if (game && game.cur === cur && !timer && !game.rounds.includes(cur)) { coach(0); startTimer(ROUND_MS, () => finishRound(null)); focusInput(); }
+    };
+    // a new player's first card: the clock waits until they've read step 2
+    if (game.tutorial && game.i === 0) { coach(2, go); return; }
+    coach(0);
+    // the clock starts once the card has turned over
+    setTimeout(go, REDUCED ? 0 : 520);
+  }
+
+  $("answer-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (!game || !game.cur || !timer) return;
+    const inp = $("answer-input");
+    const v = inp.value.trim();
+    if (!v) return;
+    inp.value = "";
+    const p = BY_ID[game.cur.id];
+    const m = LT.match(indexFor(p), v);
+    hideConfirm();
+    if (!m) return miss(v);
+    if (m.status === "trap") return trapped(v, m.trap);
+    if (m.status === "ambiguous") {
+      const ask = $("ask");
+      ask.textContent = `“${v}” matches more than one answer. Add a little more, like a first name.`;
+      ask.hidden = false;
+      inp.value = v;
+      focusInput();
+      return;
+    }
+    if (m.status === "suggest") return askConfirm(p, m, v);
+    accept(p, m.entry, v, false);
+  });
+
+  function accept(p, entry, typed, confirmed) {
+    hideConfirm();
+    if (game.mode === "daily") {
+      if (!meets(game.cur.call, entry.tier)) return under(p, entry);
+      return finishRound(entry, typed, confirmed);
+    }
+    if (game.mode === "endless") return endlessHit(p, entry);
+    return huntHit(p, entry);
+  }
+
+  function shake() {
+    const f = $("answer-form");
+    f.classList.remove("shake"); void f.offsetWidth; f.classList.add("shake");
+  }
+  function miss(v) {
+    game.cur.misses.push(v);
+    const cost = game.mode === "hunt" ? 0 : PENALTY_MS;
+    addTime(-cost);
+    const li = document.createElement("li");
+    li.innerHTML = `<s>${esc(v)}</s>${cost ? "<span>−2s</span>" : ""}`;
+    $("misses").prepend(li);
+    shake();
+  }
+  // a known wrong answer: same cost as a miss, but it tells you why
+  function trapped(v, trap) {
+    game.cur.misses.push(v);
+    game.cur.traps.push(trap.name);
+    const cost = game.mode === "hunt" ? 0 : PENALTY_MS;
+    addTime(-cost);
+    const li = document.createElement("li");
+    li.className = "trap";
+    li.innerHTML = `<b>Trap: ${esc(trap.name)}</b><em>${esc(trap.why)}</em>${cost ? "<span>−2s</span>" : ""}`;
+    $("misses").prepend(li);
+    shake();
+  }
+  // a correct answer below the call: it goes in the binder, costs time, and you keep digging
+  function under(p, entry) {
+    const isNew = collect(p.id, entry.name, entry.tier);
+    game.cur.under.push({ name: entry.name, tier: entry.tier, isNew });
+    addTime(-UNDER_MS);
+    const li = document.createElement("li");
+    li.className = `under c-${entry.tier}`;
+    li.innerHTML = `${esc(entry.name)}<span>${TIER[entry.tier].name} · too common for your call · −3s</span>`;
+    $("misses").prepend(li);
+    renderTopStats();
+  }
+
+  $("btn-pass").addEventListener("click", () => {
+    if (!game || !timer) return;
+    if (game.mode === "daily") finishRound(null);
+    else if (game.mode === "endless") endlessSkip();
+    else { stopTimer(); endHunt(); }
+  });
+
+  // ---------- "Did you mean …?" ----------
+  let pending = null;
+  function askConfirm(p, m, typed) {
+    pending = { p, m, typed, id: game.cur.id };
+    $("confirm-q").innerHTML = `Did you mean <b>${esc(m.entry.name)}</b>?`;
+    $("confirm").hidden = false;
+    $("confirm-yes").focus({ preventScroll: true });
+  }
+  function hideConfirm() {
+    pending = null;
+    $("confirm").hidden = true;
+    $("ask").hidden = true;
+  }
+  function confirmYes() {
+    if (!pending || !timer || !game || !game.cur || game.cur.id !== pending.id) return hideConfirm();
+    const { p, m, typed } = pending;
+    accept(p, m.entry, typed, true);
+    if (game && timer) focusInput();
+  }
+  function confirmNo() {
+    if (!pending) return;
+    const typed = pending.typed;
+    hideConfirm();
+    const inp = $("answer-input");
+    inp.value = typed;
+    focusInput();
+    inp.select();
+  }
+  $("confirm-yes").addEventListener("click", confirmYes);
+  $("confirm-no").addEventListener("click", confirmNo);
+  $("confirm").addEventListener("keydown", (e) => {
+    if (e.key === "Escape" || e.key === "n" || e.key === "N") { e.preventDefault(); confirmNo(); }
+    else if (e.key === "y" || e.key === "Y") { e.preventDefault(); confirmYes(); }
+  });
+
+  function finishRound(entry, typed, confirmed) {
+    stopTimer();
+    hideConfirm();
+    const r = game.cur;
+    if (entry) {
+      const mult = CALLS[r.call].mult;
+      Object.assign(r, { answer: entry.name, tier: entry.tier, base: entry.pts, mult, pts: entry.pts * mult, typed, confirmed: !!confirmed });
+      r.isNew = collect(r.id, entry.name, entry.tier);
+    }
+    game.rounds.push(r);
+    showReveal();
+  }
+
+  // ---------- reveal ----------
+  function showReveal() {
+    const r = game.rounds[game.rounds.length - 1];
+    const p = BY_ID[r.id];
+    renderTicks($("ticks-r"));
+    $("reveal-status").textContent = `Card ${game.i + 1} of ${game.ids.length} · ${dailyTotal()} pts`;
+    $("r-q").textContent = `${p.title ? p.title + " · " : ""}${p.q}`;
+    renderVerdict(r, p);
+    const rv = game.challenge && game.challenge.rounds[game.i];
+    $("r-rival").hidden = !rv;
+    if (rv) {
+      const c = CALLS[rv.call];
+      $("r-rival").innerHTML = `${esc(game.challenge.name || "Your friend")} played ` + (rv.tier
+        ? `<b>${esc(rv.answer)}</b> · ${TIER[rv.tier].name}${c.mult > 1 ? ` · ${c.name} ×${c.mult}` : ""} · ${rv.pts} pts`
+        : `nothing that scored (${c.name} call)`);
+    }
+    requestAnimationFrame(() => drawTail($("r-chart"), p, r.answer));
+    $("r-chart").setAttribute("aria-label", r.answer ? `Your answer ${r.answer} plotted among all accepted answers` : "All accepted answers, from most common to rarest");
+
+    const pool = (k) => LT.shuffle((p.tiers[k] || []).filter((n) => n !== r.answer), Math.random);
+    const rank = r.tier ? TIER_IDX[r.tier] : -1;
+    let picks = [];
+    if (r.tier === "outlier") picks = [...pool("outlier"), ...pool("deep")].slice(0, 4).map((n) => [n, (p.tiers.outlier || []).includes(n) ? "outlier" : "deep"]);
+    else picks = [...pool("outlier").slice(0, 1).map((n) => [n, "outlier"]), ...pool("deep").slice(0, 2).map((n) => [n, "deep"]), ...pool("tail").slice(0, 1).map((n) => [n, "tail"])];
+    $("r-could-h").textContent = rank >= 4 ? "Other deep cuts" : r.tier ? "Rarer cards you could have played" : "Cards that would have scored";
+    $("r-could-wrap").hidden = !picks.length;
+    $("r-could").innerHTML = picks.map(([n, t]) => `<li>${miniHTML(n, t, `${TIER[t].pts} pts`)}</li>`).join("");
+    for (const m of $("r-could").querySelectorAll(".mini.holo")) armTilt(m);
+
+    const traps = Object.entries(p.traps || {});
+    $("r-traps-wrap").hidden = !traps.length;
+    $("r-traps").innerHTML = traps.map(([n, why]) => {
+      const fell = r.traps.includes(n);
+      return `<li class="${fell ? "fell" : ""}"><b>✕</b><strong>${esc(n)}${fell ? ' · <span class="tag c-miss">you fell for this</span>' : ""}</strong><span>${esc(why)}</span></li>`;
+    }).join("");
+
+    const total = TIERS.reduce((a, t) => a + (p.tiers[t.key] || []).length, 0);
+    $("r-all").open = false;
+    $("r-all-sum").textContent = `All ${total} accepted answers`;
+    $("r-all-body").innerHTML = TIERS.filter((t) => (p.tiers[t.key] || []).length).map((t) =>
+      `<div class="all-tier"><span class="tag c-${t.key}"><span class="sym">${t.sym}</span> ${t.name} · ${t.pts}</span><ul>${p.tiers[t.key].map((n) => `<li class="${n === r.answer ? "me" : ""}">${esc(n)}</li>`).join("")}</ul></div>`).join("");
+
+    renderJudge(r, p);
+    renderTopStats();
+    $("btn-next").textContent = game.i + 1 >= game.ids.length ? "See your hand" : "Next card";
+    show("reveal");
+    $("btn-next").focus({ preventScroll: true });
+    if (game.tutorial && game.i === 0) {
+      coach(3, () => { store.set("tut", true); track("tutorial_complete"); $("btn-next").focus({ preventScroll: true }); });
+    } else coach(0);
+  }
+
+  function renderVerdict(r, p) {
+    const c = CALLS[r.call || "safe"];
+    const card = $("r-card");
+    const v = $("r-verdict");
+    card.onpointermove = null; card.onpointerleave = null; card.style.transform = "";
+    const newOnes = (r.isNew ? 1 : 0) + (r.under || []).filter((u) => u.isNew).length;
+    const binder = `${foundOf(p)}/${totalOf(p)} in binder${newOnes ? " · new" : ""}`;
+    if (r.tier) {
+      const t = TIER[r.tier];
+      v.className = `verdict-big c-${r.tier}`;
+      v.textContent = r.tier === "outlier" ? "Legendary pull" : `${t.name} card`;
+      card.className = `card result c-${r.tier}${r.tier === "outlier" ? " holo" : r.tier === "deep" ? " shiny" : ""}`;
+      card.innerHTML = `<div class="frame">
+          <div class="namebar"><b>${esc(r.answer)}</b><span class="sym">${t.sym}</span></div>
+          <div class="art"><span class="pts">+${r.pts}</span><span class="of">${t.pts} pts${c.mult > 1 ? ` × ${c.mult} · ${c.name} call` : ""}</span></div>
+          <div class="typeline"><span>${t.name}</span><span>${esc(p.cat)}</span></div>
+          <div class="textbox">${p.fact ? `<span class="flavor">${esc(p.fact)}</span>` : `<span class="flavor">${esc(p.q)}</span>`}</div>
+        </div>
+        <div class="foot"><span>${esc(collNo(p))}</span><span>${binder}</span></div>`;
+      if (r.tier === "outlier") armTilt(card);
+      $("r-said").innerHTML = r.judged ? "Ruled valid on appeal." : r.confirmed && r.typed ? `You typed “${esc(r.typed)}”.` : "";
+    } else {
+      const label = r.under && r.under.length ? "Missed the call" : r.misses.length ? "No match" : "Out of time";
+      v.className = "verdict-big c-miss";
+      v.textContent = label;
+      card.className = "card result";
+      card.innerHTML = `<div class="frame" style="--c:var(--ink-2)">
+          <div class="namebar"><b>No card</b><span>×</span></div>
+          <div class="art"><span class="pts" style="color:var(--ink-2)">+0</span><span class="of">${c.mult > 1 ? `${c.name} call · ${c.cond}` : "Safe call"}</span></div>
+          <div class="typeline"><span>${esc(label)}</span><span>${esc(p.cat)}</span></div>
+          <div class="textbox">${p.fact ? `<span class="flavor">${esc(p.fact)}</span>` : ""}</div>
+        </div>
+        <div class="foot"><span>${esc(collNo(p))}</span><span>${binder}</span></div>`;
+      $("r-said").innerHTML = r.under && r.under.length
+        ? `Correct, but too common: ${r.under.map((u) => `<b>${esc(u.name)}</b> (${TIER[u.tier].name})`).join(", ")}`
+        : r.misses.length ? `Tried: ${r.misses.map((m) => `<s>${esc(m)}</s>`).join(", ")}` : "No answer this time.";
+    }
+    $("r-note").textContent = newOnes > 1 ? `${newOnes} new cards for your binder.` : "";
+    $("r-note").hidden = newOnes <= 1;
+  }
+
+  // ---------- appeal to Claude (optional) ----------
+  function renderJudge(r, p) {
+    const box = $("r-judge");
+    const trapKeys = new Set(r.traps.map(LT.key));
+    const misses = [...new Set(r.misses.filter((m) => !trapKeys.has(LT.key(m))))].slice(-4);
+    box.hidden = !(sample && game.mode === "daily" && misses.length && !r.appealed);
+    $("r-judge-out").textContent = "";
+    $("r-judge-btns").innerHTML = misses.map((m, i) => `<button type="button" class="btn quiet" data-i="${i}">Appeal “${esc(m)}”</button>`).join("");
+    $("r-judge-btns").onclick = (e) => {
+      const b = e.target.closest("[data-i]");
+      if (b) appeal(r, p, misses[+b.dataset.i]);
+    };
+  }
+  async function appeal(r, p, guess) {
+    r.appealed = true;
+    for (const b of $("r-judge-btns").children) b.disabled = true;
+    const out = $("r-judge-out");
+    out.textContent = `Asking Claude about “${guess}”…`;
+    const accepted = TIERS.flatMap((t) => p.tiers[t.key] || []).slice(0, 400).join("; ");
+    const prompt = `You are the judge in a trivia game where players name any valid answer to a prompt.
+Prompt: "${p.q}"
+Rule: "${p.rule || "none"}"
+Accepted answers so far: ${accepted}
+Player's answer: "${guess}"
+
+Decide if the player's answer is factually a valid answer to the prompt under the rule. A misspelling or alternative name of an accepted answer is valid. A wrong fact is not. Be strict and accurate.
+If valid, also rate how rare an answer it would be among players: "head" (very common), "body" (known), "tail" (uncommon), "deep" (very obscure) or "outlier" (almost nobody would say it).
+Reply with only JSON like {"valid": true, "name": "Correct spelling", "tier": "tail", "reason": "One short sentence."}`;
+    try {
+      const res = await sample.json(prompt);
+      if (!res || typeof res !== "object") throw { code: "invalid_json" };
+      if (!res.valid) {
+        out.innerHTML = `<b>Ruled not valid.</b> ${esc(res.reason || "")}`;
+        return;
+      }
+      const name = String(res.name || guess).slice(0, 80);
+      const em = LT.match(indexFor(p), name);
+      const existing = em && (em.entry ? em.entry : em.options && em.options.length ? em.options[0] : null);
+      const tier = existing ? existing.tier : (TIER[res.tier] ? res.tier : "tail");
+      const shown = existing ? existing.name : name;
+      if (!existing) {
+        (learned[p.id] = learned[p.id] || []).push({ name, tier });
+        store.set("learned", learned);
+        delete indexCache[p.id];
+      }
+      collect(p.id, shown, tier);
+      const c = CALLS[r.call || "safe"];
+      const ok = meets(r.call, tier);
+      const pts = TIER[tier].pts * c.mult;
+      if (ok && pts > r.pts) Object.assign(r, { answer: shown, tier, base: TIER[tier].pts, mult: c.mult, pts, judged: true });
+      out.innerHTML = `<b>Ruled valid.</b> ${esc(res.reason || "")} ${esc(shown)} is a <span class="tag c-${tier}">${TIER[tier].name}</span> answer${ok ? "" : `, which is too common for your ${c.name} call`}.${existing ? "" : " The game will accept it from now on."}`;
+      renderVerdict(r, p);
+      renderTicks($("ticks-r"));
+      $("reveal-status").textContent = `Card ${game.i + 1} of ${game.ids.length} · ${dailyTotal()} pts`;
+    } catch (e) {
+      const code = e && e.code;
+      if (code === "not_granted" || code === "sampling_disabled" || code === "capability_disabled" || code === "capability_removed" || code === "not_declared") {
+        sample = null;
+        out.textContent = "Appeals aren't available here.";
+      } else if (code === "rate_limited") {
+        out.textContent = "Claude is busy right now. Try an appeal on a later card.";
+      } else {
+        out.textContent = "The appeal didn't go through. You can try again on the next card.";
+      }
+    }
+  }
+
+  $("btn-next").addEventListener("click", () => {
+    if (!game || game.mode !== "daily") return;
+    game.i++;
+    if (game.i >= game.ids.length) finishDaily();
+    else beginDailyRound();
+  });
+
+  // ---------- results ----------
+  function finishDaily() {
+    const result = {
+      day: game.day,
+      score: dailyTotal(),
+      rounds: game.rounds.map((r) => ({ id: r.id, answer: r.answer, tier: r.tier, pts: r.pts, call: r.call, mult: r.mult, under: (r.under || []).length, judged: !!r.judged })),
+    };
+    const ch = game.challenge;
+    if (game.official) {
+      store.set("daily:" + game.day, result);
+      const s = stats();
+      // streaks count only the day's own draw, played on the day
+      if (game.day === today() && s.lastDay !== game.day) {
+        s.played += 1;
+        s.streak = s.lastDay === game.day - 1 ? s.streak + 1 : 1;
+        s.lastDay = game.day;
+      }
+      s.best = Math.max(s.best, result.score);
+      store.set("stats", s);
+    }
+    store.set("tut", true);
+    track(ch ? "challenge_complete" : "daily_complete", ch ? { band: LT.band(result.score), won: String(result.score > ch.score) } : { band: LT.band(result.score) });
+    game = null;
+    showResults(result, ch);
+  }
+
+  let lastResult = null, lastChallenge = null;
+  function showResults(res, ch) {
+    lastResult = res;
+    lastChallenge = ch || null;
+    const num = res.day - LAUNCH + 1;
+    $("res-eyebrow").textContent = `Daily draw #${num} · your hand`;
+    $("res-score").textContent = res.score;
+    $("res-band").textContent = LT.band(res.score);
+    $("res-hand").innerHTML = fanHTML(res.rounds.map((r) => (r.tier && TIER[r.tier] ? miniHTML(r.answer, r.tier, `${r.pts} pts`) : dudHTML(r.under ? "Missed call" : "Miss", "0 pts"))));
+    for (const m of $("res-hand").querySelectorAll(".mini.holo")) armTilt(m);
+    const vs = $("res-versus");
+    vs.hidden = !ch;
+    if (ch) {
+      const who = esc(ch.name || "Your friend");
+      const diff = res.score - ch.score;
+      vs.innerHTML = `<span>You ${res.score}</span><span class="muted">vs</span><span>${who} ${ch.score}</span><span class="${diff > 0 ? "holo-text" : "muted"}">${diff > 0 ? `You win by ${diff}` : diff < 0 ? `${who} wins by ${-diff}` : "Dead heat"}</span>`;
+    }
+    const rivalById = ch ? Object.fromEntries(ch.rounds.map((r) => [r.id, r])) : {};
+    $("res-head").innerHTML = `<tr><th>Card</th><th>You played</th>${ch ? `<th>${esc(ch.name || "Friend")}</th>` : ""}<th style="text-align:right">Pts</th></tr>`;
+    const cell = (r) => (r && r.tier && TIER[r.tier]
+      ? `${esc(r.answer)}<br><span class="tag c-${r.tier}"><span class="sym">${TIER[r.tier].sym}</span> ${TIER[r.tier].name}${r.pts != null && ch ? ` · ${r.pts}` : ""}</span>`
+      : `<span class="tag c-miss">${r && r.under ? "Missed the call" : "Miss"}</span>`);
+    $("res-rows").innerHTML = res.rounds.map((r) => {
+      const p = BY_ID[r.id];
+      const q = p ? `${p.title ? `<b>${esc(p.title)}</b> · ` : ""}${esc(p.q)}` : esc(r.id);
+      const rare = p && p.tiers.outlier ? p.tiers.outlier[0] : "";
+      const c = CALLS[r.call || "safe"];
+      return `<tr><td>${q}${rare ? `<span class="muted">Legendary: ${esc(rare)}</span>` : ""}</td><td>${cell(r)}</td>${ch ? `<td>${cell(rivalById[r.id])}</td>` : ""}<td class="n">${r.pts}${c.mult > 1 ? `<span class="muted">${c.name} ×${c.mult}</span>` : ""}</td></tr>`;
+    }).join("");
+    $("share-name").value = store.get("name", "");
+    updateShare();
+    $("copy-note").textContent = "";
+    const s = stats();
+    $("res-stats").innerHTML = [["Played", s.played], ["Current streak", s.streak], ["Best daily", s.best], ["Best endless", s.endlessBest]]
+      .map(([k, v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join("");
+    renderTopStats();
+    show("results");
+  }
+  function shareText() {
+    const res = lastResult;
+    if (!res) return "";
+    const num = res.day - LAUNCH + 1;
+    const sq = res.rounds.map((r) => (r.tier && TIER[r.tier] ? TIER[r.tier].sq : LT.MISS_SQ)).join("");
+    const calls = res.rounds.map((r) => KEYCAP[CALLS[r.call || "safe"].mult]).join("");
+    const name = ($("share-name").value || "").trim();
+    const link = `${BASE_URL}#${encodeChallenge(res, name)}`;
+    const ch = lastChallenge;
+    const who = ch && (ch.name || "my friend");
+    const head = !ch ? `Long Tail #${num} · ${res.score} pts`
+      : res.score > ch.score ? `I beat ${who}'s ${ch.score} with ${res.score} on Long Tail #${num}`
+      : `${res.score} on Long Tail #${num} (${who} got ${ch.score})`;
+    return `${head}\n${sq}\n${calls}\n${LT.band(res.score)}\nBeat my score: ${link}`;
+  }
+  function updateShare() { $("share-text").value = shareText(); }
+  $("share-name").addEventListener("input", () => { store.set("name", $("share-name").value.trim().slice(0, 24)); updateShare(); });
+  $("btn-share").addEventListener("click", async () => {
+    const text = shareText();
+    track("share_click", { method: "share" });
+    if (ON_OWN_SITE && navigator.share) {
+      try { await navigator.share({ text }); $("copy-note").textContent = "Shared"; return; }
+      catch (e) { if (e && e.name === "AbortError") return; }
+    }
+    copyText(text, "Challenge copied. Paste it to a friend.");
+  });
+  function copyText(text, okMsg) {
+    const ta = $("share-text");
+    const fallback = () => { ta.focus(); ta.select(); $("copy-note").textContent = "Selected. Press Ctrl+C or ⌘C to copy."; };
+    try { navigator.clipboard.writeText(text).then(() => { $("copy-note").textContent = okMsg; }, fallback); } catch (e) { fallback(); }
+  }
+  $("btn-copy").addEventListener("click", () => { track("share_click", { method: "copy" }); copyText(shareText(), "Copied"); });
+  $("btn-res-home").addEventListener("click", renderHome);
+  $("btn-res-coll").addEventListener("click", renderCollection);
+  $("btn-res-endless").addEventListener("click", () => { renderHome(); $("endless-panel").hidden = false; $("btn-endless-go").focus(); });
+
+  // ---------- endless ----------
+  function startEndless(group) {
+    const pool = PROMPTS.filter((p) => group === "all" || LT.groupOf(p) === group);
+    if (!pool.length) return;
+    game = { mode: "endless", group, ids: LT.shuffle(pool.map((p) => p.id), Math.random), i: 0, rounds: [], score: 0 };
+    track("endless_start", { topic: group });
+    coach(0);
+    game.cur = newRound(BY_ID[game.ids[0]]);
+    renderRound();
+    setPhase("play", true);
+    show("play");
+    focusInput();
+    startTimer(ENDLESS_MS, endEndless);
+  }
+  function nextEndless() {
+    game.i++;
+    if (game.i >= game.ids.length) { game.ids = LT.shuffle(game.ids, Math.random); game.i = 0; }
+    game.cur = newRound(BY_ID[game.ids[game.i]]);
+    renderRound();
+    focusInput();
+  }
+  function toast(text, cls) { $("toast").innerHTML = `<div class="${cls}">${esc(text)}</div>`; }
+  function endlessHit(p, entry) {
+    const t = TIER[entry.tier];
+    Object.assign(game.cur, { answer: entry.name, tier: t.key, base: t.pts, pts: t.pts });
+    game.cur.isNew = collect(p.id, entry.name, t.key);
+    game.rounds.push(game.cur);
+    game.score += t.pts;
+    addTime(t.bonus * 1000);
+    const wasNew = game.cur.isNew;
+    nextEndless();
+    toast(`${entry.name} · ${t.name} +${t.pts} · +${t.bonus}s${wasNew ? " · new" : ""}`, `c-${t.key}`);
+    renderTopStats();
+  }
+  function endlessSkip() {
+    game.rounds.push(game.cur);
+    addTime(-SKIP_MS);
+    nextEndless();
+    toast("Skipped · −3s", "c-miss");
+  }
+  function endEndless() {
+    hideConfirm();
+    if (game.cur && !game.rounds.includes(game.cur)) game.rounds.push(game.cur);
+    const s = stats();
+    const isBest = game.score > s.endlessBest;
+    s.endlessBest = Math.max(s.endlessBest, game.score);
+    store.set("stats", s);
+    const answered = game.rounds.filter((r) => r.tier);
+    const newOnes = answered.filter((r) => r.isNew).length;
+    $("over-eyebrow").textContent = `Endless run · ${game.group === "all" ? "Everything" : LT.GROUPS[game.group]}`;
+    $("over-score").textContent = game.score;
+    $("over-of").textContent = `pts · ${answered.length} played`;
+    const best = answered.slice().sort((a, b) => b.pts - a.pts)[0];
+    $("over-best").innerHTML = (isBest && game.score > 0 ? '<b class="holo-text">New personal best.</b> ' : `Personal best: ${s.endlessBest}. `) +
+      (best ? `Best pull: <b>${esc(best.answer)}</b> <span class="tag c-${best.tier}">${TIER[best.tier].name}</span>. ` : "") +
+      (newOnes ? `${newOnes} new for your binder.` : "");
+    $("over-list").hidden = true;
+    $("over-left").hidden = true;
+    $("over-table").hidden = false;
+    $("over-rows").innerHTML = game.rounds.map((r) => {
+      const p = BY_ID[r.id];
+      return `<tr><td>${p.title ? `<b>${esc(p.title)}</b> · ` : ""}${esc(p.q)}<span class="muted">Legendary: ${esc((p.tiers.outlier || [""])[0])}</span></td><td>${r.tier ? `${esc(r.answer)}<br><span class="tag c-${r.tier}">${TIER[r.tier].name}${r.isNew ? " · new" : ""}</span>` : '<span class="tag c-miss">' + (r.misses && r.misses.length ? "Miss" : "Skipped") + "</span>"}</td><td class="n">${r.pts}</td></tr>`;
+    }).join("");
+    $("btn-again").textContent = "Run again";
+    renderTopStats();
+    show("over");
+  }
+
+  // ---------- hunt: one card, 60 seconds, as many answers as you can ----------
+  function startHunt(pid) {
+    const p = BY_ID[pid];
+    if (!p) return;
+    game = { mode: "hunt", ids: [pid], i: 0, rounds: [], named: [], newCount: 0, score: 0 };
+    track("hunt_start");
+    coach(0);
+    game.cur = newRound(p);
+    renderRound();
+    setPhase("play", true);
+    show("play");
+    focusInput();
+    startTimer(HUNT_MS, endHunt);
+  }
+  function updateHuntStatus() {
+    const p = BY_ID[game.cur.id];
+    $("play-status").textContent = `Hunt · ${game.named.length} named · ${game.newCount} new · ${foundOf(p)}/${totalOf(p)} in binder`;
+  }
+  function huntHit(p, entry) {
+    if (game.named.some((n) => n.name === entry.name)) { toast(`Already named ${entry.name}`, "c-head"); return; }
+    const isNew = collect(p.id, entry.name, entry.tier);
+    game.named.push({ name: entry.name, tier: entry.tier, isNew });
+    if (isNew) game.newCount++;
+    game.score += entry.pts;
+    const li = document.createElement("li");
+    li.className = `c-${entry.tier}${isNew ? " new" : ""}`;
+    li.textContent = entry.name;
+    $("named").appendChild(li);
+    toast(`${entry.name} · ${TIER[entry.tier].name}${isNew ? " · new" : ""}`, `c-${entry.tier}`);
+    updateHuntStatus();
+    renderTopStats();
+  }
+  function stillToFind(p) {
+    const f = found[p.id] || {};
+    const left = {};
+    for (const a of allAnswers(p)) if (!f[a.name]) left[a.tier] = (left[a.tier] || 0) + 1;
+    return TIERS.filter((t) => left[t.key]).map((t) => `${left[t.key]} ${t.name}`).join(" · ");
+  }
+  function endHunt() {
+    hideConfirm();
+    stopTimer();
+    const p = BY_ID[game.cur.id];
+    $("over-eyebrow").textContent = `Hunt · ${p.title || p.cat}`;
+    $("over-score").textContent = game.named.length;
+    $("over-of").textContent = `named · ${game.newCount} new`;
+    $("over-best").innerHTML = `<b>${esc(p.q)}</b>: ${foundOf(p)} of ${totalOf(p)} in your binder.`;
+    const list = $("over-list");
+    list.hidden = !game.named.length;
+    list.innerHTML = game.named.slice().sort((a, b) => TIER_IDX[b.tier] - TIER_IDX[a.tier]).map((n) => `<li>${miniHTML(n.name, n.tier, n.isNew ? "new" : `${TIER[n.tier].pts} pts`)}</li>`).join("");
+    for (const m of list.querySelectorAll(".mini.holo")) armTilt(m);
+    const left = stillToFind(p);
+    $("over-left").hidden = false;
+    $("over-left").textContent = left ? `Still to find: ${left}.` : "You've completed this page of your binder.";
+    $("over-table").hidden = true;
+    $("btn-again").textContent = "Hunt again";
+    renderTopStats();
+    show("over");
+  }
+  $("btn-again").addEventListener("click", () => {
+    if (game && game.mode === "hunt") startHunt(game.ids[0]);
+    else startEndless(game ? game.group : endlessGroup);
+  });
+  $("btn-over-home").addEventListener("click", () => { game = null; renderHome(); });
+  $("btn-over-coll").addEventListener("click", () => { game = null; renderCollection(); });
+
+  // ---------- binder ----------
+  function renderCollection() {
+    const tally = {}, totals = {};
+    let fAll = 0, tAll = 0;
+    const shelf = [];
+    for (const p of PROMPTS) {
+      const f = found[p.id] || {};
+      for (const a of allAnswers(p)) {
+        totals[a.tier] = (totals[a.tier] || 0) + 1;
+        tAll++;
+        if (f[a.name]) {
+          tally[a.tier] = (tally[a.tier] || 0) + 1;
+          fAll++;
+          if (a.tier === "outlier" || a.tier === "deep") shelf.push({ name: a.name, tier: a.tier, p });
+        }
+      }
+    }
+    $("coll-found").textContent = fAll;
+    $("coll-of").textContent = `of ${tAll.toLocaleString()} cards collected`;
+    $("coll-tally").innerHTML = TIERS.map((t) => `<div class="c-${t.key}"><b>${tally[t.key] || 0}<span class="muted" style="font:500 13px var(--f-mono)"> / ${totals[t.key] || 0}</span></b><span><span class="sym">${t.sym}</span> ${t.name}</span></div>`).join("");
+    shelf.sort((a, b) => TIER_IDX[b.tier] - TIER_IDX[a.tier]);
+    $("coll-shelf").innerHTML = shelf.length
+      ? shelf.map((s) => `<li title="${esc(s.p.q)}">${miniHTML(s.name, s.tier, s.p.title || s.p.cat)}</li>`).join("")
+      : `<li style="grid-column:1/-1"><p class="empty">No grails yet. Your Epic and Legendary answers will sit here.</p></li>`;
+    for (const m of $("coll-shelf").querySelectorAll(".mini.holo")) armTilt(m);
+    const groups = Object.keys(LT.GROUPS).filter((g) => PROMPTS.some((p) => LT.groupOf(p) === g));
+    $("coll-groups").innerHTML = groups.map((g) => {
+      const ps = PROMPTS.filter((p) => LT.groupOf(p) === g).slice().sort((a, b) => foundOf(b) / totalOf(b) - foundOf(a) / totalOf(a) || (a.title || a.q).localeCompare(b.title || b.q));
+      const gf = ps.reduce((a, p) => a + foundOf(p), 0), gt = ps.reduce((a, p) => a + totalOf(p), 0);
+      return `<div class="coll-group"><div class="row" style="justify-content:space-between"><h3>${LT.GROUPS[g]}</h3><span class="mono small muted">${gf} / ${gt}</span></div>${ps.map(pageHTML).join("")}</div>`;
+    }).join("");
+    renderTopStats();
+    show("collection");
+  }
+  function pageHTML(p) {
+    const f = found[p.id] || {};
+    const all = allAnswers(p);
+    const bar = TIERS.map((t) => {
+      const tot = all.filter((a) => a.tier === t.key).length;
+      if (!tot) return "";
+      const got = all.filter((a) => a.tier === t.key && f[a.name]).length;
+      return `<span class="c-${t.key}" style="flex:${tot}" title="${t.name}: ${got} of ${tot}"><i style="width:${((100 * got) / tot).toFixed(0)}%"></i></span>`;
+    }).join("");
+    const got = all.filter((a) => f[a.name]).length;
+    // found cards face up; the rest as empty sleeves that show only their rarity
+    const slots = all.slice().sort((a, b) => TIER_IDX[a.tier] - TIER_IDX[b.tier])
+      .map((a) => f[a.name] ? miniHTML(a.name, a.tier, "") : `<div class="mini empty c-${a.tier}" title="${TIER[a.tier].name}"><span>${TIER[a.tier].sym}</span></div>`).join("");
+    const left = stillToFind(p);
+    return `<details class="page"><summary><span class="tt">${esc(p.title || p.cat)}</span><span class="ct">${got} / ${all.length}</span><span class="qq">${esc(p.q)}</span><span class="tierbar" aria-hidden="true">${bar}</span></summary>
+      <div class="slots">${slots}</div>
+      <div class="page-foot"><span class="small muted">${left ? `Still to find: ${left}.` : "Page complete."}</span><button type="button" class="btn" data-hunt="${esc(p.id)}">Hunt this card</button></div>
+    </details>`;
+  }
+  $("coll-groups").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-hunt]");
+    if (b) startHunt(b.dataset.hunt);
+  });
+  $("coll-groups").addEventListener("toggle", (e) => {
+    if (e.target.open) for (const m of e.target.querySelectorAll(".mini.holo")) armTilt(m);
+  }, true);
+
+  // redraw charts when the width changes
+  let rz = 0;
+  window.addEventListener("resize", () => {
+    clearTimeout(rz);
+    rz = setTimeout(() => {
+      if (!$("home").hidden) renderHome();
+      else if (!$("reveal").hidden && game && game.rounds.length) { const r = game.rounds[game.rounds.length - 1]; drawTail($("r-chart"), BY_ID[r.id], r.answer); }
+    }, 150);
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (!$("play").hidden && !$("calls").hidden && game && game.calling && ["1", "2", "3"].includes(e.key)) {
+      e.preventDefault();
+      chooseCall(CALL_ORDER[+e.key - 1]);
+      return;
+    }
+    if (e.key === "Enter" && !$("reveal").hidden && document.activeElement && document.activeElement.tagName !== "BUTTON" && document.activeElement.tagName !== "SUMMARY") {
+      $("btn-next").click();
+    }
+  });
+
+  // ---------- boot ----------
+  function start(data) {
+    incoming = readChallenge();
+    if (incoming) track("challenge_open");
+    const last = store.get("lastVisit", null);
+    if (last != null && last < today()) track("return_visit", { gap: String(today() - last) });
+    store.set("lastVisit", today());
+    renderHome();
+    const g = data && data.game;
+    if (g && g.mode === "daily" && g.day === today() && Array.isArray(g.ids) && g.ids.every((id) => BY_ID[id])) {
+      const official = LT.dailySet(PROMPTS, g.day, 7).map((p) => p.id).join() === g.ids.join();
+      game = { mode: "daily", day: g.day, ids: g.ids, i: Math.min(g.i, g.ids.length - 1), rounds: (g.rounds || []).slice(0, g.i), official, challenge: null, tutorial: false };
+      beginDailyRound();
+    }
+  }
+  window.addEventListener("hashchange", () => {
+    const c = readChallenge();
+    if (c && !game) { incoming = c; track("challenge_open"); renderHome(); }
+  });
+  try {
+    window.claude && window.claude.hot && window.claude.hot.snapshot && window.claude.hot.snapshot(() => ({
+      game: game && game.mode === "daily" ? { mode: "daily", day: game.day, ids: game.ids, i: game.i, rounds: game.rounds.slice(0, game.i) } : null,
+    }));
+  } catch (e) { /* no hot reload here */ }
+  const hot = window.claude && window.claude.hot;
+  if (hot && hot.ready) hot.ready(start); else start((hot && hot.data) || {});
+
+  if (window.claude && window.claude.use) {
+    window.claude.use("sample").then((s) => { sample = s || null; }).catch(() => { sample = null; });
+  }
+})();
+</script>
+</body>
+</html>
