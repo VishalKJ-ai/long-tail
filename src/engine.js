@@ -169,7 +169,12 @@
       }
     }
     if (best.length) {
-      if (best.length > 1) return { status: "ambiguous", entry: null, options: best.map((b) => b.e) };
+      if (best.length > 1) {
+        // a bare surname goes to the famous one ("Mozart", "Bach") when exactly one is far commoner than the rest
+        const byPts = best.slice().sort((x, y) => x.e.pts - y.e.pts);
+        if (bestS <= 1.5 && byPts[0].e.pts < byPts[1].e.pts && byPts[0].e.pts <= 25) return { status: "exact", entry: byPts[0].e, options: [] };
+        return { status: "ambiguous", entry: null, options: best.map((b) => b.e) };
+      }
       return { status: "exact", entry: commonest(best).e, options: [] };
     }
     for (const v of variants(k)) {

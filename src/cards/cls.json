@@ -1,0 +1,4231 @@
+[
+ {
+  "id": "sci-cls-element",
+  "cat": "Science",
+  "title": "Elementary",
+  "q": "A chemical element",
+  "rule": "Any of the 118 elements on the periodic table, including the recent synthetic ones; compounds, alloys and isotopes don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Oxygen",
+    "Hydrogen",
+    "Gold",
+    "Carbon",
+    "Iron",
+    "Helium"
+   ],
+   "hipster": [
+    "Uranium",
+    "Plutonium"
+   ],
+   "body": [
+    "Silver",
+    "Copper",
+    "Nitrogen",
+    "Sodium",
+    "Calcium",
+    "Zinc",
+    "Lead",
+    "Mercury",
+    "Neon",
+    "Chlorine",
+    "Potassium",
+    "Platinum",
+    "Aluminium",
+    "Silicon",
+    "Tin",
+    "Lithium",
+    "Magnesium",
+    "Sulfur",
+    "Phosphorus",
+    "Titanium",
+    "Nickel",
+    "Argon",
+    "Fluorine",
+    "Iodine",
+    "Arsenic",
+    "Tungsten",
+    "Cobalt",
+    "Chromium",
+    "Radon",
+    "Radium"
+   ],
+   "tail": [
+    "Krypton",
+    "Xenon",
+    "Bromine",
+    "Boron",
+    "Beryllium",
+    "Barium",
+    "Manganese",
+    "Cadmium",
+    "Antimony",
+    "Bismuth",
+    "Strontium",
+    "Zirconium",
+    "Vanadium",
+    "Selenium",
+    "Germanium",
+    "Gallium",
+    "Palladium",
+    "Iridium",
+    "Osmium",
+    "Thorium",
+    "Polonium",
+    "Francium",
+    "Neptunium",
+    "Americium",
+    "Einsteinium",
+    "Curium",
+    "Cerium",
+    "Caesium",
+    "Rhodium",
+    "Tellurium",
+    "Californium",
+    "Fermium",
+    "Nobelium"
+   ],
+   "deep": [
+    "Scandium",
+    "Yttrium",
+    "Niobium",
+    "Molybdenum",
+    "Technetium",
+    "Ruthenium",
+    "Indium",
+    "Rubidium",
+    "Lanthanum",
+    "Neodymium",
+    "Praseodymium",
+    "Samarium",
+    "Europium",
+    "Gadolinium",
+    "Terbium",
+    "Dysprosium",
+    "Holmium",
+    "Erbium",
+    "Thulium",
+    "Ytterbium",
+    "Lutetium",
+    "Hafnium",
+    "Tantalum",
+    "Rhenium",
+    "Thallium",
+    "Astatine",
+    "Actinium",
+    "Protactinium",
+    "Berkelium",
+    "Mendelevium",
+    "Lawrencium",
+    "Rutherfordium",
+    "Dubnium",
+    "Seaborgium",
+    "Bohrium",
+    "Hassium",
+    "Meitnerium",
+    "Roentgenium",
+    "Copernicium",
+    "Nihonium",
+    "Flerovium",
+    "Promethium"
+   ],
+   "outlier": [
+    "Oganesson",
+    "Tennessine",
+    "Livermorium",
+    "Moscovium",
+    "Darmstadtium"
+   ]
+  },
+  "alias": {
+   "Aluminium": [
+    "Aluminum"
+   ],
+   "Sulfur": [
+    "Sulphur"
+   ],
+   "Caesium": [
+    "Cesium"
+   ],
+   "Tungsten": [
+    "Wolfram"
+   ],
+   "Sodium": [
+    "Natrium"
+   ],
+   "Potassium": [
+    "Kalium"
+   ],
+   "Roentgenium": [
+    "Rontgenium"
+   ]
+  },
+  "traps": {
+   "Water": "A compound of hydrogen and oxygen, not an element.",
+   "Steel": "An alloy of iron and carbon.",
+   "Bronze": "An alloy of copper and tin.",
+   "Kryptonite": "A fictional mineral from Superman comics.",
+   "Diamond": "A form of carbon, not an element in its own right."
+  },
+  "fact": "Seaborgium, element 106, was the first element named after a person who was still alive, the chemist Glenn Seaborg."
+ },
+ {
+  "id": "sci-cls-constellation",
+  "cat": "Science",
+  "title": "Join the dots",
+  "q": "A constellation",
+  "rule": "The 88 official IAU constellations count, by Latin or English name; asterisms, single stars and star clusters don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Orion",
+    "Ursa Major",
+    "Cassiopeia",
+    "Taurus",
+    "Leo",
+    "Scorpius"
+   ],
+   "hipster": [
+    "Ophiuchus",
+    "Crux"
+   ],
+   "body": [
+    "Gemini",
+    "Cancer",
+    "Virgo",
+    "Libra",
+    "Sagittarius",
+    "Capricornus",
+    "Aquarius",
+    "Pisces",
+    "Aries",
+    "Ursa Minor",
+    "Canis Major",
+    "Canis Minor",
+    "Cygnus",
+    "Lyra",
+    "Pegasus",
+    "Andromeda",
+    "Perseus",
+    "Hercules",
+    "Draco",
+    "Aquila",
+    "Auriga",
+    "Boötes",
+    "Hydra",
+    "Phoenix",
+    "Centaurus",
+    "Cepheus",
+    "Cetus"
+   ],
+   "tail": [
+    "Lynx",
+    "Eridanus",
+    "Lepus",
+    "Delphinus",
+    "Corvus",
+    "Crater",
+    "Carina",
+    "Vela",
+    "Puppis",
+    "Lupus",
+    "Ara",
+    "Pavo",
+    "Tucana",
+    "Triangulum",
+    "Sagitta",
+    "Scutum",
+    "Serpens",
+    "Monoceros",
+    "Lacerta",
+    "Vulpecula",
+    "Canes Venatici",
+    "Coma Berenices",
+    "Corona Borealis",
+    "Corona Australis",
+    "Columba",
+    "Camelopardalis",
+    "Leo Minor",
+    "Sculptor",
+    "Fornax",
+    "Grus"
+   ],
+   "deep": [
+    "Apus",
+    "Chamaeleon",
+    "Circinus",
+    "Dorado",
+    "Equuleus",
+    "Horologium",
+    "Hydrus",
+    "Indus",
+    "Musca",
+    "Octans",
+    "Pictor",
+    "Piscis Austrinus",
+    "Pyxis",
+    "Reticulum",
+    "Sextans",
+    "Telescopium",
+    "Triangulum Australe",
+    "Volans"
+   ],
+   "outlier": [
+    "Mensa",
+    "Antlia",
+    "Caelum",
+    "Microscopium",
+    "Norma"
+   ]
+  },
+  "alias": {
+   "Scorpius": [
+    "Scorpio"
+   ],
+   "Capricornus": [
+    "Capricorn"
+   ],
+   "Crux": [
+    "Southern Cross"
+   ],
+   "Ursa Major": [
+    "Great Bear"
+   ],
+   "Ursa Minor": [
+    "Little Bear"
+   ],
+   "Canis Major": [
+    "Great Dog"
+   ],
+   "Canis Minor": [
+    "Little Dog"
+   ],
+   "Aquarius": [
+    "Water Bearer"
+   ],
+   "Gemini": [
+    "Twins"
+   ],
+   "Libra": [
+    "Scales"
+   ],
+   "Cygnus": [
+    "Swan"
+   ],
+   "Lyra": [
+    "Lyre"
+   ],
+   "Aquila": [
+    "Eagle"
+   ],
+   "Draco": [
+    "Dragon"
+   ],
+   "Delphinus": [
+    "Dolphin"
+   ],
+   "Corvus": [
+    "Crow"
+   ],
+   "Lupus": [
+    "Wolf"
+   ],
+   "Lepus": [
+    "Hare"
+   ],
+   "Cetus": [
+    "Whale"
+   ],
+   "Coma Berenices": [
+    "Berenice's Hair"
+   ],
+   "Canes Venatici": [
+    "Hunting Dogs"
+   ],
+   "Monoceros": [
+    "Unicorn"
+   ],
+   "Pavo": [
+    "Peacock"
+   ],
+   "Tucana": [
+    "Toucan"
+   ],
+   "Lacerta": [
+    "Lizard"
+   ],
+   "Vulpecula": [
+    "Fox"
+   ],
+   "Camelopardalis": [
+    "Giraffe"
+   ],
+   "Chamaeleon": [
+    "Chameleon"
+   ],
+   "Pegasus": [
+    "Winged Horse"
+   ],
+   "Boötes": [
+    "Herdsman"
+   ],
+   "Piscis Austrinus": [
+    "Southern Fish"
+   ],
+   "Triangulum Australe": [
+    "Southern Triangle"
+   ],
+   "Corona Borealis": [
+    "Northern Crown"
+   ],
+   "Corona Australis": [
+    "Southern Crown"
+   ],
+   "Serpens": [
+    "Serpent"
+   ]
+  },
+  "traps": {
+   "Big Dipper": "An asterism inside Ursa Major, not a constellation in its own right.",
+   "Plough": "An asterism inside Ursa Major, not a constellation in its own right.",
+   "Pleiades": "A star cluster in Taurus, not a constellation.",
+   "Orion's Belt": "An asterism inside Orion, not a constellation.",
+   "Argo Navis": "An old constellation since split into Carina, Puppis and Vela."
+  },
+  "fact": "Mensa, the Table, is the only constellation named after a feature on Earth: South Africa's Table Mountain."
+ },
+ {
+  "id": "spo-cls-english-club",
+  "cat": "Sport",
+  "title": "Ninety-two",
+  "q": "A Premier League or EFL club",
+  "rule": "Any of the 92 clubs in the top four English divisions in 2025-26; non-league and Scottish clubs don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Manchester United",
+    "Liverpool",
+    "Arsenal",
+    "Chelsea",
+    "Manchester City",
+    "Tottenham Hotspur"
+   ],
+   "hipster": [
+    "Wrexham",
+    "Leicester City"
+   ],
+   "body": [
+    "Everton",
+    "Newcastle United",
+    "West Ham United",
+    "Aston Villa",
+    "Leeds United",
+    "Nottingham Forest",
+    "Wolverhampton Wanderers",
+    "Southampton",
+    "Crystal Palace",
+    "Brighton & Hove Albion",
+    "Fulham",
+    "Brentford",
+    "Bournemouth",
+    "Burnley",
+    "Sunderland",
+    "Norwich City",
+    "Sheffield United",
+    "Sheffield Wednesday",
+    "Derby County",
+    "Birmingham City",
+    "Ipswich Town",
+    "Portsmouth",
+    "West Bromwich Albion",
+    "Stoke City",
+    "Watford",
+    "Swansea City"
+   ],
+   "tail": [
+    "Blackburn Rovers",
+    "Cardiff City",
+    "Middlesbrough",
+    "Coventry City",
+    "Queens Park Rangers",
+    "Bristol City",
+    "Hull City",
+    "Wigan Athletic",
+    "Bolton Wanderers",
+    "Luton Town",
+    "Reading",
+    "Blackpool",
+    "Huddersfield Town",
+    "Preston North End",
+    "Millwall",
+    "Charlton Athletic",
+    "Oxford United",
+    "Plymouth Argyle",
+    "Peterborough United",
+    "Barnsley",
+    "Rotherham United",
+    "Bradford City",
+    "Swindon Town",
+    "Bristol Rovers",
+    "Notts County",
+    "Oldham Athletic",
+    "Crewe Alexandra",
+    "Leyton Orient",
+    "AFC Wimbledon",
+    "Milton Keynes Dons",
+    "Stockport County",
+    "Doncaster Rovers"
+   ],
+   "deep": [
+    "Lincoln City",
+    "Mansfield Town",
+    "Wycombe Wanderers",
+    "Burton Albion",
+    "Exeter City",
+    "Port Vale",
+    "Northampton Town",
+    "Stevenage",
+    "Cambridge United",
+    "Salford City",
+    "Grimsby Town",
+    "Walsall",
+    "Colchester United",
+    "Gillingham",
+    "Chesterfield",
+    "Fleetwood Town",
+    "Accrington Stanley",
+    "Cheltenham Town",
+    "Shrewsbury Town",
+    "Tranmere Rovers",
+    "Newport County"
+   ],
+   "outlier": [
+    "Bromley",
+    "Barnet",
+    "Crawley Town",
+    "Harrogate Town",
+    "Barrow"
+   ]
+  },
+  "alias": {
+   "Manchester United": [
+    "Man United",
+    "Man Utd",
+    "Man U",
+    "Manchester Utd"
+   ],
+   "Manchester City": [
+    "Man City"
+   ],
+   "Tottenham Hotspur": [
+    "Spurs",
+    "Tottenham"
+   ],
+   "Wrexham": [
+    "Wrexham AFC"
+   ],
+   "Leicester City": [
+    "Leicester"
+   ],
+   "Newcastle United": [
+    "Newcastle",
+    "Newcastle Utd"
+   ],
+   "West Ham United": [
+    "West Ham",
+    "Hammers"
+   ],
+   "Aston Villa": [
+    "Villa"
+   ],
+   "Leeds United": [
+    "Leeds",
+    "Leeds Utd"
+   ],
+   "Nottingham Forest": [
+    "Forest",
+    "Notts Forest"
+   ],
+   "Wolverhampton Wanderers": [
+    "Wolves",
+    "Wolverhampton"
+   ],
+   "Crystal Palace": [
+    "Palace"
+   ],
+   "Brighton & Hove Albion": [
+    "Brighton",
+    "Brighton and Hove Albion"
+   ],
+   "Bournemouth": [
+    "AFC Bournemouth"
+   ],
+   "Norwich City": [
+    "Norwich"
+   ],
+   "Sheffield United": [
+    "Sheffield Utd",
+    "Sheff Utd"
+   ],
+   "Sheffield Wednesday": [
+    "Sheffield Weds",
+    "Sheff Wed"
+   ],
+   "Derby County": [
+    "Derby"
+   ],
+   "Birmingham City": [
+    "Birmingham"
+   ],
+   "Ipswich Town": [
+    "Ipswich"
+   ],
+   "Portsmouth": [
+    "Pompey"
+   ],
+   "West Bromwich Albion": [
+    "West Brom",
+    "WBA"
+   ],
+   "Stoke City": [
+    "Stoke"
+   ],
+   "Swansea City": [
+    "Swansea"
+   ],
+   "Blackburn Rovers": [
+    "Blackburn"
+   ],
+   "Cardiff City": [
+    "Cardiff"
+   ],
+   "Middlesbrough": [
+    "Boro"
+   ],
+   "Coventry City": [
+    "Coventry"
+   ],
+   "Queens Park Rangers": [
+    "QPR"
+   ],
+   "Hull City": [
+    "Hull"
+   ],
+   "Wigan Athletic": [
+    "Wigan"
+   ],
+   "Bolton Wanderers": [
+    "Bolton"
+   ],
+   "Luton Town": [
+    "Luton"
+   ],
+   "Huddersfield Town": [
+    "Huddersfield"
+   ],
+   "Preston North End": [
+    "Preston",
+    "PNE"
+   ],
+   "Charlton Athletic": [
+    "Charlton"
+   ],
+   "Oxford United": [
+    "Oxford",
+    "Oxford Utd"
+   ],
+   "Plymouth Argyle": [
+    "Plymouth"
+   ],
+   "Peterborough United": [
+    "Peterborough",
+    "Posh"
+   ],
+   "Rotherham United": [
+    "Rotherham"
+   ],
+   "Bradford City": [
+    "Bradford"
+   ],
+   "Swindon Town": [
+    "Swindon"
+   ],
+   "Oldham Athletic": [
+    "Oldham"
+   ],
+   "Crewe Alexandra": [
+    "Crewe"
+   ],
+   "Leyton Orient": [
+    "Orient"
+   ],
+   "AFC Wimbledon": [
+    "Wimbledon"
+   ],
+   "Milton Keynes Dons": [
+    "MK Dons",
+    "Milton Keynes"
+   ],
+   "Stockport County": [
+    "Stockport"
+   ],
+   "Doncaster Rovers": [
+    "Doncaster"
+   ],
+   "Lincoln City": [
+    "Lincoln"
+   ],
+   "Mansfield Town": [
+    "Mansfield"
+   ],
+   "Wycombe Wanderers": [
+    "Wycombe"
+   ],
+   "Burton Albion": [
+    "Burton"
+   ],
+   "Exeter City": [
+    "Exeter"
+   ],
+   "Northampton Town": [
+    "Northampton"
+   ],
+   "Cambridge United": [
+    "Cambridge",
+    "Cambridge Utd"
+   ],
+   "Salford City": [
+    "Salford"
+   ],
+   "Grimsby Town": [
+    "Grimsby"
+   ],
+   "Colchester United": [
+    "Colchester",
+    "Colchester Utd"
+   ],
+   "Fleetwood Town": [
+    "Fleetwood"
+   ],
+   "Accrington Stanley": [
+    "Accrington"
+   ],
+   "Cheltenham Town": [
+    "Cheltenham"
+   ],
+   "Shrewsbury Town": [
+    "Shrewsbury"
+   ],
+   "Tranmere Rovers": [
+    "Tranmere"
+   ],
+   "Newport County": [
+    "Newport"
+   ],
+   "Crawley Town": [
+    "Crawley"
+   ],
+   "Harrogate Town": [
+    "Harrogate"
+   ]
+  },
+  "traps": {
+   "Celtic": "A Scottish club, outside the English leagues.",
+   "Rangers": "A Scottish club; Queens Park Rangers is a different club.",
+   "Carlisle United": "Relegated from the EFL in 2025, so not among the 92 for 2025-26.",
+   "Morecambe": "Relegated from the EFL in 2025, so not among the 92 for 2025-26."
+  },
+  "fact": "Bromley were promoted to the Football League in 2024, for the first time in their history, after winning the National League play-off final at Wembley."
+ },
+ {
+  "id": "his-cls-us-president",
+  "cat": "History",
+  "title": "Oval Office",
+  "q": "A US president",
+  "rule": "Anyone who has held the office of US president, counted once however many terms they served; vice presidents and losing candidates don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Donald Trump",
+    "Barack Obama",
+    "Abraham Lincoln",
+    "George Washington",
+    "John F. Kennedy",
+    "Joe Biden"
+   ],
+   "hipster": [
+    "Millard Fillmore",
+    "Grover Cleveland"
+   ],
+   "body": [
+    "Bill Clinton",
+    "George W. Bush",
+    "Ronald Reagan",
+    "Richard Nixon",
+    "Jimmy Carter",
+    "Franklin D. Roosevelt",
+    "Theodore Roosevelt",
+    "Thomas Jefferson",
+    "Andrew Jackson",
+    "Harry S. Truman",
+    "Dwight D. Eisenhower",
+    "Lyndon B. Johnson",
+    "Woodrow Wilson",
+    "Ulysses S. Grant",
+    "Gerald Ford",
+    "George H. W. Bush",
+    "John Adams",
+    "Herbert Hoover",
+    "Calvin Coolidge",
+    "James Madison"
+   ],
+   "tail": [
+    "James Monroe",
+    "William Howard Taft",
+    "Andrew Johnson",
+    "James Buchanan",
+    "John Quincy Adams",
+    "Martin Van Buren",
+    "William Henry Harrison",
+    "Warren G. Harding"
+   ],
+   "deep": [
+    "James K. Polk",
+    "William McKinley",
+    "John Tyler",
+    "Zachary Taylor",
+    "James A. Garfield"
+   ],
+   "outlier": [
+    "Franklin Pierce",
+    "Chester A. Arthur",
+    "Rutherford B. Hayes",
+    "Benjamin Harrison"
+   ]
+  },
+  "alias": {
+   "Donald Trump": [
+    "Donald J. Trump"
+   ],
+   "Barack Obama": [
+    "Barack H. Obama"
+   ],
+   "Abraham Lincoln": [
+    "Abe Lincoln"
+   ],
+   "John F. Kennedy": [
+    "JFK",
+    "John Kennedy",
+    "John Fitzgerald Kennedy"
+   ],
+   "Joe Biden": [
+    "Joseph Biden",
+    "Joseph R. Biden"
+   ],
+   "Bill Clinton": [
+    "William Clinton",
+    "William Jefferson Clinton"
+   ],
+   "George W. Bush": [
+    "George Bush Jr",
+    "George Bush Junior",
+    "Dubya"
+   ],
+   "George H. W. Bush": [
+    "George Bush Sr",
+    "George Bush Senior"
+   ],
+   "Ronald Reagan": [
+    "Ronald W. Reagan"
+   ],
+   "Richard Nixon": [
+    "Richard M. Nixon"
+   ],
+   "Jimmy Carter": [
+    "James Carter",
+    "James Earl Carter"
+   ],
+   "Franklin D. Roosevelt": [
+    "Franklin Roosevelt",
+    "FDR",
+    "Franklin Delano Roosevelt"
+   ],
+   "Theodore Roosevelt": [
+    "Teddy Roosevelt"
+   ],
+   "Harry S. Truman": [
+    "Harry Truman"
+   ],
+   "Dwight D. Eisenhower": [
+    "Dwight Eisenhower",
+    "Ike"
+   ],
+   "Lyndon B. Johnson": [
+    "Lyndon Johnson",
+    "LBJ"
+   ],
+   "Woodrow Wilson": [
+    "Thomas Woodrow Wilson"
+   ],
+   "Ulysses S. Grant": [
+    "Ulysses Grant"
+   ],
+   "Gerald Ford": [
+    "Gerald R. Ford"
+   ],
+   "William Howard Taft": [
+    "William Taft"
+   ],
+   "John Quincy Adams": [
+    "John Q. Adams"
+   ],
+   "Martin Van Buren": [
+    "Van Buren"
+   ],
+   "William Henry Harrison": [
+    "William Harrison"
+   ],
+   "Warren G. Harding": [
+    "Warren Harding"
+   ],
+   "James K. Polk": [
+    "James Polk",
+    "James Knox Polk"
+   ],
+   "James A. Garfield": [
+    "James Garfield"
+   ],
+   "Chester A. Arthur": [
+    "Chester Arthur"
+   ],
+   "Rutherford B. Hayes": [
+    "Rutherford Hayes"
+   ]
+  },
+  "traps": {
+   "Benjamin Franklin": "A Founding Father who never held the presidency.",
+   "Alexander Hamilton": "A Founding Father and Treasury Secretary, never president.",
+   "Hillary Clinton": "A losing candidate in 2016, never president.",
+   "Kamala Harris": "A vice president and losing candidate, never president.",
+   "Jefferson Davis": "President of the Confederacy, not of the United States."
+  },
+  "fact": "William Henry Harrison gave the longest inaugural address on record, then died of illness 31 days into office, the shortest presidency ever."
+ },
+ {
+  "id": "his-cls-uk-pm",
+  "cat": "History",
+  "title": "Downing Street",
+  "q": "A UK prime minister",
+  "rule": "Anyone who has served as prime minister of Great Britain or the United Kingdom, counted once however many terms; opposition leaders don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Winston Churchill",
+    "Margaret Thatcher",
+    "Tony Blair",
+    "Boris Johnson",
+    "David Cameron",
+    "Theresa May"
+   ],
+   "hipster": [
+    "Robert Walpole",
+    "Liz Truss"
+   ],
+   "body": [
+    "Gordon Brown",
+    "John Major",
+    "Keir Starmer",
+    "Rishi Sunak",
+    "Andy Burnham",
+    "Clement Attlee",
+    "Harold Wilson",
+    "Edward Heath",
+    "James Callaghan",
+    "Anthony Eden",
+    "Harold Macmillan",
+    "Neville Chamberlain",
+    "David Lloyd George",
+    "William Gladstone",
+    "Benjamin Disraeli",
+    "Robert Peel",
+    "William Pitt the Younger",
+    "Arthur Wellesley",
+    "Stanley Baldwin",
+    "Herbert Asquith"
+   ],
+   "tail": [
+    "Ramsay MacDonald",
+    "Arthur Balfour",
+    "Alec Douglas-Home",
+    "Andrew Bonar Law",
+    "Henry Campbell-Bannerman",
+    "Henry John Temple",
+    "William Lamb",
+    "John Russell",
+    "Charles Grey",
+    "George Canning",
+    "Spencer Perceval",
+    "Robert Jenkinson",
+    "Frederick North",
+    "William Pitt the Elder",
+    "Robert Gascoyne-Cecil"
+   ],
+   "deep": [
+    "Henry Addington",
+    "Archibald Primrose",
+    "Edward Smith-Stanley",
+    "George Hamilton-Gordon",
+    "William Grenville",
+    "George Grenville",
+    "Henry Pelham",
+    "William Petty",
+    "Charles Watson-Wentworth",
+    "William Cavendish-Bentinck",
+    "Frederick Robinson"
+   ],
+   "outlier": [
+    "Spencer Compton",
+    "Thomas Pelham-Holles",
+    "William Cavendish",
+    "John Stuart",
+    "Augustus FitzRoy"
+   ]
+  },
+  "alias": {
+   "Winston Churchill": [
+    "Winston S. Churchill"
+   ],
+   "Boris Johnson": [
+    "Alexander Boris de Pfeffel Johnson"
+   ],
+   "Liz Truss": [
+    "Elizabeth Truss"
+   ],
+   "Andy Burnham": [
+    "Andrew Burnham"
+   ],
+   "Keir Starmer": [
+    "Sir Keir Starmer"
+   ],
+   "Clement Attlee": [
+    "Clem Attlee"
+   ],
+   "Edward Heath": [
+    "Ted Heath"
+   ],
+   "James Callaghan": [
+    "Jim Callaghan"
+   ],
+   "Anthony Eden": [
+    "Earl of Avon"
+   ],
+   "William Gladstone": [
+    "William Ewart Gladstone"
+   ],
+   "Benjamin Disraeli": [
+    "Earl of Beaconsfield",
+    "Lord Beaconsfield"
+   ],
+   "William Pitt the Younger": [
+    "William Pitt",
+    "Pitt the Younger"
+   ],
+   "Arthur Wellesley": [
+    "Duke of Wellington",
+    "Wellington",
+    "Lord Wellington"
+   ],
+   "Herbert Asquith": [
+    "H. H. Asquith",
+    "Herbert Henry Asquith",
+    "Earl of Oxford and Asquith"
+   ],
+   "David Lloyd George": [
+    "Lloyd George"
+   ],
+   "Ramsay MacDonald": [
+    "James Ramsay MacDonald"
+   ],
+   "Arthur Balfour": [
+    "Arthur James Balfour"
+   ],
+   "Alec Douglas-Home": [
+    "Lord Home",
+    "Earl of Home",
+    "Douglas-Home",
+    "Sir Alec Douglas-Home"
+   ],
+   "Andrew Bonar Law": [
+    "Bonar Law"
+   ],
+   "Henry Campbell-Bannerman": [
+    "Campbell-Bannerman",
+    "Sir Henry Campbell-Bannerman"
+   ],
+   "Henry John Temple": [
+    "Henry Temple",
+    "Lord Palmerston",
+    "Viscount Palmerston",
+    "Palmerston"
+   ],
+   "William Lamb": [
+    "Lord Melbourne",
+    "Viscount Melbourne",
+    "Melbourne"
+   ],
+   "John Russell": [
+    "Lord John Russell",
+    "Lord Russell",
+    "Earl Russell"
+   ],
+   "Charles Grey": [
+    "Earl Grey",
+    "Lord Grey",
+    "2nd Earl Grey"
+   ],
+   "Robert Jenkinson": [
+    "Lord Liverpool",
+    "Earl of Liverpool"
+   ],
+   "Frederick North": [
+    "Lord North"
+   ],
+   "William Pitt the Elder": [
+    "Pitt the Elder",
+    "Earl of Chatham",
+    "Lord Chatham"
+   ],
+   "Robert Gascoyne-Cecil": [
+    "Lord Salisbury",
+    "Marquess of Salisbury",
+    "Robert Cecil",
+    "Gascoyne-Cecil"
+   ],
+   "Henry Addington": [
+    "Viscount Sidmouth",
+    "Lord Sidmouth"
+   ],
+   "Archibald Primrose": [
+    "Lord Rosebery",
+    "Earl of Rosebery",
+    "Rosebery"
+   ],
+   "Edward Smith-Stanley": [
+    "Earl of Derby",
+    "Lord Derby",
+    "Edward Stanley",
+    "14th Earl of Derby"
+   ],
+   "George Hamilton-Gordon": [
+    "Earl of Aberdeen",
+    "Lord Aberdeen",
+    "George Gordon",
+    "Aberdeen"
+   ],
+   "William Grenville": [
+    "Lord Grenville",
+    "Baron Grenville"
+   ],
+   "William Petty": [
+    "Earl of Shelburne",
+    "Lord Shelburne",
+    "Shelburne"
+   ],
+   "William Cavendish-Bentinck": [
+    "Duke of Portland",
+    "Portland"
+   ],
+   "Frederick Robinson": [
+    "Viscount Goderich",
+    "Lord Goderich",
+    "Goderich"
+   ],
+   "Charles Watson-Wentworth": [
+    "Marquess of Rockingham",
+    "Lord Rockingham",
+    "Rockingham"
+   ],
+   "Spencer Compton": [
+    "Earl of Wilmington",
+    "Wilmington"
+   ],
+   "Thomas Pelham-Holles": [
+    "Duke of Newcastle",
+    "Pelham-Holles"
+   ],
+   "William Cavendish": [
+    "Duke of Devonshire",
+    "Devonshire"
+   ],
+   "John Stuart": [
+    "Earl of Bute",
+    "Lord Bute",
+    "Bute"
+   ],
+   "Augustus FitzRoy": [
+    "Duke of Grafton",
+    "Grafton"
+   ]
+  },
+  "traps": {
+   "Oliver Cromwell": "Lord Protector of the Commonwealth, an office that was not prime minister.",
+   "Jeremy Corbyn": "Led the Labour Party but never became prime minister.",
+   "Nigel Farage": "Has led parties but never been prime minister.",
+   "Neil Kinnock": "Led the Labour Party but never became prime minister."
+  },
+  "fact": "Spencer Perceval is the only British prime minister to have been assassinated, shot in the lobby of the House of Commons in 1812."
+ },
+ {
+  "id": "sci-cls-moon",
+  "cat": "Science",
+  "title": "Round and round",
+  "q": "A moon in our solar system",
+  "rule": "Named natural satellites of planets and dwarf planets count; Earth's own, artificial ones and asteroid moons don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Titan",
+    "Europa",
+    "Io",
+    "Phobos",
+    "Ganymede",
+    "Callisto"
+   ],
+   "hipster": [
+    "Charon",
+    "Enceladus"
+   ],
+   "body": [
+    "Deimos",
+    "Triton",
+    "Mimas",
+    "Tethys",
+    "Dione",
+    "Rhea",
+    "Iapetus",
+    "Miranda",
+    "Oberon",
+    "Titania",
+    "Ariel",
+    "Umbriel",
+    "Hyperion",
+    "Phoebe",
+    "Amalthea",
+    "Nereid",
+    "Proteus",
+    "Nix",
+    "Hydra",
+    "Puck"
+   ],
+   "tail": [
+    "Himalia",
+    "Elara",
+    "Pasiphae",
+    "Sinope",
+    "Lysithea",
+    "Carme",
+    "Ananke",
+    "Leda",
+    "Thebe",
+    "Adrastea",
+    "Metis",
+    "Janus",
+    "Epimetheus",
+    "Prometheus",
+    "Pandora",
+    "Atlas",
+    "Pan",
+    "Daphnis",
+    "Telesto",
+    "Calypso",
+    "Helene",
+    "Polydeuces",
+    "Kerberos",
+    "Styx",
+    "Dysnomia",
+    "Hiiaka",
+    "Namaka",
+    "Cordelia",
+    "Ophelia",
+    "Bianca",
+    "Cressida",
+    "Desdemona",
+    "Juliet",
+    "Portia",
+    "Rosalind",
+    "Belinda",
+    "Caliban",
+    "Sycorax",
+    "Prospero",
+    "Setebos",
+    "Stephano",
+    "Trinculo",
+    "Cupid",
+    "Mab",
+    "Perdita",
+    "Naiad",
+    "Thalassa",
+    "Despina",
+    "Galatea",
+    "Larissa"
+   ],
+   "deep": [
+    "Callirrhoe",
+    "Themisto",
+    "Megaclite",
+    "Taygete",
+    "Chaldene",
+    "Harpalyke",
+    "Kalyke",
+    "Iocaste",
+    "Erinome",
+    "Isonoe",
+    "Praxidike",
+    "Autonoe",
+    "Thyone",
+    "Hermippe",
+    "Aitne",
+    "Eurydome",
+    "Euanthe",
+    "Euporie",
+    "Orthosie",
+    "Sponde",
+    "Kale",
+    "Pasithee",
+    "Hegemone",
+    "Mneme",
+    "Aoede",
+    "Thelxinoe",
+    "Arche",
+    "Kallichore",
+    "Helike",
+    "Carpo",
+    "Eukelade",
+    "Cyllene",
+    "Kore",
+    "Herse",
+    "Dia",
+    "Valetudo",
+    "Methone",
+    "Pallene",
+    "Anthe",
+    "Aegaeon",
+    "Ymir",
+    "Paaliaq",
+    "Tarvos",
+    "Ijiraq",
+    "Suttungr",
+    "Kiviuq",
+    "Mundilfari",
+    "Albiorix",
+    "Skathi",
+    "Erriapus",
+    "Siarnaq",
+    "Thrymr",
+    "Narvi",
+    "Bestla",
+    "Bergelmir",
+    "Aegir",
+    "Bebhionn",
+    "Farbauti",
+    "Fenrir",
+    "Fornjot",
+    "Hati",
+    "Hyrrokkin",
+    "Kari",
+    "Loge",
+    "Skoll",
+    "Surtur",
+    "Jarnsaxa",
+    "Greip",
+    "Tarqeq",
+    "Francisco",
+    "Margaret",
+    "Ferdinand",
+    "Halimede",
+    "Sao",
+    "Psamathe",
+    "Laomedeia",
+    "Neso",
+    "Vanth",
+    "Weywot",
+    "Ersa",
+    "Pandia",
+    "Eupheme",
+    "Philophrosyne",
+    "Eirene",
+    "Angrboda",
+    "Alvaldi",
+    "Beli",
+    "Geirrod",
+    "Gerd",
+    "Gridr",
+    "Skrymir"
+   ],
+   "outlier": [
+    "Hippocamp",
+    "Xiangliu",
+    "Eggther",
+    "Gunnlod",
+    "Thiazzi"
+   ]
+  },
+  "alias": {
+   "Hiiaka": [
+    "Hi'iaka",
+    "Hiʻiaka"
+   ],
+   "Skathi": [
+    "Skadi"
+   ],
+   "Pasiphae": [
+    "Pasiphaë"
+   ]
+  },
+  "traps": {
+   "Moon": "Earth's own satellite is excluded by the rule.",
+   "Luna": "Another name for Earth's satellite, which the rule excludes.",
+   "Sputnik": "An artificial satellite, not a natural moon.",
+   "Endor": "A fictional forest moon from Star Wars.",
+   "Dimorphos": "Orbits an asteroid, not a planet or dwarf planet."
+  },
+  "fact": "Neptune's moon Hippocamp, found in Hubble images in 2013, is only about 35 km across and may be a chunk knocked off nearby Proteus."
+ },
+ {
+  "id": "his-cls-myth-deity",
+  "cat": "History",
+  "title": "Divine intervention",
+  "q": "A Greek, Roman or Norse deity",
+  "rule": "Gods and goddesses of Greek, Roman or Norse myth count, including Titans and primordial deities; heroes, demigods, monsters and nymphs don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Zeus",
+    "Thor",
+    "Odin",
+    "Poseidon",
+    "Athena",
+    "Hades"
+   ],
+   "hipster": [
+    "Loki",
+    "Janus"
+   ],
+   "body": [
+    "Apollo",
+    "Aphrodite",
+    "Ares",
+    "Artemis",
+    "Hera",
+    "Hermes",
+    "Hephaestus",
+    "Dionysus",
+    "Demeter",
+    "Persephone",
+    "Eros",
+    "Pan",
+    "Hecate",
+    "Hestia",
+    "Cronus",
+    "Gaia",
+    "Uranus",
+    "Helios",
+    "Selene",
+    "Nike",
+    "Jupiter",
+    "Juno",
+    "Mars",
+    "Venus",
+    "Neptune",
+    "Minerva",
+    "Diana",
+    "Mercury",
+    "Vulcan",
+    "Saturn",
+    "Pluto",
+    "Cupid",
+    "Bacchus",
+    "Ceres",
+    "Freya",
+    "Frigg",
+    "Baldur",
+    "Tyr",
+    "Heimdall",
+    "Freyr",
+    "Hel",
+    "Atlas",
+    "Prometheus"
+   ],
+   "tail": [
+    "Vesta",
+    "Proserpina",
+    "Fortuna",
+    "Aurora",
+    "Flora",
+    "Pomona",
+    "Bellona",
+    "Victoria",
+    "Sol",
+    "Luna",
+    "Faunus",
+    "Quirinus",
+    "Ops",
+    "Terminus",
+    "Vertumnus",
+    "Somnus",
+    "Tellus",
+    "Silvanus",
+    "Orcus",
+    "Mors",
+    "Aesculapius",
+    "Bona Dea",
+    "Rhea",
+    "Oceanus",
+    "Tethys",
+    "Hyperion",
+    "Themis",
+    "Mnemosyne",
+    "Leto",
+    "Hebe",
+    "Iris",
+    "Eris",
+    "Nemesis",
+    "Tyche",
+    "Hypnos",
+    "Thanatos",
+    "Morpheus",
+    "Nyx",
+    "Erebus",
+    "Chaos",
+    "Tartarus",
+    "Asclepius",
+    "Triton",
+    "Amphitrite",
+    "Nereus",
+    "Proteus",
+    "Thetis",
+    "Eos",
+    "Calliope",
+    "Bragi",
+    "Idun",
+    "Njord",
+    "Sif",
+    "Skadi",
+    "Vidar",
+    "Vali",
+    "Ullr",
+    "Forseti",
+    "Hodr",
+    "Hermod",
+    "Aegir",
+    "Ran",
+    "Mani",
+    "Nott",
+    "Sigyn"
+   ],
+   "deep": [
+    "Hygieia",
+    "Panacea",
+    "Priapus",
+    "Hymenaios",
+    "Momus",
+    "Moros",
+    "Ananke",
+    "Ate",
+    "Dike",
+    "Eirene",
+    "Eunomia",
+    "Enyo",
+    "Harmonia",
+    "Phobos",
+    "Deimos",
+    "Zelus",
+    "Kratos",
+    "Bia",
+    "Hemera",
+    "Aether",
+    "Pontus",
+    "Thalassa",
+    "Coeus",
+    "Crius",
+    "Iapetus",
+    "Theia",
+    "Phoebe",
+    "Dione",
+    "Metis",
+    "Asteria",
+    "Astraeus",
+    "Pallas",
+    "Perses",
+    "Epimetheus",
+    "Styx",
+    "Pheme",
+    "Plutus",
+    "Comus",
+    "Eileithyia",
+    "Glaucus",
+    "Leucothea",
+    "Palaemon",
+    "Brizo",
+    "Despoina",
+    "Zagreus",
+    "Galene",
+    "Clotho",
+    "Lachesis",
+    "Atropos",
+    "Clio",
+    "Erato",
+    "Euterpe",
+    "Melpomene",
+    "Polyhymnia",
+    "Terpsichore",
+    "Thalia",
+    "Urania",
+    "Aglaea",
+    "Euphrosyne",
+    "Alecto",
+    "Megaera",
+    "Tisiphone",
+    "Boreas",
+    "Zephyrus",
+    "Notus",
+    "Eurus",
+    "Liber",
+    "Libera",
+    "Juventas",
+    "Concordia",
+    "Discordia",
+    "Pax",
+    "Spes",
+    "Fides",
+    "Salus",
+    "Libitina",
+    "Carmenta",
+    "Lucina",
+    "Portunus",
+    "Consus",
+    "Fontus",
+    "Summanus",
+    "Dis Pater",
+    "Pietas",
+    "Virtus",
+    "Honos",
+    "Fauna",
+    "Feronia",
+    "Mater Matuta",
+    "Nanna",
+    "Gefjon",
+    "Eir",
+    "Fulla",
+    "Lofn",
+    "Sjofn",
+    "Snotra",
+    "Var",
+    "Syn",
+    "Hlin",
+    "Gna",
+    "Saga",
+    "Magni",
+    "Modi",
+    "Hoenir",
+    "Vili",
+    "Ve",
+    "Dagr",
+    "Jord"
+   ],
+   "outlier": [
+    "Fornax",
+    "Laverna",
+    "Angerona",
+    "Furrina",
+    "Sancus"
+   ]
+  },
+  "alias": {
+   "Odin": [
+    "Woden",
+    "Wotan"
+   ],
+   "Freya": [
+    "Freyja"
+   ],
+   "Frigg": [
+    "Frigga"
+   ],
+   "Baldur": [
+    "Balder",
+    "Baldr"
+   ],
+   "Tyr": [
+    "Tiw"
+   ],
+   "Heimdall": [
+    "Heimdallr"
+   ],
+   "Njord": [
+    "Njordr"
+   ],
+   "Idun": [
+    "Iduna",
+    "Idunn"
+   ],
+   "Ullr": [
+    "Ull"
+   ],
+   "Hodr": [
+    "Hod",
+    "Hodur"
+   ],
+   "Vidar": [
+    "Vithar"
+   ],
+   "Athena": [
+    "Athene",
+    "Pallas Athena"
+   ],
+   "Dionysus": [
+    "Dionysos"
+   ],
+   "Hephaestus": [
+    "Hephaistos"
+   ],
+   "Cronus": [
+    "Kronos",
+    "Cronos"
+   ],
+   "Gaia": [
+    "Gaea"
+   ],
+   "Uranus": [
+    "Ouranos"
+   ],
+   "Oceanus": [
+    "Okeanos"
+   ],
+   "Hecate": [
+    "Hekate"
+   ],
+   "Asclepius": [
+    "Asklepios"
+   ],
+   "Hygieia": [
+    "Hygeia"
+   ],
+   "Eileithyia": [
+    "Ilithyia"
+   ],
+   "Zephyrus": [
+    "Zephyr"
+   ],
+   "Erebus": [
+    "Erebos"
+   ],
+   "Jupiter": [
+    "Jove"
+   ],
+   "Proserpina": [
+    "Proserpine"
+   ],
+   "Hymenaios": [
+    "Hymen"
+   ]
+  },
+  "traps": {
+   "Hercules": "Usually classed as a demigod hero rather than a full god.",
+   "Anubis": "An Egyptian god, outside the Greek, Roman and Norse pantheons.",
+   "Ra": "An Egyptian sun god, outside the Greek, Roman and Norse pantheons.",
+   "Medusa": "A Gorgon, a monster rather than a goddess.",
+   "Fenrir": "A monstrous wolf of Norse myth, not a god."
+  },
+  "fact": "Fornax was the Roman goddess of ovens, and the Fornacalia festival was held in her honour so that the year's grain would be roasted without burning."
+ },
+ {
+  "id": "his-cls-shakespeare",
+  "cat": "Literature",
+  "title": "All the world's a stage",
+  "q": "A Shakespeare character",
+  "rule": "Named characters from Shakespeare's plays; unnamed roles, actors and the poems' characters don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Hamlet",
+    "Romeo",
+    "Juliet",
+    "Macbeth",
+    "Othello",
+    "Lady Macbeth"
+   ],
+   "hipster": [
+    "Iago",
+    "Puck"
+   ],
+   "body": [
+    "Lear",
+    "Prospero",
+    "Ophelia",
+    "Desdemona",
+    "Portia",
+    "Shylock",
+    "Falstaff",
+    "Oberon",
+    "Titania",
+    "Bottom",
+    "Caliban",
+    "Ariel",
+    "Miranda",
+    "Cordelia",
+    "Mercutio",
+    "Tybalt",
+    "Banquo",
+    "Macduff",
+    "Brutus",
+    "Cassius",
+    "Mark Antony",
+    "Julius Caesar",
+    "Cleopatra",
+    "Claudius",
+    "Gertrude",
+    "Polonius",
+    "Laertes",
+    "Horatio",
+    "Viola",
+    "Malvolio",
+    "Beatrice",
+    "Benedick",
+    "Rosalind",
+    "Katherina",
+    "Petruchio",
+    "Orlando",
+    "Hermia",
+    "Lysander",
+    "Helena",
+    "Demetrius",
+    "Theseus",
+    "Goneril",
+    "Regan",
+    "Edmund",
+    "Edgar",
+    "Rosencrantz",
+    "Guildenstern",
+    "Yorick",
+    "Fortinbras",
+    "Hotspur",
+    "Henry V",
+    "Titus Andronicus",
+    "Benvolio",
+    "Friar Laurence",
+    "Hippolyta",
+    "Orsino",
+    "Olivia",
+    "Feste"
+   ],
+   "tail": [
+    "Duncan",
+    "Malcolm",
+    "Fleance",
+    "Lady Macduff",
+    "Donalbain",
+    "Hecate",
+    "Emilia",
+    "Cassio",
+    "Roderigo",
+    "Brabantio",
+    "Bianca",
+    "Bassanio",
+    "Jessica",
+    "Lorenzo",
+    "Nerissa",
+    "Antonio",
+    "Launcelot Gobbo",
+    "Gratiano",
+    "Kent",
+    "Albany",
+    "Cornwall",
+    "Gloucester",
+    "Capulet",
+    "Lady Capulet",
+    "Montague",
+    "Paris",
+    "Escalus",
+    "Rosaline",
+    "Nurse",
+    "Peter Quince",
+    "Snug",
+    "Flute",
+    "Snout",
+    "Starveling",
+    "Egeus",
+    "Peaseblossom",
+    "Cobweb",
+    "Moth",
+    "Mustardseed",
+    "Ferdinand",
+    "Alonso",
+    "Sebastian",
+    "Gonzalo",
+    "Trinculo",
+    "Stephano",
+    "Sir Toby Belch",
+    "Sir Andrew Aguecheek",
+    "Maria",
+    "Fabian",
+    "Don Pedro",
+    "Don John",
+    "Leonato",
+    "Hero",
+    "Claudio",
+    "Dogberry",
+    "Verges",
+    "Margaret",
+    "Touchstone",
+    "Jaques",
+    "Celia",
+    "Audrey",
+    "Phebe",
+    "Silvius",
+    "Corin",
+    "Adam",
+    "Oliver",
+    "Duke Senior",
+    "Duke Frederick",
+    "Tranio",
+    "Lucentio",
+    "Baptista",
+    "Gremio",
+    "Hortensio",
+    "Grumio",
+    "Christopher Sly",
+    "Octavius",
+    "Calpurnia",
+    "Casca",
+    "Cinna",
+    "Lepidus",
+    "Enobarbus",
+    "Octavia",
+    "Charmian",
+    "Iras",
+    "Coriolanus",
+    "Volumnia",
+    "Aaron",
+    "Tamora",
+    "Lavinia",
+    "Saturninus",
+    "Richard III",
+    "Richard II",
+    "Henry IV",
+    "King John",
+    "John of Gaunt",
+    "Mistress Quickly",
+    "Pistol",
+    "Bardolph",
+    "Poins",
+    "Fluellen",
+    "Justice Shallow",
+    "Leontes",
+    "Hermione",
+    "Perdita",
+    "Polixenes",
+    "Florizel",
+    "Paulina",
+    "Autolycus",
+    "Imogen",
+    "Iachimo",
+    "Cloten",
+    "Pericles",
+    "Marina",
+    "Thaisa",
+    "Timon",
+    "Troilus",
+    "Cressida",
+    "Pandarus",
+    "Isabella",
+    "Lucio",
+    "Bertram",
+    "Parolles",
+    "Valentine",
+    "Proteus",
+    "Julia",
+    "Silvia",
+    "Launce",
+    "Speed",
+    "Berowne",
+    "Don Armado",
+    "Costard",
+    "Holofernes",
+    "Antipholus of Syracuse",
+    "Dromio of Syracuse",
+    "Cymbeline"
+   ],
+   "deep": [
+    "Osric",
+    "Marcellus",
+    "Bernardo",
+    "Francisco",
+    "Reynaldo",
+    "Voltemand",
+    "Cornelius",
+    "Seyton",
+    "Ross",
+    "Lennox",
+    "Angus",
+    "Siward",
+    "Menteith",
+    "Caithness",
+    "Montano",
+    "Lodovico",
+    "Oswald",
+    "Burgundy",
+    "Curan",
+    "Balthasar",
+    "Lady Montague",
+    "Friar John",
+    "Sampson",
+    "Gregory",
+    "Abraham",
+    "Philostrate",
+    "Adrian",
+    "Curio",
+    "Borachio",
+    "Conrade",
+    "Ursula",
+    "Friar Francis",
+    "Le Beau",
+    "Charles",
+    "Amiens",
+    "William",
+    "Sir Oliver Martext",
+    "Tubal",
+    "Salarino",
+    "Solanio",
+    "Old Gobbo",
+    "Vincentio",
+    "Biondello",
+    "Curtis",
+    "Decius",
+    "Metellus Cimber",
+    "Trebonius",
+    "Ligarius",
+    "Artemidorus",
+    "Flavius",
+    "Marullus",
+    "Cicero",
+    "Publius",
+    "Pindarus",
+    "Titinius",
+    "Messala",
+    "Strato",
+    "Lucilius",
+    "Cato",
+    "Volumnius",
+    "Dardanius",
+    "Clitus",
+    "Varro",
+    "Popilius Lena",
+    "Lucius",
+    "Pompey",
+    "Agrippa",
+    "Maecenas",
+    "Dolabella",
+    "Proculeius",
+    "Menas",
+    "Menecrates",
+    "Alexas",
+    "Mardian",
+    "Scarus",
+    "Canidius",
+    "Ventidius",
+    "Seleucus",
+    "Virgilia",
+    "Menenius",
+    "Aufidius",
+    "Cominius",
+    "Titus Lartius",
+    "Sicinius",
+    "Valeria",
+    "Marcus Andronicus",
+    "Bassianus",
+    "Alarbus",
+    "Quintus",
+    "Mutius",
+    "Chiron",
+    "Aemilius",
+    "Clarence",
+    "Buckingham",
+    "Hastings",
+    "Lady Anne",
+    "Catesby",
+    "Ratcliffe",
+    "Lovel",
+    "Tyrrel",
+    "Brakenbury",
+    "Richmond",
+    "Stanley",
+    "Queen Elizabeth",
+    "Peto",
+    "Gadshill",
+    "Mouldy",
+    "Shadow",
+    "Wart",
+    "Feeble",
+    "Davy",
+    "Fang",
+    "Snare",
+    "Doll Tearsheet",
+    "Justice Silence",
+    "Glendower",
+    "Mortimer",
+    "Worcester",
+    "Douglas",
+    "Vernon",
+    "Westmoreland",
+    "Lady Percy",
+    "John of Lancaster",
+    "Blunt",
+    "Francis",
+    "Nym",
+    "Gower",
+    "Macmorris",
+    "Jamy",
+    "Williams",
+    "Bates",
+    "Court",
+    "Montjoy",
+    "Exeter",
+    "Dauphin",
+    "Alice",
+    "Joan la Pucelle",
+    "Talbot",
+    "Jack Cade",
+    "Suffolk",
+    "Warwick",
+    "Clifford",
+    "Somerset",
+    "Cardinal Beaufort",
+    "Dick the Butcher",
+    "Henry VI",
+    "Henry VIII",
+    "Wolsey",
+    "Cranmer",
+    "Katherine of Aragon",
+    "Anne Bullen",
+    "Constance",
+    "Hubert",
+    "Arthur",
+    "Queen Eleanor",
+    "Blanche",
+    "Pandulph",
+    "Philip the Bastard",
+    "Mistress Ford",
+    "Mistress Page",
+    "Master Ford",
+    "Master Page",
+    "Anne Page",
+    "Fenton",
+    "Doctor Caius",
+    "Sir Hugh Evans",
+    "Slender",
+    "Simple",
+    "Rugby",
+    "Host of the Garter",
+    "Antipholus of Ephesus",
+    "Dromio of Ephesus",
+    "Adriana",
+    "Luciana",
+    "Egeon",
+    "Dr Pinch",
+    "Solinus",
+    "Angelo",
+    "Lucetta",
+    "Eglamour",
+    "Panthino",
+    "Thurio",
+    "Longaville",
+    "Dumaine",
+    "Boyet",
+    "Sir Nathaniel",
+    "Dull",
+    "Jaquenetta",
+    "Mercade",
+    "Mariana",
+    "Mistress Overdone",
+    "Elbow",
+    "Barnardine",
+    "Froth",
+    "Lafeu",
+    "Diana",
+    "Lavatch",
+    "Hector",
+    "Achilles",
+    "Ulysses",
+    "Ajax",
+    "Agamemnon",
+    "Nestor",
+    "Diomedes",
+    "Thersites",
+    "Priam",
+    "Cassandra",
+    "Aeneas",
+    "Patroclus",
+    "Menelaus",
+    "Andromache",
+    "Calchas",
+    "Antenor",
+    "Helen",
+    "Apemantus",
+    "Alcibiades",
+    "Lucullus",
+    "Sempronius",
+    "Timandra",
+    "Phrynia",
+    "Flaminius",
+    "Servilius",
+    "Cleon",
+    "Dionyza",
+    "Helicanus",
+    "Simonides",
+    "Cerimon",
+    "Lysimachus",
+    "Antiochus",
+    "Thaliard",
+    "Boult",
+    "Leonine",
+    "Posthumus Leonatus",
+    "Belarius",
+    "Guiderius",
+    "Arviragus",
+    "Pisanio",
+    "Philario",
+    "Caius Lucius",
+    "Camillo",
+    "Antigonus",
+    "Mamillius",
+    "Cleomenes",
+    "Dion",
+    "Archidamus",
+    "Mopsa",
+    "Dorcas"
+   ],
+   "outlier": [
+    "Abhorson",
+    "Dercetus",
+    "Lychorida",
+    "Bullcalf",
+    "Thidias"
+   ]
+  },
+  "alias": {
+   "Hamlet": [
+    "Prince Hamlet"
+   ],
+   "Lear": [
+    "King Lear"
+   ],
+   "Mark Antony": [
+    "Antony",
+    "Marc Antony",
+    "Mark Anthony",
+    "Marcus Antonius"
+   ],
+   "Julius Caesar": [
+    "Caesar"
+   ],
+   "Brutus": [
+    "Marcus Brutus"
+   ],
+   "Falstaff": [
+    "Sir John Falstaff",
+    "John Falstaff"
+   ],
+   "Bottom": [
+    "Nick Bottom"
+   ],
+   "Katherina": [
+    "Kate",
+    "Katharina",
+    "Katherine"
+   ],
+   "Henry V": [
+    "Prince Hal",
+    "Hal",
+    "King Henry V"
+   ],
+   "Hotspur": [
+    "Henry Percy",
+    "Harry Hotspur"
+   ],
+   "Friar Laurence": [
+    "Friar Lawrence"
+   ],
+   "Peter Quince": [
+    "Quince"
+   ],
+   "Flute": [
+    "Francis Flute"
+   ],
+   "Snout": [
+    "Tom Snout"
+   ],
+   "Starveling": [
+    "Robin Starveling"
+   ],
+   "Sir Toby Belch": [
+    "Toby Belch"
+   ],
+   "Sir Andrew Aguecheek": [
+    "Andrew Aguecheek",
+    "Aguecheek"
+   ],
+   "Mistress Quickly": [
+    "Mrs Quickly",
+    "Hostess Quickly",
+    "Nell Quickly"
+   ],
+   "Mistress Ford": [
+    "Mrs Ford",
+    "Alice Ford"
+   ],
+   "Mistress Page": [
+    "Mrs Page",
+    "Margaret Page"
+   ],
+   "Master Ford": [
+    "Mr Ford",
+    "Frank Ford"
+   ],
+   "Master Page": [
+    "Mr Page",
+    "George Page"
+   ],
+   "Justice Shallow": [
+    "Shallow",
+    "Robert Shallow"
+   ],
+   "Justice Silence": [
+    "Silence"
+   ],
+   "Sir Hugh Evans": [
+    "Hugh Evans",
+    "Sir Hugh"
+   ],
+   "Doctor Caius": [
+    "Dr Caius"
+   ],
+   "Sir Nathaniel": [
+    "Nathaniel"
+   ],
+   "Titus Andronicus": [
+    "Titus"
+   ],
+   "Richard III": [
+    "King Richard III"
+   ],
+   "Richard II": [
+    "King Richard II"
+   ],
+   "Henry IV": [
+    "King Henry IV",
+    "Bolingbroke",
+    "Henry Bolingbroke"
+   ],
+   "Henry VI": [
+    "King Henry VI"
+   ],
+   "Henry VIII": [
+    "King Henry VIII"
+   ],
+   "Launcelot Gobbo": [
+    "Lancelot Gobbo",
+    "Launcelot",
+    "Lancelot"
+   ],
+   "Antipholus of Syracuse": [
+    "Antipholus"
+   ],
+   "Dromio of Syracuse": [
+    "Dromio"
+   ],
+   "Imogen": [
+    "Innogen"
+   ],
+   "Posthumus Leonatus": [
+    "Posthumus"
+   ],
+   "Coriolanus": [
+    "Caius Martius"
+   ],
+   "Aufidius": [
+    "Tullus Aufidius"
+   ],
+   "Octavius": [
+    "Octavius Caesar",
+    "Octavian"
+   ],
+   "Decius": [
+    "Decius Brutus"
+   ],
+   "Philip the Bastard": [
+    "Philip Faulconbridge",
+    "Faulconbridge"
+   ],
+   "Anne Bullen": [
+    "Anne Boleyn"
+   ],
+   "Glendower": [
+    "Owen Glendower"
+   ],
+   "Joan la Pucelle": [
+    "Joan of Arc",
+    "Joan Pucelle"
+   ],
+   "Queen Eleanor": [
+    "Eleanor of Aquitaine"
+   ],
+   "Escalus": [
+    "Prince Escalus"
+   ],
+   "Sir Oliver Martext": [
+    "Oliver Martext",
+    "Martext"
+   ],
+   "Don Armado": [
+    "Armado",
+    "Don Adriano de Armado"
+   ],
+   "Berowne": [
+    "Biron"
+   ],
+   "Dr Pinch": [
+    "Doctor Pinch"
+   ],
+   "Cardinal Beaufort": [
+    "Beaufort"
+   ],
+   "Katherine of Aragon": [
+    "Catherine of Aragon",
+    "Queen Katherine"
+   ],
+   "John of Lancaster": [
+    "Prince John of Lancaster"
+   ],
+   "Host of the Garter": [
+    "Garter Host"
+   ],
+   "Capulet": [
+    "Lord Capulet"
+   ],
+   "Montague": [
+    "Lord Montague"
+   ],
+   "Titus Lartius": [
+    "Lartius"
+   ],
+   "Caius Lucius": [
+    "Lucius Caius"
+   ]
+  },
+  "traps": {
+   "Dr Faustus": "A Christopher Marlowe character, not Shakespeare's.",
+   "Tamburlaine": "A Christopher Marlowe character, not Shakespeare's.",
+   "Don Quixote": "A Cervantes character, not Shakespeare's.",
+   "Antigone": "A Sophocles character, not Shakespeare's."
+  },
+  "fact": "In The Winter's Tale, Antigonus gets Shakespeare's most famous stage direction: \"Exit, pursued by a bear.\""
+ },
+ {
+  "id": "his-cls-painter",
+  "cat": "Art",
+  "title": "Brushstrokes",
+  "q": "A famous painter",
+  "rule": "Artists best known as painters count, including any who also sculpted; sculptors, photographers and architects don't.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Pablo Picasso",
+    "Vincent van Gogh",
+    "Leonardo da Vinci",
+    "Claude Monet",
+    "Salvador Dalí",
+    "Rembrandt van Rijn"
+   ],
+   "hipster": [
+    "Frida Kahlo",
+    "Jackson Pollock"
+   ],
+   "body": [
+    "Michelangelo",
+    "Raphael",
+    "Édouard Manet",
+    "Pierre-Auguste Renoir",
+    "Edgar Degas",
+    "Paul Cézanne",
+    "Paul Gauguin",
+    "Henri Matisse",
+    "Georges Seurat",
+    "Johannes Vermeer",
+    "Andy Warhol",
+    "Edvard Munch",
+    "Gustav Klimt",
+    "Wassily Kandinsky",
+    "Piet Mondrian",
+    "Joan Miró",
+    "Francisco Goya",
+    "Diego Velázquez",
+    "J. M. W. Turner",
+    "John Constable",
+    "Thomas Gainsborough",
+    "David Hockney",
+    "L. S. Lowry",
+    "Francis Bacon",
+    "Lucian Freud",
+    "Edward Hopper",
+    "Georgia O'Keeffe",
+    "Mark Rothko",
+    "Marc Chagall",
+    "René Magritte",
+    "Sandro Botticelli",
+    "Titian",
+    "Caravaggio",
+    "Peter Paul Rubens",
+    "Hieronymus Bosch",
+    "Pieter Bruegel the Elder",
+    "William Blake",
+    "Camille Pissarro",
+    "Henri Rousseau",
+    "Henri de Toulouse-Lautrec",
+    "Roy Lichtenstein"
+   ],
+   "tail": [
+    "Giotto",
+    "Canaletto",
+    "Tintoretto",
+    "Paolo Veronese",
+    "Giorgione",
+    "Fra Angelico",
+    "Piero della Francesca",
+    "Andrea Mantegna",
+    "Masaccio",
+    "Giovanni Bellini",
+    "Artemisia Gentileschi",
+    "Amedeo Modigliani",
+    "Giorgio de Chirico",
+    "Giuseppe Arcimboldo",
+    "El Greco",
+    "Bartolomé Esteban Murillo",
+    "Francisco de Zurbarán",
+    "Frans Hals",
+    "Jan van Eyck",
+    "Anthony van Dyck",
+    "Albrecht Dürer",
+    "Hans Holbein the Younger",
+    "Lucas Cranach the Elder",
+    "Caspar David Friedrich",
+    "Egon Schiele",
+    "Franz Marc",
+    "Paul Klee",
+    "Max Ernst",
+    "Gerhard Richter",
+    "Kazimir Malevich",
+    "Ilya Repin",
+    "Alphonse Mucha",
+    "Katsushika Hokusai",
+    "Diego Rivera",
+    "Jean-Michel Basquiat",
+    "Jasper Johns",
+    "Robert Rauschenberg",
+    "Norman Rockwell",
+    "Grant Wood",
+    "Winslow Homer",
+    "John Singer Sargent",
+    "James McNeill Whistler",
+    "Mary Cassatt",
+    "Willem de Kooning",
+    "Joshua Reynolds",
+    "William Hogarth",
+    "George Stubbs",
+    "John Everett Millais",
+    "Dante Gabriel Rossetti",
+    "John William Waterhouse",
+    "Edward Burne-Jones",
+    "Bridget Riley",
+    "Peter Blake",
+    "Stanley Spencer",
+    "Berthe Morisot",
+    "Alfred Sisley",
+    "Gustave Courbet",
+    "Jean-François Millet",
+    "Eugène Delacroix",
+    "Jacques-Louis David",
+    "Jean-Auguste-Dominique Ingres",
+    "Théodore Géricault",
+    "Camille Corot",
+    "Georges Braque",
+    "Paul Signac",
+    "André Derain",
+    "Raoul Dufy",
+    "Fernand Léger",
+    "Nicolas Poussin",
+    "Claude Lorrain",
+    "Jean-Honoré Fragonard",
+    "François Boucher",
+    "Antoine Watteau",
+    "Rosa Bonheur",
+    "Jan Steen",
+    "Pieter de Hooch",
+    "Jacob van Ruisdael",
+    "Utagawa Hiroshige",
+    "Hilma af Klint",
+    "Anders Zorn",
+    "Carl Larsson",
+    "Ellsworth Kelly",
+    "Cy Twombly",
+    "Keith Haring",
+    "Bob Ross",
+    "Thomas Kinkade",
+    "Grandma Moses",
+    "Andrew Wyeth",
+    "Banksy"
+   ],
+   "deep": [
+    "Filippo Lippi",
+    "Filippino Lippi",
+    "Domenico Ghirlandaio",
+    "Perugino",
+    "Correggio",
+    "Parmigianino",
+    "Bronzino",
+    "Pontormo",
+    "Andrea del Sarto",
+    "Guido Reni",
+    "Annibale Carracci",
+    "Giambattista Tiepolo",
+    "Francesco Guardi",
+    "Giorgio Morandi",
+    "Umberto Boccioni",
+    "Giacomo Balla",
+    "Gino Severini",
+    "Carlo Carrà",
+    "Giovanni Segantini",
+    "Duccio",
+    "Cimabue",
+    "Simone Martini",
+    "Lorenzo Lotto",
+    "Sebastiano del Piombo",
+    "Antonello da Messina",
+    "Carlo Crivelli",
+    "Luca Signorelli",
+    "Paolo Uccello",
+    "Jacopo Bellini",
+    "Gentile Bellini",
+    "Lavinia Fontana",
+    "Rosalba Carriera",
+    "Orazio Gentileschi",
+    "Giulio Romano",
+    "Pieter Bruegel the Younger",
+    "Jacob Jordaens",
+    "Meindert Hobbema",
+    "Aelbert Cuyp",
+    "Gerard ter Borch",
+    "Judith Leyster",
+    "Rogier van der Weyden",
+    "Hans Memling",
+    "Hugo van der Goes",
+    "Robert Campin",
+    "Dirk Bouts",
+    "Quentin Matsys",
+    "Joachim Patinir",
+    "Jan Brueghel the Elder",
+    "Adriaen Brouwer",
+    "David Teniers the Younger",
+    "Jan Lievens",
+    "Ferdinand Bol",
+    "Gabriel Metsu",
+    "Willem Kalf",
+    "Pieter Saenredam",
+    "Paulus Potter",
+    "James Ensor",
+    "Paul Delvaux",
+    "Karel Appel",
+    "Theo van Doesburg",
+    "Kees van Dongen",
+    "Jan Toorop",
+    "Jozef Israëls",
+    "Johan Barthold Jongkind",
+    "Juan Gris",
+    "José de Ribera",
+    "Joaquín Sorolla",
+    "Antoni Tàpies",
+    "Fernando Botero",
+    "Roberto Matta",
+    "Wifredo Lam",
+    "Tarsila do Amaral",
+    "Candido Portinari",
+    "Rufino Tamayo",
+    "José Clemente Orozco",
+    "David Alfaro Siqueiros",
+    "Joaquín Torres-García",
+    "Leonora Carrington",
+    "Georges Rouault",
+    "Maurice de Vlaminck",
+    "Yves Klein",
+    "Jean Dubuffet",
+    "Gustave Caillebotte",
+    "Pierre Bonnard",
+    "Édouard Vuillard",
+    "Odilon Redon",
+    "Gustave Moreau",
+    "Pierre Puvis de Chavannes",
+    "Jean-Baptiste-Siméon Chardin",
+    "Élisabeth Vigée Le Brun",
+    "Jean-Baptiste Greuze",
+    "Suzanne Valadon",
+    "Tamara de Lempicka",
+    "Marie Laurencin",
+    "Sonia Delaunay",
+    "Robert Delaunay",
+    "Francis Picabia",
+    "Yves Tanguy",
+    "Georges de La Tour",
+    "Hyacinthe Rigaud",
+    "Gwen John",
+    "Augustus John",
+    "Vanessa Bell",
+    "Duncan Grant",
+    "Laura Knight",
+    "Howard Hodgkin",
+    "Patrick Heron",
+    "Ben Nicholson",
+    "Paul Nash",
+    "Graham Sutherland",
+    "Walter Sickert",
+    "Samuel Palmer",
+    "John Martin",
+    "Richard Dadd",
+    "Edwin Landseer",
+    "Henry Raeburn",
+    "Allan Ramsay",
+    "Joseph Wright of Derby",
+    "Thomas Lawrence",
+    "George Romney",
+    "Nicholas Hilliard",
+    "Peter Lely",
+    "Godfrey Kneller",
+    "Frederic Leighton",
+    "Lawrence Alma-Tadema",
+    "George Frederic Watts",
+    "William Holman Hunt",
+    "Jenny Saville",
+    "Chris Ofili",
+    "Jack Vettriano",
+    "John Piper",
+    "Eric Ravilious",
+    "Gillian Ayres",
+    "Peter Doig",
+    "Winifred Nicholson",
+    "Henry Fuseli",
+    "Angelica Kauffman",
+    "Matthias Grünewald",
+    "Albrecht Altdorfer",
+    "Hans Baldung",
+    "Oskar Kokoschka",
+    "Ernst Ludwig Kirchner",
+    "Emil Nolde",
+    "August Macke",
+    "Max Beckmann",
+    "Otto Dix",
+    "George Grosz",
+    "Anselm Kiefer",
+    "Georg Baselitz",
+    "Adolph Menzel",
+    "Max Liebermann",
+    "Lovis Corinth",
+    "Arnold Böcklin",
+    "Ferdinand Hodler",
+    "Friedensreich Hundertwasser",
+    "Gabriele Münter",
+    "Paula Modersohn-Becker",
+    "Josef Albers",
+    "Lyonel Feininger",
+    "Hans Hofmann",
+    "Ivan Aivazovsky",
+    "Mikhail Vrubel",
+    "Vasily Surikov",
+    "Isaac Levitan",
+    "Natalia Goncharova",
+    "Jan Matejko",
+    "Zdzisław Beksiński",
+    "Andrei Rublev",
+    "Nicholas Roerich",
+    "Valentin Serov",
+    "Ivan Shishkin",
+    "Viktor Vasnetsov",
+    "Pavel Filonov",
+    "Thomas Cole",
+    "Frederic Church",
+    "Albert Bierstadt",
+    "Thomas Eakins",
+    "Franz Kline",
+    "Barnett Newman",
+    "Clyfford Still",
+    "Helen Frankenthaler",
+    "Lee Krasner",
+    "Joan Mitchell",
+    "Robert Motherwell",
+    "Frank Stella",
+    "Agnes Martin",
+    "Jacob Lawrence",
+    "Romare Bearden",
+    "Gilbert Stuart",
+    "John Trumbull",
+    "Charles Willson Peale",
+    "Maxfield Parrish",
+    "N. C. Wyeth",
+    "Kehinde Wiley",
+    "Kerry James Marshall",
+    "Julian Schnabel",
+    "Alex Katz",
+    "Wayne Thiebaud",
+    "Richard Diebenkorn",
+    "John Singleton Copley",
+    "George Bellows",
+    "Robert Henri",
+    "William Merritt Chase",
+    "Childe Hassam",
+    "Frederic Remington",
+    "Charles M. Russell",
+    "Takashi Murakami",
+    "Qi Baishi",
+    "Xu Beihong",
+    "Zhang Daqian",
+    "Raja Ravi Varma",
+    "M. F. Husain",
+    "Amrita Sher-Gil",
+    "Albert Namatjira",
+    "Sidney Nolan",
+    "Arthur Streeton",
+    "Tom Roberts",
+    "Frederick McCubbin",
+    "Brett Whiteley",
+    "Arthur Boyd",
+    "Russell Drysdale",
+    "Emily Carr",
+    "Tom Thomson",
+    "Lawren Harris",
+    "Vilhelm Hammershøi",
+    "P. S. Krøyer",
+    "Akseli Gallen-Kallela",
+    "Johan Christian Dahl",
+    "Nikolai Astrup",
+    "Albert Edelfelt"
+   ],
+   "outlier": [
+    "Sofonisba Anguissola",
+    "Carel Fabritius",
+    "Hendrick Avercamp",
+    "Remedios Varo",
+    "Helene Schjerfbeck"
+   ]
+  },
+  "alias": {
+   "Leonardo da Vinci": [
+    "Leonardo",
+    "Da Vinci",
+    "Vinci"
+   ],
+   "Rembrandt van Rijn": [
+    "Rembrandt",
+    "Rembrandt Harmenszoon van Rijn",
+    "Rembrandt van Rhijn"
+   ],
+   "Vincent van Gogh": [
+    "Van Gogh"
+   ],
+   "Pablo Picasso": [
+    "Pablo Ruiz Picasso"
+   ],
+   "Michelangelo": [
+    "Michelangelo Buonarroti",
+    "Buonarroti"
+   ],
+   "Raphael": [
+    "Raffaello",
+    "Raffaello Sanzio",
+    "Raphael Sanzio",
+    "Sanzio"
+   ],
+   "Pierre-Auguste Renoir": [
+    "Auguste Renoir"
+   ],
+   "Edgar Degas": [
+    "De Gas"
+   ],
+   "Georges Seurat": [
+    "Georges-Pierre Seurat"
+   ],
+   "Johannes Vermeer": [
+    "Jan Vermeer",
+    "Jan van der Meer",
+    "Vermeer of Delft"
+   ],
+   "Diego Velázquez": [
+    "Diego Rodríguez de Silva y Velázquez",
+    "Velasquez",
+    "Diego Velasquez"
+   ],
+   "Francisco Goya": [
+    "Francisco de Goya",
+    "Francisco José de Goya"
+   ],
+   "J. M. W. Turner": [
+    "JMW Turner",
+    "Joseph Mallord William Turner",
+    "William Turner"
+   ],
+   "L. S. Lowry": [
+    "LS Lowry",
+    "Laurence Stephen Lowry"
+   ],
+   "Georgia O'Keeffe": [
+    "Georgia O'Keefe"
+   ],
+   "Titian": [
+    "Tiziano Vecellio",
+    "Tiziano"
+   ],
+   "Caravaggio": [
+    "Michelangelo Merisi da Caravaggio",
+    "Michelangelo Merisi"
+   ],
+   "Peter Paul Rubens": [
+    "Paul Rubens",
+    "Pieter Paul Rubens"
+   ],
+   "Hieronymus Bosch": [
+    "Jheronimus Bosch",
+    "Jeroen Bosch"
+   ],
+   "Pieter Bruegel the Elder": [
+    "Pieter Bruegel",
+    "Bruegel",
+    "Brueghel",
+    "Pieter Brueghel",
+    "Breughel",
+    "Pieter Brueghel the Elder",
+    "Pieter Breughel the Elder"
+   ],
+   "Pieter Bruegel the Younger": [
+    "Pieter Brueghel the Younger"
+   ],
+   "Jan Brueghel the Elder": [
+    "Jan Bruegel the Elder"
+   ],
+   "Henri de Toulouse-Lautrec": [
+    "Toulouse-Lautrec",
+    "Henri Toulouse-Lautrec",
+    "Lautrec"
+   ],
+   "Henri Rousseau": [
+    "Le Douanier Rousseau",
+    "Douanier Rousseau"
+   ],
+   "Giotto": [
+    "Giotto di Bondone"
+   ],
+   "Canaletto": [
+    "Giovanni Antonio Canal",
+    "Antonio Canal"
+   ],
+   "Tintoretto": [
+    "Jacopo Tintoretto",
+    "Jacopo Robusti"
+   ],
+   "Paolo Veronese": [
+    "Veronese",
+    "Paolo Caliari"
+   ],
+   "Giorgione": [
+    "Giorgio da Castelfranco"
+   ],
+   "Fra Angelico": [
+    "Angelico",
+    "Guido di Pietro"
+   ],
+   "Piero della Francesca": [
+    "Della Francesca"
+   ],
+   "El Greco": [
+    "Greco",
+    "Domenikos Theotokopoulos"
+   ],
+   "Bartolomé Esteban Murillo": [
+    "Bartolome Murillo",
+    "Murillo"
+   ],
+   "Francisco de Zurbarán": [
+    "Francisco Zurbarán"
+   ],
+   "Hans Holbein the Younger": [
+    "Hans Holbein",
+    "Holbein"
+   ],
+   "Lucas Cranach the Elder": [
+    "Lucas Cranach",
+    "Cranach"
+   ],
+   "Caspar David Friedrich": [
+    "Caspar Friedrich"
+   ],
+   "Katsushika Hokusai": [
+    "Hokusai"
+   ],
+   "Utagawa Hiroshige": [
+    "Hiroshige",
+    "Ando Hiroshige"
+   ],
+   "Jean-Michel Basquiat": [
+    "Basquiat"
+   ],
+   "John Singer Sargent": [
+    "John Sargent"
+   ],
+   "James McNeill Whistler": [
+    "James Whistler",
+    "James Abbott McNeill Whistler"
+   ],
+   "Willem de Kooning": [
+    "De Kooning"
+   ],
+   "Joshua Reynolds": [
+    "Sir Joshua Reynolds"
+   ],
+   "John Everett Millais": [
+    "John Millais",
+    "Sir John Everett Millais"
+   ],
+   "Dante Gabriel Rossetti": [
+    "Dante Rossetti"
+   ],
+   "John William Waterhouse": [
+    "J. W. Waterhouse",
+    "JW Waterhouse"
+   ],
+   "Edward Burne-Jones": [
+    "Edward Coley Burne-Jones",
+    "Burne-Jones"
+   ],
+   "Jean-Auguste-Dominique Ingres": [
+    "Ingres",
+    "Jean-Auguste Ingres"
+   ],
+   "Camille Corot": [
+    "Jean-Baptiste-Camille Corot",
+    "Corot"
+   ],
+   "Claude Lorrain": [
+    "Claude Gellée"
+   ],
+   "Antoine Watteau": [
+    "Jean-Antoine Watteau"
+   ],
+   "Jacob van Ruisdael": [
+    "Jacob van Ruysdael",
+    "Ruysdael"
+   ],
+   "Pieter de Hooch": [
+    "Pieter de Hoogh"
+   ],
+   "Quentin Matsys": [
+    "Quentin Massys",
+    "Quinten Massys",
+    "Quinten Matsys"
+   ],
+   "Rogier van der Weyden": [
+    "Roger van der Weyden"
+   ],
+   "Anthony van Dyck": [
+    "Anthonis van Dyck",
+    "Van Dyck",
+    "Van Dyke",
+    "Anthony van Dyke"
+   ],
+   "Jan van Eyck": [
+    "Van Eyck"
+   ],
+   "Gerard ter Borch": [
+    "Gerard Terborch",
+    "Ter Borch",
+    "Terborch"
+   ],
+   "Giuseppe Arcimboldo": [
+    "Arcimboldi"
+   ],
+   "Alphonse Mucha": [
+    "Alfons Mucha"
+   ],
+   "Kazimir Malevich": [
+    "Kasimir Malevich",
+    "Kazimir Malevitch"
+   ],
+   "Ilya Repin": [
+    "Ilia Repin"
+   ],
+   "Wassily Kandinsky": [
+    "Vasily Kandinsky",
+    "Vassily Kandinsky",
+    "Wassily Kandinski"
+   ],
+   "Piet Mondrian": [
+    "Piet Mondriaan",
+    "Pieter Cornelis Mondriaan"
+   ],
+   "Edvard Munch": [
+    "Edward Munch"
+   ],
+   "Vilhelm Hammershøi": [
+    "Vilhelm Hammershoi"
+   ],
+   "P. S. Krøyer": [
+    "P. S. Kroyer",
+    "Peder Severin Krøyer",
+    "Peder Severin Kroyer"
+   ],
+   "Johan Christian Dahl": [
+    "J. C. Dahl"
+   ],
+   "Tamara de Lempicka": [
+    "Tamara Lempicka"
+   ],
+   "Élisabeth Vigée Le Brun": [
+    "Vigée Le Brun",
+    "Vigee Lebrun",
+    "Elisabeth Louise Vigée Le Brun"
+   ],
+   "Jean-Baptiste-Siméon Chardin": [
+    "Jean-Baptiste Chardin",
+    "Chardin"
+   ],
+   "Pierre Puvis de Chavannes": [
+    "Puvis de Chavannes"
+   ],
+   "Georges de La Tour": [
+    "La Tour"
+   ],
+   "N. C. Wyeth": [
+    "NC Wyeth",
+    "Newell Convers Wyeth"
+   ],
+   "Grandma Moses": [
+    "Anna Mary Robertson Moses",
+    "Anna Moses"
+   ],
+   "Raja Ravi Varma": [
+    "Ravi Varma"
+   ],
+   "M. F. Husain": [
+    "MF Husain",
+    "Maqbool Fida Husain"
+   ],
+   "Zdzisław Beksiński": [
+    "Zdzislaw Beksinski"
+   ],
+   "Ivan Aivazovsky": [
+    "Ivan Aivazovski",
+    "Hovhannes Aivazovsky"
+   ],
+   "Andrei Rublev": [
+    "Andrey Rublev"
+   ],
+   "Nicholas Roerich": [
+    "Nikolai Roerich"
+   ],
+   "Akseli Gallen-Kallela": [
+    "Gallen-Kallela"
+   ],
+   "Jacob Jordaens": [
+    "Jacques Jordaens"
+   ],
+   "Carel Fabritius": [
+    "Fabritius"
+   ],
+   "Jackson Pollock": [
+    "Paul Jackson Pollock"
+   ],
+   "Frida Kahlo": [
+    "Frida Kahlo de Rivera"
+   ]
+  },
+  "traps": {
+   "Auguste Rodin": "A sculptor rather than a painter.",
+   "Henry Moore": "A sculptor rather than a painter.",
+   "Donatello": "A sculptor rather than a painter.",
+   "Ansel Adams": "A photographer rather than a painter.",
+   "Antoni Gaudí": "An architect rather than a painter."
+  },
+  "fact": "Carel Fabritius, a pupil of Rembrandt, died in 1654 aged 32 when a gunpowder store exploded in Delft, destroying much of his work, and only about a dozen paintings survive."
+ },
+ {
+  "id": "his-cls-composer",
+  "cat": "Music",
+  "title": "Maestro",
+  "q": "A classical composer",
+  "rule": "Composers of Western classical music, from medieval to contemporary; film, pop and jazz composers don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Wolfgang Amadeus Mozart",
+    "Ludwig van Beethoven",
+    "Johann Sebastian Bach",
+    "Frédéric Chopin",
+    "Antonio Vivaldi",
+    "Pyotr Ilyich Tchaikovsky"
+   ],
+   "hipster": [
+    "Erik Satie",
+    "Johann Pachelbel"
+   ],
+   "body": [
+    "Joseph Haydn",
+    "Franz Schubert",
+    "Johannes Brahms",
+    "George Frideric Handel",
+    "Richard Wagner",
+    "Giuseppe Verdi",
+    "Giacomo Puccini",
+    "Claude Debussy",
+    "Maurice Ravel",
+    "Igor Stravinsky",
+    "Sergei Rachmaninoff",
+    "Gustav Mahler",
+    "Edward Elgar",
+    "Antonín Dvořák",
+    "Franz Liszt",
+    "Robert Schumann",
+    "Gioachino Rossini",
+    "Felix Mendelssohn",
+    "Hector Berlioz",
+    "Edvard Grieg",
+    "Jean Sibelius",
+    "Camille Saint-Saëns",
+    "Georges Bizet",
+    "Sergei Prokofiev",
+    "Dmitri Shostakovich",
+    "Gustav Holst",
+    "Ralph Vaughan Williams",
+    "Benjamin Britten",
+    "Aaron Copland",
+    "Leonard Bernstein",
+    "George Gershwin",
+    "Richard Strauss",
+    "Johann Strauss II",
+    "Henry Purcell",
+    "Claudio Monteverdi",
+    "Philip Glass",
+    "Béla Bartók",
+    "Niccolò Paganini",
+    "Jacques Offenbach",
+    "Modest Mussorgsky",
+    "Nikolai Rimsky-Korsakov"
+   ],
+   "tail": [
+    "Georg Philipp Telemann",
+    "Anton Bruckner",
+    "Gaetano Donizetti",
+    "Vincenzo Bellini",
+    "Charles Gounod",
+    "Gabriel Fauré",
+    "Arthur Sullivan",
+    "Bedřich Smetana",
+    "Alexander Borodin",
+    "Mikhail Glinka",
+    "Alexander Scriabin",
+    "Leoš Janáček",
+    "Zoltán Kodály",
+    "Arvo Pärt",
+    "Samuel Barber",
+    "Charles Ives",
+    "John Cage",
+    "Steve Reich",
+    "John Adams",
+    "Arnold Schoenberg",
+    "Alban Berg",
+    "Anton Webern",
+    "Olivier Messiaen",
+    "Pierre Boulez",
+    "Karlheinz Stockhausen",
+    "György Ligeti",
+    "Paul Hindemith",
+    "Kurt Weill",
+    "Carl Orff",
+    "William Walton",
+    "Michael Tippett",
+    "Francis Poulenc",
+    "Joaquín Rodrigo",
+    "Manuel de Falla",
+    "Isaac Albéniz",
+    "Enrique Granados",
+    "Ottorino Respighi",
+    "Carl Maria von Weber",
+    "Christoph Willibald Gluck",
+    "Arcangelo Corelli",
+    "Jean-Philippe Rameau",
+    "François Couperin",
+    "Jean-Baptiste Lully",
+    "Domenico Scarlatti",
+    "Tomaso Albinoni",
+    "Thomas Tallis",
+    "William Byrd",
+    "John Dowland",
+    "Giovanni Pierluigi da Palestrina",
+    "Hildegard of Bingen",
+    "Clara Schumann",
+    "Fanny Mendelssohn",
+    "Max Bruch",
+    "Engelbert Humperdinck",
+    "Franz Lehár",
+    "Carl Nielsen",
+    "Frederick Delius",
+    "Hubert Parry",
+    "Ludovico Einaudi",
+    "Max Richter",
+    "Michael Nyman",
+    "Karl Jenkins",
+    "John Rutter",
+    "Heitor Villa-Lobos",
+    "Astor Piazzolla",
+    "Johann Strauss I",
+    "Josef Strauss",
+    "Muzio Clementi",
+    "Antonio Salieri",
+    "Luigi Boccherini",
+    "Dmitry Kabalevsky",
+    "Aram Khachaturian"
+   ],
+   "deep": [
+    "Guillaume de Machaut",
+    "Guillaume Dufay",
+    "Johannes Ockeghem",
+    "Josquin des Prez",
+    "Orlande de Lassus",
+    "Tomás Luis de Victoria",
+    "Carlo Gesualdo",
+    "Thomas Morley",
+    "Orlando Gibbons",
+    "Heinrich Schütz",
+    "John Taverner",
+    "Thomas Weelkes",
+    "Giovanni Gabrieli",
+    "Girolamo Frescobaldi",
+    "Jacopo Peri",
+    "Giulio Caccini",
+    "Luca Marenzio",
+    "Adrian Willaert",
+    "Jacques Arcadelt",
+    "Clément Janequin",
+    "Pierre de la Rue",
+    "Heinrich Isaac",
+    "Jacob Obrecht",
+    "John Bull",
+    "John Blow",
+    "Matthew Locke",
+    "William Boyce",
+    "Thomas Arne",
+    "Maurice Greene",
+    "John Stainer",
+    "Charles Villiers Stanford",
+    "Samuel Coleridge-Taylor",
+    "Alessandro Scarlatti",
+    "Dietrich Buxtehude",
+    "Marc-Antoine Charpentier",
+    "Giovanni Battista Pergolesi",
+    "Heinrich Biber",
+    "Johann Joseph Fux",
+    "Francesco Cavalli",
+    "Barbara Strozzi",
+    "Élisabeth Jacquet de La Guerre",
+    "Georg Muffat",
+    "Giuseppe Torelli",
+    "Francesco Geminiani",
+    "Pietro Locatelli",
+    "Johann Adolf Hasse",
+    "Marin Marais",
+    "Michel-Richard de Lalande",
+    "André Campra",
+    "Antonio Caldara",
+    "Benedetto Marcello",
+    "Johann Kuhnau",
+    "Carl Philipp Emanuel Bach",
+    "Johann Christian Bach",
+    "Wilhelm Friedemann Bach",
+    "Johann Nepomuk Hummel",
+    "Michael Haydn",
+    "Johann Stamitz",
+    "Domenico Cimarosa",
+    "Giovanni Paisiello",
+    "Luigi Cherubini",
+    "Étienne Méhul",
+    "François-Joseph Gossec",
+    "Leopold Mozart",
+    "Carl Czerny",
+    "Anton Diabelli",
+    "Carl Ditters von Dittersdorf",
+    "Johann Baptist Vanhal",
+    "Ignaz Pleyel",
+    "Josef Mysliveček",
+    "Joseph Bologne",
+    "Ferdinand Ries",
+    "Louis Spohr",
+    "Eduard Strauss",
+    "Franz von Suppé",
+    "Karl Millöcker",
+    "Mily Balakirev",
+    "César Cui",
+    "Alexander Glazunov",
+    "Anatoly Lyadov",
+    "César Franck",
+    "Édouard Lalo",
+    "Léo Delibes",
+    "Emmanuel Chabrier",
+    "Jules Massenet",
+    "Emmerich Kálmán",
+    "Hugo Wolf",
+    "Max Reger",
+    "Hans Pfitzner",
+    "Wilhelm Stenhammar",
+    "Hugo Alfvén",
+    "Johan Svendsen",
+    "Niels Gade",
+    "Francisco Tárrega",
+    "Pablo de Sarasate",
+    "Amilcare Ponchielli",
+    "Arrigo Boito",
+    "Pietro Mascagni",
+    "Ruggero Leoncavallo",
+    "Umberto Giordano",
+    "Francesco Cilea",
+    "Ferruccio Busoni",
+    "Ermanno Wolf-Ferrari",
+    "Josef Suk",
+    "Bohuslav Martinů",
+    "Zdeněk Fibich",
+    "Stanisław Moniuszko",
+    "Mieczysław Karłowicz",
+    "Karol Szymanowski",
+    "Ignacy Jan Paderewski",
+    "George Enescu",
+    "Ernő Dohnányi",
+    "Henryk Górecki",
+    "Krzysztof Penderecki",
+    "Witold Lutosławski",
+    "Iannis Xenakis",
+    "Edgard Varèse",
+    "Gerald Finzi",
+    "Arnold Bax",
+    "Frank Bridge",
+    "John Ireland",
+    "Peter Warlock",
+    "Ivor Gurney",
+    "Herbert Howells",
+    "Edmund Rubbra",
+    "Peter Maxwell Davies",
+    "Harrison Birtwistle",
+    "John Tavener",
+    "James MacMillan",
+    "Thomas Adès",
+    "Peter Sculthorpe",
+    "Toru Takemitsu",
+    "Alberto Ginastera",
+    "Darius Milhaud",
+    "Arthur Honegger",
+    "Georges Auric",
+    "Louis Durey",
+    "Germaine Tailleferre",
+    "Jacques Ibert",
+    "Paul Dukas",
+    "Albert Roussel",
+    "Charles Koechlin",
+    "Henri Dutilleux",
+    "Louis Moreau Gottschalk",
+    "Ernest Bloch",
+    "Erich Wolfgang Korngold",
+    "Alexander Zemlinsky",
+    "Franz Schreker",
+    "Hans Werner Henze",
+    "Wolfgang Rihm",
+    "Conlon Nancarrow",
+    "Morton Feldman",
+    "Elliott Carter",
+    "Milton Babbitt",
+    "John Corigliano",
+    "Jennifer Higdon",
+    "Terry Riley",
+    "Sofia Gubaidulina",
+    "Kaija Saariaho",
+    "Judith Weir",
+    "Errollyn Wallen",
+    "Caroline Shaw",
+    "Unsuk Chin",
+    "Amy Beach",
+    "Ethel Smyth",
+    "Rebecca Clarke",
+    "Lili Boulanger",
+    "Nadia Boulanger",
+    "Cécile Chaminade",
+    "Florence Price"
+   ],
+   "outlier": [
+    "Pérotin",
+    "Léonin",
+    "Johann Jakob Froberger",
+    "Jan Dismas Zelenka",
+    "Antoine Busnois"
+   ]
+  },
+  "alias": {
+   "Wolfgang Amadeus Mozart": [
+    "W. A. Mozart",
+    "Wolfgang Mozart"
+   ],
+   "Johann Sebastian Bach": [
+    "J. S. Bach",
+    "JS Bach"
+   ],
+   "Frédéric Chopin": [
+    "Fryderyk Chopin"
+   ],
+   "Pyotr Ilyich Tchaikovsky": [
+    "Peter Tchaikovsky",
+    "Pyotr Tchaikovsky",
+    "Piotr Tchaikovsky",
+    "Peter Ilyich Tchaikovsky",
+    "Tchaikovski"
+   ],
+   "Joseph Haydn": [
+    "Franz Joseph Haydn"
+   ],
+   "George Frideric Handel": [
+    "Georg Friedrich Händel",
+    "George Handel",
+    "George Frederick Handel"
+   ],
+   "Sergei Rachmaninoff": [
+    "Sergei Rachmaninov",
+    "Sergey Rachmaninoff",
+    "Rachmaninov"
+   ],
+   "Jean Sibelius": [
+    "Johan Sibelius"
+   ],
+   "Franz Liszt": [
+    "Ferenc Liszt"
+   ],
+   "Felix Mendelssohn": [
+    "Felix Mendelssohn Bartholdy"
+   ],
+   "Gioachino Rossini": [
+    "Gioacchino Rossini"
+   ],
+   "Sergei Prokofiev": [
+    "Sergey Prokofiev"
+   ],
+   "Dmitri Shostakovich": [
+    "Dmitry Shostakovich"
+   ],
+   "Ralph Vaughan Williams": [
+    "Vaughan Williams"
+   ],
+   "Johann Strauss II": [
+    "Johann Strauss",
+    "Johann Strauss Jr",
+    "Johann Strauss the Younger"
+   ],
+   "Johann Strauss I": [
+    "Johann Strauss the Elder",
+    "Johann Strauss Sr"
+   ],
+   "Modest Mussorgsky": [
+    "Mussorgsky",
+    "Moussorgsky",
+    "Modest Musorgsky"
+   ],
+   "Nikolai Rimsky-Korsakov": [
+    "Rimsky-Korsakov",
+    "Nikolay Rimsky-Korsakov"
+   ],
+   "Alexander Scriabin": [
+    "Aleksandr Scriabin"
+   ],
+   "Alexander Borodin": [
+    "Aleksandr Borodin"
+   ],
+   "Giovanni Pierluigi da Palestrina": [
+    "Palestrina"
+   ],
+   "Orlande de Lassus": [
+    "Orlando di Lasso",
+    "Lassus",
+    "Orlando Lassus"
+   ],
+   "Fanny Mendelssohn": [
+    "Fanny Hensel"
+   ],
+   "Christoph Willibald Gluck": [
+    "Christoph Gluck"
+   ],
+   "Michel-Richard de Lalande": [
+    "Michel Richard de Lalande",
+    "Michel Richard Delalande"
+   ],
+   "Joseph Bologne": [
+    "Chevalier de Saint-Georges"
+   ],
+   "Stanisław Moniuszko": [
+    "Stanislaw Moniuszko"
+   ],
+   "Mieczysław Karłowicz": [
+    "Mieczyslaw Karlowicz"
+   ],
+   "Witold Lutosławski": [
+    "Witold Lutoslawski"
+   ],
+   "Heitor Villa-Lobos": [
+    "Villa-Lobos"
+   ],
+   "Georg Philipp Telemann": [
+    "Georg Telemann"
+   ],
+   "Giovanni Battista Pergolesi": [
+    "Giovanni Pergolesi"
+   ],
+   "Josquin des Prez": [
+    "Josquin Desprez",
+    "Josquin des Pres"
+   ],
+   "Carlo Gesualdo": [
+    "Gesualdo da Venosa"
+   ],
+   "Tomás Luis de Victoria": [
+    "Tomas Luis de Victoria",
+    "Tomás de Victoria"
+   ],
+   "Hildegard of Bingen": [
+    "Hildegard von Bingen"
+   ],
+   "Léonin": [
+    "Leoninus"
+   ],
+   "Pérotin": [
+    "Perotinus"
+   ],
+   "Bedřich Smetana": [
+    "Frederick Smetana"
+   ],
+   "Charles Villiers Stanford": [
+    "Charles Stanford"
+   ],
+   "Arthur Sullivan": [
+    "Arthur Seymour Sullivan"
+   ],
+   "Édouard Lalo": [
+    "Edouard Lalo"
+   ],
+   "Carl Maria von Weber": [
+    "Carl Weber"
+   ],
+   "Louis Moreau Gottschalk": [
+    "Louis Gottschalk"
+   ],
+   "Johann Christian Bach": [
+    "J. C. Bach"
+   ],
+   "Carl Philipp Emanuel Bach": [
+    "C. P. E. Bach",
+    "CPE Bach"
+   ],
+   "Wilhelm Friedemann Bach": [
+    "W. F. Bach"
+   ],
+   "Ignacy Jan Paderewski": [
+    "Ignacy Paderewski",
+    "Ignace Paderewski"
+   ],
+   "Samuel Coleridge-Taylor": [
+    "Coleridge-Taylor"
+   ],
+   "Peter Maxwell Davies": [
+    "Maxwell Davies"
+   ]
+  },
+  "traps": {
+   "Hans Zimmer": "A film composer, not a classical one.",
+   "John Williams": "A film composer, not a classical one.",
+   "Andrew Lloyd Webber": "A musical-theatre composer, not a classical one.",
+   "Duke Ellington": "A jazz composer, not a classical one."
+  },
+  "fact": "Carlo Gesualdo murdered his wife and her lover in 1590, yet his strange, chromatic madrigals still sound startlingly modern four centuries on."
+ },
+ {
+  "id": "spo-cls-olympic",
+  "cat": "Sport",
+  "title": "Five rings",
+  "q": "An Olympic sport",
+  "rule": "Whole sports and disciplines that have awarded Olympic medals, summer or winter, current, past or confirmed for 2028; individual events and demonstration sports don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Athletics",
+    "Swimming",
+    "Gymnastics",
+    "Boxing",
+    "Cycling",
+    "Rowing"
+   ],
+   "hipster": [
+    "Curling",
+    "Tug of War"
+   ],
+   "body": [
+    "Football",
+    "Tennis",
+    "Basketball",
+    "Hockey",
+    "Volleyball",
+    "Diving",
+    "Judo",
+    "Fencing",
+    "Archery",
+    "Sailing",
+    "Equestrian",
+    "Weightlifting",
+    "Wrestling",
+    "Taekwondo",
+    "Badminton",
+    "Table Tennis",
+    "Golf",
+    "Rugby Sevens",
+    "Triathlon",
+    "Handball",
+    "Water Polo",
+    "Shooting",
+    "Canoeing",
+    "Alpine Skiing",
+    "Ice Hockey",
+    "Figure Skating",
+    "Speed Skating",
+    "Bobsleigh",
+    "Luge",
+    "Skeleton",
+    "Snowboarding",
+    "Ski Jumping",
+    "Biathlon",
+    "Cross-Country Skiing",
+    "Beach Volleyball",
+    "Skateboarding",
+    "Surfing",
+    "Sport Climbing",
+    "Modern Pentathlon",
+    "Trampolining",
+    "BMX",
+    "Mountain Biking",
+    "Rhythmic Gymnastics",
+    "Artistic Swimming",
+    "Freestyle Skiing"
+   ],
+   "tail": [
+    "Baseball",
+    "Softball",
+    "Cricket",
+    "Karate",
+    "Squash",
+    "Lacrosse",
+    "Rugby Union",
+    "Breaking",
+    "Nordic Combined",
+    "Short Track Speed Skating",
+    "Artistic Gymnastics",
+    "Track Cycling",
+    "Road Cycling",
+    "Dressage",
+    "Eventing",
+    "Show Jumping",
+    "Marathon Swimming",
+    "Canoe Slalom",
+    "Canoe Sprint",
+    "Greco-Roman Wrestling",
+    "Polo",
+    "Croquet"
+   ],
+   "deep": [
+    "Flag Football",
+    "Ski Mountaineering",
+    "Rackets",
+    "3x3 Basketball"
+   ],
+   "outlier": [
+    "Roque",
+    "Jeu de Paume",
+    "Motorboating",
+    "Live Pigeon Shooting",
+    "Basque Pelota"
+   ]
+  },
+  "alias": {
+   "Athletics": [
+    "Track and Field",
+    "Track & Field"
+   ],
+   "Football": [
+    "Soccer"
+   ],
+   "Hockey": [
+    "Field Hockey"
+   ],
+   "Table Tennis": [
+    "Ping Pong"
+   ],
+   "Handball": [
+    "Team Handball"
+   ],
+   "Weightlifting": [
+    "Weight Lifting"
+   ],
+   "Sailing": [
+    "Yachting"
+   ],
+   "Equestrian": [
+    "Horse Riding",
+    "Horseback Riding"
+   ],
+   "Canoeing": [
+    "Kayaking",
+    "Canoe",
+    "Canoe Kayak"
+   ],
+   "Sport Climbing": [
+    "Climbing",
+    "Rock Climbing"
+   ],
+   "Breaking": [
+    "Breakdancing",
+    "Breakdance",
+    "Break Dancing"
+   ],
+   "Artistic Swimming": [
+    "Synchronised Swimming",
+    "Synchronized Swimming",
+    "Synchro"
+   ],
+   "Bobsleigh": [
+    "Bobsled",
+    "Bobsledding"
+   ],
+   "Figure Skating": [
+    "Ice Skating"
+   ],
+   "Alpine Skiing": [
+    "Skiing",
+    "Downhill Skiing",
+    "Downhill"
+   ],
+   "Snowboarding": [
+    "Snowboard"
+   ],
+   "Cross-Country Skiing": [
+    "Nordic Skiing"
+   ],
+   "Short Track Speed Skating": [
+    "Short Track"
+   ],
+   "Freestyle Skiing": [
+    "Freestyle"
+   ],
+   "Trampolining": [
+    "Trampoline"
+   ],
+   "BMX": [
+    "BMX Racing",
+    "BMX Freestyle"
+   ],
+   "Mountain Biking": [
+    "Mountain Bike"
+   ],
+   "Track Cycling": [
+    "Velodrome Cycling"
+   ],
+   "Road Cycling": [
+    "Road Racing"
+   ],
+   "Rhythmic Gymnastics": [
+    "Rhythmic"
+   ],
+   "Modern Pentathlon": [
+    "Pentathlon"
+   ],
+   "Rugby Sevens": [
+    "Rugby",
+    "Rugby 7s",
+    "Sevens"
+   ],
+   "Rugby Union": [
+    "Rugby 15s"
+   ],
+   "Basque Pelota": [
+    "Pelota"
+   ],
+   "Jeu de Paume": [
+    "Real Tennis",
+    "Court Tennis"
+   ],
+   "Rackets": [
+    "Racquets"
+   ],
+   "Live Pigeon Shooting": [
+    "Pigeon Shooting"
+   ],
+   "Motorboating": [
+    "Motorboat Racing",
+    "Powerboating"
+   ],
+   "Flag Football": [
+    "Flag"
+   ],
+   "Ski Mountaineering": [
+    "Skimo"
+   ],
+   "Marathon Swimming": [
+    "Open Water Swimming"
+   ],
+   "Artistic Gymnastics": [
+    "Artistic"
+   ],
+   "Greco-Roman Wrestling": [
+    "Greco Roman"
+   ],
+   "3x3 Basketball": [
+    "Three on Three Basketball"
+   ],
+   "Show Jumping": [
+    "Showjumping"
+   ]
+  },
+  "traps": {
+   "Javelin": "An athletics event rather than a sport in its own right.",
+   "Marathon": "An athletics event rather than a sport in its own right.",
+   "Pole Vault": "An athletics event rather than a sport in its own right.",
+   "Netball": "Has never been on the Olympic programme.",
+   "Bowling": "Only ever a demonstration sport, in 1988."
+  },
+  "fact": "Roque, an American variant of croquet, was played at the 1904 St Louis Games, where every competitor was American."
+ },
+ {
+  "id": "his-cls-card-game",
+  "cat": "Games",
+  "title": "Deal me in",
+  "q": "A card game",
+  "rule": "Games played mainly with cards, including solo and trading-card games; games that use tiles, dice or a board as the main equipment don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Poker",
+    "Snap",
+    "Blackjack",
+    "Bridge",
+    "Rummy",
+    "Uno"
+   ],
+   "hipster": [
+    "Texas Hold'em",
+    "Cribbage"
+   ],
+   "body": [
+    "Whist",
+    "Hearts",
+    "Spades",
+    "Canasta",
+    "Gin Rummy",
+    "Crazy Eights",
+    "Old Maid",
+    "Happy Families",
+    "Go Fish",
+    "Solitaire",
+    "Pontoon",
+    "Baccarat",
+    "Brag",
+    "Cheat",
+    "Beggar My Neighbour",
+    "War",
+    "Top Trumps",
+    "Pinochle",
+    "Euchre",
+    "Magic: The Gathering",
+    "Pokémon Trading Card Game",
+    "Yu-Gi-Oh!",
+    "Dobble",
+    "Skat",
+    "Piquet",
+    "Spoons",
+    "Speed",
+    "Spit",
+    "Newmarket",
+    "Sevens",
+    "Knockout Whist",
+    "Oh Hell",
+    "Racing Demon",
+    "Exploding Kittens",
+    "Cards Against Humanity"
+   ],
+   "tail": [
+    "Klondike",
+    "FreeCell",
+    "Spider",
+    "Canfield",
+    "Pyramid",
+    "Clock Patience",
+    "Forty Thieves",
+    "Napoleon",
+    "Rook",
+    "French Tarot",
+    "Belote",
+    "Scopa",
+    "Briscola",
+    "Slapjack",
+    "Egyptian Ratscrew",
+    "Pig",
+    "Donkey",
+    "Authors",
+    "Switch",
+    "Pelmanism",
+    "Skip-Bo",
+    "Phase 10",
+    "Mille Bornes",
+    "Fluxx",
+    "Munchkin",
+    "Love Letter",
+    "Hanabi",
+    "Set",
+    "Lost Cities",
+    "No Thanks",
+    "Coup",
+    "Dominion",
+    "Sushi Go",
+    "Pit",
+    "Rummy 500",
+    "Hand and Foot",
+    "Mau-Mau",
+    "Omaha",
+    "Stud Poker",
+    "Draw Poker",
+    "Chemin de Fer",
+    "Chase the Ace",
+    "Cuckoo"
+   ],
+   "deep": [
+    "Tressette",
+    "Durak",
+    "Preferans",
+    "Doppelkopf",
+    "Schafkopf",
+    "Sheepshead",
+    "Jass",
+    "Truco",
+    "Mus",
+    "Ecarté",
+    "Faro",
+    "Loo",
+    "Ombre",
+    "Quadrille",
+    "All Fours",
+    "Seven-Up",
+    "Black Maria",
+    "Snip Snap Snorum",
+    "Pishti",
+    "Conquian",
+    "Tonk",
+    "Samba",
+    "Klaberjass",
+    "Bezique",
+    "Spite and Malice",
+    "Kalooki",
+    "Pitch",
+    "Casino",
+    "Primero",
+    "Basset",
+    "Lansquenet"
+   ],
+   "outlier": [
+    "Gleek",
+    "Maw",
+    "Noddy",
+    "Post and Pair",
+    "Ruff and Honours"
+   ]
+  },
+  "alias": {
+   "Blackjack": [
+    "Black Jack",
+    "Twenty-One",
+    "Vingt-et-un",
+    "21"
+   ],
+   "Bridge": [
+    "Contract Bridge",
+    "Rubber Bridge"
+   ],
+   "Rummy": [
+    "Rum"
+   ],
+   "Texas Hold'em": [
+    "Hold'em",
+    "Texas Hold em"
+   ],
+   "Gin Rummy": [
+    "Gin"
+   ],
+   "Crazy Eights": [
+    "Crazy 8s",
+    "Crazy 8's"
+   ],
+   "Old Maid": [
+    "Old Maids"
+   ],
+   "Go Fish": [
+    "Go Fishing"
+   ],
+   "Solitaire": [
+    "Patience"
+   ],
+   "Baccarat": [
+    "Punto Banco"
+   ],
+   "Brag": [
+    "Three Card Brag",
+    "3 Card Brag"
+   ],
+   "Cheat": [
+    "I Doubt It"
+   ],
+   "Beggar My Neighbour": [
+    "Beggar Thy Neighbour",
+    "Beggar Your Neighbour",
+    "Beggar My Neighbor"
+   ],
+   "War": [
+    "I Declare War"
+   ],
+   "Top Trumps": [
+    "Top Trump"
+   ],
+   "Pinochle": [
+    "Pinocle"
+   ],
+   "Magic: The Gathering": [
+    "Magic The Gathering",
+    "Magic",
+    "MTG"
+   ],
+   "Pokémon Trading Card Game": [
+    "Pokemon",
+    "Pokemon TCG",
+    "Pokemon Cards",
+    "Pokémon TCG"
+   ],
+   "Yu-Gi-Oh!": [
+    "Yugioh"
+   ],
+   "Dobble": [
+    "Spot It"
+   ],
+   "Spit": [
+    "Slam"
+   ],
+   "Racing Demon": [
+    "Nertz",
+    "Pounce"
+   ],
+   "Sevens": [
+    "Fan Tan"
+   ],
+   "Oh Hell": [
+    "Contract Whist",
+    "Oh Pshaw"
+   ],
+   "Cards Against Humanity": [
+    "CAH"
+   ],
+   "Napoleon": [
+    "Nap"
+   ],
+   "French Tarot": [
+    "Tarot",
+    "Tarock",
+    "Tarocchi"
+   ],
+   "Egyptian Ratscrew": [
+    "Egyptian Rat Screw",
+    "Ratscrew"
+   ],
+   "Pelmanism": [
+    "Pairs",
+    "Memory",
+    "Concentration"
+   ],
+   "Skip-Bo": [
+    "Skipbo"
+   ],
+   "Chemin de Fer": [
+    "Chemmy"
+   ],
+   "Spider": [
+    "Spider Solitaire"
+   ],
+   "FreeCell": [
+    "Free Cell"
+   ],
+   "Clock Patience": [
+    "Clock Solitaire"
+   ],
+   "Stud Poker": [
+    "Seven Card Stud",
+    "Five Card Stud"
+   ],
+   "Draw Poker": [
+    "Five Card Draw"
+   ],
+   "Omaha": [
+    "Omaha Hold'em",
+    "Omaha Poker"
+   ],
+   "Faro": [
+    "Pharaoh"
+   ],
+   "Seven-Up": [
+    "Seven Up"
+   ],
+   "No Thanks": [
+    "No Thanks!"
+   ],
+   "Sushi Go": [
+    "Sushi Go!"
+   ]
+  },
+  "traps": {
+   "Monopoly": "A board game, not a card game.",
+   "Chess": "A board game, not a card game.",
+   "Mahjong": "Played with tiles rather than cards.",
+   "Dominoes": "Played with tiles rather than cards.",
+   "Backgammon": "A board game, not a card game."
+  },
+  "fact": "Cribbage is credited to the poet Sir John Suckling, said to have adapted it in the 1600s from an older game called Noddy."
+ }
+]

@@ -1,0 +1,3510 @@
+[
+ {
+  "id": "cul-day-car-maker",
+  "cat": "Motoring",
+  "title": "Motor show",
+  "q": "A car maker, current or defunct",
+  "rule": "Marques that have built cars count, whether still trading or long gone, but model names do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Ford",
+    "Toyota",
+    "BMW",
+    "Mercedes-Benz",
+    "Volkswagen",
+    "Audi"
+   ],
+   "hipster": [
+    "Ferrari",
+    "Lamborghini"
+   ],
+   "body": [
+    "Honda",
+    "Nissan",
+    "Vauxhall",
+    "Peugeot",
+    "Renault",
+    "Citroën",
+    "Fiat",
+    "Volvo",
+    "Land Rover",
+    "Jaguar",
+    "Mini",
+    "Skoda",
+    "SEAT",
+    "Kia",
+    "Hyundai",
+    "Mazda",
+    "Suzuki",
+    "Porsche",
+    "Rolls-Royce",
+    "Bentley",
+    "Aston Martin",
+    "Mitsubishi",
+    "Subaru",
+    "Jeep",
+    "Chevrolet",
+    "Alfa Romeo",
+    "Lexus",
+    "MG",
+    "Tesla",
+    "Rover",
+    "Saab"
+   ],
+   "tail": [
+    "Maserati",
+    "Lotus",
+    "McLaren",
+    "Bugatti",
+    "Dacia",
+    "Smart",
+    "Cadillac",
+    "Dodge",
+    "Chrysler",
+    "Daewoo",
+    "Lancia",
+    "Isuzu",
+    "Daihatsu",
+    "Infiniti",
+    "Genesis",
+    "Lincoln",
+    "Buick",
+    "GMC",
+    "Pontiac",
+    "Opel",
+    "Polestar",
+    "Cupra",
+    "DS",
+    "Abarth",
+    "Morgan",
+    "TVR",
+    "Reliant",
+    "Triumph",
+    "Austin",
+    "Morris",
+    "Datsun",
+    "Talbot",
+    "Hummer",
+    "Oldsmobile",
+    "DeLorean",
+    "Lada",
+    "Tata",
+    "BYD",
+    "Geely",
+    "Proton",
+    "Maybach",
+    "Pagani",
+    "Koenigsegg",
+    "Alpine",
+    "Plymouth",
+    "Mercury",
+    "Saturn",
+    "Ram",
+    "Acura",
+    "Caterham",
+    "Mahindra",
+    "Rivian",
+    "Lucid",
+    "SsangYong",
+    "Great Wall",
+    "General Motors",
+    "Ineos",
+    "Holden",
+    "Hillman",
+    "Humber",
+    "Sunbeam",
+    "Singer",
+    "Daimler",
+    "Lagonda",
+    "Bristol",
+    "Jensen",
+    "Trabant",
+    "Studebaker",
+    "Packard",
+    "Simca",
+    "Ariel"
+   ],
+   "deep": [
+    "Riley",
+    "Wolseley",
+    "Standard",
+    "Matra",
+    "Wartburg",
+    "Tatra",
+    "Moskvitch",
+    "Zastava",
+    "Hudson",
+    "Nash",
+    "DeSoto",
+    "Edsel",
+    "Kaiser",
+    "Willys",
+    "AMC",
+    "Duesenberg",
+    "Auburn",
+    "Cord",
+    "Panhard",
+    "Delage",
+    "Delahaye",
+    "Marcos",
+    "Ginetta",
+    "Westfield",
+    "Noble",
+    "Lister",
+    "Vanden Plas",
+    "Austin-Healey",
+    "Jowett",
+    "Armstrong Siddeley",
+    "Alvis",
+    "Frazer Nash",
+    "Healey",
+    "Allard",
+    "Gilbern",
+    "Bond",
+    "Berkeley",
+    "Trojan",
+    "Panther",
+    "Invicta",
+    "Lanchester",
+    "Clyno",
+    "Borgward",
+    "NSU",
+    "DKW",
+    "Horch",
+    "Messerschmitt",
+    "DAF",
+    "Spyker",
+    "Saleen",
+    "Venturi",
+    "Iso",
+    "De Tomaso",
+    "Innocenti",
+    "Autobianchi",
+    "Isotta Fraschini",
+    "Hispano-Suiza",
+    "Pegaso",
+    "Rimac",
+    "Zenvo",
+    "Perodua",
+    "Lynk & Co",
+    "NIO",
+    "XPeng",
+    "Zeekr",
+    "Haval",
+    "Chery",
+    "Wuling",
+    "Hongqi",
+    "Scion",
+    "Fisker",
+    "Checker",
+    "Imperial",
+    "Shelby",
+    "Peel",
+    "Radical",
+    "Ultima",
+    "BAC",
+    "Bowler",
+    "Elva",
+    "Hupmobile",
+    "Stutz",
+    "Pierce-Arrow",
+    "Vector",
+    "Panoz",
+    "Mosler"
+   ],
+   "outlier": [
+    "Tucker",
+    "Facel Vega",
+    "Lea-Francis",
+    "Gumpert",
+    "Bizzarrini"
+   ]
+  },
+  "alias": {
+   "Mercedes-Benz": [
+    "Mercedes",
+    "Merc",
+    "Benz"
+   ],
+   "Volkswagen": [
+    "VW"
+   ],
+   "Chevrolet": [
+    "Chevy"
+   ],
+   "Land Rover": [
+    "Landrover"
+   ],
+   "Alfa Romeo": [
+    "Alfa"
+   ],
+   "Aston Martin": [
+    "Aston"
+   ],
+   "Rolls-Royce": [
+    "Rolls"
+   ],
+   "MG": [
+    "Morris Garages"
+   ],
+   "AMC": [
+    "American Motors",
+    "American Motors Corporation"
+   ],
+   "General Motors": [
+    "GM"
+   ],
+   "Great Wall": [
+    "Great Wall Motors"
+   ],
+   "Lynk & Co": [
+    "Lynk and Co"
+   ],
+   "SsangYong": [
+    "Ssang Yong"
+   ],
+   "Vanden Plas": [
+    "Vandenplas"
+   ],
+   "De Tomaso": [
+    "DeTomaso"
+   ],
+   "DS": [
+    "DS Automobiles"
+   ]
+  },
+  "traps": {
+   "Mustang": "A Ford model, not a manufacturer.",
+   "Fiesta": "A Ford model, not a manufacturer.",
+   "Beetle": "A Volkswagen model, not a manufacturer.",
+   "Corvette": "A Chevrolet model, not a manufacturer.",
+   "Harley-Davidson": "Famous for motorbikes rather than cars."
+  },
+  "fact": "The Tucker 48 of 1948 had a central 'cyclops' headlight that swivelled with the steering, but only 51 were built before the company folded."
+ },
+ {
+  "id": "cul-day-ice-cream",
+  "cat": "Food",
+  "title": "Scoop",
+  "q": "An ice cream flavour",
+  "rule": "Flavours of ice cream, gelato or sorbet count, but brand and product names do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Vanilla",
+    "Chocolate",
+    "Strawberry",
+    "Mint choc chip",
+    "Raspberry ripple"
+   ],
+   "hipster": [
+    "Pistachio",
+    "Salted caramel"
+   ],
+   "body": [
+    "Cookie dough",
+    "Cookies and cream",
+    "Rum and raisin",
+    "Toffee",
+    "Caramel",
+    "Coffee",
+    "Banana",
+    "Lemon",
+    "Coconut",
+    "Neapolitan",
+    "Rocky road",
+    "Butterscotch",
+    "Honeycomb",
+    "Tutti frutti",
+    "Mango",
+    "Cherry",
+    "Peanut butter",
+    "Chocolate chip",
+    "Fudge",
+    "Hazelnut",
+    "Raspberry",
+    "Blackcurrant",
+    "Orange",
+    "Peach",
+    "Mint",
+    "Maple walnut",
+    "Butter pecan",
+    "Stracciatella"
+   ],
+   "tail": [
+    "Tiramisu",
+    "Cinnamon",
+    "Praline",
+    "Bubblegum",
+    "Candy floss",
+    "Birthday cake",
+    "Black cherry",
+    "Blueberry",
+    "Lemon meringue",
+    "Banoffee",
+    "Toasted marshmallow",
+    "S'mores",
+    "Cheesecake",
+    "Strawberry cheesecake",
+    "Apple pie",
+    "Pumpkin",
+    "Gingerbread",
+    "Christmas pudding",
+    "Clotted cream",
+    "Honey",
+    "Lime",
+    "Pineapple",
+    "Passion fruit",
+    "Watermelon",
+    "Brownie",
+    "Mocha",
+    "Espresso",
+    "Dulce de leche",
+    "Cookie butter",
+    "Rhubarb and custard",
+    "Piña colada",
+    "Eggnog",
+    "Pecan",
+    "Marshmallow",
+    "Mint chocolate",
+    "Chocolate orange",
+    "Chocolate hazelnut",
+    "Strawberries and cream",
+    "Vanilla fudge",
+    "Cherry ripple",
+    "Blackberry",
+    "Almond",
+    "Walnut",
+    "Pear",
+    "Plum",
+    "Apricot",
+    "Pralines and cream",
+    "Toffee apple",
+    "Cranberry",
+    "Tangerine",
+    "Cola"
+   ],
+   "deep": [
+    "Blood orange",
+    "Grapefruit",
+    "Mince pie",
+    "Elderflower",
+    "Lavender",
+    "Earl Grey",
+    "Matcha",
+    "Kulfi",
+    "Turkish delight",
+    "Chai",
+    "Ginger",
+    "Rose",
+    "Violet",
+    "Cardamom",
+    "Saffron",
+    "Black sesame",
+    "Red bean",
+    "Taro",
+    "Ube",
+    "Durian",
+    "Pomegranate",
+    "Avocado",
+    "Fig",
+    "Guava",
+    "Papaya",
+    "Lychee",
+    "Kiwi",
+    "Chestnut",
+    "Nougat",
+    "Marzipan",
+    "Macadamia",
+    "Jasmine",
+    "Spearmint",
+    "Peppermint",
+    "Candy cane",
+    "Liquorice",
+    "Gooseberry",
+    "Cantaloupe",
+    "Tamarind",
+    "Bourbon",
+    "Amaretto",
+    "Zabaglione",
+    "Cassata",
+    "Spumoni",
+    "Gianduja",
+    "Bacio",
+    "Fior di latte",
+    "Nocciola",
+    "Panna cotta",
+    "Crème brûlée",
+    "Irish cream",
+    "Whisky",
+    "Clementine",
+    "Satsuma",
+    "Redcurrant",
+    "Damson",
+    "Lemon curd"
+   ],
+   "outlier": [
+    "Hokey pokey",
+    "Lucuma",
+    "Wasabi",
+    "Sweetcorn",
+    "Pandan"
+   ]
+  },
+  "alias": {
+   "Mint choc chip": [
+    "Mint chocolate chip",
+    "Mint chip",
+    "Choc mint chip"
+   ],
+   "Cookies and cream": [
+    "Cookies & cream",
+    "Cookies n cream"
+   ],
+   "Rum and raisin": [
+    "Rum & raisin"
+   ],
+   "Candy floss": [
+    "Cotton candy"
+   ],
+   "Chocolate chip": [
+    "Choc chip"
+   ],
+   "Cookie dough": [
+    "Chocolate chip cookie dough"
+   ],
+   "Raspberry ripple": [
+    "Raspberry swirl"
+   ],
+   "Banoffee": [
+    "Banoffee pie"
+   ],
+   "Passion fruit": [
+    "Passionfruit"
+   ],
+   "Strawberries and cream": [
+    "Strawberries & cream",
+    "Strawberry and cream"
+   ],
+   "Rhubarb and custard": [
+    "Rhubarb & custard"
+   ],
+   "Salted caramel": [
+    "Sea salt caramel"
+   ],
+   "Liquorice": [
+    "Licorice"
+   ],
+   "Cherry": [
+    "Cherries"
+   ],
+   "Sweetcorn": [
+    "Sweet corn"
+   ]
+  },
+  "traps": {
+   "Cornetto": "A brand of cone, not a flavour.",
+   "Magnum": "A brand of ice cream bar, not a flavour.",
+   "Viennetta": "A branded dessert, not a flavour.",
+   "Choc ice": "A type of ice cream bar, not a flavour.",
+   "Mr Whippy": "A soft-serve brand name, not a flavour."
+  },
+  "fact": "Hokey pokey is a New Zealand classic: vanilla ice cream studded with crunchy pieces of honeycomb toffee."
+ },
+ {
+  "id": "cul-day-cocktail",
+  "cat": "Drink",
+  "title": "Happy hour",
+  "q": "A cocktail",
+  "rule": "Named mixed drinks, hot or cold, count, but single spirits, beer and wine do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Mojito",
+    "Margarita",
+    "Piña colada",
+    "Cosmopolitan",
+    "Martini",
+    "Sex on the beach"
+   ],
+   "hipster": [
+    "Negroni",
+    "Espresso martini"
+   ],
+   "body": [
+    "Daiquiri",
+    "Old fashioned",
+    "Bloody Mary",
+    "Manhattan",
+    "Long Island iced tea",
+    "Tequila sunrise",
+    "Mai Tai",
+    "Moscow mule",
+    "Whisky sour",
+    "Amaretto sour",
+    "Aperol spritz",
+    "White Russian",
+    "Black Russian",
+    "Screwdriver",
+    "Tom Collins",
+    "Singapore sling",
+    "Bellini",
+    "Mimosa",
+    "Buck's fizz",
+    "Pornstar martini",
+    "Gin and tonic",
+    "Cuba libre",
+    "Caipirinha",
+    "Sangria"
+   ],
+   "tail": [
+    "Harvey Wallbanger",
+    "Gimlet",
+    "Sidecar",
+    "Bramble",
+    "Hurricane",
+    "Zombie",
+    "Sazerac",
+    "Mint julep",
+    "Sea breeze",
+    "Blue lagoon",
+    "Woo woo",
+    "Cape Codder",
+    "Lemon drop",
+    "Appletini",
+    "Grasshopper",
+    "Brandy Alexander",
+    "Snowball",
+    "Rusty nail",
+    "French 75",
+    "Paloma",
+    "Dark 'n' stormy",
+    "Irish coffee",
+    "Hot toddy",
+    "Kir royale",
+    "Kir",
+    "Black velvet",
+    "Pimm's Cup",
+    "Rum punch",
+    "Planter's punch",
+    "Fuzzy navel",
+    "B-52",
+    "Kamikaze",
+    "Godfather",
+    "Gin fizz",
+    "Between the sheets",
+    "White lady",
+    "Aviation",
+    "Vesper",
+    "Boulevardier",
+    "Rob Roy",
+    "Gibson",
+    "French martini",
+    "Bee's knees",
+    "Jungle bird",
+    "Paper plane",
+    "Penicillin",
+    "Last word",
+    "Clover Club",
+    "Southside",
+    "Americano",
+    "Mudslide",
+    "Painkiller",
+    "Blue Hawaii",
+    "Bahama mama",
+    "Salty dog",
+    "Greyhound",
+    "Bay breeze",
+    "Madras",
+    "Midori sour",
+    "Whisky mac",
+    "Rum runner",
+    "Champagne cocktail",
+    "Dirty martini"
+   ],
+   "deep": [
+    "Corpse reviver",
+    "Vieux Carré",
+    "Hanky panky",
+    "Bobby Burns",
+    "Blood and sand",
+    "Monkey gland",
+    "Jack Rose",
+    "Stinger",
+    "Brooklyn",
+    "Bijou",
+    "Remember the Maine",
+    "Scorpion",
+    "Suffering bastard",
+    "Mary Pickford",
+    "El Presidente",
+    "Hotel Nacional",
+    "Gold rush",
+    "Naked and famous",
+    "Trinidad sour",
+    "Sherry cobbler",
+    "Ramos gin fizz",
+    "Martinez",
+    "Tuxedo",
+    "Angel face",
+    "Casino",
+    "Brandy crusta",
+    "Porto flip",
+    "Horse's neck",
+    "Garibaldi",
+    "Cardinale",
+    "Pisco sour",
+    "Pisco punch",
+    "Chartreuse swizzle",
+    "Old Cuban",
+    "Tipperary",
+    "Three dots and a dash",
+    "Missionary's downfall",
+    "New York sour",
+    "Tommy's margarita",
+    "Russian spring punch",
+    "Pegu Club",
+    "Sloe gin fizz",
+    "Whisky smash",
+    "Fog cutter",
+    "Caipiroska",
+    "Rossini",
+    "Sgroppino",
+    "Hugo",
+    "Alabama slammer",
+    "Tom and Jerry",
+    "Hot buttered rum",
+    "Caesar",
+    "Bloody Maria"
+   ],
+   "outlier": [
+    "Canchanchara",
+    "Fernandito",
+    "Rabo de galo",
+    "Blue blazer",
+    "Satan's whiskers"
+   ]
+  },
+  "alias": {
+   "Martini": [
+    "Dry martini",
+    "Vodka martini",
+    "Gin martini"
+   ],
+   "Cosmopolitan": [
+    "Cosmo"
+   ],
+   "Whisky sour": [
+    "Whiskey sour"
+   ],
+   "Gin and tonic": [
+    "G&T",
+    "Gin & tonic"
+   ],
+   "Cuba libre": [
+    "Rum and coke",
+    "Rum & coke",
+    "Rum and Coca-Cola"
+   ],
+   "Pornstar martini": [
+    "Porn star martini",
+    "Passion fruit martini"
+   ],
+   "Long Island iced tea": [
+    "Long Island"
+   ],
+   "Aperol spritz": [
+    "Spritz"
+   ],
+   "Brandy Alexander": [
+    "Alexander"
+   ],
+   "Dark 'n' stormy": [
+    "Dark and stormy",
+    "Dark n stormy"
+   ],
+   "Kir royale": [
+    "Kir royal"
+   ],
+   "French 75": [
+    "French seventy-five"
+   ],
+   "Pimm's Cup": [
+    "Pimm's",
+    "Pimm's No 1"
+   ],
+   "Corpse reviver": [
+    "Corpse reviver number 2",
+    "Corpse reviver #2",
+    "Corpse reviver no 2"
+   ],
+   "Ramos gin fizz": [
+    "Ramos fizz"
+   ],
+   "Lemon drop": [
+    "Lemon drop martini"
+   ],
+   "Cape Codder": [
+    "Vodka cranberry"
+   ],
+   "Caesar": [
+    "Bloody Caesar"
+   ]
+  },
+  "traps": {
+   "Vodka": "A single spirit, not a mixed drink.",
+   "Gin": "A single spirit, not a mixed drink.",
+   "Tequila": "A single spirit, not a mixed drink.",
+   "Prosecco": "A wine, not a mixed drink.",
+   "Lager": "A beer, not a mixed drink."
+  },
+  "fact": "The Hanky Panky was created by Ada Coleman at London's Savoy Hotel for an actor who wanted a drink with 'a bit of punch' in it."
+ },
+ {
+  "id": "cul-day-uk-sweets",
+  "cat": "Food",
+  "title": "Sweet tooth",
+  "q": "A UK chocolate bar or sweet",
+  "rule": "Confectionery brands sold in British shops, now or in the past, count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Dairy Milk",
+    "Mars",
+    "Kit Kat",
+    "Twix",
+    "Snickers",
+    "Maltesers"
+   ],
+   "hipster": [
+    "Wispa",
+    "Curly Wurly"
+   ],
+   "body": [
+    "Twirl",
+    "Crunchie",
+    "Flake",
+    "Double Decker",
+    "Galaxy",
+    "Aero",
+    "Bounty",
+    "Milky Way",
+    "Yorkie",
+    "Lion bar",
+    "Toffee Crisp",
+    "Freddo",
+    "Smarties",
+    "Revels",
+    "Minstrels",
+    "Rolo",
+    "Milkybar",
+    "Picnic",
+    "Terry's Chocolate Orange",
+    "Toblerone",
+    "Ferrero Rocher",
+    "Creme Egg",
+    "Quality Street",
+    "Roses",
+    "Celebrations",
+    "Heroes",
+    "Milk Tray",
+    "Black Magic",
+    "After Eight",
+    "M&M's",
+    "Haribo",
+    "Jelly Babies",
+    "Wine gums",
+    "Fruit Pastilles",
+    "Skittles",
+    "Starburst",
+    "Polo",
+    "Love Hearts",
+    "Parma Violets",
+    "Liquorice Allsorts",
+    "Sherbet fountain",
+    "Jelly Tots",
+    "Fudge",
+    "Boost",
+    "Chomp",
+    "Kinder Bueno"
+   ],
+   "tail": [
+    "Munchies",
+    "Caramac",
+    "Topic",
+    "Lindor",
+    "Buttons",
+    "Kinder Surprise",
+    "Time Out",
+    "Drifter",
+    "Walnut Whip",
+    "Matchmakers",
+    "Dairy Box",
+    "Green & Black's",
+    "Lindt",
+    "Ritter Sport",
+    "Reese's",
+    "Hershey's",
+    "Tunes",
+    "Extra Strong Mints",
+    "Murray Mints",
+    "Humbugs",
+    "Tic Tac",
+    "Mentos",
+    "Fruitella",
+    "Chewits",
+    "Refreshers",
+    "Drumstick",
+    "Black Jacks",
+    "Fruit Salad",
+    "Flumps",
+    "Fizzy cola bottles",
+    "Dolly Mixture",
+    "Midget Gems",
+    "Pear Drops",
+    "Sherbet lemons",
+    "Pontefract cakes",
+    "Jelly beans",
+    "Gobstopper",
+    "Aniseed balls",
+    "Candy floss",
+    "Turkish Delight",
+    "Fisherman's Friend",
+    "Werther's Original",
+    "Randoms",
+    "Starmix",
+    "Tangfastics",
+    "Maoam",
+    "Toffifee",
+    "Chupa Chups",
+    "Wham bar",
+    "Marshmallows",
+    "Candy cane",
+    "Toffee",
+    "Raffaello",
+    "Wispa Gold",
+    "Star Bar",
+    "Galaxy Ripple",
+    "Bournville",
+    "Mini Eggs",
+    "Caramel Egg",
+    "Daim",
+    "Perk",
+    "Terry's All Gold",
+    "Fox's Glacier Mints",
+    "Mint Imperials",
+    "Everton mints",
+    "Rhubarb and custard",
+    "Flying saucers",
+    "Rainbow drops",
+    "Squashies",
+    "Nerds",
+    "Sour Patch Kids",
+    "Candy necklace",
+    "Fruit Gums",
+    "Rock",
+    "Sherbet Dip Dab",
+    "Lunch Bar",
+    "Brunch"
+   ],
+   "deep": [
+    "Dream",
+    "Fuse",
+    "Secret",
+    "Texan",
+    "Aztec",
+    "Marble",
+    "Toffo",
+    "Banjo",
+    "Spira",
+    "Amazin' Raisin",
+    "Mojo",
+    "Sports Mixture",
+    "Edinburgh rock",
+    "Tablet",
+    "Cough candy",
+    "Barley sugar",
+    "Cola cubes",
+    "Kola Kubes",
+    "Bonbons",
+    "Uncle Joe's Mint Balls",
+    "Fry's Chocolate Cream",
+    "Fry's Peppermint Cream",
+    "Walker's Nonsuch",
+    "Double Dip",
+    "Toxic Waste",
+    "Highland Toffee",
+    "Mars Delight",
+    "Treacle toffee",
+    "Cinder toffee",
+    "Liquorice pipes",
+    "Aniseed twists",
+    "Softmints",
+    "Bazooka Joe"
+   ],
+   "outlier": [
+    "Spangles",
+    "Cabana",
+    "Bar Six",
+    "Taz",
+    "Anglo Bubbly"
+   ]
+  },
+  "alias": {
+   "Dairy Milk": [
+    "Cadbury Dairy Milk",
+    "Cadbury's Dairy Milk"
+   ],
+   "Mars": [
+    "Mars Bar"
+   ],
+   "Kit Kat": [
+    "KitKat"
+   ],
+   "Snickers": [
+    "Marathon"
+   ],
+   "Starburst": [
+    "Opal Fruits"
+   ],
+   "Daim": [
+    "Dime",
+    "Dime bar",
+    "Daim bar"
+   ],
+   "Terry's Chocolate Orange": [
+    "Chocolate Orange"
+   ],
+   "Creme Egg": [
+    "Cadbury Creme Egg",
+    "Cream Egg"
+   ],
+   "M&M's": [
+    "M and Ms"
+   ],
+   "Liquorice Allsorts": [
+    "Allsorts"
+   ],
+   "Fruit Pastilles": [
+    "Rowntree's Fruit Pastilles"
+   ],
+   "Fruit Gums": [
+    "Rowntree's Fruit Gums"
+   ],
+   "Lion bar": [
+    "Lion"
+   ],
+   "Milkybar": [
+    "Milky Bar"
+   ],
+   "Terry's All Gold": [
+    "All Gold"
+   ],
+   "Werther's Original": [
+    "Werther's"
+   ],
+   "Fox's Glacier Mints": [
+    "Glacier Mints"
+   ],
+   "Extra Strong Mints": [
+    "Trebor Extra Strong Mints",
+    "Extra Strong"
+   ],
+   "Black Jacks": [
+    "Blackjacks"
+   ],
+   "Turkish Delight": [
+    "Fry's Turkish Delight"
+   ],
+   "Fry's Chocolate Cream": [
+    "Chocolate Cream"
+   ],
+   "Fizzy cola bottles": [
+    "Cola bottles",
+    "Fizzy cola bottle"
+   ],
+   "Candy floss": [
+    "Cotton candy"
+   ],
+   "Gobstopper": [
+    "Jawbreaker"
+   ],
+   "Pontefract cakes": [
+    "Pomfret cakes"
+   ],
+   "Rock": [
+    "Seaside rock",
+    "Blackpool rock"
+   ],
+   "Sherbet Dip Dab": [
+    "Dip Dab",
+    "Dib Dab",
+    "Sherbet Dib Dab"
+   ],
+   "Kola Kubes": [
+    "Kola Cubes"
+   ],
+   "Reese's": [
+    "Reese's Peanut Butter Cups"
+   ],
+   "Hershey's": [
+    "Hershey"
+   ],
+   "Green & Black's": [
+    "Green and Black's"
+   ],
+   "Kinder Bueno": [
+    "Bueno"
+   ],
+   "Kinder Surprise": [
+    "Kinder Egg"
+   ],
+   "Wham bar": [
+    "Wham"
+   ],
+   "Mini Eggs": [
+    "Cadbury Mini Eggs"
+   ],
+   "Caramel Egg": [
+    "Cadbury Caramel Egg"
+   ],
+   "Bonbons": [
+    "Lemon bonbons"
+   ]
+  },
+  "traps": {
+   "Cadbury": "A manufacturer, not a bar or sweet.",
+   "Nestlé": "A manufacturer, not a bar or sweet.",
+   "Jaffa Cakes": "Sold as a cake, not a chocolate bar or sweet.",
+   "Hobnob": "A biscuit, not a chocolate bar or sweet.",
+   "Digestive": "A biscuit, not a chocolate bar or sweet."
+  },
+  "fact": "The UK's Dime bar became Daim in 2005 to match the rest of Europe; the name began as a Norwegian spelling of the American ten-cent coin."
+ },
+ {
+  "id": "cul-day-cake",
+  "cat": "Food",
+  "title": "Piece of cake",
+  "q": "A type of cake",
+  "rule": "Anything sold as a cake, gateau or traybake counts, but biscuits, pastries and puddings do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Victoria sponge",
+    "Chocolate cake",
+    "Carrot cake",
+    "Cheesecake",
+    "Cupcake",
+    "Fruit cake"
+   ],
+   "hipster": [
+    "Battenberg",
+    "Red velvet"
+   ],
+   "body": [
+    "Black Forest gateau",
+    "Lemon drizzle",
+    "Madeira cake",
+    "Coffee and walnut",
+    "Dundee cake",
+    "Simnel cake",
+    "Christmas cake",
+    "Birthday cake",
+    "Wedding cake",
+    "Brownie",
+    "Muffin",
+    "Fairy cake",
+    "Swiss roll",
+    "Yule log",
+    "Jaffa cake",
+    "Eccles cake",
+    "Rock cake",
+    "Sponge cake",
+    "Angel cake",
+    "Pound cake",
+    "Marble cake",
+    "Ginger cake",
+    "Lemon cake",
+    "Fondant fancy",
+    "Banana cake",
+    "Coffee cake",
+    "Welsh cake",
+    "Chocolate fudge cake",
+    "Orange cake",
+    "Upside-down cake"
+   ],
+   "tail": [
+    "Genoa cake",
+    "Seed cake",
+    "Sultana cake",
+    "Cherry cake",
+    "Lardy cake",
+    "Parkin",
+    "Chorley cake",
+    "Banbury cake",
+    "Hummingbird cake",
+    "Bundt cake",
+    "Chiffon cake",
+    "Angel food cake",
+    "Devil's food cake",
+    "Opera cake",
+    "Sachertorte",
+    "Madeleine",
+    "Financier",
+    "Rum baba",
+    "Savarin",
+    "Lamington",
+    "Tres leches cake",
+    "Mud cake",
+    "Boston cream pie",
+    "Chocolate orange cake",
+    "Lemon sponge",
+    "Coffee sponge",
+    "Jam sponge",
+    "Ice cream cake",
+    "Layer cake",
+    "Roulade",
+    "Rainbow cake",
+    "Flourless chocolate cake",
+    "Cinnamon cake",
+    "Apple cake",
+    "Almond cake",
+    "Polenta cake",
+    "Clementine cake",
+    "Walnut cake",
+    "Honey cake",
+    "Spice cake",
+    "Tiffin",
+    "Blondie",
+    "Black bun",
+    "Tottenham cake",
+    "Cake pop",
+    "Torta caprese",
+    "Molten chocolate cake",
+    "Texas sheet cake",
+    "Funfetti cake",
+    "Orange and almond cake",
+    "Lemon polenta cake",
+    "Dorset apple cake",
+    "Cornish heavy cake",
+    "Jamaica ginger cake",
+    "Butterfly cake",
+    "Coconut cake",
+    "Pistachio cake",
+    "Italian cream cake",
+    "Jewish apple cake"
+   ],
+   "deep": [
+    "Dobos torte",
+    "Linzer torte",
+    "Esterházy torte",
+    "Kransekake",
+    "Baumkuchen",
+    "Castella",
+    "Gugelhupf",
+    "Princess cake",
+    "Tarta de Santiago",
+    "Bolo rei",
+    "Dacquoise",
+    "Génoise",
+    "Fraisier",
+    "Medovik",
+    "Napoleon cake",
+    "Smetannik",
+    "Bird's milk cake",
+    "Lady Baltimore cake",
+    "Lane cake",
+    "Cassata",
+    "Pão de ló",
+    "Bienenstich",
+    "Frankfurter Kranz",
+    "Lapis legit",
+    "Pandan chiffon cake",
+    "Kentucky butter cake",
+    "Hot milk cake",
+    "Pig pickin' cake",
+    "Bolo de rolo"
+   ],
+   "outlier": [
+    "Sans rival",
+    "Smith Island cake",
+    "Rigó Jancsi",
+    "Prinzregententorte",
+    "Kladdkaka"
+   ]
+  },
+  "alias": {
+   "Victoria sponge": [
+    "Victoria sandwich",
+    "Victoria sandwich cake",
+    "Victoria cake",
+    "Victoria sponge cake"
+   ],
+   "Chocolate cake": [
+    "Choc cake"
+   ],
+   "Cheesecake": [
+    "Cheese cake"
+   ],
+   "Cupcake": [
+    "Cup cake"
+   ],
+   "Fruit cake": [
+    "Fruitcake"
+   ],
+   "Battenberg": [
+    "Battenburg",
+    "Battenberg cake"
+   ],
+   "Red velvet": [
+    "Red velvet cake"
+   ],
+   "Black Forest gateau": [
+    "Black Forest cake",
+    "Black Forest",
+    "Schwarzwalder Kirschtorte"
+   ],
+   "Lemon drizzle": [
+    "Lemon drizzle cake"
+   ],
+   "Coffee and walnut": [
+    "Coffee & walnut",
+    "Coffee and walnut cake",
+    "Coffee & walnut cake"
+   ],
+   "Madeira cake": [
+    "Madeira"
+   ],
+   "Dundee cake": [
+    "Dundee"
+   ],
+   "Simnel cake": [
+    "Simnel"
+   ],
+   "Yule log": [
+    "Bûche de Noël",
+    "Chocolate log",
+    "Christmas log"
+   ],
+   "Brownie": [
+    "Chocolate brownie"
+   ],
+   "Rock cake": [
+    "Rock bun"
+   ],
+   "Sponge cake": [
+    "Sponge"
+   ],
+   "Fondant fancy": [
+    "French fancy"
+   ],
+   "Upside-down cake": [
+    "Pineapple upside-down cake",
+    "Upside down cake"
+   ],
+   "Swiss roll": [
+    "Sponge roll"
+   ],
+   "Sachertorte": [
+    "Sacher torte",
+    "Sacher cake"
+   ],
+   "Rum baba": [
+    "Baba au rhum",
+    "Baba"
+   ],
+   "Tres leches cake": [
+    "Tres leches",
+    "Three milks cake"
+   ],
+   "Boston cream pie": [
+    "Boston cream cake"
+   ],
+   "Angel food cake": [
+    "Angel food"
+   ],
+   "Devil's food cake": [
+    "Devils food cake",
+    "Devil's food"
+   ],
+   "Hummingbird cake": [
+    "Hummingbird"
+   ],
+   "Tiffin": [
+    "Chocolate tiffin"
+   ],
+   "Torta caprese": [
+    "Caprese cake"
+   ],
+   "Molten chocolate cake": [
+    "Chocolate lava cake",
+    "Lava cake",
+    "Chocolate fondant"
+   ],
+   "Napoleon cake": [
+    "Napoleon torte"
+   ],
+   "Princess cake": [
+    "Prinsesstårta"
+   ],
+   "Bundt cake": [
+    "Bundt"
+   ],
+   "Gugelhupf": [
+    "Kugelhopf",
+    "Gugelhopf"
+   ]
+  },
+  "traps": {
+   "Pavlova": "A meringue dessert, not a cake.",
+   "Scone": "A baked bread-like treat, not a cake.",
+   "Doughnut": "Fried dough, not a cake.",
+   "Trifle": "A layered pudding, not a cake.",
+   "Eclair": "A choux pastry, not a cake."
+  },
+  "fact": "A 1991 UK tax tribunal ruled that Jaffa Cakes are cakes, not biscuits, partly because they go hard rather than soft when stale."
+ },
+ {
+  "id": "cul-day-kitchen-gadget",
+  "cat": "Home",
+  "title": "Kitchen drawer",
+  "q": "A kitchen utensil or gadget",
+  "rule": "Hand tools and small countertop gadgets count, but pots, pans, crockery and large appliances do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Spatula",
+    "Whisk",
+    "Wooden spoon",
+    "Knife",
+    "Kettle",
+    "Toaster"
+   ],
+   "hipster": [
+    "Garlic press",
+    "Zester"
+   ],
+   "body": [
+    "Grater",
+    "Peeler",
+    "Ladle",
+    "Tongs",
+    "Colander",
+    "Sieve",
+    "Rolling pin",
+    "Tin opener",
+    "Corkscrew",
+    "Bottle opener",
+    "Potato masher",
+    "Chopping board",
+    "Measuring jug",
+    "Blender",
+    "Food processor",
+    "Slow cooker",
+    "Pressure cooker",
+    "Air fryer",
+    "Rice cooker",
+    "Spoon",
+    "Fork",
+    "Kitchen scissors",
+    "Scales",
+    "Kitchen timer",
+    "Fish slice",
+    "Pizza cutter",
+    "Pestle and mortar",
+    "Salad spinner",
+    "Ice cream scoop",
+    "Stand mixer",
+    "Hand blender",
+    "Sandwich toaster",
+    "Juicer",
+    "Lemon squeezer",
+    "Cafetière",
+    "Pepper mill",
+    "Skewer",
+    "Microwave",
+    "Bread knife",
+    "Hand mixer"
+   ],
+   "tail": [
+    "Slotted spoon",
+    "Palette knife",
+    "Pastry brush",
+    "Cookie cutter",
+    "Apple corer",
+    "Melon baller",
+    "Cherry stoner",
+    "Egg slicer",
+    "Egg poacher",
+    "Nutcracker",
+    "Funnel",
+    "Baster",
+    "Meat thermometer",
+    "Mandoline",
+    "Spiralizer",
+    "Potato ricer",
+    "Carving fork",
+    "Carving knife",
+    "Paring knife",
+    "Cleaver",
+    "Skimmer",
+    "Measuring spoons",
+    "Piping bag",
+    "Dough scraper",
+    "Flour sifter",
+    "Cooling rack",
+    "Trivet",
+    "Oven glove",
+    "Steamer",
+    "Waffle iron",
+    "Pasta machine",
+    "Ice cream maker",
+    "Bread maker",
+    "Popcorn maker",
+    "Coffee machine",
+    "Moka pot",
+    "Tea strainer",
+    "Tea infuser",
+    "Microplane",
+    "Nutmeg grater",
+    "Salt mill",
+    "Jar opener",
+    "Cheese slicer",
+    "Cheese wire",
+    "Butter curler",
+    "Strawberry huller",
+    "Pineapple corer",
+    "Lemon reamer",
+    "Splatter guard",
+    "Meat tenderiser",
+    "Sous vide",
+    "Chef's knife",
+    "Fish scaler",
+    "Oyster knife",
+    "Lobster cracker",
+    "Corn holder",
+    "Egg boiler",
+    "Mincer",
+    "Ice cube tray"
+   ],
+   "deep": [
+    "Mezzaluna",
+    "Mouli",
+    "Pastry blender",
+    "Egg separator",
+    "Herb stripper",
+    "Garlic peeler",
+    "Avocado slicer",
+    "Cake tester",
+    "Cake slice",
+    "Pie server",
+    "Jam funnel",
+    "Pasta server",
+    "Dough hook",
+    "Dough whisk",
+    "Tortilla press",
+    "Offset spatula",
+    "Bowl scraper",
+    "Kitchen torch",
+    "Sushi mat",
+    "Rice paddle",
+    "Crab cracker",
+    "Lobster pick",
+    "Fondue set",
+    "Raclette grill",
+    "Crepe maker",
+    "Ice pick",
+    "Herb scissors",
+    "Pizza peel",
+    "Pastry wheel",
+    "Pastry cutter",
+    "Cheese knife",
+    "Burger press",
+    "Sausage stuffer"
+   ],
+   "outlier": [
+    "Spurtle",
+    "Chinois",
+    "Tamis",
+    "Pie bird",
+    "Egg topper"
+   ]
+  },
+  "alias": {
+   "Whisk": [
+    "Balloon whisk",
+    "Wire whisk",
+    "Egg whisk",
+    "Hand whisk"
+   ],
+   "Knife": [
+    "Kitchen knife"
+   ],
+   "Kettle": [
+    "Electric kettle"
+   ],
+   "Garlic press": [
+    "Garlic crusher"
+   ],
+   "Zester": [
+    "Lemon zester",
+    "Citrus zester"
+   ],
+   "Grater": [
+    "Cheese grater",
+    "Box grater"
+   ],
+   "Peeler": [
+    "Potato peeler",
+    "Vegetable peeler",
+    "Veg peeler"
+   ],
+   "Tin opener": [
+    "Can opener"
+   ],
+   "Corkscrew": [
+    "Wine opener"
+   ],
+   "Potato masher": [
+    "Masher"
+   ],
+   "Chopping board": [
+    "Cutting board"
+   ],
+   "Measuring jug": [
+    "Measuring cup",
+    "Measuring pitcher"
+   ],
+   "Blender": [
+    "Liquidiser",
+    "Liquidizer",
+    "Smoothie maker"
+   ],
+   "Slow cooker": [
+    "Crock pot",
+    "Crockpot"
+   ],
+   "Kitchen scissors": [
+    "Kitchen shears",
+    "Shears"
+   ],
+   "Scales": [
+    "Kitchen scales",
+    "Weighing scales",
+    "Kitchen scale",
+    "Scale"
+   ],
+   "Kitchen timer": [
+    "Timer",
+    "Egg timer"
+   ],
+   "Fish slice": [
+    "Slotted turner"
+   ],
+   "Pizza cutter": [
+    "Pizza wheel"
+   ],
+   "Pestle and mortar": [
+    "Mortar and pestle",
+    "Pestle & mortar"
+   ],
+   "Ice cream scoop": [
+    "Ice cream scooper",
+    "Scoop"
+   ],
+   "Stand mixer": [
+    "Mixer",
+    "Food mixer"
+   ],
+   "Hand blender": [
+    "Stick blender",
+    "Immersion blender"
+   ],
+   "Sandwich toaster": [
+    "Toastie maker",
+    "Toastie machine",
+    "Sandwich maker"
+   ],
+   "Lemon squeezer": [
+    "Citrus press",
+    "Lemon press"
+   ],
+   "Cafetière": [
+    "French press"
+   ],
+   "Pepper mill": [
+    "Pepper grinder"
+   ],
+   "Salt mill": [
+    "Salt grinder"
+   ],
+   "Hand mixer": [
+    "Electric whisk",
+    "Hand-held mixer",
+    "Electric hand whisk"
+   ],
+   "Skimmer": [
+    "Spider",
+    "Spider skimmer"
+   ],
+   "Potato ricer": [
+    "Ricer"
+   ],
+   "Cherry stoner": [
+    "Cherry pitter"
+   ],
+   "Mandoline": [
+    "Mandolin",
+    "Mandoline slicer"
+   ],
+   "Waffle iron": [
+    "Waffle maker"
+   ],
+   "Pasta machine": [
+    "Pasta maker"
+   ],
+   "Coffee machine": [
+    "Coffee maker",
+    "Espresso machine"
+   ],
+   "Moka pot": [
+    "Stovetop espresso maker",
+    "Moka"
+   ],
+   "Steamer": [
+    "Bamboo steamer",
+    "Food steamer"
+   ],
+   "Dough scraper": [
+    "Bench scraper"
+   ],
+   "Flour sifter": [
+    "Flour sieve"
+   ],
+   "Mouli": [
+    "Food mill",
+    "Mouli legume"
+   ],
+   "Cheese slicer": [
+    "Cheese plane"
+   ],
+   "Sous vide": [
+    "Sous vide machine",
+    "Sous vide cooker",
+    "Immersion circulator"
+   ],
+   "Chef's knife": [
+    "Cook's knife"
+   ],
+   "Meat tenderiser": [
+    "Meat mallet",
+    "Meat tenderizer"
+   ],
+   "Oven glove": [
+    "Oven mitt"
+   ],
+   "Cleaver": [
+    "Meat cleaver"
+   ],
+   "Piping bag": [
+    "Pastry bag",
+    "Icing bag"
+   ],
+   "Pie server": [
+    "Pie slice"
+   ],
+   "Kitchen torch": [
+    "Blowtorch",
+    "Blow torch",
+    "Chef's torch",
+    "Creme brulee torch"
+   ],
+   "Sushi mat": [
+    "Makisu"
+   ],
+   "Mincer": [
+    "Meat grinder"
+   ]
+  },
+  "traps": {
+   "Frying pan": "Cookware rather than a utensil or gadget.",
+   "Saucepan": "Cookware rather than a utensil or gadget.",
+   "Oven": "A large appliance, not a utensil or gadget.",
+   "Fridge": "A large appliance, not a utensil or gadget.",
+   "Plate": "Crockery, not a utensil or gadget."
+  },
+  "fact": "A spurtle is a Scottish wooden stirrer for porridge, and the Golden Spurtle is the prize at the World Porridge Making Championship in Carrbridge."
+ },
+ {
+  "id": "cul-day-hat",
+  "cat": "Fashion",
+  "title": "Hats off",
+  "q": "A type of hat",
+  "rule": "Fashion and uniform headwear counts, but wigs and safety helmets do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Top hat",
+    "Baseball cap",
+    "Cowboy hat",
+    "Bowler hat",
+    "Flat cap",
+    "Beanie"
+   ],
+   "hipster": [
+    "Fedora",
+    "Trilby"
+   ],
+   "body": [
+    "Sombrero",
+    "Beret",
+    "Bobble hat",
+    "Bucket hat",
+    "Sun hat",
+    "Panama",
+    "Fez",
+    "Turban",
+    "Straw hat",
+    "Boater",
+    "Deerstalker",
+    "Stetson",
+    "Cap",
+    "Mortarboard",
+    "Balaclava",
+    "Bearskin",
+    "Pork pie hat",
+    "Cloche",
+    "Pillbox hat",
+    "Fascinator",
+    "Tam o' Shanter",
+    "Witch's hat",
+    "Santa hat",
+    "Party hat",
+    "Chef's hat",
+    "Wizard hat",
+    "Pirate hat",
+    "Tricorn",
+    "Bicorne",
+    "Bonnet",
+    "Visor",
+    "Trucker cap",
+    "Snapback",
+    "Nightcap",
+    "Peaked cap",
+    "Newsboy cap",
+    "Skullcap",
+    "Yarmulke",
+    "Mitre"
+   ],
+   "tail": [
+    "Homburg",
+    "Busby",
+    "Glengarry",
+    "Balmoral",
+    "Kepi",
+    "Shako",
+    "Pith helmet",
+    "Sou'wester",
+    "Ushanka",
+    "Trapper hat",
+    "Fur hat",
+    "Coonskin cap",
+    "Akubra",
+    "Slouch hat",
+    "Bush hat",
+    "Boonie hat",
+    "Safari hat",
+    "Ten-gallon hat",
+    "Gaucho hat",
+    "Cartwheel hat",
+    "Mob cap",
+    "Poke bonnet",
+    "Sunbonnet",
+    "Biretta",
+    "Zucchetto",
+    "Kufi",
+    "Taqiyah",
+    "Chullo",
+    "Toque",
+    "Watch cap",
+    "Garrison cap",
+    "Forage cap",
+    "Dad hat",
+    "Stovepipe hat",
+    "Opera hat",
+    "Pilgrim hat",
+    "Jester's hat",
+    "Dunce cap",
+    "Phrygian cap",
+    "Conical hat",
+    "Tyrolean hat",
+    "Campaign hat",
+    "Wimple",
+    "Snood",
+    "Coif",
+    "Gandhi cap",
+    "Papakha",
+    "Kalpak",
+    "Shtreimel",
+    "Kolpik",
+    "Dastar"
+   ],
+   "deep": [
+    "Hennin",
+    "Capotain",
+    "Monmouth cap",
+    "Montera",
+    "Pakol",
+    "Wide-awake hat",
+    "Ascot cap",
+    "Chapeau bras",
+    "Tudor bonnet",
+    "Chaperon",
+    "Pileus",
+    "Kubanka",
+    "Gat",
+    "Jingasa",
+    "Songkok",
+    "Kofia",
+    "Sailor hat",
+    "Ski hat"
+   ],
+   "outlier": [
+    "Petasos",
+    "Bycocket",
+    "Spodik",
+    "Eboshi",
+    "Salakot"
+   ]
+  },
+  "alias": {
+   "Top hat": [
+    "Topper",
+    "Silk hat"
+   ],
+   "Baseball cap": [
+    "Ball cap"
+   ],
+   "Cowboy hat": [
+    "Western hat"
+   ],
+   "Bowler hat": [
+    "Bowler",
+    "Derby",
+    "Derby hat",
+    "Billycock"
+   ],
+   "Beanie": [
+    "Beanie hat",
+    "Woolly hat",
+    "Wooly hat",
+    "Knit hat",
+    "Knitted hat"
+   ],
+   "Bobble hat": [
+    "Bobble cap",
+    "Pom-pom hat"
+   ],
+   "Bucket hat": [
+    "Fisherman's hat"
+   ],
+   "Panama": [
+    "Panama hat"
+   ],
+   "Fez": [
+    "Tarboosh",
+    "Tarbush"
+   ],
+   "Boater": [
+    "Straw boater"
+   ],
+   "Mortarboard": [
+    "Graduation cap",
+    "Graduation hat"
+   ],
+   "Bearskin": [
+    "Bearskin hat"
+   ],
+   "Pork pie hat": [
+    "Porkpie",
+    "Pork pie",
+    "Porkpie hat"
+   ],
+   "Pillbox hat": [
+    "Pillbox"
+   ],
+   "Tam o' Shanter": [
+    "Tam",
+    "Tammy"
+   ],
+   "Witch's hat": [
+    "Witch hat"
+   ],
+   "Santa hat": [
+    "Father Christmas hat",
+    "Christmas hat"
+   ],
+   "Chef's hat": [
+    "Chef hat",
+    "Toque blanche"
+   ],
+   "Pirate hat": [
+    "Pirate's hat"
+   ],
+   "Tricorn": [
+    "Tricorne",
+    "Cocked hat",
+    "Three-cornered hat"
+   ],
+   "Bicorne": [
+    "Bicorn"
+   ],
+   "Trucker cap": [
+    "Trucker hat"
+   ],
+   "Nightcap": [
+    "Night cap"
+   ],
+   "Newsboy cap": [
+    "Baker boy cap",
+    "Baker boy hat",
+    "Gatsby cap",
+    "Paperboy cap",
+    "Newsboy hat",
+    "Newsie cap"
+   ],
+   "Skullcap": [
+    "Skull cap"
+   ],
+   "Yarmulke": [
+    "Kippah",
+    "Kippa",
+    "Yamaka"
+   ],
+   "Mitre": [
+    "Miter"
+   ],
+   "Pith helmet": [
+    "Sun helmet",
+    "Topi"
+   ],
+   "Sou'wester": [
+    "Southwester",
+    "Sou wester"
+   ],
+   "Ushanka": [
+    "Russian hat",
+    "Ushanka hat"
+   ],
+   "Trapper hat": [
+    "Trapper"
+   ],
+   "Coonskin cap": [
+    "Davy Crockett hat"
+   ],
+   "Boonie hat": [
+    "Boonie",
+    "Boonie cap"
+   ],
+   "Sunbonnet": [
+    "Sun bonnet"
+   ],
+   "Toque": [
+    "Tuque"
+   ],
+   "Garrison cap": [
+    "Garrison hat"
+   ],
+   "Opera hat": [
+    "Gibus",
+    "Chapeau claque"
+   ],
+   "Jester's hat": [
+    "Jester hat",
+    "Fool's cap"
+   ],
+   "Dunce cap": [
+    "Dunce's cap",
+    "Dunce hat"
+   ],
+   "Phrygian cap": [
+    "Liberty cap"
+   ],
+   "Conical hat": [
+    "Asian conical hat",
+    "Non la",
+    "Rice hat"
+   ],
+   "Tyrolean hat": [
+    "Tyrolean",
+    "Alpine hat"
+   ],
+   "Dastar": [
+    "Dastaar",
+    "Pagri"
+   ],
+   "Chullo": [
+    "Chullo hat"
+   ],
+   "Campaign hat": [
+    "Smokey Bear hat"
+   ]
+  },
+  "traps": {
+   "Helmet": "Protective headgear rather than a hat.",
+   "Hard hat": "A safety helmet, which the rule rules out.",
+   "Wig": "Artificial hair rather than a hat.",
+   "Crown": "Royal regalia rather than a hat.",
+   "Headband": "A hair accessory rather than a hat."
+  },
+  "fact": "The petasos was a wide-brimmed hat of ancient Greece, and winged versions of it are worn by the messenger god Hermes in art."
+ },
+ {
+  "id": "cul-day-footwear",
+  "cat": "Fashion",
+  "title": "Sole searching",
+  "q": "A type of footwear",
+  "rule": "Specific styles count, but brand names and the catch-all word for footwear do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Trainer",
+    "Boot",
+    "Sandal",
+    "High heel",
+    "Flip-flop",
+    "Slipper"
+   ],
+   "hipster": [
+    "Brogue",
+    "Espadrille"
+   ],
+   "body": [
+    "Wellington",
+    "Stiletto",
+    "Plimsoll",
+    "Court shoe",
+    "Ballet flat",
+    "Loafer",
+    "Moccasin",
+    "Clog",
+    "Mule",
+    "Wedge",
+    "Platform",
+    "Oxford",
+    "Derby",
+    "Chelsea boot",
+    "Cowboy boot",
+    "Hiking boot",
+    "Football boot",
+    "Desert boot",
+    "Ankle boot",
+    "Knee-high boot",
+    "Thigh-high boot",
+    "Snow boot",
+    "Riding boot",
+    "Work boot",
+    "Kitten heel",
+    "Slingback",
+    "Mary Jane",
+    "Peep-toe",
+    "Gladiator sandal",
+    "Boat shoe",
+    "Monk shoe",
+    "Slip-on",
+    "Lace-up",
+    "Running shoe",
+    "Ballet shoe",
+    "Tap shoe",
+    "Ski boot",
+    "Ice skate",
+    "Roller skate",
+    "Rugby boot",
+    "Golf shoe",
+    "Combat boot",
+    "Biker boot"
+   ],
+   "tail": [
+    "Chukka boot",
+    "Jodhpur boot",
+    "Penny loafer",
+    "Tassel loafer",
+    "Driving shoe",
+    "Saddle shoe",
+    "Spectator shoe",
+    "Wingtip",
+    "Galosh",
+    "Overshoe",
+    "Waders",
+    "Moon boot",
+    "Slider",
+    "Huarache",
+    "Jelly shoe",
+    "Water shoe",
+    "Pointe shoe",
+    "Jazz shoe",
+    "Ballroom shoe",
+    "Bowling shoe",
+    "Basketball shoe",
+    "High-top",
+    "Skate shoe",
+    "Tennis shoe",
+    "Cycling shoe",
+    "Climbing shoe",
+    "Approach shoe",
+    "Trail shoe",
+    "Walking shoe",
+    "Safety boot",
+    "Steel toe cap boot",
+    "Block heel",
+    "Cuban heel",
+    "Stack heel",
+    "Engineer boot",
+    "Snowshoe",
+    "Running spikes"
+   ],
+   "deep": [
+    "Babouche",
+    "Mojari",
+    "Kolhapuri",
+    "Chappal",
+    "Paduka",
+    "Lapti",
+    "Buskin",
+    "Pampootie",
+    "Patten",
+    "Pantofle",
+    "Ghillie",
+    "Kiltie",
+    "Blucher",
+    "Mukluk",
+    "Geta",
+    "Zori",
+    "Tabi",
+    "Winklepicker",
+    "Brothel creeper",
+    "Beatle boot",
+    "Go-go boot",
+    "D'Orsay",
+    "Hobnail boot",
+    "Jackboot"
+   ],
+   "outlier": [
+    "Caliga",
+    "Cothurnus",
+    "Chopine",
+    "Poulaine",
+    "Opanak"
+   ]
+  },
+  "alias": {
+   "Trainer": [
+    "Sneaker",
+    "Athletic shoe"
+   ],
+   "High heel": [
+    "Heel",
+    "High-heeled shoe"
+   ],
+   "Flip-flop": [
+    "Thong",
+    "Jandal",
+    "Slop"
+   ],
+   "Wellington": [
+    "Welly",
+    "Wellie",
+    "Wellington boot",
+    "Gumboot",
+    "Rain boot",
+    "Rubber boot"
+   ],
+   "Stiletto": [
+    "Stiletto heel"
+   ],
+   "Plimsoll": [
+    "Gym shoe",
+    "Sand shoe",
+    "Dap",
+    "Daps",
+    "Gutties",
+    "Sandshoe"
+   ],
+   "Court shoe": [
+    "Pump"
+   ],
+   "Ballet flat": [
+    "Ballet pump",
+    "Ballerina shoe",
+    "Ballerina flat"
+   ],
+   "Oxford": [
+    "Oxford shoe"
+   ],
+   "Derby": [
+    "Derby shoe"
+   ],
+   "Football boot": [
+    "Cleat",
+    "Football cleat",
+    "Soccer cleat",
+    "Soccer boot"
+   ],
+   "Hiking boot": [
+    "Walking boot"
+   ],
+   "Cowboy boot": [
+    "Western boot"
+   ],
+   "Clog": [
+    "Sabot",
+    "Wooden clog"
+   ],
+   "Boat shoe": [
+    "Deck shoe"
+   ],
+   "Monk shoe": [
+    "Monk strap",
+    "Monk strap shoe"
+   ],
+   "Brothel creeper": [
+    "Creeper"
+   ],
+   "Knee-high boot": [
+    "Knee boot"
+   ],
+   "Thigh-high boot": [
+    "Thigh boot",
+    "Over-the-knee boot"
+   ],
+   "Slider": [
+    "Slide"
+   ],
+   "Platform": [
+    "Platform shoe"
+   ],
+   "Wedge": [
+    "Wedge heel"
+   ],
+   "Running shoe": [
+    "Running trainer"
+   ],
+   "Ballet shoe": [
+    "Ballet slipper"
+   ],
+   "Pointe shoe": [
+    "Ballet pointe"
+   ],
+   "High-top": [
+    "Hi-top"
+   ],
+   "Steel toe cap boot": [
+    "Steel toe boot",
+    "Steel toecap boot"
+   ],
+   "Combat boot": [
+    "Army boot"
+   ],
+   "Chukka boot": [
+    "Chukka"
+   ],
+   "Wingtip": [
+    "Wing tip"
+   ],
+   "Running spikes": [
+    "Spikes",
+    "Track spikes"
+   ],
+   "Water shoe": [
+    "Aqua shoe"
+   ],
+   "Jelly shoe": [
+    "Jelly sandal",
+    "Jellies"
+   ],
+   "Gladiator sandal": [
+    "Gladiator"
+   ]
+  },
+  "traps": {
+   "Converse": "A brand, not a style of footwear.",
+   "Crocs": "A brand, not a style of footwear.",
+   "Birkenstock": "A brand, not a style of footwear.",
+   "Dr Martens": "A brand, not a style of footwear.",
+   "Shoe": "The catch-all word for footwear, not a style."
+  },
+  "fact": "Emperor Caligula's nickname meant 'little boot', after the miniature soldier's caliga he wore as a child among his father's troops."
+ },
+ {
+  "id": "cul-day-gemstone",
+  "cat": "Science",
+  "title": "Bling",
+  "q": "A gemstone",
+  "rule": "Cut stones and organic gems used in jewellery count, but metals and lab-made stones do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Diamond",
+    "Ruby",
+    "Emerald",
+    "Sapphire",
+    "Amethyst",
+    "Pearl"
+   ],
+   "hipster": [
+    "Tanzanite",
+    "Alexandrite"
+   ],
+   "body": [
+    "Opal",
+    "Topaz",
+    "Garnet",
+    "Turquoise",
+    "Aquamarine",
+    "Peridot",
+    "Jade",
+    "Onyx",
+    "Moonstone",
+    "Citrine",
+    "Tourmaline",
+    "Lapis lazuli",
+    "Amber",
+    "Jet",
+    "Coral",
+    "Zircon",
+    "Agate",
+    "Jasper",
+    "Quartz",
+    "Rose quartz",
+    "Tiger's eye",
+    "Obsidian",
+    "Malachite",
+    "Bloodstone",
+    "Carnelian",
+    "Beryl",
+    "Spinel",
+    "Fluorite",
+    "Hematite"
+   ],
+   "tail": [
+    "Morganite",
+    "Kunzite",
+    "Iolite",
+    "Apatite",
+    "Labradorite",
+    "Sunstone",
+    "Smoky quartz",
+    "Rock crystal",
+    "Chrysoberyl",
+    "Cat's eye",
+    "Chalcedony",
+    "Sardonyx",
+    "Chrysoprase",
+    "Moss agate",
+    "Fire opal",
+    "Black opal",
+    "Boulder opal",
+    "Star sapphire",
+    "Padparadscha",
+    "Demantoid",
+    "Tsavorite",
+    "Rhodolite",
+    "Almandine",
+    "Pyrope",
+    "Spessartine",
+    "Grossular",
+    "Andradite",
+    "Hessonite",
+    "Rubellite",
+    "Indicolite",
+    "Verdelite",
+    "Paraiba tourmaline",
+    "Amazonite",
+    "Rhodochrosite",
+    "Rhodonite",
+    "Sodalite",
+    "Sugilite",
+    "Charoite",
+    "Larimar",
+    "Howlite",
+    "Aventurine",
+    "Azurite",
+    "Kyanite",
+    "Prehnite",
+    "Heliodor",
+    "Goshenite",
+    "Ametrine",
+    "Prasiolite",
+    "Jadeite",
+    "Nephrite",
+    "Mother of pearl",
+    "Ammolite",
+    "Moldavite",
+    "Variscite",
+    "Chrysocolla",
+    "Fire agate",
+    "Hawk's eye",
+    "Hiddenite",
+    "Spodumene",
+    "Diopside",
+    "Zoisite",
+    "Andalusite",
+    "Sphene",
+    "Danburite",
+    "Scapolite",
+    "Axinite",
+    "Smithsonite",
+    "Dioptase",
+    "Rutilated quartz",
+    "Blue lace agate",
+    "Uvarovite"
+   ],
+   "deep": [
+    "Benitoite",
+    "Painite",
+    "Taaffeite",
+    "Red beryl",
+    "Kornerupine",
+    "Sinhalite",
+    "Euclase",
+    "Phenakite",
+    "Cassiterite",
+    "Sphalerite",
+    "Vesuvianite",
+    "Sapphirine",
+    "Tugtupite",
+    "Lazulite",
+    "Sillimanite",
+    "Amblygonite",
+    "Brazilianite",
+    "Hambergite",
+    "Epidote",
+    "Petalite",
+    "Pezzottaite"
+   ],
+   "outlier": [
+    "Poudretteite",
+    "Jeremejevite",
+    "Serendibite",
+    "Musgravite",
+    "Grandidierite"
+   ]
+  },
+  "alias": {
+   "Lapis lazuli": [
+    "Lapis"
+   ],
+   "Tiger's eye": [
+    "Tigers eye",
+    "Tiger eye"
+   ],
+   "Cat's eye": [
+    "Cats eye"
+   ],
+   "Smoky quartz": [
+    "Smokey quartz"
+   ],
+   "Rock crystal": [
+    "Clear quartz"
+   ],
+   "Bloodstone": [
+    "Heliotrope"
+   ],
+   "Carnelian": [
+    "Cornelian"
+   ],
+   "Peridot": [
+    "Olivine"
+   ],
+   "Paraiba tourmaline": [
+    "Paraiba"
+   ],
+   "Red beryl": [
+    "Bixbite"
+   ],
+   "Mother of pearl": [
+    "Nacre"
+   ],
+   "Hawk's eye": [
+    "Hawks eye"
+   ],
+   "Jet": [
+    "Whitby jet"
+   ],
+   "Padparadscha": [
+    "Padparadscha sapphire"
+   ],
+   "Sphene": [
+    "Titanite"
+   ]
+  },
+  "traps": {
+   "Gold": "A precious metal, not a gemstone.",
+   "Platinum": "A precious metal, not a gemstone.",
+   "Cubic zirconia": "A lab-made diamond simulant, not a natural gemstone.",
+   "Moissanite": "Almost always lab-made, so ruled out.",
+   "Glass": "Man-made and not a natural gemstone."
+  },
+  "fact": "Taaffeite was the first gem identified from a cut stone rather than a rough crystal, spotted in a Dublin jeweller's tray of spinels in 1945."
+ },
+ {
+  "id": "cul-day-fabric",
+  "cat": "Fashion",
+  "title": "Cut from cloth",
+  "q": "A type of fabric",
+  "rule": "Woven, knitted and felted cloths count, natural or synthetic, but leather and plastics do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Cotton",
+    "Silk",
+    "Wool",
+    "Polyester",
+    "Denim",
+    "Velvet"
+   ],
+   "hipster": [
+    "Cashmere",
+    "Corduroy"
+   ],
+   "body": [
+    "Linen",
+    "Nylon",
+    "Satin",
+    "Lace",
+    "Tweed",
+    "Fleece",
+    "Flannel",
+    "Chiffon",
+    "Spandex",
+    "Viscose",
+    "Acrylic",
+    "Canvas",
+    "Hessian",
+    "Jersey",
+    "Muslin",
+    "Calico",
+    "Gingham",
+    "Tartan",
+    "Taffeta",
+    "Tulle",
+    "Organza",
+    "Felt",
+    "Mohair",
+    "Angora",
+    "Towelling",
+    "Twill",
+    "Poplin",
+    "Crepe",
+    "Merino",
+    "Alpaca",
+    "Brocade",
+    "Damask",
+    "Chenille",
+    "Jacquard",
+    "Neoprene",
+    "Hemp",
+    "Bamboo",
+    "Microfibre",
+    "Velour",
+    "Seersucker",
+    "Gabardine",
+    "Lambswool"
+   ],
+   "tail": [
+    "Chambray",
+    "Moleskin",
+    "Worsted",
+    "Cheesecloth",
+    "Gauze",
+    "Voile",
+    "Lawn",
+    "Batiste",
+    "Cambric",
+    "Percale",
+    "Sateen",
+    "Ticking",
+    "Duck cloth",
+    "Drill",
+    "Oilcloth",
+    "Oilskin",
+    "Waxed cotton",
+    "Pashmina",
+    "Camel hair",
+    "Vicuña",
+    "Harris Tweed",
+    "Shantung",
+    "Dupion",
+    "Habotai",
+    "Charmeuse",
+    "Crepe de chine",
+    "Georgette",
+    "Marquisette",
+    "Mousseline",
+    "Tarlatan",
+    "Buckram",
+    "Bombazine",
+    "Hopsack",
+    "Fustian",
+    "Dimity",
+    "Madras",
+    "Challis",
+    "Serge",
+    "Barathea",
+    "Whipcord",
+    "Melton",
+    "Loden",
+    "Baize",
+    "Kersey",
+    "Pique",
+    "Nainsook",
+    "Organdie",
+    "Cretonne",
+    "Chintz",
+    "Toile",
+    "Sailcloth",
+    "Ripstop",
+    "Mesh",
+    "Lamé",
+    "Tencel",
+    "Modal",
+    "Cupro",
+    "Acetate",
+    "Polypropylene",
+    "Polycotton",
+    "Terylene",
+    "Crimplene",
+    "Dacron",
+    "Orlon",
+    "Velveteen",
+    "Boucle",
+    "Sherpa",
+    "Faux fur",
+    "Plush",
+    "Minky",
+    "Astrakhan",
+    "Tapestry",
+    "Jute"
+   ],
+   "deep": [
+    "Grosgrain",
+    "Faille",
+    "Ottoman",
+    "Bengaline",
+    "Moire",
+    "Pongee",
+    "Tussah",
+    "Duchesse satin",
+    "Cloqué",
+    "Matelassé",
+    "Tricot",
+    "Interlock",
+    "Ponte",
+    "Zibeline",
+    "Scrim",
+    "Sinamay",
+    "Ramie",
+    "Surah",
+    "Foulard",
+    "Cheviot",
+    "Donegal tweed",
+    "Jaconet",
+    "Moquette",
+    "Crushed velvet",
+    "Panne velvet",
+    "Kente",
+    "Barège"
+   ],
+   "outlier": [
+    "Qiviut",
+    "Samite",
+    "Sendal",
+    "Linsey-woolsey",
+    "Nankeen"
+   ]
+  },
+  "alias": {
+   "Corduroy": [
+    "Cord"
+   ],
+   "Spandex": [
+    "Lycra",
+    "Elastane"
+   ],
+   "Viscose": [
+    "Rayon"
+   ],
+   "Hessian": [
+    "Burlap"
+   ],
+   "Tartan": [
+    "Plaid"
+   ],
+   "Towelling": [
+    "Terry towelling",
+    "Terry cloth",
+    "Terrycloth",
+    "Terry"
+   ],
+   "Microfibre": [
+    "Microfiber"
+   ],
+   "Velour": [
+    "Velours"
+   ],
+   "Lambswool": [
+    "Lamb's wool"
+   ],
+   "Duck cloth": [
+    "Cotton duck",
+    "Duck canvas"
+   ],
+   "Dupion": [
+    "Dupioni",
+    "Dupion silk"
+   ],
+   "Habotai": [
+    "Habutai",
+    "Habotai silk"
+   ],
+   "Mousseline": [
+    "Mousseline de soie"
+   ],
+   "Ripstop": [
+    "Rip-stop",
+    "Ripstop nylon"
+   ],
+   "Faux fur": [
+    "Fake fur"
+   ],
+   "Tencel": [
+    "Lyocell"
+   ],
+   "Merino": [
+    "Merino wool"
+   ],
+   "Organdie": [
+    "Organdy"
+   ],
+   "Gabardine": [
+    "Gaberdine"
+   ],
+   "Jersey": [
+    "Jersey knit"
+   ],
+   "Nankeen": [
+    "Nankin"
+   ]
+  },
+  "traps": {
+   "Leather": "Animal hide, not a woven or knitted cloth.",
+   "Suede": "A type of leather, not a cloth.",
+   "Fur": "Animal pelt rather than a cloth.",
+   "Rubber": "Not a woven, knitted or felted cloth.",
+   "Paper": "Not a woven, knitted or felted cloth."
+  },
+  "fact": "Qiviut, the soft underwool of the arctic musk ox, is often said to be around eight times warmer than sheep's wool and does not shrink when washed."
+ },
+ {
+  "id": "cul-day-sauce",
+  "cat": "Food",
+  "title": "Dip in",
+  "q": "A sauce or condiment",
+  "rule": "Anything served with food to add flavour counts, whether savoury or sweet, but whole dishes do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Ketchup",
+    "Mayonnaise",
+    "Mustard",
+    "Brown sauce",
+    "Gravy",
+    "Salad cream"
+   ],
+   "hipster": [
+    "Sriracha",
+    "Worcestershire sauce"
+   ],
+   "body": [
+    "Vinegar",
+    "Malt vinegar",
+    "Mint sauce",
+    "Apple sauce",
+    "Cranberry sauce",
+    "Tartare sauce",
+    "Horseradish",
+    "Soy sauce",
+    "Sweet chilli sauce",
+    "Tabasco",
+    "Barbecue sauce",
+    "Hot sauce",
+    "Pesto",
+    "Salsa",
+    "Guacamole",
+    "Hummus",
+    "Tzatziki",
+    "Chutney",
+    "Mango chutney",
+    "Piccalilli",
+    "Pickle",
+    "Pickled onion",
+    "Relish",
+    "Salt",
+    "Pepper",
+    "Cheese sauce",
+    "White sauce",
+    "Hollandaise",
+    "Béarnaise",
+    "Ranch",
+    "Caesar dressing",
+    "Thousand Island",
+    "Marie Rose sauce",
+    "Sweet and sour sauce",
+    "Teriyaki sauce",
+    "Hoisin sauce",
+    "Oyster sauce",
+    "Fish sauce",
+    "Satay sauce",
+    "Wholegrain mustard",
+    "English mustard",
+    "Dijon mustard",
+    "Bread sauce",
+    "Aioli",
+    "Peri-peri sauce",
+    "Harissa",
+    "Wasabi",
+    "Honey mustard",
+    "French dressing",
+    "Vinaigrette",
+    "Balsamic vinegar",
+    "Chocolate sauce",
+    "Custard",
+    "Toffee sauce",
+    "Caramel sauce",
+    "Parsley sauce"
+   ],
+   "tail": [
+    "Velouté",
+    "Espagnole",
+    "Demi-glace",
+    "Bordelaise",
+    "Peppercorn sauce",
+    "Mushroom sauce",
+    "Diane sauce",
+    "Onion gravy",
+    "Jus",
+    "Redcurrant jelly",
+    "Mint jelly",
+    "Cumberland sauce",
+    "Horseradish cream",
+    "Remoulade",
+    "Rouille",
+    "Bolognese",
+    "Carbonara",
+    "Arrabbiata",
+    "Puttanesca",
+    "Alfredo",
+    "Marinara",
+    "Napoletana",
+    "Pomodoro",
+    "Ragù",
+    "Salsa verde",
+    "Mole",
+    "Enchilada sauce",
+    "Pico de gallo",
+    "Queso",
+    "Raita",
+    "Tamarind chutney",
+    "Lime pickle",
+    "Mango pickle",
+    "Plum sauce",
+    "Black bean sauce",
+    "Ponzu",
+    "Miso",
+    "Sambal",
+    "Gochujang",
+    "Chimichurri",
+    "Mojo",
+    "Romesco",
+    "Pickled ginger",
+    "Gherkins",
+    "Tapenade",
+    "Baba ghanoush",
+    "Taramasalata",
+    "Brandy sauce",
+    "Brandy butter",
+    "Coulis",
+    "Henderson's Relish",
+    "Sandwich spread",
+    "Mushroom ketchup",
+    "Banana ketchup",
+    "Chilli oil",
+    "Chilli jam",
+    "Hot honey",
+    "Jerk sauce",
+    "Katsu sauce",
+    "Burger sauce",
+    "Garlic sauce",
+    "Garlic butter",
+    "Curry sauce",
+    "Anchovy essence"
+   ],
+   "deep": [
+    "Beurre blanc",
+    "Mornay sauce",
+    "Soubise",
+    "Chasseur sauce",
+    "Choron",
+    "Bigarade",
+    "Périgueux",
+    "Poivrade",
+    "Nantua",
+    "Ravigote",
+    "Gribiche",
+    "Sauce vierge",
+    "Maltaise",
+    "Allemande",
+    "Sauce Robert",
+    "Tonkatsu sauce",
+    "Okonomiyaki sauce",
+    "Yuzu kosho",
+    "Ssamjang",
+    "Chilli crisp",
+    "XO sauce",
+    "Char siu sauce",
+    "Doubanjiang",
+    "Chermoula",
+    "Zhoug",
+    "Amba",
+    "Tahini",
+    "Toum",
+    "Muhammara",
+    "Ajvar",
+    "Kecap manis",
+    "Skordalia",
+    "Nam jim"
+   ],
+   "outlier": [
+    "Gentleman's Relish",
+    "Walnut ketchup",
+    "Tewkesbury mustard",
+    "Tkemali",
+    "Adjika"
+   ]
+  },
+  "alias": {
+   "Ketchup": [
+    "Tomato ketchup",
+    "Tomato sauce",
+    "Catsup"
+   ],
+   "Mayonnaise": [
+    "Mayo"
+   ],
+   "Brown sauce": [
+    "HP",
+    "HP sauce",
+    "HP brown sauce"
+   ],
+   "Salad cream": [
+    "Heinz salad cream"
+   ],
+   "Worcestershire sauce": [
+    "Worcester sauce",
+    "Lea & Perrins",
+    "Lea and Perrins",
+    "Worcestershire"
+   ],
+   "Tartare sauce": [
+    "Tartar sauce",
+    "Tartare",
+    "Tartar"
+   ],
+   "Horseradish": [
+    "Horseradish sauce"
+   ],
+   "Soy sauce": [
+    "Soya sauce",
+    "Soy",
+    "Soya"
+   ],
+   "Sweet chilli sauce": [
+    "Sweet chili sauce",
+    "Sweet chilli"
+   ],
+   "Tabasco": [
+    "Tabasco sauce"
+   ],
+   "Barbecue sauce": [
+    "BBQ sauce",
+    "Barbeque sauce",
+    "BBQ"
+   ],
+   "Hot sauce": [
+    "Chilli sauce",
+    "Chili sauce"
+   ],
+   "Hummus": [
+    "Houmous",
+    "Hommus"
+   ],
+   "Pickle": [
+    "Branston",
+    "Branston pickle",
+    "Sweet pickle"
+   ],
+   "Relish": [
+    "Burger relish"
+   ],
+   "Pepper": [
+    "Black pepper"
+   ],
+   "White sauce": [
+    "Béchamel",
+    "Bechamel sauce"
+   ],
+   "Hollandaise": [
+    "Hollandaise sauce"
+   ],
+   "Béarnaise": [
+    "Béarnaise sauce"
+   ],
+   "Ranch": [
+    "Ranch dressing"
+   ],
+   "Caesar dressing": [
+    "Caesar"
+   ],
+   "Thousand Island": [
+    "Thousand Island dressing"
+   ],
+   "Marie Rose sauce": [
+    "Marie Rose",
+    "Seafood sauce"
+   ],
+   "Sweet and sour sauce": [
+    "Sweet & sour sauce",
+    "Sweet and sour",
+    "Sweet & sour"
+   ],
+   "Teriyaki sauce": [
+    "Teriyaki"
+   ],
+   "Hoisin sauce": [
+    "Hoisin"
+   ],
+   "Fish sauce": [
+    "Nam pla"
+   ],
+   "Satay sauce": [
+    "Peanut sauce",
+    "Satay"
+   ],
+   "Wholegrain mustard": [
+    "Whole grain mustard",
+    "Grain mustard"
+   ],
+   "Dijon mustard": [
+    "Dijon"
+   ],
+   "Aioli": [
+    "Garlic mayo",
+    "Garlic mayonnaise"
+   ],
+   "Peri-peri sauce": [
+    "Peri-peri",
+    "Piri-piri",
+    "Piri-piri sauce"
+   ],
+   "Balsamic vinegar": [
+    "Balsamic"
+   ],
+   "Queso": [
+    "Queso dip"
+   ],
+   "Custard": [
+    "Crème anglaise"
+   ],
+   "Coulis": [
+    "Fruit coulis",
+    "Raspberry coulis"
+   ],
+   "Mornay sauce": [
+    "Mornay"
+   ],
+   "Henderson's Relish": [
+    "Henderson's"
+   ],
+   "Gentleman's Relish": [
+    "Patum Peperium"
+   ],
+   "Katsu sauce": [
+    "Katsu curry sauce"
+   ],
+   "Pickled ginger": [
+    "Gari"
+   ],
+   "Chilli oil": [
+    "Chili oil"
+   ],
+   "Chilli crisp": [
+    "Chili crisp",
+    "Lao Gan Ma"
+   ]
+  },
+  "traps": {
+   "Butter": "A dairy product, not a sauce or condiment.",
+   "Jam": "A fruit spread, not a sauce or condiment.",
+   "Marmite": "A yeast-extract spread, not a sauce or condiment.",
+   "Marmalade": "A citrus spread, not a sauce or condiment.",
+   "Maple syrup": "A syrup, not a sauce or condiment."
+  },
+  "fact": "Gentleman's Relish, a spiced anchovy paste also sold as Patum Peperium, has been made to a secret recipe since 1828."
+ },
+ {
+  "id": "cul-day-fish-seafood",
+  "cat": "Food",
+  "title": "Fresh catch",
+  "q": "A fish or seafood you can eat",
+  "rule": "Edible fish and shellfish count, fresh, smoked or tinned, but dishes made from them do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Cod",
+    "Salmon",
+    "Haddock",
+    "Tuna",
+    "Prawn",
+    "Mackerel"
+   ],
+   "hipster": [
+    "Sea bass",
+    "Monkfish"
+   ],
+   "body": [
+    "Plaice",
+    "Sole",
+    "Trout",
+    "Herring",
+    "Sardine",
+    "Crab",
+    "Lobster",
+    "Mussel",
+    "Oyster",
+    "Scallop",
+    "Squid",
+    "Octopus",
+    "Eel",
+    "Halibut",
+    "Turbot",
+    "Hake",
+    "Pollock",
+    "Kipper",
+    "Whitebait",
+    "Anchovy",
+    "Shrimp",
+    "King prawn",
+    "Tiger prawn",
+    "Cockle",
+    "Whelk",
+    "Winkle",
+    "Clam",
+    "Crayfish",
+    "Langoustine",
+    "Swordfish",
+    "Skate",
+    "Smoked salmon",
+    "Dover sole",
+    "Lemon sole",
+    "Red mullet",
+    "Sea bream",
+    "Snapper",
+    "Tilapia",
+    "Catfish",
+    "Carp",
+    "Pike",
+    "Perch",
+    "Coley",
+    "Whiting"
+   ],
+   "tail": [
+    "John Dory",
+    "Brill",
+    "Dab",
+    "Flounder",
+    "Sea trout",
+    "Rainbow trout",
+    "Cuttlefish",
+    "Brown crab",
+    "Spider crab",
+    "Razor clam",
+    "Sea urchin",
+    "Abalone",
+    "Marlin",
+    "Mahi-mahi",
+    "Barramundi",
+    "Grouper",
+    "Zander",
+    "Grayling",
+    "Arctic char",
+    "Smelt",
+    "Gurnard",
+    "Ling",
+    "Dogfish",
+    "Shark",
+    "Conger eel",
+    "Sturgeon",
+    "Hoki",
+    "Orange roughy",
+    "Sprat",
+    "Pangasius",
+    "Red snapper",
+    "Yellowfin tuna",
+    "Bluefin tuna",
+    "Albacore",
+    "Bonito",
+    "Skipjack tuna",
+    "Soft-shell crab",
+    "King crab",
+    "Snow crab",
+    "Blue crab",
+    "Dungeness crab",
+    "Mud crab",
+    "Stone crab",
+    "Velvet crab",
+    "Spiny lobster",
+    "Slipper lobster",
+    "Yabby",
+    "Marron",
+    "Moreton Bay bug",
+    "Limpet",
+    "Conch",
+    "Goose barnacle",
+    "Geoduck",
+    "Quahog",
+    "Queen scallop",
+    "Jellyfish",
+    "Sea cucumber",
+    "Mantis shrimp",
+    "Brown shrimp",
+    "Caviar",
+    "Grey mullet",
+    "Bream"
+   ],
+   "deep": [
+    "Barracuda",
+    "Pompano",
+    "Pomfret",
+    "Wahoo",
+    "Kingfish",
+    "Amberjack",
+    "Yellowtail",
+    "Sablefish",
+    "Cobia",
+    "Tilefish",
+    "Hilsa",
+    "Rohu",
+    "Milkfish",
+    "Pufferfish",
+    "Saury",
+    "Flying fish",
+    "Capelin",
+    "Garfish",
+    "Snakehead",
+    "Wolffish",
+    "Megrim",
+    "Patagonian toothfish",
+    "Sockeye salmon",
+    "Coho salmon",
+    "Chinook salmon",
+    "Pink salmon",
+    "Chum salmon",
+    "Lingcod",
+    "Redfish",
+    "Surf clam"
+   ],
+   "outlier": [
+    "Lamprey",
+    "Opah",
+    "Ayu",
+    "Escolar",
+    "Bombay duck"
+   ]
+  },
+  "alias": {
+   "Sardine": [
+    "Pilchard"
+   ],
+   "Squid": [
+    "Calamari"
+   ],
+   "Langoustine": [
+    "Scampi",
+    "Dublin Bay prawn",
+    "Norway lobster"
+   ],
+   "Brown crab": [
+    "Edible crab"
+   ],
+   "Crayfish": [
+    "Crawfish",
+    "Crawdad"
+   ],
+   "Monkfish": [
+    "Anglerfish"
+   ],
+   "Sea bass": [
+    "Seabass",
+    "Bass"
+   ],
+   "Mahi-mahi": [
+    "Dorado",
+    "Dolphinfish",
+    "Dolphin fish"
+   ],
+   "Coley": [
+    "Coalfish",
+    "Saithe"
+   ],
+   "Pollock": [
+    "Pollack"
+   ],
+   "Dogfish": [
+    "Huss",
+    "Rock salmon",
+    "Rock eel"
+   ],
+   "Winkle": [
+    "Periwinkle"
+   ],
+   "Scallop": [
+    "King scallop"
+   ],
+   "Queen scallop": [
+    "Queenie",
+    "Queenies"
+   ],
+   "Pangasius": [
+    "Basa",
+    "Basa fish"
+   ],
+   "Sea bream": [
+    "Gilthead bream",
+    "Gilt-head bream",
+    "Dorade"
+   ],
+   "Abalone": [
+    "Ormer"
+   ],
+   "Sea urchin": [
+    "Uni"
+   ],
+   "Sea cucumber": [
+    "Trepang",
+    "Bêche-de-mer"
+   ],
+   "Pufferfish": [
+    "Fugu",
+    "Blowfish",
+    "Puffer fish"
+   ],
+   "Arctic char": [
+    "Char",
+    "Charr"
+   ],
+   "Skipjack tuna": [
+    "Skipjack"
+   ],
+   "Yellowfin tuna": [
+    "Yellowfin",
+    "Ahi"
+   ],
+   "Bluefin tuna": [
+    "Bluefin"
+   ],
+   "Bombay duck": [
+    "Bummalo"
+   ],
+   "Sablefish": [
+    "Black cod"
+   ],
+   "Sockeye salmon": [
+    "Sockeye",
+    "Red salmon"
+   ],
+   "Coho salmon": [
+    "Coho",
+    "Silver salmon"
+   ],
+   "Chinook salmon": [
+    "Chinook",
+    "King salmon"
+   ],
+   "Red mullet": [
+    "Surmullet"
+   ],
+   "Grey mullet": [
+    "Mullet"
+   ],
+   "Conger eel": [
+    "Conger"
+   ],
+   "Tiger prawn": [
+    "Black tiger prawn"
+   ],
+   "King prawn": [
+    "Jumbo prawn"
+   ],
+   "Razor clam": [
+    "Razor fish",
+    "Razor shell"
+   ],
+   "Dungeness crab": [
+    "Dungeness"
+   ],
+   "Goose barnacle": [
+    "Percebes",
+    "Gooseneck barnacle"
+   ],
+   "Patagonian toothfish": [
+    "Chilean sea bass"
+   ],
+   "John Dory": [
+    "St Peter's fish"
+   ],
+   "Barramundi": [
+    "Asian sea bass"
+   ],
+   "Gurnard": [
+    "Gurnet"
+   ],
+   "Hilsa": [
+    "Ilish"
+   ],
+   "Zander": [
+    "Pikeperch"
+   ]
+  },
+  "traps": {
+   "Sushi": "A dish made with fish, not a fish itself.",
+   "Seaweed": "A sea plant, not a fish or shellfish.",
+   "Dolphin": "A mammal, not a fish.",
+   "Fish fingers": "A processed product, not a species.",
+   "Whale": "A mammal, not a fish."
+  },
+  "fact": "Bombay duck is not a duck at all but a lizardfish, usually eaten dried or fried in Mumbai."
+ }
+]
