@@ -1,0 +1,1441 @@
+[
+ {
+  "id": "cul-food-fruit",
+  "cat": "Food",
+  "title": "Five a day",
+  "q": "Any fruit",
+  "rule": "Vegetables such as tomatoes, avocados and cucumbers don't count, and each answer is a type of fruit rather than a variety of one.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Apple",
+    "Banana",
+    "Orange",
+    "Strawberry",
+    "Grape"
+   ],
+   "hipster": [
+    "Kumquat",
+    "Feijoa"
+   ],
+   "body": [
+    "Pear",
+    "Plum",
+    "Peach",
+    "Mango",
+    "Pineapple",
+    "Cherry",
+    "Lemon",
+    "Lime",
+    "Kiwi",
+    "Melon",
+    "Watermelon",
+    "Grapefruit",
+    "Raspberry",
+    "Blueberry",
+    "Blackberry",
+    "Pomegranate",
+    "Fig",
+    "Date",
+    "Apricot",
+    "Nectarine",
+    "Raisin",
+    "Coconut"
+   ],
+   "tail": [
+    "Lychee",
+    "Guava",
+    "Papaya",
+    "Passion fruit",
+    "Dragon fruit",
+    "Star fruit",
+    "Persimmon",
+    "Quince",
+    "Gooseberry",
+    "Cranberry",
+    "Blackcurrant",
+    "Redcurrant",
+    "Mandarin",
+    "Clementine",
+    "Satsuma",
+    "Tangerine",
+    "Nashi pear",
+    "Damson",
+    "Greengage",
+    "Sultana",
+    "Prune",
+    "Pomelo",
+    "Loganberry",
+    "Elderberry",
+    "Mulberry"
+   ],
+   "deep": [
+    "Ugli fruit",
+    "Jackfruit",
+    "Durian",
+    "Rambutan",
+    "Mangosteen",
+    "Longan",
+    "Soursop",
+    "Cherimoya",
+    "Custard apple",
+    "Sapodilla",
+    "Tamarillo",
+    "Loquat",
+    "Kiwano",
+    "Salak",
+    "Mamey sapote",
+    "Breadfruit",
+    "Ackee",
+    "Jujube",
+    "Cupuacu",
+    "Medlar",
+    "Bael fruit",
+    "Atemoya",
+    "Jabuticaba"
+   ],
+   "outlier": [
+    "Miracle fruit",
+    "Buddha's hand",
+    "Salmonberry",
+    "Tayberry",
+    "Wood apple"
+   ]
+  },
+  "alias": {
+   "Kiwi": [
+    "Kiwifruit",
+    "Chinese gooseberry"
+   ],
+   "Passion fruit": [
+    "Passionfruit"
+   ],
+   "Jackfruit": [
+    "Jack fruit"
+   ],
+   "Star fruit": [
+    "Starfruit",
+    "Carambola"
+   ],
+   "Lychee": [
+    "Litchi",
+    "Lichee"
+   ],
+   "Melon": [
+    "Cantaloupe",
+    "Honeydew"
+   ],
+   "Cherimoya": [
+    "Chirimoya"
+   ],
+   "Sultana": [
+    "Golden raisin"
+   ],
+   "Pomelo": [
+    "Pummelo"
+   ],
+   "Ugli fruit": [
+    "Ugli"
+   ]
+  },
+  "traps": {
+   "Tomato": "Botanically a fruit, but it's a vegetable on this card.",
+   "Avocado": "Botanically a berry, but it's a vegetable on this card.",
+   "Cucumber": "Botanically a fruit, but it's a vegetable on this card.",
+   "Rhubarb": "Cooked like a fruit, but it's a stalk."
+  },
+  "fact": "Ugli fruit is a tangerine and grapefruit hybrid first grown in Jamaica."
+ },
+ {
+  "id": "cul-food-vegetable",
+  "cat": "Food",
+  "title": "Veg out",
+  "q": "Any vegetable",
+  "rule": "Savoury produce that cooks treat as vegetables counts even when it's botanically a fruit, but sweet fruits and nuts don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Carrot",
+    "Potato",
+    "Broccoli",
+    "Cabbage",
+    "Onion"
+   ],
+   "hipster": [
+    "Kohlrabi",
+    "Romanesco"
+   ],
+   "body": [
+    "Pea",
+    "Sweetcorn",
+    "Cauliflower",
+    "Courgette",
+    "Aubergine",
+    "Pepper",
+    "Tomato",
+    "Cucumber",
+    "Lettuce",
+    "Spinach",
+    "Leek",
+    "Celery",
+    "Garlic",
+    "Parsnip",
+    "Turnip",
+    "Beetroot",
+    "Sweet potato",
+    "Butternut squash",
+    "Pumpkin",
+    "Asparagus",
+    "Green bean",
+    "Brussels sprout",
+    "Mushroom",
+    "Avocado"
+   ],
+   "tail": [
+    "Radish",
+    "Swede",
+    "Kale",
+    "Okra",
+    "Fennel",
+    "Runner bean",
+    "Broad bean",
+    "Spring onion",
+    "Rocket",
+    "Pak choi",
+    "Chard",
+    "Samphire",
+    "Shallot",
+    "Celeriac",
+    "Artichoke",
+    "Chicory",
+    "Watercress",
+    "Savoy cabbage",
+    "Bean sprouts"
+   ],
+   "deep": [
+    "Chayote",
+    "Burdock",
+    "Daikon",
+    "Lotus root",
+    "Bamboo shoot",
+    "Taro",
+    "Yam",
+    "Cassava",
+    "Jerusalem artichoke",
+    "Bitter gourd",
+    "Bottle gourd",
+    "Edamame"
+   ],
+   "outlier": [
+    "Salsify",
+    "Scorzonera",
+    "Malanga",
+    "Oca"
+   ]
+  },
+  "alias": {
+   "Aubergine": [
+    "Eggplant"
+   ],
+   "Courgette": [
+    "Zucchini"
+   ],
+   "Pepper": [
+    "Bell pepper",
+    "Capsicum"
+   ],
+   "Swede": [
+    "Rutabaga"
+   ],
+   "Sweetcorn": [
+    "Corn",
+    "Corn on the cob",
+    "Maize"
+   ],
+   "Spring onion": [
+    "Scallion",
+    "Green onion"
+   ],
+   "Rocket": [
+    "Arugula"
+   ],
+   "Pak choi": [
+    "Bok choy"
+   ],
+   "Green bean": [
+    "French bean",
+    "String bean"
+   ],
+   "Broad bean": [
+    "Fava bean"
+   ],
+   "Okra": [
+    "Lady's finger",
+    "Ladies' fingers"
+   ],
+   "Chard": [
+    "Swiss chard"
+   ],
+   "Cassava": [
+    "Manioc",
+    "Yuca"
+   ]
+  },
+  "traps": {
+   "Apple": "A fruit, so it's not a vegetable.",
+   "Strawberry": "A fruit, even if it's often served as a dessert.",
+   "Almond": "A nut, not a vegetable."
+  },
+  "fact": "Romanesco has a fractal pattern, where each small floret repeats the shape of the whole head."
+ },
+ {
+  "id": "cul-food-cheese",
+  "cat": "Food",
+  "title": "Say cheese",
+  "q": "Any cheese",
+  "rule": "Named cheeses only, not brands, dairy spreads or dairy products like butter and yoghurt.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Cheddar",
+    "Mozzarella",
+    "Brie",
+    "Parmesan",
+    "Stilton"
+   ],
+   "hipster": [
+    "Halloumi",
+    "Comté"
+   ],
+   "body": [
+    "Gouda",
+    "Edam",
+    "Feta",
+    "Ricotta",
+    "Mascarpone",
+    "Paneer",
+    "Wensleydale",
+    "Cheshire",
+    "Lancashire",
+    "Red Leicester",
+    "Double Gloucester",
+    "Caerphilly",
+    "Emmental",
+    "Gruyère",
+    "Camembert",
+    "Roquefort",
+    "Manchego"
+   ],
+   "tail": [
+    "Pecorino",
+    "Provolone",
+    "Gorgonzola",
+    "Taleggio",
+    "Fontina",
+    "Grana Padano",
+    "Asiago",
+    "Jarlsberg",
+    "Havarti",
+    "Monterey Jack",
+    "Colby",
+    "Cornish Yarg",
+    "Lincolnshire Poacher",
+    "Sage Derby",
+    "Shropshire Blue",
+    "Dorset Blue Vinney",
+    "Stinking Bishop",
+    "Port Salut"
+   ],
+   "deep": [
+    "Reblochon",
+    "Epoisses",
+    "Munster",
+    "Vacherin",
+    "Beaufort",
+    "Morbier",
+    "Cantal",
+    "Saint-Nectaire",
+    "Mimolette",
+    "Quark",
+    "Labneh",
+    "Burrata",
+    "Crowdie",
+    "Caboc",
+    "Stichelton",
+    "Lanark Blue",
+    "Chaource",
+    "Brillat-Savarin"
+   ],
+   "outlier": [
+    "Dunlop",
+    "Ossau-Iraty",
+    "Tomme de Savoie",
+    "Abondance",
+    "Ardrahan"
+   ]
+  },
+  "alias": {
+   "Parmesan": [
+    "Parmigiano-Reggiano",
+    "Parmigiano Reggiano",
+    "Parmigiano"
+   ],
+   "Halloumi": [
+    "Haloumi",
+    "Hellim"
+   ],
+   "Gruyère": [
+    "Gruyere"
+   ],
+   "Comté": [
+    "Comte"
+   ],
+   "Emmental": [
+    "Emmentaler",
+    "Emmenthal"
+   ],
+   "Red Leicester": [
+    "Leicester"
+   ],
+   "Grana Padano": [
+    "Grana"
+   ],
+   "Pecorino": [
+    "Pecorino Romano"
+   ],
+   "Ossau-Iraty": [
+    "Ossau Iraty"
+   ]
+  },
+  "traps": {
+   "Butter": "A dairy product, not a cheese.",
+   "Yoghurt": "A dairy product, not a cheese.",
+   "Ghee": "Clarified butter, not a cheese.",
+   "Cream": "A dairy product, not a cheese."
+  },
+  "fact": "Brillat-Savarin is a triple-cream cheese named after the French gastronome Jean Anthelme Brillat-Savarin.",
+  "daily": false
+ },
+ {
+  "id": "cul-food-pasta",
+  "cat": "Food",
+  "title": "Shape up",
+  "q": "Any pasta shape",
+  "rule": "Italian-style pasta shapes, dried or fresh, with each shape counted once even when it has another name.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Spaghetti",
+    "Penne",
+    "Fusilli",
+    "Macaroni",
+    "Farfalle"
+   ],
+   "hipster": [
+    "Orzo",
+    "Cavatappi"
+   ],
+   "body": [
+    "Tagliatelle",
+    "Linguine",
+    "Fettuccine",
+    "Lasagne",
+    "Rigatoni",
+    "Conchiglie",
+    "Ravioli",
+    "Tortellini",
+    "Gnocchi",
+    "Orecchiette",
+    "Vermicelli",
+    "Cannelloni",
+    "Pappardelle",
+    "Bucatini",
+    "Ditalini",
+    "Radiatori"
+   ],
+   "tail": [
+    "Capellini",
+    "Tortelloni",
+    "Cavatelli",
+    "Gemelli",
+    "Campanelle",
+    "Fregola",
+    "Paccheri",
+    "Casarecce",
+    "Mafaldine",
+    "Garganelli",
+    "Anelli",
+    "Stelline",
+    "Ziti",
+    "Lumache",
+    "Spaghettini",
+    "Farfalline"
+   ],
+   "deep": [
+    "Agnolotti",
+    "Cappelletti",
+    "Fideo",
+    "Pastina",
+    "Tubetti",
+    "Tortiglioni",
+    "Sedanini",
+    "Lasagnette",
+    "Chifferi",
+    "Rotelle",
+    "Creste di gallo",
+    "Mezzelune",
+    "Fusilloni",
+    "Bavette",
+    "Tagliolini",
+    "Lumachine",
+    "Scialatielli"
+   ],
+   "outlier": [
+    "Strozzapreti",
+    "Malloreddus",
+    "Trofie",
+    "Pici",
+    "Bigoli"
+   ]
+  },
+  "alias": {
+   "Fusilli": [
+    "Rotini"
+   ],
+   "Lasagne": [
+    "Lasagna"
+   ],
+   "Farfalle": [
+    "Bow ties",
+    "Bowtie"
+   ],
+   "Macaroni": [
+    "Elbow macaroni",
+    "Elbows"
+   ],
+   "Conchiglie": [
+    "Shells",
+    "Pasta shells"
+   ],
+   "Ditalini": [
+    "Ditali"
+   ],
+   "Tagliatelle": [
+    "Tagliatelli"
+   ],
+   "Fettuccine": [
+    "Fettucine"
+   ],
+   "Bucatini": [
+    "Perciatelli"
+   ]
+  },
+  "traps": {
+   "Rice": "A grain, not a pasta.",
+   "Couscous": "Tiny granules of semolina, not a pasta shape.",
+   "Noodle": "Noodles like ramen and udon are a separate category.",
+   "Dumpling": "A wrapped dough, not a pasta shape."
+  },
+  "fact": "Strozzapreti translates as priest stranglers, though the origin of the name is disputed."
+ },
+ {
+  "id": "cul-food-herb-spice",
+  "cat": "Food",
+  "title": "Season's greetings",
+  "q": "Any herb or spice",
+  "rule": "Culinary herbs and spices, where a plant's leaves, seeds, bark or roots all count, fresh or dried.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Basil",
+    "Mint",
+    "Parsley",
+    "Rosemary",
+    "Thyme",
+    "Cinnamon"
+   ],
+   "hipster": [
+    "Sumac",
+    "Nigella"
+   ],
+   "body": [
+    "Oregano",
+    "Sage",
+    "Dill",
+    "Coriander",
+    "Bay",
+    "Chives",
+    "Tarragon",
+    "Chilli",
+    "Paprika",
+    "Cumin",
+    "Turmeric",
+    "Nutmeg",
+    "Ginger",
+    "Cloves",
+    "Cardamom",
+    "Saffron",
+    "Black pepper",
+    "Mustard seed",
+    "Star anise",
+    "Vanilla",
+    "Allspice",
+    "Lemongrass"
+   ],
+   "tail": [
+    "Marjoram",
+    "Chervil",
+    "Lovage",
+    "Juniper",
+    "Caraway",
+    "Fenugreek",
+    "Mace",
+    "Poppy seed",
+    "Celery seed",
+    "Pink peppercorn",
+    "Sichuan pepper",
+    "Grains of paradise",
+    "Kaffir lime leaf",
+    "Curry leaf",
+    "Epazote",
+    "Hyssop",
+    "Lemon balm",
+    "Pandan",
+    "Sorrel",
+    "Borage"
+   ],
+   "deep": [
+    "Ajwain",
+    "Amchur",
+    "Kokum",
+    "Galangal",
+    "Long pepper",
+    "Mahleb",
+    "Aleppo pepper",
+    "Shiso"
+   ],
+   "outlier": [
+    "Asafoetida",
+    "Lemon verbena",
+    "Culantro",
+    "Rau ram",
+    "Wattleseed"
+   ]
+  },
+  "alias": {
+   "Chilli": [
+    "Chili",
+    "Chile"
+   ],
+   "Coriander": [
+    "Cilantro"
+   ],
+   "Bay": [
+    "Bay leaf",
+    "Bay laurel"
+   ],
+   "Sichuan pepper": [
+    "Szechuan pepper",
+    "Sichuan peppercorn"
+   ],
+   "Mahleb": [
+    "Mahlab"
+   ],
+   "Cloves": [
+    "Clove"
+   ],
+   "Lemon balm": [
+    "Melissa"
+   ],
+   "Pandan": [
+    "Pandan leaf"
+   ],
+   "Kaffir lime leaf": [
+    "Makrut lime leaf",
+    "Kaffir lime leaves"
+   ],
+   "Aleppo pepper": [
+    "Aleppo"
+   ]
+  },
+  "traps": {
+   "Salt": "A mineral seasoning, not a herb or spice.",
+   "Onion": "A vegetable, not a herb or spice.",
+   "Sugar": "A sweetener, not a spice.",
+   "Lemon": "A fruit, even though its zest flavours food."
+  },
+  "fact": "Asafoetida smells strongly sulphurous raw, but it mellows into an onion-like flavour when fried."
+ },
+ {
+  "id": "cul-food-bread",
+  "cat": "Food",
+  "title": "Crust fund",
+  "q": "Any bread",
+  "rule": "Loaves, rolls and flatbreads eaten as bread, with each bread counted once under its common name.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Sourdough",
+    "Baguette",
+    "Ciabatta",
+    "Bagel",
+    "Naan",
+    "Pitta"
+   ],
+   "hipster": [
+    "Bloomer",
+    "Cob"
+   ],
+   "body": [
+    "Chapati",
+    "Paratha",
+    "Focaccia",
+    "Brioche",
+    "Soda bread",
+    "Challah",
+    "Rye",
+    "Pumpernickel",
+    "Bap",
+    "Tiger bread",
+    "Malt loaf",
+    "Panettone",
+    "Pretzel",
+    "Roti",
+    "Tortilla",
+    "Lavash",
+    "Banana bread"
+   ],
+   "tail": [
+    "Stollen",
+    "Puri",
+    "Injera",
+    "Pide",
+    "Bhatura",
+    "Matzo",
+    "Teacake",
+    "Barmbrack",
+    "Lardy cake",
+    "Bara brith",
+    "Cornbread",
+    "Bannock",
+    "Farl",
+    "Pain de campagne",
+    "Granary",
+    "Potato bread",
+    "Milk loaf",
+    "Split tin",
+    "Stottie",
+    "Monkey bread",
+    "Zopf",
+    "Wholemeal"
+   ],
+   "deep": [
+    "Bammy",
+    "Lefse",
+    "Tsoureki",
+    "Simit",
+    "Pandesal",
+    "Khachapuri",
+    "Mantou",
+    "Bao",
+    "Sangak",
+    "Barbari"
+   ],
+   "outlier": [
+    "Kulcha",
+    "Taftoon",
+    "Bolillo"
+   ]
+  },
+  "alias": {
+   "Pitta": [
+    "Pita"
+   ],
+   "Naan": [
+    "Nan",
+    "Naan bread"
+   ],
+   "Chapati": [
+    "Chapatti"
+   ],
+   "Bap": [
+    "Barm",
+    "Batch",
+    "Morning roll"
+   ],
+   "Soda bread": [
+    "Soda"
+   ],
+   "Injera": [
+    "Enjera"
+   ],
+   "Tortilla": [
+    "Tortilla wrap"
+   ],
+   "Bhatura": [
+    "Bhature"
+   ],
+   "Pandesal": [
+    "Pan de sal"
+   ]
+  },
+  "traps": {
+   "Croissant": "A laminated pastry, not a bread.",
+   "Cake": "Sweet and baked, but not a bread.",
+   "Pastry": "A dough for pies and tarts, not a bread.",
+   "Doughnut": "Fried dough, not a loaf or flatbread."
+  },
+  "fact": "Simit is a sesame-crusted ring bread sold from street carts across Turkey."
+ },
+ {
+  "id": "cul-food-apple",
+  "cat": "Food",
+  "title": "Core values",
+  "q": "Any apple variety",
+  "rule": "Named apple varieties grown in Britain or widely sold, not generic apples, cider or brands.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Gala",
+    "Granny Smith",
+    "Braeburn",
+    "Pink Lady",
+    "Golden Delicious",
+    "Bramley"
+   ],
+   "hipster": [
+    "Jazz",
+    "Honeycrisp"
+   ],
+   "body": [
+    "Cox's Orange Pippin",
+    "Fuji",
+    "Red Delicious",
+    "McIntosh",
+    "Jonagold",
+    "Empire",
+    "Discovery",
+    "Envy",
+    "Kanzi",
+    "Ambrosia",
+    "Spartan",
+    "Crispin"
+   ],
+   "tail": [
+    "Worcester Pearmain",
+    "Laxton's Superb",
+    "Laxton's Fortune",
+    "Howgate Wonder",
+    "James Grieve",
+    "Ellison's Orange",
+    "Blenheim Orange",
+    "Newton Wonder",
+    "Sturmer Pippin",
+    "Beauty of Bath",
+    "Lord Derby",
+    "Lane's Prince Albert",
+    "Arthur Turner",
+    "Sunset",
+    "Ashmead's Kernel",
+    "Court Pendu Plat",
+    "Adams's Pearmain",
+    "Charles Ross",
+    "Egremont Russet"
+   ],
+   "deep": [
+    "Pitmaston Pineapple",
+    "Golden Russet",
+    "Calville Blanc",
+    "Reinette du Canada",
+    "Rome Beauty",
+    "Cortland",
+    "Northern Spy",
+    "Winesap",
+    "Baldwin",
+    "Jonathan",
+    "Stayman",
+    "Gravenstein",
+    "Ribston Pippin",
+    "Rhode Island Greening",
+    "Newtown Pippin",
+    "Ontario",
+    "Wolf River"
+   ],
+   "outlier": [
+    "Api",
+    "Bloody Ploughman",
+    "Keswick Codlin",
+    "Sops in Wine",
+    "Lady Sudeley"
+   ]
+  },
+  "alias": {
+   "Bramley": [
+    "Bramley's Seedling",
+    "Bramleys Seedling"
+   ],
+   "Cox's Orange Pippin": [
+    "Cox",
+    "Coxs Orange Pippin"
+   ],
+   "Gala": [
+    "Royal Gala"
+   ],
+   "Pink Lady": [
+    "Cripps Pink"
+   ],
+   "Honeycrisp": [
+    "Honey Crisp"
+   ],
+   "Crispin": [
+    "Mutsu"
+   ]
+  },
+  "traps": {
+   "Pear": "Another fruit, not an apple variety.",
+   "Cider": "A drink made from apples, not a variety.",
+   "Granny": "Only the full name Granny Smith counts."
+  },
+  "fact": "Bramley's Seedling grew from a pip planted around 1809 in Nottinghamshire, and it's still a leading cooking apple."
+ },
+ {
+  "id": "cul-food-british-pudding",
+  "cat": "Food",
+  "title": "Pud luck",
+  "q": "Any British pudding",
+  "rule": "Sweet and savoury British puddings, counted by their standard name, hot or cold.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Trifle",
+    "Bread and Butter Pudding",
+    "Sticky Toffee Pudding",
+    "Eton Mess",
+    "Spotted Dick",
+    "Apple Crumble"
+   ],
+   "hipster": [
+    "Summer Pudding",
+    "Syllabub"
+   ],
+   "body": [
+    "Jam Roly-Poly",
+    "Treacle Tart",
+    "Bakewell Tart",
+    "Rhubarb Crumble",
+    "Eve's Pudding",
+    "Knickerbocker Glory",
+    "Christmas Pudding",
+    "Queen of Puddings",
+    "Cranachan",
+    "Sussex Pond Pudding",
+    "Apple Charlotte",
+    "Gooseberry Fool",
+    "Strawberry Fool",
+    "Raspberry Fool",
+    "Rhubarb Fool",
+    "Rice Pudding",
+    "Bread Pudding",
+    "Arctic Roll",
+    "Banoffee Pie",
+    "Custard Tart",
+    "Yorkshire Pudding",
+    "Black Pudding"
+   ],
+   "tail": [
+    "Figgy Pudding",
+    "Jam Sponge",
+    "Lemon Sponge",
+    "Treacle Sponge",
+    "Tapioca Pudding",
+    "Semolina Pudding",
+    "Bakewell Pudding",
+    "Blancmange",
+    "Lemon Posset",
+    "Frumenty",
+    "Tipsy Cake",
+    "Jam Tart",
+    "Vanilla Slice",
+    "Bread and Jam Pudding",
+    "Haggis",
+    "Steak and Kidney Pudding",
+    "White Pudding",
+    "Apple Pie"
+   ],
+   "deep": [
+    "Manchester Tart",
+    "Gypsy Tart",
+    "Sago Pudding",
+    "Hasty Pudding",
+    "Junket",
+    "Plum Duff",
+    "Pease Pudding",
+    "Tipsy Laird"
+   ],
+   "outlier": [
+    "Cabinet Pudding",
+    "Clootie Dumpling",
+    "Flummery"
+   ]
+  },
+  "alias": {
+   "Christmas Pudding": [
+    "Plum Pudding"
+   ],
+   "Trifle": [
+    "Sherry Trifle"
+   ],
+   "Jam Roly-Poly": [
+    "Roly-Poly",
+    "Roly Poly"
+   ],
+   "Clootie Dumpling": [
+    "Cloutie Dumpling",
+    "Clootie"
+   ],
+   "Frumenty": [
+    "Furmity",
+    "Frumety"
+   ],
+   "Blancmange": [
+    "Blanc mange"
+   ],
+   "Eton Mess": [
+    "Eaton Mess"
+   ],
+   "Sticky Toffee Pudding": [
+    "Sticky Toffee"
+   ],
+   "Black Pudding": [
+    "Blood Pudding",
+    "Blood Sausage"
+   ]
+  },
+  "traps": {
+   "Pavlova": "A meringue dessert from Australia or New Zealand.",
+   "Tiramisu": "An Italian dessert, not British.",
+   "Christmas Cake": "A cake, not a pudding.",
+   "Crème brûlée": "A French dessert, not British."
+  },
+  "fact": "Frumenty is an ancient British dish of boiled wheat, later sweetened with milk, spices and dried fruit."
+ },
+ {
+  "id": "cul-food-uk-curry",
+  "cat": "Food",
+  "title": "Off the menu",
+  "q": "Any curry on a UK menu",
+  "rule": "Dishes from the curry section of a British Indian restaurant menu, not breads, rice sides or starters.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Chicken Tikka Masala",
+    "Korma",
+    "Madras",
+    "Vindaloo",
+    "Balti",
+    "Jalfrezi"
+   ],
+   "hipster": [
+    "Dhansak",
+    "Pasanda"
+   ],
+   "body": [
+    "Bhuna",
+    "Rogan Josh",
+    "Dopiaza",
+    "Pathia",
+    "Biryani",
+    "Chicken Tikka",
+    "Keema",
+    "Kofta",
+    "Phall",
+    "Bhindi Bhaji",
+    "Aloo Gobi",
+    "Chana Masala",
+    "Dal",
+    "Saag Paneer",
+    "Butter Chicken",
+    "Karahi",
+    "Saag Aloo",
+    "Bombay Aloo",
+    "Shahi Paneer",
+    "Palak Paneer"
+   ],
+   "tail": [
+    "Xacuti",
+    "Chettinad",
+    "Malai Kofta",
+    "Shashlik",
+    "Methi Gosht",
+    "Nihari",
+    "Kadai Paneer",
+    "Mughlai",
+    "Tarka Dal",
+    "Saag Gosht",
+    "Malabar",
+    "Dal Makhani",
+    "Matar Paneer",
+    "Rajma",
+    "Baingan Bharta",
+    "Methi Chicken",
+    "Nargisi Kofta"
+   ],
+   "deep": [
+    "Rezala",
+    "Dum Aloo",
+    "Sambar",
+    "Rasam",
+    "Moilee",
+    "Shatkora",
+    "Chingri Malai",
+    "Achari",
+    "Hariyali"
+   ],
+   "outlier": [
+    "Sali Boti",
+    "Kadhi",
+    "Ceylon Curry",
+    "Jeera Aloo"
+   ]
+  },
+  "alias": {
+   "Chicken Tikka Masala": [
+    "Tikka Masala"
+   ],
+   "Bhuna": [
+    "Bhoona"
+   ],
+   "Dopiaza": [
+    "Dupiaza"
+   ],
+   "Phall": [
+    "Phal"
+   ],
+   "Biryani": [
+    "Biriyani",
+    "Biryanee"
+   ],
+   "Rogan Josh": [
+    "Roghan Josh"
+   ],
+   "Dal": [
+    "Dhal"
+   ],
+   "Saag Paneer": [
+    "Sag Paneer"
+   ],
+   "Saag Aloo": [
+    "Sag Aloo"
+   ],
+   "Saag Gosht": [
+    "Sag Gosht"
+   ],
+   "Aloo Gobi": [
+    "Gobi Aloo"
+   ],
+   "Chana Masala": [
+    "Chole"
+   ],
+   "Kadai Paneer": [
+    "Kadhai Paneer"
+   ],
+   "Xacuti": [
+    "Xacutti"
+   ],
+   "Jalfrezi": [
+    "Jalfrazi"
+   ],
+   "Bhindi Bhaji": [
+    "Bhindi"
+   ],
+   "Korma": [
+    "Kurma",
+    "Qorma"
+   ]
+  },
+  "traps": {
+   "Katsu Curry": "A Japanese dish, not an Indian-style curry house curry.",
+   "Thai Green Curry": "A Thai curry, not one from a British curry house.",
+   "Pilau": "A rice dish served alongside curry, not a curry.",
+   "Naan": "A bread served with curry, not a curry."
+  },
+  "fact": "Jeera aloo is a cumin-spiced potato dish, and jeera is the Hindi word for cumin."
+ },
+ {
+  "id": "cul-food-tea",
+  "cat": "Drink",
+  "title": "Cuppa",
+  "q": "Any type of tea",
+  "rule": "Named tea types, blends and herbal infusions, counted once under their usual name, not brands or tea-based drinks.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "English Breakfast",
+    "Earl Grey",
+    "Green Tea",
+    "Peppermint",
+    "Chamomile",
+    "Black Tea"
+   ],
+   "hipster": [
+    "Lapsang Souchong",
+    "Matcha"
+   ],
+   "body": [
+    "Assam",
+    "Darjeeling",
+    "Ceylon",
+    "Jasmine",
+    "Oolong",
+    "White Tea",
+    "Lady Grey",
+    "Rooibos",
+    "Hibiscus",
+    "Sencha",
+    "Chai",
+    "Gunpowder",
+    "Russian Caravan",
+    "Keemun",
+    "Pu-erh"
+   ],
+   "tail": [
+    "Yellow Tea",
+    "Dragonwell",
+    "Genmaicha",
+    "Hojicha",
+    "Bancha",
+    "Kukicha",
+    "Gyokuro",
+    "Silver Needle",
+    "White Peony",
+    "Tieguanyin",
+    "Dian Hong",
+    "Nilgiri",
+    "Nettle",
+    "Honeybush",
+    "Fennel",
+    "Ginger",
+    "Liquorice",
+    "Lemon and Ginger",
+    "Moroccan Mint Tea",
+    "Lemon Balm",
+    "Ginseng",
+    "Pau d'Arco"
+   ],
+   "deep": [
+    "Hyson",
+    "Young Hyson",
+    "Pouchong",
+    "Orange Pekoe",
+    "Bohea",
+    "Souchong",
+    "Mao Feng",
+    "Kenyan",
+    "Anji Bai Cha",
+    "Shou Mei"
+   ],
+   "outlier": [
+    "Tulsi",
+    "Yerba Mate",
+    "Guayusa",
+    "Kuding",
+    "Dandelion"
+   ]
+  },
+  "alias": {
+   "Chamomile": [
+    "Camomile"
+   ],
+   "Chai": [
+    "Masala Chai",
+    "Masala tea"
+   ],
+   "Dragonwell": [
+    "Longjing",
+    "Lung Ching"
+   ],
+   "Lapsang Souchong": [
+    "Lapsang"
+   ],
+   "Tieguanyin": [
+    "Ti Kuan Yin",
+    "Tie Guan Yin"
+   ],
+   "White Peony": [
+    "Bai Mu Dan"
+   ],
+   "Silver Needle": [
+    "Bai Hao Yin Zhen"
+   ],
+   "Liquorice": [
+    "Licorice"
+   ],
+   "Yerba Mate": [
+    "Mate"
+   ],
+   "Honeybush": [
+    "Honey bush"
+   ],
+   "Lady Grey": [
+    "Lady Gray"
+   ],
+   "Earl Grey": [
+    "Earl Gray"
+   ],
+   "Pu-erh": [
+    "Puer",
+    "Pu'er"
+   ],
+   "Rooibos": [
+    "Redbush"
+   ]
+  },
+  "traps": {
+   "Coffee": "A different drink, not a tea.",
+   "Hot chocolate": "A chocolate drink, not a tea.",
+   "Bubble tea": "A tea-based drink, not a type of tea.",
+   "Kombucha": "A fermented drink, not a tea type."
+  },
+  "fact": "Yerba mate is traditionally sipped through a metal straw from a shared gourd."
+ },
+ {
+  "id": "cul-food-berry",
+  "cat": "Food",
+  "title": "Berry good",
+  "q": "Any berry",
+  "rule": "Culinary berries from anywhere, counted once under their usual name, with botanical and loose usage both allowed.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Strawberry",
+    "Raspberry",
+    "Blueberry",
+    "Blackberry",
+    "Cranberry",
+    "Gooseberry"
+   ],
+   "hipster": [
+    "Elderberry",
+    "Goji"
+   ],
+   "body": [
+    "Blackcurrant",
+    "Redcurrant",
+    "Mulberry",
+    "Bilberry",
+    "Loganberry",
+    "Boysenberry",
+    "Lingonberry",
+    "Acai",
+    "Huckleberry"
+   ],
+   "tail": [
+    "Tayberry",
+    "Cloudberry",
+    "Whitecurrant",
+    "Rowanberry",
+    "Wineberry",
+    "Olallieberry",
+    "Marionberry",
+    "Thimbleberry",
+    "Youngberry",
+    "Jostaberry",
+    "Honeyberry",
+    "Saskatoon",
+    "Maqui",
+    "Kiwiberry",
+    "Lilli pilli",
+    "Pepperberry"
+   ],
+   "deep": [
+    "Chokeberry",
+    "Sea Buckthorn",
+    "Hawthorn",
+    "Sloe",
+    "Juniper",
+    "Bearberry",
+    "Crowberry",
+    "Cape gooseberry",
+    "Amla",
+    "Mayhaw",
+    "Salal",
+    "Sugarberry",
+    "Winterberry",
+    "Barberry",
+    "Bunchberry",
+    "Hackberry",
+    "Goumi",
+    "Dewberry",
+    "Acerola",
+    "Oregon grape",
+    "Rosehip",
+    "Sea grape"
+   ],
+   "outlier": [
+    "Salmonberry",
+    "Schisandra",
+    "Buffaloberry",
+    "Pitanga",
+    "Camu camu"
+   ]
+  },
+  "alias": {
+   "Goji": [
+    "Wolfberry"
+   ],
+   "Blackcurrant": [
+    "Black currant"
+   ],
+   "Redcurrant": [
+    "Red currant"
+   ],
+   "Whitecurrant": [
+    "White currant"
+   ],
+   "Lingonberry": [
+    "Cowberry"
+   ],
+   "Chokeberry": [
+    "Aronia"
+   ],
+   "Honeyberry": [
+    "Haskap"
+   ],
+   "Saskatoon": [
+    "Serviceberry",
+    "Juneberry"
+   ],
+   "Sea Buckthorn": [
+    "Seabuckthorn"
+   ],
+   "Cape gooseberry": [
+    "Physalis",
+    "Golden berry"
+   ],
+   "Rosehip": [
+    "Rose hip"
+   ],
+   "Sea grape": [
+    "Seagrape"
+   ]
+  },
+  "traps": {
+   "Cherry": "A stone fruit, not a berry.",
+   "Peach": "A stone fruit, not a berry.",
+   "Almond": "The seed inside a stone fruit, not a berry.",
+   "Pea": "A legume, not a berry."
+  },
+  "fact": "Kiwiberries are smooth-skinned, grape-sized relatives of the kiwi that you can eat whole."
+ }
+]

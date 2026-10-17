@@ -73,6 +73,7 @@ for (const p of cards) {
   if (/^name\b/i.test(p.q)) warn.push(`${p.id}: q starts with "Name"`);
   const o = { id: p.id, cat: p.cat || "", title: p.title || "", q: p.q, rule: p.rule || "", tiers, fact: p.fact || "" };
   if (p.surnames) o.surnames = true;
+  if (p.daily === false) o.daily = false;
   o.level = p.level === 1 || p.level === 3 ? p.level : 2;
   if (Object.keys(alias).length) o.alias = alias;
   if (Object.keys(traps).length) o.traps = traps;
@@ -98,7 +99,7 @@ for (const p of clean) {
 const answers = clean.reduce((a, p) => a + KEYS.reduce((b, k) => b + p.tiers[k].length, 0), 0);
 const byGroup = {}, byLevel = {};
 for (const p of clean) { byGroup[LT.groupOf(p)] = (byGroup[LT.groupOf(p)] || 0) + 1; byLevel[p.level] = (byLevel[p.level] || 0) + 1; }
-console.log(`${clean.length} cards, ${answers} answers`, byGroup, "levels", byLevel);
+console.log(`${clean.length} cards, ${answers} answers`, byGroup, "levels", byLevel, "daily pool", LT.dailyPool(clean).length);
 if (warn.length) console.log("warnings:\n  " + warn.join("\n  "));
 module.exports = { cards: clean };
 

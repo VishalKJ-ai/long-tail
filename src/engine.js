@@ -4,11 +4,11 @@
   // Rarity tiers. weight = estimated share of players, used only to draw the curve.
   const TIERS = [
     { key: "head",    pts: 10,  name: "Common",     weight: 100, bonus: 3,  sq: "⬜", sym: "●" },
-    { key: "hipster", pts: 20,  name: "Overplayed", weight: 58,  bonus: 3,  sq: "🟫", sym: "◑" },
-    { key: "body",    pts: 40,  name: "Uncommon",   weight: 30,  bonus: 5,  sq: "🟩", sym: "◆" },
-    { key: "tail",    pts: 70,  name: "Rare",       weight: 11,  bonus: 7,  sq: "🟦", sym: "★" },
-    { key: "deep",    pts: 100, name: "Epic",       weight: 3.6, bonus: 9,  sq: "🟪", sym: "✦" },
-    { key: "outlier", pts: 150, name: "Legendary",  weight: 1.1, bonus: 12, sq: "🟧", sym: "✹" },
+    { key: "hipster", pts: 15,  name: "Overplayed", weight: 58,  bonus: 3,  sq: "🟫", sym: "◑" },
+    { key: "body",    pts: 25,  name: "Uncommon",   weight: 30,  bonus: 5,  sq: "🟩", sym: "◆" },
+    { key: "tail",    pts: 50,  name: "Rare",       weight: 11,  bonus: 7,  sq: "🟦", sym: "★" },
+    { key: "deep",    pts: 75,  name: "Epic",       weight: 3.6, bonus: 9,  sq: "🟪", sym: "✦" },
+    { key: "outlier", pts: 100, name: "Legendary",  weight: 1.1, bonus: 12, sq: "🟧", sym: "✹" },
   ];
   const TIER = Object.fromEntries(TIERS.map((t) => [t.key, t]));
   const MISS_SQ = "⬛";
@@ -224,45 +224,38 @@
     }
     return a;
   }
-  // A fixed, category-interleaved order per cycle so consecutive days spread topics and don't repeat.
-  function cycleOrder(prompts, cycle) {
-    const r = rng(0x9e3779b1 ^ (cycle * 7919 + 17));
-    const groups = {};
-    for (const p of prompts) (groups[groupOf(p)] = groups[groupOf(p)] || []).push(p);
-    const order = shuffle(Object.keys(groups).sort(), r);
-    const queues = order.map((g) => shuffle(groups[g], r));
-    const out = [];
-    while (queues.some((q) => q.length)) {
-      for (const q of queues) if (q.length) out.push(q.shift());
-    }
-    return out;
-  }
-  // Each daily draw ramps from easy to hard: three easy cards, three medium, one hard.
-  // Every difficulty level has its own no-repeat cycle, so cards don't recur until a pool is used up.
-  const PLAN = [1, 1, 1, 2, 2, 2, 3];
+  // Daily cards come from broad cards with a real long tail (40+ answers). Cards of one family
+  // (food, music, places...) are spread evenly through each cycle so a day rarely repeats a theme.
+  const family = (p) => String(p.id).split("-").slice(0, 2).join("-");
+  const size = (p) => TIERS.reduce((a, t) => a + ((p.tiers && p.tiers[t.key]) || []).length, 0);
   const levelOf = (p) => (p.level === 1 || p.level === 3 ? p.level : 2);
+  const dailyPool = (prompts) => prompts.filter((p) => p.daily !== false && levelOf(p) < 3 && size(p) >= 40);
+  function cycleOrder(pool, cycle) {
+    const r = rng(0x9e3779b1 ^ (cycle * 7919 + 17));
+    const fams = {};
+    for (const p of pool) (fams[family(p)] = fams[family(p)] || []).push(p);
+    const keyed = [];
+    for (const f of Object.keys(fams).sort()) {
+      const list = shuffle(fams[f].sort((a, b) => (a.id < b.id ? -1 : 1)), r);
+      const off = r();
+      list.forEach((p, i) => keyed.push([p, (i + off) / list.length]));
+    }
+    return keyed.sort((a, b) => a[1] - b[1]).map((x) => x[0]);
+  }
+  // Day d takes the next n cards of the cycle, easiest and broadest first.
   function dailySet(prompts, day, n) {
-    const plan = PLAN.slice(0, n || 7);
-    const pools = { 1: [], 2: [], 3: [] };
-    for (const p of prompts) pools[levelOf(p)].push(p);
-    const need = { 1: 0, 2: 0, 3: 0 };
-    for (const l of plan) need[l]++;
-    const taken = new Set();
-    const picks = (level, k) => {
-      const pool = pools[level].length >= k ? pools[level] : prompts;
-      const N = pool.length;
-      const cache = {};
-      const out = [];
-      for (let i = day * k, guard = 0; out.length < Math.min(k, N) && guard < N * 3; i++, guard++) {
-        const c = Math.floor(i / N);
-        cache[c] = cache[c] || cycleOrder(pool, c * 31 + level);
-        const p = cache[c][i % N];
-        if (!taken.has(p.id)) { taken.add(p.id); out.push(p); }
-      }
-      return out;
-    };
-    const got = { 1: picks(1, need[1]), 2: picks(2, need[2]), 3: picks(3, need[3]) };
-    return plan.map((l) => got[l].shift()).filter(Boolean);
+    n = n || 5;
+    const pool = dailyPool(prompts);
+    const N = pool.length;
+    if (!N) return [];
+    const cache = {};
+    const out = [];
+    for (let i = day * n; out.length < Math.min(n, N); i++) {
+      const c = Math.floor(i / N);
+      cache[c] = cache[c] || cycleOrder(pool, c);
+      out.push(cache[c][i % N]);
+    }
+    return out.sort((a, b) => levelOf(a) - levelOf(b) || size(b) - size(a));
   }
   // Endless and other shuffles: easier cards tend to come first, with some randomness.
   const rampShuffle = (prompts, r) => prompts.map((p) => [p, levelOf(p) + r() * 1.8]).sort((a, b) => a[1] - b[1]).map((x) => x[0]);
@@ -292,18 +285,18 @@
     return (h.toString(36) + h2.toString(36)).padStart(len, "0").slice(-len);
   }
 
-  // Collector grades for a daily score. Banking each card's first answer lands most players at 150 to 350;
-  // digging for multipliers is how you climb.
-  const BANDS = [
-    [1800, "Gem mint"],
-    [1100, "Grail"],
-    [650, "Chase card"],
-    [350, "Staple"],
-    [150, "Playable"],
-    [0, "Bulk"],
+  // Daily ranks out of 500. Most first games land between Copycat and Owl.
+  const RANKS = [
+    { min: 410, name: "Unicorn",   emoji: "🦄", tag: "Nobody else would." },
+    { min: 330, name: "Dragon",    emoji: "🐉", tag: "Rare air up here." },
+    { min: 260, name: "Lone Wolf", emoji: "🐺", tag: "Well off the beaten track." },
+    { min: 200, name: "Owl",       emoji: "🦉", tag: "Knows a thing or two." },
+    { min: 140, name: "Fox",       emoji: "🦊", tag: "A few crafty picks." },
+    { min: 80,  name: "Copycat",   emoji: "🐈", tag: "Mostly what everyone said." },
+    { min: 0,   name: "Sheep",     emoji: "🐑", tag: "Followed the flock." },
   ];
-  const band = (score) => BANDS.find(([min]) => score >= min)[1];
+  const rank = (score) => RANKS.find((r) => score >= r.min);
 
-  root.LT = { levelOf, rampShuffle, hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, words, key, buildIndex, match, rng, shuffle, dailySet, curve, band };
+  root.LT = { levelOf, rampShuffle, hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, family, size, words, key, buildIndex, match, rng, shuffle, dailyPool, dailySet, curve, RANKS, rank };
 })(typeof window !== "undefined" ? window : globalThis);
 

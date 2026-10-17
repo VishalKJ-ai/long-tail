@@ -1,0 +1,2214 @@
+[
+ {
+  "id": "cul-mus-beatles",
+  "cat": "Music",
+  "title": "Fab four",
+  "q": "A Beatles song",
+  "rule": "Songs on the Beatles' UK studio albums, plus UK singles and the 1967 double EP; B-sides, US-only albums and archive releases don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Yesterday",
+    "Hey Jude",
+    "Let It Be",
+    "Help!",
+    "Come Together",
+    "Here Comes the Sun"
+   ],
+   "hipster": [
+    "Eleanor Rigby",
+    "Something"
+   ],
+   "body": [
+    "Penny Lane",
+    "Strawberry Fields Forever",
+    "Yellow Submarine",
+    "Hello, Goodbye",
+    "All You Need Is Love",
+    "I Want to Hold Your Hand",
+    "She Loves You",
+    "Love Me Do",
+    "Please Please Me",
+    "Can't Buy Me Love",
+    "A Hard Day's Night",
+    "Paperback Writer",
+    "Lady Madonna",
+    "Get Back",
+    "Ob-La-Di, Ob-La-Da",
+    "Twist and Shout",
+    "Ticket to Ride",
+    "Day Tripper",
+    "We Can Work It Out",
+    "From Me to You",
+    "Blackbird",
+    "Michelle",
+    "Here, There and Everywhere",
+    "Eight Days a Week",
+    "I Feel Fine",
+    "Across the Universe",
+    "Ballad of John and Yoko",
+    "Taxman",
+    "Helter Skelter",
+    "Back in the U.S.S.R.",
+    "While My Guitar Gently Weeps",
+    "Dear Prudence",
+    "Norwegian Wood (This Bird Has Flown)",
+    "In My Life",
+    "Drive My Car",
+    "Lucy in the Sky with Diamonds",
+    "With a Little Help from My Friends",
+    "A Day in the Life",
+    "Sgt. Pepper's Lonely Hearts Club Band",
+    "Long and Winding Road",
+    "I Saw Her Standing There"
+   ],
+   "tail": [
+    "Octopus's Garden",
+    "Maxwell's Silver Hammer",
+    "Because",
+    "Oh! Darling",
+    "Golden Slumbers",
+    "Carry That Weight",
+    "Mean Mr. Mustard",
+    "Polythene Pam",
+    "Sun King",
+    "Dig a Pony",
+    "I've Just Seen a Face",
+    "Tell Me Why",
+    "I Should Have Known Better",
+    "If I Fell",
+    "And I Love Her",
+    "Things We Said Today",
+    "Any Time at All",
+    "When I Get Home",
+    "I'll Be Back",
+    "Words of Love",
+    "Honey Don't",
+    "Every Little Thing",
+    "Mr. Moonlight",
+    "I'm a Loser",
+    "No Reply",
+    "Baby's in Black",
+    "Rock and Roll Music",
+    "I'll Follow the Sun",
+    "Kansas City",
+    "It's Only Love",
+    "You've Got to Hide Your Love Away",
+    "Act Naturally",
+    "Night Before",
+    "Julia",
+    "Revolution 1",
+    "Honey Pie"
+   ],
+   "deep": [
+    "Wait",
+    "Girl",
+    "Run for Your Life",
+    "I'm Looking Through You",
+    "Think for Yourself",
+    "You Won't See Me",
+    "Nowhere Man",
+    "What Goes On",
+    "If I Needed Someone",
+    "I Want to Tell You",
+    "Got to Get You into My Life",
+    "Doctor Robert",
+    "For No One",
+    "Good Day Sunshine",
+    "She Said She Said",
+    "I'm Only Sleeping",
+    "Love You To",
+    "And Your Bird Can Sing",
+    "Tomorrow Never Knows",
+    "Within You Without You",
+    "When I'm Sixty-Four",
+    "Lovely Rita",
+    "Good Morning Good Morning",
+    "Fixing a Hole",
+    "She's Leaving Home",
+    "Getting Better",
+    "Being for the Benefit of Mr. Kite!",
+    "Hey Bulldog",
+    "It's All Too Much",
+    "Only a Northern Song",
+    "All Together Now",
+    "Two of Us",
+    "I Me Mine",
+    "Dig It",
+    "Maggie Mae",
+    "I've Got a Feeling",
+    "One After 909",
+    "For You Blue",
+    "Glass Onion",
+    "Martha My Dear",
+    "I'm So Tired",
+    "Rocky Raccoon",
+    "Don't Pass Me By",
+    "Why Don't We Do It in the Road?",
+    "I Will",
+    "Birthday",
+    "Mother Nature's Son",
+    "Everybody's Got Something to Hide Except Me and My Monkey",
+    "Sexy Sadie",
+    "Long, Long, Long",
+    "Cry Baby Cry",
+    "Good Night",
+    "Continuing Story of Bungalow Bill",
+    "Happiness Is a Warm Gun",
+    "Piggies",
+    "Her Majesty",
+    "I Want You (She's So Heavy)",
+    "She Came in Through the Bathroom Window",
+    "You Never Give Me Your Money",
+    "Savoy Truffle",
+    "I Need You",
+    "Another Girl",
+    "You're Going to Lose That Girl",
+    "You Like Me Too Much",
+    "Tell Me What You See",
+    "Hold Me Tight",
+    "Devil in Her Heart",
+    "Not a Second Time",
+    "Money (That's What I Want)",
+    "You Really Got a Hold on Me",
+    "Please Mister Postman",
+    "Roll Over Beethoven",
+    "Till There Was You",
+    "Little Child",
+    "Don't Bother Me",
+    "All My Loving",
+    "All I've Got to Do",
+    "It Won't Be Long",
+    "I Wanna Be Your Man",
+    "Chains",
+    "Boys",
+    "Anna (Go to Him)",
+    "Misery",
+    "Ask Me Why",
+    "P.S. I Love You",
+    "Baby It's You",
+    "Do You Want to Know a Secret",
+    "A Taste of Honey",
+    "There's a Place",
+    "I Don't Want to Spoil the Party",
+    "What You're Doing",
+    "Everybody's Trying to Be My Baby"
+   ],
+   "outlier": [
+    "Revolution 9",
+    "Wild Honey Pie",
+    "Yer Blues",
+    "Flying",
+    "Dizzy Miss Lizzy"
+   ]
+  },
+  "alias": {
+   "Ballad of John and Yoko": [
+    "The Ballad of John and Yoko"
+   ],
+   "Long and Winding Road": [
+    "The Long and Winding Road"
+   ],
+   "Night Before": [
+    "The Night Before"
+   ],
+   "Continuing Story of Bungalow Bill": [
+    "The Continuing Story of Bungalow Bill"
+   ],
+   "Revolution 1": [
+    "Revolution"
+   ],
+   "Sgt. Pepper's Lonely Hearts Club Band": [
+    "Sgt. Pepper",
+    "Sgt Pepper"
+   ],
+   "Kansas City": [
+    "Hey-Hey-Hey-Hey!"
+   ],
+   "Back in the U.S.S.R.": [
+    "Back in the USSR"
+   ]
+  },
+  "traps": {
+   "Imagine": "A John Lennon solo single, not a Beatles song.",
+   "Wonderwall": "An Oasis song.",
+   "Bohemian Rhapsody": "A Queen song.",
+   "Stairway to Heaven": "A Led Zeppelin song."
+  },
+  "fact": "Revolution 9 on the White Album is a collage of tape loops, with the words 'number nine' repeated throughout."
+ },
+ {
+  "id": "cul-mus-abba",
+  "cat": "Music",
+  "title": "Swedish pop",
+  "q": "An ABBA song",
+  "rule": "Songs by ABBA released as singles or on their studio albums, including the 2021 album; covers, live tracks and solo songs don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Dancing Queen",
+    "Mamma Mia",
+    "Waterloo",
+    "Fernando",
+    "Super Trouper"
+   ],
+   "hipster": [
+    "Knowing Me, Knowing You",
+    "Take a Chance on Me"
+   ],
+   "body": [
+    "Money, Money, Money",
+    "Gimme! Gimme! Gimme! (A Man After Midnight)",
+    "SOS",
+    "Chiquitita",
+    "I Have a Dream",
+    "Honey, Honey",
+    "Summer Night City",
+    "Does Your Mother Know",
+    "Name of the Game",
+    "Hey, Hey Helen",
+    "Voulez-Vous",
+    "Angeleyes",
+    "Lay All Your Love on Me",
+    "Thank You for the Music",
+    "Day Before You Came",
+    "One of Us",
+    "Ring Ring",
+    "I Do, I Do, I Do, I Do, I Do",
+    "Head over Heels",
+    "Under Attack",
+    "Winner Takes It All",
+    "Happy New Year"
+   ],
+   "tail": [
+    "Eagle",
+    "Bang-A-Boomerang",
+    "Man in the Middle",
+    "Rock Me",
+    "Hasta Mañana",
+    "Sitting in the Palmtree",
+    "King Kong Song",
+    "My Mama Said",
+    "Watch Out",
+    "Gonna Sing You My Lovesong",
+    "Arrival",
+    "Dum Dum Diddle",
+    "My Love, My Life",
+    "That's Me",
+    "Why Did It Have to Be Me",
+    "Tiger",
+    "When I Kissed the Teacher",
+    "One Man, One Woman",
+    "Hole in Your Soul",
+    "Move On",
+    "Put On Your White Sombrero",
+    "I'm a Marionette",
+    "Andante, Andante",
+    "On and On and On",
+    "Our Last Summer",
+    "Piper",
+    "Me and I",
+    "When All Is Said and Done",
+    "Two for the Price of One",
+    "Cassandra",
+    "Slipping Through My Fingers",
+    "Lovers (Live a Little Longer)",
+    "If It Wasn't for the Nights"
+   ],
+   "deep": [
+    "Soldiers",
+    "I Let the Music Speak",
+    "Like an Angel Passing Through My Room",
+    "I Still Have Faith in You",
+    "Don't Shut Me Down",
+    "Little Things",
+    "No Doubt About It"
+   ],
+   "outlier": [
+    "Intermezzo No. 1",
+    "Tropical Loveland",
+    "People Need Love",
+    "Dance (While the Music Still Goes On)"
+   ]
+  },
+  "alias": {
+   "Gimme! Gimme! Gimme! (A Man After Midnight)": [
+    "Gimme Gimme Gimme"
+   ],
+   "Name of the Game": [
+    "The Name of the Game"
+   ],
+   "Day Before You Came": [
+    "The Day Before You Came"
+   ],
+   "Winner Takes It All": [
+    "The Winner Takes It All"
+   ],
+   "Piper": [
+    "The Piper"
+   ],
+   "Bang-A-Boomerang": [
+    "Bang a Boomerang"
+   ]
+  },
+  "traps": {
+   "Bohemian Rhapsody": "A Queen song.",
+   "Mambo No. 5": "A Lou Bega single.",
+   "Mr. Blue Sky": "An Electric Light Orchestra song.",
+   "Dancing in the Street": "A Martha and the Vandellas song."
+  },
+  "fact": "ABBA's name is made from the first letters of the four members' first names: Agnetha, Björn, Benny and Anni-Frid."
+ },
+ {
+  "id": "cul-mus-queen",
+  "cat": "Music",
+  "title": "Rock royalty",
+  "q": "A Queen song",
+  "rule": "Queen studio album tracks and singles from 1973 to 1995, including the duet with David Bowie; live versions, covers and solo songs don't count.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Bohemian Rhapsody",
+    "We Will Rock You",
+    "We Are the Champions",
+    "Don't Stop Me Now"
+   ],
+   "hipster": [
+    "Killer Queen",
+    "Under Pressure"
+   ],
+   "body": [
+    "Radio Ga Ga",
+    "Somebody to Love",
+    "Another One Bites the Dust",
+    "I Want to Break Free",
+    "Crazy Little Thing Called Love",
+    "You're My Best Friend",
+    "Fat Bottomed Girls",
+    "Bicycle Race",
+    "Flash",
+    "Who Wants to Live Forever",
+    "A Kind of Magic",
+    "One Vision",
+    "Innuendo",
+    "Show Must Go On",
+    "Headlong",
+    "I'm Going Slightly Mad",
+    "These Are the Days of Our Lives",
+    "Breakthru",
+    "Hammer to Fall",
+    "It's a Hard Life",
+    "Play the Game",
+    "Save Me",
+    "Friends Will Be Friends",
+    "Heaven for Everyone",
+    "Seven Seas of Rhye",
+    "Now I'm Here",
+    "Spread Your Wings",
+    "Tie Your Mother Down",
+    "Keep Yourself Alive",
+    "Invisible Man",
+    "Body Language",
+    "Scandal",
+    "I Want It All",
+    "Calling All Girls",
+    "Las Palabras de Amor (The Words of Love)"
+   ],
+   "tail": [
+    "Sheer Heart Attack",
+    "Stone Cold Crazy",
+    "Brighton Rock",
+    "Lily of the Valley",
+    "Dear Friends",
+    "Misfire",
+    "In the Lap of the Gods",
+    "She Makes Me (Stormtrooper in Stilettos)",
+    "I'm in Love with My Car",
+    "Tenement Funster",
+    "Flick of the Wrist",
+    "Bring Back That Leroy Brown",
+    "Death on Two Legs",
+    "Lazing on a Sunday Afternoon",
+    "Seaside Rendezvous",
+    "'39",
+    "Sweet Lady",
+    "Prophet's Song",
+    "Love of My Life",
+    "Good Company",
+    "Procession",
+    "Father to Son",
+    "White Queen (As It Began)",
+    "Some Day One Day",
+    "Loser in the End",
+    "Ogre Battle",
+    "Fairy Feller's Master-Stroke",
+    "Nevermore",
+    "March of the Black Queen",
+    "Funny How Love Is",
+    "Great King Rat",
+    "My Fairy King",
+    "Doing All Right",
+    "Liar",
+    "Night Comes Down",
+    "Modern Times Rock 'n' Roll",
+    "Son and Daughter",
+    "Jesus",
+    "Mustapha",
+    "Jealousy",
+    "If You Can't Beat Them",
+    "Let Me Entertain You",
+    "Dead on Time",
+    "In Only Seven Days",
+    "More of That Jazz",
+    "All Dead, All Dead",
+    "It's Late",
+    "Get Down, Make Love",
+    "Sleeping on the Sidewalk",
+    "Who Needs You",
+    "Fight from the Inside",
+    "My Melancholy Blues",
+    "Sail Away Sweet Sister",
+    "Need Your Loving Tonight",
+    "Rock It (Prime Jive)",
+    "Don't Try Suicide",
+    "Coming Soon",
+    "Dragon Attack"
+   ],
+   "deep": [
+    "Staying Power",
+    "Dancer",
+    "Back Chat",
+    "Action This Day",
+    "Put Out the Fire",
+    "Cool Cat",
+    "Tear It Up",
+    "Machines (Or 'Back to Humans')",
+    "Man on the Prowl",
+    "Keep Passing the Open Windows",
+    "Gimme the Prize (Kill the Man Who Questions)",
+    "Don't Lose Your Head",
+    "Pain Is So Close to Pleasure",
+    "Princes of the Universe",
+    "One Year of Love",
+    "Rain Must Fall",
+    "Was It All Worth It",
+    "My Life Has Been Saved",
+    "Don't Try So Hard",
+    "Ride the Wild Wind",
+    "Delilah",
+    "Bijou",
+    "Hitman",
+    "I Can't Live with You",
+    "It's a Beautiful Day",
+    "Made in Heaven",
+    "Let Me Live",
+    "Mother Love",
+    "A Winter's Tale",
+    "I Was Born to Love You",
+    "Too Much Love Will Kill You",
+    "You Don't Fool Me"
+   ],
+   "outlier": [
+    "Khashoggi's Ship",
+    "Is This the World We Created...?",
+    "Life Is Real (Song for Lennon)",
+    "Soul Brother"
+   ]
+  },
+  "alias": {
+   "Show Must Go On": [
+    "The Show Must Go On"
+   ],
+   "Invisible Man": [
+    "The Invisible Man"
+   ],
+   "Prophet's Song": [
+    "The Prophet's Song"
+   ],
+   "Loser in the End": [
+    "The Loser in the End"
+   ],
+   "Fairy Feller's Master-Stroke": [
+    "The Fairy Feller's Master-Stroke"
+   ],
+   "March of the Black Queen": [
+    "The March of the Black Queen"
+   ],
+   "Hitman": [
+    "The Hitman"
+   ],
+   "Modern Times Rock 'n' Roll": [
+    "Modern Times Rock and Roll"
+   ],
+   "Las Palabras de Amor (The Words of Love)": [
+    "Las Palabras de Amor",
+    "The Words of Love"
+   ]
+  },
+  "traps": {
+   "Imagine": "A John Lennon solo single, not a Queen song.",
+   "Stairway to Heaven": "A Led Zeppelin song.",
+   "Hotel California": "An Eagles song."
+  },
+  "fact": "Innuendo was released in February 1991, a few months before Freddie Mercury died in November that year."
+ },
+ {
+  "id": "cul-mus-instrument",
+  "cat": "Music",
+  "title": "Strike a note",
+  "q": "A musical instrument",
+  "rule": "Any instrument in ordinary use, from orchestral and folk to world and electronic; parts of instruments, voices and music genres don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Guitar",
+    "Piano",
+    "Drums",
+    "Violin",
+    "Saxophone",
+    "Trumpet"
+   ],
+   "hipster": [
+    "Harmonica",
+    "Ukulele"
+   ],
+   "body": [
+    "Flute",
+    "Clarinet",
+    "Cello",
+    "Bass guitar",
+    "Organ",
+    "Accordion",
+    "Harp",
+    "Tuba",
+    "Trombone",
+    "French horn",
+    "Oboe",
+    "Bassoon",
+    "Recorder",
+    "Banjo",
+    "Mandolin",
+    "Tambourine",
+    "Xylophone",
+    "Bagpipes",
+    "Triangle",
+    "Cymbals",
+    "Bongos",
+    "Maracas",
+    "Castanets",
+    "Double bass",
+    "Viola",
+    "Sitar",
+    "Kazoo",
+    "Synthesizer",
+    "Glockenspiel",
+    "Timpani",
+    "Bugle",
+    "Piccolo",
+    "Steel drum",
+    "Vibraphone",
+    "Marimba",
+    "Snare drum",
+    "Bass drum",
+    "Tom-tom"
+   ],
+   "tail": [
+    "Bodhrán",
+    "Ocarina",
+    "Panpipes",
+    "Harpsichord",
+    "Clavichord",
+    "Concertina",
+    "Bouzouki",
+    "Balalaika",
+    "Lute",
+    "Dulcimer",
+    "Zither",
+    "Autoharp",
+    "Hurdy-gurdy",
+    "Didgeridoo",
+    "Djembe",
+    "Tabla",
+    "Conga",
+    "Shakuhachi",
+    "Erhu",
+    "Koto",
+    "Shamisen",
+    "Oud",
+    "Pipa",
+    "Guzheng",
+    "Kora",
+    "Cornet",
+    "Flugelhorn",
+    "Euphonium",
+    "Sousaphone",
+    "Cor anglais",
+    "Bass clarinet",
+    "Lyre",
+    "Harmonium",
+    "Theremin",
+    "Pedal steel guitar",
+    "Keytar",
+    "Mbira",
+    "Celesta",
+    "Tubular bells",
+    "Jew's harp",
+    "Washboard"
+   ],
+   "deep": [
+    "Uilleann pipes",
+    "Contrabassoon",
+    "Sackbut",
+    "Rebec",
+    "Viol",
+    "Gong",
+    "Sarangi",
+    "Veena",
+    "Santoor",
+    "Sarod",
+    "Tanpura",
+    "Mridangam",
+    "Dhol",
+    "Kalimba",
+    "Hang",
+    "Cajón",
+    "Taiko",
+    "Shekere",
+    "Agogô",
+    "Guiro",
+    "Cuica",
+    "Berimbau",
+    "Quena",
+    "Charango",
+    "Cavaquinho",
+    "Bandoneon",
+    "Melodica",
+    "Glass harmonica",
+    "Mellotron",
+    "Musical saw"
+   ],
+   "outlier": [
+    "Serpent",
+    "Ophicleide",
+    "Crumhorn",
+    "Shawm",
+    "Spoons"
+   ]
+  },
+  "alias": {
+   "Guitar": [
+    "Electric guitar",
+    "Acoustic guitar"
+   ],
+   "Saxophone": [
+    "Sax",
+    "Alto sax"
+   ],
+   "Drums": [
+    "Drum kit",
+    "Drum set"
+   ],
+   "Piano": [
+    "Grand piano",
+    "Upright piano"
+   ],
+   "Double bass": [
+    "Upright bass",
+    "Contrabass"
+   ],
+   "French horn": [
+    "Horn"
+   ],
+   "Synthesizer": [
+    "Synth",
+    "Synthesiser"
+   ],
+   "Cello": [
+    "Violoncello"
+   ],
+   "Harmonica": [
+    "Mouth organ"
+   ],
+   "Accordion": [
+    "Squeezebox"
+   ],
+   "Steel drum": [
+    "Steelpan",
+    "Steel pan"
+   ],
+   "Panpipes": [
+    "Pan pipes",
+    "Pan flute"
+   ],
+   "Jew's harp": [
+    "Jaw harp"
+   ],
+   "Bass guitar": [
+    "Bass"
+   ],
+   "Conga": [
+    "Congas",
+    "Conga drum"
+   ]
+  },
+  "traps": {
+   "Voice": "The human voice is not a musical instrument.",
+   "Microphone": "Recording equipment, not an instrument.",
+   "Metronome": "A timing device, not an instrument.",
+   "Amplifier": "Audio equipment, not an instrument."
+  },
+  "fact": "The theremin is played without touching it: two antennas sense the player's hands to set pitch and volume."
+ },
+ {
+  "id": "cul-mus-musical",
+  "cat": "Music",
+  "title": "Curtain up",
+  "q": "A stage musical",
+  "rule": "The show must have played in London's West End or on Broadway; films, concerts and tours don't count.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Cats",
+    "Les Misérables",
+    "Phantom of the Opera",
+    "Mamma Mia!",
+    "Wicked",
+    "Lion King"
+   ],
+   "hipster": [
+    "Starlight Express",
+    "Sunset Boulevard"
+   ],
+   "body": [
+    "Grease",
+    "Chicago",
+    "Hamilton",
+    "Oliver!",
+    "Hairspray",
+    "Matilda the Musical",
+    "Billy Elliot the Musical",
+    "Mary Poppins",
+    "Miss Saigon",
+    "Evita",
+    "Joseph and the Amazing Technicolor Dreamcoat",
+    "Jesus Christ Superstar",
+    "Sound of Music",
+    "My Fair Lady",
+    "West Side Story",
+    "Annie",
+    "Hello, Dolly!",
+    "Rent",
+    "Book of Mormon",
+    "Blood Brothers",
+    "Frozen",
+    "Aladdin",
+    "Beauty and the Beast",
+    "We Will Rock You",
+    "Guys and Dolls",
+    "Kinky Boots",
+    "Legally Blonde"
+   ],
+   "tail": [
+    "Dreamgirls",
+    "Fiddler on the Roof",
+    "A Chorus Line",
+    "Carousel",
+    "Oklahoma!",
+    "South Pacific",
+    "King and I",
+    "Kiss Me, Kate",
+    "Gypsy",
+    "Funny Girl",
+    "Company",
+    "Pippin",
+    "Godspell",
+    "Chess",
+    "Hair",
+    "Ragtime",
+    "Once",
+    "Avenue Q",
+    "Spring Awakening",
+    "Dear Evan Hansen",
+    "Six",
+    "Hadestown",
+    "Come From Away",
+    "Waitress",
+    "Ghost",
+    "Tina",
+    "Thriller Live",
+    "Bodyguard",
+    "School of Rock",
+    "Everybody's Talking About Jamie",
+    "Priscilla Queen of the Desert",
+    "Bat Out of Hell",
+    "Aspects of Love",
+    "Woman in White",
+    "Love Never Dies",
+    "Sweeney Todd",
+    "Into the Woods",
+    "Cabaret",
+    "Producers",
+    "Mean Girls",
+    "Caroline, or Change",
+    "Parade",
+    "Memphis",
+    "Color Purple",
+    "Jersey Boys",
+    "Motown",
+    "Sister Act",
+    "Dirty Dancing",
+    "Shrek the Musical",
+    "Bugsy Malone",
+    "Show Boat",
+    "Little Shop of Horrors"
+   ],
+   "deep": [
+    "Titanic",
+    "Sunday in the Park with George",
+    "Assassins",
+    "Merrily We Roll Along",
+    "Passion",
+    "Nine",
+    "Sweet Charity",
+    "Wiz",
+    "Bells Are Ringing",
+    "Anything Goes",
+    "Me and My Girl",
+    "Salad Days",
+    "Half a Sixpence"
+   ],
+   "outlier": [
+    "Pacific Overtures",
+    "Mack and Mabel",
+    "Dear World",
+    "Bombay Dreams"
+   ]
+  },
+  "alias": {
+   "Phantom of the Opera": [
+    "The Phantom of the Opera",
+    "Phantom"
+   ],
+   "Lion King": [
+    "The Lion King"
+   ],
+   "Les Misérables": [
+    "Les Mis",
+    "Les Miserables"
+   ],
+   "Mamma Mia!": [
+    "Mamma Mia"
+   ],
+   "Matilda the Musical": [
+    "Matilda"
+   ],
+   "Billy Elliot the Musical": [
+    "Billy Elliot"
+   ],
+   "Joseph and the Amazing Technicolor Dreamcoat": [
+    "Joseph"
+   ],
+   "Sound of Music": [
+    "The Sound of Music"
+   ],
+   "Book of Mormon": [
+    "The Book of Mormon"
+   ],
+   "Hello, Dolly!": [
+    "Hello Dolly"
+   ],
+   "Oliver!": [
+    "Oliver"
+   ],
+   "King and I": [
+    "The King and I"
+   ],
+   "Producers": [
+    "The Producers"
+   ],
+   "Color Purple": [
+    "The Color Purple"
+   ],
+   "Bodyguard": [
+    "The Bodyguard"
+   ],
+   "Woman in White": [
+    "The Woman in White"
+   ],
+   "Wiz": [
+    "The Wiz"
+   ],
+   "Motown": [
+    "Motown the Musical"
+   ],
+   "Shrek the Musical": [
+    "Shrek"
+   ],
+   "Sweeney Todd": [
+    "Sweeney Todd: The Demon Barber of Fleet Street"
+   ]
+  },
+  "traps": {
+   "La La Land": "A film, not a stage show.",
+   "The Greatest Showman": "A film, not a stage show.",
+   "Grease 2": "A film sequel, not a stage show."
+  },
+  "fact": "Starlight Express is performed by actors on roller skates."
+ },
+ {
+  "id": "cul-mus-dance",
+  "cat": "Music",
+  "title": "Floor filler",
+  "q": "A named dance",
+  "rule": "Named dances count, including ballroom, Latin, folk and street styles; single steps and dance troupes don't count.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Waltz",
+    "Tango",
+    "Salsa",
+    "Macarena",
+    "Conga",
+    "Twist"
+   ],
+   "hipster": [
+    "Limbo",
+    "Charleston"
+   ],
+   "body": [
+    "Foxtrot",
+    "Quickstep",
+    "Rumba",
+    "Samba",
+    "Cha-cha-cha",
+    "Paso doble",
+    "Jive",
+    "Mambo",
+    "Merengue",
+    "Bachata",
+    "Lindy hop",
+    "Jitterbug",
+    "Hokey Cokey",
+    "Can-can",
+    "Polka",
+    "Morris dance",
+    "Ballet",
+    "Tap dance",
+    "Breakdance",
+    "Vogue",
+    "Lambeth Walk",
+    "Locomotion",
+    "Shimmy",
+    "Mashed potato",
+    "Hustle",
+    "Electric slide",
+    "Bhangra",
+    "Flamenco",
+    "Hula",
+    "Viennese waltz",
+    "Bossa nova",
+    "Cumbia",
+    "Bolero",
+    "Lambada"
+   ],
+   "tail": [
+    "Zouk",
+    "Kizomba",
+    "Forró",
+    "Danzón",
+    "Son",
+    "Guaracha",
+    "Boogie-woogie",
+    "Shag",
+    "Big apple",
+    "Monkey",
+    "Pony",
+    "Frug",
+    "Watusi",
+    "Hitch hike",
+    "Bunny hop",
+    "Running Man",
+    "Sevillanas",
+    "Jota",
+    "Fandango",
+    "Minuet",
+    "Gavotte",
+    "Galop",
+    "Quadrille",
+    "Cotillion",
+    "Polonaise",
+    "Mazurka",
+    "Tarantella",
+    "Hornpipe",
+    "Jig",
+    "Reel",
+    "Kathak",
+    "Bharatanatyam",
+    "Kuchipudi",
+    "Garba",
+    "Dandiya",
+    "Kathakali",
+    "Madison"
+   ],
+   "deep": [
+    "Hora",
+    "Sirtaki",
+    "Odissi",
+    "Dabke",
+    "Black bottom",
+    "Hully gully",
+    "Turkey trot",
+    "Hand jive"
+   ],
+   "outlier": [
+    "Strathspey",
+    "Mohiniyattam",
+    "Bristol stomp",
+    "Cakewalk",
+    "Stroll"
+   ]
+  },
+  "alias": {
+   "Cha-cha-cha": [
+    "Cha-cha",
+    "Cha cha"
+   ],
+   "Lindy hop": [
+    "Lindy"
+   ],
+   "Morris dance": [
+    "Morris"
+   ],
+   "Tap dance": [
+    "Tap"
+   ],
+   "Breakdance": [
+    "Breaking"
+   ],
+   "Hokey Cokey": [
+    "Hokey Pokey"
+   ],
+   "Twist": [
+    "The Twist"
+   ],
+   "Macarena": [
+    "The Macarena"
+   ],
+   "Locomotion": [
+    "The Locomotion"
+   ],
+   "Lambeth Walk": [
+    "The Lambeth Walk"
+   ],
+   "Hustle": [
+    "The Hustle"
+   ],
+   "Vogue": [
+    "Voguing"
+   ],
+   "Can-can": [
+    "Cancan"
+   ]
+  },
+  "traps": {
+   "Air guitar": "A mime of playing, not a named dance.",
+   "Headbanging": "A movement to music, not a named dance.",
+   "Moshing": "Crowd activity at gigs, not a named dance."
+  },
+  "fact": "The Lambeth Walk comes from the 1937 musical Me and My Girl."
+ },
+ {
+  "id": "his-wrd-colour",
+  "cat": "Language",
+  "title": "Paint chip",
+  "q": "A named colour",
+  "rule": "Any named colour or shade used in everyday English. Dark, light and pale versions of a colour don't count separately.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Red",
+    "Blue",
+    "Green",
+    "Yellow",
+    "Black",
+    "White"
+   ],
+   "hipster": [
+    "Orange",
+    "Purple"
+   ],
+   "body": [
+    "Pink",
+    "Brown",
+    "Grey",
+    "Gold",
+    "Silver",
+    "Navy",
+    "Turquoise",
+    "Lime",
+    "Teal",
+    "Maroon",
+    "Violet",
+    "Beige",
+    "Indigo",
+    "Cyan",
+    "Magenta",
+    "Coral",
+    "Salmon",
+    "Olive",
+    "Lavender",
+    "Aqua",
+    "Crimson",
+    "Khaki",
+    "Tan",
+    "Ivory",
+    "Chocolate",
+    "Fuchsia",
+    "Plum",
+    "Sky blue",
+    "Royal blue",
+    "Sea green",
+    "Forest green",
+    "Lime green",
+    "Midnight blue",
+    "Steel blue",
+    "Slate grey",
+    "Powder blue",
+    "Cornflower blue",
+    "Hot pink",
+    "Orange red",
+    "Firebrick",
+    "Saddle brown",
+    "Sandy brown",
+    "Rosy brown",
+    "Spring green",
+    "Lawn green",
+    "Yellow green",
+    "Olive drab",
+    "Indian red",
+    "Blue violet",
+    "Burgundy",
+    "Scarlet",
+    "Cream",
+    "Mustard",
+    "Emerald",
+    "Lilac",
+    "Mauve",
+    "Peach",
+    "Amber",
+    "Bronze",
+    "Copper"
+   ],
+   "tail": [
+    "Azure",
+    "Chartreuse",
+    "Aquamarine",
+    "Cadet blue",
+    "Goldenrod",
+    "Dodger blue",
+    "Green yellow",
+    "Wheat",
+    "Linen",
+    "Sienna",
+    "Peru",
+    "Tomato",
+    "Orchid",
+    "Gainsboro",
+    "Snow",
+    "Honeydew",
+    "Seashell",
+    "Burlywood",
+    "Rust",
+    "Charcoal",
+    "Mint",
+    "Ruby",
+    "Sapphire",
+    "Jade",
+    "Cobalt",
+    "Apricot",
+    "Lemon",
+    "Cherry",
+    "Sage",
+    "Terracotta",
+    "Magnolia"
+   ],
+   "deep": [
+    "Floral white",
+    "Ghost white",
+    "White smoke",
+    "Alice blue",
+    "Antique white",
+    "Cornsilk",
+    "Mint cream",
+    "Misty rose",
+    "Moccasin",
+    "Bisque",
+    "Blanched almond",
+    "Lemon chiffon",
+    "Navajo white",
+    "Thistle",
+    "Ochre",
+    "Taupe",
+    "Cerise",
+    "Vermilion",
+    "Umber",
+    "Sepia",
+    "Mulberry"
+   ],
+   "outlier": [
+    "Papaya whip",
+    "Peach puff",
+    "Lavender blush",
+    "Old lace",
+    "Rebecca purple"
+   ]
+  },
+  "alias": {
+   "Grey": [
+    "Gray"
+   ],
+   "Slate grey": [
+    "Slate gray"
+   ]
+  },
+  "traps": {
+   "Light blue": "A shade rather than a base colour name.",
+   "Peach": "Not a CSS colour name.",
+   "Lilac": "Not a CSS colour name.",
+   "Burgundy": "Not a CSS colour name.",
+   "Amber": "Not a CSS colour name."
+  },
+  "fact": "Rebecca purple was added to CSS in 2014 in memory of Rebecca Meyer, daughter of web designer Eric Meyer."
+ },
+ {
+  "id": "his-wrd-body-part",
+  "cat": "Everyday",
+  "title": "Anatomy 101",
+  "q": "A part of the human body",
+  "rule": "Count any named external or internal body part by its common or anatomical name; fluids, conditions and body systems don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Hand",
+    "Foot",
+    "Arm",
+    "Leg",
+    "Head",
+    "Eye"
+   ],
+   "hipster": [
+    "Armpit",
+    "Shin"
+   ],
+   "body": [
+    "Knee",
+    "Elbow",
+    "Finger",
+    "Toe",
+    "Nose",
+    "Mouth",
+    "Ear",
+    "Heart",
+    "Lung",
+    "Stomach",
+    "Liver",
+    "Kidney",
+    "Brain",
+    "Neck",
+    "Back",
+    "Shoulder",
+    "Hip",
+    "Wrist",
+    "Ankle",
+    "Chin",
+    "Cheek",
+    "Forehead",
+    "Eyebrow",
+    "Eyelash",
+    "Tongue",
+    "Tooth",
+    "Skin",
+    "Hair",
+    "Bone",
+    "Spine",
+    "Skull",
+    "Rib",
+    "Thigh",
+    "Calf",
+    "Heel",
+    "Palm",
+    "Knuckle",
+    "Fingernail",
+    "Toenail",
+    "Navel",
+    "Waist",
+    "Chest",
+    "Throat",
+    "Jaw",
+    "Temple",
+    "Scalp",
+    "Thumb",
+    "Groin",
+    "Buttock",
+    "Lip",
+    "Eyelid",
+    "Pupil",
+    "Nostril",
+    "Gum",
+    "Sole"
+   ],
+   "tail": [
+    "Pelvis",
+    "Clavicle",
+    "Sternum",
+    "Femur",
+    "Tibia",
+    "Fibula",
+    "Humerus",
+    "Radius",
+    "Ulna",
+    "Kneecap",
+    "Coccyx",
+    "Vertebra",
+    "Shoulder blade",
+    "Jawbone",
+    "Pancreas",
+    "Spleen",
+    "Appendix",
+    "Gallbladder",
+    "Bladder",
+    "Colon",
+    "Oesophagus",
+    "Larynx",
+    "Pharynx",
+    "Trachea",
+    "Thyroid",
+    "Biceps",
+    "Triceps",
+    "Hamstring",
+    "Quadriceps",
+    "Diaphragm",
+    "Tonsils",
+    "Uvula",
+    "Eardrum",
+    "Cornea",
+    "Retina",
+    "Cochlea",
+    "Hippocampus",
+    "Cerebellum",
+    "Aorta",
+    "Achilles tendon",
+    "Iris",
+    "Earlobe"
+   ],
+   "deep": [
+    "Stapes",
+    "Incus",
+    "Malleus",
+    "Pinna",
+    "Sclera",
+    "Lacrimal gland",
+    "Pituitary gland",
+    "Hypothalamus",
+    "Amygdala",
+    "Medulla oblongata",
+    "Duodenum",
+    "Ileum",
+    "Jejunum",
+    "Caecum",
+    "Gluteus maximus",
+    "Trapezius",
+    "Deltoid",
+    "Sartorius",
+    "Soleus",
+    "Gastrocnemius",
+    "Ilium",
+    "Epiglottis",
+    "Adrenal gland",
+    "Ventricle",
+    "Atrium",
+    "Capillary",
+    "Thalamus",
+    "Choroid",
+    "Columella",
+    "Pisiform",
+    "Hamate"
+   ],
+   "outlier": [
+    "Philtrum",
+    "Tragus",
+    "Lunula",
+    "Frenulum",
+    "Glabella"
+   ]
+  },
+  "alias": {
+   "Kneecap": [
+    "Patella"
+   ],
+   "Oesophagus": [
+    "Esophagus"
+   ],
+   "Caecum": [
+    "Cecum"
+   ],
+   "Shoulder blade": [
+    "Scapula"
+   ],
+   "Eardrum": [
+    "Tympanic membrane"
+   ],
+   "Pinna": [
+    "Auricle"
+   ],
+   "Achilles tendon": [
+    "Achilles"
+   ],
+   "Gluteus maximus": [
+    "Glutes"
+   ],
+   "Navel": [
+    "Belly button"
+   ],
+   "Bladder": [
+    "Urinary bladder"
+   ]
+  },
+  "traps": {
+   "Blood": "A body fluid, not a part.",
+   "Acne": "A skin condition, not a body part.",
+   "Muscle": "A tissue type, not a named part.",
+   "Sweat": "A fluid, not a body part."
+  },
+  "fact": "The stapes, a tiny bone in the middle ear, is the smallest bone in the human body."
+ },
+ {
+  "id": "his-wrd-clothing",
+  "cat": "Everyday",
+  "title": "Wardrobe check",
+  "q": "An item of clothing",
+  "rule": "Count any named garment, footwear, headwear or worn accessory; materials, fabrics and whole outfits don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "T-shirt",
+    "Jeans",
+    "Dress",
+    "Jumper",
+    "Coat",
+    "Socks"
+   ],
+   "hipster": [
+    "Hoodie",
+    "Leggings"
+   ],
+   "body": [
+    "Shirt",
+    "Trousers",
+    "Skirt",
+    "Shorts",
+    "Jacket",
+    "Blouse",
+    "Cardigan",
+    "Trainers",
+    "Boots",
+    "Sandals",
+    "Underwear",
+    "Pyjamas",
+    "Dressing gown",
+    "Tights",
+    "Bra",
+    "Vest",
+    "Belt",
+    "Scarf",
+    "Gloves",
+    "Hat",
+    "Cap",
+    "Suit",
+    "Blazer",
+    "Waistcoat",
+    "Tie",
+    "Bow tie",
+    "Kilt",
+    "Sari",
+    "Kimono",
+    "Kaftan",
+    "Poncho",
+    "Dungarees",
+    "Overalls",
+    "Onesie",
+    "Leotard",
+    "Swimsuit",
+    "Bikini",
+    "Jumpsuit",
+    "Tracksuit",
+    "Raincoat",
+    "Slippers",
+    "Flip-flops",
+    "Wellies",
+    "Beanie",
+    "Mittens",
+    "Knickers",
+    "Boxers",
+    "Nightie",
+    "Stockings"
+   ],
+   "tail": [
+    "Anorak",
+    "Cagoule",
+    "Parka",
+    "Duffel coat",
+    "Trench coat",
+    "Mackintosh",
+    "Gilet",
+    "Bomber jacket",
+    "Donkey jacket",
+    "Crop top",
+    "Culottes",
+    "Chinos",
+    "Capri pants",
+    "Bermuda shorts",
+    "Flares",
+    "Pedal pushers",
+    "Hot pants",
+    "Miniskirt",
+    "Maxi skirt",
+    "Pinafore",
+    "Smock",
+    "Sarong",
+    "Dhoti",
+    "Salwar kameez",
+    "Lehenga",
+    "Kurta",
+    "Dashiki",
+    "Qipao",
+    "Hanbok",
+    "Yukata",
+    "Abaya",
+    "Jodhpurs",
+    "Trilby",
+    "Fedora",
+    "Bowler hat",
+    "Beret",
+    "Panama hat",
+    "Stetson",
+    "Sombrero",
+    "Turban",
+    "Deerstalker",
+    "Boater",
+    "Flat cap",
+    "Busby",
+    "Balaclava",
+    "Bobble hat",
+    "Tuxedo",
+    "Tailcoat",
+    "Cummerbund",
+    "Sash",
+    "Cape",
+    "Cloak",
+    "Snood",
+    "Muffler",
+    "Ascot",
+    "Cravat",
+    "Fez",
+    "Petticoat",
+    "Corset",
+    "Bodice"
+   ],
+   "deep": [
+    "Surplice",
+    "Cassock",
+    "Jerkin",
+    "Stomacher",
+    "Tabard",
+    "Toga",
+    "Kirtle",
+    "Tunic",
+    "Chemise",
+    "Camisole",
+    "Bloomers",
+    "Gaiters",
+    "Spats",
+    "Plus fours",
+    "Knickerbockers",
+    "Breeches",
+    "Lederhosen",
+    "Dirndl",
+    "Tutu",
+    "Sherwani",
+    "Nehru jacket",
+    "Mao jacket",
+    "Obi",
+    "Hakama",
+    "Gi",
+    "Ao dai",
+    "Pith helmet",
+    "Balmoral",
+    "Tam o' Shanter",
+    "Glengarry",
+    "Mantilla",
+    "Boa",
+    "Stole",
+    "Shawl",
+    "Pashmina",
+    "Chador"
+   ],
+   "outlier": [
+    "Chasuble",
+    "Wimple",
+    "Sporran",
+    "Doublet",
+    "Coif"
+   ]
+  },
+  "alias": {
+   "Jumper": [
+    "Sweater",
+    "Pullover"
+   ],
+   "T-shirt": [
+    "Tee",
+    "T shirt"
+   ],
+   "Trainers": [
+    "Sneakers",
+    "Runners"
+   ],
+   "Pyjamas": [
+    "Pajamas",
+    "PJs"
+   ],
+   "Dressing gown": [
+    "Bathrobe",
+    "Robe"
+   ],
+   "Vest": [
+    "Singlet",
+    "Undershirt"
+   ],
+   "Wellies": [
+    "Wellington boots",
+    "Wellingtons"
+   ],
+   "Flip-flops": [
+    "Flip flops",
+    "Thongs"
+   ],
+   "Knickers": [
+    "Panties"
+   ],
+   "Bra": [
+    "Brassiere"
+   ],
+   "Beanie": [
+    "Woolly hat"
+   ],
+   "Cagoule": [
+    "Kagoul"
+   ],
+   "Mackintosh": [
+    "Mac"
+   ],
+   "Gilet": [
+    "Bodywarmer"
+   ],
+   "Nightie": [
+    "Nightdress",
+    "Nightgown"
+   ],
+   "Pinafore": [
+    "Pinny"
+   ],
+   "Tuxedo": [
+    "Dinner jacket",
+    "Dinner suit",
+    "Tux"
+   ],
+   "Kaftan": [
+    "Caftan"
+   ],
+   "Fez": [
+    "Tarboosh"
+   ],
+   "Bobble hat": [
+    "Pom-pom hat"
+   ],
+   "Balaclava": [
+    "Balaclava helmet"
+   ],
+   "Tracksuit": [
+    "Track suit"
+   ],
+   "Hot pants": [
+    "Hotpants"
+   ],
+   "Trench coat": [
+    "Trenchcoat"
+   ]
+  },
+  "traps": {
+   "Cotton": "A fabric, not a garment.",
+   "Tweed": "A fabric, not a garment.",
+   "Denim": "A fabric, not a garment.",
+   "Uniform": "A set of clothes, not a single named item."
+  },
+  "fact": "The balaclava is named after the Battle of Balaclava in the Crimean War, where soldiers wore knitted hoods."
+ },
+ {
+  "id": "his-wrd-board-game",
+  "cat": "Everyday",
+  "title": "Game night",
+  "q": "A board game",
+  "rule": "A published board or tabletop game played with a board, tiles or pieces; card, dice, paper and video games don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Monopoly",
+    "Scrabble",
+    "Cluedo",
+    "Chess",
+    "Snakes and Ladders",
+    "Ludo"
+   ],
+   "hipster": [
+    "Trivial Pursuit",
+    "Risk"
+   ],
+   "body": [
+    "Connect Four",
+    "Battleship",
+    "Operation",
+    "Guess Who?",
+    "Pictionary",
+    "Mousetrap",
+    "Hungry Hippos",
+    "Draughts",
+    "Backgammon",
+    "Ticket to Ride",
+    "Catan",
+    "Pandemic",
+    "Taboo",
+    "Mastermind",
+    "Buckaroo",
+    "Kerplunk",
+    "Sorry!",
+    "Othello",
+    "Go",
+    "Jenga",
+    "Boggle",
+    "Articulate",
+    "Balderdash",
+    "Cranium"
+   ],
+   "tail": [
+    "Carcassonne",
+    "Azul",
+    "Candy Land",
+    "Parcheesi",
+    "Trouble",
+    "Game of Life",
+    "Stratego",
+    "Diplomacy",
+    "Axis & Allies",
+    "Chinese checkers",
+    "Perfection",
+    "Scotland Yard",
+    "Power Grid",
+    "Puerto Rico",
+    "Qwirkle",
+    "Rummikub",
+    "Kingdomino",
+    "Bananagrams",
+    "Mahjong",
+    "Dominoes"
+   ],
+   "deep": [
+    "Gloomhaven",
+    "Agricola",
+    "HeroQuest",
+    "Escape from Colditz",
+    "Halma",
+    "Hi-Ho! Cherry-O"
+   ],
+   "outlier": [
+    "Shogi",
+    "Xiangqi",
+    "Mancala",
+    "Pachisi",
+    "Nine Men's Morris"
+   ]
+  },
+  "alias": {
+   "Cluedo": [
+    "Clue"
+   ],
+   "Mousetrap": [
+    "Mouse Trap"
+   ],
+   "Draughts": [
+    "Checkers"
+   ],
+   "Catan": [
+    "Settlers of Catan"
+   ],
+   "Connect Four": [
+    "Connect 4"
+   ],
+   "Snakes and Ladders": [
+    "Chutes and Ladders"
+   ],
+   "Game of Life": [
+    "The Game of Life",
+    "Life"
+   ],
+   "Othello": [
+    "Reversi"
+   ],
+   "Axis & Allies": [
+    "Axis and Allies"
+   ],
+   "Parcheesi": [
+    "Parchesi"
+   ],
+   "Guess Who?": [
+    "Guess Who"
+   ],
+   "Hi-Ho! Cherry-O": [
+    "Hi Ho Cherry-O"
+   ]
+  },
+  "traps": {
+   "Uno": "A card game.",
+   "Poker": "A card game.",
+   "Yahtzee": "A dice game.",
+   "Tic-tac-toe": "A paper-and-pencil game."
+  },
+  "fact": "Operation's patient is called Cavity Sam."
+ },
+ {
+  "id": "his-wrd-ball-sport",
+  "cat": "Everyday",
+  "title": "Ball games",
+  "q": "A sport played with a ball",
+  "rule": "Sports where a ball is the main object count; sports played with a puck, shuttlecock or disc don't.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Football",
+    "Tennis",
+    "Cricket",
+    "Basketball",
+    "Golf",
+    "Rugby union"
+   ],
+   "hipster": [
+    "Table tennis",
+    "Lacrosse"
+   ],
+   "body": [
+    "Baseball",
+    "American football",
+    "Rugby league",
+    "Netball",
+    "Handball",
+    "Water polo",
+    "Hockey",
+    "Rounders",
+    "Softball",
+    "Dodgeball",
+    "Kickball",
+    "Snooker",
+    "Pool",
+    "Squash",
+    "Bowls",
+    "Croquet",
+    "Polo",
+    "Volleyball",
+    "Beach volleyball",
+    "Tenpin bowling",
+    "Crazy golf",
+    "Futsal",
+    "Gaelic football",
+    "Australian rules football",
+    "Hurling",
+    "Camogie",
+    "Rugby sevens"
+   ],
+   "tail": [
+    "Padel",
+    "Pickleball",
+    "Racquetball",
+    "Real tennis",
+    "Rackets",
+    "Fives",
+    "Jai alai",
+    "Pétanque",
+    "Bocce",
+    "Boccia",
+    "Sepak takraw",
+    "Stickball",
+    "Bandy",
+    "Floorball",
+    "Goalball",
+    "Blind football",
+    "Roller hockey",
+    "Shinty",
+    "Streetball",
+    "Korfball"
+   ],
+   "deep": [
+    "Canoe polo",
+    "Bossaball",
+    "Cesta punta",
+    "Punchball"
+   ],
+   "outlier": [
+    "Sphairistike",
+    "Pesäpallo",
+    "Chinlone",
+    "Tchoukball",
+    "Carom billiards"
+   ]
+  },
+  "alias": {
+   "Football": [
+    "Soccer",
+    "Association football"
+   ],
+   "Rugby union": [
+    "Rugby"
+   ],
+   "Table tennis": [
+    "Ping-pong"
+   ],
+   "American football": [
+    "Gridiron"
+   ],
+   "Hockey": [
+    "Field hockey"
+   ],
+   "Bowls": [
+    "Lawn bowls"
+   ],
+   "Tenpin bowling": [
+    "Ten-pin bowling"
+   ],
+   "Crazy golf": [
+    "Mini golf",
+    "Minigolf"
+   ],
+   "Australian rules football": [
+    "Aussie rules",
+    "Footy"
+   ],
+   "Real tennis": [
+    "Royal tennis"
+   ],
+   "Jai alai": [
+    "Pelota"
+   ],
+   "Pétanque": [
+    "Petanque",
+    "Boules"
+   ],
+   "Bocce": [
+    "Bocce ball",
+    "Bocci"
+   ],
+   "Carom billiards": [
+    "Carom"
+   ],
+   "Gaelic football": [
+    "Gaelic"
+   ]
+  },
+  "traps": {
+   "Badminton": "Played with a shuttlecock, not a ball.",
+   "Ice hockey": "Played with a puck.",
+   "Ultimate": "Played with a flying disc.",
+   "Kabaddi": "A contact game with no ball.",
+   "Darts": "No ball is used."
+  },
+  "fact": "Pesäpallo is a Finnish form of baseball, often called Finland's national sport."
+ },
+ {
+  "id": "his-wrd-furniture",
+  "cat": "Everyday",
+  "title": "Feel at home",
+  "q": "A piece of furniture",
+  "rule": "A movable household or office piece sold as one item; rugs, cushions, curtains, appliances and parts of furniture don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Chair",
+    "Table",
+    "Sofa",
+    "Bed",
+    "Wardrobe",
+    "Desk"
+   ],
+   "hipster": [
+    "Ottoman",
+    "Chaise longue"
+   ],
+   "body": [
+    "Bookcase",
+    "Cabinet",
+    "Sideboard",
+    "Stool",
+    "Bench",
+    "Armchair",
+    "Coffee table",
+    "Dining table",
+    "Bunk bed",
+    "Crib",
+    "Chest of drawers",
+    "Dressing table",
+    "Footstool",
+    "Pouffe",
+    "Hatstand",
+    "Coat rack",
+    "Shelf",
+    "Sofa bed",
+    "Recliner",
+    "Rocking chair",
+    "Deckchair",
+    "Hammock",
+    "Futon",
+    "Bedside table",
+    "Console table",
+    "Dresser",
+    "Chesterfield",
+    "Armoire",
+    "Divan",
+    "Settle",
+    "Pew",
+    "Bookshelf"
+   ],
+   "tail": [
+    "Chiffonier",
+    "Credenza",
+    "Commode",
+    "Cupboard",
+    "Hutch",
+    "Lowboy",
+    "Vanity",
+    "Wingback chair",
+    "Club chair",
+    "Windsor chair",
+    "Dining chair",
+    "Bar stool",
+    "Trestle table",
+    "Gateleg table",
+    "Refectory table",
+    "Roll-top desk",
+    "Writing desk",
+    "Bureau",
+    "Escritoire",
+    "Secretary",
+    "Display cabinet",
+    "Vitrine",
+    "Daybed",
+    "Canopy bed",
+    "Four-poster bed",
+    "Murphy bed",
+    "Waterbed",
+    "Bassinet",
+    "Cradle",
+    "Lectern",
+    "Throne",
+    "Umbrella stand",
+    "Magazine rack",
+    "Plant stand",
+    "Hall stand",
+    "Shelving unit",
+    "Tilt-top table",
+    "Pedestal table",
+    "Drop-leaf table",
+    "Nest of tables",
+    "Sofa table",
+    "Sunlounger"
+   ],
+   "deep": [
+    "Bergère",
+    "Fauteuil",
+    "Étagère",
+    "Dumbwaiter",
+    "Hassock",
+    "Tabouret"
+   ],
+   "outlier": [
+    "Davenport",
+    "Whatnot",
+    "Canterbury",
+    "Coffer",
+    "Torchère"
+   ]
+  },
+  "alias": {
+   "Sofa": [
+    "Couch",
+    "Settee"
+   ],
+   "Wardrobe": [
+    "Closet"
+   ],
+   "Chaise longue": [
+    "Chaise",
+    "Chaise lounge"
+   ],
+   "Crib": [
+    "Cot"
+   ],
+   "Pouffe": [
+    "Pouf"
+   ],
+   "Hatstand": [
+    "Hat stand"
+   ],
+   "Chest of drawers": [
+    "Chest",
+    "Tallboy"
+   ],
+   "Bedside table": [
+    "Nightstand",
+    "Bedside cabinet"
+   ],
+   "Deckchair": [
+    "Deck chair"
+   ],
+   "Hall stand": [
+    "Hall tree"
+   ],
+   "Sunlounger": [
+    "Sun lounger"
+   ],
+   "Secretary": [
+    "Secretaire"
+   ],
+   "Hammock": [
+    "Hammock chair"
+   ]
+  },
+  "traps": {
+   "Rug": "A floor covering, not a piece of furniture in this sense.",
+   "Cushion": "A soft furnishing.",
+   "Fridge": "An appliance.",
+   "Mattress": "Part of a bed, not a whole piece.",
+   "Curtains": "Soft furnishings."
+  },
+  "fact": "Chaise longue is French for 'long chair'."
+ }
+]
