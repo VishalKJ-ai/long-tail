@@ -1,0 +1,6000 @@
+[
+ {
+  "id": "cul-pop-pokemon",
+  "cat": "Games",
+  "title": "Gotta catch 'em",
+  "q": "A Pokémon",
+  "rule": "Any of the 1,025 species from any generation; Mega, regional and other alternate forms don't count as separate answers.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Pikachu",
+    "Charizard",
+    "Charmander",
+    "Squirtle",
+    "Bulbasaur",
+    "Jigglypuff"
+   ],
+   "hipster": [
+    "Psyduck",
+    "Magikarp"
+   ],
+   "body": [
+    "Ivysaur",
+    "Venusaur",
+    "Charmeleon",
+    "Wartortle",
+    "Blastoise",
+    "Caterpie",
+    "Butterfree",
+    "Weedle",
+    "Pidgey",
+    "Rattata",
+    "Ekans",
+    "Raichu",
+    "Sandshrew",
+    "Clefairy",
+    "Vulpix",
+    "Ninetales",
+    "Oddish",
+    "Diglett",
+    "Meowth",
+    "Growlithe",
+    "Arcanine",
+    "Abra",
+    "Alakazam",
+    "Machop",
+    "Geodude",
+    "Ponyta",
+    "Rapidash",
+    "Slowpoke",
+    "Magnemite",
+    "Haunter",
+    "Gengar",
+    "Onix",
+    "Cubone",
+    "Chansey",
+    "Starmie",
+    "Scyther",
+    "Gyarados",
+    "Lapras",
+    "Ditto",
+    "Eevee",
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Snorlax",
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Dratini",
+    "Dragonite",
+    "Mewtwo",
+    "Mew",
+    "Chikorita",
+    "Meganium",
+    "Cyndaquil",
+    "Typhlosion",
+    "Totodile",
+    "Feraligatr",
+    "Pichu",
+    "Togepi",
+    "Espeon",
+    "Umbreon",
+    "Steelix",
+    "Scizor",
+    "Raikou",
+    "Entei",
+    "Suicune",
+    "Tyranitar",
+    "Lugia",
+    "Ho-Oh",
+    "Celebi",
+    "Treecko",
+    "Sceptile",
+    "Torchic",
+    "Blaziken",
+    "Mudkip",
+    "Swampert",
+    "Gardevoir",
+    "Flygon",
+    "Milotic",
+    "Absol",
+    "Salamence",
+    "Metagross",
+    "Latias",
+    "Latios",
+    "Kyogre",
+    "Groudon",
+    "Rayquaza",
+    "Jirachi",
+    "Deoxys",
+    "Turtwig",
+    "Torterra",
+    "Chimchar",
+    "Infernape",
+    "Piplup",
+    "Empoleon",
+    "Bidoof",
+    "Garchomp",
+    "Riolu",
+    "Lucario",
+    "Togekiss",
+    "Leafeon",
+    "Glaceon",
+    "Dialga",
+    "Palkia",
+    "Giratina",
+    "Darkrai",
+    "Arceus",
+    "Snivy",
+    "Tepig",
+    "Oshawott",
+    "Zoroark",
+    "Volcarona",
+    "Reshiram",
+    "Zekrom",
+    "Kyurem",
+    "Chespin",
+    "Chesnaught",
+    "Fennekin",
+    "Delphox",
+    "Froakie",
+    "Greninja",
+    "Sylveon",
+    "Goodra",
+    "Xerneas",
+    "Yveltal",
+    "Rowlet",
+    "Decidueye",
+    "Litten",
+    "Incineroar",
+    "Popplio",
+    "Primarina",
+    "Lycanroc",
+    "Mimikyu",
+    "Solgaleo",
+    "Lunala",
+    "Necrozma",
+    "Grookey",
+    "Rillaboom",
+    "Scorbunny",
+    "Cinderace",
+    "Sobble",
+    "Inteleon",
+    "Zacian",
+    "Zamazenta",
+    "Eternatus",
+    "Sprigatito",
+    "Meowscarada",
+    "Fuecoco",
+    "Skeledirge",
+    "Quaxly",
+    "Quaquaval",
+    "Gholdengo",
+    "Koraidon",
+    "Miraidon"
+   ],
+   "tail": [
+    "Metapod",
+    "Kakuna",
+    "Beedrill",
+    "Pidgeotto",
+    "Pidgeot",
+    "Raticate",
+    "Spearow",
+    "Fearow",
+    "Arbok",
+    "Sandslash",
+    "Nidoran Female",
+    "Nidorina",
+    "Nidoqueen",
+    "Nidoran Male",
+    "Nidorino",
+    "Nidoking",
+    "Clefable",
+    "Wigglytuff",
+    "Zubat",
+    "Golbat",
+    "Gloom",
+    "Vileplume",
+    "Paras",
+    "Parasect",
+    "Venonat",
+    "Venomoth",
+    "Dugtrio",
+    "Persian",
+    "Golduck",
+    "Mankey",
+    "Primeape",
+    "Poliwag",
+    "Poliwhirl",
+    "Poliwrath",
+    "Kadabra",
+    "Machoke",
+    "Machamp",
+    "Bellsprout",
+    "Weepinbell",
+    "Victreebel",
+    "Tentacool",
+    "Tentacruel",
+    "Graveler",
+    "Golem",
+    "Slowbro",
+    "Magneton",
+    "Farfetch'd",
+    "Doduo",
+    "Dodrio",
+    "Seel",
+    "Dewgong",
+    "Grimer",
+    "Muk",
+    "Shellder",
+    "Cloyster",
+    "Gastly",
+    "Drowzee",
+    "Hypno",
+    "Krabby",
+    "Kingler",
+    "Voltorb",
+    "Electrode",
+    "Exeggcute",
+    "Exeggutor",
+    "Marowak",
+    "Hitmonlee",
+    "Hitmonchan",
+    "Lickitung",
+    "Koffing",
+    "Weezing",
+    "Rhyhorn",
+    "Rhydon",
+    "Tangela",
+    "Kangaskhan",
+    "Horsea",
+    "Seadra",
+    "Goldeen",
+    "Seaking",
+    "Staryu",
+    "Mr. Mime",
+    "Jynx",
+    "Electabuzz",
+    "Magmar",
+    "Pinsir",
+    "Tauros",
+    "Porygon",
+    "Omanyte",
+    "Omastar",
+    "Kabuto",
+    "Kabutops",
+    "Aerodactyl",
+    "Dragonair",
+    "Bayleef",
+    "Quilava",
+    "Croconaw",
+    "Sentret",
+    "Furret",
+    "Hoothoot",
+    "Noctowl",
+    "Ledyba",
+    "Ledian",
+    "Spinarak",
+    "Ariados",
+    "Crobat",
+    "Chinchou",
+    "Lanturn",
+    "Cleffa",
+    "Igglybuff",
+    "Togetic",
+    "Natu",
+    "Xatu",
+    "Mareep",
+    "Flaaffy",
+    "Ampharos",
+    "Bellossom",
+    "Marill",
+    "Azumarill",
+    "Sudowoodo",
+    "Politoed",
+    "Hoppip",
+    "Skiploom",
+    "Jumpluff",
+    "Aipom",
+    "Sunkern",
+    "Sunflora",
+    "Yanma",
+    "Wooper",
+    "Quagsire",
+    "Murkrow",
+    "Slowking",
+    "Misdreavus",
+    "Unown",
+    "Wobbuffet",
+    "Girafarig",
+    "Pineco",
+    "Forretress",
+    "Dunsparce",
+    "Gligar",
+    "Snubbull",
+    "Granbull",
+    "Qwilfish",
+    "Shuckle",
+    "Heracross",
+    "Sneasel",
+    "Teddiursa",
+    "Ursaring",
+    "Slugma",
+    "Magcargo",
+    "Swinub",
+    "Piloswine",
+    "Corsola",
+    "Remoraid",
+    "Octillery",
+    "Delibird",
+    "Mantine",
+    "Skarmory",
+    "Houndour",
+    "Houndoom",
+    "Kingdra",
+    "Phanpy",
+    "Donphan",
+    "Porygon2",
+    "Stantler",
+    "Smeargle",
+    "Tyrogue",
+    "Hitmontop",
+    "Smoochum",
+    "Elekid",
+    "Magby",
+    "Miltank",
+    "Blissey",
+    "Larvitar",
+    "Pupitar",
+    "Grovyle",
+    "Combusken",
+    "Marshtomp",
+    "Poochyena",
+    "Mightyena",
+    "Zigzagoon",
+    "Linoone",
+    "Wurmple",
+    "Silcoon",
+    "Beautifly",
+    "Cascoon",
+    "Dustox",
+    "Lotad",
+    "Lombre",
+    "Ludicolo",
+    "Seedot",
+    "Nuzleaf",
+    "Shiftry",
+    "Taillow",
+    "Swellow",
+    "Wingull",
+    "Pelipper",
+    "Ralts",
+    "Kirlia",
+    "Surskit",
+    "Masquerain",
+    "Shroomish",
+    "Breloom",
+    "Slakoth",
+    "Vigoroth",
+    "Slaking",
+    "Nincada",
+    "Ninjask",
+    "Shedinja",
+    "Whismur",
+    "Loudred",
+    "Exploud",
+    "Makuhita",
+    "Hariyama",
+    "Azurill",
+    "Nosepass",
+    "Skitty",
+    "Delcatty",
+    "Sableye",
+    "Mawile",
+    "Aron",
+    "Lairon",
+    "Aggron",
+    "Meditite",
+    "Medicham",
+    "Electrike",
+    "Manectric",
+    "Plusle",
+    "Minun",
+    "Volbeat",
+    "Illumise",
+    "Roselia",
+    "Gulpin",
+    "Swalot",
+    "Carvanha",
+    "Sharpedo",
+    "Wailmer",
+    "Wailord",
+    "Numel",
+    "Camerupt",
+    "Torkoal",
+    "Spoink",
+    "Grumpig",
+    "Spinda",
+    "Trapinch",
+    "Vibrava",
+    "Cacnea",
+    "Cacturne",
+    "Swablu",
+    "Altaria",
+    "Zangoose",
+    "Seviper",
+    "Lunatone",
+    "Solrock",
+    "Barboach",
+    "Whiscash",
+    "Corphish",
+    "Crawdaunt",
+    "Baltoy",
+    "Claydol",
+    "Lileep",
+    "Cradily",
+    "Anorith",
+    "Armaldo",
+    "Feebas",
+    "Castform",
+    "Kecleon",
+    "Shuppet",
+    "Banette",
+    "Duskull",
+    "Dusclops",
+    "Tropius",
+    "Chimecho",
+    "Wynaut",
+    "Snorunt",
+    "Glalie",
+    "Spheal",
+    "Sealeo",
+    "Walrein",
+    "Clamperl",
+    "Huntail",
+    "Gorebyss",
+    "Relicanth",
+    "Luvdisc",
+    "Bagon",
+    "Shelgon",
+    "Beldum",
+    "Metang",
+    "Regirock",
+    "Regice",
+    "Registeel",
+    "Grotle",
+    "Monferno",
+    "Prinplup",
+    "Shinx",
+    "Luxray",
+    "Roserade",
+    "Buizel",
+    "Drifloon",
+    "Lopunny",
+    "Spiritomb",
+    "Gible",
+    "Weavile",
+    "Mamoswine",
+    "Gallade",
+    "Rotom",
+    "Uxie",
+    "Mesprit",
+    "Azelf",
+    "Heatran",
+    "Regigigas",
+    "Cresselia",
+    "Phione",
+    "Manaphy",
+    "Shaymin",
+    "Victini",
+    "Servine",
+    "Pignite",
+    "Dewott",
+    "Lillipup",
+    "Excadrill",
+    "Audino",
+    "Zorua",
+    "Chandelure",
+    "Haxorus",
+    "Mienshao",
+    "Pawniard",
+    "Braviary",
+    "Hydreigon",
+    "Cobalion",
+    "Terrakion",
+    "Virizion",
+    "Tornadus",
+    "Thundurus",
+    "Landorus",
+    "Keldeo",
+    "Meloetta",
+    "Genesect",
+    "Quilladin",
+    "Braixen",
+    "Frogadier",
+    "Talonflame",
+    "Pancham",
+    "Espurr",
+    "Aegislash",
+    "Inkay",
+    "Hawlucha",
+    "Dedenne",
+    "Klefki",
+    "Noivern",
+    "Zygarde",
+    "Diancie",
+    "Hoopa",
+    "Volcanion",
+    "Dartrix",
+    "Torracat",
+    "Brionne",
+    "Ribombee",
+    "Rockruff",
+    "Toxapex",
+    "Salazzle",
+    "Stufful",
+    "Bewear",
+    "Type: Null",
+    "Silvally",
+    "Togedemaru",
+    "Tapu Koko",
+    "Tapu Lele",
+    "Tapu Bulu",
+    "Tapu Fini",
+    "Cosmog",
+    "Cosmoem",
+    "Magearna",
+    "Marshadow",
+    "Zeraora",
+    "Meltan",
+    "Melmetal",
+    "Thwackey",
+    "Raboot",
+    "Drizzile",
+    "Corviknight",
+    "Wooloo",
+    "Yamper",
+    "Rolycoly",
+    "Applin",
+    "Toxtricity",
+    "Hatterene",
+    "Grimmsnarl",
+    "Obstagoon",
+    "Sirfetch'd",
+    "Mr. Rime",
+    "Alcremie",
+    "Snom",
+    "Frosmoth",
+    "Morpeko",
+    "Dragapult",
+    "Kubfu",
+    "Urshifu",
+    "Zarude",
+    "Regieleki",
+    "Regidrago",
+    "Glastrier",
+    "Spectrier",
+    "Calyrex",
+    "Enamorus",
+    "Floragato",
+    "Crocalor",
+    "Quaxwell",
+    "Lechonk",
+    "Pawmi",
+    "Pawmot",
+    "Armarouge",
+    "Ceruledge",
+    "Tinkaton",
+    "Dondozo",
+    "Tatsugiri",
+    "Annihilape",
+    "Farigiraf",
+    "Kingambit",
+    "Flutter Mane",
+    "Baxcalibur",
+    "Wo-Chien",
+    "Chien-Pao",
+    "Ting-Lu",
+    "Chi-Yu",
+    "Roaring Moon",
+    "Iron Valiant",
+    "Okidogi",
+    "Munkidori",
+    "Fezandipiti",
+    "Ogerpon",
+    "Terapagos",
+    "Pecharunt"
+   ],
+   "deep": [
+    "Starly",
+    "Staravia",
+    "Staraptor",
+    "Bibarel",
+    "Kricketot",
+    "Kricketune",
+    "Luxio",
+    "Budew",
+    "Cranidos",
+    "Rampardos",
+    "Shieldon",
+    "Bastiodon",
+    "Burmy",
+    "Wormadam",
+    "Mothim",
+    "Combee",
+    "Vespiquen",
+    "Pachirisu",
+    "Floatzel",
+    "Cherubi",
+    "Cherrim",
+    "Shellos",
+    "Gastrodon",
+    "Ambipom",
+    "Drifblim",
+    "Buneary",
+    "Mismagius",
+    "Honchkrow",
+    "Glameow",
+    "Purugly",
+    "Chingling",
+    "Stunky",
+    "Skuntank",
+    "Bronzor",
+    "Bronzong",
+    "Bonsly",
+    "Mime Jr.",
+    "Happiny",
+    "Chatot",
+    "Gabite",
+    "Munchlax",
+    "Hippopotas",
+    "Hippowdon",
+    "Skorupi",
+    "Drapion",
+    "Croagunk",
+    "Toxicroak",
+    "Carnivine",
+    "Finneon",
+    "Lumineon",
+    "Mantyke",
+    "Snover",
+    "Abomasnow",
+    "Magnezone",
+    "Lickilicky",
+    "Rhyperior",
+    "Tangrowth",
+    "Electivire",
+    "Magmortar",
+    "Yanmega",
+    "Gliscor",
+    "Porygon-Z",
+    "Probopass",
+    "Dusknoir",
+    "Froslass",
+    "Serperior",
+    "Emboar",
+    "Samurott",
+    "Patrat",
+    "Watchog",
+    "Herdier",
+    "Stoutland",
+    "Purrloin",
+    "Liepard",
+    "Pansage",
+    "Simisage",
+    "Pansear",
+    "Simisear",
+    "Panpour",
+    "Simipour",
+    "Munna",
+    "Musharna",
+    "Pidove",
+    "Tranquill",
+    "Unfezant",
+    "Blitzle",
+    "Zebstrika",
+    "Roggenrola",
+    "Boldore",
+    "Gigalith",
+    "Woobat",
+    "Swoobat",
+    "Drilbur",
+    "Timburr",
+    "Gurdurr",
+    "Conkeldurr",
+    "Tympole",
+    "Palpitoad",
+    "Seismitoad",
+    "Throh",
+    "Sawk",
+    "Sewaddle",
+    "Swadloon",
+    "Leavanny",
+    "Venipede",
+    "Whirlipede",
+    "Scolipede",
+    "Cottonee",
+    "Whimsicott",
+    "Petilil",
+    "Lilligant",
+    "Basculin",
+    "Sandile",
+    "Krokorok",
+    "Krookodile",
+    "Darumaka",
+    "Darmanitan",
+    "Maractus",
+    "Dwebble",
+    "Crustle",
+    "Scraggy",
+    "Scrafty",
+    "Sigilyph",
+    "Yamask",
+    "Cofagrigus",
+    "Tirtouga",
+    "Carracosta",
+    "Archen",
+    "Archeops",
+    "Trubbish",
+    "Garbodor",
+    "Minccino",
+    "Cinccino",
+    "Gothita",
+    "Gothorita",
+    "Gothitelle",
+    "Solosis",
+    "Duosion",
+    "Reuniclus",
+    "Ducklett",
+    "Swanna",
+    "Vanillite",
+    "Vanillish",
+    "Vanilluxe",
+    "Deerling",
+    "Sawsbuck",
+    "Emolga",
+    "Karrablast",
+    "Escavalier",
+    "Foongus",
+    "Amoonguss",
+    "Frillish",
+    "Jellicent",
+    "Alomomola",
+    "Joltik",
+    "Galvantula",
+    "Ferroseed",
+    "Ferrothorn",
+    "Klink",
+    "Klang",
+    "Klinklang",
+    "Tynamo",
+    "Eelektrik",
+    "Eelektross",
+    "Elgyem",
+    "Beheeyem",
+    "Litwick",
+    "Lampent",
+    "Axew",
+    "Fraxure",
+    "Cubchoo",
+    "Beartic",
+    "Cryogonal",
+    "Shelmet",
+    "Accelgor",
+    "Stunfisk",
+    "Mienfoo",
+    "Druddigon",
+    "Golett",
+    "Golurk",
+    "Bisharp",
+    "Bouffalant",
+    "Rufflet",
+    "Vullaby",
+    "Mandibuzz",
+    "Heatmor",
+    "Durant",
+    "Deino",
+    "Zweilous",
+    "Larvesta",
+    "Bunnelby",
+    "Diggersby",
+    "Fletchling",
+    "Fletchinder",
+    "Scatterbug",
+    "Spewpa",
+    "Vivillon",
+    "Litleo",
+    "Pyroar",
+    "Flabébé",
+    "Floette",
+    "Florges",
+    "Skiddo",
+    "Gogoat",
+    "Pangoro",
+    "Furfrou",
+    "Meowstic",
+    "Honedge",
+    "Doublade",
+    "Spritzee",
+    "Aromatisse",
+    "Swirlix",
+    "Slurpuff",
+    "Malamar",
+    "Binacle",
+    "Barbaracle",
+    "Skrelp",
+    "Dragalge",
+    "Clauncher",
+    "Clawitzer",
+    "Helioptile",
+    "Heliolisk",
+    "Tyrunt",
+    "Tyrantrum",
+    "Amaura",
+    "Aurorus",
+    "Carbink",
+    "Goomy",
+    "Sliggoo",
+    "Phantump",
+    "Trevenant",
+    "Pumpkaboo",
+    "Gourgeist",
+    "Bergmite",
+    "Avalugg",
+    "Noibat",
+    "Pikipek",
+    "Trumbeak",
+    "Toucannon",
+    "Yungoos",
+    "Gumshoos",
+    "Grubbin",
+    "Charjabug",
+    "Vikavolt",
+    "Crabrawler",
+    "Crabominable",
+    "Oricorio",
+    "Cutiefly",
+    "Wishiwashi",
+    "Mareanie",
+    "Mudbray",
+    "Mudsdale",
+    "Dewpider",
+    "Araquanid",
+    "Fomantis",
+    "Lurantis",
+    "Morelull",
+    "Shiinotic",
+    "Salandit",
+    "Bounsweet",
+    "Steenee",
+    "Tsareena",
+    "Comfey",
+    "Oranguru",
+    "Passimian",
+    "Wimpod",
+    "Golisopod",
+    "Sandygast",
+    "Palossand",
+    "Minior",
+    "Komala",
+    "Turtonator",
+    "Bruxish",
+    "Drampa",
+    "Dhelmise",
+    "Jangmo-o",
+    "Hakamo-o",
+    "Kommo-o",
+    "Nihilego",
+    "Buzzwole",
+    "Pheromosa",
+    "Xurkitree",
+    "Celesteela",
+    "Kartana",
+    "Guzzlord",
+    "Poipole",
+    "Naganadel",
+    "Stakataka",
+    "Blacephalon",
+    "Skwovet",
+    "Greedent",
+    "Rookidee",
+    "Corvisquire",
+    "Blipbug",
+    "Dottler",
+    "Orbeetle",
+    "Nickit",
+    "Thievul",
+    "Gossifleur",
+    "Eldegoss",
+    "Dubwool",
+    "Chewtle",
+    "Drednaw",
+    "Boltund",
+    "Carkol",
+    "Coalossal",
+    "Flapple",
+    "Appletun",
+    "Silicobra",
+    "Sandaconda",
+    "Cramorant",
+    "Arrokuda",
+    "Barraskewda",
+    "Toxel",
+    "Sizzlipede",
+    "Centiskorch",
+    "Clobbopus",
+    "Grapploct",
+    "Sinistea",
+    "Polteageist",
+    "Hatenna",
+    "Hattrem",
+    "Impidimp",
+    "Morgrem",
+    "Perrserker",
+    "Cursola",
+    "Runerigus",
+    "Milcery",
+    "Falinks",
+    "Eiscue",
+    "Indeedee",
+    "Cufant",
+    "Copperajah",
+    "Dracozolt",
+    "Arctozolt",
+    "Dracovish",
+    "Arctovish",
+    "Duraludon",
+    "Dreepy",
+    "Drakloak",
+    "Wyrdeer",
+    "Kleavor",
+    "Ursaluna",
+    "Basculegion",
+    "Sneasler",
+    "Overqwil",
+    "Oinkologne",
+    "Tarountula",
+    "Spidops",
+    "Nymble",
+    "Lokix",
+    "Pawmo",
+    "Tandemaus",
+    "Maushold",
+    "Fidough",
+    "Smoliv",
+    "Dolliv",
+    "Arboliva",
+    "Squawkabilly",
+    "Nacli",
+    "Naclstack",
+    "Garganacl",
+    "Charcadet",
+    "Tadbulb",
+    "Bellibolt",
+    "Wattrel",
+    "Kilowattrel",
+    "Maschiff",
+    "Mabosstiff",
+    "Shroodle",
+    "Grafaiai",
+    "Bramblin",
+    "Brambleghast",
+    "Toedscool",
+    "Toedscruel",
+    "Klawf",
+    "Capsakid",
+    "Scovillain",
+    "Rellor",
+    "Rabsca",
+    "Flittle",
+    "Espathra",
+    "Tinkatink",
+    "Tinkatuff",
+    "Wiglett",
+    "Wugtrio",
+    "Bombirdier",
+    "Finizen",
+    "Palafin",
+    "Varoom",
+    "Revavroom",
+    "Cyclizar",
+    "Glimmet",
+    "Glimmora",
+    "Greavard",
+    "Houndstone",
+    "Flamigo",
+    "Cetoddle",
+    "Cetitan",
+    "Veluza",
+    "Clodsire",
+    "Dudunsparce",
+    "Great Tusk",
+    "Scream Tail",
+    "Brute Bonnet",
+    "Slither Wing",
+    "Sandy Shocks",
+    "Iron Treads",
+    "Iron Bundle",
+    "Iron Hands",
+    "Iron Jugulis",
+    "Iron Moth",
+    "Iron Thorns",
+    "Frigibax",
+    "Arctibax",
+    "Gimmighoul",
+    "Walking Wake",
+    "Iron Leaves",
+    "Dipplin",
+    "Poltchageist",
+    "Sinistcha",
+    "Archaludon",
+    "Hydrapple",
+    "Gouging Fire",
+    "Raging Bolt",
+    "Iron Boulder",
+    "Iron Crown"
+   ],
+   "outlier": [
+    "Pincurchin",
+    "Pyukumuku",
+    "Orthworm",
+    "Stonjourner",
+    "Dachsbun"
+   ]
+  },
+  "alias": {
+   "Nidoran Female": [
+    "Nidoran F",
+    "Nidoran Girl",
+    "Nidoran"
+   ],
+   "Nidoran Male": [
+    "Nidoran M",
+    "Nidoran Boy"
+   ],
+   "Mr. Mime": [
+    "Mr Mime",
+    "Mister Mime"
+   ],
+   "Mime Jr.": [
+    "Mime Jr",
+    "Mime Junior"
+   ],
+   "Mr. Rime": [
+    "Mr Rime",
+    "Mister Rime"
+   ],
+   "Farfetch'd": [
+    "Farfetchd"
+   ],
+   "Sirfetch'd": [
+    "Sirfetchd"
+   ],
+   "Type: Null": [
+    "Type Null"
+   ],
+   "Porygon2": [
+    "Porygon 2"
+   ],
+   "Porygon-Z": [
+    "Porygon Z"
+   ],
+   "Ho-Oh": [
+    "Ho Oh",
+    "Hooh"
+   ],
+   "Jangmo-o": [
+    "Jangmoo",
+    "Jangmo o"
+   ],
+   "Hakamo-o": [
+    "Hakamoo",
+    "Hakamo o"
+   ],
+   "Kommo-o": [
+    "Kommoo",
+    "Kommo o"
+   ],
+   "Wo-Chien": [
+    "Wo Chien"
+   ],
+   "Chien-Pao": [
+    "Chien Pao"
+   ],
+   "Ting-Lu": [
+    "Ting Lu"
+   ],
+   "Chi-Yu": [
+    "Chi Yu"
+   ]
+  },
+  "traps": {
+   "Ash Ketchum": "A trainer in the anime, not a Pokémon.",
+   "Agumon": "A Digimon, not a Pokémon.",
+   "Professor Oak": "A character, not a Pokémon.",
+   "Team Rocket": "A villainous organisation, not a Pokémon.",
+   "Poké Ball": "An item used to catch Pokémon, not a Pokémon."
+  },
+  "fact": "Ekans is 'snake' spelled backwards, and its evolution Arbok is 'kobra' spelled backwards."
+ },
+ {
+  "id": "cul-pop-disney-pixar-films",
+  "cat": "TV & film",
+  "title": "Happily ever after",
+  "q": "A Disney or Pixar animated film",
+  "rule": "Animated features by Disney or Pixar, including sequels and direct-to-video releases; live-action remakes and other studios' films don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Lion King",
+    "Frozen",
+    "Toy Story",
+    "Finding Nemo",
+    "Aladdin",
+    "Beauty and the Beast"
+   ],
+   "hipster": [
+    "Emperor's New Groove",
+    "Hercules"
+   ],
+   "body": [
+    "Snow White and the Seven Dwarfs",
+    "Pinocchio",
+    "Cinderella",
+    "Bambi",
+    "Dumbo",
+    "Fantasia",
+    "Peter Pan",
+    "Alice in Wonderland",
+    "Lady and the Tramp",
+    "Sleeping Beauty",
+    "One Hundred and One Dalmatians",
+    "Jungle Book",
+    "Little Mermaid",
+    "Mulan",
+    "Pocahontas",
+    "Hunchback of Notre Dame",
+    "Tarzan",
+    "Lilo & Stitch",
+    "Moana",
+    "Tangled",
+    "Zootopia",
+    "Big Hero 6",
+    "Wreck-It Ralph",
+    "Encanto",
+    "Frozen 2",
+    "Toy Story 2",
+    "Toy Story 3",
+    "Toy Story 4",
+    "Monsters, Inc.",
+    "Incredibles",
+    "Cars",
+    "Ratatouille",
+    "WALL-E",
+    "Up",
+    "Inside Out",
+    "Coco",
+    "Brave",
+    "Soul",
+    "Finding Dory",
+    "A Bug's Life",
+    "Princess and the Frog",
+    "Aristocats",
+    "Robin Hood",
+    "Sword in the Stone",
+    "Monsters University",
+    "Incredibles 2",
+    "Inside Out 2",
+    "Luca",
+    "Turning Red",
+    "Moana 2",
+    "Onward",
+    "Elemental",
+    "Brother Bear"
+   ],
+   "tail": [
+    "Atlantis: The Lost Empire",
+    "Treasure Planet",
+    "Bolt",
+    "Chicken Little",
+    "Meet the Robinsons",
+    "Home on the Range",
+    "Dinosaur",
+    "Fantasia 2000",
+    "Oliver & Company",
+    "Great Mouse Detective",
+    "Black Cauldron",
+    "Fox and the Hound",
+    "Rescuers",
+    "Rescuers Down Under",
+    "Many Adventures of Winnie the Pooh",
+    "Winnie the Pooh",
+    "Raya and the Last Dragon",
+    "Strange World",
+    "Wish",
+    "Ralph Breaks the Internet",
+    "Zootopia 2",
+    "Cars 2",
+    "Cars 3",
+    "Good Dinosaur",
+    "Lightyear",
+    "Elio",
+    "Hoppers",
+    "Toy Story 5",
+    "Return of Jafar",
+    "Aladdin and the King of Thieves",
+    "Lion King II: Simba's Pride",
+    "Lion King 1½",
+    "Cinderella II: Dreams Come True",
+    "Little Mermaid II: Return to the Sea",
+    "Mulan II",
+    "Tinker Bell",
+    "Tigger Movie",
+    "Planes",
+    "Planes: Fire & Rescue",
+    "Jungle Book 2",
+    "Goofy Movie",
+    "Lilo & Stitch 2: Stitch Has a Glitch",
+    "Brother Bear 2",
+    "Hunchback of Notre Dame II",
+    "Return to Never Land"
+   ],
+   "deep": [
+    "Saludos Amigos",
+    "Three Caballeros",
+    "Make Mine Music",
+    "Fun and Fancy Free",
+    "Melody Time",
+    "Adventures of Ichabod and Mr. Toad",
+    "Cinderella III: A Twist in Time",
+    "Lady and the Tramp II: Scamp's Adventure",
+    "Little Mermaid: Ariel's Beginning",
+    "Bambi II",
+    "Beauty and the Beast: The Enchanted Christmas",
+    "Pocahontas II: Journey to a New World",
+    "Tarzan II",
+    "Fox and the Hound 2",
+    "Kronk's New Groove",
+    "Stitch! The Movie",
+    "101 Dalmatians II: Patch's London Adventure",
+    "Piglet's Big Movie",
+    "Pooh's Heffalump Movie",
+    "Winnie the Pooh: Springtime with Roo",
+    "Tinker Bell and the Lost Treasure",
+    "Tinker Bell and the Great Fairy Rescue",
+    "Secret of the Wings",
+    "Pirate Fairy",
+    "Tinker Bell and the Legend of the NeverBeast",
+    "DuckTales the Movie: Treasure of the Lost Lamp",
+    "Mickey's Once Upon a Christmas",
+    "Mickey, Donald, Goofy: The Three Musketeers"
+   ],
+   "outlier": [
+    "Pooh's Grand Adventure: The Search for Christopher Robin",
+    "Leroy & Stitch",
+    "Extremely Goofy Movie",
+    "Mickey's Twice Upon a Christmas"
+   ]
+  },
+  "alias": {
+   "Lion King": [
+    "The Lion King"
+   ],
+   "Beauty and the Beast": [
+    "Beauty & the Beast"
+   ],
+   "Emperor's New Groove": [
+    "The Emperor's New Groove"
+   ],
+   "Snow White and the Seven Dwarfs": [
+    "Snow White"
+   ],
+   "One Hundred and One Dalmatians": [
+    "101 Dalmatians",
+    "One Hundred One Dalmatians"
+   ],
+   "Jungle Book": [
+    "The Jungle Book"
+   ],
+   "Little Mermaid": [
+    "The Little Mermaid"
+   ],
+   "Hunchback of Notre Dame": [
+    "The Hunchback of Notre Dame",
+    "Hunchback"
+   ],
+   "Lilo & Stitch": [
+    "Lilo and Stitch"
+   ],
+   "Zootopia": [
+    "Zootropolis"
+   ],
+   "Zootopia 2": [
+    "Zootropolis 2"
+   ],
+   "Big Hero 6": [
+    "Big Hero Six"
+   ],
+   "Wreck-It Ralph": [
+    "Wreck It Ralph"
+   ],
+   "Frozen 2": [
+    "Frozen II"
+   ],
+   "Toy Story 2": [
+    "Toy Story II"
+   ],
+   "Toy Story 3": [
+    "Toy Story III"
+   ],
+   "Toy Story 4": [
+    "Toy Story IV"
+   ],
+   "Toy Story 5": [
+    "Toy Story V"
+   ],
+   "Monsters, Inc.": [
+    "Monsters Inc",
+    "Monsters Incorporated"
+   ],
+   "Incredibles": [
+    "The Incredibles"
+   ],
+   "Incredibles 2": [
+    "The Incredibles 2",
+    "Incredibles II"
+   ],
+   "WALL-E": [
+    "Wall E"
+   ],
+   "Inside Out 2": [
+    "Inside Out II"
+   ],
+   "Cars 2": [
+    "Cars II"
+   ],
+   "Cars 3": [
+    "Cars III"
+   ],
+   "A Bug's Life": [
+    "Bug's Life",
+    "Bugs Life"
+   ],
+   "Princess and the Frog": [
+    "The Princess and the Frog"
+   ],
+   "Aristocats": [
+    "The Aristocats"
+   ],
+   "Sword in the Stone": [
+    "The Sword in the Stone"
+   ],
+   "Oliver & Company": [
+    "Oliver and Company"
+   ],
+   "Great Mouse Detective": [
+    "The Great Mouse Detective",
+    "Basil of Baker Street"
+   ],
+   "Black Cauldron": [
+    "The Black Cauldron"
+   ],
+   "Fox and the Hound": [
+    "The Fox and the Hound"
+   ],
+   "Rescuers": [
+    "The Rescuers"
+   ],
+   "Rescuers Down Under": [
+    "The Rescuers Down Under"
+   ],
+   "Many Adventures of Winnie the Pooh": [
+    "The Many Adventures of Winnie the Pooh"
+   ],
+   "Ralph Breaks the Internet": [
+    "Wreck-It Ralph 2"
+   ],
+   "Good Dinosaur": [
+    "The Good Dinosaur"
+   ],
+   "Return of Jafar": [
+    "The Return of Jafar",
+    "Aladdin 2"
+   ],
+   "Lion King II: Simba's Pride": [
+    "Lion King 2",
+    "The Lion King 2",
+    "Simba's Pride"
+   ],
+   "Lion King 1½": [
+    "Lion King 1.5",
+    "The Lion King 1½",
+    "Lion King 3"
+   ],
+   "Mulan II": [
+    "Mulan 2"
+   ],
+   "Tigger Movie": [
+    "The Tigger Movie"
+   ],
+   "Jungle Book 2": [
+    "The Jungle Book 2"
+   ],
+   "Goofy Movie": [
+    "A Goofy Movie"
+   ],
+   "Extremely Goofy Movie": [
+    "An Extremely Goofy Movie"
+   ],
+   "Three Caballeros": [
+    "The Three Caballeros"
+   ],
+   "Adventures of Ichabod and Mr. Toad": [
+    "The Adventures of Ichabod and Mr. Toad",
+    "Ichabod and Mr. Toad"
+   ],
+   "Hunchback of Notre Dame II": [
+    "The Hunchback of Notre Dame II"
+   ],
+   "Pirate Fairy": [
+    "The Pirate Fairy"
+   ],
+   "Little Mermaid II: Return to the Sea": [
+    "The Little Mermaid II",
+    "Little Mermaid 2",
+    "Return to the Sea"
+   ],
+   "Little Mermaid: Ariel's Beginning": [
+    "The Little Mermaid: Ariel's Beginning",
+    "Ariel's Beginning"
+   ],
+   "Cinderella II: Dreams Come True": [
+    "Cinderella 2"
+   ],
+   "Cinderella III: A Twist in Time": [
+    "Cinderella 3"
+   ],
+   "Lilo & Stitch 2: Stitch Has a Glitch": [
+    "Lilo and Stitch 2"
+   ],
+   "Planes: Fire & Rescue": [
+    "Planes Fire and Rescue",
+    "Planes 2"
+   ],
+   "Aladdin and the King of Thieves": [
+    "Aladdin 3"
+   ],
+   "Pooh's Grand Adventure: The Search for Christopher Robin": [
+    "Pooh's Grand Adventure"
+   ],
+   "Mickey, Donald, Goofy: The Three Musketeers": [
+    "The Three Musketeers",
+    "Mickey Donald Goofy The Three Musketeers"
+   ],
+   "Secret of the Wings": [
+    "Tinker Bell and the Secret of the Wings"
+   ]
+  },
+  "traps": {
+   "Shrek": "Made by DreamWorks, not Disney or Pixar.",
+   "Despicable Me": "An Illumination film.",
+   "Ice Age": "A Blue Sky Studios film.",
+   "Kung Fu Panda": "A DreamWorks film.",
+   "Maleficent": "A live-action Disney film, not animated."
+  },
+  "fact": "The Black Cauldron (1985) was Disney's first animated film to earn a PG rating and the first to use computer-generated imagery."
+ },
+ {
+  "id": "cul-pop-christmas-songs",
+  "cat": "Music",
+  "title": "Tis the season",
+  "q": "A festive song or carol",
+  "rule": "Any carol, hymn or song traditionally sung or released at Christmas; Christmas films and TV specials don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Jingle Bells",
+    "Silent Night",
+    "Last Christmas",
+    "All I Want for Christmas Is You",
+    "White Christmas",
+    "Rudolph the Red-Nosed Reindeer"
+   ],
+   "hipster": [
+    "Fairytale of New York",
+    "Merry Xmas Everybody"
+   ],
+   "body": [
+    "Jingle Bell Rock",
+    "Santa Claus Is Comin' to Town",
+    "Rockin' Around the Christmas Tree",
+    "Have Yourself a Merry Little Christmas",
+    "Let It Snow",
+    "Winter Wonderland",
+    "Frosty the Snowman",
+    "Sleigh Ride",
+    "Blue Christmas",
+    "Santa Baby",
+    "I'll Be Home for Christmas",
+    "Chestnuts Roasting on an Open Fire",
+    "Do They Know It's Christmas?",
+    "Wonderful Christmastime",
+    "Driving Home for Christmas",
+    "Stay Another Day",
+    "Mistletoe and Wine",
+    "Happy Xmas (War Is Over)",
+    "Step Into Christmas",
+    "I Wish It Could Be Christmas Everyday",
+    "Walking in the Air",
+    "Little Drummer Boy",
+    "Carol of the Bells",
+    "O Come All Ye Faithful",
+    "O Little Town of Bethlehem",
+    "Hark! The Herald Angels Sing",
+    "Joy to the World",
+    "Away in a Manger",
+    "We Three Kings",
+    "First Noel",
+    "God Rest Ye Merry Gentlemen",
+    "Deck the Halls",
+    "Good King Wenceslas",
+    "Once in Royal David's City",
+    "O Holy Night",
+    "Twelve Days of Christmas",
+    "We Wish You a Merry Christmas",
+    "Mary's Boy Child",
+    "Feliz Navidad",
+    "Holly Jolly Christmas",
+    "It's Beginning to Look a Lot Like Christmas",
+    "Holly and the Ivy",
+    "Ding Dong Merrily on High",
+    "Angels We Have Heard on High",
+    "In the Bleak Midwinter",
+    "Silver Bells",
+    "It's the Most Wonderful Time of the Year",
+    "Santa Tell Me",
+    "Mistletoe",
+    "Underneath the Tree",
+    "Merry Christmas Everyone",
+    "Lonely This Christmas",
+    "Christmas Wrapping",
+    "Little Donkey",
+    "Here Comes Santa Claus",
+    "Run Rudolph Run"
+   ],
+   "tail": [
+    "While Shepherds Watched",
+    "It Came Upon the Midnight Clear",
+    "I Saw Three Ships",
+    "Coventry Carol",
+    "O Come O Come Emmanuel",
+    "What Child Is This?",
+    "Here We Come A-Wassailing",
+    "Sussex Carol",
+    "Gaudete",
+    "Boar's Head Carol",
+    "Lo How a Rose E'er Blooming",
+    "O Christmas Tree",
+    "Do You Hear What I Hear?",
+    "Santa Claus Is Back in Town",
+    "Saviour's Day",
+    "Wombling Merry Christmas",
+    "Thank God It's Christmas",
+    "I Believe in Father Christmas",
+    "2000 Miles",
+    "Christmas (Baby Please Come Home)",
+    "Please Come Home for Christmas",
+    "Little Saint Nick",
+    "Marshmallow World",
+    "I Saw Mommy Kissing Santa Claus",
+    "Nuttin' for Christmas",
+    "I Want a Hippopotamus for Christmas",
+    "All I Want for Christmas Is My Two Front Teeth",
+    "Chipmunk Song",
+    "Mele Kalikimaka",
+    "Christmas Time Is Here",
+    "Wonderful Dream (Holidays Are Coming)",
+    "Merry Christmas",
+    "Christmas Lights",
+    "Cozy Little Christmas",
+    "Wrapped in Red",
+    "Christmas Tree Farm",
+    "My Only Wish (This Year)",
+    "Merry Christmas Darling",
+    "Father Christmas",
+    "A Spaceman Came Travelling",
+    "Christmas Time (Don't Let the Bells End)",
+    "Stop the Cavalry",
+    "Christmas Alphabet",
+    "Jolly Old Saint Nicholas",
+    "Up on the Housetop",
+    "Silver and Gold",
+    "Mary Did You Know?",
+    "Grown-Up Christmas List",
+    "Hard Candy Christmas",
+    "If Every Day Was Like Christmas",
+    "Merry Christmas Baby",
+    "Christmas in Hollis",
+    "Ring Out Solstice Bells",
+    "Go Tell It on the Mountain",
+    "Bring a Torch, Jeanette, Isabella",
+    "In Dulci Jubilo",
+    "Good Christian Men Rejoice",
+    "Of the Father's Love Begotten",
+    "As with Gladness Men of Old",
+    "Masters in This Hall",
+    "Sans Day Carol",
+    "Rocking Carol"
+   ],
+   "deep": [
+    "Past Three O'Clock",
+    "Tomorrow Shall Be My Dancing Day",
+    "Wexford Carol",
+    "Gabriel's Message",
+    "Personent Hodie",
+    "Sing We Now of Christmas",
+    "Jesus Christ the Apple Tree",
+    "See Amid the Winter's Snow",
+    "Infant Holy, Infant Lowly",
+    "Huron Carol",
+    "I Wonder as I Wander",
+    "Gloucestershire Wassail",
+    "Cherry Tree Carol",
+    "Seven Joys of Mary",
+    "Down in Yon Forest",
+    "Truth from Above",
+    "Adam Lay Ybounden",
+    "Spotless Rose",
+    "Candlelight Carol",
+    "Let All Mortal Flesh Keep Silence",
+    "Brightest and Best",
+    "Christians Awake",
+    "Thou Didst Leave Thy Throne",
+    "Love Came Down at Christmas",
+    "Hark the Glad Sound",
+    "O Come Little Children",
+    "Joseph Dearest, Joseph Mine",
+    "Friendly Beasts",
+    "Quem Pastores Laudavere",
+    "Unto Us a Boy Is Born",
+    "Pretty Paper",
+    "Old Toy Trains",
+    "Tennessee Christmas",
+    "Where Are You Christmas?",
+    "Same Old Lang Syne",
+    "Christmas Eve/Sarajevo 12/24",
+    "Don't Shoot Me Santa",
+    "One More Sleep",
+    "When Christmas Comes Around",
+    "Shake Up Christmas",
+    "Christmas Island",
+    "Man with the Bag"
+   ],
+   "outlier": [
+    "Lullay My Liking",
+    "Make We Joy Now in This Feast",
+    "Torches",
+    "Nowell Sing We Both All and Some"
+   ]
+  },
+  "alias": {
+   "Rudolph the Red-Nosed Reindeer": [
+    "Rudolph the Red Nosed Reindeer",
+    "Rudolph"
+   ],
+   "Silent Night": [
+    "Stille Nacht",
+    "Silent Night, Holy Night"
+   ],
+   "Fairytale of New York": [
+    "Fairy Tale of New York"
+   ],
+   "Merry Xmas Everybody": [
+    "Merry Christmas Everybody"
+   ],
+   "Santa Claus Is Comin' to Town": [
+    "Santa Claus Is Coming to Town"
+   ],
+   "Rockin' Around the Christmas Tree": [
+    "Rocking Around the Christmas Tree"
+   ],
+   "Chestnuts Roasting on an Open Fire": [
+    "The Christmas Song",
+    "Christmas Song",
+    "The Christmas Song (Chestnuts Roasting on an Open Fire)"
+   ],
+   "Do They Know It's Christmas?": [
+    "Do They Know It's Christmas Time"
+   ],
+   "Happy Xmas (War Is Over)": [
+    "Happy Christmas (War Is Over)",
+    "Happy Christmas",
+    "Happy Xmas",
+    "War Is Over"
+   ],
+   "Little Drummer Boy": [
+    "The Little Drummer Boy"
+   ],
+   "O Come All Ye Faithful": [
+    "Adeste Fideles",
+    "O Come All Ye Faithful (Adeste Fideles)"
+   ],
+   "Hark! The Herald Angels Sing": [
+    "Hark the Herald Angels Sing",
+    "Hark the Herald"
+   ],
+   "First Noel": [
+    "The First Noel",
+    "The First Nowell",
+    "First Nowell"
+   ],
+   "God Rest Ye Merry Gentlemen": [
+    "God Rest Ye Merry, Gentlemen",
+    "God Rest You Merry Gentlemen"
+   ],
+   "Twelve Days of Christmas": [
+    "The Twelve Days of Christmas",
+    "12 Days of Christmas"
+   ],
+   "Holly Jolly Christmas": [
+    "A Holly Jolly Christmas"
+   ],
+   "Holly and the Ivy": [
+    "The Holly and the Ivy"
+   ],
+   "Let It Snow": [
+    "Let It Snow! Let It Snow! Let It Snow!"
+   ],
+   "O Christmas Tree": [
+    "O Tannenbaum"
+   ],
+   "Carol of the Bells": [
+    "Ukrainian Bell Carol",
+    "Shchedryk"
+   ],
+   "Mary's Boy Child": [
+    "Mary's Boy Child/Oh My Lord",
+    "Mary's Boy Child (Oh My Lord)"
+   ],
+   "Mistletoe and Wine": [
+    "Mistletoe & Wine"
+   ],
+   "It's Beginning to Look a Lot Like Christmas": [
+    "Beginning to Look a Lot Like Christmas"
+   ],
+   "Chipmunk Song": [
+    "The Chipmunk Song",
+    "Christmas Don't Be Late",
+    "The Chipmunk Song (Christmas Don't Be Late)"
+   ],
+   "Wonderful Dream (Holidays Are Coming)": [
+    "Holidays Are Coming",
+    "Wonderful Dream"
+   ],
+   "Merry Christmas": [
+    "Merry Christmas Ed Sheeran and Elton John"
+   ],
+   "Here We Come A-Wassailing": [
+    "Wassail Song",
+    "The Wassail Song",
+    "Here We Come a-Caroling"
+   ],
+   "Gabriel's Message": [
+    "Angel Gabriel",
+    "The Angel Gabriel",
+    "The Angel Gabriel from Heaven Came"
+   ],
+   "Gloucestershire Wassail": [
+    "Wassail Wassail All Over the Town"
+   ],
+   "Man with the Bag": [
+    "The Man with the Bag"
+   ],
+   "Cherry Tree Carol": [
+    "The Cherry Tree Carol"
+   ],
+   "Huron Carol": [
+    "The Huron Carol",
+    "Jesous Ahatonhia"
+   ],
+   "Seven Joys of Mary": [
+    "The Seven Joys of Mary"
+   ],
+   "Truth from Above": [
+    "The Truth from Above"
+   ],
+   "Spotless Rose": [
+    "A Spotless Rose"
+   ],
+   "Friendly Beasts": [
+    "The Friendly Beasts"
+   ],
+   "Boar's Head Carol": [
+    "The Boar's Head Carol"
+   ],
+   "Marshmallow World": [
+    "A Marshmallow World"
+   ],
+   "Christmas Alphabet": [
+    "The Christmas Alphabet"
+   ],
+   "Sussex Carol": [
+    "On Christmas Night All Christians Sing",
+    "On Christmas Night"
+   ],
+   "Walking in the Air": [
+    "Walking in the Air (The Snowman)"
+   ],
+   "Christmas Eve/Sarajevo 12/24": [
+    "Christmas Eve Sarajevo",
+    "Christmas Eve/Sarajevo"
+   ]
+  },
+  "traps": {
+   "Auld Lang Syne": "A New Year's Eve song, not a Christmas one.",
+   "Do You Want to Build a Snowman?": "A song from a film, not a Christmas song.",
+   "Amazing Grace": "A hymn with no Christmas connection.",
+   "Hallelujah": "Not a Christmas song, despite turning up in many festive playlists.",
+   "Happy Birthday": "A birthday song, not a Christmas song."
+  },
+  "fact": "In the 1982 film The Snowman, Walking in the Air was sung by choirboy Peter Auty; Aled Jones's version later became the chart hit."
+ },
+ {
+  "id": "cul-pop-marvel-characters",
+  "cat": "Comics",
+  "title": "Assemble",
+  "q": "A Marvel character",
+  "rule": "Heroes, villains and supporting characters from Marvel's comics, films and shows; code names and real names both count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Spider-Man",
+    "Iron Man",
+    "Hulk",
+    "Thor",
+    "Captain America",
+    "Wolverine"
+   ],
+   "hipster": [
+    "Groot",
+    "Ant-Man"
+   ],
+   "body": [
+    "Black Widow",
+    "Hawkeye",
+    "Black Panther",
+    "Thanos",
+    "Loki",
+    "Deadpool",
+    "Doctor Strange",
+    "Captain Marvel",
+    "Scarlet Witch",
+    "Vision",
+    "Falcon",
+    "War Machine",
+    "Winter Soldier",
+    "Star-Lord",
+    "Gamora",
+    "Drax",
+    "Rocket Raccoon",
+    "Nebula",
+    "Mantis",
+    "Wasp",
+    "Magneto",
+    "Professor X",
+    "Cyclops",
+    "Storm",
+    "Jean Grey",
+    "Rogue",
+    "Gambit",
+    "Beast",
+    "Nightcrawler",
+    "Colossus",
+    "Iceman",
+    "Mystique",
+    "Sabretooth",
+    "Green Goblin",
+    "Doctor Octopus",
+    "Venom",
+    "Sandman",
+    "Electro",
+    "Mysterio",
+    "Vulture",
+    "Lizard",
+    "Kingpin",
+    "Daredevil",
+    "Punisher",
+    "Elektra",
+    "Bullseye",
+    "Jessica Jones",
+    "Luke Cage",
+    "Iron Fist",
+    "Moon Knight",
+    "Blade",
+    "Ghost Rider",
+    "She-Hulk",
+    "Namor",
+    "Doctor Doom",
+    "Mister Fantastic",
+    "Invisible Woman",
+    "Human Torch",
+    "Thing",
+    "Silver Surfer",
+    "Galactus",
+    "Red Skull",
+    "Ultron",
+    "Nick Fury",
+    "Ms. Marvel",
+    "Miles Morales",
+    "Hela",
+    "Kang the Conqueror",
+    "Mary Jane Watson",
+    "Aunt May",
+    "Pepper Potts",
+    "Odin",
+    "Heimdall",
+    "Valkyrie",
+    "Wong",
+    "Quicksilver",
+    "Juggernaut",
+    "Apocalypse",
+    "Emma Frost",
+    "Kitty Pryde",
+    "Psylocke",
+    "Jubilee",
+    "Cable",
+    "Squirrel Girl",
+    "Howard the Duck",
+    "Nova",
+    "Mister Sinister",
+    "Okoye",
+    "Shuri"
+   ],
+   "tail": [
+    "Wonder Man",
+    "Hercules",
+    "Black Knight",
+    "Tigra",
+    "Mockingbird",
+    "Moondragon",
+    "Quasar",
+    "Adam Warlock",
+    "Cosmo",
+    "Yondu",
+    "Ego",
+    "Ronan",
+    "Collector",
+    "Grandmaster",
+    "Ancient One",
+    "Mordo",
+    "Dormammu",
+    "Kaecilius",
+    "Malekith",
+    "Surtur",
+    "Killmonger",
+    "Ghost",
+    "Whiplash",
+    "Taskmaster",
+    "Crossbones",
+    "Baron Zemo",
+    "Arnim Zola",
+    "MODOK",
+    "Abomination",
+    "Leader",
+    "Red Hulk",
+    "General Ross",
+    "Betty Ross",
+    "Maria Hill",
+    "Phil Coulson",
+    "Peggy Carter",
+    "Sharon Carter",
+    "Happy Hogan",
+    "Jarvis",
+    "Jane Foster",
+    "Erik Selvig",
+    "Darcy Lewis",
+    "Sif",
+    "Volstagg",
+    "Fandral",
+    "Hogun",
+    "Frigga",
+    "Laufey",
+    "Fenris Wolf",
+    "Korg",
+    "Enchantress",
+    "Executioner",
+    "Absorbing Man",
+    "Wrecker",
+    "Destroyer",
+    "Gorr the God Butcher",
+    "Carnage",
+    "Kraven the Hunter",
+    "Rhino",
+    "Scorpion",
+    "Shocker",
+    "Hobgoblin",
+    "Black Cat",
+    "Silk",
+    "Spider-Woman",
+    "Spider-Ham",
+    "Spider-Man Noir",
+    "Spider-Man 2099",
+    "Scarlet Spider",
+    "Gwen Stacy",
+    "Harry Osborn",
+    "Flash Thompson",
+    "J. Jonah Jameson",
+    "Uncle Ben",
+    "Chameleon",
+    "Tombstone",
+    "Prowler",
+    "Jackal",
+    "Morbius",
+    "Mister Negative",
+    "Hammerhead",
+    "Silvermane",
+    "Lady Deathstrike",
+    "Omega Red",
+    "Mojo",
+    "Arcade",
+    "Sebastian Shaw",
+    "Selene",
+    "Sunfire",
+    "Banshee",
+    "Polaris",
+    "Havok",
+    "Dazzler",
+    "Multiple Man",
+    "Wolfsbane",
+    "Cannonball",
+    "Sunspot",
+    "Magik",
+    "Warlock",
+    "X-23",
+    "Domino",
+    "Bishop",
+    "Forge",
+    "Longshot",
+    "Toad",
+    "Pyro",
+    "Blob",
+    "Avalanche",
+    "Mole Man",
+    "Annihilus",
+    "Super-Skrull",
+    "Puppet Master",
+    "Dragon Man",
+    "Impossible Man",
+    "High Evolutionary",
+    "Ebony Maw",
+    "Proxima Midnight",
+    "Corvus Glaive",
+    "Cull Obsidian",
+    "Talos",
+    "Hellcat",
+    "Hulkling",
+    "Wiccan",
+    "America Chavez",
+    "Kate Bishop",
+    "Yelena Belova",
+    "Shang-Chi",
+    "Ikaris",
+    "Sersi",
+    "Thena",
+    "Gilgamesh",
+    "Kingo",
+    "Makkari",
+    "Phastos",
+    "Druig",
+    "Ajak",
+    "Sprite",
+    "Echo",
+    "Agatha Harkness",
+    "Photon",
+    "Hank Pym",
+    "Yellowjacket",
+    "Darren Cross",
+    "Nakia",
+    "M'Baku",
+    "Ramonda",
+    "Namora",
+    "Attuma",
+    "Tiger Shark",
+    "Egghead",
+    "Whirlwind",
+    "Grim Reaper",
+    "Klaw",
+    "Man-Thing",
+    "Uatu the Watcher",
+    "Beyonder",
+    "Eternity",
+    "Living Tribunal",
+    "Captain Britain",
+    "Union Jack",
+    "Sentry",
+    "Doctor Voodoo",
+    "Werewolf by Night",
+    "Medusa",
+    "Black Bolt",
+    "Lockjaw",
+    "Ka-Zar"
+   ],
+   "deep": [
+    "Rick Jones",
+    "Dum Dum Dugan",
+    "Jimmy Woo",
+    "Karnak",
+    "Gorgon",
+    "Crystal",
+    "Triton",
+    "Maximus",
+    "Shanna the She-Devil",
+    "Zabu",
+    "Devil Dinosaur",
+    "Moon-Boy",
+    "Machine Man",
+    "Gladiator",
+    "Lilandra",
+    "Corsair",
+    "Man-Wolf",
+    "Satana",
+    "Daimon Hellstrom",
+    "Nighthawk",
+    "Hyperion",
+    "Whizzer",
+    "Thundra",
+    "Swordsman",
+    "Black Goliath",
+    "Firestar",
+    "Speedball",
+    "Darkhawk",
+    "Sleepwalker",
+    "Justice",
+    "Big Bertha",
+    "Arkon",
+    "Super-Adaptoid",
+    "Giganto",
+    "Goom",
+    "Kid Kaiju",
+    "Lockheed",
+    "Pip the Troll",
+    "Redwing",
+    "Namorita",
+    "Lyja",
+    "Bloodstone",
+    "Elsa Bloodstone",
+    "Mandarin",
+    "Aldrich Killian",
+    "Justin Hammer",
+    "Obadiah Stane",
+    "Ayo",
+    "Zuri",
+    "Ned Leeds",
+    "Betty Brant",
+    "Robbie Robertson",
+    "Liz Allan",
+    "Randy Robertson",
+    "Boomerang",
+    "Beetle",
+    "Puma",
+    "Hydro-Man",
+    "Molten Man",
+    "Kangaroo",
+    "Jigsaw",
+    "Morlun",
+    "Madame Web",
+    "Wild Child",
+    "Slapstick",
+    "Cloak",
+    "Dagger",
+    "Clea",
+    "Umar",
+    "Nightmare",
+    "Shuma-Gorath",
+    "Sasquatch",
+    "Puck",
+    "Snowbird",
+    "Shaman",
+    "Aurora",
+    "Northstar",
+    "Guardian",
+    "Vindicator",
+    "Legion",
+    "Blink",
+    "Mimic",
+    "Marrow",
+    "Chamber",
+    "Husk",
+    "Rachel Summers",
+    "Pixie",
+    "Dust",
+    "Hope Summers",
+    "Quentin Quire",
+    "Moira MacTaggert",
+    "Fantomex",
+    "Daken",
+    "Azazel",
+    "Mastermind",
+    "Franklin Richards",
+    "Valeria Richards",
+    "Alicia Masters",
+    "Wyatt Wingfoot",
+    "Terrax",
+    "Trapster",
+    "Psycho-Man",
+    "Red Ghost",
+    "Ben Reilly",
+    "Spider-Girl",
+    "Araña",
+    "Peni Parker",
+    "Spider-Punk",
+    "Spider-Slayer",
+    "Toxin",
+    "Anti-Venom",
+    "Scream",
+    "Riot",
+    "Beta Ray Bill",
+    "Kraglin",
+    "Taserface",
+    "Ayesha",
+    "Stakar Ogord",
+    "Christine Palmer",
+    "Korath",
+    "Minn-Erva",
+    "Yon-Rogg",
+    "Eitri",
+    "Miek",
+    "Topaz",
+    "Whitney Frost",
+    "Zeus",
+    "Starfox",
+    "Laura Barton",
+    "Gwenpool"
+   ],
+   "outlier": [
+    "Throg",
+    "Fin Fang Foom",
+    "Doorman",
+    "Flatman",
+    "Mister Immortal"
+   ]
+  },
+  "alias": {
+   "Spider-Man": [
+    "Spiderman",
+    "Spider Man",
+    "Spidey",
+    "Peter Parker"
+   ],
+   "Iron Man": [
+    "Ironman",
+    "Tony Stark"
+   ],
+   "Hulk": [
+    "The Incredible Hulk",
+    "Incredible Hulk",
+    "The Hulk",
+    "Bruce Banner"
+   ],
+   "Thor": [
+    "Thor Odinson"
+   ],
+   "Captain America": [
+    "Steve Rogers",
+    "Cap"
+   ],
+   "Wolverine": [
+    "Logan",
+    "James Howlett"
+   ],
+   "Ant-Man": [
+    "Antman",
+    "Scott Lang"
+   ],
+   "Loki": [
+    "Loki Laufeyson"
+   ],
+   "Deadpool": [
+    "Wade Wilson"
+   ],
+   "Black Widow": [
+    "Natasha Romanoff",
+    "Natasha Romanova"
+   ],
+   "Hawkeye": [
+    "Clint Barton"
+   ],
+   "Black Panther": [
+    "T'Challa",
+    "TChalla"
+   ],
+   "Doctor Strange": [
+    "Dr Strange",
+    "Dr. Strange",
+    "Stephen Strange",
+    "Doctor Stephen Strange"
+   ],
+   "Captain Marvel": [
+    "Carol Danvers"
+   ],
+   "Scarlet Witch": [
+    "Wanda Maximoff",
+    "Wanda"
+   ],
+   "Vision": [
+    "The Vision"
+   ],
+   "Falcon": [
+    "The Falcon",
+    "Sam Wilson"
+   ],
+   "War Machine": [
+    "Rhodey",
+    "James Rhodes",
+    "Jim Rhodes"
+   ],
+   "Winter Soldier": [
+    "Bucky Barnes",
+    "Bucky",
+    "James Buchanan Barnes"
+   ],
+   "Star-Lord": [
+    "Starlord",
+    "Peter Quill"
+   ],
+   "Rocket Raccoon": [
+    "Rocket"
+   ],
+   "Wasp": [
+    "Janet van Dyne",
+    "Hope van Dyne",
+    "The Wasp"
+   ],
+   "Professor X": [
+    "Charles Xavier",
+    "Professor Xavier",
+    "Prof X"
+   ],
+   "Magneto": [
+    "Erik Lehnsherr",
+    "Max Eisenhardt"
+   ],
+   "Cyclops": [
+    "Scott Summers"
+   ],
+   "Storm": [
+    "Ororo Munroe"
+   ],
+   "Jean Grey": [
+    "Phoenix",
+    "Dark Phoenix"
+   ],
+   "Rogue": [
+    "Anna Marie"
+   ],
+   "Gambit": [
+    "Remy LeBeau"
+   ],
+   "Beast": [
+    "Hank McCoy"
+   ],
+   "Nightcrawler": [
+    "Kurt Wagner"
+   ],
+   "Colossus": [
+    "Piotr Rasputin"
+   ],
+   "Iceman": [
+    "Bobby Drake"
+   ],
+   "Mystique": [
+    "Raven Darkholme"
+   ],
+   "Sabretooth": [
+    "Victor Creed"
+   ],
+   "Green Goblin": [
+    "Norman Osborn"
+   ],
+   "Doctor Octopus": [
+    "Doc Ock",
+    "Dr Octopus",
+    "Dr. Octopus",
+    "Otto Octavius"
+   ],
+   "Venom": [
+    "Eddie Brock"
+   ],
+   "Sandman": [
+    "Flint Marko"
+   ],
+   "Electro": [
+    "Max Dillon"
+   ],
+   "Mysterio": [
+    "Quentin Beck"
+   ],
+   "Vulture": [
+    "Adrian Toomes"
+   ],
+   "Lizard": [
+    "The Lizard",
+    "Curt Connors",
+    "Curtis Connors"
+   ],
+   "Kingpin": [
+    "Wilson Fisk"
+   ],
+   "Daredevil": [
+    "Matt Murdock"
+   ],
+   "Punisher": [
+    "The Punisher",
+    "Frank Castle"
+   ],
+   "Luke Cage": [
+    "Power Man"
+   ],
+   "Iron Fist": [
+    "Danny Rand"
+   ],
+   "Moon Knight": [
+    "Marc Spector"
+   ],
+   "Ghost Rider": [
+    "Johnny Blaze"
+   ],
+   "She-Hulk": [
+    "Jennifer Walters",
+    "Jen Walters"
+   ],
+   "Namor": [
+    "Sub-Mariner",
+    "Namor the Sub-Mariner"
+   ],
+   "Doctor Doom": [
+    "Dr Doom",
+    "Dr. Doom",
+    "Victor von Doom"
+   ],
+   "Mister Fantastic": [
+    "Mr. Fantastic",
+    "Mr Fantastic",
+    "Reed Richards"
+   ],
+   "Invisible Woman": [
+    "Invisible Girl",
+    "Sue Storm",
+    "Susan Storm"
+   ],
+   "Human Torch": [
+    "Johnny Storm"
+   ],
+   "Thing": [
+    "The Thing",
+    "Ben Grimm"
+   ],
+   "Silver Surfer": [
+    "Norrin Radd"
+   ],
+   "Red Skull": [
+    "Johann Schmidt"
+   ],
+   "Nick Fury": [
+    "Fury",
+    "Colonel Fury"
+   ],
+   "Ms. Marvel": [
+    "Ms Marvel",
+    "Miss Marvel",
+    "Kamala Khan"
+   ],
+   "Kang the Conqueror": [
+    "Kang"
+   ],
+   "Valkyrie": [
+    "Brunnhilde"
+   ],
+   "Quicksilver": [
+    "Pietro Maximoff"
+   ],
+   "Kitty Pryde": [
+    "Shadowcat"
+   ],
+   "Psylocke": [
+    "Betsy Braddock"
+   ],
+   "Squirrel Girl": [
+    "Doreen Green"
+   ],
+   "Nova": [
+    "Richard Rider"
+   ],
+   "Mister Sinister": [
+    "Mr. Sinister",
+    "Mr Sinister",
+    "Nathaniel Essex"
+   ],
+   "Ancient One": [
+    "The Ancient One"
+   ],
+   "Collector": [
+    "The Collector"
+   ],
+   "Leader": [
+    "The Leader"
+   ],
+   "Baron Zemo": [
+    "Zemo",
+    "Helmut Zemo"
+   ],
+   "MODOK": [
+    "M.O.D.O.K."
+   ],
+   "Abomination": [
+    "Emil Blonsky"
+   ],
+   "General Ross": [
+    "Thaddeus Ross",
+    "Thunderbolt Ross"
+   ],
+   "Jarvis": [
+    "J.A.R.V.I.S.",
+    "Edwin Jarvis"
+   ],
+   "Executioner": [
+    "Skurge",
+    "Skurge the Executioner"
+   ],
+   "Gorr the God Butcher": [
+    "Gorr"
+   ],
+   "Carnage": [
+    "Cletus Kasady"
+   ],
+   "Kraven the Hunter": [
+    "Kraven"
+   ],
+   "Rhino": [
+    "Aleksei Sytsevich"
+   ],
+   "Scorpion": [
+    "Mac Gargan"
+   ],
+   "Black Cat": [
+    "Felicia Hardy"
+   ],
+   "Silk": [
+    "Cindy Moon"
+   ],
+   "Spider-Woman": [
+    "Jessica Drew"
+   ],
+   "Spider-Ham": [
+    "Peter Porker"
+   ],
+   "Spider-Man Noir": [
+    "Spider Man Noir"
+   ],
+   "Spider-Man 2099": [
+    "Miguel O'Hara",
+    "Spiderman 2099"
+   ],
+   "Gwen Stacy": [
+    "Spider-Gwen",
+    "Ghost-Spider"
+   ],
+   "J. Jonah Jameson": [
+    "JJ Jameson",
+    "J Jonah Jameson",
+    "Jonah Jameson"
+   ],
+   "Jackal": [
+    "Miles Warren"
+   ],
+   "Lady Deathstrike": [
+    "Yuriko Oyama"
+   ],
+   "Dazzler": [
+    "Alison Blaire"
+   ],
+   "Multiple Man": [
+    "Jamie Madrox"
+   ],
+   "Wolfsbane": [
+    "Rahne Sinclair"
+   ],
+   "Cannonball": [
+    "Sam Guthrie"
+   ],
+   "Sunspot": [
+    "Roberto da Costa"
+   ],
+   "Magik": [
+    "Illyana Rasputin"
+   ],
+   "X-23": [
+    "Laura Kinney",
+    "X23"
+   ],
+   "Havok": [
+    "Alex Summers"
+   ],
+   "Mole Man": [
+    "The Mole Man"
+   ],
+   "Super-Skrull": [
+    "Super Skrull"
+   ],
+   "Puppet Master": [
+    "The Puppet Master"
+   ],
+   "Hellcat": [
+    "Patsy Walker"
+   ],
+   "America Chavez": [
+    "Miss America"
+   ],
+   "Ikaris": [
+    "Icarus"
+   ],
+   "Photon": [
+    "Monica Rambeau",
+    "Pulsar",
+    "Spectrum"
+   ],
+   "Hank Pym": [
+    "Giant-Man",
+    "Giant Man",
+    "Goliath"
+   ],
+   "Echo": [
+    "Maya Lopez"
+   ],
+   "Uatu the Watcher": [
+    "Uatu",
+    "The Watcher",
+    "Watcher"
+   ],
+   "Doctor Voodoo": [
+    "Dr Voodoo",
+    "Brother Voodoo",
+    "Jericho Drumm"
+   ],
+   "Medusa": [
+    "Medusalith Amaquelin"
+   ],
+   "Black Bolt": [
+    "Blackagar Boltagon"
+   ],
+   "Ka-Zar": [
+    "Kazar"
+   ],
+   "Mister Immortal": [
+    "Mr. Immortal",
+    "Mr Immortal"
+   ],
+   "Fin Fang Foom": [
+    "Finn Fang Foom"
+   ],
+   "Throg": [
+    "Frog Thor"
+   ],
+   "Pip the Troll": [
+    "Pip"
+   ],
+   "Madame Web": [
+    "Cassandra Webb"
+   ],
+   "Cloak": [
+    "Tyrone Johnson"
+   ],
+   "Dagger": [
+    "Tandy Bowen"
+   ],
+   "Legion": [
+    "David Haller"
+   ],
+   "Sasquatch": [
+    "Walter Langkowski"
+   ],
+   "Guardian": [
+    "James Hudson"
+   ],
+   "Hulkling": [
+    "Teddy Altman"
+   ],
+   "Wiccan": [
+    "Billy Kaplan"
+   ],
+   "Spider-Punk": [
+    "Hobie Brown"
+   ],
+   "Araña": [
+    "Arana",
+    "Anya Corazon"
+   ],
+   "Peni Parker": [
+    "SP//dr"
+   ],
+   "Ben Reilly": [
+    "Scarlet Spider Ben Reilly"
+   ],
+   "Daimon Hellstrom": [
+    "Son of Satan",
+    "Hellstorm"
+   ],
+   "Spider-Slayer": [
+    "Spider Slayer"
+   ],
+   "Starfox": [
+    "Eros"
+   ],
+   "Gladiator": [
+    "Kallark"
+   ],
+   "Dum Dum Dugan": [
+    "Timothy Dugan"
+   ]
+  },
+  "traps": {
+   "Superman": "A DC character.",
+   "Batman": "A DC character.",
+   "Hellboy": "Published by Dark Horse, not Marvel.",
+   "Spawn": "An Image Comics character.",
+   "Flash": "A DC character."
+  },
+  "fact": "Fin Fang Foom, a dragon-like alien, debuted in 1961 in Strange Tales #89 and was later made one of Iron Man's enemies."
+ },
+ {
+  "id": "cul-pop-dc-characters",
+  "cat": "Comics",
+  "title": "Ka-pow!",
+  "q": "A DC Comics character",
+  "rule": "Heroes, villains and supporting characters published by DC, in comics, films and shows; code names and real names both count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Batman",
+    "Superman",
+    "Wonder Woman",
+    "Joker",
+    "Flash",
+    "Aquaman"
+   ],
+   "hipster": [
+    "Swamp Thing",
+    "Plastic Man"
+   ],
+   "body": [
+    "Robin",
+    "Batgirl",
+    "Nightwing",
+    "Alfred Pennyworth",
+    "Catwoman",
+    "Harley Quinn",
+    "Lex Luthor",
+    "Green Lantern",
+    "Green Arrow",
+    "Cyborg",
+    "Martian Manhunter",
+    "Supergirl",
+    "Lois Lane",
+    "Perry White",
+    "Jimmy Olsen",
+    "Commissioner Gordon",
+    "Two-Face",
+    "Riddler",
+    "Penguin",
+    "Bane",
+    "Scarecrow",
+    "Poison Ivy",
+    "Mr. Freeze",
+    "Killer Croc",
+    "Ra's al Ghul",
+    "Clayface",
+    "Mad Hatter",
+    "Deadshot",
+    "Deathstroke",
+    "Darkseid",
+    "Brainiac",
+    "General Zod",
+    "Doomsday",
+    "Bizarro",
+    "Captain Cold",
+    "Reverse-Flash",
+    "Gorilla Grodd",
+    "Black Manta",
+    "Cheetah",
+    "Shazam",
+    "Black Adam",
+    "Hawkman",
+    "Hawkgirl",
+    "Atom",
+    "Firestorm",
+    "Zatanna",
+    "John Constantine",
+    "Raven",
+    "Starfire",
+    "Beast Boy",
+    "Blue Beetle",
+    "Booster Gold",
+    "Static",
+    "Steel",
+    "Superboy",
+    "Kid Flash",
+    "Doctor Fate",
+    "Spectre",
+    "Black Canary",
+    "Mera",
+    "Doctor Manhattan",
+    "Rorschach",
+    "Dream",
+    "Lobo",
+    "Sinestro",
+    "Krypto",
+    "Power Girl",
+    "Batwoman",
+    "Red Hood",
+    "Ocean Master",
+    "Mr. Mxyzptlk",
+    "Amanda Waller",
+    "Captain Boomerang",
+    "King Shark",
+    "Peacemaker",
+    "Steppenwolf",
+    "Metallo",
+    "Toyman",
+    "Parasite",
+    "Hush",
+    "Talia al Ghul",
+    "Harvey Bullock",
+    "Lucius Fox",
+    "Vicki Vale",
+    "Steve Trevor",
+    "Hippolyta"
+   ],
+   "tail": [
+    "Deadman",
+    "Question",
+    "Huntress",
+    "Vixen",
+    "Nite Owl",
+    "Ozymandias",
+    "Silk Spectre",
+    "Comedian",
+    "Death",
+    "Lucifer Morningstar",
+    "Etrigan",
+    "Metamorpho",
+    "Elongated Man",
+    "Mister Miracle",
+    "Big Barda",
+    "Orion",
+    "Granny Goodness",
+    "Desaad",
+    "Kalibak",
+    "Mongul",
+    "Solomon Grundy",
+    "Man-Bat",
+    "Killer Moth",
+    "Firefly",
+    "Ventriloquist",
+    "Scarface",
+    "Calendar Man",
+    "Clock King",
+    "Maxie Zeus",
+    "Black Mask",
+    "Victor Zsasz",
+    "Hugo Strange",
+    "Professor Pyg",
+    "Azrael",
+    "Spoiler",
+    "Red Robin",
+    "Damian Wayne",
+    "Leslie Thompkins",
+    "Renee Montoya",
+    "Rick Flag",
+    "Enchantress",
+    "Bloodsport",
+    "Ratcatcher",
+    "Polka-Dot Man",
+    "Weasel",
+    "Starro",
+    "Atrocitus",
+    "Larfleeze",
+    "Kilowog",
+    "Guy Gardner",
+    "John Stewart",
+    "Kyle Rayner",
+    "Jessica Cruz",
+    "Abin Sur",
+    "Ganthet",
+    "Cyborg Superman",
+    "Wonder Girl",
+    "Aqualad",
+    "Speedy",
+    "Donna Troy",
+    "Terra",
+    "Jericho",
+    "Jay Garrick",
+    "Alan Scott",
+    "Wildcat",
+    "Doctor Mid-Nite",
+    "Hourman",
+    "Mister Terrific",
+    "Stargirl",
+    "Red Tornado",
+    "Animal Man",
+    "Robotman",
+    "Negative Man",
+    "Elasti-Girl",
+    "Lana Lang",
+    "Jonathan Kent",
+    "Martha Kent",
+    "Jor-El",
+    "Lara Lor-Van",
+    "Kara Zor-El",
+    "Pete Ross",
+    "Cat Grant",
+    "Faora",
+    "Ursa",
+    "Livewire",
+    "Silver Banshee",
+    "Ultraman",
+    "Owlman",
+    "Black Lightning",
+    "Icon",
+    "Hardware",
+    "Captain Atom",
+    "Nightshade",
+    "Giganta",
+    "Doctor Psycho",
+    "Ares",
+    "Circe",
+    "Maxwell Lord",
+    "Silver Swan",
+    "Antiope",
+    "Etta Candy",
+    "Atlanna",
+    "Vulko",
+    "Wesley Dodds",
+    "Phantom Stranger",
+    "Madame Xanadu",
+    "Zoom",
+    "Cassandra Cain"
+   ],
+   "deep": [
+    "Detective Chimp",
+    "Ambush Bug",
+    "Blue Devil",
+    "B'wana Beast",
+    "Congorilla",
+    "Shade the Changing Man",
+    "Doctor Occult",
+    "Destiny",
+    "Desire",
+    "Despair",
+    "Delirium",
+    "Destruction",
+    "Saturn Girl",
+    "Lightning Lad",
+    "Cosmic Boy",
+    "Starman",
+    "Johnny Thunder",
+    "Obsidian",
+    "Jade",
+    "Atom Smasher",
+    "Cyclone",
+    "Crazy Jane",
+    "Beppo",
+    "Streaky",
+    "Comet the Super-Horse",
+    "Ace the Bat-Hound",
+    "Anarky",
+    "Talon",
+    "Batwing",
+    "Atlas",
+    "Eradicator",
+    "Johnny Quick",
+    "Superwoman",
+    "Ron Troupe",
+    "Steve Lombard",
+    "Highfather",
+    "Veronica Cale",
+    "Tula",
+    "Tomar-Re",
+    "Saint Walker",
+    "Kite Man",
+    "King Tut",
+    "Bookworm",
+    "Louie the Lilac",
+    "Prankster",
+    "Killer Frost",
+    "Doctor Light",
+    "Vandal Savage",
+    "Per Degaton",
+    "Gentleman Ghost",
+    "Bat-Mite",
+    "Terry McGinnis",
+    "Rip Hunter",
+    "Skeets",
+    "Waverider",
+    "Lady Shiva",
+    "Merlyn",
+    "Count Vertigo",
+    "Cupid",
+    "Brother Blood",
+    "Trigon",
+    "Blackfire",
+    "Cinderblock",
+    "Gizmo",
+    "Mammoth",
+    "Jinx",
+    "Kid Devil",
+    "Miss Martian",
+    "Bumblebee",
+    "Artemis",
+    "Zatara",
+    "Zauriel",
+    "Hawk",
+    "Dove",
+    "Gypsy",
+    "Vigilante",
+    "Wild Dog",
+    "Arsenal",
+    "Katana",
+    "Metron",
+    "Doctor Sivana",
+    "Mary Marvel",
+    "Captain Marvel Jr.",
+    "Tawky Tawny",
+    "Uncle Dudley",
+    "Mister Mind",
+    "Sun Boy"
+   ],
+   "outlier": [
+    "Matter-Eater Lad",
+    "Arm-Fall-Off Boy",
+    "Bouncing Boy",
+    "Chlorophyll Kid",
+    "Condiment King"
+   ]
+  },
+  "alias": {
+   "Batman": [
+    "Bruce Wayne",
+    "Dark Knight",
+    "The Batman",
+    "Caped Crusader"
+   ],
+   "Superman": [
+    "Clark Kent",
+    "Kal-El",
+    "Man of Steel"
+   ],
+   "Wonder Woman": [
+    "Diana Prince"
+   ],
+   "Joker": [
+    "The Joker"
+   ],
+   "Flash": [
+    "The Flash",
+    "Barry Allen"
+   ],
+   "Aquaman": [
+    "Arthur Curry"
+   ],
+   "Swamp Thing": [
+    "Alec Holland"
+   ],
+   "Plastic Man": [
+    "Eel O'Brien",
+    "Plastic Man Eel O'Brien"
+   ],
+   "Robin": [
+    "Boy Wonder"
+   ],
+   "Nightwing": [
+    "Dick Grayson"
+   ],
+   "Batgirl": [
+    "Barbara Gordon",
+    "Oracle"
+   ],
+   "Alfred Pennyworth": [
+    "Alfred"
+   ],
+   "Catwoman": [
+    "Selina Kyle"
+   ],
+   "Green Lantern": [
+    "Hal Jordan"
+   ],
+   "Green Arrow": [
+    "Oliver Queen"
+   ],
+   "Cyborg": [
+    "Victor Stone"
+   ],
+   "Martian Manhunter": [
+    "J'onn J'onzz",
+    "Jonn Jonzz"
+   ],
+   "Supergirl": [
+    "Kara Danvers"
+   ],
+   "Commissioner Gordon": [
+    "James Gordon",
+    "Jim Gordon",
+    "Commissioner James Gordon"
+   ],
+   "Two-Face": [
+    "Harvey Dent",
+    "Two Face"
+   ],
+   "Riddler": [
+    "The Riddler",
+    "Edward Nygma",
+    "Edward Nigma",
+    "Edward Nashton"
+   ],
+   "Penguin": [
+    "The Penguin",
+    "Oswald Cobblepot"
+   ],
+   "Scarecrow": [
+    "Jonathan Crane"
+   ],
+   "Poison Ivy": [
+    "Pamela Isley"
+   ],
+   "Mr. Freeze": [
+    "Mister Freeze",
+    "Victor Fries"
+   ],
+   "Killer Croc": [
+    "Waylon Jones"
+   ],
+   "Ra's al Ghul": [
+    "Ras al Ghul"
+   ],
+   "Clayface": [
+    "Basil Karlo"
+   ],
+   "Mad Hatter": [
+    "Jervis Tetch"
+   ],
+   "Deadshot": [
+    "Floyd Lawton"
+   ],
+   "Deathstroke": [
+    "Slade Wilson"
+   ],
+   "Brainiac": [
+    "Vril Dox"
+   ],
+   "General Zod": [
+    "Zod"
+   ],
+   "Captain Cold": [
+    "Leonard Snart"
+   ],
+   "Reverse-Flash": [
+    "Reverse Flash",
+    "Eobard Thawne",
+    "Professor Zoom"
+   ],
+   "Gorilla Grodd": [
+    "Grodd"
+   ],
+   "Cheetah": [
+    "Barbara Minerva"
+   ],
+   "Shazam": [
+    "Captain Marvel",
+    "Billy Batson"
+   ],
+   "Black Adam": [
+    "Teth-Adam"
+   ],
+   "Hawkman": [
+    "Carter Hall"
+   ],
+   "Hawkgirl": [
+    "Shiera Hall",
+    "Kendra Saunders"
+   ],
+   "Atom": [
+    "The Atom",
+    "Ray Palmer"
+   ],
+   "John Constantine": [
+    "Constantine"
+   ],
+   "Blue Beetle": [
+    "Jaime Reyes",
+    "Ted Kord"
+   ],
+   "Static": [
+    "Static Shock",
+    "Virgil Hawkins"
+   ],
+   "Steel": [
+    "John Henry Irons"
+   ],
+   "Superboy": [
+    "Conner Kent",
+    "Kon-El"
+   ],
+   "Kid Flash": [
+    "Wally West"
+   ],
+   "Doctor Fate": [
+    "Dr. Fate",
+    "Dr Fate",
+    "Kent Nelson"
+   ],
+   "Spectre": [
+    "The Spectre",
+    "Jim Corrigan"
+   ],
+   "Black Canary": [
+    "Dinah Lance"
+   ],
+   "Doctor Manhattan": [
+    "Dr. Manhattan",
+    "Dr Manhattan",
+    "Jon Osterman"
+   ],
+   "Rorschach": [
+    "Walter Kovacs"
+   ],
+   "Dream": [
+    "Morpheus",
+    "Sandman",
+    "Lord Morpheus"
+   ],
+   "Power Girl": [
+    "Karen Starr"
+   ],
+   "Batwoman": [
+    "Kate Kane"
+   ],
+   "Red Hood": [
+    "Jason Todd"
+   ],
+   "Ocean Master": [
+    "Orm"
+   ],
+   "Mr. Mxyzptlk": [
+    "Mister Mxyzptlk",
+    "Mxyzptlk"
+   ],
+   "Captain Boomerang": [
+    "George Harkness"
+   ],
+   "Peacemaker": [
+    "Christopher Smith"
+   ],
+   "Toyman": [
+    "Winslow Schott"
+   ],
+   "Talia al Ghul": [
+    "Talia"
+   ],
+   "Harvey Bullock": [
+    "Detective Bullock"
+   ],
+   "Lucius Fox": [
+    "Lucius"
+   ],
+   "Question": [
+    "The Question",
+    "Vic Sage"
+   ],
+   "Nite Owl": [
+    "Dan Dreiberg",
+    "Night Owl"
+   ],
+   "Ozymandias": [
+    "Adrian Veidt"
+   ],
+   "Silk Spectre": [
+    "Laurie Juspeczyk",
+    "Silk Spectre II"
+   ],
+   "Comedian": [
+    "The Comedian",
+    "Edward Blake"
+   ],
+   "Death": [
+    "Death of the Endless"
+   ],
+   "Lucifer Morningstar": [
+    "Lucifer"
+   ],
+   "Mister Miracle": [
+    "Mr. Miracle",
+    "Scott Free"
+   ],
+   "Man-Bat": [
+    "Man Bat",
+    "Kirk Langstrom"
+   ],
+   "Ventriloquist": [
+    "The Ventriloquist",
+    "Arnold Wesker"
+   ],
+   "Calendar Man": [
+    "Julian Day"
+   ],
+   "Clock King": [
+    "Temple Fugate"
+   ],
+   "Azrael": [
+    "Jean-Paul Valley"
+   ],
+   "Spoiler": [
+    "Stephanie Brown"
+   ],
+   "Red Robin": [
+    "Tim Drake"
+   ],
+   "Cyborg Superman": [
+    "Hank Henshaw"
+   ],
+   "Wonder Girl": [
+    "Cassie Sandsmark"
+   ],
+   "Aqualad": [
+    "Kaldur'ahm",
+    "Kaldur"
+   ],
+   "Speedy": [
+    "Roy Harper"
+   ],
+   "Terra": [
+    "Tara Markov"
+   ],
+   "Jericho": [
+    "Joseph Wilson"
+   ],
+   "Jay Garrick": [
+    "Golden Age Flash"
+   ],
+   "Mister Terrific": [
+    "Mr. Terrific",
+    "Michael Holt"
+   ],
+   "Stargirl": [
+    "Courtney Whitmore"
+   ],
+   "Animal Man": [
+    "Buddy Baker"
+   ],
+   "Robotman": [
+    "Cliff Steele",
+    "Robot Man"
+   ],
+   "Kara Zor-El": [
+    "Kara"
+   ],
+   "Livewire": [
+    "Live Wire"
+   ],
+   "Captain Atom": [
+    "Nathaniel Adam"
+   ],
+   "Doctor Psycho": [
+    "Dr. Psycho",
+    "Dr Psycho"
+   ],
+   "Maxwell Lord": [
+    "Max Lord"
+   ],
+   "Atlanna": [
+    "Queen Atlanna"
+   ],
+   "Vulko": [
+    "Nuidis Vulko"
+   ],
+   "Madame Xanadu": [
+    "Madam Xanadu"
+   ],
+   "Zoom": [
+    "Hunter Zolomon"
+   ],
+   "Cassandra Cain": [
+    "Orphan"
+   ],
+   "Detective Chimp": [
+    "Bobo"
+   ],
+   "Destiny": [
+    "Destiny of the Endless"
+   ],
+   "Desire": [
+    "Desire of the Endless"
+   ],
+   "Despair": [
+    "Despair of the Endless"
+   ],
+   "Delirium": [
+    "Delirium of the Endless",
+    "Delight"
+   ],
+   "Destruction": [
+    "Destruction of the Endless",
+    "Daniel"
+   ],
+   "Saturn Girl": [
+    "Imra Ardeen"
+   ],
+   "Lightning Lad": [
+    "Garth Ranzz"
+   ],
+   "Cosmic Boy": [
+    "Rokk Krinn"
+   ],
+   "Starman": [
+    "Jack Knight",
+    "Ted Knight"
+   ],
+   "Atom Smasher": [
+    "Albert Rothstein"
+   ],
+   "Crazy Jane": [
+    "Kay Challis"
+   ],
+   "Comet the Super-Horse": [
+    "Comet"
+   ],
+   "Ace the Bat-Hound": [
+    "Ace the Bathound",
+    "Ace"
+   ],
+   "Talon": [
+    "Calvin Rose"
+   ],
+   "Batwing": [
+    "Luke Fox"
+   ],
+   "Highfather": [
+    "Izaya"
+   ],
+   "Prankster": [
+    "Oswald Loomis"
+   ],
+   "Killer Frost": [
+    "Caitlin Snow",
+    "Louise Lincoln"
+   ],
+   "Doctor Light": [
+    "Dr. Light",
+    "Dr Light",
+    "Arthur Light"
+   ],
+   "Vandal Savage": [
+    "Savage"
+   ],
+   "Gentleman Ghost": [
+    "Jim Craddock"
+   ],
+   "Bat-Mite": [
+    "Bat Mite"
+   ],
+   "Terry McGinnis": [
+    "Batman Beyond"
+   ],
+   "Waverider": [
+    "Matthew Ryder"
+   ],
+   "Lady Shiva": [
+    "Sandra Wu-San"
+   ],
+   "Merlyn": [
+    "Arthur King"
+   ],
+   "Count Vertigo": [
+    "Werner Zytle"
+   ],
+   "Miss Martian": [
+    "M'gann M'orzz",
+    "Megan Morse"
+   ],
+   "Bumblebee": [
+    "Karen Beecher"
+   ],
+   "Zatara": [
+    "Giovanni Zatara"
+   ],
+   "Hawk": [
+    "Hank Hall"
+   ],
+   "Dove": [
+    "Don Hall"
+   ],
+   "Wild Dog": [
+    "Jack Wheeler"
+   ],
+   "Katana": [
+    "Tatsu Yamashiro"
+   ],
+   "Doctor Sivana": [
+    "Dr. Sivana",
+    "Dr Sivana",
+    "Thaddeus Sivana"
+   ],
+   "Captain Marvel Jr.": [
+    "Captain Marvel Junior",
+    "Freddy Freeman"
+   ],
+   "Mister Mind": [
+    "Mr. Mind",
+    "Mr Mind"
+   ],
+   "Matter-Eater Lad": [
+    "Tenzil Kem"
+   ],
+   "Arm-Fall-Off Boy": [
+    "Floyd Belkin"
+   ],
+   "Bouncing Boy": [
+    "Chuck Taine"
+   ],
+   "Chlorophyll Kid": [
+    "Ral Benem"
+   ],
+   "Condiment King": [
+    "Buddy Standler"
+   ],
+   "Sun Boy": [
+    "Dirk Morgna"
+   ],
+   "Leslie Thompkins": [
+    "Leslie Tompkins"
+   ],
+   "Hippolyta": [
+    "Queen Hippolyta"
+   ],
+   "Doomsday": []
+  },
+  "traps": {
+   "Spider-Man": "A Marvel character.",
+   "Hulk": "A Marvel character.",
+   "Deadpool": "A Marvel character.",
+   "Hellboy": "Published by Dark Horse, not DC.",
+   "Invincible": "Published by Image, not DC."
+  },
+  "fact": "Harley Quinn debuted in Batman: The Animated Series in 1992 and did not join mainline DC comics continuity until 1999."
+ },
+ {
+  "id": "cul-pop-harry-potter-spells",
+  "cat": "Books",
+  "title": "Wand waving",
+  "q": "A Harry Potter spell",
+  "rule": "Any named spell, charm, jinx, hex or curse from the books, films or official games; potions and magical objects don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Expelliarmus",
+    "Avada Kedavra",
+    "Expecto Patronum",
+    "Wingardium Leviosa",
+    "Lumos",
+    "Alohomora"
+   ],
+   "hipster": [
+    "Sectumsempra",
+    "Riddikulus"
+   ],
+   "body": [
+    "Accio",
+    "Crucio",
+    "Imperio",
+    "Stupefy",
+    "Petrificus Totalus",
+    "Obliviate",
+    "Protego",
+    "Incendio",
+    "Confundo",
+    "Impedimenta",
+    "Reducto",
+    "Diffindo",
+    "Engorgio",
+    "Reducio",
+    "Episkey",
+    "Aguamenti",
+    "Nox",
+    "Finite Incantatem",
+    "Muffliato",
+    "Levicorpus",
+    "Liberacorpus",
+    "Legilimens",
+    "Morsmordre",
+    "Reparo",
+    "Silencio",
+    "Serpensortia",
+    "Rictusempra",
+    "Tarantallegra",
+    "Densaugeo",
+    "Locomotor Mortis",
+    "Oppugno",
+    "Expulso",
+    "Lumos Maxima",
+    "Homenum Revelio",
+    "Prior Incantato",
+    "Rennervate",
+    "Scourgify",
+    "Sonorus",
+    "Aparecium",
+    "Colloportus",
+    "Evanesco",
+    "Fidelius Charm",
+    "Fiendfyre",
+    "Confringo",
+    "Bombarda",
+    "Flipendo",
+    "Ascendio",
+    "Arresto Momentum",
+    "Bat-Bogey Hex",
+    "Disillusionment Charm"
+   ],
+   "tail": [
+    "Orchideous",
+    "Descendo",
+    "Ferula",
+    "Geminio",
+    "Glisseo",
+    "Immobulus",
+    "Impervius",
+    "Incarcerous",
+    "Langlock",
+    "Mobiliarbus",
+    "Mobilicorpus",
+    "Oculus Reparo",
+    "Obscuro",
+    "Piertotum Locomotor",
+    "Quietus",
+    "Relashio",
+    "Tergeo",
+    "Waddiwasi",
+    "Deprimo",
+    "Defodio",
+    "Protego Maxima",
+    "Fianto Duri",
+    "Repello Muggletum",
+    "Cave Inimicum",
+    "Salvio Hexia",
+    "Vulnera Sanentur",
+    "Anapneo",
+    "Avis",
+    "Specialis Revelio",
+    "Portus",
+    "Duro",
+    "Deletrius",
+    "Dissendium",
+    "Alarte Ascendare",
+    "Aqua Eructo",
+    "Lacarnum Inflamari",
+    "Lumos Solem",
+    "Depulso",
+    "Protego Totalum",
+    "Bombarda Maxima",
+    "Furnunculus",
+    "Flagrate",
+    "Meteolojinx Recanto",
+    "Point Me",
+    "Reparifors",
+    "Slugulus Eructo",
+    "Epoximise",
+    "Entomorphis",
+    "Locomotor Wibbly",
+    "Mimblewimble",
+    "Calvorio",
+    "Colovaria",
+    "Colloshoo",
+    "Aberto",
+    "Glacius",
+    "Ventus",
+    "Brachiabindo",
+    "Carpe Retractum",
+    "Celescere",
+    "Arania Exumai",
+    "Appare Vestigium",
+    "Ebublio",
+    "Revelio",
+    "Crinus Muto",
+    "Bubble-Head Charm",
+    "Cheering Charm",
+    "Protean Charm",
+    "Unbreakable Vow",
+    "Imperturbable Charm",
+    "Mucus ad Nauseam",
+    "Anteoculatia",
+    "Lumos Duo",
+    "Incendio Duo",
+    "Flipendo Duo",
+    "Repello Inimicum",
+    "Everte Statum",
+    "Protego Diabolica",
+    "Conjunctivitis Curse",
+    "Leek Jinx",
+    "Cornflake Skin Jinx",
+    "Hot Air Charm",
+    "Pepper Breath"
+   ],
+   "deep": [
+    "Brackium Emendo",
+    "Capacious Extremis",
+    "Cistem Aperio",
+    "Erecto",
+    "Fumos",
+    "Harmonia Nectere Passus",
+    "Inflatus",
+    "Informous",
+    "Lapifors",
+    "Peskipiksi Pesternomi",
+    "Skurge",
+    "Spongify",
+    "Titillando",
+    "Finestra",
+    "Vera Verto",
+    "Pack",
+    "Avifors",
+    "Aviatus",
+    "Amplificus",
+    "Annihilare",
+    "Baubillious",
+    "Bloomus",
+    "Cantis",
+    "Circumrota",
+    "Deflammo",
+    "Diminuendo",
+    "Dunamis",
+    "Emancipare",
+    "Engorgio Skullus",
+    "Ex Cappa",
+    "Felixempra",
+    "Flintifors",
+    "Fortifundus",
+    "Fulgari",
+    "Golemus Mobilia",
+    "Hardenus",
+    "Herbifors",
+    "Herbivicus",
+    "Herstrifors",
+    "Hystrifors",
+    "Levioso",
+    "Magicus Extremos",
+    "Melofors",
+    "Molliare",
+    "Multicorfors",
+    "Nebulus",
+    "Orbis",
+    "Oscausi",
+    "Papyrus Reparo",
+    "Partis Temporus",
+    "Periculum",
+    "Piscifors",
+    "Pullus",
+    "Reparifarge",
+    "Reversis",
+    "Reverte",
+    "Somnium",
+    "Sonicus",
+    "Sternius",
+    "Surgito",
+    "Tentaclifors",
+    "Verdillious",
+    "Verdimillious",
+    "Vermiculus",
+    "Vermillious",
+    "Versis",
+    "Vipera Evanesca",
+    "Draconifors",
+    "Ducklifors",
+    "Ectomatic",
+    "Aquarius Scarius",
+    "Avenseguim",
+    "Alohomora Duo",
+    "Aguamenti Maxima",
+    "Glacius Duo",
+    "Ventus Duo",
+    "Flipendo Maxima",
+    "Flipendo Tria",
+    "Incendio Tria",
+    "Ear-Shrivelling Curse",
+    "Horn Tongue Hex",
+    "Trip Jinx",
+    "Stinging Jinx",
+    "Slippery Jinx",
+    "Hurling Hex"
+   ],
+   "outlier": [
+    "Tribuomnus",
+    "Redactum Skullus",
+    "Mutatio Skullus",
+    "Fracto Strata",
+    "Illegibilus"
+   ]
+  },
+  "alias": {
+   "Expelliarmus": [
+    "Disarming Charm",
+    "Expelliarmus Charm"
+   ],
+   "Avada Kedavra": [
+    "Killing Curse",
+    "Avada"
+   ],
+   "Expecto Patronum": [
+    "Patronus",
+    "Patronus Charm",
+    "Expecto Patronus"
+   ],
+   "Wingardium Leviosa": [
+    "Levitation Charm",
+    "Wingardium"
+   ],
+   "Lumos": [
+    "Wand-Lighting Charm",
+    "Lumos Charm"
+   ],
+   "Alohomora": [
+    "Unlocking Charm"
+   ],
+   "Accio": [
+    "Summoning Charm"
+   ],
+   "Crucio": [
+    "Cruciatus Curse",
+    "Cruciatus",
+    "Cruciatus Spell"
+   ],
+   "Imperio": [
+    "Imperius Curse",
+    "Imperius"
+   ],
+   "Stupefy": [
+    "Stunning Spell",
+    "Stupify"
+   ],
+   "Petrificus Totalus": [
+    "Full Body-Bind Curse",
+    "Full Body Bind",
+    "Petrificus",
+    "Petrify"
+   ],
+   "Obliviate": [
+    "Memory Charm"
+   ],
+   "Protego": [
+    "Shield Charm"
+   ],
+   "Incendio": [
+    "Fire-Making Spell"
+   ],
+   "Confundo": [
+    "Confundus Charm"
+   ],
+   "Impedimenta": [
+    "Impediment Jinx"
+   ],
+   "Reducto": [
+    "Reductor Curse"
+   ],
+   "Diffindo": [
+    "Severing Charm"
+   ],
+   "Engorgio": [
+    "Engorgement Charm",
+    "Enlargement Charm"
+   ],
+   "Reducio": [
+    "Shrinking Charm"
+   ],
+   "Aguamenti": [
+    "Water-Making Spell"
+   ],
+   "Nox": [
+    "Wand-Extinguishing Charm"
+   ],
+   "Finite Incantatem": [
+    "Finite",
+    "General Counter-Spell"
+   ],
+   "Legilimens": [
+    "Legilimency"
+   ],
+   "Morsmordre": [
+    "Dark Mark"
+   ],
+   "Reparo": [
+    "Mending Charm"
+   ],
+   "Silencio": [
+    "Silencing Charm"
+   ],
+   "Serpensortia": [
+    "Snake Summons Spell"
+   ],
+   "Rictusempra": [
+    "Tickling Charm"
+   ],
+   "Tarantallegra": [
+    "Dancing Feet Spell"
+   ],
+   "Locomotor Mortis": [
+    "Leg-Locker Curse"
+   ],
+   "Oppugno": [
+    "Oppugno Jinx"
+   ],
+   "Prior Incantato": [
+    "Priori Incantatem",
+    "Reverse Spell"
+   ],
+   "Rennervate": [
+    "Ennervate",
+    "Reviving Spell"
+   ],
+   "Scourgify": [
+    "Scouring Charm"
+   ],
+   "Sonorus": [
+    "Amplifying Charm"
+   ],
+   "Aparecium": [
+    "Revealing Charm"
+   ],
+   "Colloportus": [
+    "Locking Spell"
+   ],
+   "Evanesco": [
+    "Vanishing Spell"
+   ],
+   "Fidelius Charm": [
+    "Fidelius"
+   ],
+   "Fiendfyre": [
+    "Pestis Incendium",
+    "Fiend Fyre"
+   ],
+   "Confringo": [
+    "Blasting Curse"
+   ],
+   "Bombarda": [
+    "Bombardment Spell"
+   ],
+   "Flipendo": [
+    "Knockback Jinx"
+   ],
+   "Ascendio": [
+    "Ascension Charm"
+   ],
+   "Arresto Momentum": [
+    "Slowing Charm"
+   ],
+   "Disillusionment Charm": [
+    "Disillusionment"
+   ],
+   "Riddikulus": [
+    "Boggart Banishing Spell"
+   ],
+   "Geminio": [
+    "Doubling Charm",
+    "Gemino"
+   ],
+   "Glisseo": [
+    "Sliding Spell"
+   ],
+   "Immobulus": [
+    "Freezing Charm"
+   ],
+   "Piertotum Locomotor": [
+    "Animation Charm"
+   ],
+   "Quietus": [
+    "Quietening Charm"
+   ],
+   "Relashio": [
+    "Revulsion Jinx"
+   ],
+   "Tergeo": [
+    "Wiping Spell"
+   ],
+   "Defodio": [
+    "Gouging Spell"
+   ],
+   "Duro": [
+    "Hardening Charm"
+   ],
+   "Deletrius": [
+    "Eradication Spell"
+   ],
+   "Depulso": [
+    "Banishing Charm"
+   ],
+   "Furnunculus": [
+    "Pimple Jinx"
+   ],
+   "Point Me": [
+    "Four-Point Spell"
+   ],
+   "Avis": [
+    "Bird-Conjuring Charm"
+   ],
+   "Homenum Revelio": [
+    "Human-Presence-Revealing Spell"
+   ],
+   "Locomotor Wibbly": [
+    "Jelly-Legs Curse"
+   ],
+   "Mimblewimble": [
+    "Tongue-Tying Curse"
+   ],
+   "Mucus ad Nauseam": [
+    "Curse of the Bogies"
+   ],
+   "Arania Exumai": [
+    "Spider-Banishing Charm"
+   ],
+   "Aberto": [
+    "Opening Charm"
+   ],
+   "Colloshoo": [
+    "Stickfast Hex"
+   ],
+   "Colovaria": [
+    "Colour Change Charm"
+   ],
+   "Brachiabindo": [
+    "Limb-Binding Jinx"
+   ],
+   "Carpe Retractum": [
+    "Seize and Pull Charm"
+   ],
+   "Celescere": [
+    "Greenhouse Charm"
+   ],
+   "Cistem Aperio": [
+    "Box Blasting Charm"
+   ],
+   "Capacious Extremis": [
+    "Extension Charm"
+   ],
+   "Calvorio": [
+    "Hair Loss Curse"
+   ],
+   "Glacius": [
+    "Freezing Spell"
+   ],
+   "Ventus": [
+    "Windy Spell"
+   ],
+   "Surgito": [
+    "Disenchantment Charm"
+   ],
+   "Lacarnum Inflamari": [
+    "Lacarnum Inflamare"
+   ],
+   "Slugulus Eructo": [
+    "Slug-Vomiting Charm"
+   ],
+   "Ear-Shrivelling Curse": [
+    "Ear Shrivelling Curse"
+   ],
+   "Meteolojinx Recanto": [
+    "Meteolojinx"
+   ]
+  },
+  "traps": {
+   "Polyjuice Potion": "A potion, not a spell.",
+   "Felix Felicis": "A potion, not a spell.",
+   "Veritaserum": "A potion, not a spell.",
+   "Portkey": "A magical object, not a spell.",
+   "Sorting Hat": "A magical object, not a spell."
+  },
+  "fact": "J.K. Rowling said Avada Kedavra comes from the Aramaic word that became abracadabra, which originally meant 'let the thing be destroyed'."
+ },
+ {
+  "id": "cul-pop-muppets-sesame",
+  "cat": "TV & film",
+  "title": "Muppet mayhem",
+  "q": "A Muppet or Sesame Street character",
+  "rule": "Puppet characters from the Muppet shows and films or from Sesame Street; human cast members don't qualify.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Kermit the Frog",
+    "Miss Piggy",
+    "Elmo",
+    "Big Bird",
+    "Cookie Monster",
+    "Fozzie Bear"
+   ],
+   "hipster": [
+    "Gonzo",
+    "Beaker"
+   ],
+   "body": [
+    "Animal",
+    "Bert",
+    "Ernie",
+    "Grover",
+    "Oscar the Grouch",
+    "Count von Count",
+    "Statler",
+    "Waldorf",
+    "Rowlf the Dog",
+    "Swedish Chef",
+    "Dr. Bunsen Honeydew",
+    "Scooter",
+    "Rizzo the Rat",
+    "Pepe the King Prawn",
+    "Sam Eagle",
+    "Camilla the Chicken",
+    "Walter",
+    "Mr. Snuffleupagus",
+    "Abby Cadabby",
+    "Zoe",
+    "Rosita",
+    "Telly Monster",
+    "Baby Bear",
+    "Dr. Teeth",
+    "Floyd Pepper",
+    "Janice",
+    "Zoot",
+    "Lips",
+    "Sweetums",
+    "Lew Zealand",
+    "Crazy Harry",
+    "Link Hogthrob",
+    "Dr. Strangepork",
+    "Uncle Deadly",
+    "Robin the Frog",
+    "Herry Monster",
+    "Prairie Dawn",
+    "Guy Smiley",
+    "Julia",
+    "Mahna Mahna",
+    "Beauregard",
+    "Bobo the Bear",
+    "Marvin Suggs",
+    "Pops",
+    "Newsman",
+    "Clifford"
+   ],
+   "tail": [
+    "Snowths",
+    "Wayne",
+    "Wanda",
+    "Hilda",
+    "Mildred Huxtetter",
+    "Big Mean Carl",
+    "Bean Bunny",
+    "Johnny Fiama",
+    "Sal Minella",
+    "Thog",
+    "Behemoth",
+    "Bill the Bubble Guy",
+    "Gaffer",
+    "George the Janitor",
+    "Mean Mama",
+    "Nigel",
+    "Tatooey the Rat",
+    "Yolanda Rat",
+    "Seymour",
+    "Constantine",
+    "Skeeter",
+    "Gladys the Cow",
+    "Waldo C. Graphic",
+    "Forgetful Jones",
+    "Sherlock Hemlock",
+    "Roosevelt Franklin",
+    "Hoots the Owl",
+    "Slimey",
+    "Barkley",
+    "Alice Snuffleupagus",
+    "Mama Bear",
+    "Papa Bear",
+    "Curly Bear",
+    "Grundgetta",
+    "Super Grover",
+    "Don Music",
+    "Dr. Nobel Price",
+    "Placido Flamingo",
+    "Lefty the Salesman",
+    "Kingston Livingston III",
+    "Sam the Robot",
+    "Benny Rabbit",
+    "Biff",
+    "Sully",
+    "Murray Monster",
+    "Two-Headed Monster",
+    "Twiddlebugs",
+    "Amazing Mumford",
+    "Alistair Cookie",
+    "Countess Dahling von Dahling",
+    "Captain Vegetable",
+    "Little Bird",
+    "Granny Bird",
+    "Harvey Kneeslapper",
+    "Frazzle",
+    "Buster the Horse",
+    "Colambo"
+   ],
+   "deep": [
+    "Spamela Hamderson",
+    "Bip Bippadotta",
+    "Ferlinghetti Donizetti",
+    "Sopwith the Camel",
+    "Betty Lou",
+    "Flo Bear",
+    "Herbert Birdsfoot",
+    "Honkers",
+    "Little Jerry",
+    "Merry Monster",
+    "Poco Loco",
+    "Professor Hastings",
+    "Rodeo Rosie",
+    "Roxie Marie",
+    "Sherry Netherland",
+    "Simon Soundman",
+    "Sonny Friendly",
+    "Dr. Feel",
+    "Bennett Snerf",
+    "Little Murray Sparkles",
+    "Little Chrissy",
+    "Meryl Sheep",
+    "Monty",
+    "Mr. Johnson",
+    "Dingers",
+    "Beautiful Day Monster",
+    "H. Ross Parrot",
+    "Gulliver",
+    "Horatio",
+    "Fleet Scribbler",
+    "Fletcher Bird",
+    "Howard Tubman",
+    "Dead Tom",
+    "Old Tom",
+    "Real Old Tom",
+    "Chester the Rat",
+    "Masterson the Rat",
+    "Droop",
+    "Foo-Foo",
+    "Hugga Wugga",
+    "La Cabra",
+    "Mulch",
+    "Splurge",
+    "Ubu",
+    "Zondra",
+    "Larb",
+    "Mary Louise"
+   ],
+   "outlier": [
+    "Mr. Poodlepants",
+    "Louis Kazagger",
+    "Shakey Sanchez",
+    "Clueless Morgan",
+    "Iggy Wiggy"
+   ]
+  },
+  "alias": {
+   "Kermit the Frog": [
+    "Kermit"
+   ],
+   "Miss Piggy": [
+    "Piggy",
+    "Ms. Piggy"
+   ],
+   "Fozzie Bear": [
+    "Fozzie"
+   ],
+   "Gonzo": [
+    "Gonzo the Great",
+    "The Great Gonzo"
+   ],
+   "Oscar the Grouch": [
+    "Oscar"
+   ],
+   "Count von Count": [
+    "The Count",
+    "Count"
+   ],
+   "Statler": [
+    "Statler and Waldorf"
+   ],
+   "Rowlf the Dog": [
+    "Rowlf"
+   ],
+   "Swedish Chef": [
+    "The Swedish Chef"
+   ],
+   "Dr. Bunsen Honeydew": [
+    "Bunsen Honeydew",
+    "Bunsen",
+    "Dr Bunsen Honeydew",
+    "Professor Bunsen Honeydew"
+   ],
+   "Rizzo the Rat": [
+    "Rizzo"
+   ],
+   "Pepe the King Prawn": [
+    "Pepe"
+   ],
+   "Sam Eagle": [
+    "Sam the Eagle"
+   ],
+   "Camilla the Chicken": [
+    "Camilla"
+   ],
+   "Mr. Snuffleupagus": [
+    "Snuffleupagus",
+    "Snuffy",
+    "Mr Snuffleupagus",
+    "Mr. Snuffalupagus"
+   ],
+   "Telly Monster": [
+    "Telly"
+   ],
+   "Dr. Teeth": [
+    "Doctor Teeth",
+    "Dr Teeth"
+   ],
+   "Dr. Strangepork": [
+    "Dr. Julius Strangepork",
+    "Doctor Strangepork",
+    "Strangepork"
+   ],
+   "Robin the Frog": [
+    "Robin"
+   ],
+   "Bobo the Bear": [
+    "Bobo"
+   ],
+   "Newsman": [
+    "The Newsman"
+   ],
+   "Pops": [
+    "Pops the Doorman"
+   ],
+   "Wayne": [
+    "Wayne and Wanda"
+   ],
+   "Amazing Mumford": [
+    "The Amazing Mumford",
+    "Mumford"
+   ],
+   "Two-Headed Monster": [
+    "The Two-Headed Monster"
+   ],
+   "Twiddlebugs": [
+    "The Twiddlebugs"
+   ],
+   "Honkers": [
+    "The Honkers"
+   ],
+   "Lefty the Salesman": [
+    "Lefty"
+   ],
+   "Benny Rabbit": [
+    "Benny the Rabbit"
+   ],
+   "Buster the Horse": [
+    "Buster"
+   ],
+   "Hoots the Owl": [
+    "Hoots"
+   ],
+   "Gladys the Cow": [
+    "Gladys"
+   ],
+   "Floyd Pepper": [
+    "Floyd"
+   ],
+   "Forgetful Jones": [
+    "Forgetful"
+   ],
+   "Roosevelt Franklin": [
+    "Roosevelt"
+   ],
+   "Bill the Bubble Guy": [
+    "Bill the Bubble Man"
+   ],
+   "Tatooey the Rat": [
+    "Tatooey"
+   ],
+   "Yolanda Rat": [
+    "Yolanda"
+   ],
+   "Alistair Cookie": [
+    "Alistair Cooke"
+   ],
+   "Sam the Robot": [
+    "SAM"
+   ]
+  },
+  "traps": {
+   "Barney": "A purple dinosaur from a different children's show.",
+   "Sooty": "A British glove puppet, not a Muppet.",
+   "Zippy": "A puppet from the British show Rainbow, not a Muppet.",
+   "Lamb Chop": "Shari Lewis's puppet, not a Muppet.",
+   "Mr. Hooper": "A human shopkeeper on Sesame Street, not a puppet."
+  },
+  "fact": "Oscar the Grouch was orange in Sesame Street's first season and turned green in the second."
+ },
+ {
+  "id": "cul-pop-boy-bands-girl-groups",
+  "cat": "Music",
+  "title": "Pop idols",
+  "q": "A boy band or girl group",
+  "rule": "Pop vocal groups of three or more marketed as boy bands or girl groups, K-pop included; mixed-gender groups don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "One Direction",
+    "Take That",
+    "Spice Girls",
+    "Backstreet Boys",
+    "Westlife",
+    "Little Mix"
+   ],
+   "hipster": [
+    "New Kids on the Block",
+    "Bananarama"
+   ],
+   "body": [
+    "Boyzone",
+    "East 17",
+    "Blue",
+    "JLS",
+    "Wanted",
+    "Union J",
+    "NSYNC",
+    "Jonas Brothers",
+    "5 Seconds of Summer",
+    "Hanson",
+    "Boyz II Men",
+    "New Edition",
+    "98 Degrees",
+    "Five",
+    "A1",
+    "911",
+    "Busted",
+    "McFly",
+    "Vamps",
+    "BTS",
+    "Big Bang",
+    "EXO",
+    "Girls Aloud",
+    "Destiny's Child",
+    "Sugababes",
+    "All Saints",
+    "Atomic Kitten",
+    "Pussycat Dolls",
+    "TLC",
+    "Fifth Harmony",
+    "B*Witched",
+    "Eternal",
+    "Supremes",
+    "Ronettes",
+    "Blackpink",
+    "Twice",
+    "Red Velvet",
+    "Girls' Generation",
+    "En Vogue",
+    "Salt-N-Pepa",
+    "Jackson 5",
+    "Osmonds",
+    "Bros",
+    "Brother Beyond",
+    "Another Level",
+    "Saturdays",
+    "Shirelles",
+    "Three Degrees",
+    "Pointer Sisters",
+    "Sister Sledge"
+   ],
+   "tail": [
+    "O-Town",
+    "LFO",
+    "B2K",
+    "Dru Hill",
+    "Color Me Badd",
+    "All-4-One",
+    "Big Time Rush",
+    "Dream Street",
+    "Menudo",
+    "CNCO",
+    "Human Nature",
+    "Moffatts",
+    "Worlds Apart",
+    "Let Loose",
+    "Upside Down",
+    "Point Break",
+    "Northern Line",
+    "Damage",
+    "Ultimate Kaos",
+    "Code Red",
+    "Phixx",
+    "Blazin' Squad",
+    "Overtones",
+    "Collabro",
+    "Rak-Su",
+    "New Hope Club",
+    "Lawson",
+    "Why Don't We",
+    "PrettyMuch",
+    "In Real Life",
+    "5 After Midnight",
+    "Caught in the Act",
+    "Bad Boys Inc",
+    "Triple 8",
+    "One True Voice",
+    "Yell!",
+    "US5",
+    "Honeyz",
+    "Cleopatra",
+    "Mis-Teeq",
+    "Stooshe",
+    "Neon Jungle",
+    "Girl Thing",
+    "Precious",
+    "Nolans",
+    "Beverley Sisters",
+    "Andrews Sisters",
+    "Boswell Sisters",
+    "McGuire Sisters",
+    "Martha and the Vandellas",
+    "Marvelettes",
+    "Crystals",
+    "Chiffons",
+    "Shangri-Las",
+    "Dixie Cups",
+    "Chantels",
+    "Wilson Phillips",
+    "SWV",
+    "Xscape",
+    "Danity Kane",
+    "Girlicious",
+    "3LW",
+    "Cheetah Girls",
+    "Blaque",
+    "702",
+    "Allure",
+    "Brownstone",
+    "Exposé",
+    "G.R.L.",
+    "Luv'",
+    "Silver Convention",
+    "No Angels",
+    "Las Ketchup",
+    "Seventeen",
+    "Stray Kids",
+    "Tomorrow X Together",
+    "Enhypen",
+    "Ateez",
+    "NCT",
+    "SHINee",
+    "Super Junior",
+    "2PM",
+    "TVXQ",
+    "Monsta X",
+    "GOT7",
+    "iKON",
+    "Infinite",
+    "B.A.P",
+    "Treasure",
+    "NewJeans",
+    "IVE",
+    "Le Sserafim",
+    "ITZY",
+    "Aespa",
+    "(G)I-dle",
+    "Mamamoo",
+    "Wonder Girls",
+    "2NE1",
+    "Kara",
+    "T-ara",
+    "f(x)",
+    "Apink",
+    "Oh My Girl",
+    "Momoland",
+    "Everglow",
+    "STAYC",
+    "Kep1er",
+    "Fifty Fifty",
+    "Babymonster",
+    "Katseye",
+    "Illit",
+    "Arashi",
+    "SMAP",
+    "AKB48",
+    "Morning Musume",
+    "Perfume"
+   ],
+   "deep": [
+    "H.O.T.",
+    "Fin.K.L.",
+    "S.E.S.",
+    "Sechs Kies",
+    "g.o.d",
+    "1TYM",
+    "Shinhwa",
+    "Beast",
+    "4Minute",
+    "Sistar",
+    "Miss A",
+    "After School",
+    "Girl's Day",
+    "Dal Shabet",
+    "Brown Eyed Girls",
+    "EXID",
+    "GFriend",
+    "Lovelyz",
+    "Cosmic Girls",
+    "Loona",
+    "Dreamcatcher",
+    "Weeekly",
+    "Purple Kiss",
+    "Hello Venus",
+    "Nine Muses",
+    "Crayon Pop",
+    "Laboum",
+    "Bvndit",
+    "Pentagon",
+    "Victon",
+    "Astro",
+    "Winner",
+    "Block B",
+    "BtoB",
+    "Teen Top",
+    "Boyfriend",
+    "Boys Republic",
+    "VIXX",
+    "MBLAQ",
+    "ZEROBASEONE",
+    "Riize",
+    "TWS",
+    "Cravity",
+    "Golden Child",
+    "CIX",
+    "Verivery",
+    "AB6IX",
+    "Oneus",
+    "TO1",
+    "Ciipher"
+   ],
+   "outlier": [
+    "Dolly Dots",
+    "Hi-Five",
+    "Soul for Real",
+    "Another Bad Creation",
+    "Sweet California"
+   ]
+  },
+  "alias": {
+   "One Direction": [
+    "1D"
+   ],
+   "Backstreet Boys": [
+    "BSB"
+   ],
+   "New Kids on the Block": [
+    "NKOTB"
+   ],
+   "Boyz II Men": [
+    "Boyz 2 Men"
+   ],
+   "NSYNC": [
+    "*NSYNC",
+    "N Sync",
+    "N'Sync"
+   ],
+   "East 17": [
+    "E17",
+    "East Seventeen"
+   ],
+   "Five": [
+    "5ive",
+    "5"
+   ],
+   "5 Seconds of Summer": [
+    "5SOS"
+   ],
+   "Wanted": [
+    "The Wanted"
+   ],
+   "Vamps": [
+    "The Vamps"
+   ],
+   "Pussycat Dolls": [
+    "The Pussycat Dolls"
+   ],
+   "Supremes": [
+    "The Supremes",
+    "Diana Ross and the Supremes"
+   ],
+   "Ronettes": [
+    "The Ronettes"
+   ],
+   "Saturdays": [
+    "The Saturdays"
+   ],
+   "Shirelles": [
+    "The Shirelles"
+   ],
+   "Three Degrees": [
+    "The Three Degrees"
+   ],
+   "Pointer Sisters": [
+    "The Pointer Sisters"
+   ],
+   "Jackson 5": [
+    "The Jackson 5",
+    "Jackson Five",
+    "The Jacksons",
+    "Jacksons"
+   ],
+   "Osmonds": [
+    "The Osmonds"
+   ],
+   "Girls' Generation": [
+    "Girls Generation",
+    "SNSD"
+   ],
+   "B*Witched": [
+    "BWitched",
+    "B Witched"
+   ],
+   "Big Bang": [
+    "BigBang"
+   ],
+   "BTS": [
+    "Bangtan Boys",
+    "Bangtan Sonyeondan"
+   ],
+   "Tomorrow X Together": [
+    "TXT"
+   ],
+   "Stray Kids": [
+    "SKZ"
+   ],
+   "NewJeans": [
+    "New Jeans"
+   ],
+   "Le Sserafim": [
+    "Le Serafim"
+   ],
+   "Aespa": [
+    "æspa"
+   ],
+   "(G)I-dle": [
+    "G-Idle",
+    "Gidle",
+    "G I-dle"
+   ],
+   "TVXQ": [
+    "DBSK",
+    "Tohoshinki"
+   ],
+   "Overtones": [
+    "The Overtones"
+   ],
+   "Nolans": [
+    "The Nolans"
+   ],
+   "Beverley Sisters": [
+    "The Beverley Sisters"
+   ],
+   "Andrews Sisters": [
+    "The Andrews Sisters"
+   ],
+   "Boswell Sisters": [
+    "The Boswell Sisters"
+   ],
+   "McGuire Sisters": [
+    "The McGuire Sisters"
+   ],
+   "Crystals": [
+    "The Crystals"
+   ],
+   "Chiffons": [
+    "The Chiffons"
+   ],
+   "Shangri-Las": [
+    "The Shangri-Las"
+   ],
+   "Dixie Cups": [
+    "The Dixie Cups"
+   ],
+   "Chantels": [
+    "The Chantels"
+   ],
+   "Marvelettes": [
+    "The Marvelettes"
+   ],
+   "Martha and the Vandellas": [
+    "Martha & the Vandellas"
+   ],
+   "Moffatts": [
+    "The Moffatts"
+   ],
+   "Cheetah Girls": [
+    "The Cheetah Girls"
+   ],
+   "Salt-N-Pepa": [
+    "Salt N Pepa",
+    "Salt n Pepa"
+   ],
+   "Fin.K.L.": [
+    "Fin.K.L",
+    "Fin KL",
+    "Finkl"
+   ],
+   "H.O.T.": [
+    "HOT",
+    "H.O.T"
+   ],
+   "S.E.S.": [
+    "SES"
+   ],
+   "Girl's Day": [
+    "Girls Day"
+   ],
+   "Cosmic Girls": [
+    "WJSN"
+   ],
+   "Beast": [
+    "B2ST",
+    "Highlight"
+   ],
+   "ZEROBASEONE": [
+    "ZB1",
+    "Zero Base One"
+   ],
+   "Hi-Five": [
+    "Hi Five"
+   ],
+   "Soul for Real": [
+    "Soul 4 Real"
+   ]
+  },
+  "traps": {
+   "S Club 7": "A mixed-gender group of boys and girls.",
+   "Steps": "A mixed-gender group of boys and girls.",
+   "Hear'Say": "A mixed-gender group of boys and girls.",
+   "Beatles": "A rock band, not a boy band.",
+   "Wham!": "A duo, not a group of three or more."
+  },
+  "fact": "Puerto Rican group Menudo kept replacing members as they grew up, so most left around 16; Ricky Martin joined at 12."
+ },
+ {
+  "id": "cul-pop-food-chains",
+  "cat": "Food",
+  "title": "Drive-thru",
+  "q": "A fast food or restaurant chain",
+  "rule": "Chains serving meals or snacks in the UK or US, current or defunct; coffee-only and ice-cream-only chains don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "McDonald's",
+    "KFC",
+    "Burger King",
+    "Subway",
+    "Pizza Hut",
+    "Domino's"
+   ],
+   "hipster": [
+    "Nando's",
+    "Greggs"
+   ],
+   "body": [
+    "Wendy's",
+    "Taco Bell",
+    "Papa John's",
+    "Five Guys",
+    "Pret A Manger",
+    "Wagamama",
+    "Pizza Express",
+    "Chipotle",
+    "Chick-fil-A",
+    "Popeyes",
+    "Dairy Queen",
+    "In-N-Out Burger",
+    "Shake Shack",
+    "Sonic",
+    "Arby's",
+    "Carl's Jr.",
+    "Hardee's",
+    "Jack in the Box",
+    "White Castle",
+    "Applebee's",
+    "Chili's",
+    "Denny's",
+    "IHOP",
+    "Olive Garden",
+    "Red Lobster",
+    "Outback Steakhouse",
+    "TGI Fridays",
+    "Hard Rock Cafe",
+    "Harvester",
+    "Toby Carvery",
+    "Frankie & Benny's",
+    "Zizzi",
+    "Prezzo",
+    "Bella Italia",
+    "Little Chef",
+    "Wimpy",
+    "Krispy Kreme",
+    "Dunkin'",
+    "Cheesecake Factory",
+    "Texas Roadhouse",
+    "Panera Bread",
+    "Panda Express",
+    "Waffle House",
+    "Cracker Barrel",
+    "Buffalo Wild Wings",
+    "Wingstop",
+    "Hooters",
+    "Planet Hollywood",
+    "Chuck E. Cheese's",
+    "Little Caesars",
+    "Jimmy John's",
+    "Tim Hortons",
+    "Leon",
+    "Itsu",
+    "Yo! Sushi",
+    "Gourmet Burger Kitchen"
+   ],
+   "tail": [
+    "Jersey Mike's",
+    "Firehouse Subs",
+    "Quiznos",
+    "Auntie Anne's",
+    "Cinnabon",
+    "Wasabi",
+    "EAT",
+    "Tortilla",
+    "Barburrito",
+    "Byron",
+    "Honest Burgers",
+    "Wahaca",
+    "Dishoom",
+    "Bill's",
+    "Côte",
+    "Café Rouge",
+    "Carluccio's",
+    "Strada",
+    "ASK Italian",
+    "Giraffe",
+    "Loch Fyne",
+    "Browns",
+    "Beefeater",
+    "Brewers Fayre",
+    "Hungry Horse",
+    "Miller & Carter",
+    "Chiquito",
+    "Pizzaland",
+    "Garfunkel's",
+    "Harry Ramsden's",
+    "Chicken Cottage",
+    "Dixy Chicken",
+    "Morley's",
+    "Spudulike",
+    "Upper Crust",
+    "West Cornwall Pasty Company",
+    "Millie's Cookies",
+    "Bob Evans",
+    "Perkins",
+    "Golden Corral",
+    "Ponderosa",
+    "Bonanza",
+    "Sizzler",
+    "Ruby Tuesday",
+    "Red Robin",
+    "Bonefish Grill",
+    "Carrabba's",
+    "Maggiano's",
+    "Cheddar's",
+    "Chuy's",
+    "On the Border",
+    "Cici's",
+    "Marco's Pizza",
+    "Papa Murphy's",
+    "Round Table Pizza",
+    "Godfather's Pizza",
+    "Hungry Howie's",
+    "Sbarro",
+    "Zaxby's",
+    "Raising Cane's",
+    "Bojangles",
+    "Church's Chicken",
+    "El Pollo Loco",
+    "Del Taco",
+    "Qdoba",
+    "Moe's Southwest Grill",
+    "Taco John's",
+    "Whataburger",
+    "Culver's",
+    "Steak 'n Shake",
+    "A&W",
+    "Krystal",
+    "Checkers",
+    "Rally's",
+    "Fatburger",
+    "Smashburger",
+    "Freddy's",
+    "Long John Silver's",
+    "Captain D's",
+    "Boston Market",
+    "Roy Rogers",
+    "Howard Johnson's",
+    "Chi-Chi's",
+    "Bennigan's",
+    "Shoney's",
+    "Friendly's",
+    "Big Boy",
+    "Jollibee",
+    "Pollo Campero",
+    "P.F. Chang's",
+    "Benihana",
+    "Joe's Crab Shack",
+    "Johnny Rockets",
+    "Fuddruckers",
+    "Nathan's Famous",
+    "Wienerschnitzel",
+    "Wetzel's Pretzels",
+    "Turtle Bay",
+    "Flat Iron",
+    "Hawksmoor",
+    "Gaucho",
+    "Busaba",
+    "Rosa's Thai",
+    "Pho",
+    "Banana Tree",
+    "Las Iguanas",
+    "Burger & Lobster",
+    "Patty & Bun",
+    "MEATliquor",
+    "Franco Manca",
+    "Benjys",
+    "Ben's Cookies",
+    "Happy Eater",
+    "Berni Inn",
+    "Angus Steakhouse",
+    "Aberdeen Steak Houses",
+    "Perfect Fried Chicken",
+    "Brasserie Blanc",
+    "Jamie's Italian",
+    "Cosy Club",
+    "Pollo Tropical",
+    "Blimpie",
+    "Schlotzsky's",
+    "Arthur Treacher's",
+    "Pizza Inn",
+    "Peter Piper Pizza",
+    "Longhorn Steakhouse",
+    "Black Angus",
+    "Kenny Rogers Roasters",
+    "Twin Peaks",
+    "Rainforest Cafe",
+    "California Pizza Kitchen",
+    "Tony Roma's"
+   ],
+   "deep": [
+    "Burger Chef",
+    "Red Barn",
+    "Henry's Hamburgers",
+    "Koo Koo Roo",
+    "Lone Star Steakhouse",
+    "Logan's Roadhouse",
+    "Steak and Ale",
+    "Beefsteak Charlie's",
+    "Bill Knapp's",
+    "Carrows",
+    "Furr's",
+    "Hamburger Hamlet",
+    "K&W Cafeterias",
+    "Morrison's Cafeteria",
+    "Royal Castle",
+    "Smokey Bones",
+    "ShowBiz Pizza Place",
+    "York Steak House",
+    "Zoës Kitchen",
+    "Lyon's",
+    "Fresh Choice",
+    "Sweet Tomatoes",
+    "Luby's",
+    "Piccadilly",
+    "Marie Callender's",
+    "Village Inn",
+    "Huddle House",
+    "Coco's",
+    "Bella Pasta",
+    "Dickey's Barbecue Pit",
+    "Mission BBQ",
+    "Cava",
+    "Sweetgreen",
+    "Salad and Go",
+    "Torchy's Tacos",
+    "Taco Cabana",
+    "Taco Bueno",
+    "Taco Time",
+    "Taco Tico",
+    "Del Frisco's"
+   ],
+   "outlier": [
+    "Naugles",
+    "Druther's",
+    "Hot 'n Now",
+    "Chicago Rock Cafe",
+    "Bugaboo Creek"
+   ]
+  },
+  "alias": {
+   "McDonald's": [
+    "McDonalds",
+    "Maccies",
+    "Maccy D's",
+    "Macca's",
+    "Maccas",
+    "Mickey D's"
+   ],
+   "KFC": [
+    "Kentucky Fried Chicken"
+   ],
+   "Burger King": [
+    "BK"
+   ],
+   "Domino's": [
+    "Dominos",
+    "Domino's Pizza"
+   ],
+   "Pizza Hut": [
+    "Pizza Hut Restaurants"
+   ],
+   "Nando's": [
+    "Nandos"
+   ],
+   "Papa John's": [
+    "Papa Johns"
+   ],
+   "Five Guys": [
+    "Five Guys Burgers and Fries"
+   ],
+   "Pret A Manger": [
+    "Pret",
+    "Pret a Manger"
+   ],
+   "Pizza Express": [
+    "PizzaExpress"
+   ],
+   "Chipotle": [
+    "Chipotle Mexican Grill"
+   ],
+   "Chick-fil-A": [
+    "Chick fil A",
+    "Chickfila"
+   ],
+   "Popeyes": [
+    "Popeye's",
+    "Popeyes Louisiana Kitchen"
+   ],
+   "Dairy Queen": [
+    "DQ"
+   ],
+   "In-N-Out Burger": [
+    "In-N-Out",
+    "In N Out"
+   ],
+   "Sonic": [
+    "Sonic Drive-In"
+   ],
+   "Carl's Jr.": [
+    "Carl's Junior",
+    "Carls Jr"
+   ],
+   "Applebee's": [
+    "Applebees"
+   ],
+   "Chili's": [
+    "Chilis"
+   ],
+   "IHOP": [
+    "International House of Pancakes"
+   ],
+   "Outback Steakhouse": [
+    "Outback"
+   ],
+   "TGI Fridays": [
+    "TGI Friday's",
+    "Fridays",
+    "Friday's",
+    "T.G.I. Friday's"
+   ],
+   "Hard Rock Cafe": [
+    "Hard Rock Café",
+    "Hard Rock"
+   ],
+   "Toby Carvery": [
+    "Toby"
+   ],
+   "Frankie & Benny's": [
+    "Frankie and Benny's",
+    "Frankie and Bennys"
+   ],
+   "Dunkin'": [
+    "Dunkin Donuts",
+    "Dunkin' Donuts",
+    "Dunkin"
+   ],
+   "Panera Bread": [
+    "Panera"
+   ],
+   "Buffalo Wild Wings": [
+    "BWW",
+    "B-Dubs"
+   ],
+   "Chuck E. Cheese's": [
+    "Chuck E Cheese",
+    "Chuck E. Cheese",
+    "Chuck E Cheese's"
+   ],
+   "Little Caesars": [
+    "Little Caesar's"
+   ],
+   "Tim Hortons": [
+    "Tim Horton's"
+   ],
+   "Yo! Sushi": [
+    "Yo Sushi"
+   ],
+   "Gourmet Burger Kitchen": [
+    "GBK"
+   ],
+   "Jersey Mike's": [
+    "Jersey Mikes"
+   ],
+   "EAT": [
+    "Eat."
+   ],
+   "Côte": [
+    "Cote",
+    "Cote Brasserie"
+   ],
+   "Café Rouge": [
+    "Cafe Rouge"
+   ],
+   "Pizzaland": [
+    "Pizza Land"
+   ],
+   "Harry Ramsden's": [
+    "Harry Ramsdens"
+   ],
+   "Bob Evans": [
+    "Bob Evans Restaurants"
+   ],
+   "Round Table Pizza": [
+    "Round Table"
+   ],
+   "Godfather's Pizza": [
+    "Godfathers Pizza"
+   ],
+   "Church's Chicken": [
+    "Church's",
+    "Churchs Chicken",
+    "Texas Chicken"
+   ],
+   "Moe's Southwest Grill": [
+    "Moe's"
+   ],
+   "Steak 'n Shake": [
+    "Steak n Shake",
+    "Steak and Shake"
+   ],
+   "A&W": [
+    "A and W",
+    "A&W Restaurants"
+   ],
+   "Rally's": [
+    "Rallys"
+   ],
+   "Big Boy": [
+    "Bob's Big Boy",
+    "Big Boy Restaurants"
+   ],
+   "P.F. Chang's": [
+    "PF Chang's",
+    "PF Changs",
+    "P.F. Changs"
+   ],
+   "Joe's Crab Shack": [
+    "Joes Crab Shack"
+   ],
+   "Nathan's Famous": [
+    "Nathan's",
+    "Nathans Famous"
+   ],
+   "Wetzel's Pretzels": [
+    "Wetzels Pretzels",
+    "Wetzel's"
+   ],
+   "Honest Burgers": [
+    "Honest"
+   ],
+   "Burger & Lobster": [
+    "Burger and Lobster"
+   ],
+   "Patty & Bun": [
+    "Patty and Bun"
+   ],
+   "Franco Manca": [
+    "Franco Mancas"
+   ],
+   "Jamie's Italian": [
+    "Jamies Italian"
+   ],
+   "Sweet Tomatoes": [
+    "Souplantation",
+    "Souplantation and Sweet Tomatoes"
+   ],
+   "Lyon's": [
+    "Lyons Restaurants"
+   ],
+   "Hot 'n Now": [
+    "Hot N Now"
+   ],
+   "Naugles": [
+    "Naugle's"
+   ],
+   "Druther's": [
+    "Druthers"
+   ],
+   "Zoës Kitchen": [
+    "Zoe's Kitchen",
+    "Zoes Kitchen"
+   ],
+   "Cheesecake Factory": [
+    "The Cheesecake Factory"
+   ],
+   "Rainforest Cafe": [
+    "Rainforest Café"
+   ],
+   "Cici's": [
+    "Cicis Pizza",
+    "Cici's Pizza"
+   ],
+   "Del Frisco's": [
+    "Del Friscos"
+   ],
+   "Marie Callender's": [
+    "Marie Callenders"
+   ],
+   "Piccadilly": [
+    "Piccadilly Cafeterias"
+   ],
+   "Luby's": [
+    "Lubys"
+   ],
+   "Longhorn Steakhouse": [
+    "LongHorn Steakhouse",
+    "Longhorn"
+   ],
+   "Coco's": [
+    "Cocos"
+   ],
+   "Wendy's": [
+    "Wendys"
+   ],
+   "Arby's": [
+    "Arbys"
+   ],
+   "Hardee's": [
+    "Hardees"
+   ],
+   "Denny's": [
+    "Dennys"
+   ]
+  },
+  "traps": {
+   "Starbucks": "A coffee-shop chain.",
+   "Costa": "A coffee-shop chain.",
+   "Caffè Nero": "A coffee-shop chain.",
+   "Baskin-Robbins": "An ice-cream chain.",
+   "Tesco": "A supermarket, not a restaurant chain."
+  },
+  "fact": "Little Chef's British founder, Sam Alper, got the idea after spotting a Little Chef diner in Leedey, Oklahoma, in 1958."
+ },
+ {
+  "id": "cul-pop-british-sitcoms",
+  "cat": "TV & film",
+  "title": "Laugh track",
+  "q": "A British sitcom",
+  "rule": "Situation comedies made in the UK, including long-running and one-series shows; sketch shows and comedy-dramas don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Only Fools and Horses",
+    "Fawlty Towers",
+    "Blackadder",
+    "Office",
+    "Dad's Army",
+    "Gavin & Stacey"
+   ],
+   "hipster": [
+    "Father Ted",
+    "Peep Show"
+   ],
+   "body": [
+    "Porridge",
+    "Red Dwarf",
+    "Vicar of Dibley",
+    "Keeping Up Appearances",
+    "One Foot in the Grave",
+    "Absolutely Fabulous",
+    "Open All Hours",
+    "Last of the Summer Wine",
+    "Are You Being Served?",
+    "'Allo 'Allo!",
+    "Hi-de-Hi!",
+    "Rising Damp",
+    "Good Life",
+    "Men Behaving Badly",
+    "Inbetweeners",
+    "Miranda",
+    "IT Crowd",
+    "Black Books",
+    "Not Going Out",
+    "Outnumbered",
+    "Friday Night Dinner",
+    "Mrs. Brown's Boys",
+    "Benidorm",
+    "My Family",
+    "Birds of a Feather",
+    "Bread",
+    "Steptoe and Son",
+    "Till Death Us Do Part",
+    "On the Buses",
+    "Phoenix Nights",
+    "Royle Family",
+    "Spaced",
+    "Extras",
+    "Green Wing",
+    "Young Ones",
+    "Bottom",
+    "Yes Minister",
+    "Derry Girls",
+    "Ghosts",
+    "Motherland",
+    "Detectorists",
+    "Still Game",
+    "Rab C. Nesbitt",
+    "Hancock's Half Hour",
+    "Terry and June",
+    "Mr. Bean",
+    "Thick of It",
+    "Brittas Empire",
+    "Drop the Dead Donkey"
+   ],
+   "tail": [
+    "It Ain't Half Hot Mum",
+    "Some Mothers Do 'Ave 'Em",
+    "Citizen Smith",
+    "Man About the House",
+    "George and Mildred",
+    "Robin's Nest",
+    "Love Thy Neighbour",
+    "Mind Your Language",
+    "Please Sir!",
+    "Nearest and Dearest",
+    "Likely Lads",
+    "Whatever Happened to the Likely Lads?",
+    "Liver Birds",
+    "Butterflies",
+    "To the Manor Born",
+    "Ever Decreasing Circles",
+    "Fresh Fields",
+    "Just Good Friends",
+    "Dear John",
+    "Duty Free",
+    "Sorry!",
+    "Waiting for God",
+    "May to December",
+    "As Time Goes By",
+    "Goodnight Sweetheart",
+    "2point4 Children",
+    "Thin Blue Line",
+    "Game On",
+    "Gimme Gimme Gimme",
+    "Coupling",
+    "Joking Apart",
+    "Early Doors",
+    "Dinnerladies",
+    "Two Pints of Lager and a Packet of Crisps",
+    "Bad Education",
+    "Fresh Meat",
+    "Cuckoo",
+    "Uncle",
+    "Vicious",
+    "Upstart Crow",
+    "Rev.",
+    "Catastrophe",
+    "Man Down",
+    "Hebburn",
+    "Citizen Khan",
+    "Bluestone 42",
+    "W1A",
+    "Twenty Twelve",
+    "Him & Her",
+    "Plebs",
+    "Toast of London",
+    "Stath Lets Flats",
+    "This Country",
+    "People Just Do Nothing",
+    "Windsors",
+    "Two Doors Down",
+    "Count Arthur Strong",
+    "Big School",
+    "Blandings",
+    "Boomers",
+    "Drifters",
+    "Lead Balloon",
+    "Getting On",
+    "Nighty Night",
+    "Saxondale",
+    "Pulling",
+    "Yes, Prime Minister",
+    "I'm Alan Partridge",
+    "Mighty Boosh",
+    "Nathan Barley",
+    "Brush Strokes",
+    "Filthy Rich & Catflap",
+    "Reginald Perrin",
+    "Chef!",
+    "New Statesman",
+    "Bless This House",
+    "Army Game",
+    "Bootsie and Snudge",
+    "Whack-O!",
+    "Rag Trade",
+    "Doctor in the House",
+    "Up Pompeii!",
+    "Cleaner",
+    "Here We Go",
+    "Mammoth",
+    "Kate & Koji",
+    "Sandylands",
+    "Peacock",
+    "Peter Kay's Car Share",
+    "Mum"
+   ],
+   "deep": [
+    "Meet the Wife",
+    "Marriage Lines",
+    "Pardon the Expression",
+    "Father, Dear Father",
+    "Brothers in Law",
+    "Citizen James",
+    "Hugh and I",
+    "Larkins",
+    "Life with the Lyons",
+    "Sykes",
+    "Beggar My Neighbour",
+    "George and the Dragon",
+    "Curry and Chips",
+    "Dustbinmen",
+    "Never Mind the Quality, Feel the Width",
+    "Me Mammy",
+    "All Gas and Gaiters",
+    "Not in Front of the Children",
+    "Agony",
+    "Alcock and Gander",
+    "Bachelor Father",
+    "Backs to the Land",
+    "Bless Me, Father",
+    "Bowler",
+    "Chalk and Cheese",
+    "Cuckoo Waltz",
+    "Doctor at Large",
+    "For the Love of Ada",
+    "Get Some In!",
+    "Going Straight",
+    "I Didn't Know You Cared",
+    "In Loving Memory",
+    "Leave it to Charlie",
+    "Lollipop Loves Mr Mole",
+    "Miss Jones and Son",
+    "Mixed Blessings",
+    "My Wife Next Door",
+    "Never the Twain",
+    "No, Honestly",
+    "Not On Your Nellie",
+    "Oh No It's Selwyn Froggitt",
+    "Only When I Laugh",
+    "Potter",
+    "Rings on Their Fingers",
+    "Romany Jones",
+    "Shelley",
+    "Thick as Thieves",
+    "Two's Company",
+    "Yes, Honestly",
+    "Rosie",
+    "Spooner's Patch",
+    "Fosters",
+    "Fenn Street Gang",
+    "Happy Ever After",
+    "Fine Romance",
+    "After Henry",
+    "Andy Capp",
+    "Astronauts",
+    "Chance in a Million",
+    "Don't Wait Up",
+    "Girls on Top",
+    "Hallelujah!",
+    "Hot Metal",
+    "In Sickness and in Health",
+    "Surgical Spirit",
+    "Tandoori Nights",
+    "That's Love",
+    "Watching",
+    "You Rang, M'Lord?",
+    "Up the Elephant and Round the Castle",
+    "Home to Roost",
+    "Hardwicke House",
+    "Mog",
+    "Singles",
+    "High & Dry",
+    "Full House",
+    "Bottle Boys",
+    "Bounder",
+    "Colin's Sandwich",
+    "Comrade Dad",
+    "Executive Stress",
+    "Life Without George",
+    "Me and My Girl",
+    "No Place Like Home",
+    "Now and Then",
+    "Roll Over Beethoven",
+    "Square Deal",
+    "Sink or Swim",
+    "Take a Letter, Mr. Jones",
+    "10%ers",
+    "Babes in the Wood",
+    "Barbara",
+    "Blue Heaven",
+    "Bonjour la Classe",
+    "Brighton Belles",
+    "Captain Butler",
+    "Desmond's",
+    "Dr Willoughby",
+    "Dressing for Breakfast",
+    "Duck Patrol",
+    "Freddie and Max",
+    "Get Back",
+    "Get Real",
+    "Grace & Favour",
+    "Hippies",
+    "Honey for Tea",
+    "How Do You Want Me?",
+    "Keeping Mum",
+    "Kiss Me Kate",
+    "Luv",
+    "Married for Life",
+    "Men of the World",
+    "Mother's Ruin",
+    "Mrs Merton and Malcolm",
+    "Mulberry",
+    "My Good Friend",
+    "My Wonderful Life",
+    "Nelson's Column",
+    "Next of Kin",
+    "Nightingales",
+    "No Job for a Lady",
+    "On the Up",
+    "Packet of Three",
+    "Peter Principle",
+    "Piglet Files",
+    "Pilgrim's Rest",
+    "Plaza Patrol",
+    "Prince Among Men",
+    "Satellite City",
+    "Second Thoughts",
+    "Sitting Pretty",
+    "So Haunt Me",
+    "Stressed Eric",
+    "Terry and Julian",
+    "Time After Time",
+    "Trouble in Mind",
+    "Upper Hand",
+    "Us Girls",
+    "Very Big Very Soon",
+    "Dark Ages",
+    "Hope It Rains",
+    "Holding the Baby",
+    "Angelo's",
+    "After You've Gone",
+    "All About George",
+    "All About Me",
+    "Baddiel's Syndrome",
+    "Big Top",
+    "Carrie & Barry",
+    "Catterick",
+    "Chambers",
+    "Crouches",
+    "Dead Man Weds",
+    "Doctors and Nurses",
+    "Ed Stone Is Dead",
+    "Estate Agents",
+    "Feel the Force",
+    "FM",
+    "Free Agents",
+    "Freezing",
+    "Gary: Tank Commander",
+    "Genie in the House",
+    "Grass",
+    "Happiness",
+    "Hardware",
+    "Having It Off",
+    "High Stakes",
+    "Home Again",
+    "How Not to Live Your Life",
+    "Hyperdrive",
+    "I'm with Stupid",
+    "Jam & Jerusalem",
+    "Jinx",
+    "Kerching!",
+    "Last Chancers",
+    "Life of Riley",
+    "Lunch Monkeys",
+    "Mad About Alice",
+    "Massive",
+    "Max and Paddy's Road to Nowhere",
+    "Meet the Magoons",
+    "Mike Bassett: Manager",
+    "Mumbai Calling",
+    "My Dad's the Prime Minister",
+    "Never Better",
+    "No Heroics",
+    "Office Gossip",
+    "Old Guys",
+    "Parents of the Band",
+    "Pay and Display",
+    "Plus One",
+    "Respectable",
+    "Rhona",
+    "Roman's Empire",
+    "Shane",
+    "Smoking Room",
+    "Swiss Toni",
+    "Taking the Flak",
+    "Teenage Kicks",
+    "Thieves Like Us",
+    "Thin Ice",
+    "TLC",
+    "Trevor's World of Sport",
+    "World of Pub",
+    "Worst Week of My Life"
+   ],
+   "outlier": [
+    "Heil Honey I'm Home!",
+    "Kinvig",
+    "Trexx and Flipside",
+    "Popetown",
+    "Gnomes of Dulwich"
+   ]
+  },
+  "alias": {
+   "Office": [
+    "The Office",
+    "The Office UK"
+   ],
+   "Gavin & Stacey": [
+    "Gavin and Stacey"
+   ],
+   "Only Fools and Horses": [
+    "Only Fools & Horses",
+    "Only Fools"
+   ],
+   "Blackadder": [
+    "The Black Adder",
+    "Black Adder",
+    "Blackadder II",
+    "Blackadder the Third",
+    "Blackadder Goes Forth"
+   ],
+   "Vicar of Dibley": [
+    "The Vicar of Dibley"
+   ],
+   "Good Life": [
+    "The Good Life",
+    "Good Neighbors"
+   ],
+   "Inbetweeners": [
+    "The Inbetweeners"
+   ],
+   "IT Crowd": [
+    "The IT Crowd"
+   ],
+   "Royle Family": [
+    "The Royle Family"
+   ],
+   "Young Ones": [
+    "The Young Ones"
+   ],
+   "Thick of It": [
+    "The Thick of It"
+   ],
+   "Brittas Empire": [
+    "The Brittas Empire"
+   ],
+   "Liver Birds": [
+    "The Liver Birds"
+   ],
+   "Likely Lads": [
+    "The Likely Lads"
+   ],
+   "Windsors": [
+    "The Windsors"
+   ],
+   "Mighty Boosh": [
+    "The Mighty Boosh"
+   ],
+   "Thin Blue Line": [
+    "The Thin Blue Line"
+   ],
+   "Rag Trade": [
+    "The Rag Trade"
+   ],
+   "Army Game": [
+    "The Army Game"
+   ],
+   "New Statesman": [
+    "The New Statesman"
+   ],
+   "Cleaner": [
+    "The Cleaner"
+   ],
+   "'Allo 'Allo!": [
+    "Allo Allo",
+    "'Allo 'Allo"
+   ],
+   "Hi-de-Hi!": [
+    "Hi De Hi"
+   ],
+   "Last of the Summer Wine": [
+    "Summer Wine"
+   ],
+   "Mrs. Brown's Boys": [
+    "Mrs Brown's Boys"
+   ],
+   "Absolutely Fabulous": [
+    "Ab Fab",
+    "AbFab"
+   ],
+   "Yes Minister": [
+    "Yes, Minister"
+   ],
+   "Yes, Prime Minister": [
+    "Yes Prime Minister"
+   ],
+   "Reginald Perrin": [
+    "The Fall and Rise of Reginald Perrin",
+    "Reggie Perrin",
+    "Fall and Rise of Reginald Perrin"
+   ],
+   "Rev.": [
+    "Rev"
+   ],
+   "Two Pints of Lager and a Packet of Crisps": [
+    "Two Pints"
+   ],
+   "I'm Alan Partridge": [
+    "Alan Partridge"
+   ],
+   "Fine Romance": [
+    "A Fine Romance"
+   ],
+   "Prince Among Men": [
+    "A Prince Among Men"
+   ],
+   "Crouches": [
+    "The Crouches"
+   ],
+   "Larkins": [
+    "The Larkins"
+   ],
+   "Dustbinmen": [
+    "The Dustbinmen"
+   ],
+   "Cuckoo Waltz": [
+    "The Cuckoo Waltz"
+   ],
+   "Fosters": [
+    "The Fosters"
+   ],
+   "Fenn Street Gang": [
+    "The Fenn Street Gang"
+   ],
+   "Brighton Belles": [
+    "The Brighton Belles"
+   ],
+   "Peter Principle": [
+    "The Peter Principle"
+   ],
+   "Piglet Files": [
+    "The Piglet Files"
+   ],
+   "Upper Hand": [
+    "The Upper Hand"
+   ],
+   "Last Chancers": [
+    "The Last Chancers"
+   ],
+   "Gnomes of Dulwich": [
+    "The Gnomes of Dulwich"
+   ],
+   "10%ers": [
+    "The 10%ers",
+    "Ten Percenters"
+   ],
+   "Mike Bassett: Manager": [
+    "Mike Bassett"
+   ],
+   "Gary: Tank Commander": [
+    "Gary Tank Commander"
+   ],
+   "Dinnerladies": [
+    "Dinner Ladies"
+   ],
+   "Peter Kay's Car Share": [
+    "Car Share"
+   ],
+   "Mr. Bean": [
+    "Mr Bean",
+    "Mister Bean"
+   ],
+   "Bounder": [
+    "The Bounder"
+   ],
+   "Smoking Room": [
+    "The Smoking Room"
+   ],
+   "Estate Agents": [
+    "The Estate Agents"
+   ],
+   "Old Guys": [
+    "The Old Guys"
+   ],
+   "Bless Me, Father": [
+    "Bless Me Father"
+   ]
+  },
+  "traps": {
+   "Shameless": "A comedy-drama, not a sitcom.",
+   "Little Britain": "A sketch show, not a sitcom.",
+   "Fleabag": "A comedy-drama, not a sitcom.",
+   "Friends": "An American sitcom.",
+   "Teachers": "A comedy-drama, not a sitcom."
+  },
+  "fact": "Heil Honey I'm Home!, a 1990 sitcom that put Hitler and Eva Braun in suburban sitcom land, was axed after just one of its eight episodes aired."
+ }
+]
