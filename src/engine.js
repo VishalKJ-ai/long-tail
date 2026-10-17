@@ -292,13 +292,14 @@
     return (h.toString(36) + h2.toString(36)).padStart(len, "0").slice(-len);
   }
 
-  // Collector grades. Daily max is 3,150 (seven All-in Legendaries); a careful Safe player lands near 300.
+  // Collector grades for a daily score. Banking each card's first answer lands most players at 150 to 350;
+  // digging for multipliers is how you climb.
   const BANDS = [
-    [2000, "Gem mint"],
-    [1400, "Grail"],
-    [900, "Chase card"],
-    [550, "Staple"],
-    [300, "Playable"],
+    [1800, "Gem mint"],
+    [1100, "Grail"],
+    [650, "Chase card"],
+    [350, "Staple"],
+    [150, "Playable"],
     [0, "Bulk"],
   ];
   const band = (score) => BANDS.find(([min]) => score >= min)[1];

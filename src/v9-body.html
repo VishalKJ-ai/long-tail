@@ -1,0 +1,1336 @@
+
+<div class="wrap">
+  <header class="top">
+    <button class="mark-word holo-text" id="home-link" aria-label="Long Tail, back to start" type="button"></button>
+    <div class="top-right">
+      <div class="top-stats" id="top-stats"></div>
+      <button class="navbtn" id="btn-sound" type="button" aria-pressed="true">Sound on</button>
+      <button class="navlink" id="nav-collection" type="button">Binder</button>
+    </div>
+  </header>
+
+  <!-- HOME -->
+  <main id="home" data-screen class="stack">
+    <section class="hero">
+      <div class="banner" id="challenge-banner" hidden>
+        <p class="eyebrow">You've been challenged</p>
+        <p class="big" id="challenge-title"></p>
+        <p class="muted" id="challenge-sub"></p>
+        <div class="row"><button class="btn primary" id="btn-challenge" type="button">Accept the challenge</button><button class="btn quiet" id="btn-challenge-x" type="button">Not now</button></div>
+      </div>
+      <div class="fan" id="fan" aria-hidden="true"></div>
+      <p class="eyebrow" id="home-eyebrow">Daily draw</p>
+      <h1>Say the answer <span class="holo-text">nobody else</span> would.</h1>
+      <p>Seven cards a day. Name anything that fits. Rare answers score big, and then it's your call: bank the points, or dig deeper for double.</p>
+      <div id="home-done" class="done-note" hidden></div>
+      <div class="cta">
+        <button class="btn primary" id="btn-daily" type="button">Play today's cards</button>
+        <button class="btn" id="btn-endless" type="button">Endless</button>
+      </div>
+      <div id="endless-panel" class="stack panel" hidden>
+        <p class="small muted">One shared clock. Every correct answer buys time, and rarer answers buy more. Pick a topic:</p>
+        <div class="endless-pick" id="endless-pick" role="group" aria-label="Topic for the endless run"></div>
+        <div><button class="btn primary" id="btn-endless-go" type="button">Start the run</button></div>
+      </div>
+      <p class="small muted" id="home-coll"></p>
+    </section>
+
+    <section class="panel stack" aria-labelledby="how-h">
+      <p class="eyebrow" id="how-h">How to play</p>
+      <ol class="steps">
+        <li><span class="n">Step 1</span><b>Answer</b><p>Name anything that fits the card. You have 60 seconds, and close spellings get a “did you mean?”.</p></li>
+        <li><span class="n">Step 2</span><b>See the rarity</b><p>Your answer is stamped with how rare it is. Common answers score 10. Legendary ones score 150.</p></li>
+        <li><span class="n">Step 3</span><b>Bank or dig</b><p>Keep the points, or name something rarer for ×2, then ×3. Run out of time while digging and the card scores nothing.</p></li>
+      </ol>
+      <ul class="tierrow" id="tier-row"></ul>
+    </section>
+
+    <section class="panel stack" aria-labelledby="past-h" id="past-panel">
+      <p class="eyebrow" id="past-h">Past draws</p>
+      <ul class="past" id="past-list"></ul>
+      <p class="small muted">Past draws don't count towards your streak.</p>
+    </section>
+
+    <p class="foot" id="foot"></p>
+  </main>
+
+  <!-- PLAY -->
+  <main id="play" data-screen class="stack" hidden>
+    <div class="play-top">
+      <div class="ticks" id="ticks" aria-hidden="true"></div>
+      <div class="score-pill"><span class="eyebrow" id="play-status"></span><span class="play-score" id="play-score">0</span></div>
+    </div>
+    <div class="coach" id="coach" hidden aria-live="polite"><p class="eyebrow"></p><p></p><button class="btn primary" type="button" hidden></button></div>
+    <article class="card" id="card"></article>
+    <div class="round" id="round-panel">
+      <div class="clock" id="clock">
+        <div class="clock-bar"><div class="clock-fill" id="clock-fill"></div></div>
+        <div class="clock-num" id="clock-num" aria-hidden="true">60.0</div>
+      </div>
+      <div class="holding" id="holding" hidden></div>
+      <form class="answer" id="answer-form" autocomplete="off">
+        <label for="answer-input" style="position:absolute;left:-9999px">Your answer</label>
+        <input id="answer-input" type="text" placeholder="Type an answer" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go">
+        <button class="btn primary" type="submit">Go</button>
+      </form>
+      <div class="decide" id="decide" hidden>
+        <button class="btn primary" id="btn-bank" type="button"></button>
+        <button class="btn dig" id="btn-dig" type="button"></button>
+        <p class="decide-note" id="decide-note"></p>
+      </div>
+      <div class="confirm" id="confirm" hidden role="group" aria-labelledby="confirm-q">
+        <p id="confirm-q"></p>
+        <div class="row" style="gap:8px">
+          <button class="btn primary" id="confirm-yes" type="button">Yes</button>
+          <button class="btn" id="confirm-no" type="button">No</button>
+        </div>
+      </div>
+      <p class="ask" id="ask" hidden aria-live="polite"></p>
+      <p class="hintline" id="hintline" hidden aria-live="polite"></p>
+      <div class="toast" id="toast" aria-live="polite"></div>
+      <ul class="named" id="named" hidden aria-live="polite"></ul>
+      <ul class="misses" id="misses" aria-live="polite"></ul>
+      <div class="after" id="after" hidden aria-live="polite"></div>
+    </div>
+    <div class="play-foot" id="play-foot">
+      <p class="small muted" id="play-hint"></p>
+      <div class="row" style="gap:8px"><button class="btn quiet" id="btn-hint" type="button">Hint</button><button class="btn quiet" id="btn-pass" type="button">Pass</button></div>
+    </div>
+  </main>
+
+  <!-- RESULTS -->
+  <main id="results" data-screen class="stack" hidden>
+    <div class="hand" id="res-hand" aria-hidden="true"></div>
+    <section class="panel stack">
+      <p class="eyebrow" id="res-eyebrow"></p>
+      <div class="score-line">
+        <span class="score-big" id="res-score"></span>
+        <span class="score-of">pts</span>
+      </div>
+      <h2 id="res-band"></h2>
+      <div class="versus" id="res-versus" hidden></div>
+      <div class="res-grid" id="res-grid" aria-hidden="true"></div>
+      <div class="stack" style="gap:10px">
+        <p class="eyebrow">Share and challenge</p>
+        <div class="share-name"><label for="share-name" class="small muted">Your name on the challenge (optional)</label><input id="share-name" type="text" maxlength="24" placeholder="e.g. Vishal" autocomplete="nickname"></div>
+        <textarea id="share-text" class="share" readonly aria-label="Your result and challenge link"></textarea>
+        <div class="row"><button class="btn primary" id="btn-share" type="button">Challenge a friend</button><button class="btn" id="btn-copy" type="button">Copy result</button><span class="small muted" id="copy-note" aria-live="polite"></span></div>
+      </div>
+    </section>
+    <section class="panel stack">
+      <p class="eyebrow">Your cards · tap one for every answer</p>
+      <div id="res-list"></div>
+    </section>
+    <section class="statgrid" id="res-stats"></section>
+    <div class="row">
+      <button class="btn primary" id="btn-res-endless" type="button">Play Endless</button>
+      <button class="btn" id="btn-res-coll" type="button">Open binder</button>
+      <button class="btn" id="btn-res-home" type="button">Back to start</button>
+    </div>
+  </main>
+
+  <!-- RUN OVER (endless and hunt) -->
+  <main id="over" data-screen class="stack" hidden>
+    <section class="panel stack">
+      <p class="eyebrow" id="over-eyebrow">Endless run</p>
+      <div class="score-line">
+        <span class="score-big" id="over-score"></span>
+        <span class="score-of" id="over-of"></span>
+      </div>
+      <p id="over-best"></p>
+      <ul class="shelf" id="over-list" hidden></ul>
+      <p class="small muted" id="over-left" hidden></p>
+      <div class="tbl-wrap" id="over-table">
+        <table>
+          <thead><tr><th>Card</th><th>You played</th><th style="text-align:right">Pts</th></tr></thead>
+          <tbody id="over-rows"></tbody>
+        </table>
+      </div>
+    </section>
+    <div class="row">
+      <button class="btn primary" id="btn-again" type="button">Run again</button>
+      <button class="btn" id="btn-over-coll" type="button">Open binder</button>
+      <button class="btn" id="btn-over-home" type="button">Back to start</button>
+    </div>
+  </main>
+
+  <!-- BINDER -->
+  <main id="collection" data-screen class="stack" hidden>
+    <section class="panel stack">
+      <p class="eyebrow">Your binder</p>
+      <div class="score-line">
+        <span class="score-big" id="coll-found"></span>
+        <span class="score-of" id="coll-of"></span>
+      </div>
+      <p class="muted">Every correct answer you give, in any mode, goes in your binder. Hunt a card to fill its page faster: 60 seconds, as many answers as you can name.</p>
+      <div class="tier-tally" id="coll-tally"></div>
+    </section>
+    <section class="panel stack">
+      <h3>Grails</h3>
+      <p class="small muted">Your Epic and Legendary pulls.</p>
+      <ul class="shelf" id="coll-shelf"></ul>
+    </section>
+    <section class="panel stack" id="coll-groups"></section>
+  </main>
+</div>
+
+<div class="fx" id="fx" aria-hidden="true"></div>
+<div class="celebrate" id="celebrate" hidden role="dialog" aria-modal="true" aria-labelledby="cel-title">
+  <div class="burst" id="cel-burst" aria-hidden="true"></div>
+  <div class="inner">
+    <p class="eyebrow" id="cel-eyebrow"></p>
+    <div class="cel-card" id="cel-card"></div>
+    <p class="cel-title" id="cel-title"></p>
+    <p class="cel-sub" id="cel-sub"></p>
+    <button class="btn primary" id="cel-ok" type="button">Into the binder</button>
+  </div>
+</div>
+
+<script>
+/*__ENGINE__*/
+</script>
+<script>
+const PROMPTS = /*__PROMPTS__*/[];
+(function () {
+  "use strict";
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const { TIERS, TIER } = LT;
+  const TIER_IDX = Object.fromEntries(TIERS.map((t, i) => [t.key, i]));
+  const BY_ID = Object.fromEntries(PROMPTS.map((p) => [p.id, p]));
+  LT.setLexicon(new Set(PROMPTS.flatMap((p) => TIERS.flatMap((t) => p.tiers[t.key] || []).flatMap((n) => [n, ...((p.alias && p.alias[n]) || [])])).map(LT.key)));
+  const ORDER = PROMPTS.map((p) => p.id).sort();
+  const SETCODE = { geo: "GEO", sci: "SCI", cul: "CUL", spo: "SPO", his: "HIS" };
+  const collNo = (p) => `${SETCODE[LT.groupOf(p)] || "LT"} ${String(ORDER.indexOf(p.id) + 1).padStart(3, "0")}/${String(ORDER.length).padStart(3, "0")}`;
+  const LAUNCH = Date.UTC(2026, 9, 7) / 864e5;
+  const today = () => Math.floor(Date.now() / 864e5);
+  const CARD_MS = 60000, PENALTY_MS = 2000, NOT_RARER_MS = 3000, ENDLESS_MS = 60000, SKIP_MS = 3000, HUNT_MS = 60000, HINT_MS = 5000;
+  const LEVEL_NAME = { 1: "Easy", 2: "Medium", 3: "Hard" };
+  const ODDS = {
+    head: "Most players say this",
+    hipster: "The clever answer lots of people give",
+    body: "About 1 in 10 players (est.)",
+    tail: "About 1 in 30 players (est.)",
+    deep: "About 1 in 100 players (est.)",
+    outlier: "Almost nobody says this (est.)",
+  };
+  const REDUCED = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  const EMBLEM = `<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="5" width="4.5" height="22" rx="1" fill="#C9C2D6"/><rect x="9.5" y="12" width="4.5" height="15" rx="1" fill="#34C47C"/><rect x="15" y="18" width="4.5" height="9" rx="1" fill="#4A8BFF"/><rect x="20.5" y="21.5" width="3.5" height="5.5" rx="1" fill="#A86BFF"/><rect x="25" y="23.5" width="3.5" height="3.5" rx="1" fill="#FFB13B"/></svg>`;
+
+  // ---------- settings, analytics ----------
+  const CFG = Object.assign({ siteUrl: "https://vishalkj-ai.github.io/long-tail/", goatcounter: "", plausible: "" }, window.LT_CONFIG || {});
+  const ON_OWN_SITE = /^https?:$/.test(location.protocol) && !/claude|anthropic|usercontent|localhost|127\.0\.0\.1/.test(location.hostname);
+  const BASE_URL = ON_OWN_SITE ? location.origin + location.pathname : CFG.siteUrl;
+  const track = (function () {
+    const enabled = ON_OWN_SITE && !!(CFG.goatcounter || CFG.plausible);
+    const queue = [];
+    let ready = false;
+    function send(name, props) {
+      try {
+        if (CFG.plausible && window.plausible) window.plausible(name, { props: props || {} });
+        else if (CFG.goatcounter && window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "event/" + name, title: name, event: true });
+      } catch (e) { /* analytics must never break the game */ }
+    }
+    if (enabled) {
+      const sc = document.createElement("script");
+      if (CFG.plausible) {
+        window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments); };
+        sc.defer = true; sc.src = "https://plausible.io/js/script.tagged-events.js"; sc.dataset.domain = CFG.plausible;
+        ready = true;
+      } else {
+        sc.async = true; sc.src = "https://gc.zgo.at/count.js"; sc.dataset.goatcounter = `https://${CFG.goatcounter}.goatcounter.com/count`;
+        sc.onload = () => { ready = true; while (queue.length) send.apply(null, queue.shift()); };
+      }
+      document.head.appendChild(sc);
+    }
+    return (name, props) => { if (!enabled) return; if (ready) send(name, props); else queue.push([name, props]); };
+  })();
+
+  // ---------- per-viewer storage (optional) ----------
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("lt:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem("lt:" + k, JSON.stringify(v)); } catch (e) { /* storage blocked */ } },
+  };
+  let learned = store.get("learned", {});
+  let found = store.get("found", {});
+  const indexCache = {};
+  const indexFor = (p) => indexCache[p.id] || (indexCache[p.id] = LT.buildIndex(p, learned[p.id]));
+  const stats = () => Object.assign({ played: 0, best: 0, streak: 0, lastDay: null, endlessBest: 0 }, store.get("stats", {}));
+  const allAnswers = (p) => [...TIERS.flatMap((t) => (p.tiers[t.key] || []).map((name) => ({ name, tier: t.key }))), ...(learned[p.id] || [])];
+  const totalOf = (p) => allAnswers(p).length;
+  const foundOf = (p) => Object.keys(found[p.id] || {}).length;
+  function collect(pid, name, tier) {
+    const f = found[pid] || (found[pid] = {});
+    if (f[name]) return false;
+    f[name] = tier;
+    store.set("found", found);
+    checkComplete(pid);
+    return true;
+  }
+
+  // ---------- sound and haptics ----------
+  const Sound = (function () {
+    let ctx = null;
+    let on = store.get("sound", true);
+    const ensure = () => {
+      if (!on) return null;
+      try {
+        ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+        if (ctx.state === "suspended") ctx.resume();
+      } catch (e) { ctx = null; }
+      return ctx;
+    };
+    function tone(freq, t0, dur, type, gain) {
+      const c = ensure();
+      if (!c) return;
+      const o = c.createOscillator(), g = c.createGain(), t = c.currentTime + t0;
+      o.type = type || "triangle";
+      o.frequency.value = freq;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.linearRampToValueAtTime(gain || 0.06, t + 0.012);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(g).connect(c.destination);
+      o.start(t);
+      o.stop(t + dur + 0.03);
+    }
+    const SCALE = [392, 440, 523, 587, 698, 784, 880, 1047];
+    return {
+      get on() { return on; },
+      toggle() { on = !on; store.set("sound", on); if (on) tone(660, 0, 0.08); return on; },
+      wrong() { tone(170, 0, 0.2, "sawtooth", 0.04); },
+      tier(idx) {
+        for (let i = 0; i <= idx; i++) tone(SCALE[i + 1], i * 0.07, 0.18, "triangle", 0.06);
+        if (idx >= 4) [1047, 1319, 1568].forEach((f, i) => tone(f, 0.45 + i * 0.07, 0.5, "sine", 0.045));
+      },
+      bank() { tone(988, 0, 0.07, "square", 0.035); tone(1319, 0.07, 0.22, "square", 0.035); },
+      dig() { tone(330, 0, 0.09, "triangle", 0.05); tone(494, 0.08, 0.14, "triangle", 0.05); },
+      bust() { [440, 370, 311, 247].forEach((f, i) => tone(f, i * 0.1, 0.18, "sawtooth", 0.04)); },
+      tick() { tone(1200, 0, 0.03, "square", 0.02); },
+    };
+  })();
+  const buzz = (pattern) => { try { if (navigator.vibrate) navigator.vibrate(pattern); } catch (e) { /* not supported */ } };
+  function renderSoundBtn() {
+    $("btn-sound").textContent = Sound.on ? "Sound on" : "Sound off";
+    $("btn-sound").setAttribute("aria-pressed", String(Sound.on));
+  }
+  $("btn-sound").addEventListener("click", () => { Sound.toggle(); renderSoundBtn(); });
+
+  // confetti from a point on screen
+  function confetti(el, n) {
+    if (REDUCED) return;
+    const r = el.getBoundingClientRect();
+    const colors = ["var(--t-body)", "var(--t-tail)", "var(--t-deep)", "var(--t-outlier)", "#FF7AD9", "#7BE7FF", "#F4C24E"];
+    let html = `<div class="burst" style="left:${r.left + r.width / 2}px;top:${r.top + r.height / 2}px;position:fixed">`;
+    for (let i = 0; i < n; i++) {
+      const a = Math.random() * Math.PI * 2, d = 120 + Math.random() * 260;
+      html += `<i style="--c:${colors[i % colors.length]};--dx:${(Math.cos(a) * d).toFixed(0)}px;--dy:${(Math.sin(a) * d).toFixed(0)}px;--rot:${(Math.random() * 720 - 360).toFixed(0)}deg;--d:${(Math.random() * 0.15).toFixed(2)}s;--w:${6 + ((Math.random() * 8) | 0)}px;--h:${8 + ((Math.random() * 10) | 0)}px"></i>`;
+    }
+    $("fx").insertAdjacentHTML("beforeend", html + "</div>");
+    const node = $("fx").lastElementChild;
+    setTimeout(() => node.remove(), 2600);
+  }
+
+  // ---------- completion celebrations ----------
+  let celebrated = null;
+  const celQueue = [];
+  const groupPrompts = (g) => PROMPTS.filter((p) => LT.groupOf(p) === g);
+  const isComplete = (p) => foundOf(p) >= totalOf(p);
+  function checkComplete(pid) {
+    const p = BY_ID[pid];
+    celebrated = celebrated || store.get("celebrated", {});
+    if (!p || !isComplete(p) || celebrated[pid]) return;
+    celebrated[pid] = today();
+    celQueue.push({ kind: "page", p });
+    const g = LT.groupOf(p);
+    if (!celebrated["set:" + g] && groupPrompts(g).every(isComplete)) { celebrated["set:" + g] = today(); celQueue.push({ kind: "set", g }); }
+    store.set("celebrated", celebrated);
+    track("page_complete");
+  }
+  function flushCelebrations() {
+    if (!celQueue.length || !$("celebrate").hidden) return;
+    const c = celQueue.shift();
+    if (c.kind === "page") {
+      const n = totalOf(c.p);
+      $("cel-eyebrow").textContent = "Page complete";
+      $("cel-card").innerHTML = miniHTML(c.p.title || c.p.cat, "outlier", `${n}/${n}`);
+      $("cel-title").textContent = c.p.title || c.p.cat;
+      $("cel-sub").textContent = `Every answer collected, all ${n} of them. This page of your binder is now foil.`;
+    } else {
+      const ps = groupPrompts(c.g);
+      $("cel-eyebrow").textContent = "Set complete";
+      $("cel-card").innerHTML = miniHTML(LT.GROUPS[c.g], "outlier", `${ps.length} pages`);
+      $("cel-title").textContent = `The ${LT.GROUPS[c.g]} set`;
+      $("cel-sub").textContent = `Every page in ${LT.GROUPS[c.g]}, complete. That's ${ps.reduce((a, p) => a + totalOf(p), 0)} answers.`;
+    }
+    let html = "";
+    const colors = ["var(--t-head)", "var(--t-body)", "var(--t-tail)", "var(--t-deep)", "var(--t-outlier)", "#FF7AD9", "#7BE7FF", "#F4C24E"];
+    for (let i = 0, n = c.kind === "set" ? 90 : 48; i < n; i++) {
+      const a = Math.random() * Math.PI * 2, r = 150 + Math.random() * 340;
+      html += `<i style="--c:${colors[i % colors.length]};--dx:${(Math.cos(a) * r).toFixed(0)}px;--dy:${(Math.sin(a) * r).toFixed(0)}px;--rot:${(Math.random() * 720 - 360).toFixed(0)}deg;--d:${(Math.random() * 0.3).toFixed(2)}s;--w:${6 + ((Math.random() * 10) | 0)}px;--h:${8 + ((Math.random() * 14) | 0)}px"></i>`;
+    }
+    $("cel-burst").innerHTML = html;
+    $("celebrate").hidden = false;
+    Sound.tier(5);
+    armTilt($("cel-card").firstElementChild);
+    $("cel-ok").focus({ preventScroll: true });
+  }
+  function closeCelebration() {
+    $("celebrate").hidden = true;
+    $("cel-burst").innerHTML = "";
+    if (celQueue.length) setTimeout(flushCelebrations, 160);
+    else if (!$("collection").hidden) renderCollection();
+  }
+  $("cel-ok").addEventListener("click", closeCelebration);
+  $("celebrate").addEventListener("click", (e) => { if (e.target === $("celebrate")) closeCelebration(); });
+
+  // ---------- challenge links ----------
+  // #c.<day>.<per card: card hash ×5, digit (multiplier, +5 if hinted), answer hash ×4>.<name>
+  const b64url = (str) => btoa(unescape(encodeURIComponent(str))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  const fromB64url = (str) => { try { return decodeURIComponent(escape(atob(str.replace(/-/g, "+").replace(/_/g, "/")))); } catch (e) { return ""; } };
+  function encodeChallenge(res, name) {
+    const body = res.rounds.map((r) => LT.hash36(r.id, 5) + ((r.hinted ? 5 : 0) + (r.pts > 0 ? r.mult || 1 : 0)) + (r.pts > 0 && r.answer ? LT.hash36(r.answer, 4) : "----")).join("");
+    return `c.${res.day.toString(36)}.${body}${name ? "." + b64url(name.slice(0, 24)) : ""}`;
+  }
+  function decodeChallenge(tok) {
+    const parts = tok.split(".");
+    if (parts.length < 3 || parts[0] !== "c") return null;
+    const day = parseInt(parts[1], 36);
+    const body = parts[2];
+    if (!Number.isFinite(day) || !body || body.length % 10) return null;
+    const rounds = [];
+    for (let i = 0; i < body.length; i += 10) {
+      const p = PROMPTS.find((x) => LT.hash36(x.id, 5) === body.slice(i, i + 5));
+      const d = +body[i + 5];
+      if (!p || !Number.isFinite(d)) return null;
+      const hinted = d >= 5, mult = d % 5;
+      const ah = body.slice(i + 6, i + 10);
+      const a = ah === "----" ? null : allAnswers(p).find((x) => LT.hash36(x.name, 4) === ah);
+      const full = a && mult ? TIER[a.tier].pts * mult : 0;
+      rounds.push({ id: p.id, mult, hinted, answer: a ? a.name : null, tier: a ? a.tier : null, pts: hinted ? Math.ceil(full / 2) : full });
+    }
+    const name = parts[3] ? fromB64url(parts[3]).slice(0, 24) : "";
+    return { day, rounds, name, score: rounds.reduce((t, r) => t + r.pts, 0) };
+  }
+  let incoming = null;
+  const readChallenge = () => { const h = (location.hash || "").slice(1); return h.startsWith("c.") ? decodeChallenge(h) : null; };
+
+  let game = null;
+  let timer = null;
+
+  // ---------- wordmark ----------
+  (function () {
+    const sizes = [36, 33, 30, 27, 0, 24, 21.5, 19, 17];
+    $("home-link").innerHTML = "Long Tail".split("").map((ch, i) => `<span style="font-size:${sizes[i]}px">${ch === " " ? "" : ch}</span>`).join("");
+  })();
+
+  function show(id) {
+    for (const s of document.querySelectorAll("[data-screen]")) s.hidden = s.id !== id;
+    window.scrollTo(0, 0);
+  }
+  function renderTopStats() {
+    const s = stats();
+    const n = PROMPTS.reduce((a, p) => a + foundOf(p), 0);
+    $("top-stats").innerHTML = `<span>Streak <b>${s.streak}</b></span><span>Best <b>${s.best}</b></span>`;
+    $("nav-collection").textContent = `Binder ${n}`;
+  }
+
+  // ---------- card builders ----------
+  function promptCardHTML(p, footer) {
+    return `<div class="frame">
+      <div class="namebar"><b>${esc(p.title || p.cat)}</b><span class="set">${esc(LEVEL_NAME[LT.levelOf(p)])}</span></div>
+      <div class="art" id="card-art"><span class="clue">${esc(p.q)}</span></div>
+      <div class="typeline"><span>${esc(p.cat)} · ${totalOf(p)} answers</span><span>${esc(collNo(p))}</span></div>
+      <div class="textbox">${p.rule ? `<span>${esc(p.rule)}</span>` : `<span class="flavor">Any correct answer counts.</span>`}</div>
+    </div>
+    <div class="foot"><span>Long Tail</span><span>${esc(footer || "")}</span></div>`;
+  }
+  function miniHTML(name, tier, sub, cls) {
+    const t = TIER[tier];
+    const fx = tier === "outlier" ? " holo" : tier === "deep" ? " shiny" : "";
+    return `<div class="mini c-${tier}${fx}${cls ? " " + cls : ""}"><div class="mf"><div class="mt"><span>${t.name}</span><span class="sym">${t.sym}</span></div><div class="mn">${esc(name)}</div><div class="mp">${esc(sub || "")}</div></div></div>`;
+  }
+  const dudHTML = (label, sub) => `<div class="mini dud"><div class="mf"><div class="mt"><span>No card</span><span>×</span></div><div class="mn">${esc(label)}</div><div class="mp">${esc(sub || "")}</div></div></div>`;
+  const backMiniHTML = () => `<div class="mini back-mini"><div class="mf">${EMBLEM}</div></div>`;
+  function armTilt(el) {
+    if (REDUCED || !el) return;
+    el.onpointermove = (e) => {
+      const r = el.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      el.style.setProperty("--mx", `${(x * 100).toFixed(1)}%`);
+      el.style.setProperty("--my", `${(y * 100).toFixed(1)}%`);
+      el.style.transform = `perspective(900px) rotateY(${((x - 0.5) * 12).toFixed(2)}deg) rotateX(${((0.5 - y) * 10).toFixed(2)}deg)`;
+    };
+    el.onpointerleave = () => { el.style.transform = ""; };
+  }
+  function fanStyle(i, n) {
+    const mid = (n - 1) / 2;
+    return `transform: rotate(${((i - mid) * 6).toFixed(1)}deg) translateY(${(Math.abs(i - mid) * 5).toFixed(1)}px); z-index:${i + 1}`;
+  }
+  const fanHTML = (items) => items.map((html, i) => `<div style="${fanStyle(i, items.length)}">${html}</div>`).join("");
+  const roundMini = (r) => (r.pts > 0 && r.tier && TIER[r.tier] ? miniHTML(r.answer, r.tier, `${r.pts} pts`) : dudHTML(r.busted ? "Bust" : "Miss", "0 pts"));
+
+  // ---------- chart ----------
+  function drawTail(svg, p, hiName) {
+    const data = LT.curve(p);
+    const W = Math.max(260, Math.round(svg.getBoundingClientRect().width || 600));
+    const H = +svg.getAttribute("height");
+    const padT = 30, padB = 30, padX = 2;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const n = data.length;
+    const bw = (W - padX * 2) / n;
+    const gap = bw > 7 ? 2 : bw > 3.5 ? 1 : 0;
+    const max = data[0].w;
+    const ih = H - padT - padB;
+    let out = "", hiX = null, hiTop = null, hiTier = null;
+    data.forEach((d, i) => {
+      const h = Math.max(2.5, (ih * d.w) / max);
+      const x = padX + i * bw, y = padT + ih - h;
+      const isHi = hiName && d.name === hiName;
+      if (isHi) { hiX = x + (bw - gap) / 2; hiTop = y; hiTier = d.tier; }
+      out += `<rect x="${x.toFixed(2)}" y="${y.toFixed(2)}" rx="${bw > 6 ? 2 : 0}" width="${Math.max(0.8, bw - gap).toFixed(2)}" height="${h.toFixed(2)}" class="f-${d.tier}${hiName && !isHi ? " dim" : ""}"><title>${esc(d.name)}</title></rect>`;
+    });
+    out += `<line class="axis" x1="0" x2="${W}" y1="${padT + ih + 0.5}" y2="${padT + ih + 0.5}"/>`;
+    let i0 = 0;
+    for (let i = 1; i <= n; i++) {
+      if (i === n || data[i].tier !== data[i0].tier) {
+        const t = data[i0].tier, x1 = padX + i0 * bw, x2 = padX + i * bw - gap;
+        out += `<line class="s-${t}" stroke-width="3" x1="${x1.toFixed(1)}" x2="${Math.max(x1 + 2, x2).toFixed(1)}" y1="${padT + ih + 7}" y2="${padT + ih + 7}"/>`;
+        if (x2 - x1 > TIER[t].name.length * 7 + 4) out += `<text x="${x1.toFixed(1)}" y="${padT + ih + 22}">${TIER[t].name}</text>`;
+        i0 = i;
+      }
+    }
+    out += `<text x="0" y="12">more common</text><text x="${W}" y="12" text-anchor="end">rarer →</text>`;
+    if (hiX != null) {
+      const right = hiX > W * 0.62;
+      out += `<line class="pin" x1="${hiX}" x2="${hiX}" y1="${Math.max(18, hiTop - 40)}" y2="${hiTop - 3}"/><circle cx="${hiX}" cy="${hiTop - 3}" r="3.5" class="f-${hiTier}"/>`;
+      out += `<text class="lbl" x="${right ? hiX - 6 : hiX + 6}" y="${Math.max(28, hiTop - 30)}" text-anchor="${right ? "end" : "start"}">${esc(hiName)}</text>`;
+    }
+    svg.innerHTML = out;
+  }
+
+  // ---------- home ----------
+  let endlessGroup = "all";
+  function renderHome() {
+    const day = today();
+    $("home-eyebrow").textContent = `Daily draw #${day - LAUNCH + 1} · ${new Date(day * 864e5).toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" })}`;
+    const saved = store.get("daily:" + day);
+    const done = $("home-done");
+    const fresh = saved && saved.v === 9;
+    if (fresh) {
+      done.hidden = false;
+      done.innerHTML = `<span class="mono" style="font-size:22px">${saved.score}</span><span class="muted">today · ${esc(LT.band(saved.score))}. New cards are dealt at midnight UTC.</span>`;
+      $("btn-daily").textContent = "See today's hand";
+      $("fan").innerHTML = fanHTML(saved.rounds.map(roundMini));
+    } else {
+      done.hidden = true;
+      $("btn-daily").textContent = "Play today's cards";
+      $("fan").innerHTML = fanHTML(Array.from({ length: 7 }, backMiniHTML));
+    }
+    $("tier-row").innerHTML = TIERS.map((t) => `<li class="c-${t.key}"><b>${t.pts}</b>${t.name}</li>`).join("");
+    const answers = PROMPTS.reduce((a, p) => a + totalOf(p), 0);
+    $("foot").textContent = `${PROMPTS.length} cards · ${answers.toLocaleString()} accepted answers. Rarity is ranked by hand from how often people reach for each answer.`;
+    const groups = ["all", ...Object.keys(LT.GROUPS).filter((g) => PROMPTS.some((p) => LT.groupOf(p) === g))];
+    $("endless-pick").innerHTML = groups.map((g) => `<button type="button" class="chip" data-g="${g}" aria-pressed="${g === endlessGroup}">${g === "all" ? "Everything" : LT.GROUPS[g]} <span>${g === "all" ? PROMPTS.length : groupPrompts(g).length}</span></button>`).join("");
+    const fTotal = PROMPTS.reduce((a, p) => a + foundOf(p), 0);
+    $("home-coll").innerHTML = fTotal
+      ? `Your binder: <b>${fTotal}</b> of ${answers.toLocaleString()} answers collected. <button type="button" class="linkish" id="home-coll-open">Open binder</button>`
+      : `Every correct answer you give goes in your binder. <button type="button" class="linkish" id="home-coll-open">See the binder</button>`;
+    $("home-coll-open").onclick = renderCollection;
+    renderChallengeBanner();
+    renderPast();
+    renderTopStats();
+    renderSoundBtn();
+    show("home");
+  }
+  $("endless-pick").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-g]");
+    if (!b) return;
+    endlessGroup = b.dataset.g;
+    for (const c of $("endless-pick").children) c.setAttribute("aria-pressed", String(c === b));
+  });
+  $("btn-endless").addEventListener("click", () => { $("endless-panel").hidden = !$("endless-panel").hidden; });
+  $("btn-endless-go").addEventListener("click", () => startEndless(endlessGroup));
+  $("btn-daily").addEventListener("click", () => startDaily());
+  $("home-link").addEventListener("click", () => leave(renderHome));
+  $("nav-collection").addEventListener("click", () => leave(renderCollection));
+  function leave(next) { stopTimer(); hideConfirm(); game = null; next(); }
+
+  function renderChallengeBanner() {
+    const b = $("challenge-banner");
+    b.hidden = !incoming;
+    if (!incoming) return;
+    const who = incoming.name || "A friend";
+    const official = LT.dailySet(PROMPTS, incoming.day, 7).map((p) => p.id).join() === incoming.rounds.map((r) => r.id).join();
+    const saved = official && store.get("daily:" + incoming.day);
+    const played = saved && saved.v === 9;
+    $("challenge-title").textContent = `${who} scored ${incoming.score}. Beat it.`;
+    $("challenge-sub").textContent = played
+      ? `You've already played draw #${incoming.day - LAUNCH + 1}. Compare your hands card by card.`
+      : `Draw #${incoming.day - LAUNCH + 1}: the same seven cards. After each one you'll see what ${incoming.name || "they"} played.`;
+    $("btn-challenge").textContent = played ? "Compare hands" : "Accept the challenge";
+  }
+  $("btn-challenge").addEventListener("click", () => { if (incoming) startDaily(incoming.day, incoming); });
+  $("btn-challenge-x").addEventListener("click", () => {
+    incoming = null;
+    try { history.replaceState(null, "", location.pathname + location.search); } catch (e) { /* hash stays */ }
+    renderChallengeBanner();
+  });
+  function renderPast() {
+    const t = today();
+    const days = [];
+    for (let d = t - 1; d >= Math.max(LAUNCH, t - 7); d--) days.push(d);
+    $("past-panel").hidden = !days.length;
+    $("past-list").innerHTML = days.map((d) => {
+      const saved = store.get("daily:" + d);
+      const ok = saved && saved.v === 9;
+      const date = new Date(d * 864e5).toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
+      return `<li><span><b>Draw #${d - LAUNCH + 1}</b><span class="when">${date}</span></span><span class="sc">${ok ? saved.score : ""}</span><button type="button" class="btn quiet" data-day="${d}">${ok ? "See hand" : "Play"}</button></li>`;
+    }).join("");
+  }
+  $("past-list").addEventListener("click", (e) => { const b = e.target.closest("[data-day]"); if (b) startDaily(+b.dataset.day); });
+
+  // ---------- timer (pausable) ----------
+  function startTimer(ms, onEnd) {
+    stopTimer();
+    timer = { deadline: performance.now() + ms, total: ms, onEnd, raf: 0, paused: null, lastTick: 99 };
+    tick();
+  }
+  function tick() {
+    if (!timer || timer.paused != null) return;
+    const left = timer.deadline - performance.now();
+    timer.total = Math.max(timer.total, left);
+    $("clock-fill").style.transform = `scaleX(${Math.max(0, left / timer.total)})`;
+    $("clock-num").textContent = Math.max(0, left / 1000).toFixed(1) + "s";
+    $("clock").classList.toggle("low", left < 10000);
+    const s = Math.ceil(left / 1000);
+    if (left < 5000 && s !== timer.lastTick) { timer.lastTick = s; Sound.tick(); }
+    if (left <= 0) { const f = timer.onEnd; stopTimer(); f(); return; }
+    timer.raf = requestAnimationFrame(tick);
+  }
+  const addTime = (ms) => { if (timer) timer.deadline += ms; };
+  function pauseTimer() { if (timer && timer.paused == null) { timer.paused = timer.deadline - performance.now(); cancelAnimationFrame(timer.raf); } }
+  function resumeTimer() { if (timer && timer.paused != null) { timer.deadline = performance.now() + timer.paused; timer.paused = null; tick(); } }
+  const timeLeft = () => (timer ? (timer.paused != null ? timer.paused : timer.deadline - performance.now()) : 0);
+  function stopTimer() { if (timer) cancelAnimationFrame(timer.raf); timer = null; }
+
+  // ---------- play ----------
+  const newRound = (p) => ({ id: p.id, misses: [], traps: [], said: [], held: null, mult: 1, digs: 0, digging: false, answer: null, tier: null, base: 0, pts: 0, busted: false, hinted: false, done: false });
+  const dailyTotal = () => game.rounds.reduce((a, r) => a + r.pts, 0);
+  function setScore(n, bump) {
+    const el = $("play-score");
+    el.textContent = n;
+    if (bump) { el.classList.remove("bump"); void el.offsetWidth; el.classList.add("bump"); }
+  }
+  function renderTicks() {
+    if (game.mode !== "daily") { $("ticks").innerHTML = ""; return; }
+    $("ticks").innerHTML = game.ids.map((id, i) => {
+      const r = game.rounds[i];
+      if (r) return `<i data-t class="c-${r.pts > 0 ? r.tier : "miss"}"></i>`;
+      return `<i class="${i === game.i ? "now" : ""}"></i>`;
+    }).join("");
+  }
+  function setPanels(state) {
+    // state: "answer" | "decide" | "after"
+    $("answer-form").hidden = state !== "answer";
+    $("decide").hidden = state !== "decide";
+    $("after").hidden = state !== "after";
+    $("clock").hidden = state === "after";
+    $("play-foot").hidden = state === "after";
+    $("holding").hidden = !(state === "answer" && game.cur && game.cur.digging);
+    if (state !== "answer") { hideConfirm(); }
+  }
+  function dealCard() {
+    const p = BY_ID[game.cur.id];
+    const footer = game.mode === "daily" ? `Daily #${game.day - LAUNCH + 1} · ${game.i + 1}/${game.ids.length}` : game.mode === "hunt" ? "Hunt" : "Endless";
+    const card = $("card");
+    card.className = "card";
+    card.onpointermove = null; card.onpointerleave = null; card.style.transform = "";
+    card.innerHTML = promptCardHTML(p, footer);
+    if (!REDUCED) { void card.offsetWidth; card.classList.add("deal"); }
+    $("misses").innerHTML = "";
+    $("answer-input").value = "";
+    $("answer-input").placeholder = "Type an answer";
+    $("toast").innerHTML = "";
+    $("hintline").hidden = true;
+    $("btn-hint").disabled = false;
+    $("btn-hint").hidden = game.mode === "hunt";
+    $("btn-hint").textContent = game.mode === "endless" ? "Hint (−5s)" : "Hint (half points)";
+    $("named").hidden = game.mode !== "hunt";
+    hideConfirm();
+    renderTicks();
+    if (game.mode === "daily") {
+      $("play-status").textContent = `Card ${game.i + 1} of ${game.ids.length}`;
+      setScore(dailyTotal());
+      $("play-hint").textContent = "A wrong guess costs 2 seconds.";
+      $("btn-pass").textContent = "Pass";
+    } else if (game.mode === "endless") {
+      $("play-status").textContent = `${game.rounds.filter((r) => r.tier).length} played`;
+      setScore(game.score);
+      $("play-hint").textContent = "Rarer answers buy more time. Wrong −2s.";
+      $("btn-pass").textContent = "Skip (−3s)";
+    } else {
+      $("named").innerHTML = "";
+      updateHuntStatus();
+      setScore(game.named.length);
+      $("play-hint").textContent = "Name as many as you can. Wrong guesses cost nothing here.";
+      $("btn-pass").textContent = "Finish";
+    }
+    setPanels("answer");
+  }
+  function focusInput() { const inp = $("answer-input"); try { inp.focus({ preventScroll: true }); } catch (e) { inp.focus(); } }
+
+  // ----- daily -----
+  function startDaily(day, challenge) {
+    day = day == null ? today() : day;
+    const draw = LT.dailySet(PROMPTS, day, 7).map((p) => p.id);
+    const ids = challenge ? challenge.rounds.map((r) => r.id) : draw;
+    const official = ids.join() === draw.join();
+    const saved = official ? store.get("daily:" + day) : null;
+    if (saved && saved.v === 9) return showResults(saved, challenge);
+    game = { mode: "daily", day, ids, i: 0, rounds: [], official, challenge: challenge || null, tutorial: !store.get("tut9", false) };
+    track(challenge ? "challenge_start" : day === today() ? "daily_start" : "archive_start");
+    beginCard();
+  }
+  function beginCard() {
+    game.cur = newRound(BY_ID[game.ids[game.i]]);
+    show("play");
+    dealCard();
+    focusInput();
+    const cur = game.cur;
+    coach(game.tutorial && game.i === 0 ? 1 : 0);
+    setTimeout(() => { if (game && game.cur === cur && !timer && !cur.done) startTimer(CARD_MS, onTimeUp); }, REDUCED ? 0 : 380);
+  }
+
+  $("answer-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (!game || !game.cur || !timer || game.cur.done) return;
+    const inp = $("answer-input");
+    const v = inp.value.trim();
+    if (!v) return;
+    inp.value = "";
+    const p = BY_ID[game.cur.id];
+    const m = LT.match(indexFor(p), v);
+    hideConfirm();
+    if (!m) return miss(v);
+    if (m.status === "trap") return trapped(v, m.trap);
+    if (m.status === "ambiguous") {
+      $("ask").textContent = `“${v}” matches more than one answer. Add a little more, like a first name.`;
+      $("ask").hidden = false;
+      inp.value = v;
+      focusInput();
+      return;
+    }
+    if (m.status === "suggest") return askConfirm(p, m, v);
+    accept(p, m.entry, v);
+  });
+
+  function accept(p, entry, typed) {
+    hideConfirm();
+    if (game.mode === "endless") return endlessHit(p, entry);
+    if (game.mode === "hunt") return huntHit(p, entry);
+    const cur = game.cur;
+    if (cur.said.includes(entry.name)) { toast(`Already said ${entry.name}`, "c-head"); focusInput(); return; }
+    cur.said.push(entry.name);
+    collect(p.id, entry.name, entry.tier);
+    if (!cur.held) {
+      cur.held = entry;
+      cur.mult = 1;
+      return reveal(entry, 1);
+    }
+    if (TIER_IDX[entry.tier] > TIER_IDX[cur.held.tier]) {
+      cur.digs += 1;
+      cur.mult = 1 + cur.digs;
+      cur.held = entry;
+      cur.digging = false;
+      return reveal(entry, cur.mult);
+    }
+    // correct, but not rarer than what you're holding
+    addTime(-NOT_RARER_MS);
+    const li = document.createElement("li");
+    li.className = `under c-${entry.tier}`;
+    li.innerHTML = `${esc(entry.name)}<span>${TIER[entry.tier].name}, not rarer than ${TIER[cur.held.tier].name} · −3s</span>`;
+    $("misses").prepend(li);
+    shake();
+    Sound.wrong();
+    focusInput();
+  }
+
+  const cardPts = (cur, entry, mult) => { const full = TIER[entry.tier].pts * mult; return cur.hinted ? Math.ceil(full / 2) : full; };
+
+  // the stamp: rarity lands on the card, then bank or dig
+  function reveal(entry, mult) {
+    const cur = game.cur;
+    pauseTimer();
+    const t = TIER[entry.tier];
+    const pts = cardPts(cur, entry, mult);
+    const card = $("card");
+    card.className = `card c-${entry.tier}${entry.tier === "outlier" ? " holo" : entry.tier === "deep" ? " shiny" : ""}`;
+    card.querySelector(".frame").style.setProperty("--c", `var(--t-${entry.tier})`);
+    const art = $("card-art");
+    art.querySelector(".stamp") && art.querySelector(".stamp").remove();
+    art.insertAdjacentHTML("beforeend", `<div class="stamp c-${entry.tier}"><span class="tier">${t.name}</span><span class="ans">${esc(entry.name)}</span><span class="pts">+${pts}${mult > 1 ? ` <small style="font-size:16px">(${t.pts} ×${mult}${cur.hinted ? ", hint ½" : ""})</small>` : cur.hinted ? ' <small style="font-size:16px">(hint ½)</small>' : ""}</span><span class="odds">${ODDS[entry.tier]}</span></div>`);
+    if (entry.tier === "outlier") armTilt(card);
+    Sound.tier(TIER_IDX[entry.tier]);
+    buzz(TIER_IDX[entry.tier] >= 4 ? [30, 40, 60] : 25);
+    if (TIER_IDX[entry.tier] >= 4) confetti(card, entry.tier === "outlier" ? 60 : 30);
+    if (entry.tier === "outlier") {
+      // nothing is rarer than Legendary: bank it straight away
+      setPanels("decide");
+      $("btn-bank").innerHTML = `Bank ${pts}<small>Nothing rarer exists</small>`;
+      $("btn-dig").hidden = true;
+      $("decide-note").textContent = "Legendary. You can't dig deeper than this.";
+      $("btn-bank").focus({ preventScroll: true });
+      return;
+    }
+    const next = mult + 1;
+    const rarerLeft = allAnswers(BY_ID[cur.id]).filter((a) => TIER_IDX[a.tier] > TIER_IDX[entry.tier]).length;
+    setPanels("decide");
+    $("btn-dig").hidden = false;
+    $("btn-bank").innerHTML = `Bank ${pts}<small>Keep it</small>`;
+    $("btn-dig").innerHTML = `Dig deeper<small>Rarer answer ×${next}</small>`;
+    $("decide-note").textContent = `${Math.ceil(timeLeft() / 1000)}s left on the clock. ${rarerLeft} rarer answers exist. If time runs out while you dig, this card scores 0.`;
+    $("btn-bank").focus({ preventScroll: true });
+    if (game.tutorial && game.i === 0 && !store.get("tut9", false)) coach(2);
+  }
+  function bank() {
+    const cur = game && game.cur;
+    if (!cur || !cur.held || cur.done) return;
+    Object.assign(cur, { answer: cur.held.name, tier: cur.held.tier, base: TIER[cur.held.tier].pts, pts: cardPts(cur, cur.held, cur.mult) });
+    Sound.bank();
+    buzz(15);
+    finishCard("banked");
+  }
+  function dig() {
+    const cur = game && game.cur;
+    if (!cur || !cur.held || cur.done || cur.held.tier === "outlier") return;
+    cur.digging = true;
+    Sound.dig();
+    const stamp = $("card-art").querySelector(".stamp");
+    if (stamp) stamp.remove();
+    $("card").className = "card";
+    $("holding").innerHTML = `<span>Holding <b class="c-${cur.held.tier}" style="color:var(--c)">${esc(cur.held.name)}</b> · ${TIER[cur.held.tier].name}</span><span>Rarer answer pays ×${cur.mult + 1}</span>`;
+    $("answer-input").placeholder = `Something rarer than ${TIER[cur.held.tier].name}…`;
+    setPanels("answer");
+    $("hintline").hidden = true;
+    coach(0);
+    resumeTimer();
+    focusInput();
+  }
+  $("btn-bank").addEventListener("click", bank);
+  $("btn-dig").addEventListener("click", dig);
+
+  function onTimeUp() {
+    if (!game) return;
+    if (game.mode === "endless") return endEndless();
+    if (game.mode === "hunt") return endHunt();
+    const cur = game.cur;
+    if (cur.held && cur.digging) { cur.busted = true; Sound.bust(); buzz([60, 40, 60]); return finishCard("bust"); }
+    Sound.wrong();
+    finishCard("miss");
+  }
+  $("btn-pass").addEventListener("click", () => {
+    if (!game || !game.cur) return;
+    if (game.mode === "endless") return endlessSkip();
+    if (game.mode === "hunt") { stopTimer(); return endHunt(); }
+    const cur = game.cur;
+    if (cur.done || !timer) return;
+    if (cur.held && cur.digging) { cur.busted = true; Sound.bust(); return finishCard("bust"); }
+    finishCard("miss");
+  });
+
+  function finishCard(outcome) {
+    const cur = game.cur;
+    if (cur.done) return;
+    cur.done = true;
+    stopTimer();
+    coach(0);
+    if (outcome !== "banked") { cur.pts = 0; cur.answer = null; cur.tier = null; }
+    game.rounds.push(cur);
+    setScore(dailyTotal(), cur.pts > 0);
+    renderTicks();
+    const p = BY_ID[cur.id];
+    // the card face shows the outcome
+    if (outcome === "bust") {
+      const art = $("card-art");
+      art.querySelector(".stamp") && art.querySelector(".stamp").remove();
+      art.insertAdjacentHTML("beforeend", `<div class="stamp bust"><span class="tier">Bust</span><span class="ans">${esc(cur.held.name)}</span><span class="odds">Nothing rarer in time</span></div>`);
+      $("card").className = "card";
+    } else if (outcome === "miss") {
+      const art = $("card-art");
+      art.insertAdjacentHTML("beforeend", `<div class="stamp bust"><span class="tier">${cur.misses.length ? "No match" : "Time"}</span><span class="odds">This card scores 0</span></div>`);
+    }
+    const t = cur.tier && TIER[cur.tier];
+    const line = outcome === "banked"
+      ? `Banked <b class="c-${cur.tier}">${cur.pts}</b> with ${esc(cur.answer)} (${t.name}${cur.mult > 1 ? ` ×${cur.mult}` : ""}).`
+      : outcome === "bust"
+      ? `Bust. You were holding ${esc(cur.held.name)} (${TIER[cur.held.tier].name}) but found nothing rarer in time.`
+      : cur.misses.length ? `No score. You tried ${cur.misses.slice(0, 3).map(esc).join(", ")}.` : "No score this time.";
+    const floor = outcome === "banked" ? TIER_IDX[cur.tier] : outcome === "bust" ? TIER_IDX[cur.held.tier] : -1;
+    const rarer = [];
+    for (const k of ["outlier", "deep", "tail", "body"]) {
+      if (TIER_IDX[k] <= floor) continue;
+      for (const n of LT.shuffle(p.tiers[k] || [], Math.random)) if (rarer.length < 3 && !cur.said.includes(n)) rarer.push([n, k]);
+    }
+    const rv = game.challenge && game.challenge.rounds[game.i];
+    const rivalLine = rv ? `<p class="rival">${esc(game.challenge.name || "Your friend")}: ${rv.pts > 0 ? `<b>${esc(rv.answer)}</b> · ${TIER[rv.tier].name}${rv.mult > 1 ? ` ×${rv.mult}` : ""} · ${rv.pts} pts` : "no score on this card"}</p>` : "";
+    const last = game.i + 1 >= game.ids.length;
+    $("after").innerHTML = `<p class="line">${line}</p>${rivalLine}
+      ${rarer.length ? `<p class="rarer">${outcome === "miss" ? "You could have said" : "Rarer"}: ${rarer.map(([n, k]) => `<span class="c c-${k}">${esc(n)} <span class="sym">${TIER[k].sym}</span></span>`).join("")}</p>` : ""}
+      ${p.fact ? `<p class="fact">${esc(p.fact)}</p>` : ""}
+      <button class="btn primary" id="btn-next" type="button">${last ? "See your hand" : "Next card"}</button>`;
+    setPanels("after");
+    $("btn-next").onclick = nextCard;
+    $("btn-next").focus({ preventScroll: true });
+    if (game.tutorial && game.i === 0) { store.set("tut9", true); track("tutorial_complete"); }
+    flushCelebrations();
+  }
+  function nextCard() {
+    if (!game || game.mode !== "daily") return;
+    game.i++;
+    if (game.i >= game.ids.length) finishDaily();
+    else beginCard();
+  }
+
+  function shake() { const f = $("answer-form"); f.classList.remove("shake"); void f.offsetWidth; f.classList.add("shake"); }
+  function miss(v) {
+    game.cur.misses.push(v);
+    const cost = game.mode === "hunt" ? 0 : game.cur.digging ? NOT_RARER_MS : PENALTY_MS;
+    addTime(-cost);
+    const li = document.createElement("li");
+    li.innerHTML = `<s>${esc(v)}</s>${cost ? `<span>−${cost / 1000}s</span>` : ""}`;
+    $("misses").prepend(li);
+    shake();
+    Sound.wrong();
+    buzz(20);
+  }
+  function trapped(v, trap) {
+    game.cur.misses.push(v);
+    game.cur.traps.push(trap.name);
+    const cost = game.mode === "hunt" ? 0 : PENALTY_MS;
+    addTime(-cost);
+    const li = document.createElement("li");
+    li.className = "trap";
+    li.innerHTML = `<b>Trap: ${esc(trap.name)}</b><em>${esc(trap.why)}</em>${cost ? "<span>−2s</span>" : ""}`;
+    $("misses").prepend(li);
+    shake();
+    Sound.wrong();
+  }
+
+  // ---------- "Did you mean …?" ----------
+  let pending = null;
+  function askConfirm(p, m, typed) {
+    pending = { p, m, typed, id: game.cur.id };
+    $("confirm-q").innerHTML = `Did you mean <b>${esc(m.entry.name)}</b>?`;
+    $("confirm").hidden = false;
+    $("confirm-yes").focus({ preventScroll: true });
+  }
+  function hideConfirm() { pending = null; $("confirm").hidden = true; $("ask").hidden = true; }
+  function confirmYes() {
+    if (!pending || !timer || !game || !game.cur || game.cur.id !== pending.id) return hideConfirm();
+    const { p, m, typed } = pending;
+    accept(p, m.entry, typed);
+    if (game && timer && timer.paused == null) focusInput();
+  }
+  function confirmNo() {
+    if (!pending) return;
+    const typed = pending.typed;
+    hideConfirm();
+    const inp = $("answer-input");
+    inp.value = typed;
+    focusInput();
+    inp.select();
+  }
+  $("confirm-yes").addEventListener("click", confirmYes);
+  $("confirm-no").addEventListener("click", confirmNo);
+  $("confirm").addEventListener("keydown", (e) => {
+    if (e.key === "Escape" || e.key === "n" || e.key === "N") { e.preventDefault(); confirmNo(); }
+    else if (e.key === "y" || e.key === "Y") { e.preventDefault(); confirmYes(); }
+  });
+
+  // ---------- hints ----------
+  const maskName = (name) => name.replace(/\p{L}+/gu, (w) => w[0] + "_".repeat(w.length - 1));
+  $("btn-hint").addEventListener("click", () => {
+    if (!game || !timer || !game.cur || game.cur.hinted || game.mode === "hunt" || timer.paused != null) return;
+    const cur = game.cur, p = BY_ID[cur.id];
+    const floor = cur.held ? TIER_IDX[cur.held.tier] : -1;
+    const picks = [];
+    for (const t of TIERS) {
+      if (TIER_IDX[t.key] <= floor) continue;
+      for (const n of LT.shuffle(p.tiers[t.key] || [], Math.random)) if (picks.length < 3 && !cur.said.includes(n)) picks.push(n);
+    }
+    cur.hinted = true;
+    if (game.mode === "endless") addTime(-HINT_MS);
+    $("hintline").textContent = `Hint: ${picks.map(maskName).join("   ")}`;
+    $("hintline").hidden = false;
+    $("btn-hint").disabled = true;
+    track("hint_used");
+    focusInput();
+  });
+
+  // ---------- guided first card ----------
+  const COACH = {
+    1: ["How it works · 1 of 2", "Type anything that fits the card. Common answers score a little, rare ones a lot. Wrong guesses cost 2 seconds."],
+    2: ["How it works · 2 of 2", "Bank the points, or dig deeper: name something rarer and your points multiply. Run out of time while digging and the card scores nothing."],
+  };
+  function coach(step) {
+    const el = $("coach");
+    el.hidden = !step;
+    if (!step) return;
+    el.children[0].textContent = COACH[step][0];
+    el.children[1].textContent = COACH[step][1];
+    el.children[2].hidden = true;
+  }
+
+  // ---------- results ----------
+  function finishDaily() {
+    const result = {
+      v: 9,
+      day: game.day,
+      score: dailyTotal(),
+      rounds: game.rounds.map((r) => ({ id: r.id, answer: r.answer, tier: r.tier, pts: r.pts, mult: r.mult, digs: r.digs, busted: r.busted, hinted: r.hinted, held: r.held ? r.held.name : null, misses: r.misses.slice(0, 4) })),
+    };
+    const ch = game.challenge;
+    if (game.official) {
+      store.set("daily:" + game.day, result);
+      const s = stats();
+      if (game.day === today() && s.lastDay !== game.day) {
+        s.played += 1;
+        s.streak = s.lastDay === game.day - 1 ? s.streak + 1 : 1;
+        s.lastDay = game.day;
+      }
+      s.best = Math.max(s.best, result.score);
+      store.set("stats", s);
+    }
+    track(ch ? "challenge_complete" : "daily_complete", ch ? { band: LT.band(result.score), won: String(result.score > ch.score) } : { band: LT.band(result.score) });
+    game = null;
+    showResults(result, ch);
+  }
+  let lastResult = null, lastChallenge = null;
+  const squareOf = (r) => (r.pts > 0 && r.tier && TIER[r.tier] ? TIER[r.tier].sq : r.busted ? "💥" : LT.MISS_SQ);
+  function showResults(res, ch) {
+    lastResult = res;
+    lastChallenge = ch || null;
+    const num = res.day - LAUNCH + 1;
+    $("res-eyebrow").textContent = `Daily draw #${num} · your hand`;
+    $("res-score").textContent = res.score;
+    $("res-band").textContent = LT.band(res.score);
+    $("res-hand").innerHTML = fanHTML(res.rounds.map(roundMini));
+    for (const m of $("res-hand").querySelectorAll(".mini.holo")) armTilt(m);
+    const digs = res.rounds.reduce((a, r) => a + (r.digs || 0), 0);
+    $("res-grid").textContent = res.rounds.map(squareOf).join("");
+    const vs = $("res-versus");
+    vs.hidden = !ch;
+    if (ch) {
+      const who = esc(ch.name || "Your friend");
+      const diff = res.score - ch.score;
+      vs.innerHTML = `<span>You ${res.score}</span><span class="muted">vs</span><span>${who} ${ch.score}</span><span class="${diff > 0 ? "holo-text" : "muted"}">${diff > 0 ? `You win by ${diff}` : diff < 0 ? `${who} wins by ${-diff}` : "Dead heat"}</span>`;
+    }
+    const rivalById = ch ? Object.fromEntries(ch.rounds.map((r) => [r.id, r])) : {};
+    $("res-list").innerHTML = res.rounds.map((r, i) => {
+      const p = BY_ID[r.id];
+      if (!p) return "";
+      const you = r.pts > 0 ? `You: <b>${esc(r.answer)}</b> · ${TIER[r.tier].name}${r.mult > 1 ? ` ×${r.mult}` : ""}${r.hinted ? " · hint" : ""}`
+        : r.busted ? `Bust while holding ${esc(r.held || "")}` : "No score";
+      const rv = rivalById[r.id];
+      return `<details class="rc" data-i="${i}"><summary><span class="tt">${esc(p.title || p.cat)}</span><span class="pp">${r.pts}<small>${r.pts > 0 ? TIER[r.tier].name : r.busted ? "Bust" : "Miss"}</small></span><span class="qq">${esc(p.q)}</span><span class="you">${you}${rv ? ` <span class="muted">· ${esc(ch.name || "Friend")}: ${rv.pts}</span>` : ""}</span></summary><div class="rc-body"></div></details>`;
+    }).join("");
+    $("share-name").value = store.get("name", "");
+    updateShare(digs);
+    $("copy-note").textContent = "";
+    const s = stats();
+    $("res-stats").innerHTML = [["Played", s.played], ["Current streak", s.streak], ["Best daily", s.best], ["Best endless", s.endlessBest]].map(([k, v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join("");
+    renderTopStats();
+    show("results");
+    flushCelebrations();
+  }
+  // each card's full answer list, built when opened
+  $("res-list").addEventListener("toggle", (e) => {
+    const d = e.target;
+    if (!d.open || d.dataset.built || !lastResult) return;
+    d.dataset.built = "1";
+    const r = lastResult.rounds[+d.dataset.i];
+    const p = BY_ID[r.id];
+    const traps = Object.entries(p.traps || {});
+    d.querySelector(".rc-body").innerHTML = `<svg class="chart" height="140" role="img" aria-label="Every accepted answer, from most common to rarest"></svg>
+      ${TIERS.filter((t) => (p.tiers[t.key] || []).length).map((t) => `<div class="all-tier"><span class="tag c-${t.key}"><span class="sym">${t.sym}</span> ${t.name} · ${t.pts}</span><ul>${p.tiers[t.key].map((n) => `<li class="${n === r.answer ? "me" : ""}">${esc(n)}</li>`).join("")}</ul></div>`).join("")}
+      ${traps.length ? `<ul class="traps">${traps.map(([n, why]) => `<li><b>✕</b><strong>${esc(n)}</strong><span>${esc(why)}</span></li>`).join("")}</ul>` : ""}
+      ${p.fact ? `<p class="fact">${esc(p.fact)}</p>` : ""}`;
+    requestAnimationFrame(() => drawTail(d.querySelector(".chart"), p, r.answer));
+  }, true);
+  function shareText(digs) {
+    const res = lastResult;
+    if (!res) return "";
+    const num = res.day - LAUNCH + 1;
+    const sq = res.rounds.map(squareOf).join("");
+    const nd = digs != null ? digs : res.rounds.reduce((a, r) => a + (r.digs || 0), 0);
+    const name = ($("share-name").value || "").trim();
+    const link = `${BASE_URL}#${encodeChallenge(res, name)}`;
+    const ch = lastChallenge;
+    const who = ch && (ch.name || "my friend");
+    const head = !ch ? `Long Tail #${num} · ${res.score} pts`
+      : res.score > ch.score ? `I beat ${who}'s ${ch.score} with ${res.score} on Long Tail #${num}`
+      : `${res.score} on Long Tail #${num} (${who} got ${ch.score})`;
+    return `${head}\n${sq}\n${nd ? `${nd} successful dig${nd > 1 ? "s" : ""} · ` : ""}${LT.band(res.score)}\nBeat my score: ${link}`;
+  }
+  function updateShare(digs) { $("share-text").value = shareText(digs); }
+  $("share-name").addEventListener("input", () => { store.set("name", $("share-name").value.trim().slice(0, 24)); updateShare(); });
+  function copyText(text, okMsg) {
+    const ta = $("share-text");
+    const fallback = () => { ta.focus(); ta.select(); $("copy-note").textContent = "Selected. Press Ctrl+C or ⌘C to copy."; };
+    try { navigator.clipboard.writeText(text).then(() => { $("copy-note").textContent = okMsg; }, fallback); } catch (e) { fallback(); }
+  }
+  $("btn-share").addEventListener("click", async () => {
+    const text = shareText();
+    track("share_click", { method: "share" });
+    if (ON_OWN_SITE && navigator.share) {
+      try { await navigator.share({ text }); $("copy-note").textContent = "Shared"; return; } catch (e) { if (e && e.name === "AbortError") return; }
+    }
+    copyText(text, "Challenge copied. Paste it to a friend.");
+  });
+  $("btn-copy").addEventListener("click", () => { track("share_click", { method: "copy" }); copyText(shareText(), "Copied"); });
+  $("btn-res-home").addEventListener("click", renderHome);
+  $("btn-res-coll").addEventListener("click", renderCollection);
+  $("btn-res-endless").addEventListener("click", () => startEndless("all"));
+
+  // ---------- endless: one shared clock, rarer answers buy time ----------
+  function toast(text, cls) { $("toast").innerHTML = `<div class="${cls}">${esc(text)}</div>`; }
+  function startEndless(group) {
+    const pool = PROMPTS.filter((p) => group === "all" || LT.groupOf(p) === group);
+    if (!pool.length) return;
+    game = { mode: "endless", group, ids: LT.rampShuffle(pool, Math.random).map((p) => p.id), i: 0, rounds: [], score: 0 };
+    track("endless_start", { topic: group });
+    coach(0);
+    game.cur = newRound(BY_ID[game.ids[0]]);
+    show("play");
+    dealCard();
+    focusInput();
+    startTimer(ENDLESS_MS, onTimeUp);
+  }
+  function nextEndless() {
+    game.i++;
+    if (game.i >= game.ids.length) { game.ids = LT.shuffle(game.ids, Math.random); game.i = 0; }
+    game.cur = newRound(BY_ID[game.ids[game.i]]);
+    dealCard();
+    focusInput();
+  }
+  function endlessHit(p, entry) {
+    const t = TIER[entry.tier];
+    Object.assign(game.cur, { answer: entry.name, tier: t.key, base: t.pts, pts: t.pts });
+    game.cur.isNew = collect(p.id, entry.name, t.key);
+    game.rounds.push(game.cur);
+    game.score += t.pts;
+    addTime(t.bonus * 1000);
+    Sound.tier(TIER_IDX[t.key]);
+    const wasNew = game.cur.isNew;
+    nextEndless();
+    setScore(game.score, true);
+    toast(`${entry.name} · ${t.name} +${t.pts} · +${t.bonus}s${wasNew ? " · new" : ""}`, `c-${t.key}`);
+    renderTopStats();
+  }
+  function endlessSkip() {
+    game.rounds.push(game.cur);
+    addTime(-SKIP_MS);
+    nextEndless();
+    toast("Skipped · −3s", "c-miss");
+  }
+  function endEndless() {
+    hideConfirm();
+    if (game.cur && !game.rounds.includes(game.cur)) game.rounds.push(game.cur);
+    const s = stats();
+    const isBest = game.score > s.endlessBest;
+    s.endlessBest = Math.max(s.endlessBest, game.score);
+    store.set("stats", s);
+    const answered = game.rounds.filter((r) => r.tier);
+    const newOnes = answered.filter((r) => r.isNew).length;
+    $("over-eyebrow").textContent = `Endless · ${game.group === "all" ? "Everything" : LT.GROUPS[game.group]}`;
+    $("over-score").textContent = game.score;
+    $("over-of").textContent = `pts · ${answered.length} played`;
+    const best = answered.slice().sort((a, b) => b.pts - a.pts)[0];
+    $("over-best").innerHTML = (isBest && game.score > 0 ? '<b class="holo-text">New personal best.</b> ' : `Personal best: ${s.endlessBest}. `) +
+      (best ? `Best pull: <b>${esc(best.answer)}</b> <span class="tag c-${best.tier}">${TIER[best.tier].name}</span>. ` : "") + (newOnes ? `${newOnes} new for your binder.` : "");
+    $("over-list").hidden = true;
+    $("over-left").hidden = true;
+    $("over-table").hidden = false;
+    $("over-rows").innerHTML = game.rounds.map((r) => {
+      const p = BY_ID[r.id];
+      return `<tr><td>${p.title ? `<b>${esc(p.title)}</b> · ` : ""}${esc(p.q)}<span class="muted">Legendary: ${esc((p.tiers.outlier || [""])[0])}</span></td><td>${r.tier ? `${esc(r.answer)}<br><span class="tag c-${r.tier}">${TIER[r.tier].name}${r.isNew ? " · new" : ""}</span>` : '<span class="tag c-miss">' + (r.misses && r.misses.length ? "Miss" : "Skipped") + "</span>"}</td><td class="n">${r.pts}</td></tr>`;
+    }).join("");
+    $("btn-again").textContent = "Run again";
+    renderTopStats();
+    show("over");
+    flushCelebrations();
+  }
+
+  // ---------- hunt: one card, 60 seconds, as many answers as you can ----------
+  function startHunt(pid) {
+    const p = BY_ID[pid];
+    if (!p) return;
+    game = { mode: "hunt", ids: [pid], i: 0, rounds: [], named: [], newCount: 0, score: 0 };
+    track("hunt_start");
+    coach(0);
+    game.cur = newRound(p);
+    show("play");
+    dealCard();
+    focusInput();
+    startTimer(HUNT_MS, onTimeUp);
+  }
+  function updateHuntStatus() {
+    const p = BY_ID[game.cur.id];
+    $("play-status").textContent = `Hunt · ${game.newCount} new · ${foundOf(p)}/${totalOf(p)} in binder`;
+  }
+  function huntHit(p, entry) {
+    if (game.named.some((n) => n.name === entry.name)) { toast(`Already named ${entry.name}`, "c-head"); return; }
+    const isNew = collect(p.id, entry.name, entry.tier);
+    game.named.push({ name: entry.name, tier: entry.tier, isNew });
+    if (isNew) game.newCount++;
+    game.score += entry.pts;
+    const li = document.createElement("li");
+    li.className = `c-${entry.tier}${isNew ? " new" : ""}`;
+    li.textContent = entry.name;
+    $("named").appendChild(li);
+    Sound.tier(Math.min(TIER_IDX[entry.tier], 3));
+    setScore(game.named.length, true);
+    updateHuntStatus();
+    renderTopStats();
+    if (isComplete(p)) { stopTimer(); endHunt(); }
+  }
+  function stillToFind(p) {
+    const f = found[p.id] || {};
+    const left = {};
+    for (const a of allAnswers(p)) if (!f[a.name]) left[a.tier] = (left[a.tier] || 0) + 1;
+    return TIERS.filter((t) => left[t.key]).map((t) => `${left[t.key]} ${t.name}`).join(" · ");
+  }
+  function endHunt() {
+    hideConfirm();
+    stopTimer();
+    const p = BY_ID[game.cur.id];
+    $("over-eyebrow").textContent = `Hunt · ${p.title || p.cat}`;
+    $("over-score").textContent = game.named.length;
+    $("over-of").textContent = `named · ${game.newCount} new`;
+    $("over-best").innerHTML = `<b>${esc(p.q)}</b>: ${foundOf(p)} of ${totalOf(p)} in your binder.`;
+    const list = $("over-list");
+    list.hidden = !game.named.length;
+    list.innerHTML = game.named.slice().sort((a, b) => TIER_IDX[b.tier] - TIER_IDX[a.tier]).map((n) => `<li>${miniHTML(n.name, n.tier, n.isNew ? "new" : `${TIER[n.tier].pts} pts`)}</li>`).join("");
+    for (const m of list.querySelectorAll(".mini.holo")) armTilt(m);
+    const left = stillToFind(p);
+    $("over-left").hidden = false;
+    $("over-left").textContent = left ? `Still to find: ${left}.` : "You've completed this page of your binder.";
+    $("over-table").hidden = true;
+    $("btn-again").textContent = "Hunt again";
+    renderTopStats();
+    show("over");
+    flushCelebrations();
+  }
+  $("btn-again").addEventListener("click", () => {
+    if (game && game.mode === "hunt") startHunt(game.ids[0]);
+    else startEndless(game ? game.group : endlessGroup);
+  });
+  $("btn-over-home").addEventListener("click", () => { game = null; renderHome(); });
+  $("btn-over-coll").addEventListener("click", () => { game = null; renderCollection(); });
+
+  // ---------- binder ----------
+  function renderCollection() {
+    const tally = {}, totals = {};
+    let fAll = 0, tAll = 0;
+    const shelf = [];
+    for (const p of PROMPTS) {
+      const f = found[p.id] || {};
+      for (const a of allAnswers(p)) {
+        totals[a.tier] = (totals[a.tier] || 0) + 1;
+        tAll++;
+        if (f[a.name]) {
+          tally[a.tier] = (tally[a.tier] || 0) + 1;
+          fAll++;
+          if (a.tier === "outlier" || a.tier === "deep") shelf.push({ name: a.name, tier: a.tier, p });
+        }
+      }
+    }
+    $("coll-found").textContent = fAll;
+    $("coll-of").textContent = `of ${tAll.toLocaleString()} cards collected`;
+    $("coll-tally").innerHTML = TIERS.map((t) => `<div class="c-${t.key}"><b>${tally[t.key] || 0}<span class="muted" style="font:500 13px var(--f-mono)"> / ${totals[t.key] || 0}</span></b><span><span class="sym">${t.sym}</span> ${t.name}</span></div>`).join("");
+    shelf.sort((a, b) => TIER_IDX[b.tier] - TIER_IDX[a.tier]);
+    $("coll-shelf").innerHTML = shelf.length
+      ? shelf.map((s) => `<li title="${esc(s.p.q)}">${miniHTML(s.name, s.tier, s.p.title || s.p.cat)}</li>`).join("")
+      : `<li style="grid-column:1/-1"><p class="empty">No grails yet. Your Epic and Legendary answers will sit here.</p></li>`;
+    for (const m of $("coll-shelf").querySelectorAll(".mini.holo")) armTilt(m);
+    const groups = Object.keys(LT.GROUPS).filter((g) => PROMPTS.some((p) => LT.groupOf(p) === g));
+    $("coll-groups").innerHTML = groups.map((g) => {
+      const ps = groupPrompts(g).slice().sort((a, b) => foundOf(b) / totalOf(b) - foundOf(a) / totalOf(a) || (a.title || a.q).localeCompare(b.title || b.q));
+      const gf = ps.reduce((a, p) => a + foundOf(p), 0), gt = ps.reduce((a, p) => a + totalOf(p), 0);
+      const setDone = ps.every(isComplete);
+      return `<div class="coll-group"><div class="row" style="justify-content:space-between"><h3${setDone ? ' class="holo-text"' : ""}>${LT.GROUPS[g]}${setDone ? " set ✹" : ""}</h3><span class="mono small muted">${gf} / ${gt}</span></div>${ps.map(pageHTML).join("")}</div>`;
+    }).join("");
+    renderTopStats();
+    show("collection");
+    flushCelebrations();
+  }
+  function pageHTML(p) {
+    const f = found[p.id] || {};
+    const all = allAnswers(p);
+    const bar = TIERS.map((t) => {
+      const tot = all.filter((a) => a.tier === t.key).length;
+      if (!tot) return "";
+      const got = all.filter((a) => a.tier === t.key && f[a.name]).length;
+      return `<span class="c-${t.key}" style="flex:${tot}" title="${t.name}: ${got} of ${tot}"><i style="width:${((100 * got) / tot).toFixed(0)}%"></i></span>`;
+    }).join("");
+    const got = all.filter((a) => f[a.name]).length;
+    const done = got >= all.length;
+    const left = stillToFind(p);
+    return `<details class="page${done ? " done" : ""}" data-pid="${esc(p.id)}"><summary><span class="tt">${done ? `<span class="holo-text">${esc(p.title || p.cat)}</span><span class="badge">Complete</span>` : esc(p.title || p.cat)}</span><span class="ct">${got} / ${all.length}</span><span class="qq">${esc(p.q)}</span><span class="tierbar" aria-hidden="true">${bar}</span></summary>
+      <div class="slots"></div>
+      <div class="page-foot"><span class="small muted">${left ? `Still to find: ${left}.` : "Page complete."}</span><button type="button" class="btn" data-hunt="${esc(p.id)}">Hunt this card</button></div>
+    </details>`;
+  }
+  $("coll-groups").addEventListener("click", (e) => { const b = e.target.closest("[data-hunt]"); if (b) startHunt(b.dataset.hunt); });
+  // binder pages fill their slots only when opened (some cards have hundreds of answers)
+  $("coll-groups").addEventListener("toggle", (e) => {
+    const d = e.target;
+    if (!d.open || !d.dataset.pid) return;
+    const p = BY_ID[d.dataset.pid], f = found[p.id] || {};
+    const slots = d.querySelector(".slots");
+    if (!slots.childElementCount) {
+      slots.innerHTML = allAnswers(p).slice().sort((a, b) => TIER_IDX[a.tier] - TIER_IDX[b.tier])
+        .map((a) => f[a.name] ? miniHTML(a.name, a.tier, "") : `<div class="mini empty c-${a.tier}" title="${TIER[a.tier].name}"><span>${TIER[a.tier].sym}</span></div>`).join("");
+    }
+    for (const m of slots.querySelectorAll(".mini.holo")) armTilt(m);
+  }, true);
+
+  // ---------- keyboard ----------
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !$("celebrate").hidden) return closeCelebration();
+    if ($("play").hidden || !game || game.mode !== "daily" || !game.cur) return;
+    if (!$("decide").hidden) {
+      if (e.key === "d" || e.key === "D") { e.preventDefault(); dig(); }
+      else if (e.key === "b" || e.key === "B") { e.preventDefault(); bank(); }
+    }
+  });
+
+  // redraw open charts when the width changes
+  let rz = 0;
+  window.addEventListener("resize", () => {
+    clearTimeout(rz);
+    rz = setTimeout(() => {
+      for (const d of document.querySelectorAll("details.rc[open] .chart")) {
+        const i = +d.closest("details").dataset.i;
+        if (lastResult) drawTail(d, BY_ID[lastResult.rounds[i].id], lastResult.rounds[i].answer);
+      }
+    }, 150);
+  });
+
+  // ---------- boot ----------
+  function start() {
+    incoming = readChallenge();
+    if (incoming) track("challenge_open");
+    const last = store.get("lastVisit", null);
+    if (last != null && last < today()) track("return_visit", { gap: String(today() - last) });
+    store.set("lastVisit", today());
+    renderHome();
+  }
+  window.addEventListener("hashchange", () => {
+    const c = readChallenge();
+    if (c && !game) { incoming = c; track("challenge_open"); renderHome(); }
+  });
+  const hot = window.claude && window.claude.hot;
+  if (hot && hot.ready) hot.ready(start); else start();
+})();
+</script>
