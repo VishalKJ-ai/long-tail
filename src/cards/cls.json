@@ -529,18 +529,21 @@
     "Wrexham AFC"
    ],
    "Leicester City": [
-    "Leicester"
+    "Leicester",
+    "Foxes"
    ],
    "Newcastle United": [
     "Newcastle",
-    "Newcastle Utd"
+    "Newcastle Utd",
+    "Magpies"
    ],
    "West Ham United": [
     "West Ham",
     "Hammers"
    ],
    "Aston Villa": [
-    "Villa"
+    "Villa",
+    "Villans"
    ],
    "Leeds United": [
     "Leeds",
@@ -559,21 +562,26 @@
    ],
    "Brighton & Hove Albion": [
     "Brighton",
-    "Brighton and Hove Albion"
+    "Brighton and Hove Albion",
+    "Seagulls"
    ],
    "Bournemouth": [
-    "AFC Bournemouth"
+    "AFC Bournemouth",
+    "Cherries"
    ],
    "Norwich City": [
-    "Norwich"
+    "Norwich",
+    "Canaries"
    ],
    "Sheffield United": [
     "Sheffield Utd",
-    "Sheff Utd"
+    "Sheff Utd",
+    "Blades"
    ],
    "Sheffield Wednesday": [
     "Sheffield Weds",
-    "Sheff Wed"
+    "Sheff Wed",
+    "Owls"
    ],
    "Derby County": [
     "Derby"
@@ -589,7 +597,8 @@
    ],
    "West Bromwich Albion": [
     "West Brom",
-    "WBA"
+    "WBA",
+    "Baggies"
    ],
    "Stoke City": [
     "Stoke"
@@ -731,6 +740,18 @@
    ],
    "Harrogate Town": [
     "Harrogate"
+   ],
+   "Arsenal": [
+    "Gunners"
+   ],
+   "Everton": [
+    "Toffees"
+   ],
+   "Southampton": [
+    "Saints"
+   ],
+   "Sunderland": [
+    "Black Cats"
    ]
   },
   "traps": {
@@ -1002,7 +1023,8 @@
     "Winston S. Churchill"
    ],
    "Boris Johnson": [
-    "Alexander Boris de Pfeffel Johnson"
+    "Alexander Boris de Pfeffel Johnson",
+    "Boris"
    ],
    "Liz Truss": [
     "Elizabeth Truss"
@@ -3618,7 +3640,8 @@
     "Tomás de Victoria"
    ],
    "Hildegard of Bingen": [
-    "Hildegard von Bingen"
+    "Hildegard von Bingen",
+    "Hildegard"
    ],
    "Léonin": [
     "Leoninus"

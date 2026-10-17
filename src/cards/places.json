@@ -577,7 +577,8 @@
     "Maseru",
     "Gitega",
     "Andorra la Vella",
-    "Ouagadougou"
+    "Ouagadougou",
+    "The Hague"
    ],
    "outlier": [
     "Funafuti",
@@ -694,7 +695,10 @@
    "Istanbul": "Turkey's largest city, but not the capital.",
    "Sydney": "Australia's biggest city, but not the national capital.",
    "New York": "The largest US city, but not the capital.",
-   "Rio de Janeiro": "A former capital of Brazil, not the current one."
+   "Rio de Janeiro": "A former capital of Brazil, not the current one.",
+   "Edinburgh": "A UK nation's capital, but this card counts capitals of sovereign countries.",
+   "Cardiff": "A UK nation's capital, but this card counts capitals of sovereign countries.",
+   "Belfast": "A UK nation's capital, but this card counts capitals of sovereign countries."
   },
   "fact": "Nauru has no official capital, so Yaren is only the de facto seat of government."
  },
@@ -986,7 +990,8 @@
     "Marble Hill Park",
     "Russell Square",
     "Kennington Park",
-    "Myatt's Fields"
+    "Myatt's Fields",
+    "Kew Gardens"
    ],
    "deep": [
     "Hainault Forest",
@@ -1257,7 +1262,9 @@
     "Canna",
     "Raasay",
     "Coll",
-    "Tiree"
+    "Tiree",
+    "Orkney",
+    "Shetland"
    ],
    "tail": [
     "Eriskay",
@@ -2454,7 +2461,8 @@
     "Eden",
     "Tame",
     "Dove",
-    "Soar"
+    "Soar",
+    "Tamar"
    ],
    "tail": [
     "Calder",
@@ -2573,6 +2581,9 @@
    ],
    "Ness": [
     "River Ness"
+   ],
+   "Thames": [
+    "Isis"
    ]
   },
   "traps": {

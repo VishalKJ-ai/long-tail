@@ -503,6 +503,9 @@
    ],
    "Sweetcorn": [
     "Sweet corn"
+   ],
+   "Lemon": [
+    "Lemon sorbet"
    ]
   },
   "traps": {
@@ -624,7 +627,10 @@
     "Whisky mac",
     "Rum runner",
     "Champagne cocktail",
-    "Dirty martini"
+    "Dirty martini",
+    "Shandy",
+    "Snakebite",
+    "Mulled wine"
    ],
    "deep": [
     "Corpse reviver",
@@ -1137,7 +1143,8 @@
     "Welsh cake",
     "Chocolate fudge cake",
     "Orange cake",
-    "Upside-down cake"
+    "Upside-down cake",
+    "Flapjack"
    ],
    "tail": [
     "Genoa cake",
@@ -1613,7 +1620,8 @@
    ],
    "Pestle and mortar": [
     "Mortar and pestle",
-    "Pestle & mortar"
+    "Pestle & mortar",
+    "Pestle"
    ],
    "Ice cream scoop": [
     "Ice cream scooper",
@@ -2251,7 +2259,8 @@
     "Oxford shoe"
    ],
    "Derby": [
-    "Derby shoe"
+    "Derby shoe",
+    "Derbies"
    ],
    "Football boot": [
     "Cleat",
@@ -3162,6 +3171,9 @@
    "Chilli crisp": [
     "Chili crisp",
     "Lao Gan Ma"
+   ],
+   "Curry sauce": [
+    "Curry"
    ]
   },
   "traps": {

@@ -68,7 +68,9 @@
     "Pomelo",
     "Loganberry",
     "Elderberry",
-    "Mulberry"
+    "Mulberry",
+    "Blood orange",
+    "Plantain"
    ],
    "deep": [
     "Ugli fruit",
@@ -607,7 +609,8 @@
     "Lemon balm",
     "Pandan",
     "Sorrel",
-    "Borage"
+    "Borage",
+    "Garam masala"
    ],
    "deep": [
     "Ajwain",
@@ -686,7 +689,8 @@
     "Ciabatta",
     "Bagel",
     "Naan",
-    "Pitta"
+    "Pitta",
+    "White bread"
    ],
    "hipster": [
     "Bloomer",
@@ -709,7 +713,8 @@
     "Roti",
     "Tortilla",
     "Lavash",
-    "Banana bread"
+    "Banana bread",
+    "Brown bread"
    ],
    "tail": [
     "Stollen",
@@ -783,6 +788,9 @@
    ],
    "Pandesal": [
     "Pan de sal"
+   ],
+   "White bread": [
+    "White loaf"
    ]
   },
   "traps": {
@@ -1017,6 +1025,9 @@
    "Black Pudding": [
     "Blood Pudding",
     "Blood Sausage"
+   ],
+   "Semolina Pudding": [
+    "Semolina"
    ]
   },
   "traps": {
@@ -1313,7 +1324,7 @@
   "cat": "Food",
   "title": "Berry good",
   "q": "Any berry",
-  "rule": "Culinary berries from anywhere, counted once under their usual name, with botanical and loose usage both allowed.",
+  "rule": "Fruits sold or foraged as berries, counted once under their usual name.",
   "level": 1,
   "surnames": false,
   "tiers": {
@@ -1392,7 +1403,8 @@
   },
   "alias": {
    "Goji": [
-    "Wolfberry"
+    "Wolfberry",
+    "Goji berry"
    ],
    "Blackcurrant": [
     "Black currant"
@@ -1434,7 +1446,10 @@
    "Cherry": "A stone fruit, not a berry.",
    "Peach": "A stone fruit, not a berry.",
    "Almond": "The seed inside a stone fruit, not a berry.",
-   "Pea": "A legume, not a berry."
+   "Pea": "A legume, not a berry.",
+   "Banana": "Botanically a berry, but nobody sells it as one.",
+   "Grape": "Botanically a berry, but nobody sells it as one.",
+   "Tomato": "Botanically a berry, but nobody sells it as one."
   },
   "fact": "Kiwiberries are smooth-skinned, grape-sized relatives of the kiwi that you can eat whole."
  }

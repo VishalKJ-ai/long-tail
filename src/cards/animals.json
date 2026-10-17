@@ -828,6 +828,12 @@
    ],
    "Bee-eater": [
     "European Bee-eater"
+   ],
+   "House Sparrow": [
+    "Sparrow"
+   ],
+   "Carrion Crow": [
+    "Crow"
    ]
   },
   "traps": {
@@ -978,7 +984,8 @@
     "Gnu"
    ],
    "Spotted Hyena": [
-    "Laughing Hyena"
+    "Laughing Hyena",
+    "Hyena"
    ],
    "African Buffalo": [
     "Buffalo",
@@ -1207,6 +1214,9 @@
    "Tyrannosaurus": [
     "T. rex",
     "T-rex"
+   ],
+   "Velociraptor": [
+    "Raptor"
    ]
   },
   "traps": {
@@ -1214,7 +1224,8 @@
    "Plesiosaur": "A marine reptile, not a dinosaur.",
    "Mosasaurus": "A marine lizard from the Cretaceous, not a dinosaur.",
    "Dimetrodon": "A synapsid, more closely related to mammals than to dinosaurs.",
-   "Woolly mammoth": "A mammal from the Ice Age, not a dinosaur."
+   "Woolly mammoth": "A mammal from the Ice Age, not a dinosaur.",
+   "Ichthyosaur": "A marine reptile, not a dinosaur."
   },
   "fact": "Leaellynasaura, from Victoria in Australia, had large brain areas linked to vision, which suggests it saw well in dark polar winters."
  },
@@ -1348,6 +1359,9 @@
    ],
    "Bonnethead": [
     "Bonnethead Shark"
+   ],
+   "Smooth Hammerhead": [
+    "Sphyrnidae"
    ]
   },
   "traps": {
@@ -1400,7 +1414,8 @@
     "Eastern Diamondback",
     "Sidewinder",
     "Bushmaster",
-    "Fer-de-lance"
+    "Fer-de-lance",
+    "Grass Snake"
    ],
    "tail": [
     "Western Diamondback",
@@ -1497,6 +1512,9 @@
    ],
    "Emerald Tree Boa": [
     "Emerald Boa"
+   ],
+   "Coastal Taipan": [
+    "Taipan"
    ]
   },
   "traps": {
@@ -1523,7 +1541,12 @@
     "Honeybee",
     "Earwig",
     "Woodlouse",
-    "Garden Snail"
+    "Garden Snail",
+    "Spider",
+    "Beetle",
+    "Bee",
+    "Caterpillar",
+    "Butterfly"
    ],
    "hipster": [
     "Green Lacewing",
@@ -1721,7 +1744,8 @@
     "Whitebeam",
     "Aspen",
     "Alder",
-    "Leyland Cypress"
+    "Leyland Cypress",
+    "Hazel"
    ],
    "tail": [
     "Sessile Oak",
@@ -1815,7 +1839,8 @@
     "English Yew"
    ],
    "Scots Pine": [
-    "Scotch Pine"
+    "Scotch Pine",
+    "Pine"
    ],
    "Larch": [
     "European Larch"
@@ -2262,7 +2287,8 @@
     "Western Ringtail Possum",
     "Eastern Water Dragon",
     "Regent Honeyeater",
-    "Rainbow Bee-eater"
+    "Rainbow Bee-eater",
+    "Thylacine"
    ],
    "outlier": [
     "Honey Possum",
@@ -2301,7 +2327,8 @@
     "Warrigal"
    ],
    "Common Brushtail Possum": [
-    "Brushtail Possum"
+    "Brushtail Possum",
+    "Possum"
    ],
    "Superb Lyrebird": [
     "Lyrebird"
@@ -2451,7 +2478,8 @@
     "Hucul",
     "Gypsy Vanner",
     "Newfoundland Pony",
-    "Chincoteague Pony"
+    "Chincoteague Pony",
+    "Mustang"
    ],
    "deep": [
     "Kiger Mustang",

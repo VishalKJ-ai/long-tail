@@ -1110,6 +1110,12 @@
    ],
    "Chi-Yu": [
     "Chi Yu"
+   ],
+   "Charizard": [
+    "Mega Charizard"
+   ],
+   "Vulpix": [
+    "Alolan Vulpix"
    ]
   },
   "traps": {
@@ -5097,7 +5103,8 @@
     "Twin Peaks",
     "Rainforest Cafe",
     "California Pizza Kitchen",
-    "Tony Roma's"
+    "Tony Roma's",
+    "Wetherspoons"
    ],
    "deep": [
     "Burger Chef",
