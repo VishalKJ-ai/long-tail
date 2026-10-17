@@ -39,6 +39,7 @@
   color-scheme: dark;
 }
 *, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.45 var(--f-body); -webkit-font-smoothing: antialiased; }
 button, input { font: inherit; color: inherit; }
@@ -75,7 +76,7 @@ h3 { font-size: 26px; font-weight: 800; font-stretch: 75%; text-transform: upper
 .row .btn { flex: 1 1 140px; }
 
 /* home */
-.hero { font-size: clamp(46px, 13.5vw, 76px); font-weight: 900; font-stretch: 60%; text-transform: uppercase; line-height: 0.9; }
+.hero { font-size: clamp(40px, 12vw, 72px); font-weight: 900; font-stretch: 60%; text-transform: uppercase; line-height: 0.9; }
 .hero em { font-style: normal; font-stretch: 125%; color: color-mix(in srgb, var(--t-outlier) 82%, var(--ink)); }
 .lede { font-size: 19px; max-width: 34ch; }
 .demo { background: var(--panel); border: 2px solid var(--ink); border-radius: 16px; padding: 16px; display: grid; gap: 12px; box-shadow: 0 5px 0 var(--ink); }
