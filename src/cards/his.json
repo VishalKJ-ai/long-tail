@@ -1,0 +1,2713 @@
+[
+ {
+  "id": "his-next-in-line",
+  "cat": "US Politics",
+  "title": "Next in line",
+  "q": "Presidents who first took office when their predecessor died or resigned",
+  "rule": "Counts even if they later won election in their own right; vice presidents elected directly, like Nixon and Biden, do not.",
+  "tiers": {
+   "head": [
+    "Lyndon B. Johnson",
+    "Harry S. Truman",
+    "Gerald Ford"
+   ],
+   "hipster": [
+    "Millard Fillmore"
+   ],
+   "body": [
+    "Theodore Roosevelt",
+    "Andrew Johnson"
+   ],
+   "tail": [
+    "Calvin Coolidge"
+   ],
+   "deep": [
+    "John Tyler"
+   ],
+   "outlier": [
+    "Chester A. Arthur"
+   ]
+  },
+  "fact": "Gerald Ford is the only person to have served as both vice president and president without ever being elected to either office.",
+  "traps": {
+   "Richard Nixon": "He was Eisenhower's vice president but won the 1968 election outright.",
+   "Joe Biden": "He was Obama's vice president but won the 2020 election outright.",
+   "George H. W. Bush": "Neither Bush moved up mid-term: the father won in 1988, the son in 2000.",
+   "Martin Van Buren": "He moved up from vice president by winning the 1836 election.",
+   "John Adams": "He became president by winning the 1796 election, not by succession."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Lyndon B. Johnson": [
+    "LBJ"
+   ],
+   "Gerald Ford": [
+    "Gerald R. Ford",
+    "Jerry Ford"
+   ],
+   "Theodore Roosevelt": [
+    "Teddy Roosevelt",
+    "TR"
+   ],
+   "Calvin Coolidge": [
+    "Silent Cal"
+   ],
+   "Chester A. Arthur": [
+    "Chester Arthur"
+   ]
+  }
+ },
+ {
+  "id": "his-one-syllable-presidents",
+  "cat": "US Politics",
+  "title": "Short and sweet",
+  "q": "Presidents whose surname has just one syllable",
+  "rule": "Judged by how the surname is spoken; both Presidents Bush count, and Trump counts once.",
+  "tiers": {
+   "head": [
+    "Donald Trump",
+    "George W. Bush"
+   ],
+   "hipster": [],
+   "body": [
+    "Gerald Ford",
+    "Ulysses S. Grant",
+    "George H. W. Bush"
+   ],
+   "tail": [
+    "William Howard Taft",
+    "James K. Polk"
+   ],
+   "deep": [
+    "Franklin Pierce"
+   ],
+   "outlier": [
+    "Rutherford B. Hayes"
+   ]
+  },
+  "fact": "Rutherford B. Hayes won the 1876 election by a single electoral vote, 185 to 184, despite losing the popular vote.",
+  "traps": {
+   "Jimmy Carter": "Car-ter has two syllables.",
+   "Richard Nixon": "Nix-on has two syllables.",
+   "John Adams": "Ad-ams has two syllables.",
+   "Herbert Hoover": "Hoo-ver has two syllables.",
+   "Joe Biden": "Bi-den has two syllables."
+  },
+  "surnames": true,
+  "level": 1,
+  "alias": {
+   "George W. Bush": [
+    "George Bush Jr",
+    "George Bush Junior",
+    "Dubya"
+   ],
+   "George H. W. Bush": [
+    "George Bush Sr",
+    "George Bush Senior",
+    "Bush Sr"
+   ],
+   "Gerald Ford": [
+    "Gerald R. Ford",
+    "Jerry Ford"
+   ],
+   "Ulysses S. Grant": [
+    "Ulysses Grant",
+    "Hiram Ulysses Grant"
+   ],
+   "William Howard Taft": [
+    "William Taft"
+   ],
+   "James K. Polk": [
+    "James Polk"
+   ],
+   "Rutherford B. Hayes": [
+    "Rutherford Hayes"
+   ]
+  }
+ },
+ {
+  "id": "his-caesars-bad-ends",
+  "cat": "Ancient Rome",
+  "title": "Bad ends",
+  "q": "Of the Twelve Caesars, those who were killed or took their own lives",
+  "rule": "The dictator who heads the list counts; the rumoured poisonings and smotherings of Augustus, Tiberius and Claudius do not.",
+  "tiers": {
+   "head": [
+    "Julius Caesar",
+    "Caligula",
+    "Nero"
+   ],
+   "hipster": [],
+   "body": [
+    "Domitian"
+   ],
+   "tail": [
+    "Galba"
+   ],
+   "deep": [
+    "Vitellius"
+   ],
+   "outlier": [
+    "Otho"
+   ]
+  },
+  "fact": "Galba, Otho and Vitellius all met violent ends within the single year AD 69, and Otho's reign lasted only about three months.",
+  "traps": {
+   "Augustus": "He died in his bed at Nola in AD 14; the poisoning story is only a rumour.",
+   "Claudius": "Probably poisoned, but the ancient sources disagree and it is not settled.",
+   "Tiberius": "He died at Misenum in AD 37, and the smothering tale is unproven.",
+   "Vespasian": "He died of illness in AD 79, reportedly joking about becoming a god.",
+   "Titus": "He died of a fever in AD 81, aged just 41."
+  },
+  "level": 3,
+  "alias": {
+   "Julius Caesar": [
+    "Gaius Julius Caesar"
+   ],
+   "Caligula": [
+    "Gaius",
+    "Gaius Caligula",
+    "Gaius Germanicus"
+   ],
+   "Nero": [
+    "Nero Claudius Caesar",
+    "Nero Caesar"
+   ],
+   "Domitian": [
+    "Domitianus",
+    "Titus Flavius Domitianus"
+   ],
+   "Galba": [
+    "Servius Galba",
+    "Servius Sulpicius Galba"
+   ],
+   "Vitellius": [
+    "Aulus Vitellius"
+   ],
+   "Otho": [
+    "Marcus Otho",
+    "Marcus Salvius Otho",
+    "Otto"
+   ]
+  }
+ },
+ {
+  "id": "his-pms-died-in-office",
+  "cat": "British Politics",
+  "title": "Last post",
+  "q": "UK Prime Ministers who died while still in office",
+  "rule": "Counts from Walpole's era onwards; anyone who resigned first, however shortly before dying, does not count.",
+  "tiers": {
+   "head": [
+    "Spencer Perceval"
+   ],
+   "hipster": [],
+   "body": [
+    "William Pitt the Younger",
+    "Lord Palmerston"
+   ],
+   "tail": [
+    "George Canning"
+   ],
+   "deep": [
+    "Marquess of Rockingham",
+    "Henry Pelham"
+   ],
+   "outlier": [
+    "Earl of Wilmington"
+   ]
+  },
+  "fact": "George Canning died in office in 1827 after only 119 days, the shortest premiership on record until Liz Truss's 49 days in 2022.",
+  "traps": {
+   "Winston Churchill": "He left office in 1955 and died in 1965.",
+   "Neville Chamberlain": "He resigned in May 1940 and died that November.",
+   "Henry Campbell-Bannerman": "He resigned in April 1908, a few weeks before he died.",
+   "Bonar Law": "He resigned in May 1923 and died that October.",
+   "Robert Peel": "He died after a riding accident in 1850, four years after leaving office."
+  },
+  "surnames": true,
+  "level": 3,
+  "alias": {
+   "William Pitt the Younger": [
+    "Pitt the Younger",
+    "Pitt Younger",
+    "William Pitt",
+    "Pitt"
+   ],
+   "Lord Palmerston": [
+    "Viscount Palmerston",
+    "Henry John Temple",
+    "Henry Temple",
+    "Palmerston"
+   ],
+   "Marquess of Rockingham": [
+    "Marquis of Rockingham",
+    "Lord Rockingham",
+    "Charles Watson-Wentworth",
+    "Rockingham"
+   ],
+   "Earl of Wilmington": [
+    "Spencer Compton",
+    "Lord Wilmington",
+    "Wilmington"
+   ]
+  }
+ },
+ {
+  "id": "his-hyphenated-pms",
+  "cat": "British Politics",
+  "title": "Double-barrelled",
+  "q": "UK Prime Ministers with a hyphenated surname",
+  "rule": "The surname as normally written must have a hyphen (so not Churchill or Lloyd George); peers may be given by title.",
+  "tiers": {
+   "head": [
+    "Alec Douglas-Home"
+   ],
+   "hipster": [],
+   "body": [
+    "Henry Campbell-Bannerman"
+   ],
+   "tail": [
+    "Lord Salisbury"
+   ],
+   "deep": [
+    "Duke of Newcastle",
+    "Earl of Aberdeen",
+    "Earl of Derby"
+   ],
+   "outlier": [
+    "Duke of Portland",
+    "Marquess of Rockingham"
+   ]
+  },
+  "fact": "Henry Campbell-Bannerman added 'Bannerman' to his surname in 1871, when he inherited a wealthy uncle's estate.",
+  "traps": {
+   "David Lloyd George": "His double-barrelled name was written without a hyphen.",
+   "Lloyd George": "His double-barrelled name was written without a hyphen.",
+   "Winston Churchill": "Born Spencer-Churchill, but he normally used plain Churchill.",
+   "Boris Johnson": "No hyphen: 'de Pfeffel' is one of his middle names.",
+   "Theresa May": "No hyphen; she was born Theresa Brasier."
+  },
+  "surnames": true,
+  "level": 3,
+  "alias": {
+   "Alec Douglas-Home": [
+    "Douglas Home",
+    "Alec Home",
+    "Lord Home",
+    "Earl of Home",
+    "Sir Alec Douglas-Home"
+   ],
+   "Henry Campbell-Bannerman": [
+    "Campbell Bannerman",
+    "Sir Henry Campbell-Bannerman"
+   ],
+   "Lord Salisbury": [
+    "Marquess of Salisbury",
+    "Marquis of Salisbury",
+    "Robert Gascoyne-Cecil",
+    "Gascoyne-Cecil",
+    "Robert Cecil",
+    "Salisbury"
+   ],
+   "Duke of Newcastle": [
+    "Thomas Pelham-Holles",
+    "Pelham-Holles",
+    "Lord Newcastle",
+    "Newcastle"
+   ],
+   "Earl of Aberdeen": [
+    "Lord Aberdeen",
+    "George Hamilton-Gordon",
+    "Hamilton-Gordon",
+    "Aberdeen"
+   ],
+   "Earl of Derby": [
+    "Lord Derby",
+    "Edward Smith-Stanley",
+    "Smith-Stanley",
+    "Derby"
+   ],
+   "Duke of Portland": [
+    "William Cavendish-Bentinck",
+    "Cavendish-Bentinck",
+    "Lord Portland",
+    "Portland"
+   ],
+   "Marquess of Rockingham": [
+    "Marquis of Rockingham",
+    "Lord Rockingham",
+    "Charles Watson-Wentworth",
+    "Watson-Wentworth",
+    "Rockingham"
+   ]
+  }
+ },
+ {
+  "id": "his-greek-lookalikes",
+  "cat": "Wordplay",
+  "title": "Greek in disguise",
+  "q": "Greek capital letters that look just like a Latin capital letter",
+  "rule": "Judged in a standard font. Letters like delta, gamma, sigma, pi and omega match no Latin capital.",
+  "tiers": {
+   "head": [
+    "Alpha",
+    "Beta"
+   ],
+   "hipster": [
+    "Omicron"
+   ],
+   "body": [
+    "Epsilon",
+    "Zeta",
+    "Mu",
+    "Kappa"
+   ],
+   "tail": [
+    "Tau",
+    "Rho",
+    "Chi",
+    "Iota"
+   ],
+   "deep": [
+    "Eta",
+    "Nu"
+   ],
+   "outlier": [
+    "Upsilon"
+   ]
+  },
+  "fact": "'Xmas' is not a secular dodge: the X is the Greek capital Chi, the first letter of Christos, which happens to look like a Latin X.",
+  "traps": {
+   "Omega": "Ω is a horseshoe shape, not any Latin capital.",
+   "Delta": "Δ is a triangle, which no Latin capital resembles.",
+   "Pi": "Π is a table shape, not any Latin capital.",
+   "Sigma": "Σ is not shaped like any Latin capital.",
+   "Gamma": "Γ is not shaped like any Latin capital."
+  },
+  "level": 2,
+  "alias": {
+   "Omicron": [
+    "Omikron"
+   ],
+   "Upsilon": [
+    "Ypsilon"
+   ],
+   "Chi": [
+    "Khi"
+   ]
+  }
+ },
+ {
+  "id": "his-bible-four-letters",
+  "cat": "Wordplay",
+  "title": "Four-letter words",
+  "q": "Books of the Bible with four letters or fewer in their name",
+  "rule": "Uses the 66-book Protestant Bible. Ignore numbering, so a numbered book counts under its name.",
+  "tiers": {
+   "head": [
+    "John",
+    "Mark",
+    "Luke"
+   ],
+   "hipster": [],
+   "body": [
+    "Job",
+    "Ruth",
+    "Acts"
+   ],
+   "tail": [
+    "Amos",
+    "Joel"
+   ],
+   "deep": [
+    "Ezra"
+   ],
+   "outlier": [
+    "Jude"
+   ]
+  },
+  "fact": "Job has the shortest name of any Bible book at three letters, yet it runs to 42 chapters.",
+  "traps": {
+   "Titus": "Five letters, one too many.",
+   "James": "Five letters, one too many.",
+   "Micah": "Five letters, one too many.",
+   "Peter": "Five letters, one too many.",
+   "Esther": "Six letters, two too many."
+  },
+  "level": 1,
+  "alias": {
+   "John": [
+    "1 John",
+    "2 John",
+    "3 John",
+    "Gospel of John",
+    "Book of John"
+   ],
+   "Mark": [
+    "Gospel of Mark",
+    "Book of Mark"
+   ],
+   "Luke": [
+    "Gospel of Luke",
+    "Book of Luke"
+   ],
+   "Job": [
+    "Book of Job"
+   ],
+   "Ruth": [
+    "Book of Ruth"
+   ],
+   "Acts": [
+    "Acts of the Apostles",
+    "Book of Acts"
+   ],
+   "Amos": [
+    "Book of Amos"
+   ],
+   "Joel": [
+    "Book of Joel"
+   ],
+   "Ezra": [
+    "Book of Ezra"
+   ],
+   "Jude": [
+    "Epistle of Jude",
+    "Book of Jude"
+   ]
+  }
+ },
+ {
+  "id": "his-nato-founders",
+  "cat": "Cold War",
+  "title": "Class of '49",
+  "q": "The twelve founding members of NATO",
+  "rule": "Countries that signed the North Atlantic Treaty in April 1949; later joiners such as West Germany and Spain do not count.",
+  "tiers": {
+   "head": [
+    "United States",
+    "United Kingdom",
+    "France"
+   ],
+   "hipster": [],
+   "body": [
+    "Canada",
+    "Italy",
+    "Belgium",
+    "Netherlands"
+   ],
+   "tail": [
+    "Norway",
+    "Denmark",
+    "Portugal"
+   ],
+   "deep": [
+    "Iceland"
+   ],
+   "outlier": [
+    "Luxembourg"
+   ]
+  },
+  "fact": "Iceland, a NATO founder, has never had a standing army, and Portugal joined in 1949 while still under Salazar's dictatorship.",
+  "traps": {
+   "Germany": "West Germany only joined in 1955.",
+   "Spain": "Franco's Spain stayed out; it joined in 1982.",
+   "Greece": "Greece and Turkey joined together in 1952.",
+   "Turkey": "Turkey joined in 1952, not 1949.",
+   "Sweden": "Sweden stayed neutral until it joined in 2024."
+  },
+  "level": 2,
+  "alias": {
+   "United States": [
+    "USA",
+    "US",
+    "America",
+    "United States of America"
+   ],
+   "United Kingdom": [
+    "UK",
+    "Britain",
+    "Great Britain"
+   ],
+   "Netherlands": [
+    "Holland"
+   ]
+  }
+ },
+ {
+  "id": "his-warsaw-pact",
+  "cat": "Cold War",
+  "title": "Eastern bloc",
+  "q": "The eight original signatories of the Warsaw Pact",
+  "rule": "The states that signed in 1955, with the country that later split in two counting once. Cuba, Mongolia and Yugoslavia were never members.",
+  "tiers": {
+   "head": [
+    "Soviet Union",
+    "Poland"
+   ],
+   "hipster": [
+    "East Germany"
+   ],
+   "body": [
+    "Czechoslovakia",
+    "Hungary"
+   ],
+   "tail": [
+    "Romania"
+   ],
+   "deep": [
+    "Bulgaria"
+   ],
+   "outlier": [
+    "Albania"
+   ]
+  },
+  "fact": "Albania stopped taking part in 1961 and formally quit in 1968, weeks after the pact's armies invaded Czechoslovakia.",
+  "traps": {
+   "Yugoslavia": "Tito broke with Stalin in 1948 and stayed non-aligned.",
+   "Cuba": "A Soviet ally, but never a member of the pact.",
+   "Mongolia": "A Soviet ally, but never a full member of the pact.",
+   "China": "Communist, but never a member of the pact.",
+   "Ukraine": "It was a Soviet republic, not a separate signatory."
+  },
+  "level": 2,
+  "alias": {
+   "Soviet Union": [
+    "USSR",
+    "Russia",
+    "CCCP"
+   ],
+   "East Germany": [
+    "GDR",
+    "German Democratic Republic",
+    "DDR"
+   ],
+   "Czechoslovakia": [
+    "Czech Republic",
+    "Czechia",
+    "Slovakia"
+   ]
+  }
+ },
+ {
+  "id": "his-gunpowder-plotters",
+  "cat": "British History",
+  "title": "Remember, remember",
+  "q": "The thirteen conspirators in the 1605 Gunpowder Plot",
+  "rule": "The thirteen plotters traditionally named; priests and informers such as Henry Garnet do not count.",
+  "tiers": {
+   "head": [
+    "Guy Fawkes"
+   ],
+   "hipster": [
+    "Robert Catesby"
+   ],
+   "body": [
+    "Thomas Percy"
+   ],
+   "tail": [
+    "Thomas Wintour",
+    "Francis Tresham",
+    "Everard Digby"
+   ],
+   "deep": [
+    "Robert Keyes",
+    "Ambrose Rookwood",
+    "John Wright",
+    "Christopher Wright",
+    "Robert Wintour"
+   ],
+   "outlier": [
+    "Thomas Bates",
+    "John Grant"
+   ]
+  },
+  "fact": "The plot's leader was Robert Catesby, not Fawkes; he was shot dead at Holbeche House three days after Fawkes was arrested.",
+  "traps": {
+   "Henry Garnet": "A Jesuit priest executed for knowing of the plot, but not one of the thirteen.",
+   "Lord Monteagle": "He received the anonymous warning letter that exposed the plot.",
+   "Robert Cecil": "He was the king's spymaster who helped to uncover the plot.",
+   "King James": "He was the target of the plot, not a plotter."
+  },
+  "surnames": true,
+  "level": 3,
+  "alias": {
+   "Guy Fawkes": [
+    "Guido Fawkes",
+    "Guido"
+   ],
+   "Thomas Wintour": [
+    "Thomas Winter",
+    "Tom Wintour",
+    "Winter"
+   ],
+   "Robert Wintour": [
+    "Robert Winter"
+   ],
+   "Robert Keyes": [
+    "Robert Keys"
+   ],
+   "Francis Tresham": [
+    "Frances Tresham"
+   ]
+  }
+ },
+ {
+  "id": "his-seven-hills-rome",
+  "cat": "Ancient Rome",
+  "title": "Hill walk",
+  "q": "The seven hills of Rome in the traditional list",
+  "rule": "Only the traditional seven count; the Pincian, Vatican and Janiculum hills are not among them.",
+  "tiers": {
+   "head": [
+    "Palatine"
+   ],
+   "hipster": [],
+   "body": [
+    "Capitoline",
+    "Aventine"
+   ],
+   "tail": [
+    "Quirinal",
+    "Esquiline"
+   ],
+   "deep": [
+    "Viminal"
+   ],
+   "outlier": [
+    "Caelian"
+   ]
+  },
+  "fact": "The English word 'palace' comes from the Palatine, the hill where Rome's emperors built their residences.",
+  "traps": {
+   "Vatican": "Vatican Hill is across the Tiber, outside the traditional seven.",
+   "Janiculum": "It rises on the Tiber's west bank, so it is not one of the seven.",
+   "Pincian": "The Pincio was outside the old city and is not one of the seven.",
+   "Monte Testaccio": "It is a mound of discarded Roman amphorae, not a natural hill.",
+   "Colosseum": "It stands in a valley between hills and is not a hill itself."
+  },
+  "level": 3,
+  "alias": {
+   "Palatine": [
+    "Palatine Hill",
+    "Mons Palatinus",
+    "Palatino"
+   ],
+   "Capitoline": [
+    "Capitoline Hill",
+    "Capitolium",
+    "Campidoglio"
+   ],
+   "Aventine": [
+    "Aventine Hill",
+    "Aventino"
+   ],
+   "Caelian": [
+    "Celian",
+    "Coelian",
+    "Caelian Hill",
+    "Celio"
+   ],
+   "Esquiline": [
+    "Esquiline Hill",
+    "Esquilino"
+   ],
+   "Viminal": [
+    "Viminal Hill",
+    "Viminale"
+   ],
+   "Quirinal": [
+    "Quirinal Hill",
+    "Quirinale"
+   ]
+  }
+ },
+ {
+  "id": "his-shakespeare-kings",
+  "cat": "Monarchy",
+  "title": "Title role",
+  "q": "English kings who give their name to a Shakespeare history play",
+  "rule": "Histories printed in the First Folio only; Scottish or legendary kings and the disputed Edward III do not count.",
+  "tiers": {
+   "head": [
+    "Richard III",
+    "Henry V"
+   ],
+   "hipster": [],
+   "body": [
+    "Henry VIII",
+    "Henry IV",
+    "Richard II"
+   ],
+   "tail": [
+    "Henry VI"
+   ],
+   "deep": [],
+   "outlier": [
+    "King John"
+   ]
+  },
+  "fact": "A cannon fired during a performance of Henry VIII set the thatched roof alight and burned down the Globe in June 1613.",
+  "traps": {
+   "Macbeth": "He was a King of Scotland, not of England.",
+   "King Lear": "A legendary king of ancient Britain, not a historical English monarch.",
+   "Henry VII": "Shakespeare wrote no play named for the first Tudor king.",
+   "Edward II": "That play is by Christopher Marlowe, not Shakespeare.",
+   "Edward III": "Only partly attributed to Shakespeare, and not in the First Folio."
+  },
+  "level": 2,
+  "alias": {
+   "King John": [
+    "John",
+    "The Life and Death of King John"
+   ],
+   "Henry IV": [
+    "Henry IV Part 1",
+    "Henry IV Part 2"
+   ],
+   "Henry VI": [
+    "Henry VI Part 1",
+    "Henry VI Part 2",
+    "Henry VI Part 3"
+   ],
+   "Henry VIII": [
+    "All Is True"
+   ]
+  }
+ },
+ {
+  "id": "his-stuart-monarchs",
+  "cat": "British Monarchy",
+  "title": "Stuart times",
+  "q": "Monarchs who ruled England between Elizabeth I and George I",
+  "rule": "Joint monarchs count separately; Lord Protectors do not count as monarchs.",
+  "tiers": {
+   "head": [
+    "Charles I",
+    "Charles II"
+   ],
+   "hipster": [],
+   "body": [
+    "James I",
+    "Anne"
+   ],
+   "tail": [
+    "James II",
+    "William III"
+   ],
+   "deep": [],
+   "outlier": [
+    "Mary II"
+   ]
+  },
+  "fact": "Mary II ruled jointly with her husband William III from 1689 until she died of smallpox in 1694 aged 32, after which William reigned alone until 1702.",
+  "traps": {
+   "Oliver Cromwell": "He ruled as Lord Protector and refused the crown when it was offered.",
+   "Richard Cromwell": "Oliver's son was Lord Protector for under a year, never king.",
+   "Bonnie Prince Charlie": "He was a Jacobite claimant who never reigned.",
+   "Mary, Queen of Scots": "She was executed in 1587, during Elizabeth I's reign.",
+   "Lady Jane Grey": "Her nine-day reign in 1553 came long before Elizabeth I."
+  },
+  "level": 1,
+  "alias": {
+   "James I": [
+    "James VI",
+    "James VI and I",
+    "King James I"
+   ],
+   "James II": [
+    "James VII",
+    "James VII and II",
+    "King James II"
+   ],
+   "William III": [
+    "William of Orange",
+    "King William III",
+    "William and Mary"
+   ],
+   "Anne": [
+    "Queen Anne"
+   ],
+   "Charles I": [
+    "King Charles I"
+   ],
+   "Charles II": [
+    "King Charles II",
+    "Merry Monarch"
+   ],
+   "Mary II": [
+    "Queen Mary II"
+   ]
+  }
+ },
+ {
+  "id": "his-tudor-queens-consort",
+  "cat": "British Monarchy",
+  "title": "Tudor brides",
+  "q": "Women who were queen consort to a Tudor king",
+  "rule": "Wives of Henry VII and Henry VIII only; Mary I's husband was a king consort and Elizabeth I never married.",
+  "tiers": {
+   "head": [
+    "Anne Boleyn",
+    "Catherine of Aragon"
+   ],
+   "hipster": [],
+   "body": [
+    "Jane Seymour",
+    "Anne of Cleves"
+   ],
+   "tail": [
+    "Catherine Howard",
+    "Catherine Parr"
+   ],
+   "deep": [],
+   "outlier": [
+    "Elizabeth of York"
+   ]
+  },
+  "fact": "Elizabeth of York was the daughter of Edward IV, the niece of Richard III, the wife of Henry VII and the mother of Henry VIII.",
+  "traps": {
+   "Mary Boleyn": "Anne's sister was Henry VIII's mistress, never his queen.",
+   "Lady Jane Grey": "She was a queen regnant for nine days, not a consort.",
+   "Elizabeth Woodville": "She was queen to Edward IV, before the Tudors.",
+   "Anne Neville": "She was queen to Richard III, the last Plantagenet king.",
+   "Margaret Beaufort": "She was Henry VII's mother and was never queen."
+  },
+  "surnames": true,
+  "level": 1,
+  "alias": {
+   "Anne Boleyn": [
+    "Anne Bullen",
+    "Ann Boleyn"
+   ],
+   "Catherine of Aragon": [
+    "Katherine of Aragon",
+    "Katharine of Aragon",
+    "Catalina of Aragon"
+   ],
+   "Anne of Cleves": [
+    "Anna of Cleves"
+   ],
+   "Catherine Howard": [
+    "Katherine Howard",
+    "Kathryn Howard"
+   ],
+   "Catherine Parr": [
+    "Katherine Parr",
+    "Kateryn Parr",
+    "Catherine Par"
+   ]
+  }
+ },
+ {
+  "id": "his-heptarchy",
+  "cat": "Early England",
+  "title": "Before England",
+  "q": "The seven kingdoms of the Anglo-Saxon Heptarchy",
+  "rule": "The traditional list of seven; smaller sub-kingdoms and Celtic kingdoms do not count.",
+  "tiers": {
+   "head": [
+    "Wessex",
+    "Mercia"
+   ],
+   "hipster": [],
+   "body": [
+    "Northumbria",
+    "Kent"
+   ],
+   "tail": [
+    "East Anglia"
+   ],
+   "deep": [
+    "Essex"
+   ],
+   "outlier": [
+    "Sussex"
+   ]
+  },
+  "fact": "Wessex alone survived the Viking invasions, and Alfred the Great's grandson Athelstan became the first king of all England in 927.",
+  "traps": {
+   "Cornwall": "It was part of the British kingdom of Dumnonia, not an Anglo-Saxon kingdom.",
+   "Danelaw": "A Viking-ruled region of the 9th century on, not one of the seven.",
+   "Bernicia": "It merged with Deira to form Northumbria rather than standing alone.",
+   "Lindsey": "A small sub-kingdom in Lincolnshire, absorbed by its larger neighbours.",
+   "Northumberland": "The modern county covers only the far north of old Northumbria."
+  },
+  "level": 2,
+  "alias": {
+   "Wessex": [
+    "West Saxons",
+    "Kingdom of Wessex"
+   ],
+   "Mercia": [
+    "Kingdom of Mercia"
+   ],
+   "Northumbria": [
+    "Kingdom of Northumbria"
+   ],
+   "Kent": [
+    "Kingdom of Kent"
+   ],
+   "East Anglia": [
+    "East Angles",
+    "Kingdom of East Anglia"
+   ],
+   "Essex": [
+    "East Saxons",
+    "Kingdom of Essex"
+   ],
+   "Sussex": [
+    "South Saxons",
+    "Kingdom of Sussex"
+   ]
+  }
+ },
+ {
+  "id": "his-chancellor-pms",
+  "cat": "British Politics",
+  "title": "Next door up",
+  "q": "Prime Ministers who had earlier been Chancellor of the Exchequer",
+  "rule": "Only PMs who took office in 1900 or later, and who held the Chancellorship before becoming PM.",
+  "tiers": {
+   "head": [
+    "Gordon Brown",
+    "Rishi Sunak",
+    "John Major"
+   ],
+   "hipster": [
+    "Winston Churchill"
+   ],
+   "body": [
+    "Neville Chamberlain",
+    "James Callaghan",
+    "Harold Macmillan",
+    "David Lloyd George"
+   ],
+   "tail": [
+    "Stanley Baldwin",
+    "H. H. Asquith"
+   ],
+   "deep": [],
+   "outlier": [
+    "Bonar Law"
+   ]
+  },
+  "fact": "John Major was Foreign Secretary for only three months in 1989 and Chancellor for 13 months before becoming PM in November 1990.",
+  "traps": {
+   "George Osborne": "Six years as Chancellor, but he never became PM.",
+   "Rab Butler": "Chancellor in the 1950s, passed over for PM in 1957 and 1963.",
+   "Denis Healey": "Labour's Chancellor from 1974 to 1979, never PM.",
+   "Margaret Thatcher": "She was Education Secretary and never Chancellor.",
+   "Tony Blair": "He held no ministerial post at all before becoming PM."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Gordon Brown": [
+    "James Gordon Brown"
+   ],
+   "John Major": [
+    "John Roy Major"
+   ],
+   "Winston Churchill": [
+    "Winston S. Churchill",
+    "Winston Spencer Churchill"
+   ],
+   "James Callaghan": [
+    "Jim Callaghan",
+    "Lord Callaghan"
+   ],
+   "Harold Macmillan": [
+    "Supermac",
+    "Earl of Stockton"
+   ],
+   "David Lloyd George": [
+    "Lloyd George"
+   ],
+   "H. H. Asquith": [
+    "Herbert Asquith",
+    "Herbert Henry Asquith",
+    "Earl of Oxford and Asquith"
+   ],
+   "Bonar Law": [
+    "Andrew Bonar Law"
+   ]
+  }
+ },
+ {
+  "id": "his-pms-born-outside-england",
+  "cat": "British Politics",
+  "title": "Passport control",
+  "q": "UK Prime Ministers born outside England",
+  "rule": "Any birthplace outside England counts, at home or abroad.",
+  "tiers": {
+   "head": [
+    "Tony Blair",
+    "Gordon Brown",
+    "Boris Johnson"
+   ],
+   "hipster": [
+    "Duke of Wellington"
+   ],
+   "body": [
+    "Ramsay MacDonald",
+    "Arthur Balfour"
+   ],
+   "tail": [
+    "Bonar Law",
+    "Henry Campbell-Bannerman"
+   ],
+   "deep": [
+    "Earl of Aberdeen",
+    "Earl of Bute"
+   ],
+   "outlier": [
+    "Earl of Shelburne"
+   ]
+  },
+  "fact": "Bonar Law, born in New Brunswick, was the first PM born outside the British Isles; Boris Johnson, born in New York City, was the second.",
+  "traps": {
+   "Winston Churchill": "Born at Blenheim Palace in Oxfordshire, though his mother was American.",
+   "David Lloyd George": "Raised in Wales and Welsh-speaking, but born in Manchester.",
+   "Alec Douglas-Home": "A Scottish aristocrat, but born in London.",
+   "Lord Rosebery": "A Scottish earl, but born in Mayfair, London.",
+   "William Gladstone": "His family was Scottish, but he was born in Liverpool."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Tony Blair": [
+    "Anthony Blair"
+   ],
+   "Boris Johnson": [
+    "Alexander Boris de Pfeffel Johnson"
+   ],
+   "Duke of Wellington": [
+    "Arthur Wellesley",
+    "Lord Wellington",
+    "Wellington"
+   ],
+   "Ramsay MacDonald": [
+    "James Ramsay MacDonald"
+   ],
+   "Arthur Balfour": [
+    "A. J. Balfour",
+    "Lord Balfour"
+   ],
+   "Bonar Law": [
+    "Andrew Bonar Law"
+   ],
+   "Henry Campbell-Bannerman": [
+    "Campbell-Bannerman",
+    "CB"
+   ],
+   "Earl of Aberdeen": [
+    "Lord Aberdeen",
+    "George Hamilton-Gordon",
+    "Aberdeen"
+   ],
+   "Earl of Bute": [
+    "Lord Bute",
+    "John Stuart",
+    "Bute"
+   ],
+   "Earl of Shelburne": [
+    "Lord Shelburne",
+    "William Petty",
+    "Marquess of Lansdowne",
+    "Shelburne"
+   ]
+  }
+ },
+ {
+  "id": "his-thirteen-colonies",
+  "cat": "US History",
+  "title": "Original thirteen",
+  "q": "The thirteen British colonies that became the first US states",
+  "rule": "The two Carolinas count separately.",
+  "tiers": {
+   "head": [
+    "Virginia",
+    "Massachusetts",
+    "New York",
+    "Georgia"
+   ],
+   "hipster": [],
+   "body": [
+    "Pennsylvania",
+    "New Jersey",
+    "Connecticut",
+    "North Carolina",
+    "South Carolina"
+   ],
+   "tail": [
+    "Maryland",
+    "New Hampshire"
+   ],
+   "deep": [
+    "Rhode Island"
+   ],
+   "outlier": [
+    "Delaware"
+   ]
+  },
+  "fact": "Delaware ratified the Constitution first, on 7 December 1787, and now calls itself the First State.",
+  "traps": {
+   "Maine": "It was part of Massachusetts until 1820.",
+   "Vermont": "It was disputed between New York and New Hampshire and joined in 1791.",
+   "Kentucky": "It was part of Virginia until 1792.",
+   "Florida": "Britain held it only from 1763 to 1783, and it stayed loyal in 1776.",
+   "West Virginia": "It split from Virginia in 1863 during the Civil War."
+  },
+  "level": 1,
+  "alias": {
+   "Massachusetts": [
+    "Massachusetts Bay"
+   ],
+   "Rhode Island": [
+    "Rhode Island and Providence Plantations",
+    "Providence Plantations"
+   ]
+  }
+ },
+ {
+  "id": "his-confederate-states",
+  "cat": "US History",
+  "title": "Divided house",
+  "q": "States that seceded from the Union in 1860 and 1861",
+  "rule": "The eleven that formally seceded; Kentucky and Missouri, which had rival Confederate governments, did not.",
+  "tiers": {
+   "head": [
+    "South Carolina",
+    "Texas",
+    "Georgia",
+    "Virginia"
+   ],
+   "hipster": [],
+   "body": [
+    "Alabama",
+    "Mississippi",
+    "Louisiana",
+    "Florida"
+   ],
+   "tail": [
+    "North Carolina"
+   ],
+   "deep": [
+    "Tennessee"
+   ],
+   "outlier": [
+    "Arkansas"
+   ]
+  },
+  "fact": "Tennessee was the last state to secede, in June 1861, and the first to be readmitted to the Union, in July 1866.",
+  "traps": {
+   "Kentucky": "It declared neutrality, then stayed in the Union.",
+   "Missouri": "A rival Confederate government existed, but the state never seceded.",
+   "Maryland": "A slave state that stayed in the Union.",
+   "Delaware": "A slave state that stayed loyal to the Union.",
+   "West Virginia": "It broke away from Virginia in 1863 to stay in the Union."
+  },
+  "level": 1
+ },
+ {
+  "id": "his-us-former-capitals",
+  "cat": "US History",
+  "title": "Capital idea",
+  "q": "Cities where Congress met before it settled in Washington, D.C.",
+  "rule": "Includes meetings of the Continental Congress and the Confederation Congress; a one-day stay still counts.",
+  "tiers": {
+   "head": [
+    "Philadelphia",
+    "New York"
+   ],
+   "hipster": [],
+   "body": [
+    "Baltimore"
+   ],
+   "tail": [
+    "Annapolis",
+    "Princeton"
+   ],
+   "deep": [
+    "Trenton",
+    "Lancaster"
+   ],
+   "outlier": [
+    "York"
+   ]
+  },
+  "fact": "Lancaster, Pennsylvania was the capital of the United States for a single day, 27 September 1777, as Congress fled the British advance on Philadelphia.",
+  "traps": {
+   "Boston": "Congress never sat there, despite the city's role in the Revolution.",
+   "Williamsburg": "It was the capital of colonial Virginia, not of the United States.",
+   "Richmond": "It was the capital of the Confederacy, not of the United States.",
+   "Washington": "It is the permanent capital that Congress moved to in 1800."
+  },
+  "level": 3,
+  "alias": {
+   "Philadelphia": [
+    "Philly"
+   ],
+   "New York": [
+    "New York City",
+    "NYC"
+   ],
+   "Lancaster": [
+    "Lancaster Pennsylvania",
+    "Lancaster PA"
+   ],
+   "York": [
+    "York Pennsylvania",
+    "York PA"
+   ],
+   "Princeton": [
+    "Princeton New Jersey"
+   ],
+   "Trenton": [
+    "Trenton New Jersey"
+   ]
+  }
+ },
+ {
+  "id": "his-labours-hercules",
+  "cat": "Greek Myth",
+  "title": "Herculean tasks",
+  "q": "The twelve labours of Hercules",
+  "rule": "Name the creature or prize at the heart of each labour.",
+  "tiers": {
+   "head": [
+    "Nemean Lion",
+    "Lernaean Hydra",
+    "Cerberus",
+    "Augean Stables"
+   ],
+   "hipster": [],
+   "body": [
+    "Apples of the Hesperides",
+    "Erymanthian Boar",
+    "Stymphalian Birds",
+    "Cretan Bull"
+   ],
+   "tail": [
+    "Ceryneian Hind",
+    "Girdle of Hippolyta"
+   ],
+   "deep": [
+    "Mares of Diomedes"
+   ],
+   "outlier": [
+    "Cattle of Geryon"
+   ]
+  },
+  "fact": "For his eighth labour Heracles fed King Diomedes to his own man-eating mares, which in the usual telling then became tame enough to lead away.",
+  "traps": {
+   "Medusa": "Perseus beheaded Medusa, not Hercules.",
+   "Minotaur": "Theseus killed the Minotaur in the Cretan labyrinth.",
+   "Chimera": "That was Bellerophon's feat, riding Pegasus.",
+   "Golden Fleece": "That was Jason's quest with the Argonauts.",
+   "Sphinx": "Oedipus defeated the Sphinx by solving its riddle."
+  },
+  "level": 1,
+  "alias": {
+   "Nemean Lion": [
+    "Lion of Nemea",
+    "Nemean",
+    "Lion"
+   ],
+   "Lernaean Hydra": [
+    "Hydra",
+    "Lernean Hydra",
+    "Lernaian Hydra",
+    "Many-headed Hydra",
+    "Nine-headed Hydra"
+   ],
+   "Cerberus": [
+    "Kerberos",
+    "Hound of Hades",
+    "Three-headed Dog",
+    "Capture Cerberus"
+   ],
+   "Augean Stables": [
+    "Augeas Stables",
+    "Stables of Augeas",
+    "Augean Stable",
+    "Stables",
+    "Cleaning the Stables"
+   ],
+   "Apples of the Hesperides": [
+    "Golden Apples",
+    "Hesperides",
+    "Golden Apples of the Hesperides",
+    "Apples"
+   ],
+   "Erymanthian Boar": [
+    "Erymanthean Boar",
+    "Boar"
+   ],
+   "Stymphalian Birds": [
+    "Stymphalian Bird",
+    "Birds",
+    "Man-eating Birds"
+   ],
+   "Cretan Bull": [
+    "Marathonian Bull",
+    "Bull"
+   ],
+   "Ceryneian Hind": [
+    "Golden Hind",
+    "Cerynitian Hind",
+    "Ceryneian Deer",
+    "Golden Deer",
+    "Hind"
+   ],
+   "Girdle of Hippolyta": [
+    "Belt of Hippolyta",
+    "Girdle of Hippolyte",
+    "Hippolyta's Girdle",
+    "Girdle of the Amazon Queen",
+    "Girdle",
+    "Belt"
+   ],
+   "Mares of Diomedes": [
+    "Horses of Diomedes",
+    "Man-eating Mares",
+    "Mares",
+    "Horses"
+   ],
+   "Cattle of Geryon": [
+    "Cows of Geryon",
+    "Cattle of Geryones",
+    "Geryon's Cattle",
+    "Geryon",
+    "Red Cattle"
+   ]
+  }
+ },
+ {
+  "id": "his-nine-muses",
+  "cat": "Greek Myth",
+  "title": "Muse on this",
+  "q": "The nine Muses of Greek mythology",
+  "rule": "",
+  "tiers": {
+   "head": [
+    "Calliope",
+    "Clio"
+   ],
+   "hipster": [],
+   "body": [
+    "Thalia",
+    "Melpomene"
+   ],
+   "tail": [
+    "Terpsichore",
+    "Erato"
+   ],
+   "deep": [
+    "Euterpe",
+    "Urania"
+   ],
+   "outlier": [
+    "Polyhymnia"
+   ]
+  },
+  "fact": "The word museum comes from the Greek mouseion, a shrine of the Muses, who were daughters of Zeus and the Titaness Mnemosyne, goddess of memory.",
+  "traps": {
+   "Apollo": "The god who led the Muses, but not himself a Muse.",
+   "Mnemosyne": "The Titaness of memory, and the Muses' mother.",
+   "Sappho": "Plato called her the tenth Muse, but she was a mortal poet.",
+   "Athena": "A goddess of wisdom and crafts, not one of the nine."
+  },
+  "level": 3,
+  "alias": {
+   "Calliope": [
+    "Kalliope"
+   ],
+   "Clio": [
+    "Kleio"
+   ],
+   "Thalia": [
+    "Thaleia"
+   ],
+   "Urania": [
+    "Ourania"
+   ],
+   "Polyhymnia": [
+    "Polymnia",
+    "Polyhymnus"
+   ]
+  }
+ },
+ {
+  "id": "his-original-titans",
+  "cat": "Greek Myth",
+  "title": "Before Zeus",
+  "q": "The twelve original Titans, children of Gaia and Uranus",
+  "rule": "Second-generation Titans such as Atlas and Prometheus do not count.",
+  "tiers": {
+   "head": [
+    "Cronus"
+   ],
+   "hipster": [],
+   "body": [
+    "Rhea",
+    "Oceanus",
+    "Hyperion"
+   ],
+   "tail": [
+    "Themis",
+    "Mnemosyne",
+    "Phoebe"
+   ],
+   "deep": [
+    "Iapetus",
+    "Tethys",
+    "Theia"
+   ],
+   "outlier": [
+    "Coeus",
+    "Crius"
+   ]
+  },
+  "fact": "Cronus swallowed five of his children; his wife and sister Rhea saved the sixth, Zeus, by handing him a stone wrapped in baby clothes.",
+  "traps": {
+   "Atlas": "A son of the Titan Iapetus, so second generation.",
+   "Prometheus": "A son of Iapetus, so second generation.",
+   "Helios": "A child of Hyperion and Theia, so second generation.",
+   "Zeus": "Cronus's son and king of the Olympians, who overthrew the Titans.",
+   "Epimetheus": "A son of Iapetus and brother of Prometheus."
+  },
+  "level": 3,
+  "alias": {
+   "Cronus": [
+    "Kronos",
+    "Cronos",
+    "Saturn"
+   ],
+   "Rhea": [
+    "Rheia"
+   ],
+   "Oceanus": [
+    "Okeanos",
+    "Oceanos"
+   ],
+   "Phoebe": [
+    "Phoibe"
+   ],
+   "Iapetus": [
+    "Iapetos",
+    "Japetus"
+   ],
+   "Tethys": [
+    "Tethis"
+   ],
+   "Theia": [
+    "Thea"
+   ],
+   "Coeus": [
+    "Koios",
+    "Coios",
+    "Kios"
+   ],
+   "Crius": [
+    "Krios",
+    "Kreios",
+    "Crios"
+   ]
+  }
+ },
+ {
+  "id": "his-roman-god-names",
+  "cat": "Roman Myth",
+  "title": "When in Rome",
+  "q": "Roman names for Olympian gods that differ from their Greek names",
+  "rule": "Give the Roman name; Apollo kept the same name in both cultures, so he does not count.",
+  "tiers": {
+   "head": [
+    "Jupiter",
+    "Mars",
+    "Venus",
+    "Neptune"
+   ],
+   "hipster": [],
+   "body": [
+    "Mercury",
+    "Juno",
+    "Minerva",
+    "Diana"
+   ],
+   "tail": [
+    "Vulcan",
+    "Ceres",
+    "Bacchus"
+   ],
+   "deep": [],
+   "outlier": [
+    "Vesta"
+   ]
+  },
+  "fact": "Ceres gave us the word cereal, Vulcan gave us volcano and Bacchus gave us bacchanal.",
+  "traps": {
+   "Zeus": "That is the Greek name; the Roman form is Jupiter.",
+   "Athena": "That is the Greek name; the Roman form is Minerva.",
+   "Apollo": "Greeks and Romans used exactly the same name for him.",
+   "Pluto": "He is Hades's Roman name, but Hades is not counted among the twelve Olympians.",
+   "Cupid": "He is the Roman Eros, who was never one of the twelve Olympians."
+  },
+  "level": 1,
+  "alias": {
+   "Jupiter": [
+    "Jove",
+    "Iuppiter",
+    "Jupiter Optimus Maximus"
+   ],
+   "Mars": [
+    "Mavors"
+   ],
+   "Neptune": [
+    "Neptunus"
+   ],
+   "Mercury": [
+    "Mercurius"
+   ],
+   "Vulcan": [
+    "Volcanus",
+    "Vulcanus"
+   ],
+   "Bacchus": [
+    "Liber"
+   ]
+  }
+ },
+ {
+  "id": "his-kings-of-rome",
+  "cat": "Ancient Rome",
+  "title": "Rome's kings",
+  "q": "The seven traditional kings of Rome, before the Republic",
+  "rule": "The traditional list of seven; historians doubt how much of it is real.",
+  "tiers": {
+   "head": [
+    "Romulus"
+   ],
+   "hipster": [],
+   "body": [
+    "Tarquinius Superbus"
+   ],
+   "tail": [
+    "Numa Pompilius",
+    "Tarquinius Priscus"
+   ],
+   "deep": [
+    "Servius Tullius",
+    "Tullus Hostilius"
+   ],
+   "outlier": [
+    "Ancus Marcius"
+   ]
+  },
+  "fact": "Tradition credits Ancus Marcius with founding Ostia, Rome's port at the mouth of the Tiber, and building the first bridge over the river.",
+  "traps": {
+   "Remus": "Romulus's twin brother, killed before Rome had a king.",
+   "Lucius Junius Brutus": "He helped expel the last king and became one of the first consuls.",
+   "Julius Caesar": "He was dictator for life and refused a crown.",
+   "Augustus": "He was the first emperor, centuries after the kings.",
+   "Cincinnatus": "He was a dictator of the early Republic, not a king."
+  },
+  "level": 3,
+  "alias": {
+   "Romulus": [
+    "Romulus Quirinus"
+   ],
+   "Tarquinius Superbus": [
+    "Tarquin the Proud",
+    "Tarquin Superbus",
+    "Lucius Tarquinius Superbus",
+    "Superbus",
+    "Tarquin"
+   ],
+   "Numa Pompilius": [
+    "Numa"
+   ],
+   "Tarquinius Priscus": [
+    "Tarquin the Elder",
+    "Lucius Tarquinius Priscus",
+    "Priscus",
+    "Tarquin Priscus"
+   ],
+   "Servius Tullius": [
+    "Servius"
+   ],
+   "Tullus Hostilius": [
+    "Tullus"
+   ],
+   "Ancus Marcius": [
+    "Ancus"
+   ]
+  }
+ },
+ {
+  "id": "his-nerva-antonine-emperors",
+  "cat": "Ancient Rome",
+  "title": "Golden age",
+  "q": "Roman emperors who reigned between AD 96 and AD 192",
+  "rule": "Co-emperors count too.",
+  "tiers": {
+   "head": [
+    "Marcus Aurelius",
+    "Hadrian",
+    "Commodus"
+   ],
+   "hipster": [],
+   "body": [
+    "Trajan"
+   ],
+   "tail": [
+    "Antoninus Pius"
+   ],
+   "deep": [
+    "Nerva"
+   ],
+   "outlier": [
+    "Lucius Verus"
+   ]
+  },
+  "fact": "Commodus was strangled in his bath by his wrestling partner Narcissus in AD 192, not killed in the arena as the film Gladiator shows.",
+  "traps": {
+   "Domitian": "He was assassinated in AD 96, just before Nerva took over.",
+   "Pertinax": "He briefly took the throne in AD 193 after Commodus.",
+   "Septimius Severus": "He seized power in AD 193, the year after Commodus died.",
+   "Nero": "He died in AD 68, nearly three decades earlier.",
+   "Constantine": "He reigned in the 4th century, long after Commodus."
+  },
+  "level": 2,
+  "alias": {
+   "Marcus Aurelius": [
+    "Marcus Aurelius Antoninus"
+   ],
+   "Hadrian": [
+    "Publius Aelius Hadrianus",
+    "Hadrianus"
+   ],
+   "Commodus": [
+    "Lucius Aelius Aurelius Commodus",
+    "Lucius Aurelius Commodus"
+   ],
+   "Trajan": [
+    "Traianus",
+    "Marcus Ulpius Traianus"
+   ],
+   "Antoninus Pius": [
+    "Antoninus"
+   ],
+   "Nerva": [
+    "Marcus Cocceius Nerva"
+   ],
+   "Lucius Verus": [
+    "Verus"
+   ]
+  }
+ },
+ {
+  "id": "his-egyptian-ennead",
+  "cat": "Egyptian Myth",
+  "title": "The Great Nine",
+  "q": "The nine gods of the Great Ennead of Heliopolis",
+  "rule": "The classic nine of Heliopolis. Later additions such as Horus do not count.",
+  "tiers": {
+   "head": [
+    "Osiris",
+    "Isis"
+   ],
+   "hipster": [
+    "Set"
+   ],
+   "body": [
+    "Nephthys"
+   ],
+   "tail": [
+    "Geb",
+    "Nut"
+   ],
+   "deep": [
+    "Atum",
+    "Shu"
+   ],
+   "outlier": [
+    "Tefnut"
+   ]
+  },
+  "fact": "Shu, the god of air, is shown holding up his daughter Nut, the sky, to keep her apart from her brother and husband Geb, the earth.",
+  "traps": {
+   "Anubis": "The jackal-headed god of embalming is not one of the nine.",
+   "Thoth": "The ibis-headed god of writing is not one of the nine.",
+   "Bastet": "The cat goddess is not one of the nine.",
+   "Hathor": "The cow goddess of love and music is not one of the nine."
+  },
+  "level": 3,
+  "alias": {
+   "Osiris": [
+    "Asar",
+    "Usir",
+    "Wesir"
+   ],
+   "Isis": [
+    "Aset",
+    "Auset",
+    "Eset"
+   ],
+   "Set": [
+    "Seth",
+    "Sutekh",
+    "Setekh"
+   ],
+   "Nephthys": [
+    "Nebthet"
+   ],
+   "Geb": [
+    "Seb",
+    "Keb",
+    "Qeb"
+   ],
+   "Nut": [
+    "Nuit"
+   ],
+   "Atum": [
+    "Atem",
+    "Tem",
+    "Temu"
+   ],
+   "Tefnut": [
+    "Tefenet"
+   ]
+  }
+ },
+ {
+  "id": "his-weekday-namesakes",
+  "cat": "Myth & Words",
+  "title": "Name that day",
+  "q": "The gods and heavenly bodies that the English weekdays are named after",
+  "rule": "Sunday to Saturday. Friday's goddess is disputed between two names, and both are accepted.",
+  "tiers": {
+   "head": [
+    "Thor",
+    "Odin"
+   ],
+   "hipster": [],
+   "body": [
+    "Sun",
+    "Moon",
+    "Saturn"
+   ],
+   "tail": [
+    "Frigg"
+   ],
+   "deep": [],
+   "outlier": [
+    "Tyr"
+   ]
+  },
+  "fact": "English swapped the Roman gods Mars, Mercury, Jupiter and Venus for the Norse Tyr, Odin, Thor and Frigg, but left Saturn with his Roman name.",
+  "traps": {
+   "Mars": "He names mardi in French, not Tuesday.",
+   "Mercury": "He names mercredi in French, not Wednesday.",
+   "Jupiter": "He names jeudi in French, not Thursday.",
+   "Venus": "She names vendredi in French, not Friday.",
+   "Loki": "The Norse trickster never had a weekday named after him."
+  },
+  "level": 1,
+  "alias": {
+   "Thor": [
+    "Thunor",
+    "Donar"
+   ],
+   "Odin": [
+    "Woden",
+    "Wodan",
+    "Wotan"
+   ],
+   "Sun": [
+    "Sol"
+   ],
+   "Moon": [
+    "Luna",
+    "Mani"
+   ],
+   "Saturn": [
+    "Saturnus"
+   ],
+   "Frigg": [
+    "Freya",
+    "Freyja",
+    "Frigga",
+    "Frige"
+   ],
+   "Tyr": [
+    "Tiw",
+    "Tiu",
+    "Tew",
+    "Ziu",
+    "Tir"
+   ]
+  }
+ },
+ {
+  "id": "his-vishnu-avatars",
+  "cat": "Hindu Myth",
+  "title": "Divine descents",
+  "q": "The traditional avatars of Vishnu in the Dashavatara",
+  "rule": "Traditions differ over one of the ten, so both versions are accepted.",
+  "tiers": {
+   "head": [
+    "Rama",
+    "Krishna"
+   ],
+   "hipster": [
+    "Buddha"
+   ],
+   "body": [
+    "Kalki",
+    "Narasimha",
+    "Matsya"
+   ],
+   "tail": [
+    "Varaha",
+    "Vamana",
+    "Kurma"
+   ],
+   "deep": [
+    "Parashurama"
+   ],
+   "outlier": [
+    "Balarama"
+   ]
+  },
+  "fact": "Narasimha, half man and half lion, killed the demon Hiranyakashipu at dusk, on a threshold, on his lap, sidestepping every term of the demon's boon.",
+  "traps": {
+   "Hanuman": "Rama's devoted follower, not an avatar of Vishnu.",
+   "Ganesha": "The elephant-headed son of Shiva and Parvati.",
+   "Shiva": "A separate supreme deity, not an avatar of Vishnu.",
+   "Arjuna": "Krishna's friend and pupil in the Mahabharata, not an avatar.",
+   "Garuda": "The eagle who serves as Vishnu's mount."
+  },
+  "level": 3,
+  "alias": {
+   "Rama": [
+    "Ram",
+    "Sri Rama",
+    "Lord Rama",
+    "Ramachandra"
+   ],
+   "Krishna": [
+    "Lord Krishna",
+    "Shri Krishna",
+    "Krsna"
+   ],
+   "Buddha": [
+    "Gautama Buddha",
+    "Siddhartha"
+   ],
+   "Kalki": [
+    "Kalkin",
+    "Kalki avatar"
+   ],
+   "Narasimha": [
+    "Narsimha",
+    "Narasingha",
+    "Narsingh",
+    "Nrisimha",
+    "Man-lion"
+   ],
+   "Matsya": [
+    "Matsyavatara",
+    "Fish"
+   ],
+   "Varaha": [
+    "Varah",
+    "Boar"
+   ],
+   "Vamana": [
+    "Vaman",
+    "Dwarf"
+   ],
+   "Kurma": [
+    "Koorma",
+    "Kurmavatara",
+    "Tortoise",
+    "Turtle"
+   ],
+   "Parashurama": [
+    "Parashuram",
+    "Parasurama",
+    "Parshuram",
+    "Parasuram"
+   ],
+   "Balarama": [
+    "Balaram",
+    "Baladeva",
+    "Balabhadra"
+   ]
+  }
+ },
+ {
+  "id": "his-twelve-apostles",
+  "cat": "Christianity",
+  "title": "The Twelve",
+  "q": "The twelve original apostles of Jesus",
+  "rule": "The betrayer counts; later apostles such as Matthias, Paul and Barnabas do not.",
+  "tiers": {
+   "head": [
+    "Peter",
+    "Judas Iscariot",
+    "John",
+    "Thomas"
+   ],
+   "hipster": [],
+   "body": [
+    "Andrew",
+    "James (son of Zebedee)",
+    "Matthew",
+    "Philip"
+   ],
+   "tail": [
+    "Bartholomew",
+    "Simon the Zealot"
+   ],
+   "deep": [
+    "James (son of Alphaeus)"
+   ],
+   "outlier": [
+    "Thaddaeus"
+   ]
+  },
+  "fact": "Thaddaeus, also known as Jude, is revered by many Catholics as the patron saint of lost causes.",
+  "traps": {
+   "Paul": "He called himself an apostle but was never one of the Twelve.",
+   "Matthias": "He was chosen by lot to replace Judas after the original Twelve.",
+   "Mary Magdalene": "A follower of Jesus, but not one of the Twelve.",
+   "Mark": "A Gospel writer, but not one of the Twelve.",
+   "Luke": "A Gospel writer and companion of Paul, not one of the Twelve."
+  },
+  "level": 1,
+  "alias": {
+   "Peter": [
+    "Simon Peter",
+    "Saint Peter",
+    "St Peter",
+    "Cephas"
+   ],
+   "Judas Iscariot": [
+    "Judas",
+    "Iscariot"
+   ],
+   "John": [
+    "John the Apostle",
+    "John the Evangelist",
+    "Saint John"
+   ],
+   "Thomas": [
+    "Doubting Thomas",
+    "Didymus",
+    "Saint Thomas"
+   ],
+   "James (son of Zebedee)": [
+    "James",
+    "James the Greater",
+    "James the Great"
+   ],
+   "James (son of Alphaeus)": [
+    "James the Lesser",
+    "James the Less",
+    "James the Younger"
+   ],
+   "Bartholomew": [
+    "Nathanael",
+    "Nathaniel"
+   ],
+   "Simon the Zealot": [
+    "Simon",
+    "Simon the Canaanite",
+    "Simon Zelotes"
+   ],
+   "Thaddaeus": [
+    "Thaddeus",
+    "Jude",
+    "Judas Thaddaeus",
+    "Saint Jude",
+    "Lebbaeus",
+    "Jude Thaddeus"
+   ]
+  }
+ },
+ {
+  "id": "his-plagues-of-egypt",
+  "cat": "Bible",
+  "title": "Pharaoh's problems",
+  "q": "The ten plagues of Egypt in the Book of Exodus",
+  "rule": "Name each plague by its subject; the usual alternative translations are accepted.",
+  "tiers": {
+   "head": [
+    "Locusts",
+    "Frogs",
+    "Blood",
+    "Darkness"
+   ],
+   "hipster": [],
+   "body": [
+    "Death of the firstborn",
+    "Boils",
+    "Hail"
+   ],
+   "tail": [
+    "Flies",
+    "Lice"
+   ],
+   "deep": [],
+   "outlier": [
+    "Livestock disease"
+   ]
+  },
+  "fact": "At the Passover seder, Jewish families spill a drop of wine from their cups for each of the ten plagues, to show sorrow at the Egyptians' suffering.",
+  "traps": {
+   "Rats": "Not one of the ten plagues in Exodus.",
+   "Drought": "Not listed; the Nile turned to blood instead.",
+   "Famine": "Not one of the ten named in Exodus.",
+   "Snakes": "Moses's staff became a serpent as a sign, not a plague.",
+   "Earthquake": "Not one of the ten plagues."
+  },
+  "level": 1,
+  "alias": {
+   "Locusts": [
+    "Plague of locusts",
+    "Grasshoppers"
+   ],
+   "Frogs": [
+    "Plague of frogs"
+   ],
+   "Blood": [
+    "Water into blood",
+    "Water turned to blood",
+    "River of blood",
+    "Nile turned to blood",
+    "Blood in the Nile"
+   ],
+   "Darkness": [
+    "Plague of darkness",
+    "Thick darkness"
+   ],
+   "Death of the firstborn": [
+    "Firstborn",
+    "Death of firstborn",
+    "Death of the first-born",
+    "Killing of the firstborn",
+    "Slaying of the firstborn",
+    "Tenth plague"
+   ],
+   "Boils": [
+    "Sores",
+    "Plague of boils",
+    "Ulcers"
+   ],
+   "Hail": [
+    "Hailstorm",
+    "Hailstones",
+    "Fire and hail",
+    "Thunder and hail"
+   ],
+   "Flies": [
+    "Gadflies",
+    "Swarms of flies",
+    "Wild animals",
+    "Swarms"
+   ],
+   "Lice": [
+    "Gnats",
+    "Mosquitoes"
+   ],
+   "Livestock disease": [
+    "Livestock",
+    "Pestilence",
+    "Murrain",
+    "Cattle disease",
+    "Death of livestock",
+    "Diseased livestock",
+    "Death of cattle",
+    "Cattle",
+    "Animal plague"
+   ]
+  }
+ },
+ {
+  "id": "his-minor-prophets",
+  "cat": "Bible",
+  "title": "Minor league",
+  "q": "The twelve minor prophets of the Old Testament",
+  "rule": "The twelve short books at the end of the Old Testament. Isaiah, Jeremiah, Ezekiel and Daniel are major prophets.",
+  "tiers": {
+   "head": [
+    "Jonah"
+   ],
+   "hipster": [],
+   "body": [
+    "Amos",
+    "Malachi"
+   ],
+   "tail": [
+    "Hosea",
+    "Micah",
+    "Joel"
+   ],
+   "deep": [
+    "Nahum",
+    "Zechariah",
+    "Obadiah"
+   ],
+   "outlier": [
+    "Habakkuk",
+    "Haggai",
+    "Zephaniah"
+   ]
+  },
+  "fact": "The minor prophets are minor only in length: Obadiah, at 21 verses, is the shortest book in the Old Testament.",
+  "traps": {
+   "Isaiah": "A major prophet, with the longest of the prophetic books.",
+   "Jeremiah": "A major prophet, author of the book that bears his name.",
+   "Ezekiel": "A major prophet, known for his vision of the dry bones.",
+   "Daniel": "Counted among the major prophets in Christian Bibles.",
+   "Elijah": "A great prophet, but he has no book of his own."
+  },
+  "level": 3,
+  "alias": {
+   "Jonah": [
+    "Jonas"
+   ],
+   "Hosea": [
+    "Osee"
+   ],
+   "Obadiah": [
+    "Abdias"
+   ],
+   "Habakkuk": [
+    "Habacuc",
+    "Habbakuk",
+    "Habakuk"
+   ],
+   "Haggai": [
+    "Aggeus"
+   ],
+   "Zephaniah": [
+    "Sophonias",
+    "Zephanias"
+   ],
+   "Zechariah": [
+    "Zachariah",
+    "Zacharias"
+   ],
+   "Malachi": [
+    "Malachias"
+   ]
+  }
+ },
+ {
+  "id": "his-republican-calendar-months",
+  "cat": "French Revolution",
+  "title": "Calendar revolution",
+  "q": "The twelve months of the French Revolutionary calendar",
+  "rule": "Accents are optional; the extra festival days at the end of the year do not count.",
+  "tiers": {
+   "head": [
+    "Thermidor"
+   ],
+   "hipster": [
+    "Germinal"
+   ],
+   "body": [
+    "Brumaire",
+    "Fructidor"
+   ],
+   "tail": [
+    "Vendémiaire",
+    "Prairial",
+    "Floréal",
+    "Messidor"
+   ],
+   "deep": [
+    "Frimaire",
+    "Nivôse",
+    "Pluviôse"
+   ],
+   "outlier": [
+    "Ventôse"
+   ]
+  },
+  "fact": "The calendar began on 22 September 1792 with ten-day weeks and months named for weather and harvests, and Napoleon scrapped it on 1 January 1806.",
+  "traps": {
+   "Janvier": "That is the ordinary Gregorian January, not a Revolutionary month.",
+   "Avril": "That is the ordinary Gregorian April, not a Revolutionary month.",
+   "Décadi": "That was the tenth day of the Revolutionary week, not a month.",
+   "Sansculottides": "Those were the five or six festival days added at the end of the year."
+  },
+  "level": 3
+ },
+ {
+  "id": "his-double-letter-presidents",
+  "cat": "Wordplay",
+  "title": "Seeing double",
+  "q": "US Presidents with a double letter in their surname",
+  "rule": "The double letter must be in the surname; first names such as Jimmy and Woodrow do not count.",
+  "tiers": {
+   "head": [
+    "John F. Kennedy",
+    "Franklin D. Roosevelt",
+    "Theodore Roosevelt",
+    "Thomas Jefferson"
+   ],
+   "hipster": [
+    "Millard Fillmore"
+   ],
+   "body": [
+    "Herbert Hoover",
+    "Calvin Coolidge"
+   ],
+   "tail": [
+    "William Henry Harrison"
+   ],
+   "deep": [],
+   "outlier": [
+    "Benjamin Harrison"
+   ]
+  },
+  "fact": "Calvin Coolidge, born on 4 July 1872, is the only US president born on Independence Day.",
+  "traps": {
+   "Jimmy Carter": "The double m is in his first name, not his surname.",
+   "Bill Clinton": "The double l is in his first name, not his surname.",
+   "Woodrow Wilson": "The double o is in his first name, not his surname.",
+   "William McKinley": "The double l is in his first name, not his surname.",
+   "Richard Nixon": "Neither Richard nor Nixon has a double letter."
+  },
+  "surnames": true,
+  "level": 1,
+  "alias": {
+   "John F. Kennedy": [
+    "JFK",
+    "John Kennedy"
+   ],
+   "Franklin D. Roosevelt": [
+    "FDR",
+    "Franklin Roosevelt"
+   ],
+   "Theodore Roosevelt": [
+    "Teddy Roosevelt",
+    "TR"
+   ],
+   "William Henry Harrison": [
+    "William Harrison",
+    "Tippecanoe"
+   ]
+  }
+ },
+ {
+  "id": "his-bible-vowel-books",
+  "cat": "Wordplay",
+  "title": "Vowel play",
+  "q": "Books of the Bible whose names begin with a vowel",
+  "rule": "The 66 books of the Protestant Bible; Catholic extras such as Ecclesiasticus do not count.",
+  "tiers": {
+   "head": [
+    "Exodus",
+    "Acts",
+    "Isaiah",
+    "Esther"
+   ],
+   "hipster": [],
+   "body": [
+    "Ezekiel",
+    "Ephesians",
+    "Amos"
+   ],
+   "tail": [
+    "Ecclesiastes",
+    "Ezra"
+   ],
+   "deep": [],
+   "outlier": [
+    "Obadiah"
+   ]
+  },
+  "fact": "Esther, one of only two books named for a woman, never mentions God by name in its Hebrew text.",
+  "traps": {
+   "Ecclesiasticus": "A Catholic deuterocanonical book, not among the 66.",
+   "Esdras": "An Apocrypha book, not among the 66.",
+   "Hebrews": "It begins with H, which is not a vowel.",
+   "Judges": "It begins with J, which is not a vowel."
+  },
+  "level": 2,
+  "alias": {
+   "Acts": [
+    "Acts of the Apostles"
+   ],
+   "Ecclesiastes": [
+    "Qoheleth",
+    "Koheleth"
+   ],
+   "Obadiah": [
+    "Abdias"
+   ],
+   "Ephesians": [
+    "Epistle to the Ephesians"
+   ]
+  }
+ },
+ {
+  "id": "his-soviet-leaders",
+  "cat": "Cold War",
+  "title": "Kremlin chiefs",
+  "q": "The men who led the Soviet Union between 1922 and 1991",
+  "rule": "The eight people usually listed as leader of the USSR, from its founder to its last. Yeltsin and Putin led Russia, not the Soviet Union.",
+  "tiers": {
+   "head": [
+    "Joseph Stalin",
+    "Vladimir Lenin",
+    "Mikhail Gorbachev"
+   ],
+   "hipster": [],
+   "body": [
+    "Nikita Khrushchev",
+    "Leonid Brezhnev"
+   ],
+   "tail": [
+    "Yuri Andropov"
+   ],
+   "deep": [
+    "Konstantin Chernenko"
+   ],
+   "outlier": [
+    "Georgy Malenkov"
+   ]
+  },
+  "fact": "Brezhnev, Andropov and Chernenko all died in office within 28 months, from November 1982 to March 1985, making way for Gorbachev.",
+  "traps": {
+   "Leon Trotsky": "Lenin's rival lost the power struggle to Stalin and was exiled.",
+   "Boris Yeltsin": "He led Russia after the USSR dissolved in December 1991.",
+   "Vyacheslav Molotov": "Long-serving foreign minister, but never the top leader.",
+   "Lavrentiy Beria": "The secret police chief lost the power struggle in 1953.",
+   "Alexei Kosygin": "Premier under Brezhnev, who held the real power."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Joseph Stalin": [
+    "Josef Stalin",
+    "Iosif Stalin",
+    "Joe Stalin",
+    "Joseph Vissarionovich Stalin"
+   ],
+   "Vladimir Lenin": [
+    "Vladimir Ilyich Lenin",
+    "Vladimir Ulyanov"
+   ],
+   "Mikhail Gorbachev": [
+    "Gorbachov",
+    "Mikhail Gorbachov"
+   ],
+   "Nikita Khrushchev": [
+    "Khruschev",
+    "Krushchev",
+    "Kruschev",
+    "Khrushchov",
+    "Nikita Khruschev"
+   ],
+   "Leonid Brezhnev": [
+    "Brezhnyev",
+    "Brezhnew",
+    "Leonid Brezhnyev"
+   ],
+   "Yuri Andropov": [
+    "Yury Andropov",
+    "Iurii Andropov"
+   ],
+   "Konstantin Chernenko": [
+    "Konstantin Chernyenko",
+    "Chernyenko"
+   ],
+   "Georgy Malenkov": [
+    "Georgi Malenkov",
+    "Georgii Malenkov",
+    "Georgiy Malenkov"
+   ]
+  }
+ },
+ {
+  "id": "his-eu-2004-joiners",
+  "cat": "European Politics",
+  "title": "Big Bang",
+  "q": "The ten countries that joined the EU on 1 May 2004",
+  "rule": "",
+  "tiers": {
+   "head": [
+    "Poland",
+    "Czech Republic",
+    "Hungary"
+   ],
+   "hipster": [],
+   "body": [
+    "Estonia",
+    "Latvia",
+    "Lithuania",
+    "Malta"
+   ],
+   "tail": [
+    "Cyprus",
+    "Slovakia"
+   ],
+   "deep": [],
+   "outlier": [
+    "Slovenia"
+   ]
+  },
+  "fact": "Eight of the ten were former communist states, and with about 75 million new citizens it was the biggest single enlargement in EU history.",
+  "traps": {
+   "Romania": "It joined in 2007, in the next wave.",
+   "Bulgaria": "It joined in 2007, in the next wave.",
+   "Croatia": "It joined in 2013 and is the newest wave before today.",
+   "Turkey": "A long-standing candidate that has never joined.",
+   "Austria": "It joined in 1995, with Sweden and Finland."
+  },
+  "level": 2,
+  "alias": {
+   "Czech Republic": [
+    "Czechia"
+   ],
+   "Slovakia": [
+    "Slovak Republic"
+   ]
+  }
+ },
+ {
+  "id": "his-heavenly-virtues",
+  "cat": "Religion",
+  "title": "Opposite numbers",
+  "q": "The seven virtues set against the seven deadly sins",
+  "rule": "Only the seven heavenly virtues, one opposing each sin; faith, hope, prudence and fortitude are excluded.",
+  "tiers": {
+   "head": [
+    "Charity",
+    "Humility"
+   ],
+   "hipster": [],
+   "body": [
+    "Patience",
+    "Temperance"
+   ],
+   "tail": [
+    "Chastity"
+   ],
+   "deep": [
+    "Kindness"
+   ],
+   "outlier": [
+    "Diligence"
+   ]
+  },
+  "fact": "The idea of virtues fighting vices goes back to Prudentius's Psychomachia, a battle poem written around AD 400.",
+  "traps": {
+   "Pride": "A deadly sin, not a virtue; humility is the virtue set against it.",
+   "Faith": "A theological virtue, not one of the seven heavenly virtues.",
+   "Hope": "A theological virtue, not one of the seven heavenly virtues.",
+   "Prudence": "A cardinal virtue, so it isn't in this set."
+  },
+  "level": 2
+ },
+ {
+  "id": "his-ragnarok-gods",
+  "cat": "Norse Myth",
+  "title": "Last stand",
+  "q": "Norse gods who die in Ragnarök or live through it",
+  "rule": "Baldr and Höðr, who come back afterwards, don't count; giants, monsters and goddesses don't either.",
+  "tiers": {
+   "head": [
+    "Odin",
+    "Thor"
+   ],
+   "hipster": [],
+   "body": [
+    "Loki",
+    "Freyr",
+    "Heimdall",
+    "Tyr"
+   ],
+   "tail": [
+    "Víðarr"
+   ],
+   "deep": [
+    "Váli"
+   ],
+   "outlier": [
+    "Módi",
+    "Magni"
+   ]
+  },
+  "fact": "Módi and Magni, sons of Thor, are said to inherit his hammer Mjölnir after Ragnarök.",
+  "traps": {
+   "Baldr": "He dies before Ragnarök and returns afterwards, so he doesn't count.",
+   "Surtr": "A fire giant who kills Freyr, but he is a giant, not a god.",
+   "Fenrir": "The wolf that swallows Odin, but he is a monster, not a god.",
+   "Jörmungandr": "The serpent Thor kills, but it is a serpent, not a god.",
+   "Frigg": "Odin's wife, but she has no named fate at Ragnarök."
+  },
+  "level": 3,
+  "alias": {
+   "Freyr": [
+    "Frey"
+   ],
+   "Heimdall": [
+    "Heimdallr"
+   ],
+   "Víðarr": [
+    "Vidar",
+    "Vidarr"
+   ]
+  }
+ },
+ {
+  "id": "his-south-pole-race",
+  "cat": "Exploration",
+  "title": "Pole position",
+  "q": "Men who stood at the South Pole during the 1911–12 race",
+  "rule": "Only men who reached the Pole itself with the Norwegian or British parties; support teams and turn-backs don't count.",
+  "tiers": {
+   "head": [
+    "Roald Amundsen",
+    "Robert Falcon Scott"
+   ],
+   "hipster": [],
+   "body": [
+    "Lawrence Oates",
+    "Edward Wilson"
+   ],
+   "tail": [
+    "Edgar Evans",
+    "Henry Bowers"
+   ],
+   "deep": [
+    "Oscar Wisting",
+    "Olav Bjaaland"
+   ],
+   "outlier": [
+    "Helmer Hanssen",
+    "Sverre Hassel"
+   ]
+  },
+  "fact": "Amundsen reached the Pole on 14 December 1911; Scott's party arrived on 17 January 1912 and found the Norwegian tent and a letter.",
+  "traps": {
+   "Ernest Shackleton": "He turned back about 100 miles short of the Pole in 1909.",
+   "Edmund Hillary": "He reached the Pole in 1958, decades after this race.",
+   "Richard Byrd": "He flew over the Pole in 1929, not in this race.",
+   "Robert Peary": "He claimed the North Pole in 1909, not the South."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Edgar Evans": [
+    "Taff Evans"
+   ]
+  }
+ },
+ {
+  "id": "his-seven-wonders",
+  "cat": "Ancient World",
+  "title": "Wonder years",
+  "q": "The seven wonders on the classic Greek list of the ancient world",
+  "rule": "Only the traditional list of seven; later monuments such as the Colosseum don't count.",
+  "tiers": {
+   "head": [
+    "Great Pyramid of Giza",
+    "Hanging Gardens of Babylon"
+   ],
+   "hipster": [],
+   "body": [
+    "Colossus of Rhodes",
+    "Lighthouse of Alexandria"
+   ],
+   "tail": [
+    "Statue of Zeus at Olympia"
+   ],
+   "deep": [
+    "Mausoleum at Halicarnassus"
+   ],
+   "outlier": [
+    "Temple of Artemis at Ephesus"
+   ]
+  },
+  "fact": "The Colossus of Rhodes, a bronze of the sun god Helios, was felled by an earthquake around 226 BC and probably never straddled the harbour.",
+  "traps": {
+   "Stonehenge": "A prehistoric monument, and never on the classic list.",
+   "Colosseum": "A Roman arena, and never on the classic list.",
+   "Great Wall of China": "Often called a wonder, but never on the classic list.",
+   "Taj Mahal": "Built in the 1600s, long after the classic list was drawn up."
+  },
+  "level": 1,
+  "alias": {
+   "Great Pyramid of Giza": [
+    "Great Pyramid"
+   ],
+   "Hanging Gardens of Babylon": [
+    "Hanging Gardens"
+   ],
+   "Lighthouse of Alexandria": [
+    "Pharos of Alexandria",
+    "Pharos"
+   ],
+   "Mausoleum at Halicarnassus": [
+    "Mausoleum of Halicarnassus"
+   ],
+   "Temple of Artemis at Ephesus": [
+    "Temple of Artemis"
+   ],
+   "Statue of Zeus at Olympia": [
+    "Statue of Zeus"
+   ]
+  }
+ },
+ {
+  "id": "his-seven-liberal-arts",
+  "cat": "Medieval Learning",
+  "title": "Trivial matters",
+  "q": "The seven liberal arts taught in medieval universities",
+  "rule": "Only the trivium and quadrivium; philosophy, theology and law don't count.",
+  "tiers": {
+   "head": [
+    "Grammar"
+   ],
+   "hipster": [],
+   "body": [
+    "Logic",
+    "Music",
+    "Geometry"
+   ],
+   "tail": [
+    "Rhetoric"
+   ],
+   "deep": [
+    "Astronomy"
+   ],
+   "outlier": [
+    "Arithmetic"
+   ]
+  },
+  "fact": "Trivium means 'three ways' in Latin and quadrivium means 'four ways'; together they make up the seven liberal arts.",
+  "traps": {
+   "Philosophy": "Central to medieval universities, but not one of the seven arts.",
+   "Theology": "The highest faculty, but not one of the seven arts.",
+   "Law": "A medieval faculty, but not one of the seven arts.",
+   "Medicine": "A higher faculty, but not one of the seven arts."
+  },
+  "level": 2,
+  "alias": {
+   "Logic": [
+    "Dialectic"
+   ]
+  }
+ }
+]

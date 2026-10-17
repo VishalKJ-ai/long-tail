@@ -1,0 +1,1920 @@
+[
+ {
+  "id": "geo-france-neighbours",
+  "cat": "Geography",
+  "title": "Walk it",
+  "q": "Countries that share a land border with France",
+  "rule": "Overseas territories count, so the borders of French Guiana and Saint Martin are in.",
+  "tiers": {
+   "head": [
+    "Spain",
+    "Germany",
+    "Belgium",
+    "Italy"
+   ],
+   "hipster": [
+    "Andorra"
+   ],
+   "body": [
+    "Switzerland",
+    "Luxembourg"
+   ],
+   "tail": [
+    "Monaco"
+   ],
+   "deep": [
+    "Brazil",
+    "Suriname"
+   ],
+   "outlier": [
+    "Netherlands"
+   ]
+  },
+  "fact": "France's longest land border is with Brazil, via French Guiana. It also touches the Netherlands, on the Caribbean island of Saint Martin.",
+  "traps": {
+   "United Kingdom": "The Channel Tunnel isn't a land border.",
+   "Portugal": "Spain is in the way.",
+   "Austria": "Switzerland and Germany sit in between.",
+   "Guyana": "Suriname sits between Guyana and French Guiana.",
+   "Liechtenstein": "Switzerland and Austria sit in between."
+  },
+  "level": 1,
+  "alias": {
+   "Netherlands": [
+    "Holland",
+    "Sint Maarten",
+    "Kingdom of the Netherlands"
+   ],
+   "Suriname": [
+    "Surinam"
+   ]
+  }
+ },
+ {
+  "id": "geo-z-countries",
+  "cat": "Geography",
+  "title": "Zed or zee",
+  "q": "Countries with the letter Z in their name",
+  "rule": "UN member states, judged on today's English name, so former names don't count.",
+  "tiers": {
+   "head": [
+    "Zimbabwe",
+    "Zambia",
+    "Brazil",
+    "New Zealand"
+   ],
+   "hipster": [
+    "Switzerland"
+   ],
+   "body": [
+    "Mozambique",
+    "Tanzania",
+    "Venezuela",
+    "Kazakhstan",
+    "Czechia"
+   ],
+   "tail": [
+    "Belize",
+    "Azerbaijan",
+    "Uzbekistan"
+   ],
+   "deep": [
+    "Bosnia and Herzegovina"
+   ],
+   "outlier": [
+    "Kyrgyzstan"
+   ]
+  },
+  "fact": "Herzegovina comes from the German Herzog, 'duke', so Bosnia and Herzegovina is quite literally 'Bosnia and the Duke's land'.",
+  "traps": {
+   "Swaziland": "It became Eswatini in 2018, and the Z went with it.",
+   "Zanzibar": "It's part of Tanzania, not a country.",
+   "Zaire": "That was the old name of DR Congo, which has no Z today.",
+   "Mexico": "That's an X, not a Z."
+  },
+  "level": 2,
+  "alias": {
+   "Czechia": [
+    "Czech Republic"
+   ],
+   "Bosnia and Herzegovina": [
+    "Bosnia",
+    "Bosnia-Herzegovina",
+    "Herzegovina"
+   ],
+   "Kyrgyzstan": [
+    "Kyrgyz Republic"
+   ]
+  }
+ },
+ {
+  "id": "geo-twin-initials",
+  "cat": "Geography",
+  "title": "Twin initials",
+  "q": "Capital cities that start with the same letter as their country",
+  "rule": "UN member states plus the Pope's own state. Any official capital counts, including a country's second capital.",
+  "tiers": {
+   "head": [
+    "Mexico City",
+    "Panama City",
+    "Brussels",
+    "Singapore"
+   ],
+   "hipster": [
+    "Luxembourg",
+    "Monaco"
+   ],
+   "body": [
+    "Stockholm",
+    "Seoul",
+    "Brasília",
+    "Kuwait City",
+    "Guatemala City",
+    "Tunis",
+    "Algiers",
+    "Vatican City"
+   ],
+   "tail": [
+    "Georgetown",
+    "Bridgetown",
+    "Maputo",
+    "Malé",
+    "San Marino",
+    "Andorra la Vella",
+    "Port Moresby",
+    "Niamey"
+   ],
+   "deep": [
+    "Belmopan",
+    "Djibouti",
+    "Majuro",
+    "São Tomé",
+    "Bandar Seri Begawan"
+   ],
+   "outlier": [
+    "Bujumbura",
+    "Sri Jayawardenepura Kotte"
+   ]
+  },
+  "fact": "Sri Lanka's parliament sits in Sri Jayawardenepura Kotte, a suburb of Colombo, which makes the island an S-for-S match that few people spot.",
+  "traps": {
+   "San Salvador": "The country is El Salvador, which starts with E.",
+   "Santo Domingo": "The country is the Dominican Republic, which starts with D.",
+   "Colombo": "Colombo starts with C, but Sri Lanka starts with S.",
+   "Tripoli": "It's Libya's capital, and Libya starts with L."
+  },
+  "level": 2,
+  "alias": {
+   "Mexico City": [
+    "Mexico"
+   ],
+   "Panama City": [
+    "Panama"
+   ],
+   "Kuwait City": [
+    "Kuwait"
+   ],
+   "Guatemala City": [
+    "Guatemala"
+   ],
+   "Luxembourg": [
+    "Luxembourg City"
+   ],
+   "Monaco": [
+    "Monaco-Ville"
+   ],
+   "Vatican City": [
+    "Vatican",
+    "Holy See"
+   ],
+   "San Marino": [
+    "City of San Marino"
+   ],
+   "Andorra la Vella": [
+    "Andorra",
+    "Andorra Vella"
+   ],
+   "Djibouti": [
+    "Djibouti City"
+   ],
+   "São Tomé": [
+    "São Tomé City"
+   ],
+   "Brussels": [
+    "Bruxelles"
+   ],
+   "Algiers": [
+    "Alger"
+   ],
+   "Sri Jayawardenepura Kotte": [
+    "Kotte",
+    "Sri Jayawardenepura"
+   ]
+  }
+ },
+ {
+  "id": "geo-stan-land",
+  "cat": "Geography",
+  "title": "Stan by me",
+  "q": "Countries whose names end in -stan or -land",
+  "rule": "Sovereign states only, and the name must end exactly in -stan or -land.",
+  "tiers": {
+   "head": [
+    "Pakistan",
+    "Afghanistan",
+    "Iceland",
+    "Finland"
+   ],
+   "hipster": [],
+   "body": [
+    "Ireland",
+    "Poland",
+    "Thailand",
+    "Switzerland",
+    "Kazakhstan"
+   ],
+   "tail": [
+    "New Zealand",
+    "Uzbekistan"
+   ],
+   "deep": [
+    "Turkmenistan",
+    "Tajikistan"
+   ],
+   "outlier": [
+    "Kyrgyzstan"
+   ]
+  },
+  "fact": "The ending -stan is Persian for 'land', so the seven -stan countries are, in effect, -land countries too.",
+  "traps": {
+   "Netherlands": "It ends in -lands, with an S, so it misses by a letter.",
+   "Swaziland": "It was renamed Eswatini in 2018.",
+   "Scotland": "It's part of the United Kingdom, not a sovereign state.",
+   "England": "It's part of the United Kingdom, not a sovereign state.",
+   "Greenland": "It's a self-governing territory of Denmark."
+  },
+  "level": 1,
+  "alias": {
+   "Ireland": [
+    "Republic of Ireland"
+   ],
+   "Kyrgyzstan": [
+    "Kyrgyz Republic"
+   ]
+  }
+ },
+ {
+  "id": "geo-double-letter-states",
+  "cat": "Wordplay",
+  "title": "Double trouble",
+  "q": "US states with a double letter in their name",
+  "rule": "Two identical letters side by side, anywhere in the name. Washington DC isn't a state.",
+  "tiers": {
+   "head": [
+    "Mississippi",
+    "Tennessee",
+    "Massachusetts",
+    "Illinois"
+   ],
+   "hipster": [
+    "Hawaii"
+   ],
+   "body": [
+    "Pennsylvania"
+   ],
+   "tail": [
+    "Missouri"
+   ],
+   "deep": [
+    "Connecticut"
+   ],
+   "outlier": [
+    "Minnesota"
+   ]
+  },
+  "fact": "Mississippi and Tennessee are the only states that double up three times: ss-ss-pp and nn-ss-ee.",
+  "traps": {
+   "Alabama": "Its four As are never side by side.",
+   "Kansas": "The two Ss are separated by an A.",
+   "Colorado": "The two Os are separated.",
+   "Louisiana": "No letter doubles up next to itself.",
+   "Wisconsin": "Two Ss and two Ns, but none side by side."
+  },
+  "level": 2,
+  "alias": {
+   "Massachusetts": [
+    "Mass"
+   ],
+   "Pennsylvania": [
+    "Penn"
+   ]
+  }
+ },
+ {
+  "id": "geo-china-neighbours",
+  "cat": "Geography",
+  "title": "Big neighbourhood",
+  "q": "Countries that share a land border with China",
+  "rule": "Mainland land borders only; disputed or undemarcated frontiers still count.",
+  "tiers": {
+   "head": [
+    "India",
+    "Russia",
+    "Mongolia",
+    "Vietnam"
+   ],
+   "hipster": [],
+   "body": [
+    "North Korea",
+    "Pakistan",
+    "Nepal",
+    "Kazakhstan",
+    "Myanmar"
+   ],
+   "tail": [
+    "Laos",
+    "Bhutan",
+    "Kyrgyzstan"
+   ],
+   "deep": [
+    "Tajikistan"
+   ],
+   "outlier": [
+    "Afghanistan"
+   ]
+  },
+  "fact": "China and Russia share the world record of 14 land neighbours. China meets Afghanistan only at the far end of the narrow Wakhan Corridor.",
+  "traps": {
+   "Thailand": "Myanmar and Laos sit in between.",
+   "South Korea": "Only the Yellow Sea lies between them.",
+   "Uzbekistan": "Kazakhstan, Kyrgyzstan and Tajikistan sit in between.",
+   "Bangladesh": "India and Myanmar sit in between.",
+   "Japan": "It's an island nation with no land borders at all."
+  },
+  "level": 2,
+  "alias": {
+   "Russia": [
+    "Russian Federation"
+   ],
+   "North Korea": [
+    "DPRK"
+   ],
+   "Myanmar": [
+    "Burma"
+   ],
+   "Laos": [
+    "Lao PDR"
+   ],
+   "Kyrgyzstan": [
+    "Kyrgyz Republic"
+   ]
+  }
+ },
+ {
+  "id": "geo-danube",
+  "cat": "Geography",
+  "title": "Going with the flow",
+  "q": "Countries the River Danube flows through or runs along",
+  "rule": "The Danube itself must pass through the country or form part of its border. Tributaries don't count.",
+  "tiers": {
+   "head": [
+    "Austria",
+    "Hungary",
+    "Germany",
+    "Romania"
+   ],
+   "hipster": [],
+   "body": [
+    "Serbia",
+    "Slovakia",
+    "Bulgaria"
+   ],
+   "tail": [
+    "Croatia"
+   ],
+   "deep": [
+    "Ukraine"
+   ],
+   "outlier": [
+    "Moldova"
+   ]
+  },
+  "fact": "The Danube touches ten countries, more than any other river, but Moldova gets only a short riverfront near Giurgiulești, under a kilometre.",
+  "traps": {
+   "Czechia": "It sits in the Danube basin, but the river itself never touches it.",
+   "Switzerland": "The Inn rises there and joins the Danube later, but the Danube never enters Switzerland.",
+   "Slovenia": "The Sava drains it into the Danube, but the Danube doesn't touch it.",
+   "Bosnia and Herzegovina": "The Sava forms its northern border, not the Danube."
+  },
+  "level": 2
+ },
+ {
+  "id": "geo-prime-meridian",
+  "cat": "Geography",
+  "title": "Zero degrees",
+  "q": "Countries the Prime Meridian passes through on land",
+  "rule": "The Greenwich meridian (0 degrees longitude) crossing a country's land. Antarctic claims don't count.",
+  "tiers": {
+   "head": [
+    "United Kingdom",
+    "France"
+   ],
+   "hipster": [],
+   "body": [
+    "Spain",
+    "Ghana"
+   ],
+   "tail": [
+    "Algeria",
+    "Mali"
+   ],
+   "deep": [
+    "Togo"
+   ],
+   "outlier": [
+    "Burkina Faso"
+   ]
+  },
+  "fact": "Null Island, where the Prime Meridian meets the Equator at 0°N 0°E, is open sea in the Gulf of Guinea, hundreds of kilometres south of Ghana.",
+  "traps": {
+   "Portugal": "All of it lies west of the line.",
+   "Ireland": "All of it lies west of the line.",
+   "Morocco": "All of it lies west of the line, which passes through neighbouring Algeria instead.",
+   "Benin": "All of it lies east of the line.",
+   "Netherlands": "All of it lies east of the line."
+  },
+  "level": 2,
+  "alias": {
+   "United Kingdom": [
+    "UK",
+    "Britain",
+    "Great Britain",
+    "England"
+   ],
+   "Burkina Faso": [
+    "Burkina",
+    "Upper Volta"
+   ]
+  }
+ },
+ {
+  "id": "geo-drive-left",
+  "cat": "Travel",
+  "title": "Wrong side?",
+  "q": "Countries where traffic drives on the left",
+  "rule": "UN member states only, so the four home nations count together as one country.",
+  "tiers": {
+   "head": [
+    "United Kingdom",
+    "Australia",
+    "Japan",
+    "India"
+   ],
+   "hipster": [],
+   "body": [
+    "Ireland",
+    "New Zealand",
+    "South Africa",
+    "Jamaica",
+    "Singapore",
+    "Thailand",
+    "Malaysia",
+    "Pakistan",
+    "Indonesia",
+    "Kenya",
+    "Bangladesh",
+    "Sri Lanka",
+    "Cyprus",
+    "Malta"
+   ],
+   "tail": [
+    "Bahamas",
+    "Barbados",
+    "Trinidad and Tobago",
+    "Fiji",
+    "Zimbabwe",
+    "Zambia",
+    "Uganda",
+    "Tanzania",
+    "Botswana",
+    "Namibia",
+    "Mauritius",
+    "Nepal",
+    "Brunei",
+    "Maldives",
+    "Guyana",
+    "Papua New Guinea"
+   ],
+   "deep": [
+    "Bhutan",
+    "Malawi",
+    "Mozambique",
+    "Lesotho",
+    "Eswatini",
+    "Seychelles",
+    "Antigua and Barbuda",
+    "Grenada",
+    "Saint Lucia",
+    "Dominica",
+    "Solomon Islands",
+    "Tonga",
+    "Saint Vincent and the Grenadines",
+    "Saint Kitts and Nevis",
+    "Kiribati",
+    "Nauru",
+    "Tuvalu"
+   ],
+   "outlier": [
+    "Timor-Leste",
+    "Suriname",
+    "Samoa"
+   ]
+  },
+  "fact": "Samoa switched from the right to the left in 2009, so it could import cheaper right-hand-drive cars from Australia, New Zealand and Japan.",
+  "traps": {
+   "Hong Kong": "Traffic keeps left there, but it isn't a country.",
+   "Sweden": "It switched to driving on the right in 1967.",
+   "Nigeria": "It switched to driving on the right in 1972.",
+   "Myanmar": "It switched to driving on the right in 1970, even though many of its cars are right-hand drive.",
+   "Vanuatu": "It drives on the right, despite its British and French past."
+  },
+  "level": 1,
+  "alias": {
+   "United Kingdom": [
+    "UK",
+    "Britain",
+    "Great Britain",
+    "England",
+    "Scotland",
+    "Wales",
+    "Northern Ireland"
+   ],
+   "Trinidad and Tobago": [
+    "Trinidad",
+    "Tobago"
+   ],
+   "Antigua and Barbuda": [
+    "Antigua",
+    "Barbuda"
+   ],
+   "Saint Lucia": [
+    "St Lucia"
+   ],
+   "Saint Vincent and the Grenadines": [
+    "St Vincent",
+    "Saint Vincent",
+    "The Grenadines"
+   ],
+   "Saint Kitts and Nevis": [
+    "St Kitts and Nevis",
+    "St Kitts",
+    "Saint Kitts",
+    "Nevis"
+   ],
+   "Timor-Leste": [
+    "East Timor"
+   ],
+   "Papua New Guinea": [
+    "PNG"
+   ],
+   "Eswatini": [
+    "Swaziland"
+   ],
+   "Brunei": [
+    "Brunei Darussalam"
+   ]
+  }
+ },
+ {
+  "id": "geo-half-hour-clocks",
+  "cat": "Travel",
+  "title": "Half past",
+  "q": "Countries with a time zone offset by 30 or 45 minutes from UTC",
+  "rule": "Standard time ending in :30 or :45. Any inhabited part of a country counts, so overseas territories do too.",
+  "tiers": {
+   "head": [
+    "India",
+    "Australia"
+   ],
+   "hipster": [
+    "Nepal"
+   ],
+   "body": [
+    "Iran",
+    "Canada",
+    "Sri Lanka"
+   ],
+   "tail": [
+    "Afghanistan",
+    "Myanmar"
+   ],
+   "deep": [
+    "New Zealand"
+   ],
+   "outlier": [
+    "France"
+   ]
+  },
+  "fact": "France qualifies through the Marquesas Islands in French Polynesia, which keep UTC-9:30. New Zealand qualifies through the Chatham Islands, at UTC+12:45.",
+  "traps": {
+   "Pakistan": "It runs on UTC+5, a whole hour.",
+   "Bangladesh": "It runs on UTC+6, a whole hour.",
+   "Bhutan": "It runs on UTC+6, a whole hour.",
+   "Venezuela": "It kept a half-hour offset until 2016, then moved to whole-hour UTC-4.",
+   "North Korea": "Its half-hour Pyongyang Time lasted from 2015 to 2018, then it went back to UTC+9."
+  },
+  "level": 3,
+  "alias": {
+   "Myanmar": [
+    "Burma"
+   ]
+  }
+ },
+ {
+  "id": "geo-four-letters",
+  "cat": "Wordplay",
+  "title": "Short and sweet",
+  "q": "Countries with exactly four letters in their name",
+  "rule": "UN member states, using the usual short English name.",
+  "tiers": {
+   "head": [
+    "Cuba",
+    "Peru",
+    "Iran",
+    "Iraq"
+   ],
+   "hipster": [],
+   "body": [
+    "Chad",
+    "Mali",
+    "Oman"
+   ],
+   "tail": [
+    "Fiji"
+   ],
+   "deep": [
+    "Togo"
+   ],
+   "outlier": [
+    "Laos"
+   ]
+  },
+  "fact": "Four letters is as short as a country name gets: no UN member state has a three-letter English name.",
+  "traps": {
+   "Haiti": "Five letters, not four.",
+   "Nepal": "Five letters, not four.",
+   "Chile": "Five letters, not four.",
+   "Guam": "It has four letters, but it's a US territory, not a country.",
+   "Niue": "It has four letters, but it isn't a UN member state."
+  },
+  "level": 1,
+  "alias": {
+   "Laos": [
+    "Lao PDR"
+   ]
+  }
+ },
+ {
+  "id": "geo-smaller-than-wales",
+  "cat": "Geography",
+  "title": "Fit in Wales",
+  "q": "Countries smaller than Wales (about 20,800 km²)",
+  "rule": "UN members plus the Pope's own state, by total area. Wales is 20,779 km². Israel is too close to call, so it's out.",
+  "tiers": {
+   "head": [
+    "Vatican City",
+    "Monaco",
+    "Malta",
+    "Luxembourg"
+   ],
+   "hipster": [],
+   "body": [
+    "Liechtenstein",
+    "San Marino",
+    "Singapore",
+    "Andorra",
+    "Maldives",
+    "Cyprus",
+    "Jamaica",
+    "Barbados",
+    "Bahrain",
+    "Qatar"
+   ],
+   "tail": [
+    "Brunei",
+    "Lebanon",
+    "Kuwait",
+    "Fiji",
+    "Bahamas",
+    "Trinidad and Tobago",
+    "Mauritius",
+    "Seychelles",
+    "Montenegro",
+    "Gambia",
+    "Grenada",
+    "Saint Lucia",
+    "Antigua and Barbuda",
+    "Tuvalu",
+    "Nauru"
+   ],
+   "deep": [
+    "Vanuatu",
+    "Cabo Verde",
+    "Samoa",
+    "Tonga",
+    "Dominica",
+    "Saint Vincent and the Grenadines",
+    "Saint Kitts and Nevis",
+    "Palau",
+    "Marshall Islands",
+    "Comoros",
+    "Kiribati",
+    "Micronesia",
+    "São Tomé and Príncipe"
+   ],
+   "outlier": [
+    "Slovenia",
+    "Timor-Leste",
+    "Eswatini"
+   ]
+  },
+  "fact": "Slovenia, Kuwait, Fiji and Eswatini are all smaller than Wales, which could hold the Vatican more than 40,000 times.",
+  "traps": {
+   "El Salvador": "At about 21,000 km² it is just bigger than Wales.",
+   "Belize": "At about 23,000 km² it is bigger than Wales.",
+   "Djibouti": "At about 23,200 km² it is bigger than Wales.",
+   "Rwanda": "At about 26,300 km² it is bigger than Wales.",
+   "Lesotho": "At about 30,400 km² it is bigger than Wales."
+  },
+  "level": 2,
+  "alias": {
+   "Vatican City": [
+    "Vatican",
+    "Holy See"
+   ],
+   "Cabo Verde": [
+    "Cape Verde"
+   ],
+   "Micronesia": [
+    "Federated States of Micronesia"
+   ],
+   "Eswatini": [
+    "Swaziland"
+   ],
+   "Timor-Leste": [
+    "East Timor"
+   ],
+   "São Tomé and Príncipe": [
+    "São Tomé"
+   ],
+   "Antigua and Barbuda": [
+    "Antigua"
+   ],
+   "Saint Kitts and Nevis": [
+    "St Kitts and Nevis",
+    "St Kitts",
+    "Saint Kitts"
+   ],
+   "Saint Lucia": [
+    "St Lucia"
+   ],
+   "Saint Vincent and the Grenadines": [
+    "St Vincent",
+    "Saint Vincent"
+   ],
+   "Trinidad and Tobago": [
+    "Trinidad"
+   ],
+   "Brunei": [
+    "Brunei Darussalam"
+   ]
+  }
+ },
+ {
+  "id": "geo-africa-no-eiy",
+  "cat": "Wordplay",
+  "title": "Missing vowels",
+  "q": "African countries with no E, I or Y in their name",
+  "rule": "Checked against the usual English name.",
+  "tiers": {
+   "head": [
+    "Morocco",
+    "Ghana",
+    "Angola",
+    "Madagascar"
+   ],
+   "hipster": [],
+   "body": [
+    "Chad",
+    "Sudan",
+    "Uganda",
+    "Botswana",
+    "Rwanda"
+   ],
+   "tail": [
+    "Gabon",
+    "Togo"
+   ],
+   "deep": [
+    "South Sudan"
+   ],
+   "outlier": [
+    "Comoros"
+   ]
+  },
+  "fact": "South Sudan became independent in 2011, making it the newest country in Africa.",
+  "traps": {
+   "Egypt": "It has a Y, so it misses.",
+   "Tanzania": "It has an I in it.",
+   "Kenya": "It has an E and a Y."
+  },
+  "level": 2,
+  "alias": {
+   "Comoros": [
+    "Union of the Comoros"
+   ]
+  }
+ },
+ {
+  "id": "geo-baltic-coast",
+  "cat": "Geography",
+  "title": "Shore thing",
+  "q": "Countries with a coastline on the Baltic Sea",
+  "rule": "A coast on a detached exclave of a country counts.",
+  "tiers": {
+   "head": [
+    "Sweden",
+    "Finland"
+   ],
+   "hipster": [
+    "Russia"
+   ],
+   "body": [
+    "Germany",
+    "Poland",
+    "Denmark"
+   ],
+   "tail": [
+    "Lithuania"
+   ],
+   "deep": [
+    "Latvia"
+   ],
+   "outlier": [
+    "Estonia"
+   ]
+  },
+  "fact": "Russia's Baltic coast sits in Kaliningrad, an exclave cut off from the rest of Russia by Lithuania and Poland.",
+  "traps": {
+   "Norway": "Its coast faces the North Sea and the Norwegian Sea, not the Baltic.",
+   "Belarus": "It's landlocked.",
+   "Ukraine": "Its coast is on the Black Sea and the Sea of Azov."
+  },
+  "level": 1,
+  "alias": {
+   "Russia": [
+    "Russian Federation"
+   ]
+  }
+ },
+ {
+  "id": "geo-brazil-neighbours",
+  "cat": "Geography",
+  "title": "Most neighbours",
+  "q": "Countries that share a land border with Brazil",
+  "rule": "The border of an overseas region of a European country counts.",
+  "tiers": {
+   "head": [
+    "Argentina",
+    "Colombia"
+   ],
+   "hipster": [
+    "Suriname"
+   ],
+   "body": [
+    "Peru",
+    "Bolivia",
+    "Venezuela"
+   ],
+   "tail": [
+    "Paraguay",
+    "Uruguay"
+   ],
+   "deep": [
+    "Guyana"
+   ],
+   "outlier": [
+    "France"
+   ]
+  },
+  "fact": "Brazil borders every South American country except Chile and Ecuador.",
+  "traps": {
+   "Chile": "It has long Andean borders with Peru, Bolivia and Argentina, but none with Brazil.",
+   "Ecuador": "Peru and Colombia sit between Ecuador and Brazil.",
+   "Portugal": "Portuguese is Brazil's language, but Portugal is in Europe, not a neighbour."
+  },
+  "level": 1,
+  "alias": {
+   "Suriname": [
+    "Surinam"
+   ],
+   "France": [
+    "French Guiana"
+   ]
+  }
+ },
+ {
+  "id": "geo-capitals-named-after-people",
+  "cat": "Cities",
+  "title": "Named after someone",
+  "q": "National capital cities named after a real person",
+  "rule": "The name must honour one specific real person, such as a monarch, politician or explorer. Saints and names that just mean 'king's town' don't count.",
+  "tiers": {
+   "head": [
+    "Washington, D.C.",
+    "Wellington"
+   ],
+   "hipster": [],
+   "body": [
+    "Monrovia",
+    "Georgetown",
+    "Victoria"
+   ],
+   "tail": [
+    "Port Louis",
+    "Valletta",
+    "Brazzaville"
+   ],
+   "deep": [
+    "Port Moresby",
+    "Gaborone",
+    "Sucre",
+    "Bandar Seri Begawan"
+   ],
+   "outlier": [
+    "Malabo",
+    "Nassau"
+   ]
+  },
+  "fact": "Malabo, Equatorial Guinea's capital, was called Santa Isabel until 1973, when it was renamed after Malabo Lopelo Melaka, the last king of the Bubi people.",
+  "traps": {
+   "Bridgetown": "It takes its name from a bridge, not a person.",
+   "Ottawa": "It's named after the Odawa people.",
+   "Freetown": "It was founded for freed people, and isn't named after one person.",
+   "Kingston": "It means 'king's town' and honours no single person.",
+   "Saint John's": "Named after a saint.",
+   "Ulaanbaatar": "Means 'red hero', a title rather than a person's name."
+  },
+  "level": 3,
+  "alias": {
+   "Washington, D.C.": [
+    "Washington"
+   ],
+   "Victoria": [
+    "Victoria, Seychelles"
+   ]
+  }
+ },
+ {
+  "id": "geo-caribbean-island-states",
+  "cat": "Geography",
+  "title": "Island hopping",
+  "q": "Sovereign Caribbean countries made up of islands",
+  "rule": "Sovereign states only, so Puerto Rico (a US territory) doesn't count.",
+  "tiers": {
+   "head": [
+    "Jamaica",
+    "Cuba"
+   ],
+   "hipster": [
+    "Dominica"
+   ],
+   "body": [
+    "Bahamas",
+    "Barbados",
+    "Haiti",
+    "Trinidad and Tobago"
+   ],
+   "tail": [
+    "Dominican Republic",
+    "Grenada",
+    "Saint Lucia"
+   ],
+   "deep": [
+    "Antigua and Barbuda",
+    "Saint Kitts and Nevis"
+   ],
+   "outlier": [
+    "Saint Vincent and the Grenadines"
+   ]
+  },
+  "fact": "Haiti and the Dominican Republic share the island of Hispaniola.",
+  "traps": {
+   "Puerto Rico": "It's a US territory, not a sovereign state.",
+   "Belize": "It's on the Central American mainland.",
+   "Guyana": "It's on the South American mainland."
+  },
+  "level": 1,
+  "alias": {
+   "Saint Lucia": [
+    "St Lucia"
+   ],
+   "Saint Kitts and Nevis": [
+    "St Kitts and Nevis"
+   ],
+   "Saint Vincent and the Grenadines": [
+    "St Vincent and the Grenadines",
+    "St Vincent"
+   ],
+   "Trinidad and Tobago": [
+    "Trinidad"
+   ],
+   "Antigua and Barbuda": [
+    "Antigua"
+   ]
+  }
+ },
+ {
+  "id": "geo-democratic-official-names",
+  "cat": "Geography",
+  "title": "In name only",
+  "q": "Countries whose official name includes the word Democratic",
+  "rule": "Use the full official name in force today. Former names like East Germany's don't count.",
+  "tiers": {
+   "head": [
+    "North Korea",
+    "Algeria"
+   ],
+   "hipster": [
+    "Sri Lanka"
+   ],
+   "body": [
+    "Laos",
+    "Nepal"
+   ],
+   "tail": [
+    "Ethiopia",
+    "Timor-Leste"
+   ],
+   "deep": [
+    "DR Congo"
+   ],
+   "outlier": [
+    "São Tomé and Príncipe"
+   ]
+  },
+  "fact": "Ethiopia adopted its current name, the Federal Democratic Republic of Ethiopia, in 1995.",
+  "traps": {
+   "Republic of the Congo": "Its official name has no Democratic in it.",
+   "Yemen": "It's officially the Republic of Yemen, with no Democratic in its name.",
+   "Germany": "East Germany was the German Democratic Republic, but that state no longer exists."
+  },
+  "level": 3,
+  "alias": {
+   "North Korea": [
+    "DPRK"
+   ],
+   "DR Congo": [
+    "DRC",
+    "Democratic Republic of the Congo"
+   ],
+   "Laos": [
+    "Lao PDR"
+   ],
+   "Timor-Leste": [
+    "East Timor"
+   ]
+  }
+ },
+ {
+  "id": "geo-drc-neighbours",
+  "cat": "Geography",
+  "title": "Crowded frontier",
+  "q": "Countries that share a land border with the DRC",
+  "rule": "A border on a lake still counts as a land border.",
+  "tiers": {
+   "head": [
+    "Angola",
+    "Uganda"
+   ],
+   "hipster": [],
+   "body": [
+    "Rwanda",
+    "Zambia",
+    "Tanzania",
+    "Republic of the Congo"
+   ],
+   "tail": [
+    "South Sudan"
+   ],
+   "deep": [
+    "Burundi"
+   ],
+   "outlier": [
+    "Central African Republic"
+   ]
+  },
+  "fact": "The DRC has nine land neighbours, the most of any African country.",
+  "traps": {
+   "Sudan": "It borders South Sudan, but not the DRC.",
+   "Kenya": "Uganda and Tanzania sit between Kenya and the DRC.",
+   "Malawi": "Tanzania and Zambia sit between Malawi and the DRC."
+  },
+  "level": 3,
+  "alias": {
+   "Republic of the Congo": [
+    "Congo-Brazzaville"
+   ],
+   "Central African Republic": [
+    "CAR"
+   ]
+  }
+ },
+ {
+  "id": "geo-eight-thousanders",
+  "cat": "Mountains",
+  "title": "Thin air",
+  "q": "Mountains over 8,000 metres high",
+  "rule": "The peak must be over 8,000 m. Its other common name also counts.",
+  "tiers": {
+   "head": [
+    "Mount Everest",
+    "K2"
+   ],
+   "hipster": [],
+   "body": [
+    "Kangchenjunga",
+    "Annapurna",
+    "Lhotse",
+    "Dhaulagiri"
+   ],
+   "tail": [
+    "Makalu",
+    "Cho Oyu",
+    "Manaslu",
+    "Nanga Parbat"
+   ],
+   "deep": [
+    "Broad Peak",
+    "Gasherbrum I",
+    "Gasherbrum II"
+   ],
+   "outlier": [
+    "Shishapangma"
+   ]
+  },
+  "fact": "Shishapangma is the only 8,000 m peak lying entirely inside China's borders, in Tibet.",
+  "traps": {
+   "Mount Kilimanjaro": "It's about 5,900 m, well short of 8,000.",
+   "Aconcagua": "South America's highest, at about 6,960 m.",
+   "Mount Elbrus": "Europe's highest, at about 5,640 m."
+  },
+  "level": 2,
+  "alias": {
+   "Mount Everest": [
+    "Everest",
+    "Sagarmatha"
+   ],
+   "K2": [
+    "Mount Godwin-Austen"
+   ],
+   "Gasherbrum I": [
+    "Hidden Peak"
+   ]
+  }
+ },
+ {
+  "id": "geo-europe-monarchies",
+  "cat": "Geography",
+  "title": "Royal flush",
+  "q": "European countries with a monarch as head of state",
+  "rule": "Andorra's co-princes and Vatican City's elected pope don't count.",
+  "tiers": {
+   "head": [
+    "United Kingdom",
+    "Spain"
+   ],
+   "hipster": [],
+   "body": [
+    "Netherlands",
+    "Belgium",
+    "Sweden",
+    "Norway",
+    "Denmark"
+   ],
+   "tail": [
+    "Luxembourg"
+   ],
+   "deep": [
+    "Monaco"
+   ],
+   "outlier": [
+    "Liechtenstein"
+   ]
+  },
+  "fact": "Liechtenstein is one of only two doubly landlocked countries in the world, with Uzbekistan.",
+  "traps": {
+   "Italy": "It had a king until a 1946 referendum made it a republic.",
+   "Germany": "It has been a republic since 1918 and has no monarch.",
+   "Portugal": "It has been a republic since 1910."
+  },
+  "level": 1,
+  "alias": {
+   "United Kingdom": [
+    "UK"
+   ],
+   "Netherlands": [
+    "Holland"
+   ]
+  }
+ },
+ {
+  "id": "geo-european-ia-endings",
+  "cat": "Geography",
+  "title": "Ending up",
+  "q": "European countries whose name ends in IA",
+  "rule": "Only countries usually placed in Europe count. Countries of the Caucasus are excluded.",
+  "tiers": {
+   "head": [
+    "Russia",
+    "Romania"
+   ],
+   "hipster": [
+    "Croatia"
+   ],
+   "body": [
+    "Austria",
+    "Bulgaria",
+    "Serbia",
+    "Slovenia"
+   ],
+   "tail": [
+    "Czechia",
+    "Slovakia",
+    "Albania",
+    "North Macedonia"
+   ],
+   "deep": [
+    "Lithuania",
+    "Latvia"
+   ],
+   "outlier": [
+    "Estonia"
+   ]
+  },
+  "fact": "North Macedonia adopted its current name in 2019, after a deal with Greece over the old one.",
+  "traps": {
+   "Italy": "It ends in Y, not IA.",
+   "Armenia": "It ends in IA but is usually placed in the Caucasus, not Europe.",
+   "Georgia": "It ends in IA but is usually placed in the Caucasus, not Europe."
+  },
+  "level": 2,
+  "alias": {
+   "North Macedonia": [
+    "Macedonia"
+   ]
+  }
+ },
+ {
+  "id": "geo-hidden-country-names",
+  "cat": "Wordplay",
+  "title": "Hide and seek",
+  "q": "Countries whose name hides the full name of another country",
+  "rule": "The hidden name must be a usual short name, spelled letter for letter inside the name.",
+  "tiers": {
+   "head": [
+    "Nigeria",
+    "Romania"
+   ],
+   "hipster": [],
+   "body": [
+    "Somalia",
+    "South Sudan"
+   ],
+   "tail": [
+    "Papua New Guinea",
+    "Equatorial Guinea"
+   ],
+   "deep": [
+    "Dominican Republic",
+    "DR Congo"
+   ],
+   "outlier": [
+    "Guinea-Bissau"
+   ]
+  },
+  "fact": "Somalia hides the name of Mali, a landlocked country in West Africa.",
+  "traps": {
+   "Malaysia": "Its name contains no other country's name.",
+   "Tanzania": "Its name contains no other country's name.",
+   "Pakistan": "Its name contains no other country's name."
+  },
+  "level": 3,
+  "alias": {
+   "DR Congo": [
+    "Democratic Republic of the Congo",
+    "DRC"
+   ],
+   "Papua New Guinea": [
+    "PNG"
+   ],
+   "Romania": [
+    "Rumania"
+   ]
+  }
+ },
+ {
+  "id": "geo-iran-neighbours",
+  "cat": "Geography",
+  "title": "Fenced in",
+  "q": "Countries that share a land border with Iran",
+  "rule": "A border through a neighbour's exclave counts. A maritime boundary doesn't.",
+  "tiers": {
+   "head": [
+    "Iraq",
+    "Pakistan"
+   ],
+   "hipster": [],
+   "body": [
+    "Afghanistan",
+    "Turkey"
+   ],
+   "tail": [
+    "Turkmenistan"
+   ],
+   "deep": [
+    "Armenia"
+   ],
+   "outlier": [
+    "Azerbaijan"
+   ]
+  },
+  "fact": "Iran has seven land neighbours, and it also shares the Caspian Sea with Russia.",
+  "traps": {
+   "Russia": "Iran and Russia share the Caspian Sea, not a land border.",
+   "Syria": "It borders Iraq, not Iran.",
+   "Saudi Arabia": "The Persian Gulf separates it from Iran."
+  },
+  "level": 2,
+  "alias": {
+   "Turkey": [
+    "Türkiye"
+   ]
+  }
+ },
+ {
+  "id": "geo-jersey-parishes",
+  "cat": "Geography",
+  "title": "Parish pump",
+  "q": "Parishes of Jersey, the Channel Island",
+  "rule": "Only the twelve parishes of Jersey count, not the Guernsey or Alderney parishes.",
+  "tiers": {
+   "head": [
+    "St Helier",
+    "St Brelade"
+   ],
+   "hipster": [],
+   "body": [
+    "Grouville",
+    "St Clement",
+    "Trinity",
+    "St Lawrence"
+   ],
+   "tail": [
+    "St Martin",
+    "St Mary",
+    "St John"
+   ],
+   "deep": [
+    "St Saviour",
+    "St Peter"
+   ],
+   "outlier": [
+    "St Ouen"
+   ]
+  },
+  "fact": "Jersey's capital, St Helier, is named after a 6th-century hermit who was killed by pirates.",
+  "traps": {
+   "St Peter Port": "That's Guernsey's capital, not a Jersey parish.",
+   "Alderney": "It's a Guernsey island, not a Jersey parish.",
+   "Guernsey": "It's an island, not a parish of Jersey."
+  },
+  "level": 3,
+  "alias": {
+   "St Helier": [
+    "Saint Helier"
+   ],
+   "St Brelade": [
+    "Saint Brelade"
+   ],
+   "St Ouen": [
+    "Saint Ouen"
+   ]
+  }
+ },
+ {
+  "id": "geo-lakes-three-shores",
+  "cat": "Geography",
+  "title": "Crowded shores",
+  "q": "Lakes shared by three or more countries",
+  "rule": "Enclosed inland waters that are legally lakes count, even when they're called seas.",
+  "tiers": {
+   "head": [
+    "Lake Victoria",
+    "Caspian Sea"
+   ],
+   "hipster": [
+    "Lake Constance"
+   ],
+   "body": [
+    "Lake Chad"
+   ],
+   "tail": [
+    "Lake Tanganyika"
+   ],
+   "deep": [
+    "Lake Malawi"
+   ],
+   "outlier": [
+    "Lake Prespa"
+   ]
+  },
+  "fact": "Lake Victoria is Africa's largest lake by area, and three countries share its shores.",
+  "traps": {
+   "Lake Titicaca": "Only Peru and Bolivia share it.",
+   "Lake Geneva": "Only France and Switzerland share it.",
+   "Lake Superior": "Only Canada and the United States share it."
+  },
+  "level": 3,
+  "alias": {
+   "Lake Constance": [
+    "Bodensee"
+   ],
+   "Lake Malawi": [
+    "Lake Nyasa"
+   ],
+   "Caspian Sea": [
+    "Caspian"
+   ]
+  }
+ },
+ {
+  "id": "geo-london-thames-boroughs",
+  "cat": "Geography",
+  "title": "Riverside",
+  "q": "London boroughs that touch the River Thames",
+  "rule": "A local authority counts if any part of its boundary meets the river.",
+  "tiers": {
+   "head": [
+    "Westminster",
+    "Greenwich"
+   ],
+   "hipster": [
+    "Havering"
+   ],
+   "body": [
+    "Richmond upon Thames",
+    "Lambeth",
+    "Southwark",
+    "Wandsworth",
+    "Hounslow"
+   ],
+   "tail": [
+    "Kingston upon Thames",
+    "Hammersmith and Fulham",
+    "Kensington and Chelsea",
+    "Tower Hamlets"
+   ],
+   "deep": [
+    "Newham",
+    "Barking and Dagenham",
+    "Bexley",
+    "Lewisham"
+   ],
+   "outlier": [
+    "City of London"
+   ]
+  },
+  "fact": "Richmond Park, in Richmond upon Thames, is one of London's Royal Parks and has free-roaming deer.",
+  "traps": {
+   "Croydon": "A south London borough that's nowhere near the river.",
+   "Barnet": "A north London borough with no Thames frontage."
+  },
+  "level": 3,
+  "alias": {
+   "City of London": [
+    "The City"
+   ],
+   "Richmond upon Thames": [
+    "Richmond"
+   ],
+   "Kingston upon Thames": [
+    "Kingston"
+   ]
+  }
+ },
+ {
+  "id": "geo-oceania-ends-a-or-u",
+  "cat": "Wordplay",
+  "title": "Open endings",
+  "q": "Oceania countries whose name ends in A or U",
+  "rule": "Sovereign states only, judged on the usual English name.",
+  "tiers": {
+   "head": [
+    "Australia",
+    "Papua New Guinea"
+   ],
+   "hipster": [],
+   "body": [
+    "Samoa",
+    "Tonga"
+   ],
+   "tail": [
+    "Micronesia",
+    "Vanuatu"
+   ],
+   "deep": [
+    "Tuvalu",
+    "Palau"
+   ],
+   "outlier": [
+    "Nauru"
+   ]
+  },
+  "fact": "Nauru, about 21 square kilometres, is the third-smallest country in the world, after the Vatican and Monaco.",
+  "traps": {
+   "Fiji": "It ends in I, so it misses.",
+   "Kiribati": "It ends in I, so it misses.",
+   "New Zealand": "It ends in D.",
+   "Solomon Islands": "It ends in S."
+  },
+  "level": 2,
+  "alias": {
+   "Papua New Guinea": [
+    "PNG"
+   ],
+   "Micronesia": [
+    "Federated States of Micronesia"
+   ]
+  }
+ },
+ {
+  "id": "geo-pacific-union-jack",
+  "cat": "Flags",
+  "title": "Corner flags",
+  "q": "Pacific countries and territories with a Union Jack on their flag",
+  "rule": "The whole flag of the UK doesn't count. Sub-national states within federations don't count.",
+  "tiers": {
+   "head": [
+    "Australia",
+    "New Zealand"
+   ],
+   "hipster": [],
+   "body": [
+    "Fiji",
+    "Tuvalu"
+   ],
+   "tail": [
+    "Cook Islands"
+   ],
+   "deep": [
+    "Niue"
+   ],
+   "outlier": [
+    "Pitcairn Islands"
+   ]
+  },
+  "fact": "Fiji's flag has kept the Union Jack in its corner since independence in 1970.",
+  "traps": {
+   "United Kingdom": "Its whole flag is the Union Jack, so it isn't a flag with one in the corner.",
+   "Hawaii": "It's a US state, so it doesn't count.",
+   "Canada": "Its flag is a red maple leaf, with no Union Jack.",
+   "Japan": "Its flag is a red disc on white."
+  },
+  "level": 2,
+  "alias": {
+   "Pitcairn Islands": [
+    "Pitcairn"
+   ],
+   "New Zealand": [
+    "Aotearoa"
+   ]
+  }
+ },
+ {
+  "id": "geo-planned-capitals",
+  "cat": "Cities",
+  "title": "Blueprint",
+  "q": "National capitals that were built specially to be capitals",
+  "rule": "Built or laid out from scratch to be the national capital, including those still being finished. Cities that were simply chosen as capital don't count.",
+  "tiers": {
+   "head": [
+    "Washington, D.C.",
+    "Brasília"
+   ],
+   "hipster": [],
+   "body": [
+    "Canberra",
+    "Abuja",
+    "Gaborone"
+   ],
+   "tail": [
+    "Islamabad",
+    "New Delhi",
+    "Astana"
+   ],
+   "deep": [
+    "Belmopan",
+    "Dodoma",
+    "Nouakchott"
+   ],
+   "outlier": [
+    "Naypyidaw",
+    "Ngerulmud"
+   ]
+  },
+  "fact": "Brasília was built from scratch in about four years and opened as Brazil's capital in 1960.",
+  "traps": {
+   "Ottawa": "It was an existing town that Queen Victoria chose, not a city built for the job.",
+   "Chandigarh": "It was planned, but it's a state capital, not a national one."
+  },
+  "level": 2,
+  "alias": {
+   "Washington, D.C.": [
+    "Washington"
+   ],
+   "Naypyidaw": [
+    "Nay Pyi Taw"
+   ]
+  }
+ },
+ {
+  "id": "geo-portuguese-official",
+  "cat": "Language",
+  "title": "Saudade",
+  "q": "Sovereign countries where Portuguese is an official language",
+  "rule": "Portuguese must be an official language nationally, so Macau doesn't count.",
+  "tiers": {
+   "head": [
+    "Brazil",
+    "Portugal"
+   ],
+   "hipster": [],
+   "body": [
+    "Angola",
+    "Mozambique"
+   ],
+   "tail": [
+    "Cabo Verde",
+    "Timor-Leste"
+   ],
+   "deep": [
+    "Guinea-Bissau",
+    "São Tomé and Príncipe"
+   ],
+   "outlier": [
+    "Equatorial Guinea"
+   ]
+  },
+  "fact": "Brazil has more Portuguese speakers than all the other Portuguese-speaking countries put together.",
+  "traps": {
+   "Spain": "Spanish is its official language, not Portuguese.",
+   "Macau": "Portuguese is official there, but Macau isn't a sovereign state.",
+   "Goa": "It was Portuguese once, but it's an Indian state where Portuguese isn't official."
+  },
+  "level": 1,
+  "alias": {
+   "Cabo Verde": [
+    "Cape Verde"
+   ],
+   "Timor-Leste": [
+    "East Timor"
+   ]
+  }
+ },
+ {
+  "id": "geo-red-sea-coast",
+  "cat": "Geography",
+  "title": "Red alert",
+  "q": "Countries with a coastline on the Red Sea",
+  "rule": "A coast on a gulf that branches off the sea counts.",
+  "tiers": {
+   "head": [
+    "Egypt",
+    "Saudi Arabia"
+   ],
+   "hipster": [
+    "Israel"
+   ],
+   "body": [
+    "Sudan",
+    "Yemen"
+   ],
+   "tail": [
+    "Jordan"
+   ],
+   "deep": [
+    "Eritrea"
+   ],
+   "outlier": [
+    "Djibouti"
+   ]
+  },
+  "fact": "The Suez Canal links the Red Sea to the Mediterranean, and it opened in 1869.",
+  "traps": {
+   "Somalia": "Its coast is on the Indian Ocean and the Gulf of Aden.",
+   "Oman": "Its coast is on the Arabian Sea and the Gulf of Oman.",
+   "Iran": "Its coast is on the Persian Gulf and the Gulf of Oman."
+  },
+  "level": 2,
+  "alias": {
+   "Saudi Arabia": [
+    "KSA"
+   ]
+  }
+ },
+ {
+  "id": "geo-seven-summits",
+  "cat": "Mountains",
+  "title": "Continental tops",
+  "q": "The highest peak on each continent, by the Seven Summits list",
+  "rule": "For Oceania, either of the two accepted peaks counts.",
+  "tiers": {
+   "head": [
+    "Mount Everest",
+    "Mount Kilimanjaro"
+   ],
+   "hipster": [],
+   "body": [
+    "Denali",
+    "Aconcagua",
+    "Mount Elbrus"
+   ],
+   "tail": [
+    "Mount Kosciuszko"
+   ],
+   "deep": [
+    "Vinson Massif"
+   ],
+   "outlier": [
+    "Carstensz Pyramid"
+   ]
+  },
+  "fact": "Denali was officially renamed from Mount McKinley in 2015, though the older name is still widely used.",
+  "traps": {
+   "Mont Blanc": "Highest in the Alps, but Europe's top peak is Mount Elbrus.",
+   "Mount Kenya": "Africa's second-highest peak, behind Kilimanjaro.",
+   "Mount Fuji": "Japan's highest, but not the highest in Asia."
+  },
+  "level": 1,
+  "alias": {
+   "Mount Everest": [
+    "Everest"
+   ],
+   "Denali": [
+    "Mount McKinley"
+   ],
+   "Mount Kilimanjaro": [
+    "Kilimanjaro"
+   ],
+   "Mount Elbrus": [
+    "Elbrus"
+   ],
+   "Vinson Massif": [
+    "Mount Vinson"
+   ],
+   "Carstensz Pyramid": [
+    "Puncak Jaya"
+   ]
+  }
+ },
+ {
+  "id": "geo-spanish-atlantic-islands",
+  "cat": "Islands",
+  "title": "Dog days",
+  "q": "The seven main islands of a Spanish archipelago off Africa",
+  "rule": "Only the seven large inhabited islands count. Small islets don't.",
+  "tiers": {
+   "head": [
+    "Tenerife",
+    "Gran Canaria"
+   ],
+   "hipster": [],
+   "body": [
+    "Fuerteventura",
+    "La Palma"
+   ],
+   "tail": [
+    "Lanzarote"
+   ],
+   "deep": [
+    "La Gomera"
+   ],
+   "outlier": [
+    "El Hierro"
+   ]
+  },
+  "fact": "The archipelago's name is traditionally linked to dogs, from the Latin word canis.",
+  "traps": {
+   "La Graciosa": "A small inhabited islet, not one of the seven main islands.",
+   "Madeira": "A Portuguese archipelago, not a Spanish one."
+  },
+  "level": 1,
+  "alias": {
+   "Gran Canaria": [
+    "Grand Canary"
+   ],
+   "El Hierro": [
+    "Hierro"
+   ],
+   "La Gomera": [
+    "Gomera"
+   ],
+   "La Palma": [
+    "Palma"
+   ]
+  }
+ },
+ {
+  "id": "geo-two-oceans",
+  "cat": "Geography",
+  "title": "Two oceans",
+  "q": "Countries with mainland coasts on both the Pacific and the Atlantic",
+  "rule": "The Caribbean counts as part of the Atlantic. Islands alone don't count.",
+  "tiers": {
+   "head": [
+    "USA",
+    "Canada"
+   ],
+   "hipster": [
+    "Panama"
+   ],
+   "body": [
+    "Mexico",
+    "Colombia",
+    "Costa Rica"
+   ],
+   "tail": [
+    "Nicaragua"
+   ],
+   "deep": [
+    "Honduras"
+   ],
+   "outlier": [
+    "Guatemala"
+   ]
+  },
+  "fact": "The Panama Canal, opened in 1914, cuts across Panama to link the Atlantic and Pacific oceans.",
+  "traps": {
+   "Peru": "Its coast faces only the Pacific.",
+   "Brazil": "Its coast faces only the Atlantic.",
+   "Ecuador": "Its only mainland coast faces the Pacific."
+  },
+  "level": 1,
+  "alias": {
+   "USA": [
+    "United States",
+    "US"
+   ]
+  }
+ },
+ {
+  "id": "geo-welsh-inland",
+  "cat": "Geography",
+  "title": "Dry land",
+  "q": "Welsh principal areas with no coastline",
+  "rule": "Any shore counts, so Monmouthshire and Flintshire (estuary shores) don't qualify.",
+  "tiers": {
+   "head": [
+    "Powys",
+    "Wrexham"
+   ],
+   "hipster": [],
+   "body": [
+    "Caerphilly",
+    "Merthyr Tydfil"
+   ],
+   "tail": [
+    "Rhondda Cynon Taf"
+   ],
+   "deep": [
+    "Torfaen"
+   ],
+   "outlier": [
+    "Blaenau Gwent"
+   ]
+  },
+  "fact": "Powys is the largest Welsh principal area by area, and it has no coastline at all.",
+  "traps": {
+   "Monmouthshire": "It has a shore on the Severn estuary, so it has a coastline.",
+   "Flintshire": "It has a shore on the Dee estuary, so it has a coastline.",
+   "Pembrokeshire": "It has a long Atlantic coastline."
+  },
+  "level": 3,
+  "alias": {
+   "Rhondda Cynon Taf": [
+    "RCT"
+   ]
+  }
+ }
+]

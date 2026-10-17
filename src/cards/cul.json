@@ -1,0 +1,1532 @@
+[
+ {
+  "id": "cul-pixar-one-word",
+  "cat": "Film",
+  "title": "Just one word",
+  "q": "Pixar films with a one-word title",
+  "rule": "Pixar features released through 2026. The printed title must be one word, so a leading 'The' or a sequel number rules a film out; a hyphenated title counts as one word.",
+  "tiers": {
+   "head": [
+    "Up",
+    "Cars",
+    "Coco"
+   ],
+   "hipster": [],
+   "body": [
+    "WALL-E",
+    "Ratatouille",
+    "Brave",
+    "Soul"
+   ],
+   "tail": [
+    "Luca",
+    "Onward",
+    "Hoppers"
+   ],
+   "deep": [
+    "Lightyear",
+    "Elemental"
+   ],
+   "outlier": [
+    "Elio"
+   ]
+  },
+  "fact": "Only one of these twelve titles is an acronym: WALL-E, short for Waste Allocation Load Lifter: Earth-Class.",
+  "traps": {
+   "Incredibles": "The film is 'The Incredibles', two words.",
+   "Cars 2": "Add the sequel number and it's no longer one word.",
+   "Inside Out": "Two words.",
+   "Frozen": "That's Disney Animation Studios, not Pixar.",
+   "Shrek": "That's DreamWorks, not Pixar."
+  },
+  "level": 1
+ },
+ {
+  "id": "cul-bond-one-word",
+  "cat": "Film",
+  "title": "Shaken, one word",
+  "q": "James Bond films with a one-word title",
+  "rule": "The 25 Eon Productions films, Dr. No (1962) to No Time to Die (2021). The title must be one word as printed; 'Dr. No' is two.",
+  "tiers": {
+   "head": [
+    "Skyfall",
+    "Goldfinger"
+   ],
+   "hipster": [],
+   "body": [
+    "GoldenEye",
+    "Thunderball",
+    "Spectre"
+   ],
+   "tail": [
+    "Moonraker"
+   ],
+   "deep": [],
+   "outlier": [
+    "Octopussy"
+   ]
+  },
+  "fact": "GoldenEye is named after Ian Fleming's Jamaican estate, where he wrote the Bond novels.",
+  "traps": {
+   "Casino Royale": "Two words.",
+   "Dr. No": "Two words once 'Dr.' is counted.",
+   "Quantum of Solace": "Three words.",
+   "Never Say Never Again": "Not an Eon film, and four words.",
+   "Licence to Kill": "Three words."
+  },
+  "level": 1
+ },
+ {
+  "id": "cul-christie-number-titles",
+  "cat": "Books",
+  "title": "Count the clues",
+  "q": "Agatha Christie novels with a number in the title",
+  "rule": "Judged on the current UK title, with a cardinal number as digits or a word (zero counts). Ordinals like 'Third' don't, and neither do short-story collections or US-only titles.",
+  "tiers": {
+   "head": [
+    "Five Little Pigs",
+    "4.50 from Paddington"
+   ],
+   "hipster": [
+    "Towards Zero"
+   ],
+   "body": [
+    "One, Two, Buckle My Shoe",
+    "Three Act Tragedy"
+   ],
+   "tail": [
+    "Seven Dials Mystery"
+   ],
+   "deep": [],
+   "outlier": [
+    "Big Four"
+   ]
+  },
+  "fact": "Two of these titles are nursery rhymes, and US editions renamed both: Five Little Pigs became Murder in Retrospect, and One, Two, Buckle My Shoe became The Patriotic Murders.",
+  "traps": {
+   "Third Girl": "'Third' is an ordinal, not a number.",
+   "The Thirteen Problems": "A short-story collection, not a novel.",
+   "Thirteen at Dinner": "A US title; the UK title, Lord Edgware Dies, has no number.",
+   "And Then There Were None": "'None' isn't a number.",
+   "The ABC Murders": "Letters, not numbers."
+  },
+  "level": 2,
+  "alias": {
+   "4.50 from Paddington": [
+    "450 from Paddington",
+    "What Mrs McGillicuddy Saw"
+   ],
+   "Five Little Pigs": [
+    "Murder in Retrospect"
+   ],
+   "One, Two, Buckle My Shoe": [
+    "The Patriotic Murders",
+    "An Overdose of Death"
+   ],
+   "Three Act Tragedy": [
+    "Murder in Three Acts"
+   ]
+  }
+ },
+ {
+  "id": "cul-disney-hero-name-titles",
+  "cat": "Film",
+  "title": "Name tag",
+  "q": "Disney animated classics titled with just the hero's name",
+  "rule": "Walt Disney Animation Studios canon only, so no Pixar. The whole title must be the hero's name or nickname; numbered sequels don't count.",
+  "tiers": {
+   "head": [
+    "Aladdin",
+    "Cinderella",
+    "Pinocchio",
+    "Moana"
+   ],
+   "hipster": [],
+   "body": [
+    "Bambi",
+    "Dumbo",
+    "Peter Pan",
+    "Mulan",
+    "Hercules",
+    "Tarzan"
+   ],
+   "tail": [
+    "Pocahontas",
+    "Robin Hood",
+    "Bolt"
+   ],
+   "deep": [
+    "Winnie the Pooh",
+    "Chicken Little"
+   ],
+   "outlier": [
+    "Wreck-It Ralph"
+   ]
+  },
+  "fact": "Pocahontas (1995) was Disney's first animated feature based on a real historical figure.",
+  "traps": {
+   "Snow White": "The full title is Snow White and the Seven Dwarfs.",
+   "Sleeping Beauty": "That's a description; the heroine's name is Aurora.",
+   "Rapunzel": "Disney's version is called Tangled.",
+   "Lilo & Stitch": "Two heroes' names, not one.",
+   "Luca": "That's Pixar, not Disney Animation Studios."
+  },
+  "level": 1,
+  "alias": {
+   "Winnie the Pooh": [
+    "Pooh"
+   ]
+  }
+ },
+ {
+  "id": "cul-ghibli-not-miyazaki",
+  "cat": "Film",
+  "title": "Not Hayao",
+  "q": "Studio Ghibli films not directed by Hayao Miyazaki",
+  "rule": "Any of Studio Ghibli's 25 features. The directing credit decides, so films Miyazaki only wrote or produced count, and so does Ghibli's European co-production.",
+  "tiers": {
+   "head": [
+    "Grave of the Fireflies",
+    "Arrietty"
+   ],
+   "hipster": [],
+   "body": [
+    "Whisper of the Heart",
+    "Cat Returns",
+    "When Marnie Was There",
+    "Tale of the Princess Kaguya"
+   ],
+   "tail": [
+    "From Up on Poppy Hill",
+    "Pom Poko",
+    "Only Yesterday",
+    "Tales from Earthsea"
+   ],
+   "deep": [
+    "Earwig and the Witch",
+    "My Neighbors the Yamadas"
+   ],
+   "outlier": [
+    "Red Turtle",
+    "Ocean Waves"
+   ]
+  },
+  "fact": "Hayao Miyazaki's son Gorō directed three of these films: Tales from Earthsea, From Up on Poppy Hill and Earwig and the Witch.",
+  "traps": {
+   "Spirited Away": "Miyazaki directed it.",
+   "My Neighbor Totoro": "Miyazaki directed it.",
+   "Howl's Moving Castle": "Miyazaki directed it.",
+   "Princess Mononoke": "Miyazaki directed it.",
+   "Kiki's Delivery Service": "Miyazaki directed it."
+  },
+  "level": 3,
+  "alias": {
+   "Grave of the Fireflies": [
+    "Fireflies"
+   ],
+   "Arrietty": [
+    "Secret World of Arrietty",
+    "Borrower Arrietty"
+   ],
+   "When Marnie Was There": [
+    "Marnie"
+   ],
+   "Tale of the Princess Kaguya": [
+    "Princess Kaguya",
+    "Tale of Princess Kaguya"
+   ],
+   "From Up on Poppy Hill": [
+    "Poppy Hill"
+   ],
+   "Only Yesterday": [
+    "Omohide Poro Poro"
+   ],
+   "Tales from Earthsea": [
+    "Earthsea",
+    "Gedo Senki"
+   ],
+   "Earwig and the Witch": [
+    "Aya and the Witch",
+    "Earwig"
+   ],
+   "My Neighbors the Yamadas": [
+    "My Neighbours the Yamadas",
+    "Yamadas"
+   ],
+   "Ocean Waves": [
+    "I Can Hear the Sea"
+   ]
+  }
+ },
+ {
+  "id": "cul-beatles-womens-names",
+  "cat": "Music",
+  "title": "Her name was",
+  "q": "Beatles album tracks with a woman's name in the title",
+  "rule": "Songs from the 12 UK studio albums plus Magical Mystery Tour. A woman's name counts even when the song is about a pet; street names and terms of endearment don't.",
+  "tiers": {
+   "head": [
+    "Eleanor Rigby",
+    "Lucy in the Sky with Diamonds",
+    "Michelle"
+   ],
+   "hipster": [],
+   "body": [
+    "Dear Prudence",
+    "Lovely Rita",
+    "Julia",
+    "Martha My Dear"
+   ],
+   "tail": [
+    "Sexy Sadie",
+    "Polythene Pam"
+   ],
+   "deep": [
+    "Maggie Mae",
+    "Dizzy Miss Lizzy"
+   ],
+   "outlier": [
+    "Anna (Go to Him)"
+   ]
+  },
+  "fact": "Martha My Dear is about Paul McCartney's Old English sheepdog, and Sexy Sadie began life as a barb at the Maharishi.",
+  "traps": {
+   "Lady Madonna": "A standalone single, not on any of those albums.",
+   "Penny Lane": "Penny Lane is a Liverpool street, not a woman.",
+   "Girl": "'Girl' isn't a name.",
+   "Honey Pie": "A pet name, not a given name.",
+   "Hey Jude": "Jude is a man, and it wasn't on a UK studio album."
+  },
+  "level": 2,
+  "alias": {
+   "Eleanor Rigby": [
+    "Eleanor"
+   ],
+   "Lucy in the Sky with Diamonds": [
+    "Lucy in the Sky"
+   ],
+   "Dear Prudence": [
+    "Prudence"
+   ],
+   "Lovely Rita": [
+    "Rita"
+   ],
+   "Martha My Dear": [
+    "Martha"
+   ],
+   "Sexy Sadie": [
+    "Sadie"
+   ],
+   "Polythene Pam": [
+    "Pam"
+   ],
+   "Maggie Mae": [
+    "Maggie May"
+   ],
+   "Dizzy Miss Lizzy": [
+    "Dizzy Miss Lizzie"
+   ],
+   "Anna (Go to Him)": [
+    "Anna"
+   ]
+  }
+ },
+ {
+  "id": "cul-monopoly-uk-properties",
+  "cat": "Games",
+  "title": "Pass Go",
+  "q": "Properties you can buy on the classic London Monopoly board",
+  "rule": "The 28 buyable spaces on the classic UK board: 22 streets, 4 stations and 2 utilities. Themed, city and 'Here & Now' editions don't count.",
+  "tiers": {
+   "head": [
+    "Mayfair",
+    "Park Lane",
+    "Old Kent Road",
+    "Trafalgar Square"
+   ],
+   "hipster": [],
+   "body": [
+    "Oxford Street",
+    "Bond Street",
+    "Regent Street",
+    "Leicester Square",
+    "Piccadilly",
+    "Pall Mall",
+    "King's Cross",
+    "Liverpool Street"
+   ],
+   "tail": [
+    "Whitehall",
+    "Fleet Street",
+    "Strand",
+    "Whitechapel Road",
+    "Euston Road",
+    "Marylebone",
+    "Fenchurch Street",
+    "Electric Company",
+    "Water Works"
+   ],
+   "deep": [
+    "Angel Islington",
+    "Pentonville Road",
+    "Coventry Street",
+    "Northumberland Avenue",
+    "Bow Street",
+    "Marlborough Street"
+   ],
+   "outlier": [
+    "Vine Street"
+   ]
+  },
+  "fact": "Bow Street, Marlborough Street and Vine Street, the orange set, each had a magistrates' court or police station.",
+  "traps": {
+   "Baker Street": "Famous, but not on the board.",
+   "Paddington": "The four stations are King's Cross, Marylebone, Fenchurch Street and Liverpool Street.",
+   "Downing Street": "Not on the board.",
+   "Covent Garden": "Not on the board.",
+   "Carnaby Street": "Not on the board."
+  },
+  "level": 1,
+  "alias": {
+   "Old Kent Road": [
+    "Old Kent Rd"
+   ],
+   "Trafalgar Square": [
+    "Trafalgar Sq"
+   ],
+   "Oxford Street": [
+    "Oxford St"
+   ],
+   "Bond Street": [
+    "Bond St",
+    "New Bond Street"
+   ],
+   "Regent Street": [
+    "Regent St"
+   ],
+   "Leicester Square": [
+    "Leicester Sq"
+   ],
+   "King's Cross": [
+    "Kings Cross Station"
+   ],
+   "Liverpool Street": [
+    "Liverpool Street Station"
+   ],
+   "Fleet Street": [
+    "Fleet St"
+   ],
+   "Whitechapel Road": [
+    "Whitechapel"
+   ],
+   "Marylebone": [
+    "Marylebone Station"
+   ],
+   "Fenchurch Street": [
+    "Fenchurch Street Station"
+   ],
+   "Electric Company": [
+    "Electric Co"
+   ],
+   "Angel Islington": [
+    "The Angel"
+   ],
+   "Pentonville Road": [
+    "Pentonville"
+   ],
+   "Coventry Street": [
+    "Coventry St"
+   ],
+   "Northumberland Avenue": [
+    "Northumberland Ave"
+   ],
+   "Bow Street": [
+    "Bow St"
+   ],
+   "Marlborough Street": [
+    "Marlborough St"
+   ],
+   "Vine Street": [
+    "Vine St"
+   ]
+  }
+ },
+ {
+  "id": "cul-voldemort-horcruxes",
+  "cat": "Books",
+  "title": "Soul searching",
+  "q": "Voldemort's seven Horcruxes, made on purpose or by accident",
+  "rule": "The seven vessels that held a piece of his soul in the novels. His own body doesn't count, and neither do the Deathly Hallows.",
+  "tiers": {
+   "head": [
+    "Tom Riddle's Diary",
+    "Nagini"
+   ],
+   "hipster": [],
+   "body": [
+    "Slytherin's Locket",
+    "Hufflepuff's Cup",
+    "Ravenclaw's Diadem"
+   ],
+   "tail": [
+    "Marvolo Gaunt's Ring"
+   ],
+   "deep": [],
+   "outlier": [
+    "Harry Potter"
+   ]
+  },
+  "fact": "Voldemort meant to make six Horcruxes, but he made a seventh by accident in Harry on the night he failed to kill him.",
+  "traps": {
+   "Elder Wand": "A Deathly Hallow, not a Horcrux.",
+   "Resurrection Stone": "It was set in the Gaunt ring; the ring was the Horcrux, not the stone.",
+   "Invisibility Cloak": "A Deathly Hallow, not a Horcrux.",
+   "Sword of Gryffindor": "It destroyed Horcruxes rather than being one.",
+   "Voldemort": "His own body held the main part of his soul, so it isn't a Horcrux."
+  },
+  "level": 1,
+  "alias": {
+   "Tom Riddle's Diary": [
+    "Diary",
+    "Riddle's Diary",
+    "Riddle Diary",
+    "Tom Riddle Diary"
+   ],
+   "Nagini": [
+    "Snake"
+   ],
+   "Slytherin's Locket": [
+    "Locket",
+    "Salazar Slytherin's Locket",
+    "Slytherin Locket"
+   ],
+   "Hufflepuff's Cup": [
+    "Cup",
+    "Helga Hufflepuff's Cup",
+    "Hufflepuff Cup"
+   ],
+   "Ravenclaw's Diadem": [
+    "Diadem",
+    "Lost Diadem",
+    "Rowena Ravenclaw's Diadem",
+    "Ravenclaw Diadem"
+   ],
+   "Marvolo Gaunt's Ring": [
+    "Ring",
+    "Gaunt's Ring",
+    "Gaunt Ring",
+    "Peverell Ring"
+   ],
+   "Harry Potter": [
+    "Harry",
+    "Potter"
+   ]
+  }
+ },
+ {
+  "id": "cul-thriller-tracks",
+  "cat": "Music",
+  "title": "King of Pop",
+  "q": "The nine tracks on Michael Jackson's best-selling 1982 album",
+  "rule": "The original album track list only. Bonus tracks on reissues and songs from his other albums don't count.",
+  "tiers": {
+   "head": [
+    "Thriller",
+    "Billie Jean",
+    "Beat It"
+   ],
+   "hipster": [],
+   "body": [
+    "Wanna Be Startin' Somethin'",
+    "Human Nature"
+   ],
+   "tail": [
+    "Girl Is Mine",
+    "P.Y.T. (Pretty Young Thing)"
+   ],
+   "deep": [
+    "Baby Be Mine"
+   ],
+   "outlier": [
+    "Lady in My Life"
+   ]
+  },
+  "fact": "Seven of Thriller's nine tracks were released as singles and all seven reached the US top ten, a first for any album.",
+  "traps": {
+   "Smooth Criminal": "From Bad (1987).",
+   "Man in the Mirror": "From Bad (1987).",
+   "Don't Stop 'Til You Get Enough": "From Off the Wall (1979).",
+   "Black or White": "From Dangerous (1991).",
+   "Say Say Say": "A McCartney duet, but from Paul's Pipes of Peace (1983)."
+  },
+  "level": 2,
+  "alias": {
+   "Wanna Be Startin' Somethin'": [
+    "Wanna Be Starting Something",
+    "Wanna Be Startin Something"
+   ],
+   "P.Y.T. (Pretty Young Thing)": [
+    "PYT",
+    "Pretty Young Thing"
+   ]
+  }
+ },
+ {
+  "id": "cul-pokemon-stone-evolutions",
+  "cat": "Games",
+  "title": "Set in stone",
+  "q": "Original 151 Pokémon you get by using an evolution stone",
+  "rule": "The evolved Pokémon you end up with after a Fire, Water, Thunder, Leaf or Moon Stone in Red, Blue and Yellow. Trade evolutions and the pre-evolved forms don't count.",
+  "tiers": {
+   "head": [
+    "Raichu",
+    "Vaporeon",
+    "Jolteon",
+    "Flareon"
+   ],
+   "hipster": [],
+   "body": [
+    "Arcanine",
+    "Ninetales",
+    "Starmie",
+    "Wigglytuff"
+   ],
+   "tail": [
+    "Nidoking",
+    "Nidoqueen",
+    "Clefable",
+    "Vileplume",
+    "Exeggutor"
+   ],
+   "deep": [
+    "Cloyster",
+    "Victreebel"
+   ],
+   "outlier": [
+    "Poliwrath"
+   ]
+  },
+  "fact": "In Red and Blue, Eevee is the only Pokémon that evolves with more than one kind of stone: Water, Thunder or Fire for Vaporeon, Jolteon or Flareon.",
+  "traps": {
+   "Pikachu": "Pikachu is the Pokémon you use the stone on; it becomes Raichu.",
+   "Eevee": "Eevee is the Pokémon you use the stone on, not the result.",
+   "Alakazam": "Evolves by trade, not a stone.",
+   "Gengar": "Evolves by trade, not a stone.",
+   "Golem": "Evolves by trade, not a stone."
+  },
+  "level": 2
+ },
+ {
+  "id": "cul-hobbit-dwarves",
+  "cat": "Books",
+  "title": "Unexpected party",
+  "q": "The thirteen dwarves who set out with Bilbo in The Hobbit",
+  "rule": "Their leader counts. Only the thirteen who set out from Bag End; dwarves met later, like Dáin, don't.",
+  "tiers": {
+   "head": [
+    "Thorin Oakenshield",
+    "Balin",
+    "Fíli",
+    "Kíli"
+   ],
+   "hipster": [],
+   "body": [
+    "Dwalin",
+    "Bombur",
+    "Glóin"
+   ],
+   "tail": [
+    "Óin",
+    "Bofur",
+    "Bifur"
+   ],
+   "deep": [
+    "Dori",
+    "Nori"
+   ],
+   "outlier": [
+    "Ori"
+   ]
+  },
+  "fact": "Tolkien took the names of most of Thorin's company, and Gandalf's too, from a list of dwarves in the Old Norse poem Völuspá.",
+  "traps": {
+   "Gimli": "Glóin's son, but he's in The Lord of the Rings, not Thorin's company.",
+   "Dáin Ironfoot": "Thorin's cousin, who only arrives for the Battle of Five Armies.",
+   "Thráin": "Thorin's father, long gone by the time of the quest.",
+   "Gandalf": "A wizard, not a dwarf.",
+   "Bilbo Baggins": "A hobbit, the fourteenth member of the party."
+  },
+  "level": 2,
+  "alias": {
+   "Thorin Oakenshield": [
+    "Thorin",
+    "Oakenshield"
+   ]
+  }
+ },
+ {
+  "id": "cul-got-great-houses",
+  "cat": "TV",
+  "title": "Bend the knee",
+  "q": "The nine Great Houses of Westeros in Game of Thrones",
+  "rule": "The Great Houses as they stand at the start of the first book, counting the deposed royal house. Later risers like Bolton and Frey don't count.",
+  "tiers": {
+   "head": [
+    "Stark",
+    "Lannister",
+    "Targaryen"
+   ],
+   "hipster": [],
+   "body": [
+    "Baratheon",
+    "Greyjoy"
+   ],
+   "tail": [
+    "Tyrell",
+    "Martell"
+   ],
+   "deep": [
+    "Arryn"
+   ],
+   "outlier": [
+    "Tully"
+   ]
+  },
+  "fact": "House Tully, lords of Riverrun, has a leaping trout for its sigil and 'Family, Duty, Honor' as its words.",
+  "traps": {
+   "Bolton": "Stark bannermen who only rose after the war began.",
+   "Frey": "Lords of the Crossing, not a Great House at the start.",
+   "Mormont": "A minor Northern house, sworn to the Starks.",
+   "Hightower": "Bannermen of the Tyrells in the main story.",
+   "Velaryon": "A Targaryen-kin house from House of the Dragon, not a Great House."
+  },
+  "level": 1,
+  "alias": {
+   "Stark": [
+    "House Stark"
+   ],
+   "Lannister": [
+    "House Lannister"
+   ],
+   "Targaryen": [
+    "House Targaryen"
+   ],
+   "Baratheon": [
+    "House Baratheon"
+   ],
+   "Greyjoy": [
+    "House Greyjoy"
+   ],
+   "Tyrell": [
+    "House Tyrell"
+   ],
+   "Martell": [
+    "House Martell"
+   ],
+   "Arryn": [
+    "House Arryn"
+   ],
+   "Tully": [
+    "House Tully"
+   ]
+  }
+ },
+ {
+  "id": "cul-simpsons-family",
+  "cat": "TV",
+  "title": "Family tree",
+  "q": "The Simpson household plus the children's four grandparents, by first name",
+  "rule": "The five who live at 742 Evergreen Terrace and their four grandparents. Aunts, half-siblings and neighbours don't count.",
+  "tiers": {
+   "head": [
+    "Homer",
+    "Marge",
+    "Bart",
+    "Lisa"
+   ],
+   "hipster": [],
+   "body": [
+    "Maggie"
+   ],
+   "tail": [
+    "Abe"
+   ],
+   "deep": [
+    "Mona",
+    "Jacqueline"
+   ],
+   "outlier": [
+    "Clancy"
+   ]
+  },
+  "fact": "Clancy Bouvier, Marge's father, is so rarely seen that most of his screen time is in flashbacks to Marge's childhood.",
+  "traps": {
+   "Patty": "Marge's sister, an aunt rather than a parent.",
+   "Selma": "Marge's sister, an aunt rather than a parent.",
+   "Herb": "Homer's half-brother.",
+   "Ned Flanders": "The neighbour, not family.",
+   "Mr Burns": "Homer's boss, not family."
+  },
+  "level": 1,
+  "alias": {
+   "Homer": [
+    "Homer Simpson"
+   ],
+   "Marge": [
+    "Marge Simpson",
+    "Marjorie"
+   ],
+   "Bart": [
+    "Bart Simpson",
+    "Bartholomew"
+   ],
+   "Lisa": [
+    "Lisa Simpson"
+   ],
+   "Maggie": [
+    "Maggie Simpson",
+    "Margaret"
+   ],
+   "Abe": [
+    "Grampa",
+    "Grandpa",
+    "Abraham",
+    "Abe Simpson"
+   ],
+   "Mona": [
+    "Mona Simpson"
+   ],
+   "Jacqueline": [
+    "Jacqueline Bouvier",
+    "Jackie Bouvier"
+   ],
+   "Clancy": [
+    "Clancy Bouvier"
+   ]
+  }
+ },
+ {
+  "id": "cul-star-wars-saga",
+  "cat": "Film",
+  "title": "Skywalker saga",
+  "q": "Films in the nine-part main saga about the Skywalker family",
+  "rule": "The nine numbered episodes only: Solo, Rogue One and the animated spin-offs don't count.",
+  "tiers": {
+   "head": [
+    "A New Hope",
+    "Empire Strikes Back",
+    "Return of the Jedi"
+   ],
+   "hipster": [],
+   "body": [
+    "Phantom Menace",
+    "Force Awakens",
+    "Revenge of the Sith"
+   ],
+   "tail": [
+    "Last Jedi",
+    "Rise of Skywalker"
+   ],
+   "deep": [],
+   "outlier": [
+    "Attack of the Clones"
+   ]
+  },
+  "fact": "The 1977 original was released as just Star Wars; the subtitle A New Hope came later.",
+  "traps": {
+   "Solo": "Solo: A Star Wars Story (2018) is a standalone spin-off.",
+   "Rogue One": "Rogue One (2016) is a standalone spin-off.",
+   "The Clone Wars": "The 2008 animated film is a spin-off, not one of the nine."
+  },
+  "level": 1,
+  "alias": {
+   "A New Hope": [
+    "Star Wars",
+    "Episode IV"
+   ],
+   "Empire Strikes Back": [
+    "Episode V"
+   ],
+   "Return of the Jedi": [
+    "Episode VI"
+   ],
+   "Phantom Menace": [
+    "Episode I"
+   ],
+   "Force Awakens": [
+    "Episode VII"
+   ],
+   "Revenge of the Sith": [
+    "Episode III"
+   ],
+   "Last Jedi": [
+    "Episode VIII"
+   ],
+   "Rise of Skywalker": [
+    "Episode IX"
+   ],
+   "Attack of the Clones": [
+    "Episode II"
+   ]
+  }
+ },
+ {
+  "id": "cul-beatles-members",
+  "cat": "Music",
+  "title": "Fab Four, plus",
+  "q": "Musicians who were in the Beatles, from the early years to the end",
+  "rule": "The Fab Four, the bassist and drummer who left before fame, and the drummer who stood in on the 1964 world tour.",
+  "tiers": {
+   "head": [
+    "John Lennon",
+    "Paul McCartney",
+    "George Harrison",
+    "Ringo Starr"
+   ],
+   "hipster": [],
+   "body": [
+    "Pete Best"
+   ],
+   "tail": [
+    "Stuart Sutcliffe"
+   ],
+   "deep": [],
+   "outlier": [
+    "Jimmie Nicol"
+   ]
+  },
+  "fact": "Jimmy Nicol deputised for Ringo Starr on a 1964 tour when Ringo was ill with tonsillitis.",
+  "traps": {
+   "Billy Preston": "Played with them on the late recordings but was never a member.",
+   "Brian Epstein": "Their manager.",
+   "George Martin": "Their producer, often called the fifth Beatle."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Ringo Starr": [
+    "Richard Starkey"
+   ],
+   "Jimmie Nicol": [
+    "Jimmy Nicol"
+   ],
+   "Stuart Sutcliffe": [
+    "Stu Sutcliffe"
+   ]
+  }
+ },
+ {
+  "id": "cul-oasis-studio-albums",
+  "cat": "Music",
+  "title": "Live forever",
+  "q": "Oasis studio albums",
+  "rule": "Studio albums only, so compilations and live albums don't count.",
+  "tiers": {
+   "head": [
+    "Definitely Maybe",
+    "(What's the Story) Morning Glory?"
+   ],
+   "hipster": [],
+   "body": [
+    "Be Here Now",
+    "Heathen Chemistry"
+   ],
+   "tail": [
+    "Standing on the Shoulder of Giants"
+   ],
+   "deep": [
+    "Don't Believe the Truth"
+   ],
+   "outlier": [
+    "Dig Out Your Soul"
+   ]
+  },
+  "fact": "Dig Out Your Soul (2008) was Oasis's last studio album before the band split in 2009.",
+  "traps": {
+   "Stop the Clocks": "A 2002 compilation, not a studio album.",
+   "Familiar to Millions": "A 2000 live album, not a studio album."
+  },
+  "level": 3,
+  "alias": {
+   "(What's the Story) Morning Glory?": [
+    "Morning Glory"
+   ]
+  }
+ },
+ {
+  "id": "cul-narnia-chronicles",
+  "cat": "Books",
+  "title": "Through the back",
+  "q": "Titles in C. S. Lewis's Chronicles of Narnia",
+  "rule": "Book titles only, and a leading 'The' can be dropped.",
+  "tiers": {
+   "head": [
+    "Lion, the Witch and the Wardrobe"
+   ],
+   "hipster": [],
+   "body": [
+    "Prince Caspian",
+    "Voyage of the Dawn Treader",
+    "Magician's Nephew"
+   ],
+   "tail": [
+    "Last Battle",
+    "Silver Chair"
+   ],
+   "deep": [],
+   "outlier": [
+    "Horse and His Boy"
+   ]
+  },
+  "fact": "The Magician's Nephew tells Narnia's creation story but was published sixth, in 1955.",
+  "traps": {
+   "The Hobbit": "Tolkien's book, not part of Narnia.",
+   "Charlie and the Chocolate Factory": "A Roald Dahl novel, not Lewis."
+  },
+  "level": 2,
+  "alias": {
+   "Voyage of the Dawn Treader": [
+    "Dawn Treader"
+   ],
+   "Lion, the Witch and the Wardrobe": [
+    "Lion Witch and Wardrobe"
+   ]
+  }
+ },
+ {
+  "id": "cul-dahl-children-novels",
+  "cat": "Books",
+  "title": "Gobblefunk",
+  "q": "Roald Dahl's children's stories in prose, by title",
+  "rule": "His prose books for children, long or short. Memoirs, verse collections and adult short stories don't count.",
+  "tiers": {
+   "head": [
+    "Charlie and the Chocolate Factory",
+    "Matilda",
+    "BFG"
+   ],
+   "hipster": [],
+   "body": [
+    "Fantastic Mr Fox",
+    "Witches",
+    "James and the Giant Peach",
+    "Twits"
+   ],
+   "tail": [
+    "George's Marvellous Medicine",
+    "Danny the Champion of the World",
+    "Charlie and the Great Glass Elevator",
+    "Enormous Crocodile"
+   ],
+   "deep": [
+    "Esio Trot",
+    "Magic Finger",
+    "Giraffe and the Pelly and Me"
+   ],
+   "outlier": [
+    "Minpins",
+    "Vicar of Nibbleswicke",
+    "Gremlins"
+   ]
+  },
+  "fact": "The Gremlins (1943), written for Disney while he was an RAF officer, was Dahl's first children's book.",
+  "traps": {
+   "Boy": "His memoir of childhood.",
+   "Revolting Rhymes": "Verse, not prose.",
+   "Dirty Beasts": "A book of poems.",
+   "Tales of the Unexpected": "Short stories for adults."
+  },
+  "level": 1,
+  "alias": {
+   "BFG": [
+    "Big Friendly Giant"
+   ]
+  }
+ },
+ {
+  "id": "cul-fellowship-members",
+  "cat": "Books",
+  "title": "Nine walkers",
+  "q": "Members of the Fellowship of the Ring",
+  "rule": "All nine members count, including the wizard; Bilbo and Elrond don't.",
+  "tiers": {
+   "head": [
+    "Frodo Baggins",
+    "Gandalf",
+    "Aragorn"
+   ],
+   "hipster": [],
+   "body": [
+    "Samwise Gamgee",
+    "Legolas",
+    "Gimli"
+   ],
+   "tail": [
+    "Boromir",
+    "Peregrin Took"
+   ],
+   "deep": [],
+   "outlier": [
+    "Meriadoc Brandybuck"
+   ]
+  },
+  "fact": "Gimli is the only dwarf in the Fellowship, and Legolas is the only elf.",
+  "traps": {
+   "Bilbo Baggins": "He stays behind at Rivendell, so he isn't a member.",
+   "Saruman": "The wizard never joins the Fellowship.",
+   "Elrond": "He holds the council but doesn't travel with the Fellowship."
+  },
+  "surnames": true,
+  "level": 1,
+  "alias": {
+   "Frodo Baggins": [
+    "Frodo"
+   ],
+   "Gandalf": [
+    "Gandalf the Grey"
+   ],
+   "Aragorn": [
+    "Strider"
+   ],
+   "Samwise Gamgee": [
+    "Sam",
+    "Samwise"
+   ],
+   "Peregrin Took": [
+    "Pippin"
+   ],
+   "Meriadoc Brandybuck": [
+    "Merry"
+   ]
+  }
+ },
+ {
+  "id": "cul-cluedo-characters",
+  "cat": "Games",
+  "title": "Guest list",
+  "q": "Characters in the classic board game Cluedo",
+  "rule": "The six suspects and the murder victim from the classic British edition; their US names count too.",
+  "tiers": {
+   "head": [
+    "Colonel Mustard",
+    "Miss Scarlett",
+    "Professor Plum"
+   ],
+   "hipster": [],
+   "body": [
+    "Mrs White",
+    "Mrs Peacock"
+   ],
+   "tail": [
+    "Reverend Green"
+   ],
+   "deep": [],
+   "outlier": [
+    "Dr Black"
+   ]
+  },
+  "fact": "Cluedo's US name is Clue, and Reverend Green is called Mr Green there.",
+  "traps": {
+   "Miss Marple": "Agatha Christie's detective, not a Cluedo suspect.",
+   "Mr White": "It's Mrs White."
+  },
+  "surnames": true,
+  "level": 1,
+  "alias": {
+   "Miss Scarlett": [
+    "Miss Scarlet"
+   ],
+   "Reverend Green": [
+    "Mr Green",
+    "Rev Green"
+   ],
+   "Dr Black": [
+    "Doctor Black",
+    "Mr Boddy",
+    "Mr Body"
+   ]
+  }
+ },
+ {
+  "id": "cul-cluedo-rooms",
+  "cat": "Games",
+  "title": "Room service",
+  "q": "Rooms of the mansion on the Cluedo board",
+  "rule": "The nine named rooms only; corridors and the central area don't count.",
+  "tiers": {
+   "head": [
+    "Kitchen",
+    "Ballroom",
+    "Library"
+   ],
+   "hipster": [],
+   "body": [
+    "Dining Room",
+    "Lounge",
+    "Hall"
+   ],
+   "tail": [
+    "Conservatory",
+    "Study"
+   ],
+   "deep": [],
+   "outlier": [
+    "Billiard Room"
+   ]
+  },
+  "fact": "Four corner rooms have secret passages: Kitchen to Study, and Conservatory to Lounge.",
+  "traps": {
+   "Drawing Room": "A real room type, but not on the Cluedo board.",
+   "Bedroom": "There is no bedroom on the Cluedo board."
+  },
+  "level": 2,
+  "alias": {
+   "Billiard Room": [
+    "Billiards Room"
+   ]
+  }
+ },
+ {
+  "id": "cul-hundred-acre-wood",
+  "cat": "Books",
+  "title": "Honey pot",
+  "q": "Residents of the Hundred Acre Wood in A. A. Milne's books",
+  "rule": "Characters from Milne's two books about the bear who live in the forest. Characters added by Disney don't count, and Heffalumps and Woozles are only imagined.",
+  "tiers": {
+   "head": [
+    "Winnie the Pooh",
+    "Piglet",
+    "Tigger",
+    "Eeyore"
+   ],
+   "hipster": [],
+   "body": [
+    "Owl",
+    "Rabbit",
+    "Christopher Robin"
+   ],
+   "tail": [
+    "Kanga"
+   ],
+   "deep": [
+    "Roo"
+   ],
+   "outlier": [
+    "Small"
+   ]
+  },
+  "fact": "Small, one of Rabbit's friends and relations, is also called Alexander Beetle; the whole wood goes looking for him in one story.",
+  "traps": {
+   "Gopher": "A Disney addition, not in Milne's books.",
+   "Toad": "From The Wind in the Willows, not the Hundred Acre Wood."
+  },
+  "level": 1,
+  "alias": {
+   "Winnie the Pooh": [
+    "Pooh",
+    "Pooh Bear",
+    "Winnie"
+   ],
+   "Small": [
+    "Alexander Beetle"
+   ]
+  }
+ },
+ {
+  "id": "cul-alien-films",
+  "cat": "Film",
+  "title": "Final girl",
+  "q": "Films in the main series that began in 1979, by title",
+  "rule": "Crossovers with other franchises and TV series don't count.",
+  "tiers": {
+   "head": [
+    "Alien",
+    "Aliens"
+   ],
+   "hipster": [],
+   "body": [
+    "Prometheus",
+    "Alien 3"
+   ],
+   "tail": [
+    "Alien Resurrection",
+    "Alien: Romulus"
+   ],
+   "deep": [],
+   "outlier": [
+    "Alien: Covenant"
+   ]
+  },
+  "fact": "Alien 3 (1992) opens by killing off Newt and Hicks, the survivors of Aliens.",
+  "traps": {
+   "Predator": "A separate franchise, not Alien.",
+   "Alien vs. Predator": "A crossover, excluded by the rule.",
+   "Alien: Earth": "A TV series, not a film."
+  },
+  "level": 1,
+  "alias": {
+   "Alien: Covenant": [
+    "Covenant"
+   ],
+   "Alien: Romulus": [
+    "Romulus"
+   ],
+   "Alien Resurrection": [
+    "Resurrection"
+   ]
+  }
+ },
+ {
+  "id": "cul-jurassic-films",
+  "cat": "Film",
+  "title": "Clever girl",
+  "q": "Films in the main Jurassic dinosaur series",
+  "rule": "Cinema films only, so the TV series and theme-park rides don't count.",
+  "tiers": {
+   "head": [
+    "Jurassic Park",
+    "Jurassic World"
+   ],
+   "hipster": [],
+   "body": [
+    "Lost World",
+    "Fallen Kingdom"
+   ],
+   "tail": [
+    "Dominion",
+    "Jurassic Park III"
+   ],
+   "deep": [],
+   "outlier": [
+    "Rebirth"
+   ]
+  },
+  "fact": "Steven Spielberg directed Jurassic Park and The Lost World, but no later film in the series.",
+  "traps": {
+   "Jurassic Park IV": "No such film; the fourth was titled Jurassic World.",
+   "Congo": "A 1995 Michael Crichton adaptation, not part of this series."
+  },
+  "level": 2,
+  "alias": {
+   "Lost World": [
+    "The Lost World: Jurassic Park"
+   ],
+   "Jurassic Park III": [
+    "JP3"
+   ],
+   "Dominion": [
+    "Jurassic World Dominion"
+   ],
+   "Fallen Kingdom": [
+    "Jurassic World Fallen Kingdom"
+   ],
+   "Rebirth": [
+    "Jurassic World Rebirth"
+   ]
+  }
+ },
+ {
+  "id": "cul-bronte-novels",
+  "cat": "Books",
+  "title": "Three sisters",
+  "q": "Novels written by the Brontë sisters",
+  "rule": "Full-length novels only; poetry and short fiction don't count.",
+  "tiers": {
+   "head": [
+    "Jane Eyre",
+    "Wuthering Heights"
+   ],
+   "hipster": [],
+   "body": [
+    "Villette"
+   ],
+   "tail": [
+    "Shirley",
+    "Agnes Grey"
+   ],
+   "deep": [
+    "Tenant of Wildfell Hall"
+   ],
+   "outlier": [
+    "Professor"
+   ]
+  },
+  "fact": "Charlotte's The Professor was rejected by publishers and only appeared in 1857, after her death.",
+  "traps": {
+   "Mansfield Park": "A Jane Austen novel, not a Brontë.",
+   "Middlemarch": "A George Eliot novel."
+  },
+  "level": 3
+ },
+ {
+  "id": "cul-hardy-novels",
+  "cat": "Books",
+  "title": "Wessex",
+  "q": "Novels by Thomas Hardy",
+  "rule": "Full-length novels only; short stories and poems don't count.",
+  "tiers": {
+   "head": [
+    "Tess of the d'Urbervilles"
+   ],
+   "hipster": [],
+   "body": [
+    "Far from the Madding Crowd",
+    "Jude the Obscure",
+    "Mayor of Casterbridge",
+    "Return of the Native"
+   ],
+   "tail": [
+    "Under the Greenwood Tree",
+    "Woodlanders",
+    "Two on a Tower"
+   ],
+   "deep": [
+    "Pair of Blue Eyes",
+    "Trumpet-Major",
+    "Hand of Ethelberta",
+    "Laodicean",
+    "Well-Beloved"
+   ],
+   "outlier": [
+    "Desperate Remedies"
+   ]
+  },
+  "fact": "Critics dubbed Jude the Obscure 'Jude the Obscene' because of its frank treatment of marriage.",
+  "traps": {
+   "Middlemarch": "A George Eliot novel, not Hardy.",
+   "Wessex": "Hardy's fictional region, not a novel."
+  },
+  "level": 3,
+  "alias": {
+   "Tess of the d'Urbervilles": [
+    "Tess"
+   ],
+   "Laodicean": [
+    "A Laodicean"
+   ],
+   "Pair of Blue Eyes": [
+    "A Pair of Blue Eyes"
+   ]
+  }
+ },
+ {
+  "id": "cul-bond-actors-pre-2006",
+  "cat": "Film",
+  "title": "Licence to play",
+  "q": "Actors who played 007 on screen before 2006",
+  "rule": "The leading Bond in any film or TV production; the actor whose first Bond film came in 2006 is out.",
+  "tiers": {
+   "head": [
+    "Sean Connery",
+    "Roger Moore"
+   ],
+   "hipster": [],
+   "body": [
+    "Pierce Brosnan",
+    "Timothy Dalton",
+    "George Lazenby"
+   ],
+   "tail": [
+    "David Niven"
+   ],
+   "deep": [],
+   "outlier": [
+    "Barry Nelson"
+   ]
+  },
+  "fact": "Barry Nelson played an American Bond, called Jimmy Bond, in a 1954 US TV version of Casino Royale.",
+  "traps": {
+   "Daniel Craig": "His first Bond film came in 2006, outside the cut-off.",
+   "Ralph Fiennes": "He plays M, Bond's boss, not 007."
+  },
+  "surnames": true,
+  "level": 2
+ },
+ {
+  "id": "cul-blur-studio-albums",
+  "cat": "Music",
+  "title": "Song two",
+  "q": "Studio albums by the Britpop band fronted by Damon Albarn",
+  "rule": "Studio albums only; compilations, live albums and singles don't count.",
+  "tiers": {
+   "head": [
+    "Parklife",
+    "13"
+   ],
+   "hipster": [],
+   "body": [
+    "Great Escape",
+    "Blur"
+   ],
+   "tail": [
+    "Leisure",
+    "Modern Life Is Rubbish",
+    "Magic Whip"
+   ],
+   "deep": [
+    "Think Tank"
+   ],
+   "outlier": [
+    "Ballad of Darren"
+   ]
+  },
+  "fact": "The Ballad of Darren (2023) was Blur's first album in eight years.",
+  "traps": {
+   "Blur: The Best Of": "A compilation, not a studio album.",
+   "Song 2": "A single, not an album."
+  },
+  "level": 3,
+  "alias": {
+   "13": [
+    "Thirteen"
+   ]
+  }
+ },
+ {
+  "id": "cul-hogwarts-houses-founders",
+  "cat": "Books",
+  "title": "Sorting hat",
+  "q": "The four Hogwarts houses, or their founders' first names",
+  "rule": "House names count, and so do the founders' first names; founders' surnames match the house names.",
+  "tiers": {
+   "head": [
+    "Gryffindor",
+    "Slytherin",
+    "Hufflepuff",
+    "Ravenclaw"
+   ],
+   "hipster": [],
+   "body": [
+    "Godric",
+    "Salazar"
+   ],
+   "tail": [
+    "Helga"
+   ],
+   "deep": [],
+   "outlier": [
+    "Rowena"
+   ]
+  },
+  "fact": "Godric Gryffindor's sword was hidden in the Sorting Hat, and Harry used it to kill the basilisk.",
+  "traps": {
+   "Dumbledore": "Headmaster of Hogwarts, not a founder.",
+   "Merlin": "A legendary wizard, not a Hogwarts founder."
+  },
+  "level": 2,
+  "alias": {
+   "Godric": [
+    "Godric Gryffindor"
+   ],
+   "Helga": [
+    "Helga Hufflepuff"
+   ],
+   "Rowena": [
+    "Rowena Ravenclaw"
+   ],
+   "Salazar": [
+    "Salazar Slytherin"
+   ]
+  }
+ }
+]

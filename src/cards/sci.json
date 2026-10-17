@@ -1,0 +1,1825 @@
+[
+ {
+  "id": "sci-moons-bigger-than-pluto",
+  "cat": "Space",
+  "title": "Pluto's bullies",
+  "q": "Natural satellites in the Solar System that are bigger than Pluto",
+  "rule": "Pluto is about 2,377 km across. Our own satellite counts.",
+  "tiers": {
+   "head": [
+    "Moon",
+    "Titan"
+   ],
+   "hipster": [
+    "Ganymede"
+   ],
+   "body": [
+    "Europa",
+    "Io"
+   ],
+   "tail": [
+    "Callisto"
+   ],
+   "deep": [],
+   "outlier": [
+    "Triton"
+   ]
+  },
+  "fact": "Triton orbits Neptune backwards, strong evidence that it was captured from the Kuiper Belt, the same region Pluto comes from.",
+  "traps": {
+   "Titania": "Uranus's biggest moon is only about 1,580 km across.",
+   "Charon": "Pluto's own moon is about half Pluto's width.",
+   "Enceladus": "Famous for its geysers, but only about 500 km across.",
+   "Rhea": "Saturn's second-largest moon is about 1,530 km across, still smaller than Pluto.",
+   "Iapetus": "Saturn's two-tone moon is about 1,470 km across."
+  },
+  "level": 2,
+  "alias": {
+   "Moon": [
+    "Luna",
+    "Earth's Moon",
+    "Our Moon"
+   ]
+  }
+ },
+ {
+  "id": "sci-apollo-left-orbit",
+  "cat": "Space",
+  "title": "Leaving home",
+  "q": "Crewed Apollo missions that left Earth orbit",
+  "rule": "A flight that looped around the Moon without landing counts. Apollo 1 never flew and Apollo 4 to 6 had no crew.",
+  "tiers": {
+   "head": [
+    "Apollo 11",
+    "Apollo 13"
+   ],
+   "hipster": [
+    "Apollo 8"
+   ],
+   "body": [
+    "Apollo 17",
+    "Apollo 12"
+   ],
+   "tail": [
+    "Apollo 14",
+    "Apollo 15"
+   ],
+   "deep": [
+    "Apollo 16"
+   ],
+   "outlier": [
+    "Apollo 10"
+   ]
+  },
+  "fact": "Apollo 10's lunar module, Snoopy, skimmed to about 15 km above the Moon in a full dress rehearsal for the landing, without touching down.",
+  "traps": {
+   "Apollo 7": "The first crewed Apollo flight stayed in Earth orbit.",
+   "Apollo 9": "It tested the lunar module, but only in Earth orbit.",
+   "Apollo 1": "It never flew: the crew died in a launch-pad fire in 1967.",
+   "Apollo 18": "Cancelled before it ever flew.",
+   "Apollo-Soyuz": "The 1975 handshake in space happened in Earth orbit."
+  },
+  "level": 1,
+  "alias": {
+   "Apollo 8": [
+    "8"
+   ],
+   "Apollo 10": [
+    "10"
+   ],
+   "Apollo 11": [
+    "11"
+   ],
+   "Apollo 12": [
+    "12"
+   ],
+   "Apollo 13": [
+    "13"
+   ],
+   "Apollo 14": [
+    "14"
+   ],
+   "Apollo 15": [
+    "15"
+   ],
+   "Apollo 16": [
+    "16"
+   ],
+   "Apollo 17": [
+    "17"
+   ]
+  }
+ },
+ {
+  "id": "sci-constellation-birds",
+  "cat": "Space",
+  "title": "Fly by night",
+  "q": "Constellations named after a real bird",
+  "rule": "Official IAU constellations only. Mythical birds such as the phoenix do not count.",
+  "tiers": {
+   "head": [
+    "Cygnus",
+    "Aquila"
+   ],
+   "hipster": [
+    "Corvus"
+   ],
+   "body": [
+    "Pavo"
+   ],
+   "tail": [
+    "Tucana",
+    "Columba"
+   ],
+   "deep": [
+    "Grus"
+   ],
+   "outlier": [
+    "Apus"
+   ]
+  },
+  "fact": "Apus, the bird of paradise, means 'no feet' in Greek: early specimens reached Europe with their feet removed, so people thought the birds never landed.",
+  "traps": {
+   "Phoenix": "It is a real constellation, but the phoenix is a mythical bird.",
+   "Pegasus": "A winged horse, not a bird.",
+   "Draco": "The dragon is mythical, and not a bird anyway.",
+   "Lyra": "It depicts a lyre, a musical instrument.",
+   "Owl": "There is no owl constellation."
+  },
+  "level": 3,
+  "alias": {
+   "Cygnus": [
+    "Swan"
+   ],
+   "Aquila": [
+    "Eagle"
+   ],
+   "Corvus": [
+    "Crow",
+    "Raven"
+   ],
+   "Pavo": [
+    "Peacock"
+   ],
+   "Tucana": [
+    "Toucan"
+   ],
+   "Columba": [
+    "Dove"
+   ],
+   "Grus": [
+    "Crane"
+   ],
+   "Apus": [
+    "Bird of Paradise"
+   ]
+  }
+ },
+ {
+  "id": "sci-mercury-seven",
+  "cat": "Space",
+  "title": "Right stuff",
+  "q": "Members of NASA's original Mercury Seven",
+  "rule": "The seven astronauts NASA announced in April 1959, whether or not they ever flew a Mercury mission.",
+  "tiers": {
+   "head": [
+    "John Glenn",
+    "Alan Shepard"
+   ],
+   "hipster": [],
+   "body": [
+    "Gus Grissom"
+   ],
+   "tail": [
+    "Wally Schirra",
+    "Gordon Cooper"
+   ],
+   "deep": [
+    "Scott Carpenter"
+   ],
+   "outlier": [
+    "Deke Slayton"
+   ]
+  },
+  "fact": "Deke Slayton was grounded for a heart condition and finally reached space in 1975, aged 51, on the Apollo-Soyuz mission.",
+  "traps": {
+   "Neil Armstrong": "He joined NASA in 1962, in the second astronaut group.",
+   "Buzz Aldrin": "He was picked in 1963, in the third astronaut group.",
+   "Yuri Gagarin": "A Soviet cosmonaut, not a NASA astronaut.",
+   "Chuck Yeager": "The famous test pilot had no college degree, so he was never eligible.",
+   "Jim Lovell": "He was picked in 1962, in the second astronaut group."
+  },
+  "surnames": true,
+  "level": 3,
+  "alias": {
+   "John Glenn": [
+    "John Herschel Glenn",
+    "John H. Glenn"
+   ],
+   "Alan Shepard": [
+    "Al Shepard",
+    "Alan B. Shepard"
+   ],
+   "Gus Grissom": [
+    "Virgil Grissom",
+    "Virgil Ivan Grissom",
+    "Virgil I. Grissom"
+   ],
+   "Wally Schirra": [
+    "Walter Schirra",
+    "Walter M. Schirra"
+   ],
+   "Gordon Cooper": [
+    "Gordo Cooper",
+    "Leroy Gordon Cooper",
+    "L. Gordon Cooper"
+   ],
+   "Scott Carpenter": [
+    "Malcolm Scott Carpenter",
+    "M. Scott Carpenter"
+   ],
+   "Deke Slayton": [
+    "Donald Slayton",
+    "Donald K. Slayton",
+    "Donald Kent Slayton"
+   ]
+  }
+ },
+ {
+  "id": "sci-si-units-people",
+  "cat": "Science",
+  "title": "Unit of honour",
+  "q": "SI units named after a real person",
+  "rule": "Base units and named derived units only. Non-SI units such as the gauss or the curie do not count.",
+  "tiers": {
+   "head": [
+    "Newton",
+    "Watt",
+    "Joule",
+    "Volt"
+   ],
+   "hipster": [
+    "Kelvin"
+   ],
+   "body": [
+    "Pascal",
+    "Ampere",
+    "Hertz",
+    "Ohm",
+    "Tesla",
+    "Coulomb"
+   ],
+   "tail": [
+    "Farad",
+    "Henry",
+    "Degree Celsius",
+    "Becquerel"
+   ],
+   "deep": [
+    "Weber",
+    "Siemens",
+    "Gray"
+   ],
+   "outlier": [
+    "Sievert"
+   ]
+  },
+  "fact": "The gray and the sievert are both one joule per kilogram; the sievert just adds a weighting for how harmful the radiation is to living tissue.",
+  "traps": {
+   "Fahrenheit": "A person's name, but not an SI unit: the kelvin and the Celsius degree are the SI temperature units.",
+   "Gauss": "A CGS unit named after a person; the SI unit of magnetic flux density is the tesla.",
+   "Curie": "An older radioactivity unit, replaced in SI by the becquerel.",
+   "Decibel": "It honours Alexander Graham Bell, but it is not an SI unit.",
+   "Mole": "It comes from 'molecule', not from a person called Avogadro."
+  },
+  "level": 2,
+  "alias": {
+   "Ampere": [
+    "Amp"
+   ],
+   "Degree Celsius": [
+    "Celsius",
+    "Degrees Celsius",
+    "Centigrade"
+   ]
+  }
+ },
+ {
+  "id": "sci-geological-periods",
+  "cat": "Earth",
+  "title": "Deep time",
+  "q": "Geological periods of the Phanerozoic, the last 539 million years",
+  "rule": "The 12 periods of the current eon. Epochs (Eocene, Pleistocene), eras (Mesozoic) and the proposed Anthropocene do not count.",
+  "tiers": {
+   "head": [
+    "Jurassic",
+    "Cretaceous",
+    "Triassic"
+   ],
+   "hipster": [
+    "Cambrian"
+   ],
+   "body": [
+    "Permian",
+    "Devonian",
+    "Carboniferous",
+    "Quaternary"
+   ],
+   "tail": [
+    "Silurian",
+    "Ordovician"
+   ],
+   "deep": [
+    "Paleogene"
+   ],
+   "outlier": [
+    "Neogene"
+   ]
+  },
+  "fact": "Tyrannosaurus rex lived closer in time to us than to Stegosaurus: Stegosaurus was Jurassic, and T. rex came some 80 million years later.",
+  "traps": {
+   "Pleistocene": "The Ice Age epoch is part of the Quaternary period, not a period itself.",
+   "Holocene": "Our own epoch is part of the Quaternary period.",
+   "Mesozoic": "An era, made up of the Triassic, Jurassic and Cretaceous periods.",
+   "Anthropocene": "Proposed, but geological authorities rejected it as an official unit in 2024.",
+   "Ediacaran": "A real period, but it ended just before the Cambrian began."
+  },
+  "level": 2,
+  "alias": {
+   "Jurassic": [
+    "Jurassic period"
+   ],
+   "Cretaceous": [
+    "Cretaceous period"
+   ],
+   "Triassic": [
+    "Triassic period"
+   ],
+   "Cambrian": [
+    "Cambrian period"
+   ],
+   "Permian": [
+    "Permian period"
+   ],
+   "Devonian": [
+    "Devonian period"
+   ],
+   "Carboniferous": [
+    "Mississippian",
+    "Pennsylvanian",
+    "Carboniferous period"
+   ],
+   "Quaternary": [
+    "Quaternary period"
+   ],
+   "Silurian": [
+    "Silurian period"
+   ],
+   "Ordovician": [
+    "Ordovician period"
+   ],
+   "Paleogene": [
+    "Palaeogene",
+    "Paleogene period",
+    "Palaeogene period"
+   ],
+   "Neogene": [
+    "Neogene period"
+   ]
+  }
+ },
+ {
+  "id": "sci-hand-wrist-bones",
+  "cat": "Body",
+  "title": "Lend a hand",
+  "q": "Bones in the human hand and wrist",
+  "rule": "Individual bones count, and so do the general names for each group. Forearm and foot bones do not.",
+  "tiers": {
+   "head": [
+    "Phalanx",
+    "Metacarpal",
+    "Carpal",
+    "Scaphoid"
+   ],
+   "hipster": [
+    "Pisiform"
+   ],
+   "body": [
+    "Capitate",
+    "Hamate",
+    "Lunate"
+   ],
+   "tail": [
+    "Trapezium",
+    "Trapezoid"
+   ],
+   "deep": [
+    "Triquetrum"
+   ],
+   "outlier": [
+    "Sesamoid bone"
+   ]
+  },
+  "fact": "The pea-shaped pisiform is the smallest wrist bone, and it is really a sesamoid: a bone that grows inside a tendon, like the kneecap.",
+  "traps": {
+   "Radius": "A forearm bone: it meets the wrist but is not part of it.",
+   "Ulna": "A forearm bone, not a hand or wrist bone.",
+   "Metatarsal": "That is the foot's version of the metacarpal.",
+   "Talus": "The ankle bone, in the foot.",
+   "Cuboid": "A bone of the foot, not the hand."
+  },
+  "level": 3,
+  "alias": {
+   "Phalanx": [
+    "Phalanges",
+    "Phalange",
+    "Finger bone",
+    "Proximal phalanx",
+    "Middle phalanx",
+    "Distal phalanx"
+   ],
+   "Metacarpal": [
+    "Metacarpals",
+    "Palm bone"
+   ],
+   "Carpal": [
+    "Carpals",
+    "Wrist bone"
+   ],
+   "Lunate": [
+    "Semilunar"
+   ],
+   "Triquetrum": [
+    "Triquetral"
+   ],
+   "Trapezium": [
+    "Greater multangular"
+   ],
+   "Trapezoid": [
+    "Lesser multangular"
+   ],
+   "Capitate": [
+    "Os magnum"
+   ],
+   "Hamate": [
+    "Unciform"
+   ],
+   "Sesamoid bone": [
+    "Sesamoid"
+   ]
+  }
+ },
+ {
+  "id": "sci-cranial-nerves",
+  "cat": "Body",
+  "title": "Nerve centre",
+  "q": "The twelve cranial nerves",
+  "rule": "Give each nerve's name, with or without the word 'nerve'. Nerves that leave the spinal cord, like the sciatic, do not count.",
+  "tiers": {
+   "head": [
+    "Optic nerve",
+    "Olfactory nerve"
+   ],
+   "hipster": [
+    "Vagus nerve"
+   ],
+   "body": [
+    "Facial nerve",
+    "Trigeminal nerve"
+   ],
+   "tail": [
+    "Oculomotor nerve",
+    "Hypoglossal nerve",
+    "Glossopharyngeal nerve"
+   ],
+   "deep": [
+    "Vestibulocochlear nerve",
+    "Accessory nerve",
+    "Abducens nerve"
+   ],
+   "outlier": [
+    "Trochlear nerve"
+   ]
+  },
+  "fact": "The trochlear nerve is the only cranial nerve to leave the brainstem from the back, and it drives a single muscle, the superior oblique of the eye.",
+  "traps": {
+   "Sciatic nerve": "It runs from the lower spine down the leg, so it is a spinal nerve.",
+   "Ulnar nerve": "The 'funny bone' nerve is a spinal nerve running down the arm.",
+   "Median nerve": "A spinal nerve of the arm and hand.",
+   "Phrenic nerve": "It serves the diaphragm and arises from the neck's spinal nerves.",
+   "Radial nerve": "A spinal nerve of the arm."
+  },
+  "level": 3,
+  "alias": {
+   "Olfactory nerve": [
+    "Olfactory",
+    "Cranial nerve I",
+    "CN I",
+    "CN1"
+   ],
+   "Optic nerve": [
+    "Optic",
+    "Cranial nerve II",
+    "CN II",
+    "CN2"
+   ],
+   "Oculomotor nerve": [
+    "Oculomotor",
+    "Cranial nerve III",
+    "CN III",
+    "CN3"
+   ],
+   "Trochlear nerve": [
+    "Trochlear",
+    "Cranial nerve IV",
+    "CN IV",
+    "CN4"
+   ],
+   "Trigeminal nerve": [
+    "Trigeminal",
+    "Cranial nerve V",
+    "CN V",
+    "CN5"
+   ],
+   "Abducens nerve": [
+    "Abducens",
+    "Abducent nerve",
+    "Abducent",
+    "Cranial nerve VI",
+    "CN VI",
+    "CN6"
+   ],
+   "Facial nerve": [
+    "Facial",
+    "Cranial nerve VII",
+    "CN VII",
+    "CN7"
+   ],
+   "Vestibulocochlear nerve": [
+    "Vestibulocochlear",
+    "Auditory nerve",
+    "Acoustic nerve",
+    "Cranial nerve VIII",
+    "CN VIII",
+    "CN8"
+   ],
+   "Glossopharyngeal nerve": [
+    "Glossopharyngeal",
+    "Cranial nerve IX",
+    "CN IX",
+    "CN9"
+   ],
+   "Vagus nerve": [
+    "Vagus",
+    "Vagal nerve",
+    "Cranial nerve X",
+    "CN X",
+    "CN10"
+   ],
+   "Accessory nerve": [
+    "Accessory",
+    "Spinal accessory nerve",
+    "Spinal accessory",
+    "Cranial nerve XI",
+    "CN XI",
+    "CN11"
+   ],
+   "Hypoglossal nerve": [
+    "Hypoglossal",
+    "Cranial nerve XII",
+    "CN XII",
+    "CN12"
+   ]
+  }
+ },
+ {
+  "id": "sci-living-apes",
+  "cat": "Animals",
+  "title": "Monkey business",
+  "q": "Types of ape alive today",
+  "rule": "Monkeys and lemurs do not count, and extinct apes are out.",
+  "tiers": {
+   "head": [
+    "Gorilla",
+    "Chimpanzee"
+   ],
+   "hipster": [
+    "Human"
+   ],
+   "body": [
+    "Orangutan",
+    "Gibbon"
+   ],
+   "tail": [
+    "Bonobo"
+   ],
+   "deep": [],
+   "outlier": [
+    "Siamang"
+   ]
+  },
+  "fact": "Gibraltar's famous 'Barbary apes' are tailless macaques, so they are monkeys, and the only wild monkeys in Europe.",
+  "traps": {
+   "Baboon": "A baboon is an Old World monkey with a tail.",
+   "Barbary ape": "Despite the name, the Gibraltar 'apes' are tailless macaques, which are monkeys.",
+   "Mandrill": "The colourful-faced mandrill is a monkey.",
+   "Spider monkey": "A New World monkey with a long grasping tail.",
+   "Lemur": "Lemurs are more distant primates, neither monkeys nor apes."
+  },
+  "level": 1,
+  "alias": {
+   "Chimpanzee": [
+    "Chimp",
+    "Common chimpanzee"
+   ],
+   "Gorilla": [
+    "Western gorilla",
+    "Eastern gorilla",
+    "Mountain gorilla",
+    "Lowland gorilla"
+   ],
+   "Orangutan": [
+    "Bornean orangutan",
+    "Sumatran orangutan",
+    "Tapanuli orangutan"
+   ],
+   "Human": [
+    "Homo sapiens",
+    "Man"
+   ],
+   "Gibbon": [
+    "Lar gibbon",
+    "Hoolock gibbon",
+    "Crested gibbon",
+    "White-handed gibbon"
+   ],
+   "Bonobo": [
+    "Pygmy chimpanzee"
+   ],
+   "Siamang": [
+    "Symphalangus"
+   ]
+  }
+ },
+ {
+  "id": "sci-big-si-prefixes",
+  "cat": "Science",
+  "title": "Going large",
+  "q": "Metric prefixes that mean a million or more",
+  "rule": "Official SI prefixes only. Binary prefixes like mebi and informal words like googol do not count.",
+  "tiers": {
+   "head": [
+    "Mega",
+    "Giga",
+    "Tera"
+   ],
+   "hipster": [],
+   "body": [
+    "Peta"
+   ],
+   "tail": [
+    "Exa"
+   ],
+   "deep": [
+    "Zetta",
+    "Yotta"
+   ],
+   "outlier": [
+    "Ronna",
+    "Quetta"
+   ]
+  },
+  "fact": "Ronna and quetta, adopted in 2022, were the first new SI prefixes since 1991, when yotta, zetta, yocto and zepto arrived.",
+  "traps": {
+   "Kilo": "Only a thousand, which is smaller than a million.",
+   "Hecto": "Only a hundred.",
+   "Micro": "A millionth, the opposite direction.",
+   "Mebi": "A binary prefix (2 to the power 20), not an SI prefix.",
+   "Googol": "A huge number, but not a metric prefix."
+  },
+  "level": 2
+ },
+ {
+  "id": "sci-american-wild-cats",
+  "cat": "Animals",
+  "title": "Wild at heart",
+  "q": "Wild cat species native to the Americas",
+  "rule": "Living species only. Domestic and feral cats, extinct cats like Smilodon, and colour forms like the 'black panther' do not count.",
+  "tiers": {
+   "head": [
+    "Jaguar",
+    "Cougar",
+    "Bobcat"
+   ],
+   "hipster": [
+    "Ocelot"
+   ],
+   "body": [
+    "Canada lynx",
+    "Jaguarundi",
+    "Margay"
+   ],
+   "tail": [
+    "Geoffroy's cat",
+    "Kodkod",
+    "Pampas cat"
+   ],
+   "deep": [
+    "Andean mountain cat",
+    "Northern oncilla"
+   ],
+   "outlier": [
+    "Southern oncilla"
+   ]
+  },
+  "fact": "The margay can rotate its hind ankles 180 degrees, so it can climb down trees headfirst like a squirrel.",
+  "traps": {
+   "Leopard": "Leopards live in Africa and Asia. The big spotted cat of the Americas is the jaguar.",
+   "Lion": "Wild lions live in Africa and India. America's lions died out about 11,000 years ago.",
+   "Cheetah": "Cheetahs live in Africa, with a tiny group in Iran. None live in the Americas.",
+   "Black panther": "Not a species: it is a dark leopard or jaguar.",
+   "Iberian lynx": "That one lives in Spain and Portugal."
+  },
+  "level": 2,
+  "alias": {
+   "Cougar": [
+    "Puma",
+    "Mountain lion",
+    "Catamount"
+   ],
+   "Bobcat": [
+    "Bay lynx"
+   ],
+   "Canada lynx": [
+    "Canadian lynx",
+    "Lynx"
+   ],
+   "Jaguarundi": [
+    "Eyra",
+    "Eyra cat",
+    "Otter cat"
+   ],
+   "Margay": [
+    "Tree ocelot"
+   ],
+   "Kodkod": [
+    "Guiña",
+    "Huiña"
+   ],
+   "Pampas cat": [
+    "Colocolo",
+    "Pantanal cat"
+   ],
+   "Andean mountain cat": [
+    "Andean cat"
+   ],
+   "Northern oncilla": [
+    "Oncilla",
+    "Tigrina",
+    "Little spotted cat",
+    "Northern tiger cat"
+   ],
+   "Southern oncilla": [
+    "Southern tigrina",
+    "Southern tiger cat"
+   ]
+  }
+ },
+ {
+  "id": "sci-british-wild-deer",
+  "cat": "Animals",
+  "title": "Oh deer",
+  "q": "Deer species living free in the British countryside",
+  "rule": "Herds living free count, including one introduced herd in the Scottish Highlands. Deer kept only in parks or zoos do not count.",
+  "tiers": {
+   "head": [
+    "Red deer",
+    "Roe deer"
+   ],
+   "hipster": [
+    "Reindeer"
+   ],
+   "body": [
+    "Fallow deer",
+    "Muntjac"
+   ],
+   "tail": [
+    "Sika deer"
+   ],
+   "deep": [],
+   "outlier": [
+    "Chinese water deer"
+   ]
+  },
+  "fact": "Chinese water deer have no antlers but grow long tusk-like canine teeth, and escapes from Woburn gave Britain a big share of the world's wild population.",
+  "traps": {
+   "Elk": "Elk (what Americans call moose) died out in Britain thousands of years ago.",
+   "Moose": "Not found wild in Britain.",
+   "Pere David's deer": "Only kept in parks, such as Woburn, not living free.",
+   "Stag": "A stag is a male deer, not a species.",
+   "Hind": "A hind is a female red deer, not a species."
+  },
+  "level": 2,
+  "alias": {
+   "Red deer": [
+    "Red"
+   ],
+   "Roe deer": [
+    "Roe"
+   ],
+   "Reindeer": [
+    "Caribou"
+   ],
+   "Fallow deer": [
+    "Fallow"
+   ],
+   "Muntjac": [
+    "Reeves's muntjac",
+    "Barking deer",
+    "Chinese muntjac"
+   ],
+   "Sika deer": [
+    "Sika",
+    "Japanese deer"
+   ],
+   "Chinese water deer": [
+    "Water deer"
+   ]
+  }
+ },
+ {
+  "id": "sci-british-tits",
+  "cat": "Wildlife",
+  "title": "Tit for tat",
+  "q": "British birds with 'tit' in their name that breed in Britain",
+  "rule": "The species must breed regularly in Britain and have 'tit' in its common name, even if it isn't a true tit.",
+  "tiers": {
+   "head": [
+    "Blue tit",
+    "Great tit"
+   ],
+   "hipster": [],
+   "body": [
+    "Long-tailed tit",
+    "Coal tit"
+   ],
+   "tail": [
+    "Marsh tit"
+   ],
+   "deep": [
+    "Willow tit",
+    "Bearded tit"
+   ],
+   "outlier": [
+    "Crested tit"
+   ]
+  },
+  "fact": "The bearded tit isn't a tit at all: it's a reedling that lives in reed beds, and its 'beard' is a black moustache on the male.",
+  "level": 2,
+  "alias": {
+   "Bearded tit": [
+    "Bearded reedling"
+   ]
+  }
+ },
+ {
+  "id": "sci-polygon-names",
+  "cat": "Maths",
+  "title": "Many sides",
+  "q": "Polygon shapes with between 3 and 12 sides, by their standard names",
+  "rule": "Only the standard names for a polygon with that many sides count; shape types like rhombus don't.",
+  "tiers": {
+   "head": [
+    "Triangle",
+    "Pentagon",
+    "Hexagon"
+   ],
+   "hipster": [],
+   "body": [
+    "Octagon",
+    "Quadrilateral",
+    "Decagon"
+   ],
+   "tail": [
+    "Heptagon",
+    "Dodecagon"
+   ],
+   "deep": [
+    "Nonagon"
+   ],
+   "outlier": [
+    "Hendecagon"
+   ]
+  },
+  "fact": "Every polygon's interior angles add up to (n minus 2) times 180 degrees, so a dodecagon's angles total 1,800 degrees.",
+  "traps": {
+   "Rhombus": "A rhombus is one specific four-sided shape, not the general name for a four-sided polygon."
+  },
+  "level": 1,
+  "alias": {
+   "Heptagon": [
+    "Septagon"
+   ],
+   "Nonagon": [
+    "Enneagon"
+   ],
+   "Hendecagon": [
+    "Undecagon"
+   ],
+   "Quadrilateral": [
+    "Quadrangle",
+    "Tetragon"
+   ]
+  }
+ },
+ {
+  "id": "sci-birthstones-modern",
+  "cat": "Gems",
+  "title": "Month's stone",
+  "q": "Gemstones on the modern list of birthstones",
+  "rule": "Any stone on the modern Jewelers of America list, for any month.",
+  "tiers": {
+   "head": [
+    "Diamond",
+    "Ruby",
+    "Emerald",
+    "Sapphire"
+   ],
+   "hipster": [],
+   "body": [
+    "Amethyst",
+    "Pearl",
+    "Garnet",
+    "Opal",
+    "Topaz"
+   ],
+   "tail": [
+    "Aquamarine",
+    "Peridot",
+    "Turquoise",
+    "Citrine"
+   ],
+   "deep": [
+    "Tanzanite",
+    "Moonstone",
+    "Alexandrite",
+    "Tourmaline",
+    "Zircon"
+   ],
+   "outlier": [
+    "Spinel",
+    "Bloodstone"
+   ]
+  },
+  "fact": "Spinel became August's third birthstone in 2016, the first change to the American list since tanzanite joined December in 2002.",
+  "traps": {
+   "Jade": "A traditional gift for some anniversaries, but not on the modern birthstone list.",
+   "Onyx": "On some older lists, not the modern one.",
+   "Amber": "A fossil resin, not on the list."
+  },
+  "level": 1
+ },
+ {
+  "id": "sci-blood-types-rh",
+  "cat": "Body",
+  "title": "Type cast",
+  "q": "The eight common ABO and Rh blood types",
+  "rule": "Combine each of the four main blood groups with either Rh sign; there is no group C.",
+  "tiers": {
+   "head": [
+    "O positive",
+    "A positive"
+   ],
+   "hipster": [],
+   "body": [
+    "B positive",
+    "O negative"
+   ],
+   "tail": [
+    "A negative",
+    "AB positive"
+   ],
+   "deep": [
+    "B negative"
+   ],
+   "outlier": [
+    "AB negative"
+   ]
+  },
+  "fact": "People with O negative blood are called universal red cell donors, while AB positive people are universal recipients.",
+  "traps": {
+   "Type C": "There's no C group: the ABO system has only A, B, AB and O."
+  },
+  "level": 2,
+  "alias": {
+   "O positive": [
+    "O+"
+   ],
+   "A positive": [
+    "A+"
+   ],
+   "B positive": [
+    "B+"
+   ],
+   "O negative": [
+    "O-"
+   ],
+   "A negative": [
+    "A-"
+   ],
+   "AB positive": [
+    "AB+"
+   ],
+   "B negative": [
+    "B-"
+   ],
+   "AB negative": [
+    "AB-"
+   ]
+  }
+ },
+ {
+  "id": "sci-digestive-canal",
+  "cat": "Body",
+  "title": "Down the hatch",
+  "q": "Digestive tract organs, from the top of the throat to the bowel's end",
+  "rule": "Only hollow organs in the food tube count; the liver, pancreas and gallbladder are accessory organs and don't.",
+  "tiers": {
+   "head": [
+    "Stomach",
+    "Mouth",
+    "Oesophagus"
+   ],
+   "hipster": [],
+   "body": [
+    "Small intestine",
+    "Large intestine"
+   ],
+   "tail": [
+    "Rectum"
+   ],
+   "deep": [],
+   "outlier": [
+    "Pharynx"
+   ]
+  },
+  "fact": "The small intestine is roughly 6 to 7 metres long in an adult, while the large intestine is only about 1.5 metres, despite its name.",
+  "traps": {
+   "Liver": "It's an accessory digestive organ, not part of the food tube itself.",
+   "Anus": "It's the opening at the end of the canal, not an organ."
+  },
+  "level": 2,
+  "alias": {
+   "Oesophagus": [
+    "Esophagus",
+    "Gullet"
+   ],
+   "Large intestine": [
+    "Colon",
+    "Large bowel"
+   ],
+   "Small intestine": [
+    "Small bowel"
+   ]
+  }
+ },
+ {
+  "id": "sci-beaufort-names",
+  "cat": "Weather",
+  "title": "Force of nature",
+  "q": "The names of the Beaufort wind forces, 0 to 12",
+  "rule": "Met Office names, with the usual international alternatives accepted. Give each force's full name rather than a fragment.",
+  "tiers": {
+   "head": [
+    "Calm",
+    "Gale",
+    "Storm",
+    "Hurricane force"
+   ],
+   "hipster": [],
+   "body": [
+    "Gentle breeze",
+    "Fresh breeze",
+    "Strong breeze",
+    "Severe gale"
+   ],
+   "tail": [
+    "Light breeze",
+    "Moderate breeze",
+    "Near gale"
+   ],
+   "deep": [
+    "Violent storm"
+   ],
+   "outlier": [
+    "Light air"
+   ]
+  },
+  "fact": "The Beaufort scale was devised in 1805 by Royal Navy officer Francis Beaufort, who judged wind strength by its effects on sails at sea.",
+  "traps": {
+   "Tornado": "Tornadoes aren't on the Beaufort scale, which stops at force 12.",
+   "Breeze": "Too vague: each force has its own full name, such as 'Fresh breeze'."
+  },
+  "level": 2,
+  "alias": {
+   "Hurricane force": [
+    "Hurricane"
+   ],
+   "Gale": [
+    "Fresh gale"
+   ],
+   "Severe gale": [
+    "Strong gale"
+   ],
+   "Near gale": [
+    "High wind",
+    "Moderate gale"
+   ],
+   "Storm": [
+    "Whole gale"
+   ]
+  }
+ },
+ {
+  "id": "sci-heart-chambers-valves",
+  "cat": "Body",
+  "title": "Four rooms",
+  "q": "The four chambers and four valves of the human heart",
+  "rule": "Only the named chambers and valves count; the septum, the walls between chambers, and blood vessels don't.",
+  "tiers": {
+   "head": [
+    "Left ventricle",
+    "Right atrium",
+    "Aortic valve"
+   ],
+   "hipster": [
+    "Tricuspid valve"
+   ],
+   "body": [
+    "Right ventricle",
+    "Left atrium",
+    "Mitral valve"
+   ],
+   "tail": [],
+   "deep": [],
+   "outlier": [
+    "Pulmonary valve"
+   ]
+  },
+  "fact": "The mitral valve gets its name from its resemblance to a bishop's mitre, the tall pointed hat.",
+  "traps": {
+   "Septum": "It's the wall between the chambers, not a chamber or a valve.",
+   "Aorta": "It's a blood vessel leaving the heart, not a valve or chamber."
+  },
+  "level": 2,
+  "alias": {
+   "Mitral valve": [
+    "Bicuspid valve"
+   ]
+  }
+ },
+ {
+  "id": "sci-blood-cell-types",
+  "cat": "Body",
+  "title": "Blood brothers",
+  "q": "Blood cell types, including the five white cell types",
+  "rule": "Only the specific named types count, not the umbrella term 'white blood cell'.",
+  "tiers": {
+   "head": [
+    "Red blood cell",
+    "Platelet"
+   ],
+   "hipster": [],
+   "body": [
+    "Neutrophil",
+    "Lymphocyte"
+   ],
+   "tail": [
+    "Monocyte"
+   ],
+   "deep": [
+    "Eosinophil"
+   ],
+   "outlier": [
+    "Basophil"
+   ]
+  },
+  "fact": "Basophils are the rarest white blood cells, usually making up less than 1 percent of them, yet they release histamine during allergic reactions.",
+  "traps": {
+   "White blood cell": "That's the umbrella term for the group, not one of the named types.",
+   "Neuron": "It's a nerve cell, not a type of blood cell."
+  },
+  "level": 3,
+  "alias": {
+   "Red blood cell": [
+    "Erythrocyte"
+   ],
+   "Platelet": [
+    "Thrombocyte"
+   ]
+  }
+ },
+ {
+  "id": "sci-saturn-big-moons",
+  "cat": "Space",
+  "title": "Saturn's set",
+  "q": "Moons of Saturn with a diameter over 200 km",
+  "rule": "Mean diameter must be above 200 km; smaller Saturn moons such as Janus don't count.",
+  "tiers": {
+   "head": [
+    "Titan"
+   ],
+   "hipster": [
+    "Enceladus"
+   ],
+   "body": [
+    "Rhea",
+    "Iapetus",
+    "Dione"
+   ],
+   "tail": [
+    "Tethys",
+    "Mimas"
+   ],
+   "deep": [
+    "Hyperion"
+   ],
+   "outlier": [
+    "Phoebe"
+   ]
+  },
+  "fact": "Titan is bigger than the planet Mercury and is the only moon known to have a thick atmosphere.",
+  "traps": {
+   "Janus": "A real Saturn moon, but only about 180 km across, under the 200 km cut-off.",
+   "Pan": "A Saturn moon only about 30 km across, far below the cut-off.",
+   "Charon": "It orbits Pluto, not Saturn."
+  },
+  "level": 3
+ },
+ {
+  "id": "sci-uk-daytime-raptors",
+  "cat": "Wildlife",
+  "title": "Talons out",
+  "q": "Daytime birds of prey that breed regularly in the UK",
+  "rule": "Daytime raptors only (owls don't count), breeding regularly in the UK; winter visitors and rare vagrants don't count.",
+  "tiers": {
+   "head": [
+    "Kestrel",
+    "Buzzard",
+    "Red kite",
+    "Sparrowhawk"
+   ],
+   "hipster": [
+    "Hobby"
+   ],
+   "body": [
+    "Peregrine",
+    "Golden eagle",
+    "Osprey"
+   ],
+   "tail": [
+    "Marsh harrier",
+    "Hen harrier",
+    "Merlin",
+    "Goshawk"
+   ],
+   "deep": [
+    "Honey buzzard"
+   ],
+   "outlier": [
+    "White-tailed eagle"
+   ]
+  },
+  "fact": "Red kites were reduced to a small population in mid-Wales by the early 1900s, and they now breed widely across England and Scotland.",
+  "traps": {
+   "Barn owl": "A bird of prey, but an owl, and the rule covers daytime birds of prey only.",
+   "Rough-legged buzzard": "A winter visitor to the UK, not a regular breeder."
+  },
+  "level": 2,
+  "alias": {
+   "Buzzard": [
+    "Common buzzard"
+   ],
+   "Red kite": [
+    "Kite"
+   ]
+  }
+ },
+ {
+  "id": "sci-endocrine-glands",
+  "cat": "Body",
+  "title": "Hormone hub",
+  "q": "Endocrine glands that release hormones straight into the blood",
+  "rule": "Ductless glands only; the organ that also digests food counts for its hormone-making cell clusters, and the reproductive glands count.",
+  "tiers": {
+   "head": [
+    "Thyroid",
+    "Pituitary",
+    "Adrenal"
+   ],
+   "hipster": [
+    "Pineal"
+   ],
+   "body": [
+    "Pancreas",
+    "Thymus"
+   ],
+   "tail": [
+    "Ovary",
+    "Testis"
+   ],
+   "deep": [
+    "Hypothalamus"
+   ],
+   "outlier": [
+    "Parathyroid"
+   ]
+  },
+  "fact": "The pineal gland is named for its pine-cone shape and makes melatonin, a hormone that helps regulate sleep.",
+  "traps": {
+   "Salivary gland": "It's an exocrine gland: it sends saliva out through ducts into the mouth.",
+   "Sweat gland": "It's an exocrine gland: it releases sweat through ducts onto the skin."
+  },
+  "level": 3,
+  "alias": {
+   "Testis": [
+    "Testes",
+    "Testicle"
+   ]
+  }
+ },
+ {
+  "id": "sci-modifier-keys",
+  "cat": "Tech",
+  "title": "Hold that key",
+  "q": "Keyboard modifier keys that change what other keys do when held",
+  "rule": "Only keys that act as modifiers when held down; Caps Lock is a toggle and doesn't count.",
+  "tiers": {
+   "head": [
+    "Shift",
+    "Control",
+    "Alt"
+   ],
+   "hipster": [],
+   "body": [
+    "Windows",
+    "Command"
+   ],
+   "tail": [
+    "Alt Gr"
+   ],
+   "deep": [],
+   "outlier": [
+    "Fn"
+   ]
+  },
+  "fact": "The Shift key got its name from typewriters, where pressing it shifted the carriage to type capital letters.",
+  "traps": {
+   "Caps Lock": "It's a toggle that stays on until pressed again, not a key you hold to change others.",
+   "Escape": "It's an ordinary key, with no modifier role."
+  },
+  "level": 1,
+  "alias": {
+   "Control": [
+    "Ctrl"
+   ],
+   "Alt": [
+    "Option"
+   ],
+   "Windows": [
+    "Super",
+    "Win",
+    "Win key",
+    "Windows key"
+   ],
+   "Command": [
+    "Cmd",
+    "Meta"
+   ]
+  }
+ },
+ {
+  "id": "sci-dwarf-planet-moons",
+  "cat": "Space",
+  "title": "Little worlds' company",
+  "q": "Officially named moons of the dwarf planets Pluto, Eris and Haumea",
+  "rule": "Only the named moons of Pluto, Eris and Haumea count.",
+  "tiers": {
+   "head": [
+    "Charon"
+   ],
+   "hipster": [
+    "Dysnomia"
+   ],
+   "body": [
+    "Nix",
+    "Hydra"
+   ],
+   "tail": [
+    "Styx",
+    "Kerberos"
+   ],
+   "deep": [
+    "Hi'iaka"
+   ],
+   "outlier": [
+    "Namaka"
+   ]
+  },
+  "fact": "Pluto and its moon Charon are so large relative to each other that they orbit a point in empty space, outside both bodies.",
+  "traps": {
+   "Triton": "A big moon, but it orbits Neptune, not a dwarf planet.",
+   "Phobos": "A moon of Mars, not of any dwarf planet."
+  },
+  "level": 3
+ },
+ {
+  "id": "sci-cyclone-stages",
+  "cat": "Weather",
+  "title": "Cyclone ladder",
+  "q": "Stages on the US National Hurricane Center's tropical cyclone scale",
+  "rule": "Give the full stage name, including its number; only the seven stages of the US scale count.",
+  "tiers": {
+   "head": [
+    "Category 5",
+    "Tropical storm"
+   ],
+   "hipster": [],
+   "body": [
+    "Category 1",
+    "Category 4"
+   ],
+   "tail": [
+    "Category 2"
+   ],
+   "deep": [
+    "Category 3"
+   ],
+   "outlier": [
+    "Tropical depression"
+   ]
+  },
+  "fact": "The top category needs sustained winds of at least 157 mph, and only a small number of Atlantic hurricanes have ever reached it.",
+  "traps": {
+   "Category 6": "There's no Category 6: winds of 157 mph or more are already Category 5.",
+   "Storm": "That's a Beaufort force name from the UK Met Office, not a US tropical cyclone stage."
+  },
+  "level": 2,
+  "alias": {
+   "Category 1": [
+    "Cat 1"
+   ],
+   "Category 2": [
+    "Cat 2"
+   ],
+   "Category 3": [
+    "Cat 3"
+   ],
+   "Category 4": [
+    "Cat 4"
+   ],
+   "Category 5": [
+    "Cat 5"
+   ]
+  }
+ },
+ {
+  "id": "sci-imperial-weights",
+  "cat": "Measures",
+  "title": "Heavy going",
+  "q": "Imperial units of weight from the avoirdupois system",
+  "rule": "Avoirdupois units only; the US unit of 2,000 lb is excluded.",
+  "tiers": {
+   "head": [
+    "Pound",
+    "Ounce",
+    "Stone"
+   ],
+   "hipster": [],
+   "body": [
+    "Ton"
+   ],
+   "tail": [
+    "Grain",
+    "Quarter"
+   ],
+   "deep": [
+    "Dram"
+   ],
+   "outlier": [
+    "Hundredweight"
+   ]
+  },
+  "fact": "A UK hundredweight is 112 pounds, not 100, and a quarter is 28 pounds, which is a quarter of that hundredweight.",
+  "traps": {
+   "Kilogram": "It's a metric unit, not part of the imperial system.",
+   "Short ton": "A US unit of 2,000 lb, not the imperial ton used in the UK."
+  },
+  "level": 1,
+  "alias": {
+   "Dram": [
+    "Drachm"
+   ],
+   "Hundredweight": [
+    "Cwt"
+   ]
+  }
+ },
+ {
+  "id": "sci-nasa-mars-landers",
+  "cat": "Space",
+  "title": "Red planet landers",
+  "q": "NASA missions that landed on Mars and worked on the surface",
+  "rule": "Count NASA spacecraft that landed and worked on Mars; a rover carried by another lander, and crashed landers, don't count.",
+  "tiers": {
+   "head": [
+    "Curiosity",
+    "Perseverance"
+   ],
+   "hipster": [
+    "Pathfinder"
+   ],
+   "body": [
+    "Spirit",
+    "Opportunity"
+   ],
+   "tail": [
+    "InSight",
+    "Phoenix"
+   ],
+   "deep": [
+    "Viking 1"
+   ],
+   "outlier": [
+    "Viking 2"
+   ]
+  },
+  "fact": "Viking 1 kept sending data from Mars until 1982, about six years after it landed in 1976.",
+  "traps": {
+   "Mars Polar Lander": "A NASA lander that crashed in 1999, so it never worked on the surface.",
+   "Beagle 2": "A British-built lander that was lost after landing in 2003, and it wasn't a NASA mission.",
+   "Sojourner": "A rover carried by another lander, so the mission name is the answer instead."
+  },
+  "level": 2,
+  "alias": {
+   "Pathfinder": [
+    "Mars Pathfinder"
+   ]
+  }
+ },
+ {
+  "id": "sci-uranus-big-moons",
+  "cat": "Space",
+  "title": "Uranian heavyweights",
+  "q": "Moons of Uranus with a diameter over 100 km",
+  "rule": "Mean diameter must be above 100 km; smaller Uranian moons such as Juliet don't count.",
+  "tiers": {
+   "head": [
+    "Titania",
+    "Miranda"
+   ],
+   "hipster": [
+    "Oberon"
+   ],
+   "body": [
+    "Ariel",
+    "Umbriel"
+   ],
+   "tail": [
+    "Puck"
+   ],
+   "deep": [],
+   "outlier": [
+    "Portia",
+    "Sycorax"
+   ]
+  },
+  "fact": "Uranus's moons are named after characters from Shakespeare and Alexander Pope, not from Greek myths.",
+  "traps": {
+   "Juliet": "A real Uranus moon, but only about 95 km across, under the 100 km cut-off.",
+   "Triton": "A large moon, but it orbits Neptune, not Uranus."
+  },
+  "level": 3
+ },
+ {
+  "id": "sci-british-reptiles-amphibians",
+  "cat": "Wildlife",
+  "title": "Scaly and slimy",
+  "q": "Reptiles and amphibians that are native to the UK",
+  "rule": "Native species only, including one reintroduced after dying out; introduced foreign species don't count.",
+  "tiers": {
+   "head": [
+    "Adder",
+    "Grass snake",
+    "Common frog",
+    "Common toad"
+   ],
+   "hipster": [
+    "Great crested newt"
+   ],
+   "body": [
+    "Slow worm",
+    "Common lizard",
+    "Smooth newt"
+   ],
+   "tail": [
+    "Palmate newt",
+    "Sand lizard"
+   ],
+   "deep": [
+    "Smooth snake"
+   ],
+   "outlier": [
+    "Natterjack toad",
+    "Pool frog"
+   ]
+  },
+  "fact": "The adder is Britain's only venomous snake, though its bite is rarely fatal.",
+  "traps": {
+   "Marsh frog": "It was introduced to Britain, so it isn't a native species.",
+   "Red-eared slider": "A non-native terrapin, not a native British reptile."
+  },
+  "level": 2
+ },
+ {
+  "id": "sci-british-mustelids",
+  "cat": "Wildlife",
+  "title": "Long and low",
+  "q": "Members of the mustelid family living wild in Britain",
+  "rule": "Counts wild populations of this family, including non-native ones that have escaped or been introduced.",
+  "tiers": {
+   "head": [
+    "Badger",
+    "Otter",
+    "Weasel"
+   ],
+   "hipster": [],
+   "body": [
+    "Stoat",
+    "Pine marten"
+   ],
+   "tail": [
+    "Polecat"
+   ],
+   "deep": [],
+   "outlier": [
+    "American mink"
+   ]
+  },
+  "fact": "The American mink escaped from fur farms and now preys on water voles across Britain, which has hit the voles hard.",
+  "traps": {
+   "Hedgehog": "A spiny insect-eater, not a member of the weasel family.",
+   "Fox": "A member of the dog family, not the weasel family."
+  },
+  "level": 1,
+  "alias": {
+   "American mink": [
+    "Mink"
+   ]
+  }
+ },
+ {
+  "id": "sci-skull-bones",
+  "cat": "Body",
+  "title": "Skull session",
+  "q": "Bones of the adult human skull, excluding the ear bones",
+  "rule": "Each named bone counts once, whether it comes in a left and right pair or not; the ear ossicles and the hyoid don't count.",
+  "tiers": {
+   "head": [
+    "Mandible",
+    "Parietal",
+    "Temporal",
+    "Frontal"
+   ],
+   "hipster": [
+    "Vomer"
+   ],
+   "body": [
+    "Occipital",
+    "Maxilla",
+    "Zygomatic"
+   ],
+   "tail": [
+    "Sphenoid",
+    "Ethmoid",
+    "Nasal"
+   ],
+   "deep": [
+    "Palatine",
+    "Lacrimal"
+   ],
+   "outlier": [
+    "Inferior nasal concha"
+   ]
+  },
+  "fact": "The inferior nasal concha is a scroll-shaped bone inside the nose that helps warm and moisten the air you breathe in.",
+  "traps": {
+   "Hyoid": "A U-shaped bone in the neck, not part of the skull.",
+   "Stapes": "A tiny bone of the middle ear, excluded from this set."
+  },
+  "level": 2,
+  "alias": {
+   "Mandible": [
+    "Jawbone",
+    "Lower jaw"
+   ],
+   "Maxilla": [
+    "Upper jaw"
+   ],
+   "Zygomatic": [
+    "Cheekbone"
+   ],
+   "Temporal": [
+    "Temporal bone"
+   ],
+   "Nasal": [
+    "Nasal bone"
+   ],
+   "Inferior nasal concha": [
+    "Inferior nasal turbinate",
+    "Nasal concha"
+   ]
+  }
+ },
+ {
+  "id": "sci-sixteen-winds",
+  "cat": "Weather",
+  "title": "Sixteen winds",
+  "q": "The 16 named points of the compass, used for wind direction",
+  "rule": "The sixteen main points only; the 32-point intermediate names don't count.",
+  "tiers": {
+   "head": [
+    "North",
+    "South",
+    "East",
+    "West"
+   ],
+   "hipster": [
+    "North-northwest"
+   ],
+   "body": [
+    "Northeast",
+    "Southeast",
+    "Southwest",
+    "Northwest"
+   ],
+   "tail": [
+    "North-northeast",
+    "South-southwest",
+    "West-northwest"
+   ],
+   "deep": [
+    "East-northeast",
+    "East-southeast",
+    "South-southeast"
+   ],
+   "outlier": [
+    "West-southwest"
+   ]
+  },
+  "fact": "Hitchcock's 1959 film North by Northwest takes its title from a compass direction.",
+  "traps": {
+   "North by west": "A 32-point compass name, which this set doesn't use.",
+   "Northwest by north": "A 32-point compass name, not one of the sixteen main points."
+  },
+  "level": 1,
+  "alias": {
+   "North-northwest": [
+    "NNW"
+   ],
+   "Northeast": [
+    "NE"
+   ],
+   "Southeast": [
+    "SE"
+   ],
+   "Southwest": [
+    "SW"
+   ],
+   "Northwest": [
+    "NW"
+   ],
+   "North-northeast": [
+    "NNE"
+   ],
+   "South-southwest": [
+    "SSW"
+   ],
+   "West-northwest": [
+    "WNW"
+   ],
+   "East-northeast": [
+    "ENE"
+   ],
+   "East-southeast": [
+    "ESE"
+   ],
+   "South-southeast": [
+    "SSE"
+   ],
+   "West-southwest": [
+    "WSW"
+   ]
+  }
+ }
+]

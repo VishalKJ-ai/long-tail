@@ -1,0 +1,1697 @@
+[
+ {
+  "id": "spo-euro-cup-british",
+  "cat": "Football",
+  "title": "Big ears",
+  "q": "British clubs that won the European Cup or Champions League, up to 2025",
+  "rule": "Finals from 1956 to 2025 only; Cup Winners' Cup, UEFA Cup and Europa League wins do not count.",
+  "tiers": {
+   "head": [
+    "Liverpool",
+    "Manchester United",
+    "Chelsea"
+   ],
+   "hipster": [],
+   "body": [
+    "Manchester City"
+   ],
+   "tail": [
+    "Nottingham Forest"
+   ],
+   "deep": [
+    "Aston Villa"
+   ],
+   "outlier": [
+    "Celtic"
+   ]
+  },
+  "fact": "Nottingham Forest won the European Cup in 1979 and 1980, yet have been champions of England only once, in 1977-78.",
+  "traps": {
+   "Arsenal": "Lost the 2006 final to Barcelona.",
+   "Tottenham Hotspur": "Lost the 2019 final to Liverpool.",
+   "Leeds United": "Beaten finalists in 1975.",
+   "Rangers": "Their only European trophy is the 1972 Cup Winners' Cup.",
+   "Aberdeen": "Won the 1983 Cup Winners' Cup, not the European Cup."
+  },
+  "level": 1,
+  "alias": {
+   "Manchester United": [
+    "Man United",
+    "Man Utd",
+    "Man U"
+   ],
+   "Manchester City": [
+    "Man City"
+   ],
+   "Nottingham Forest": [
+    "Forest",
+    "Notts Forest",
+    "Nottm Forest"
+   ],
+   "Aston Villa": [
+    "Villa"
+   ]
+  }
+ },
+ {
+  "id": "spo-world-cup-hosts",
+  "cat": "Football",
+  "title": "Host nations",
+  "q": "Hosts of the men's football World Cup, from 1930 to 2026",
+  "rule": "Every co-host counts, and Cold War-era states count under their modern names.",
+  "tiers": {
+   "head": [
+    "Brazil",
+    "Germany",
+    "England",
+    "Qatar"
+   ],
+   "hipster": [],
+   "body": [
+    "France",
+    "Italy",
+    "Spain",
+    "United States",
+    "Russia",
+    "Mexico",
+    "South Africa",
+    "Japan",
+    "South Korea"
+   ],
+   "tail": [
+    "Argentina",
+    "Uruguay",
+    "Canada"
+   ],
+   "deep": [
+    "Chile",
+    "Sweden"
+   ],
+   "outlier": [
+    "Switzerland"
+   ]
+  },
+  "fact": "Colombia withdrew as 1986 hosts, so Mexico stepped in and became the first country to host the men's World Cup twice; 2026 gave it a record third.",
+  "traps": {
+   "Colombia": "Awarded the 1986 tournament but withdrew, and Mexico took over.",
+   "Netherlands": "Three-time runners-up, but never hosts.",
+   "Portugal": "Hosted Euro 2004, not a World Cup.",
+   "Australia": "Co-hosted only the 2023 Women's World Cup.",
+   "China": "Hosted the Women's World Cup, not the men's."
+  },
+  "level": 1,
+  "alias": {
+   "England": [
+    "United Kingdom",
+    "UK",
+    "Great Britain",
+    "Britain"
+   ],
+   "Germany": [
+    "West Germany"
+   ],
+   "United States": [
+    "USA",
+    "US",
+    "America",
+    "United States of America"
+   ],
+   "South Korea": [
+    "Korea",
+    "Republic of Korea",
+    "Korea Republic"
+   ]
+  }
+ },
+ {
+  "id": "spo-f1-one-title",
+  "cat": "Formula 1",
+  "title": "One and done",
+  "q": "Retired F1 drivers who won the world title exactly once",
+  "rule": "Drivers' titles from 1950 to 2025. Hill and Rosberg appear twice, so give a first name.",
+  "tiers": {
+   "head": [
+    "Nigel Mansell",
+    "Jenson Button",
+    "James Hunt",
+    "Damon Hill"
+   ],
+   "hipster": [
+    "Jacques Villeneuve"
+   ],
+   "body": [
+    "Kimi Räikkönen",
+    "Nico Rosberg",
+    "Mario Andretti",
+    "John Surtees",
+    "Mike Hawthorn"
+   ],
+   "tail": [
+    "Jody Scheckter",
+    "Alan Jones",
+    "Keke Rosberg",
+    "Phil Hill"
+   ],
+   "deep": [
+    "Jochen Rindt",
+    "Denny Hulme"
+   ],
+   "outlier": [
+    "Giuseppe Farina"
+   ]
+  },
+  "fact": "Jochen Rindt is the only posthumous F1 champion: he was killed at Monza in September 1970 and no rival could overhaul his points lead.",
+  "traps": {
+   "Stirling Moss": "Runner-up four years running (1955-58) but never champion.",
+   "Graham Hill": "Won two titles, in 1962 and 1968.",
+   "Gilles Villeneuve": "Never champion; Jacques's father was runner-up in 1979.",
+   "Felipe Massa": "Lost the 2008 title to Lewis Hamilton by a single point.",
+   "Lando Norris": "Champion in 2025 but still racing, so not counted here."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Giuseppe Farina": [
+    "Nino Farina",
+    "Giuseppe Nino Farina"
+   ],
+   "Denny Hulme": [
+    "Denis Hulme"
+   ],
+   "Keke Rosberg": [
+    "Keijo Rosberg"
+   ],
+   "Mike Hawthorn": [
+    "Michael Hawthorn"
+   ],
+   "Nigel Mansell": [
+    "Sir Nigel Mansell"
+   ]
+  }
+ },
+ {
+  "id": "spo-ballon-dor-english-club",
+  "cat": "Football",
+  "title": "Home turf",
+  "q": "Ballon d'Or winners who won it while playing for an English club",
+  "rule": "Men's winners 1956 to 2025, judged by the club in the award year. Plain \"Ronaldo\" is taken as Cristiano.",
+  "tiers": {
+   "head": [
+    "Cristiano Ronaldo",
+    "George Best",
+    "Bobby Charlton"
+   ],
+   "hipster": [
+    "Michael Owen"
+   ],
+   "body": [
+    "Rodri"
+   ],
+   "tail": [
+    "Denis Law"
+   ],
+   "deep": [],
+   "outlier": [
+    "Stanley Matthews"
+   ]
+  },
+  "fact": "Stanley Matthews won the first Ballon d'Or in 1956 at the age of 41, while at Blackpool, and is still the oldest winner.",
+  "traps": {
+   "Kevin Keegan": "Won in 1978 and 1979 while playing for Hamburg in Germany.",
+   "Luis Suárez": "The 1960 winner was a Spaniard at Barcelona; the Liverpool striker never won.",
+   "Wayne Rooney": "Never won the Ballon d'Or.",
+   "Steven Gerrard": "Never won the Ballon d'Or.",
+   "Eric Cantona": "Never won the Ballon d'Or."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Cristiano Ronaldo": [
+    "CR7",
+    "Cristiano Ronaldo dos Santos Aveiro"
+   ],
+   "Bobby Charlton": [
+    "Sir Bobby Charlton",
+    "Robert Charlton"
+   ],
+   "Rodri": [
+    "Rodrigo Hernández"
+   ],
+   "Stanley Matthews": [
+    "Stan Matthews",
+    "Sir Stanley Matthews"
+   ],
+   "Denis Law": [
+    "Dennis Law"
+   ]
+  }
+ },
+ {
+  "id": "spo-pl-founders-1992",
+  "cat": "Football",
+  "title": "Class of '92",
+  "q": "Clubs that played in the first Premier League season, 1992-93",
+  "rule": "The 22 clubs that kicked off in August 1992; clubs promoted a year later do not count.",
+  "tiers": {
+   "head": [
+    "Manchester United",
+    "Liverpool",
+    "Arsenal",
+    "Chelsea"
+   ],
+   "hipster": [
+    "Wimbledon"
+   ],
+   "body": [
+    "Manchester City",
+    "Tottenham Hotspur",
+    "Everton",
+    "Aston Villa",
+    "Leeds United",
+    "Blackburn Rovers",
+    "Nottingham Forest",
+    "Crystal Palace",
+    "Southampton"
+   ],
+   "tail": [
+    "Norwich City",
+    "Coventry City",
+    "Middlesbrough",
+    "Sheffield Wednesday"
+   ],
+   "deep": [
+    "Ipswich Town",
+    "Queens Park Rangers",
+    "Sheffield United"
+   ],
+   "outlier": [
+    "Oldham Athletic"
+   ]
+  },
+  "fact": "Brian Deane's goal for Sheffield United against Manchester United on 15 August 1992 was the first in Premier League history.",
+  "traps": {
+   "Newcastle United": "Won the second tier in 1992-93 and joined a year later.",
+   "West Ham United": "Promoted in 1993, so their first season was 1993-94.",
+   "Leicester City": "Only reached the Premier League in 1994, via the play-offs.",
+   "Sunderland": "Stayed in the second tier until 1996.",
+   "Derby County": "Stayed in the second tier until 1996."
+  },
+  "level": 2,
+  "alias": {
+   "Manchester United": [
+    "Man United",
+    "Man Utd",
+    "Man U"
+   ],
+   "Manchester City": [
+    "Man City"
+   ],
+   "Tottenham Hotspur": [
+    "Spurs",
+    "Tottenham"
+   ],
+   "Aston Villa": [
+    "Villa"
+   ],
+   "Leeds United": [
+    "Leeds"
+   ],
+   "Blackburn Rovers": [
+    "Blackburn"
+   ],
+   "Nottingham Forest": [
+    "Forest",
+    "Notts Forest",
+    "Nottm Forest"
+   ],
+   "Crystal Palace": [
+    "Palace"
+   ],
+   "Norwich City": [
+    "Norwich"
+   ],
+   "Coventry City": [
+    "Coventry"
+   ],
+   "Middlesbrough": [
+    "Boro"
+   ],
+   "Sheffield Wednesday": [
+    "Sheffield Wed",
+    "Sheff Wed"
+   ],
+   "Ipswich Town": [
+    "Ipswich"
+   ],
+   "Queens Park Rangers": [
+    "QPR"
+   ],
+   "Sheffield United": [
+    "Sheffield Utd",
+    "Sheff Utd"
+   ],
+   "Oldham Athletic": [
+    "Oldham"
+   ],
+   "Wimbledon": [
+    "Wimbledon FC"
+   ],
+   "Southampton": [
+    "Saints"
+   ]
+  }
+ },
+ {
+  "id": "spo-football-league-1888",
+  "cat": "Football",
+  "title": "Founding fathers",
+  "q": "Founder members of the Football League in 1888",
+  "rule": "The 12 clubs of the first season, 1888-89. The defunct original club from a Lancashire town counts, not its modern successor.",
+  "tiers": {
+   "head": [
+    "Everton",
+    "Aston Villa",
+    "Blackburn Rovers"
+   ],
+   "hipster": [],
+   "body": [
+    "Wolverhampton Wanderers",
+    "Burnley",
+    "Derby County"
+   ],
+   "tail": [
+    "Bolton Wanderers",
+    "West Bromwich Albion",
+    "Preston North End"
+   ],
+   "deep": [
+    "Stoke City",
+    "Notts County"
+   ],
+   "outlier": [
+    "Accrington"
+   ]
+  },
+  "fact": "Accrington FC dropped out of the league in 1893 and folded within three years; today's Accrington Stanley is an entirely separate club.",
+  "traps": {
+   "Liverpool": "Not founded until 1892.",
+   "Manchester United": "Joined in 1892, as Newton Heath.",
+   "Arsenal": "Joined in 1893, as Woolwich Arsenal.",
+   "Sunderland": "Elected in 1890, after the League began.",
+   "Sheffield Wednesday": "Joined in 1892."
+  },
+  "level": 3,
+  "alias": {
+   "Aston Villa": [
+    "Villa"
+   ],
+   "Blackburn Rovers": [
+    "Blackburn"
+   ],
+   "Wolverhampton Wanderers": [
+    "Wolves"
+   ],
+   "Derby County": [
+    "Derby"
+   ],
+   "Bolton Wanderers": [
+    "Bolton"
+   ],
+   "West Bromwich Albion": [
+    "West Brom",
+    "WBA"
+   ],
+   "Preston North End": [
+    "Preston",
+    "PNE"
+   ],
+   "Stoke City": [
+    "Stoke"
+   ],
+   "Notts County": [
+    "Notts"
+   ],
+   "Accrington": [
+    "Accrington FC",
+    "Old Accrington"
+   ]
+  }
+ },
+ {
+  "id": "spo-olympic-hosts-non-capital",
+  "cat": "Olympics",
+  "title": "Not the capital",
+  "q": "Summer Olympic host cities that aren't national capitals",
+  "rule": "Games from 1896 to 2024. 'Capital' means a sovereign country's capital today, so a former capital counts as not a capital.",
+  "tiers": {
+   "head": [
+    "Los Angeles",
+    "Sydney",
+    "Barcelona"
+   ],
+   "hipster": [],
+   "body": [
+    "Atlanta",
+    "Rio de Janeiro",
+    "Munich",
+    "Melbourne"
+   ],
+   "tail": [
+    "Montreal"
+   ],
+   "deep": [
+    "Antwerp"
+   ],
+   "outlier": [
+    "St. Louis"
+   ]
+  },
+  "fact": "Melbourne 1956 was the first Games in the Southern Hemisphere, but the equestrian events were held in Stockholm because of Australian quarantine rules.",
+  "traps": {
+   "Chicago": "Bid for 2016 but lost out to Rio; never hosted.",
+   "Istanbul": "Bid several times but has never hosted.",
+   "Brisbane": "Hosts in 2032, so not yet.",
+   "Amsterdam": "It is the capital of the Netherlands.",
+   "Calgary": "Winter Games only, in 1988."
+  },
+  "level": 2,
+  "alias": {
+   "Los Angeles": [
+    "LA"
+   ],
+   "Rio de Janeiro": [
+    "Rio"
+   ],
+   "Munich": [
+    "München"
+   ],
+   "Antwerp": [
+    "Antwerpen",
+    "Anvers"
+   ],
+   "St. Louis": [
+    "Saint Louis"
+   ]
+  }
+ },
+ {
+  "id": "spo-pl-golden-boot",
+  "cat": "Football",
+  "title": "Golden touch",
+  "q": "Premier League top scorers of the season, 1992-93 to 2024-25",
+  "rule": "Anyone who won or shared the Golden Boot in those 33 seasons.",
+  "tiers": {
+   "head": [
+    "Alan Shearer",
+    "Thierry Henry",
+    "Mohamed Salah",
+    "Erling Haaland"
+   ],
+   "hipster": [
+    "Cristiano Ronaldo"
+   ],
+   "body": [
+    "Harry Kane",
+    "Luis Suárez",
+    "Sergio Agüero",
+    "Didier Drogba",
+    "Robin van Persie",
+    "Son Heung-min",
+    "Jamie Vardy",
+    "Michael Owen",
+    "Ruud van Nistelrooy"
+   ],
+   "tail": [
+    "Andy Cole",
+    "Sadio Mané",
+    "Pierre-Emerick Aubameyang",
+    "Carlos Tevez",
+    "Dimitar Berbatov",
+    "Jimmy Floyd Hasselbaink",
+    "Dwight Yorke",
+    "Nicolas Anelka"
+   ],
+   "deep": [
+    "Kevin Phillips",
+    "Chris Sutton",
+    "Teddy Sheringham"
+   ],
+   "outlier": [
+    "Dion Dublin"
+   ]
+  },
+  "fact": "Three-way ties for the Golden Boot came in 1997-98 (Owen, Sutton and Dublin, all on 18), in 1998-99 and in 2018-19.",
+  "traps": {
+   "Ian Wright": "Never won the Golden Boot, despite scoring heavily for Arsenal.",
+   "Wayne Rooney": "Scored 208 Premier League goals but never finished top.",
+   "Robbie Fowler": "Never top; Shearer pipped him in 1995-96.",
+   "Eric Cantona": "Never finished as the league's top scorer.",
+   "Frank Lampard": "Never finished as the league's top scorer."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Mohamed Salah": [
+    "Mo Salah"
+   ],
+   "Erling Haaland": [
+    "Erling Braut Haaland"
+   ],
+   "Cristiano Ronaldo": [
+    "CR7"
+   ],
+   "Sergio Agüero": [
+    "Kun Aguero"
+   ],
+   "Son Heung-min": [
+    "Heung-min Son"
+   ],
+   "Robin van Persie": [
+    "RVP"
+   ],
+   "Ruud van Nistelrooy": [
+    "Van Nistelrooy"
+   ],
+   "Carlos Tevez": [
+    "Carlitos Tevez"
+   ],
+   "Pierre-Emerick Aubameyang": [
+    "Auba",
+    "PEA"
+   ],
+   "Jimmy Floyd Hasselbaink": [
+    "Jimmy Hasselbaink"
+   ],
+   "Teddy Sheringham": [
+    "Edward Sheringham",
+    "Ted Sheringham"
+   ]
+  }
+ },
+ {
+  "id": "spo-poker-hands",
+  "cat": "Games",
+  "title": "Show your hand",
+  "q": "A ranked hand in standard five-card poker",
+  "rule": "Standard 52-card deck with no wild cards. Every named ranking counts separately, including the very best.",
+  "tiers": {
+   "head": [
+    "Royal Flush",
+    "Full House",
+    "Flush",
+    "Straight"
+   ],
+   "hipster": [],
+   "body": [
+    "Pair",
+    "Three of a Kind",
+    "Four of a Kind"
+   ],
+   "tail": [
+    "Straight Flush",
+    "Two Pair"
+   ],
+   "deep": [],
+   "outlier": [
+    "High Card"
+   ]
+  },
+  "fact": "Only 4 of the 2,598,960 possible five-card hands are royal flushes, while about half of all hands are just High Card.",
+  "traps": {
+   "Five of a Kind": "Needs a wild card; impossible with a standard deck.",
+   "Three Pair": "Needs six cards; a five-card hand holds two pairs at most.",
+   "Dead Man's Hand": "Aces and eights is a famous two pair, not a ranking.",
+   "Flush Draw": "A draw is an unfinished hand, not a ranked one."
+  },
+  "level": 1,
+  "alias": {
+   "Royal Flush": [
+    "Royal Straight Flush"
+   ],
+   "Full House": [
+    "Full Boat",
+    "Boat"
+   ],
+   "Pair": [
+    "One Pair",
+    "Single Pair",
+    "A Pair"
+   ],
+   "Three of a Kind": [
+    "Trips",
+    "Triplet",
+    "3 of a Kind"
+   ],
+   "Four of a Kind": [
+    "Quads",
+    "4 of a Kind"
+   ],
+   "High Card": [
+    "Nothing",
+    "No Pair",
+    "Junk",
+    "Highest Card"
+   ]
+  }
+ },
+ {
+  "id": "spo-pokemon-original-types",
+  "cat": "Games",
+  "title": "Old school",
+  "q": "Pokémon types that existed in the first generation of games",
+  "rule": "The 15 types in Red, Green, Blue and Yellow; Dark, Steel and Fairy came later.",
+  "tiers": {
+   "head": [
+    "Fire",
+    "Water",
+    "Grass",
+    "Electric"
+   ],
+   "hipster": [],
+   "body": [
+    "Psychic",
+    "Ghost",
+    "Dragon",
+    "Fighting"
+   ],
+   "tail": [
+    "Poison",
+    "Ice",
+    "Rock",
+    "Ground"
+   ],
+   "deep": [
+    "Flying",
+    "Bug"
+   ],
+   "outlier": [
+    "Normal"
+   ]
+  },
+  "fact": "Ghost moves were meant to be super effective against Psychic types, but a bug in Red and Blue made them do no damage at all.",
+  "traps": {
+   "Dark": "Added in Gold and Silver in 1999.",
+   "Steel": "Added in Gold and Silver in 1999.",
+   "Fairy": "Added much later, in X and Y in 2013."
+  },
+  "level": 1,
+  "alias": {
+   "Fighting": [
+    "Fight"
+   ],
+   "Psychic": [
+    "Psy"
+   ]
+  }
+ },
+ {
+  "id": "spo-snooker-crucible-champions",
+  "cat": "Snooker",
+  "title": "Crucible kings",
+  "q": "World Snooker champions crowned at the Crucible, 1977 to 2025",
+  "rule": "Winners from 1977 to 2025. Higgins appears twice (Alex and John), so give a first name; earlier champions do not count.",
+  "tiers": {
+   "head": [
+    "Ronnie O'Sullivan",
+    "Steve Davis",
+    "Stephen Hendry",
+    "John Higgins"
+   ],
+   "hipster": [
+    "Dennis Taylor"
+   ],
+   "body": [
+    "Mark Selby",
+    "Mark Williams",
+    "Judd Trump",
+    "Alex Higgins",
+    "Neil Robertson",
+    "Ray Reardon",
+    "Shaun Murphy",
+    "Ken Doherty",
+    "Kyren Wilson"
+   ],
+   "tail": [
+    "John Parrott",
+    "Peter Ebdon",
+    "Graeme Dott",
+    "Stuart Bingham",
+    "Luca Brecel",
+    "Zhao Xintong"
+   ],
+   "deep": [
+    "Terry Griffiths",
+    "John Spencer",
+    "Cliff Thorburn"
+   ],
+   "outlier": [
+    "Joe Johnson"
+   ]
+  },
+  "fact": "Cliff Thorburn, from Canada, was the Crucible's first overseas champion in 1980; Zhao Xintong became the first Chinese world champion in 2025.",
+  "traps": {
+   "Joe Davis": "Won 15 world titles, all between 1927 and 1946.",
+   "Fred Davis": "Won his world titles before the Crucible era began in 1977.",
+   "Jimmy White": "Lost six Crucible finals and never won the title.",
+   "Willie Thorne": "Never won the world title.",
+   "Eddie Charlton": "Never won the world title."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Ronnie O'Sullivan": [
+    "Ronnie Sullivan",
+    "Rocket Ronnie"
+   ],
+   "Alex Higgins": [
+    "Hurricane Higgins",
+    "Alexander Higgins"
+   ],
+   "Ray Reardon": [
+    "Raymond Reardon"
+   ],
+   "Cliff Thorburn": [
+    "Clifford Thorburn"
+   ],
+   "Joe Johnson": [
+    "Joseph Johnson"
+   ],
+   "Zhao Xintong": [
+    "Xintong Zhao"
+   ],
+   "Terry Griffiths": [
+    "Terence Griffiths"
+   ],
+   "Stephen Hendry": [
+    "Steven Hendry"
+   ]
+  }
+ },
+ {
+  "id": "spo-cricket-first-class-counties",
+  "cat": "Cricket",
+  "title": "Shire power",
+  "q": "First-class cricket counties in the County Championship",
+  "rule": "The 18 first-class counties; Minor Counties sides such as Devon and Norfolk do not count.",
+  "tiers": {
+   "head": [
+    "Yorkshire",
+    "Lancashire",
+    "Surrey",
+    "Kent"
+   ],
+   "hipster": [],
+   "body": [
+    "Essex",
+    "Middlesex",
+    "Sussex",
+    "Hampshire",
+    "Somerset"
+   ],
+   "tail": [
+    "Nottinghamshire",
+    "Warwickshire",
+    "Worcestershire",
+    "Derbyshire",
+    "Gloucestershire",
+    "Durham"
+   ],
+   "deep": [
+    "Leicestershire",
+    "Northamptonshire"
+   ],
+   "outlier": [
+    "Glamorgan"
+   ]
+  },
+  "fact": "Durham joined the County Championship only in 1992, yet had won it by 2008 and added titles in 2009 and 2013.",
+  "traps": {
+   "Devon": "A Minor Counties side, not first-class.",
+   "Cornwall": "A Minor Counties side, not first-class.",
+   "Norfolk": "A Minor Counties side, not first-class.",
+   "Berkshire": "A Minor Counties side, not first-class.",
+   "Cambridgeshire": "A Minor Counties side, not first-class."
+  },
+  "level": 2,
+  "alias": {
+   "Yorkshire": [
+    "Yorks"
+   ],
+   "Lancashire": [
+    "Lancs"
+   ],
+   "Hampshire": [
+    "Hants"
+   ],
+   "Nottinghamshire": [
+    "Notts"
+   ],
+   "Warwickshire": [
+    "Warks"
+   ],
+   "Worcestershire": [
+    "Worcs"
+   ],
+   "Derbyshire": [
+    "Derbys"
+   ],
+   "Gloucestershire": [
+    "Glos"
+   ],
+   "Leicestershire": [
+    "Leics"
+   ],
+   "Northamptonshire": [
+    "Northants"
+   ],
+   "Durham": [
+    "Durham County"
+   ]
+  }
+ },
+ {
+  "id": "spo-f1-constructors-titles",
+  "cat": "Formula 1",
+  "title": "Badge of honour",
+  "q": "Teams that have won the F1 Constructors' Championship, up to 2024",
+  "rule": "Count the constructor's title, not the driver's, and only titles won by the team itself up to the 2024 season.",
+  "tiers": {
+   "head": [
+    "Ferrari",
+    "McLaren",
+    "Williams"
+   ],
+   "hipster": [
+    "Brabham"
+   ],
+   "body": [
+    "Lotus",
+    "Mercedes",
+    "Red Bull",
+    "Benetton",
+    "Renault"
+   ],
+   "tail": [
+    "Tyrrell",
+    "Matra",
+    "Brawn GP",
+    "Cooper"
+   ],
+   "deep": [
+    "BRM"
+   ],
+   "outlier": [
+    "Vanwall"
+   ]
+  },
+  "fact": "Brawn GP won both the 2009 drivers' and constructors' titles in its only season, after Honda pulled out and Ross Brawn bought the team.",
+  "traps": {
+   "Jordan": "Jordan never won the constructors' title; its best finish was third.",
+   "Toyota": "Toyota ran its own works team for years and never won a title.",
+   "Sauber": "Sauber never won the constructors' title."
+  },
+  "level": 2,
+  "alias": {
+   "Red Bull": [
+    "Red Bull Racing"
+   ],
+   "Brawn GP": [
+    "Brawn"
+   ]
+  }
+ },
+ {
+  "id": "spo-nfl-animal-teams",
+  "cat": "American football",
+  "title": "Animal house",
+  "q": "NFL teams whose nickname is a real animal",
+  "rule": "The nickname must name a single animal. The Seahawks do not count.",
+  "tiers": {
+   "head": [
+    "Chicago Bears",
+    "Philadelphia Eagles",
+    "Detroit Lions",
+    "Miami Dolphins"
+   ],
+   "hipster": [
+    "Indianapolis Colts"
+   ],
+   "body": [
+    "Baltimore Ravens",
+    "Los Angeles Rams",
+    "Carolina Panthers",
+    "Atlanta Falcons",
+    "Jacksonville Jaguars",
+    "Denver Broncos"
+   ],
+   "tail": [
+    "Cincinnati Bengals"
+   ],
+   "deep": [],
+   "outlier": [
+    "Arizona Cardinals"
+   ]
+  },
+  "fact": "The Baltimore Colts left town overnight in March 1984 for Indianapolis, where the name has been used ever since.",
+  "traps": {
+   "Chicago Bulls": "The Bulls are an NBA team, not an NFL one.",
+   "Detroit Tigers": "The Tigers are a baseball team. Detroit's NFL team is the Lions.",
+   "Wolves": "No NFL team is called the Wolves."
+  },
+  "level": 1
+ },
+ {
+  "id": "spo-rugby-world-cup-hosts",
+  "cat": "Rugby union",
+  "title": "Home advantage",
+  "q": "Countries that have hosted a Rugby World Cup, up to 2023",
+  "rule": "Any country that staged matches as a host or co-host counts, up to 2023.",
+  "tiers": {
+   "head": [
+    "New Zealand",
+    "England"
+   ],
+   "hipster": [],
+   "body": [
+    "Australia",
+    "South Africa",
+    "France"
+   ],
+   "tail": [
+    "Wales"
+   ],
+   "deep": [
+    "Scotland",
+    "Ireland"
+   ],
+   "outlier": [
+    "Japan"
+   ]
+  },
+  "fact": "Japan became the first Asian country to host a Rugby World Cup in 2019.",
+  "traps": {
+   "United States": "The USA has never hosted a Rugby World Cup.",
+   "Argentina": "Argentina has never been a named host."
+  },
+  "level": 2,
+  "alias": {
+   "New Zealand": [
+    "NZ"
+   ]
+  }
+ },
+ {
+  "id": "spo-chamonix-1924-sports",
+  "cat": "Winter Olympics",
+  "title": "Original six",
+  "q": "Sports on the programme at Chamonix 1924, the first Winter Olympics",
+  "rule": "Count the sport, not each event. A sport that goes by a second name also counts under that name.",
+  "tiers": {
+   "head": [
+    "Ice hockey",
+    "Figure skating"
+   ],
+   "hipster": [
+    "Bobsleigh"
+   ],
+   "body": [
+    "Speed skating",
+    "Curling",
+    "Cross-country skiing",
+    "Ski jumping"
+   ],
+   "tail": [
+    "Nordic combined"
+   ],
+   "deep": [],
+   "outlier": [
+    "Military patrol"
+   ]
+  },
+  "fact": "Chamonix 1924 was first called the International Winter Sports Week and was only retrospectively given Olympic status.",
+  "traps": {
+   "Alpine skiing": "Alpine skiing was first held at the Winter Games in 1936.",
+   "Biathlon": "Biathlon was first held at the Winter Games in 1960.",
+   "Snowboarding": "Snowboarding was first held at the Winter Games in 1998."
+  },
+  "level": 3,
+  "alias": {
+   "Cross-country skiing": [
+    "Nordic skiing"
+   ]
+  }
+ },
+ {
+  "id": "spo-pl-never-champions",
+  "cat": "Football",
+  "title": "Never on top",
+  "q": "Premier League clubs that have never won the English top-flight title",
+  "rule": "Any of the 28 clubs that played in the Premier League from 1992-93 to 2025-26 and have never won the top-flight title (including the old First Division) up to 2024-25.",
+  "tiers": {
+   "head": [
+    "West Ham United",
+    "Southampton",
+    "Crystal Palace"
+   ],
+   "hipster": [
+    "Wigan Athletic"
+   ],
+   "body": [
+    "Fulham",
+    "Stoke City",
+    "Norwich City",
+    "Middlesbrough",
+    "Watford",
+    "Bournemouth",
+    "Brighton & Hove Albion",
+    "Swansea City"
+   ],
+   "tail": [
+    "Brentford",
+    "Hull City",
+    "Cardiff City",
+    "Birmingham City",
+    "Coventry City",
+    "Reading",
+    "Queens Park Rangers",
+    "Bolton Wanderers",
+    "Charlton Athletic"
+   ],
+   "deep": [
+    "Swindon Town",
+    "Luton Town",
+    "Wimbledon",
+    "Bradford City",
+    "Oldham Athletic",
+    "Blackpool"
+   ],
+   "outlier": [
+    "Barnsley"
+   ]
+  },
+  "fact": "Southampton have never won the top-flight title, but they beat Manchester United 1-0 in the 1976 FA Cup final.",
+  "traps": {
+   "Newcastle United": "Newcastle have won the old First Division more than once.",
+   "Everton": "Everton have won the top-flight title more than once.",
+   "Leeds United": "Leeds won the top-flight title in 1992."
+  },
+  "level": 2,
+  "alias": {
+   "Queens Park Rangers": [
+    "QPR"
+   ],
+   "Brighton & Hove Albion": [
+    "Brighton"
+   ]
+  }
+ },
+ {
+  "id": "spo-fa-cup-pl-era-winners",
+  "cat": "Football",
+  "title": "Cup holders",
+  "q": "Clubs that won the FA Cup in the Premier League era, 1993 to 2024",
+  "rule": "Any club that won an FA Cup final from 1993 to 2024 inclusive. Finals decided on penalties count as wins.",
+  "tiers": {
+   "head": [
+    "Manchester United",
+    "Arsenal",
+    "Chelsea",
+    "Liverpool"
+   ],
+   "hipster": [
+    "Everton"
+   ],
+   "body": [
+    "Manchester City"
+   ],
+   "tail": [
+    "Portsmouth",
+    "Leicester City"
+   ],
+   "deep": [],
+   "outlier": [
+    "Wigan Athletic"
+   ]
+  },
+  "fact": "Wigan Athletic won the 2013 FA Cup 1-0 against Manchester City, and were relegated from the Premier League that same season.",
+  "traps": {
+   "Tottenham Hotspur": "Spurs' last FA Cup win was in 1991, before the Premier League began.",
+   "Aston Villa": "Villa lost the 2015 final 4-0 to Arsenal.",
+   "Newcastle United": "Newcastle lost the 1998 final 2-0 to Arsenal."
+  },
+  "level": 1,
+  "alias": {
+   "Leicester City": [
+    "Leicester"
+   ]
+  }
+ },
+ {
+  "id": "spo-pl-never-relegated",
+  "cat": "Football",
+  "title": "Never went down",
+  "q": "Clubs never relegated from the Premier League, up to 2024-25",
+  "rule": "Any club that has played in the Premier League and has never been relegated from it, based on results up to the end of 2024-25.",
+  "tiers": {
+   "head": [
+    "Manchester United",
+    "Liverpool",
+    "Arsenal",
+    "Chelsea"
+   ],
+   "hipster": [],
+   "body": [
+    "Tottenham Hotspur"
+   ],
+   "tail": [
+    "Brighton & Hove Albion"
+   ],
+   "deep": [
+    "Brentford"
+   ],
+   "outlier": [
+    "Everton"
+   ]
+  },
+  "fact": "Everton have never been relegated from the Premier League, and their last relegation from the top flight came in 1951.",
+  "traps": {
+   "Newcastle United": "Newcastle went down from the Premier League in 2009.",
+   "Leeds United": "Leeds were relegated in 2004.",
+   "Aston Villa": "Villa were relegated in 2016.",
+   "Manchester City": "Relegated from the Premier League in 1995-96."
+  },
+  "level": 1,
+  "alias": {
+   "Manchester United": [
+    "Man Utd"
+   ],
+   "Brighton & Hove Albion": [
+    "Brighton"
+   ]
+  }
+ },
+ {
+  "id": "spo-open-scottish-courses",
+  "cat": "Golf",
+  "title": "Links legends",
+  "q": "Scottish courses that have hosted The Open Championship",
+  "rule": "Any Scottish course that has hosted The Open, past or present, up to 2025.",
+  "tiers": {
+   "head": [
+    "St Andrews",
+    "Turnberry"
+   ],
+   "hipster": [
+    "Prestwick"
+   ],
+   "body": [
+    "Muirfield",
+    "Royal Troon"
+   ],
+   "tail": [
+    "Carnoustie"
+   ],
+   "deep": [],
+   "outlier": [
+    "Musselburgh"
+   ]
+  },
+  "fact": "The first Open was played at Prestwick in 1860, and it was won by Willie Park Sr.",
+  "traps": {
+   "Royal Liverpool": "Royal Liverpool hosts The Open, but it is in England.",
+   "Royal Portrush": "Royal Portrush hosts The Open, but it is in Northern Ireland.",
+   "Gleneagles": "Gleneagles is a Scottish resort course, but it has never hosted The Open."
+  },
+  "level": 2,
+  "alias": {
+   "Royal Troon": [
+    "Troon"
+   ],
+   "Musselburgh": [
+    "Royal Musselburgh"
+   ],
+   "Prestwick": [
+    "Prestwick St Nicholas"
+   ]
+  }
+ },
+ {
+  "id": "spo-cricket-world-cup-finalists",
+  "cat": "Cricket",
+  "title": "Final stage",
+  "q": "Teams that have played in a men's Cricket World Cup final, up to 2023",
+  "rule": "Any team that has reached a men's ODI World Cup final up to 2023. Losing finalists count as well as winners.",
+  "tiers": {
+   "head": [
+    "Australia",
+    "West Indies",
+    "India"
+   ],
+   "hipster": [
+    "New Zealand"
+   ],
+   "body": [
+    "England"
+   ],
+   "tail": [
+    "Pakistan"
+   ],
+   "deep": [],
+   "outlier": [
+    "Sri Lanka"
+   ]
+  },
+  "fact": "New Zealand lost both of their World Cup finals, in 2015 to Australia and in 2019 to England after a super-over tie.",
+  "traps": {
+   "South Africa": "South Africa have never reached a Cricket World Cup final.",
+   "Zimbabwe": "Zimbabwe have never reached a Cricket World Cup final.",
+   "Ireland": "Ireland have never reached a Cricket World Cup final."
+  },
+  "level": 2
+ },
+ {
+  "id": "spo-f1-champions-born-outside-europe",
+  "cat": "Formula 1",
+  "title": "Wide world",
+  "q": "F1 world champions born outside Europe",
+  "rule": "Judged by country of birth, not nationality or racing base. Any driver crowned champion from 1950 to 2025.",
+  "tiers": {
+   "head": [
+    "Ayrton Senna",
+    "Juan Manuel Fangio"
+   ],
+   "hipster": [
+    "Denny Hulme"
+   ],
+   "body": [
+    "Nelson Piquet",
+    "Emerson Fittipaldi",
+    "Jack Brabham"
+   ],
+   "tail": [
+    "Jacques Villeneuve",
+    "Alan Jones"
+   ],
+   "deep": [
+    "Jody Scheckter"
+   ],
+   "outlier": [
+    "Phil Hill"
+   ]
+  },
+  "fact": "Juan Manuel Fangio won five world titles, and he was born in Argentina.",
+  "traps": {
+   "Michael Schumacher": "Schumacher was born in Germany, which is in Europe.",
+   "Lewis Hamilton": "Hamilton was born in Stevenage, England.",
+   "Mario Andretti": "Andretti was born in Italy, which is in Europe."
+  },
+  "surnames": true,
+  "level": 2,
+  "alias": {
+   "Juan Manuel Fangio": [
+    "Fangio"
+   ],
+   "Ayrton Senna": [
+    "Senna"
+   ],
+   "Nelson Piquet": [
+    "Piquet"
+   ],
+   "Emerson Fittipaldi": [
+    "Fittipaldi"
+   ],
+   "Jack Brabham": [
+    "Brabham"
+   ],
+   "Jacques Villeneuve": [
+    "Villeneuve"
+   ],
+   "Denny Hulme": [
+    "Hulme"
+   ],
+   "Phil Hill": [
+    "Philip Hill"
+   ]
+  }
+ },
+ {
+  "id": "spo-pl-city-clubs",
+  "cat": "Football",
+  "title": "City slickers",
+  "q": "Premier League clubs whose name ends in City",
+  "rule": "Any club that has played in the Premier League from 1992-93 to 2025-26 and whose official name ends with the word City.",
+  "tiers": {
+   "head": [
+    "Manchester City",
+    "Leicester City"
+   ],
+   "hipster": [
+    "Norwich City"
+   ],
+   "body": [
+    "Stoke City",
+    "Swansea City"
+   ],
+   "tail": [
+    "Hull City",
+    "Cardiff City"
+   ],
+   "deep": [
+    "Birmingham City"
+   ],
+   "outlier": [
+    "Coventry City",
+    "Bradford City"
+   ]
+  },
+  "fact": "Leicester City won the 2015-16 Premier League title at odds of 5000-1 before the season began.",
+  "traps": {
+   "Bristol City": "Bristol City have never played in the Premier League.",
+   "Oxford United": "Oxford United have never played in the Premier League, and their name does not end in City.",
+   "Derby County": "Derby played in the Premier League, but their name does not end in City."
+  },
+  "level": 1,
+  "alias": {
+   "Manchester City": [
+    "Man City"
+   ]
+  }
+ },
+ {
+  "id": "spo-european-repeat-winners",
+  "cat": "Football",
+  "title": "Repeat offenders",
+  "q": "Clubs that have won the European Cup or Champions League twice or more",
+  "rule": "Count only titles won in the European Cup or Champions League, up to the 2025 final. Every title counts, not just the most recent.",
+  "tiers": {
+   "head": [
+    "Real Madrid",
+    "AC Milan",
+    "Liverpool",
+    "Bayern Munich"
+   ],
+   "hipster": [
+    "Nottingham Forest"
+   ],
+   "body": [
+    "Barcelona",
+    "Manchester United",
+    "Ajax",
+    "Inter Milan"
+   ],
+   "tail": [
+    "Chelsea",
+    "Juventus"
+   ],
+   "deep": [
+    "Benfica"
+   ],
+   "outlier": [
+    "Porto"
+   ]
+  },
+  "fact": "Real Madrid won the first five European Cups between 1956 and 1960.",
+  "traps": {
+   "Arsenal": "Arsenal have never won the European Cup or Champions League, though they won the Cup Winners' Cup.",
+   "Celtic": "Celtic won the European Cup once, in 1967.",
+   "Borussia Dortmund": "Dortmund won the European Cup once, in 1997.",
+   "Manchester City": "City won the Champions League for the first time in 2023."
+  },
+  "level": 2,
+  "alias": {
+   "AC Milan": [
+    "Milan"
+   ],
+   "Inter Milan": [
+    "Inter"
+   ],
+   "Bayern Munich": [
+    "Bayern"
+   ],
+   "Manchester United": [
+    "Man Utd"
+   ],
+   "Nottingham Forest": [
+    "Forest"
+   ]
+  }
+ },
+ {
+  "id": "spo-scrabble-single-point",
+  "cat": "Games",
+  "title": "Single file",
+  "q": "Letters worth just one point in English Scrabble",
+  "rule": "Blank tiles score nothing and do not count. Give the letter on its own.",
+  "tiers": {
+   "head": [
+    "E",
+    "A"
+   ],
+   "hipster": [],
+   "body": [
+    "T",
+    "R",
+    "N",
+    "O",
+    "I",
+    "S"
+   ],
+   "tail": [
+    "L"
+   ],
+   "deep": [],
+   "outlier": [
+    "U"
+   ]
+  },
+  "fact": "A Scrabble set has 100 tiles, and two of them are blanks that score nothing.",
+  "traps": {
+   "D": "D is worth 2 points.",
+   "G": "G is worth 2 points.",
+   "Y": "Y is worth 4 points."
+  },
+  "level": 1
+ },
+ {
+  "id": "spo-f1-british-champions",
+  "cat": "Formula 1",
+  "title": "Union Jack",
+  "q": "British-born drivers who have won the F1 world title, up to 2024",
+  "rule": "Judged by place of birth in the United Kingdom, not by the team they raced for. Titles from 1950 to 2024 only.",
+  "tiers": {
+   "head": [
+    "Lewis Hamilton",
+    "Nigel Mansell"
+   ],
+   "hipster": [
+    "Mike Hawthorn"
+   ],
+   "body": [
+    "Jenson Button",
+    "James Hunt",
+    "Jackie Stewart"
+   ],
+   "tail": [
+    "Graham Hill",
+    "Damon Hill"
+   ],
+   "deep": [
+    "John Surtees"
+   ],
+   "outlier": [
+    "Jim Clark"
+   ]
+  },
+  "fact": "Mike Hawthorn won the 1958 title by a single point over Stirling Moss.",
+  "traps": {
+   "Michael Schumacher": "Schumacher was born in Germany.",
+   "Sebastian Vettel": "Vettel was born in Germany.",
+   "Kimi Raikkonen": "Raikkonen was born in Finland."
+  },
+  "level": 2,
+  "alias": {
+   "Lewis Hamilton": [
+    "Hamilton"
+   ],
+   "Nigel Mansell": [
+    "Mansell"
+   ],
+   "Mike Hawthorn": [
+    "Hawthorn"
+   ],
+   "Jenson Button": [
+    "Button"
+   ],
+   "James Hunt": [
+    "Hunt"
+   ],
+   "Jackie Stewart": [
+    "Stewart"
+   ],
+   "Jim Clark": [
+    "Clark"
+   ],
+   "John Surtees": [
+    "Surtees"
+   ]
+  }
+ },
+ {
+  "id": "spo-gymnastics-apparatus",
+  "cat": "Olympics",
+  "title": "Apparatus check",
+  "q": "Artistic gymnastics apparatus used at the Olympic Games",
+  "rule": "Count each apparatus once, whichever gender uses it. Trampolining is not an apparatus in this sense.",
+  "tiers": {
+   "head": [
+    "Vault",
+    "Balance beam",
+    "Uneven bars"
+   ],
+   "hipster": [],
+   "body": [
+    "Floor",
+    "Horizontal bar"
+   ],
+   "tail": [
+    "Pommel horse",
+    "Rings"
+   ],
+   "deep": [],
+   "outlier": [
+    "Parallel bars"
+   ]
+  },
+  "fact": "The balance beam is 5 metres long and only 10 centimetres wide.",
+  "traps": {
+   "Pole vault": "Pole vault is an athletics event, not a gymnastics apparatus.",
+   "Hurdles": "Hurdles are an athletics event, not a gymnastics apparatus.",
+   "Javelin": "The javelin is an athletics event, not a gymnastics apparatus."
+  },
+  "level": 3,
+  "alias": {
+   "Uneven bars": [
+    "Asymmetric bars"
+   ],
+   "Horizontal bar": [
+    "High bar"
+   ],
+   "Floor": [
+    "Floor exercise"
+   ],
+   "Balance beam": [
+    "Beam"
+   ]
+  }
+ },
+ {
+  "id": "spo-rugby-union-positions",
+  "cat": "Rugby union",
+  "title": "Line-up",
+  "q": "Playing positions in 15-a-side rugby union",
+  "rule": "Count each position name once. Singular and plural forms both count.",
+  "tiers": {
+   "head": [
+    "Prop",
+    "Hooker",
+    "Wing"
+   ],
+   "hipster": [],
+   "body": [
+    "Lock",
+    "Fly-half"
+   ],
+   "tail": [
+    "Scrum-half",
+    "Centre",
+    "Full-back"
+   ],
+   "deep": [
+    "Flanker"
+   ],
+   "outlier": [
+    "Number eight"
+   ]
+  },
+  "fact": "A rugby union side has eight forwards and seven backs on the pitch at once.",
+  "traps": {
+   "Goalkeeper": "Goalkeeper is a football position.",
+   "Pitcher": "Pitcher is a baseball position.",
+   "Point guard": "Point guard is a basketball position."
+  },
+  "level": 1,
+  "alias": {
+   "Wing": [
+    "Winger"
+   ],
+   "Fly-half": [
+    "First five-eighth",
+    "Outside half",
+    "Stand-off"
+   ],
+   "Scrum-half": [
+    "Halfback"
+   ],
+   "Centre": [
+    "Center"
+   ],
+   "Number eight": [
+    "Eighthman",
+    "No 8",
+    "Number 8"
+   ],
+   "Lock": [
+    "Second row"
+   ],
+   "Flanker": [
+    "Blindside",
+    "Openside",
+    "Wing forward"
+   ],
+   "Prop": [
+    "Loosehead",
+    "Tighthead"
+   ]
+  }
+ },
+ {
+  "id": "spo-snooker-ball-colours",
+  "cat": "Snooker",
+  "title": "Table colours",
+  "q": "Ball colours used in a standard snooker frame",
+  "rule": "Each colour counts once, however many balls of that colour are on the table.",
+  "tiers": {
+   "head": [
+    "Red",
+    "Black",
+    "Yellow"
+   ],
+   "hipster": [
+    "Pink"
+   ],
+   "body": [
+    "Green",
+    "Blue"
+   ],
+   "tail": [
+    "Brown"
+   ],
+   "deep": [],
+   "outlier": [
+    "White"
+   ]
+  },
+  "fact": "A standard frame uses 22 balls: 15 reds, six colours and the cue ball.",
+  "traps": {
+   "Orange": "Snooker has no orange ball.",
+   "Purple": "Snooker has no purple ball.",
+   "Grey": "Snooker has no grey ball."
+  },
+  "level": 1,
+  "alias": {
+   "White": [
+    "Cue ball"
+   ]
+  }
+ }
+]
