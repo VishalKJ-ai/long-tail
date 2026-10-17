@@ -635,7 +635,7 @@ const PROMPTS = /*__PROMPTS__*/[];
     $("decide").hidden = state !== "decide";
     $("after").hidden = state !== "after";
     $("clock").hidden = state === "after";
-    $("play-foot").hidden = state === "after";
+    $("play-foot").hidden = state !== "answer";
     $("holding").hidden = !(state === "answer" && game.cur && game.cur.digging);
     $("misses").hidden = state === "after";
     if (state === "after") $("hintline").hidden = true;
