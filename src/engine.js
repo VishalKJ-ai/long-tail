@@ -3,12 +3,12 @@
 
   // Rarity tiers. weight = estimated share of players, used only to draw the curve.
   const TIERS = [
-    { key: "head",    pts: 10,  name: "Common",     weight: 100, bonus: 3,  sq: "⬜", sym: "●" },
+    { key: "head",    pts: 10,  name: "Chart hit",  weight: 100, bonus: 3,  sq: "⬜", sym: "●" },
     { key: "hipster", pts: 15,  name: "Overplayed", weight: 58,  bonus: 3,  sq: "🟫", sym: "◑" },
-    { key: "body",    pts: 25,  name: "Uncommon",   weight: 30,  bonus: 5,  sq: "🟩", sym: "◆" },
-    { key: "tail",    pts: 50,  name: "Rare",       weight: 11,  bonus: 7,  sq: "🟦", sym: "★" },
-    { key: "deep",    pts: 75,  name: "Epic",       weight: 3.6, bonus: 9,  sq: "🟪", sym: "✦" },
-    { key: "outlier", pts: 100, name: "Legendary",  weight: 1.1, bonus: 12, sq: "🟧", sym: "✹" },
+    { key: "body",    pts: 25,  name: "Album track", weight: 30,  bonus: 5,  sq: "🟩", sym: "◆" },
+    { key: "tail",    pts: 50,  name: "B-side",     weight: 11,  bonus: 7,  sq: "🟦", sym: "★" },
+    { key: "deep",    pts: 75,  name: "Deep cut",   weight: 3.6, bonus: 9,  sq: "🟪", sym: "✦" },
+    { key: "outlier", pts: 100, name: "Holy grail", weight: 1.1, bonus: 12, sq: "🟨", sym: "✹" },
   ];
   const TIER = Object.fromEntries(TIERS.map((t) => [t.key, t]));
   const MISS_SQ = "⬛";
@@ -303,15 +303,15 @@
     return (h.toString(36) + h2.toString(36)).padStart(len, "0").slice(-len);
   }
 
-  // Daily ranks out of 500. Most first games land between Copycat and Owl.
+  // Daily ranks out of 500. Most first games land between Cover band and Collector.
   const RANKS = [
-    { min: 410, name: "Unicorn",   emoji: "🦄", tag: "Nobody else would." },
-    { min: 330, name: "Dragon",    emoji: "🐉", tag: "Rare air up here." },
-    { min: 260, name: "Lone Wolf", emoji: "🐺", tag: "Well off the beaten track." },
-    { min: 200, name: "Owl",       emoji: "🦉", tag: "Knows a thing or two." },
-    { min: 140, name: "Fox",       emoji: "🦊", tag: "A few crafty picks." },
-    { min: 80,  name: "Copycat",   emoji: "🐈", tag: "Mostly what everyone said." },
-    { min: 0,   name: "Sheep",     emoji: "🐑", tag: "Followed the flock." },
+    { min: 410, name: "Before it was cool", emoji: "😎", tag: "Nobody had heard of these." },
+    { min: 330, name: "Tastemaker",   emoji: "🎧", tag: "Everyone will copy you tomorrow." },
+    { min: 260, name: "Crate digger", emoji: "📦", tag: "You dug deep today." },
+    { min: 200, name: "Collector",    emoji: "💿", tag: "A tidy little collection." },
+    { min: 140, name: "Indie kid",    emoji: "🎸", tag: "A few left-field picks." },
+    { min: 80,  name: "Cover band",   emoji: "🎤", tag: "Mostly other people's hits." },
+    { min: 0,   name: "Top 40",       emoji: "📻", tag: "You stuck to the hits." },
   ];
   const rank = (score) => RANKS.find((r) => score >= r.min);
 

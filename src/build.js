@@ -116,8 +116,9 @@ if (arg("--site")) {
   const html = body();
   const cut = html.indexOf('<div class="wrap">');
   const head = html.slice(0, cut), rest = html.slice(cut);
-  const icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#221A33"/><rect x="4" y="5" width="4.5" height="22" rx="1" fill="#C9C2D6"/><rect x="9.5" y="12" width="4.5" height="15" rx="1" fill="#34C47C"/><rect x="15" y="18" width="4.5" height="9" rx="1" fill="#4A8BFF"/><rect x="20.5" y="21.5" width="3.5" height="5.5" rx="1" fill="#A86BFF"/><rect x="25" y="23.5" width="3.5" height="3.5" rx="1" fill="#FFB13B"/></svg>';
-  const desc = "A daily rarity game. Name anything that fits the card, see how rare it was, then bank it or dig deeper for double. The rarer your answer, the bigger your score.";
+  const icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="5" fill="#FF48B0"/><rect x="4" y="5" width="4" height="20" fill="#161412"/><rect x="8.6" y="10" width="4" height="15" fill="#94604F"/><rect x="13.2" y="14" width="4" height="11" fill="#00A95C"/><rect x="17.8" y="17.5" width="3.8" height="7.5" fill="#0078BF"/><rect x="22.2" y="20" width="3.4" height="5" fill="#7A4FCF"/><rect x="26.2" y="22" width="2.8" height="3" fill="#FFE800"/><rect x="3" y="25" width="26.5" height="2" fill="#161412"/></svg>';
+  const desc = "Everyone knows the hits. Name the deep cut. A daily rarity game: five categories, one answer each, and the rarer your answer the more it's worth.";
+  const site = "https://vishalkj-ai.github.io/long-tail/";
   const page = `<!doctype html>
 <html lang="en">
 <head>
@@ -127,7 +128,15 @@ if (arg("--site")) {
 <meta property="og:title" content="Long Tail">
 <meta property="og:description" content="${desc}">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#16121E">
+<meta property="og:url" content="${site}">
+<meta property="og:image" content="${site}og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${site}og.jpg">
+<meta name="theme-color" content="#161412">
+<link rel="apple-touch-icon" href="${site}icon-180.png">
+<link rel="manifest" href="${site}manifest.webmanifest">
 <link rel="icon" href="data:image/svg+xml,${encodeURIComponent(icon)}">
 <script>
   // Settings. To switch on analytics, put your GoatCounter code (the "xyz" in xyz.goatcounter.com)
