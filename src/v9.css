@@ -3,7 +3,7 @@
 .card.deal { animation: deal 0.42s cubic-bezier(0.2, 0.8, 0.25, 1) both; }
 @keyframes deal { from { opacity: 0; transform: translateY(40px) rotate(-4deg) scale(0.96); } to { opacity: 1; transform: none; } }
 .card .art { position: relative; }
-.stamp { position: absolute; inset: 0; display: grid; place-items: center; align-content: center; gap: 6px; background: color-mix(in srgb, var(--stock-2) 88%, transparent); animation: stampIn 0.32s cubic-bezier(0.2, 1.4, 0.4, 1) both; padding: 12px; }
+.stamp { position: absolute; inset: 0; display: grid; place-items: center; align-content: center; gap: 6px; background: var(--stock-2); animation: stampIn 0.32s cubic-bezier(0.2, 1.4, 0.4, 1) both; padding: 12px; }
 .stamp .tier { font: 900 clamp(40px, 10vw, 58px)/0.9 var(--f-display); text-transform: uppercase; color: var(--c); border: 4px solid var(--c); border-radius: 10px; padding: 6px 16px 4px; transform: rotate(-6deg); background: var(--stock); }
 .stamp .pts { font: 900 32px/1 var(--f-display); color: var(--ink); margin-top: 8px; }
 .stamp .ans { font: 800 20px/1.1 var(--f-display); text-transform: uppercase; color: var(--ink); text-align: center; overflow-wrap: anywhere; }

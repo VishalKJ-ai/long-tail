@@ -637,6 +637,8 @@ const PROMPTS = /*__PROMPTS__*/[];
     $("clock").hidden = state === "after";
     $("play-foot").hidden = state === "after";
     $("holding").hidden = !(state === "answer" && game.cur && game.cur.digging);
+    $("misses").hidden = state === "after";
+    if (state === "after") $("hintline").hidden = true;
     if (state !== "answer") { hideConfirm(); }
   }
   function dealCard() {
@@ -866,11 +868,12 @@ const PROMPTS = /*__PROMPTS__*/[];
       ? `Bust. You were holding ${esc(cur.held.name)} (${TIER[cur.held.tier].name}) but found nothing rarer in time.`
       : cur.misses.length ? `No score. You tried ${cur.misses.slice(0, 3).map(esc).join(", ")}.` : "No score this time.";
     const floor = outcome === "banked" ? TIER_IDX[cur.tier] : outcome === "bust" ? TIER_IDX[cur.held.tier] : -1;
+    // one rarer answer from each tier above yours (Legendary, Epic, Rare first), then fill to three
     const rarer = [];
-    for (const k of ["outlier", "deep", "tail", "body"]) {
-      if (TIER_IDX[k] <= floor) continue;
-      for (const n of LT.shuffle(p.tiers[k] || [], Math.random)) if (rarer.length < 3 && !cur.said.includes(n)) rarer.push([n, k]);
-    }
+    const pool = {};
+    for (const k of ["outlier", "deep", "tail", "body"]) if (TIER_IDX[k] > floor) pool[k] = LT.shuffle((p.tiers[k] || []).filter((n) => !cur.said.includes(n)), Math.random);
+    for (const k of Object.keys(pool)) if (rarer.length < 3 && pool[k].length) rarer.push([pool[k].shift(), k]);
+    for (const k of Object.keys(pool)) while (rarer.length < 3 && pool[k].length) rarer.push([pool[k].shift(), k]);
     const rv = game.challenge && game.challenge.rounds[game.i];
     const rivalLine = rv ? `<p class="rival">${esc(game.challenge.name || "Your friend")}: ${rv.pts > 0 ? `<b>${esc(rv.answer)}</b> · ${TIER[rv.tier].name}${rv.mult > 1 ? ` ×${rv.mult}` : ""} · ${rv.pts} pts` : "no score on this card"}</p>` : "";
     const last = game.i + 1 >= game.ids.length;

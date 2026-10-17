@@ -395,7 +395,7 @@ details.page.done { border-bottom-color: color-mix(in srgb, var(--gold) 55%, var
 .card.deal { animation: deal 0.42s cubic-bezier(0.2, 0.8, 0.25, 1) both; }
 @keyframes deal { from { opacity: 0; transform: translateY(40px) rotate(-4deg) scale(0.96); } to { opacity: 1; transform: none; } }
 .card .art { position: relative; }
-.stamp { position: absolute; inset: 0; display: grid; place-items: center; align-content: center; gap: 6px; background: color-mix(in srgb, var(--stock-2) 88%, transparent); animation: stampIn 0.32s cubic-bezier(0.2, 1.4, 0.4, 1) both; padding: 12px; }
+.stamp { position: absolute; inset: 0; display: grid; place-items: center; align-content: center; gap: 6px; background: var(--stock-2); animation: stampIn 0.32s cubic-bezier(0.2, 1.4, 0.4, 1) both; padding: 12px; }
 .stamp .tier { font: 900 clamp(40px, 10vw, 58px)/0.9 var(--f-display); text-transform: uppercase; color: var(--c); border: 4px solid var(--c); border-radius: 10px; padding: 6px 16px 4px; transform: rotate(-6deg); background: var(--stock); }
 .stamp .pts { font: 900 32px/1 var(--f-display); color: var(--ink); margin-top: 8px; }
 .stamp .ans { font: 800 20px/1.1 var(--f-display); text-transform: uppercase; color: var(--ink); text-align: center; overflow-wrap: anywhere; }
@@ -1088,6 +1088,8 @@ const PROMPTS = /*__PROMPTS__*/[];
     $("clock").hidden = state === "after";
     $("play-foot").hidden = state === "after";
     $("holding").hidden = !(state === "answer" && game.cur && game.cur.digging);
+    $("misses").hidden = state === "after";
+    if (state === "after") $("hintline").hidden = true;
     if (state !== "answer") { hideConfirm(); }
   }
   function dealCard() {
@@ -1319,11 +1321,12 @@ const PROMPTS = /*__PROMPTS__*/[];
       ? `Bust. You were holding ${esc(cur.held.name)} (${TIER[cur.held.tier].name}) but found nothing rarer in time.`
       : cur.misses.length ? `No score. You tried ${cur.misses.slice(0, 3).map(esc).join(", ")}.` : "No score this time.";
     const floor = outcome === "banked" ? TIER_IDX[cur.tier] : outcome === "bust" ? TIER_IDX[cur.held.tier] : -1;
+    // one rarer answer from each tier above yours (Legendary, Epic, Rare first), then fill to three
     const rarer = [];
-    for (const k of ["outlier", "deep", "tail", "body"]) {
-      if (TIER_IDX[k] <= floor) continue;
-      for (const n of LT.shuffle(p.tiers[k] || [], Math.random)) if (rarer.length < 3 && !cur.said.includes(n)) rarer.push([n, k]);
-    }
+    const pool = {};
+    for (const k of ["outlier", "deep", "tail", "body"]) if (TIER_IDX[k] > floor) pool[k] = LT.shuffle((p.tiers[k] || []).filter((n) => !cur.said.includes(n)), Math.random);
+    for (const k of Object.keys(pool)) if (rarer.length < 3 && pool[k].length) rarer.push([pool[k].shift(), k]);
+    for (const k of Object.keys(pool)) while (rarer.length < 3 && pool[k].length) rarer.push([pool[k].shift(), k]);
     const rv = game.challenge && game.challenge.rounds[game.i];
     const rivalLine = rv ? `<p class="rival">${esc(game.challenge.name || "Your friend")}: ${rv.pts > 0 ? `<b>${esc(rv.answer)}</b> · ${TIER[rv.tier].name}${rv.mult > 1 ? ` ×${rv.mult}` : ""} · ${rv.pts} pts` : "no score on this card"}</p>` : "";
     const last = game.i + 1 >= game.ids.length;

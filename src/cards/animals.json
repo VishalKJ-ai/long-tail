@@ -1,0 +1,2575 @@
+[
+ {
+  "id": "sci-nat-dog-breeds",
+  "cat": "Animals",
+  "title": "Good boy",
+  "q": "A dog breed",
+  "rule": "Breeds recognised by The Kennel Club count; crossbreeds, designer mixes and mongrels do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Labrador Retriever",
+    "Golden Retriever",
+    "German Shepherd",
+    "Bulldog",
+    "Beagle",
+    "Poodle"
+   ],
+   "hipster": [
+    "Dachshund",
+    "Whippet"
+   ],
+   "body": [
+    "Border Collie",
+    "Cocker Spaniel",
+    "Chihuahua",
+    "Pug",
+    "Yorkshire Terrier",
+    "Boxer",
+    "Rottweiler",
+    "Dalmatian",
+    "Siberian Husky",
+    "Shih Tzu",
+    "Cavalier King Charles Spaniel",
+    "French Bulldog",
+    "Staffordshire Bull Terrier",
+    "West Highland White Terrier",
+    "Dobermann",
+    "Great Dane",
+    "Bernese Mountain Dog",
+    "Pomeranian",
+    "Shetland Sheepdog",
+    "Rough Collie",
+    "Miniature Schnauzer",
+    "Greyhound",
+    "Bichon Frise",
+    "Chow Chow",
+    "Akita",
+    "Saint Bernard",
+    "Newfoundland",
+    "Pembroke Welsh Corgi",
+    "Maltese",
+    "Lhasa Apso",
+    "Japanese Chin",
+    "Papillon",
+    "Pekingese",
+    "Basset Hound",
+    "Bloodhound",
+    "Airedale Terrier",
+    "English Setter",
+    "Irish Setter",
+    "English Springer Spaniel",
+    "Weimaraner",
+    "Hungarian Vizsla",
+    "Jack Russell Terrier",
+    "Samoyed",
+    "Old English Sheepdog",
+    "Bearded Collie",
+    "Mastiff",
+    "Alaskan Malamute",
+    "Shiba Inu"
+   ],
+   "tail": [
+    "Afghan Hound",
+    "Border Terrier",
+    "Bedlington Terrier",
+    "Lakeland Terrier",
+    "Norfolk Terrier",
+    "Norwich Terrier",
+    "Scottish Terrier",
+    "Sealyham Terrier",
+    "Welsh Terrier",
+    "Irish Wolfhound",
+    "Bullmastiff",
+    "Leonberger",
+    "Keeshond",
+    "Pharaoh Hound",
+    "Saluki",
+    "Borzoi",
+    "Italian Greyhound",
+    "Havanese",
+    "Tibetan Spaniel",
+    "Chinese Crested",
+    "Shar Pei",
+    "Sussex Spaniel",
+    "Field Spaniel",
+    "Welsh Springer Spaniel",
+    "Brittany",
+    "Gordon Setter",
+    "Pointer",
+    "Flat-Coated Retriever",
+    "Curly-Coated Retriever",
+    "Chesapeake Bay Retriever",
+    "Nova Scotia Duck Tolling Retriever",
+    "Irish Water Spaniel",
+    "Briard",
+    "Belgian Malinois",
+    "Australian Cattle Dog",
+    "Boston Terrier",
+    "Miniature Pinscher",
+    "Dogue de Bordeaux",
+    "Neapolitan Mastiff",
+    "Tibetan Mastiff",
+    "Giant Schnauzer",
+    "Standard Schnauzer",
+    "Finnish Spitz",
+    "Norwegian Elkhound",
+    "Basenji",
+    "Ibizan Hound",
+    "Rhodesian Ridgeback",
+    "Cardigan Welsh Corgi",
+    "Fox Terrier"
+   ],
+   "deep": [
+    "Kerry Blue Terrier",
+    "Soft Coated Wheaten Terrier",
+    "Glen of Imaal Terrier",
+    "Dandie Dinmont Terrier",
+    "Skye Terrier",
+    "Manchester Terrier",
+    "Lancashire Heeler",
+    "Parson Russell Terrier",
+    "Australian Terrier",
+    "Irish Terrier",
+    "Cairn Terrier",
+    "Miniature Bull Terrier",
+    "Bull Terrier",
+    "Harrier",
+    "English Foxhound",
+    "Scottish Deerhound",
+    "Lagotto Romagnolo",
+    "Spinone Italiano",
+    "Large Munsterlander",
+    "Small Munsterlander",
+    "Petit Basset Griffon Vendéen",
+    "Griffon Bruxellois",
+    "Affenpinscher",
+    "Komondor",
+    "Pyrenean Mountain Dog",
+    "Norwegian Buhund",
+    "Swedish Vallhund",
+    "Finnish Lapphund",
+    "German Shorthaired Pointer",
+    "German Wirehaired Pointer",
+    "Tibetan Terrier"
+   ],
+   "outlier": [
+    "Otterhound",
+    "Schipperke",
+    "Clumber Spaniel",
+    "Kuvasz",
+    "Puli"
+   ]
+  },
+  "alias": {
+   "Labrador Retriever": [
+    "Labrador",
+    "Lab"
+   ],
+   "Golden Retriever": [
+    "Goldie"
+   ],
+   "German Shepherd": [
+    "Alsatian",
+    "German Shepherd Dog"
+   ],
+   "Bulldog": [
+    "English Bulldog"
+   ],
+   "Poodle": [
+    "Standard Poodle",
+    "Miniature Poodle",
+    "Toy Poodle"
+   ],
+   "Dachshund": [
+    "Sausage dog",
+    "Wiener dog"
+   ],
+   "Cocker Spaniel": [
+    "English Cocker Spaniel",
+    "Cocker"
+   ],
+   "Yorkshire Terrier": [
+    "Yorkie"
+   ],
+   "Staffordshire Bull Terrier": [
+    "Staffy",
+    "Staffie"
+   ],
+   "West Highland White Terrier": [
+    "Westie"
+   ],
+   "Dobermann": [
+    "Doberman",
+    "Doberman Pinscher"
+   ],
+   "French Bulldog": [
+    "Frenchie"
+   ],
+   "Shih Tzu": [
+    "Shih-tzu"
+   ],
+   "Siberian Husky": [
+    "Husky"
+   ],
+   "Pembroke Welsh Corgi": [
+    "Corgi",
+    "Welsh Corgi"
+   ],
+   "Cardigan Welsh Corgi": [
+    "Cardigan Corgi"
+   ],
+   "English Springer Spaniel": [
+    "Springer Spaniel",
+    "Springer"
+   ],
+   "Mastiff": [
+    "English Mastiff"
+   ],
+   "Shar Pei": [
+    "Chinese Shar-Pei"
+   ],
+   "Saint Bernard": [
+    "St Bernard",
+    "St. Bernard"
+   ],
+   "Pyrenean Mountain Dog": [
+    "Great Pyrenees",
+    "Pyrenean Mastiff"
+   ],
+   "Fox Terrier": [
+    "Smooth Fox Terrier",
+    "Wire Fox Terrier"
+   ],
+   "Scottish Deerhound": [
+    "Deerhound"
+   ],
+   "English Foxhound": [
+    "Foxhound"
+   ],
+   "Rough Collie": [
+    "Collie"
+   ],
+   "Old English Sheepdog": [
+    "Bobtail"
+   ],
+   "Miniature Schnauzer": [
+    "Mini Schnauzer"
+   ],
+   "Shiba Inu": [
+    "Shiba"
+   ],
+   "Jack Russell Terrier": [
+    "Jack Russell"
+   ],
+   "Akita": [
+    "Akita Inu"
+   ],
+   "Alaskan Malamute": [
+    "Malamute"
+   ],
+   "Bearded Collie": [
+    "Beardie"
+   ],
+   "Belgian Malinois": [
+    "Malinois"
+   ],
+   "Australian Cattle Dog": [
+    "Blue Heeler"
+   ],
+   "Lhasa Apso": [
+    "Lhasa"
+   ],
+   "Bichon Frise": [
+    "Bichon"
+   ],
+   "Cavalier King Charles Spaniel": [
+    "Cavalier"
+   ],
+   "Irish Wolfhound": [
+    "Wolfhound"
+   ],
+   "Weimaraner": [
+    "Weim"
+   ],
+   "Hungarian Vizsla": [
+    "Vizsla"
+   ],
+   "Irish Setter": [
+    "Red Setter"
+   ],
+   "Rhodesian Ridgeback": [
+    "Ridgeback"
+   ],
+   "Norwegian Elkhound": [
+    "Elkhound"
+   ],
+   "Newfoundland": [
+    "Newfie"
+   ],
+   "Bernese Mountain Dog": [
+    "Berner",
+    "Bernese"
+   ],
+   "Shetland Sheepdog": [
+    "Sheltie"
+   ],
+   "Pomeranian": [
+    "Pom"
+   ],
+   "Pekingese": [
+    "Peke"
+   ],
+   "Rottweiler": [
+    "Rottie"
+   ],
+   "Airedale Terrier": [
+    "Airedale"
+   ],
+   "Afghan Hound": [
+    "Afghan"
+   ],
+   "Saluki": [
+    "Gazelle hound"
+   ],
+   "Borzoi": [
+    "Russian Wolfhound"
+   ],
+   "Keeshond": [
+    "Dutch Barge Dog"
+   ],
+   "Chow Chow": [
+    "Chow"
+   ],
+   "Brittany": [
+    "Brittany Spaniel"
+   ],
+   "Dogue de Bordeaux": [
+    "Bordeaux Mastiff",
+    "French Mastiff"
+   ],
+   "Neapolitan Mastiff": [
+    "Mastino Napoletano"
+   ],
+   "Scottish Terrier": [
+    "Scottie"
+   ],
+   "Cairn Terrier": [
+    "Cairn"
+   ],
+   "Kerry Blue Terrier": [
+    "Kerry Blue"
+   ],
+   "Soft Coated Wheaten Terrier": [
+    "Wheaten"
+   ],
+   "Parson Russell Terrier": [
+    "Parson Jack Russell Terrier"
+   ],
+   "Miniature Bull Terrier": [
+    "Mini Bull Terrier"
+   ],
+   "Lagotto Romagnolo": [
+    "Lagotto"
+   ],
+   "Spinone Italiano": [
+    "Spinone"
+   ],
+   "Griffon Bruxellois": [
+    "Brussels Griffon"
+   ],
+   "Chesapeake Bay Retriever": [
+    "Chessie"
+   ],
+   "Nova Scotia Duck Tolling Retriever": [
+    "Toller"
+   ],
+   "Flat-Coated Retriever": [
+    "Flat Coat"
+   ],
+   "Swedish Vallhund": [
+    "Vallhund"
+   ],
+   "Bedlington Terrier": [
+    "Bedlington"
+   ],
+   "Manchester Terrier": [
+    "Manchester"
+   ]
+  },
+  "traps": {
+   "Labradoodle": "A designer crossbreed, so not a Kennel Club breed.",
+   "Cockapoo": "A Cocker Spaniel and Poodle cross, not a recognised breed.",
+   "Chocolate Labrador": "A colour variety of the Labrador, not a separate breed.",
+   "Wolf": "A wild canid, not a dog breed.",
+   "Mongrel": "An unplanned mix of breeds, not a recognised breed."
+  },
+  "fact": "Otterhounds were bred to hunt otters, a job that ended in England and Wales when the Hunting Act 2004 took effect in 2005."
+ },
+ {
+  "id": "sci-nat-cat-breeds",
+  "cat": "Animals",
+  "title": "Purr-fect",
+  "q": "A cat breed",
+  "rule": "Recognised breeds from the major cat registries count; non-pedigree moggies and coat patterns like tabby do not.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Siamese",
+    "Persian",
+    "Maine Coon",
+    "Ragdoll",
+    "British Shorthair",
+    "Sphynx"
+   ],
+   "hipster": [
+    "Scottish Fold",
+    "Russian Blue"
+   ],
+   "body": [
+    "Abyssinian",
+    "Bengal",
+    "Burmese",
+    "Birman",
+    "Manx",
+    "Norwegian Forest Cat",
+    "Devon Rex",
+    "Cornish Rex",
+    "American Shorthair",
+    "Exotic Shorthair",
+    "Oriental Shorthair",
+    "Chartreux",
+    "Turkish Angora",
+    "Egyptian Mau",
+    "Havana Brown",
+    "Himalayan",
+    "Munchkin",
+    "Savannah",
+    "Ocicat",
+    "Balinese",
+    "Tonkinese",
+    "Bombay",
+    "Burmilla",
+    "Japanese Bobtail",
+    "Somali",
+    "Siberian",
+    "Snowshoe",
+    "Selkirk Rex",
+    "Ragamuffin",
+    "American Curl",
+    "Korat"
+   ],
+   "tail": [
+    "Singapura",
+    "Turkish Van",
+    "Sokoke",
+    "Chausie",
+    "Toyger",
+    "Pixie-bob",
+    "Cymric",
+    "LaPerm",
+    "Peterbald",
+    "Donskoy",
+    "Nebelung",
+    "Lykoi",
+    "Kurilian Bobtail",
+    "Javanese",
+    "Thai"
+   ],
+   "deep": [
+    "Khao Manee",
+    "Serengeti",
+    "Ukrainian Levkoy",
+    "Bambino",
+    "Chantilly-Tiffany",
+    "Colorpoint Shorthair"
+   ],
+   "outlier": [
+    "Dwelf",
+    "Napoleon",
+    "Highlander",
+    "Minskin",
+    "American Wirehair"
+   ]
+  },
+  "alias": {
+   "Egyptian Mau": [
+    "Mau"
+   ],
+   "Russian Blue": [
+    "Archangel Blue"
+   ],
+   "Turkish Angora": [
+    "Angora"
+   ],
+   "Exotic Shorthair": [
+    "Exotic"
+   ],
+   "Oriental Shorthair": [
+    "Oriental"
+   ],
+   "Donskoy": [
+    "Don Sphynx"
+   ],
+   "Cymric": [
+    "Longhaired Manx"
+   ],
+   "Khao Manee": [
+    "Diamond Eye"
+   ],
+   "Lykoi": [
+    "Werewolf cat"
+   ],
+   "Colorpoint Shorthair": [
+    "Colourpoint Shorthair",
+    "Colourpoint"
+   ],
+   "Ukrainian Levkoy": [
+    "Levkoy"
+   ],
+   "Pixie-bob": [
+    "Pixiebob"
+   ],
+   "Siberian": [
+    "Siberian Forest Cat"
+   ],
+   "Norwegian Forest Cat": [
+    "Norwegian Forest"
+   ],
+   "Birman": [
+    "Sacred Birman"
+   ],
+   "Chantilly-Tiffany": [
+    "Chantilly",
+    "Tiffany"
+   ],
+   "Korat": [
+    "Si-Sawat"
+   ],
+   "Thai": [
+    "Wichien Maat"
+   ]
+  },
+  "traps": {
+   "Tabby": "A coat pattern, not a breed.",
+   "Moggy": "A non-pedigree mixed-breed cat, not a breed.",
+   "Calico": "A coat colour pattern, not a breed.",
+   "Ocelot": "A wild cat from the Americas, not a domestic breed.",
+   "Tiger": "A wild big cat, not a domestic breed."
+  },
+  "fact": "The Donskoy began in 1987 in Rostov-on-Don, Russia, from a hairless kitten born to a local cat, and the breed was later named after the river."
+ },
+ {
+  "id": "sci-nat-british-birds",
+  "cat": "Birds",
+  "title": "Twitcher's list",
+  "q": "A bird you could see in Britain",
+  "rule": "Species that occur wild in Britain count, including regular visitors; escaped pets and extinct species do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Robin",
+    "Blackbird",
+    "Blue Tit",
+    "Wren",
+    "Magpie",
+    "House Sparrow"
+   ],
+   "hipster": [
+    "Kingfisher",
+    "Goldcrest"
+   ],
+   "body": [
+    "Great Tit",
+    "Starling",
+    "Song Thrush",
+    "Woodpigeon",
+    "Chaffinch",
+    "Goldfinch",
+    "Swallow",
+    "Barn Owl",
+    "Tawny Owl",
+    "Great Spotted Woodpecker",
+    "Green Woodpecker",
+    "Common Buzzard",
+    "Red Kite",
+    "Peregrine Falcon",
+    "Swift",
+    "Mute Swan",
+    "Mallard",
+    "Moorhen",
+    "Coot",
+    "Grey Heron",
+    "Cormorant",
+    "Herring Gull",
+    "Black-headed Gull",
+    "Lapwing",
+    "Skylark",
+    "Dunnock",
+    "Long-tailed Tit",
+    "Coal Tit",
+    "Nuthatch",
+    "Treecreeper",
+    "Jay",
+    "Jackdaw",
+    "Rook",
+    "Carrion Crow",
+    "Sparrowhawk",
+    "Kestrel",
+    "Puffin",
+    "Gannet",
+    "Oystercatcher",
+    "Canada Goose",
+    "Pheasant"
+   ],
+   "tail": [
+    "Nightingale",
+    "Cuckoo",
+    "Chiffchaff",
+    "Blackcap",
+    "Whitethroat",
+    "Willow Warbler",
+    "Sedge Warbler",
+    "Spotted Flycatcher",
+    "Pied Wagtail",
+    "Grey Wagtail",
+    "Meadow Pipit",
+    "Stonechat",
+    "Wheatear",
+    "Redstart",
+    "Dipper",
+    "Waxwing",
+    "Bullfinch",
+    "Greenfinch",
+    "Siskin",
+    "Linnet",
+    "Yellowhammer",
+    "Reed Bunting",
+    "Bearded Tit",
+    "Crossbill",
+    "Hawfinch",
+    "Kittiwake",
+    "Common Tern",
+    "Little Egret",
+    "Bittern",
+    "Osprey",
+    "Golden Eagle",
+    "Snipe",
+    "Golden Plover",
+    "Curlew",
+    "Dunlin",
+    "Sanderling",
+    "Turnstone",
+    "Guillemot",
+    "Razorbill",
+    "Shag",
+    "Fulmar",
+    "Eider",
+    "Goosander",
+    "Pintail",
+    "Shelduck",
+    "Little Grebe",
+    "Great Crested Grebe",
+    "Tufted Duck",
+    "Pochard",
+    "Wigeon",
+    "Teal",
+    "Gadwall",
+    "Shoveler",
+    "Stock Dove",
+    "Collared Dove",
+    "Greylag Goose"
+   ],
+   "deep": [
+    "Reed Warbler",
+    "Garden Warbler",
+    "Wood Warbler",
+    "Pied Flycatcher",
+    "Tree Pipit",
+    "Lesser Redpoll",
+    "Brambling",
+    "Mistle Thrush",
+    "Redwing",
+    "Fieldfare",
+    "Ring Ouzel",
+    "Corn Bunting",
+    "Cirl Bunting",
+    "Snow Bunting",
+    "Tree Sparrow",
+    "Whinchat",
+    "Woodlark",
+    "Sand Martin",
+    "House Martin",
+    "Nightjar",
+    "Wryneck",
+    "Woodcock",
+    "Avocet",
+    "Black-tailed Godwit",
+    "Bar-tailed Godwit",
+    "Whimbrel",
+    "Redshank",
+    "Greenshank",
+    "Knot",
+    "Ringed Plover",
+    "Sandwich Tern",
+    "Little Tern",
+    "Arctic Tern",
+    "Storm Petrel",
+    "Manx Shearwater",
+    "Spoonbill",
+    "Hobby",
+    "Merlin",
+    "Hen Harrier",
+    "Marsh Harrier",
+    "Goshawk",
+    "Red-throated Diver",
+    "Marsh Tit",
+    "Willow Tit",
+    "Firecrest",
+    "Crane",
+    "Capercaillie",
+    "Red Grouse",
+    "Black Grouse",
+    "Ptarmigan",
+    "Crested Tit",
+    "Corncrake",
+    "Quail",
+    "Dotterel",
+    "Turtle Dove",
+    "Honey Buzzard",
+    "Montagu's Harrier",
+    "Long-eared Owl",
+    "Short-eared Owl",
+    "Little Owl"
+   ],
+   "outlier": [
+    "Hoopoe",
+    "Bee-eater",
+    "Snowy Owl",
+    "Golden Oriole",
+    "Red-backed Shrike"
+   ]
+  },
+  "alias": {
+   "Robin": [
+    "Robin Redbreast"
+   ],
+   "Wren": [
+    "Jenny Wren"
+   ],
+   "Goldcrest": [
+    "Golden-crested Wren"
+   ],
+   "Kingfisher": [
+    "Common Kingfisher"
+   ],
+   "Woodpigeon": [
+    "Wood Pigeon"
+   ],
+   "Swallow": [
+    "Barn Swallow"
+   ],
+   "Great Spotted Woodpecker": [
+    "Greater Spotted Woodpecker"
+   ],
+   "Common Buzzard": [
+    "Buzzard"
+   ],
+   "Peregrine Falcon": [
+    "Peregrine"
+   ],
+   "Mute Swan": [
+    "Swan"
+   ],
+   "Grey Heron": [
+    "Heron"
+   ],
+   "Lapwing": [
+    "Peewit"
+   ],
+   "Puffin": [
+    "Atlantic Puffin"
+   ],
+   "Gannet": [
+    "Northern Gannet"
+   ],
+   "Oystercatcher": [
+    "Eurasian Oystercatcher"
+   ],
+   "Pheasant": [
+    "Common Pheasant"
+   ],
+   "Guillemot": [
+    "Common Guillemot"
+   ],
+   "Kittiwake": [
+    "Black-legged Kittiwake"
+   ],
+   "Redstart": [
+    "Common Redstart"
+   ],
+   "Dipper": [
+    "White-throated Dipper"
+   ],
+   "Lesser Redpoll": [
+    "Redpoll"
+   ],
+   "Little Egret": [
+    "Egret"
+   ],
+   "Collared Dove": [
+    "Eurasian Collared Dove"
+   ],
+   "Greylag Goose": [
+    "Greylag"
+   ],
+   "Bee-eater": [
+    "European Bee-eater"
+   ]
+  },
+  "traps": {
+   "Parrot": "Native British parrots do not exist; ring-necked parakeets are only established feral birds.",
+   "Emu": "A flightless Australian bird, not found wild in Britain.",
+   "Penguin": "Penguins live in the Southern Hemisphere, not wild in Britain.",
+   "Ostrich": "Native to Africa, not found wild in Britain.",
+   "Dodo": "An extinct flightless bird from Mauritius."
+  },
+  "fact": "The Golden Oriole is a rare summer visitor to Britain, with a flute-like song."
+ },
+ {
+  "id": "sci-nat-african-mammals",
+  "cat": "Animals",
+  "title": "Safari special",
+  "q": "A mammal native to Africa",
+  "rule": "Mammals whose native range is mainly in Africa count; animals introduced from elsewhere do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Lion",
+    "Elephant",
+    "Giraffe",
+    "Zebra",
+    "Hippopotamus",
+    "Rhinoceros"
+   ],
+   "hipster": [
+    "Aardvark",
+    "Okapi"
+   ],
+   "body": [
+    "Cheetah",
+    "Leopard",
+    "Gorilla",
+    "Chimpanzee",
+    "Meerkat",
+    "Warthog",
+    "Wildebeest",
+    "Spotted Hyena",
+    "Baboon",
+    "Impala",
+    "Springbok",
+    "African Buffalo",
+    "Greater Kudu",
+    "Eland",
+    "Honey Badger",
+    "Serval",
+    "Caracal",
+    "African Wild Dog",
+    "Black-backed Jackal",
+    "Pangolin",
+    "Mandrill",
+    "Bonobo",
+    "Vervet Monkey",
+    "Fennec Fox",
+    "Aardwolf",
+    "Gazelle",
+    "Oryx",
+    "Hartebeest",
+    "Bushbuck",
+    "Nyala",
+    "Sable Antelope",
+    "Roan Antelope",
+    "Waterbuck",
+    "Topi",
+    "Bat-eared Fox",
+    "Crested Porcupine"
+   ],
+   "tail": [
+    "Gelada",
+    "Colobus",
+    "Patas Monkey",
+    "Drill",
+    "Hamadryas Baboon",
+    "Rock Hyrax",
+    "Cape Fox",
+    "Dik-dik",
+    "Duiker",
+    "Klipspringer",
+    "Steenbok",
+    "Kob",
+    "Puku",
+    "Oribi",
+    "Lechwe",
+    "Bongo",
+    "Gerenuk",
+    "Blesbok",
+    "Addax",
+    "Bushpig",
+    "Giant Forest Hog",
+    "Striped Hyena",
+    "Brown Hyena",
+    "Dwarf Mongoose",
+    "Slender Mongoose",
+    "Zorilla",
+    "African Civet",
+    "Bushbaby",
+    "Elephant Shrew",
+    "Naked Mole-rat"
+   ],
+   "deep": [
+    "Egyptian Jerboa",
+    "Golden Mole",
+    "Cape Mole-rat",
+    "Yellow Mongoose",
+    "Marsh Mongoose",
+    "Lesser Kudu",
+    "Mountain Nyala",
+    "Bohor Reedbuck",
+    "Suni",
+    "West African Manatee"
+   ],
+   "outlier": [
+    "Hirola",
+    "Dibatag",
+    "Sitatunga",
+    "Pygmy Hippopotamus",
+    "Gambian Pouched Rat"
+   ]
+  },
+  "alias": {
+   "Hippopotamus": [
+    "Hippo"
+   ],
+   "Rhinoceros": [
+    "Rhino"
+   ],
+   "Elephant": [
+    "African Elephant"
+   ],
+   "Gorilla": [
+    "Western Gorilla",
+    "Eastern Gorilla",
+    "Mountain Gorilla"
+   ],
+   "Chimpanzee": [
+    "Chimp"
+   ],
+   "Meerkat": [
+    "Suricate"
+   ],
+   "Warthog": [
+    "Common Warthog"
+   ],
+   "Wildebeest": [
+    "Gnu"
+   ],
+   "Spotted Hyena": [
+    "Laughing Hyena"
+   ],
+   "African Buffalo": [
+    "Buffalo",
+    "Cape Buffalo"
+   ],
+   "Greater Kudu": [
+    "Kudu"
+   ],
+   "Honey Badger": [
+    "Ratel"
+   ],
+   "Caracal": [
+    "African Lynx"
+   ],
+   "African Wild Dog": [
+    "Wild Dog",
+    "Painted Dog",
+    "Cape Hunting Dog"
+   ],
+   "Black-backed Jackal": [
+    "Silver-backed Jackal"
+   ],
+   "Bonobo": [
+    "Pygmy Chimpanzee"
+   ],
+   "Vervet Monkey": [
+    "Vervet"
+   ],
+   "Fennec Fox": [
+    "Fennec"
+   ],
+   "Aardwolf": [
+    "Earth Wolf"
+   ],
+   "Oryx": [
+    "Gemsbok"
+   ],
+   "Hartebeest": [
+    "Kongoni"
+   ],
+   "Sable Antelope": [
+    "Sable"
+   ],
+   "Roan Antelope": [
+    "Roan"
+   ],
+   "Crested Porcupine": [
+    "Porcupine"
+   ],
+   "Gerenuk": [
+    "Giraffe Gazelle"
+   ],
+   "African Civet": [
+    "Civet"
+   ],
+   "Bushbaby": [
+    "Galago"
+   ],
+   "Elephant Shrew": [
+    "Sengi"
+   ],
+   "Naked Mole-rat": [
+    "Naked Mole Rat"
+   ],
+   "Gelada": [
+    "Bleeding-heart Monkey"
+   ],
+   "Colobus": [
+    "Colobus Monkey"
+   ],
+   "Patas Monkey": [
+    "Hussar Monkey"
+   ],
+   "Rock Hyrax": [
+    "Dassie"
+   ],
+   "Pygmy Hippopotamus": [
+    "Pygmy Hippo"
+   ],
+   "Hirola": [
+    "Hunter's Hartebeest"
+   ],
+   "Dibatag": [
+    "Clarke's Gazelle"
+   ],
+   "Sitatunga": [
+    "Marshbuck"
+   ],
+   "Gambian Pouched Rat": [
+    "Giant Pouched Rat"
+   ],
+   "Giant Forest Hog": [
+    "Giant Forest Pig"
+   ]
+  },
+  "traps": {
+   "Kangaroo": "Native to Australia, not Africa.",
+   "Tiger": "A big cat native to Asia, not Africa.",
+   "Panda": "A bear native to China.",
+   "Llama": "Native to South America.",
+   "Bison": "Native to North America and Europe, not Africa."
+  },
+  "fact": "The Hirola is one of the world's rarest antelopes, found only in a small area on the Kenya and Somalia border."
+ },
+ {
+  "id": "sci-nat-dinosaur-genera",
+  "cat": "Animals",
+  "title": "Terrible lizard",
+  "q": "A dinosaur genus",
+  "rule": "Only genus names count, not species names; flying and marine reptiles are not dinosaurs.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Tyrannosaurus",
+    "Stegosaurus",
+    "Triceratops",
+    "Velociraptor",
+    "Brachiosaurus",
+    "Diplodocus"
+   ],
+   "hipster": [
+    "Spinosaurus",
+    "Ankylosaurus"
+   ],
+   "body": [
+    "Iguanodon",
+    "Allosaurus",
+    "Parasaurolophus",
+    "Pachycephalosaurus",
+    "Apatosaurus",
+    "Megalosaurus",
+    "Compsognathus",
+    "Dilophosaurus",
+    "Carnotaurus",
+    "Giganotosaurus",
+    "Gallimimus",
+    "Oviraptor",
+    "Deinonychus",
+    "Utahraptor",
+    "Baryonyx",
+    "Plateosaurus",
+    "Argentinosaurus",
+    "Maiasaura",
+    "Protoceratops",
+    "Troodon",
+    "Microraptor",
+    "Coelophysis",
+    "Eoraptor",
+    "Camarasaurus",
+    "Edmontosaurus",
+    "Hadrosaurus",
+    "Corythosaurus",
+    "Ceratosaurus"
+   ],
+   "tail": [
+    "Pachyrhinosaurus",
+    "Therizinosaurus",
+    "Irritator",
+    "Suchomimus",
+    "Concavenator",
+    "Herrerasaurus",
+    "Mamenchisaurus",
+    "Supersaurus",
+    "Styracosaurus",
+    "Chasmosaurus",
+    "Centrosaurus",
+    "Pentaceratops",
+    "Torosaurus",
+    "Ouranosaurus",
+    "Lambeosaurus",
+    "Kentrosaurus",
+    "Scelidosaurus",
+    "Hypsilophodon",
+    "Struthiomimus",
+    "Ornithomimus",
+    "Anchisaurus",
+    "Massospondylus",
+    "Heterodontosaurus",
+    "Euoplocephalus",
+    "Nodosaurus",
+    "Minmi",
+    "Tarbosaurus",
+    "Albertosaurus",
+    "Gorgosaurus",
+    "Dromaeosaurus"
+   ],
+   "deep": [
+    "Gigantoraptor",
+    "Sauropelta",
+    "Yangchuanosaurus",
+    "Monolophosaurus",
+    "Daspletosaurus",
+    "Austroraptor",
+    "Megaraptor",
+    "Acrocanthosaurus",
+    "Sinosauropteryx",
+    "Psittacosaurus",
+    "Muttaburrasaurus",
+    "Amargasaurus",
+    "Saltasaurus",
+    "Dreadnoughtus",
+    "Patagotitan",
+    "Sauroposeidon",
+    "Ampelosaurus",
+    "Rapetosaurus",
+    "Majungasaurus",
+    "Abelisaurus",
+    "Noasaurus",
+    "Stygimoloch",
+    "Stegoceras",
+    "Tsintaosaurus"
+   ],
+   "outlier": [
+    "Ichthyovenator",
+    "Cryolophosaurus",
+    "Leaellynasaura",
+    "Homalocephale",
+    "Shantungosaurus"
+   ]
+  },
+  "alias": {
+   "Apatosaurus": [
+    "Brontosaurus"
+   ],
+   "Tyrannosaurus": [
+    "T. rex",
+    "T-rex"
+   ]
+  },
+  "traps": {
+   "Pterodactyl": "A flying reptile, a pterosaur, not a dinosaur.",
+   "Plesiosaur": "A marine reptile, not a dinosaur.",
+   "Mosasaurus": "A marine lizard from the Cretaceous, not a dinosaur.",
+   "Dimetrodon": "A synapsid, more closely related to mammals than to dinosaurs.",
+   "Woolly mammoth": "A mammal from the Ice Age, not a dinosaur."
+  },
+  "fact": "Leaellynasaura, from Victoria in Australia, had large brain areas linked to vision, which suggests it saw well in dark polar winters."
+ },
+ {
+  "id": "sci-nat-sharks",
+  "cat": "Animals",
+  "title": "Fin-tastic",
+  "q": "Any kind of shark",
+  "rule": "Living shark species with a common name count; extinct sharks and shark family names do not.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Great White Shark",
+    "Tiger Shark",
+    "Hammerhead Shark",
+    "Whale Shark",
+    "Bull Shark",
+    "Mako Shark"
+   ],
+   "hipster": [
+    "Megamouth Shark",
+    "Wobbegong"
+   ],
+   "body": [
+    "Blue Shark",
+    "Lemon Shark",
+    "Nurse Shark",
+    "Thresher Shark",
+    "Basking Shark",
+    "Spiny Dogfish",
+    "Angel Shark",
+    "Sand Tiger Shark",
+    "Greenland Shark",
+    "Goblin Shark",
+    "Leopard Shark",
+    "Zebra Shark",
+    "Blacktip Shark",
+    "Whitetip Reef Shark",
+    "Oceanic Whitetip Shark",
+    "Porbeagle",
+    "Frilled Shark",
+    "Cookiecutter Shark",
+    "Sandbar Shark",
+    "Dusky Shark",
+    "Silky Shark",
+    "Bonnethead",
+    "Smooth Hammerhead",
+    "Great Hammerhead",
+    "Scalloped Hammerhead"
+   ],
+   "tail": [
+    "Longfin Mako",
+    "Salmon Shark",
+    "Sixgill Shark",
+    "Sevengill Shark",
+    "Bamboo Shark",
+    "Swell Shark",
+    "Epaulette Shark",
+    "Tope",
+    "Small-spotted Catshark",
+    "Lantern Shark",
+    "Grey Reef Shark",
+    "Galapagos Shark",
+    "Caribbean Reef Shark",
+    "Blacktip Reef Shark",
+    "Pygmy Shark",
+    "Horn Shark",
+    "Port Jackson Shark"
+   ],
+   "deep": [
+    "Ornate Wobbegong",
+    "Tawny Nurse Shark",
+    "Caribbean Sharpnose Shark",
+    "Sharpnose Sevengill Shark",
+    "Bigeye Thresher",
+    "Sicklefin Lemon Shark",
+    "Common Sawshark"
+   ],
+   "outlier": [
+    "Bramble Shark",
+    "Kitefin Shark",
+    "Dwarf Lanternshark",
+    "Winghead Shark",
+    "Crocodile Shark"
+   ]
+  },
+  "alias": {
+   "Great White Shark": [
+    "Great White",
+    "White Shark"
+   ],
+   "Hammerhead Shark": [
+    "Hammerhead"
+   ],
+   "Bull Shark": [
+    "Zambezi Shark"
+   ],
+   "Mako Shark": [
+    "Mako",
+    "Shortfin Mako"
+   ],
+   "Thresher Shark": [
+    "Thresher"
+   ],
+   "Spiny Dogfish": [
+    "Dogfish",
+    "Spurdog"
+   ],
+   "Angel Shark": [
+    "Monkfish"
+   ],
+   "Sand Tiger Shark": [
+    "Grey Nurse Shark"
+   ],
+   "Small-spotted Catshark": [
+    "Lesser Spotted Dogfish"
+   ],
+   "Tope": [
+    "School Shark",
+    "Tope Shark"
+   ],
+   "Megamouth Shark": [
+    "Megamouth"
+   ],
+   "Oceanic Whitetip Shark": [
+    "Oceanic Whitetip"
+   ],
+   "Cookiecutter Shark": [
+    "Cookiecutter"
+   ],
+   "Bonnethead": [
+    "Bonnethead Shark"
+   ]
+  },
+  "traps": {
+   "Megalodon": "An extinct giant shark, not a living species.",
+   "Dolphin": "A marine mammal, not a shark.",
+   "Orca": "A killer whale, a large dolphin, not a shark.",
+   "Swordfish": "A bony fish, not a shark.",
+   "Barracuda": "A bony fish, not a shark."
+  },
+  "fact": "The bramble shark is covered in thorny, bramble-like spines, and it is rarely seen because it lives in deep water."
+ },
+ {
+  "id": "sci-nat-snakes",
+  "cat": "Animals",
+  "title": "Hiss-tory",
+  "q": "Any kind of snake",
+  "rule": "Living snake species with a common name count; legless lizards and worms do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Python",
+    "Cobra",
+    "Rattlesnake",
+    "Anaconda",
+    "Boa Constrictor",
+    "Adder"
+   ],
+   "hipster": [
+    "Green Mamba",
+    "Coastal Taipan"
+   ],
+   "body": [
+    "Garter Snake",
+    "Milk Snake",
+    "Corn Snake",
+    "Ball Python",
+    "Reticulated Python",
+    "Burmese Python",
+    "Green Anaconda",
+    "Yellow Anaconda",
+    "King Cobra",
+    "Black Mamba",
+    "Copperhead",
+    "Cottonmouth",
+    "Krait",
+    "Gaboon Viper",
+    "Puff Adder",
+    "Brown Tree Snake",
+    "Eastern Diamondback",
+    "Sidewinder",
+    "Bushmaster",
+    "Fer-de-lance"
+   ],
+   "tail": [
+    "Western Diamondback",
+    "Coral Snake",
+    "Boomslang",
+    "Egyptian Cobra",
+    "Rinkhals",
+    "Death Adder",
+    "Tiger Snake",
+    "Eastern Brown Snake",
+    "Inland Taipan",
+    "Mulga Snake",
+    "Hognose Snake",
+    "Rat Snake",
+    "Gopher Snake",
+    "Kingsnake",
+    "Coachwhip",
+    "Black Racer",
+    "Ringneck Snake",
+    "Yellow-bellied Sea Snake",
+    "Western Brown Snake",
+    "Rubber Boa"
+   ],
+   "deep": [
+    "Green Tree Python",
+    "Carpet Python",
+    "Emerald Tree Boa",
+    "Mangrove Snake",
+    "Vine Snake",
+    "Night Adder",
+    "Smooth Snake",
+    "Asp Viper",
+    "Nose-horned Viper",
+    "Dugite",
+    "Hump-nosed Viper",
+    "Dhaman"
+   ],
+   "outlier": [
+    "Sunbeam Snake",
+    "Mole Snake",
+    "Habu",
+    "Mamushi",
+    "Jararaca"
+   ]
+  },
+  "alias": {
+   "Adder": [
+    "Common Adder"
+   ],
+   "Rattlesnake": [
+    "Rattler"
+   ],
+   "Boa Constrictor": [
+    "Boa"
+   ],
+   "Corn Snake": [
+    "Red Rat Snake"
+   ],
+   "Ball Python": [
+    "Royal Python"
+   ],
+   "King Cobra": [
+    "Hamadryad"
+   ],
+   "Cottonmouth": [
+    "Water Moccasin"
+   ],
+   "Fer-de-lance": [
+    "Terciopelo"
+   ],
+   "Egyptian Cobra": [
+    "Asp"
+   ],
+   "Rinkhals": [
+    "Ringhals"
+   ],
+   "Inland Taipan": [
+    "Fierce Snake"
+   ],
+   "Mulga Snake": [
+    "King Brown"
+   ],
+   "Gopher Snake": [
+    "Bullsnake"
+   ],
+   "Kingsnake": [
+    "King Snake"
+   ],
+   "Ringneck Snake": [
+    "Ring-necked Snake"
+   ],
+   "Carpet Python": [
+    "Carpet Snake"
+   ],
+   "Emerald Tree Boa": [
+    "Emerald Boa"
+   ]
+  },
+  "traps": {
+   "Slow worm": "A legless lizard, not a snake.",
+   "Gila monster": "A venomous lizard, not a snake.",
+   "Worm": "An invertebrate, not a snake.",
+   "Eel": "A fish, not a snake.",
+   "Sea serpent": "A mythical creature, not a real snake."
+  },
+  "fact": "The smooth snake is one of only three snake species native to Britain, and it is often mistaken for an adder."
+ },
+ {
+  "id": "sci-nat-garden-minibeasts",
+  "cat": "Nature",
+  "title": "Bug hunt",
+  "q": "A minibeast found in a British garden",
+  "rule": "Any wild creepy-crawly that lives in a British garden counts, but birds, mammals and amphibians do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Ladybird",
+    "Bumblebee",
+    "Honeybee",
+    "Earwig",
+    "Woodlouse",
+    "Garden Snail"
+   ],
+   "hipster": [
+    "Green Lacewing",
+    "Harvestman"
+   ],
+   "body": [
+    "Red Admiral",
+    "Peacock Butterfly",
+    "Cabbage White",
+    "Small Tortoiseshell",
+    "Garden Spider",
+    "House Spider",
+    "Earthworm",
+    "Slug",
+    "Millipede",
+    "Centipede",
+    "Cranefly",
+    "Dragonfly",
+    "Damselfly",
+    "Hoverfly",
+    "Ant",
+    "Common Wasp",
+    "Red Mason Bee",
+    "Cockchafer"
+   ],
+   "tail": [
+    "Harlequin Ladybird",
+    "Seven-spot Ladybird",
+    "Two-spot Ladybird",
+    "Ground Beetle",
+    "Devil's Coach-horse",
+    "Click Beetle",
+    "Violet Ground Beetle",
+    "Ichneumon Wasp",
+    "Sawfly",
+    "Leatherjacket",
+    "Wolf Spider",
+    "Jumping Spider",
+    "Orb Weaver",
+    "Money Spider",
+    "Cellar Spider",
+    "Orange-tip",
+    "Comma",
+    "Holly Blue",
+    "Speckled Wood",
+    "Large White",
+    "Green-veined White",
+    "Aphid"
+   ],
+   "deep": [
+    "Stag Beetle",
+    "Glow-worm",
+    "Green Shieldbug",
+    "Hornet",
+    "Leafcutter Bee",
+    "Mining Bee",
+    "Hawthorn Shieldbug",
+    "Pond Skater",
+    "Water Boatman"
+   ],
+   "outlier": [
+    "Pseudoscorpion",
+    "Scorpionfly",
+    "Pill Millipede",
+    "Springtail",
+    "Cuckoo Wasp"
+   ]
+  },
+  "alias": {
+   "Ladybird": [
+    "Ladybug"
+   ],
+   "Bumblebee": [
+    "Bumble Bee"
+   ],
+   "Honeybee": [
+    "Honey Bee"
+   ],
+   "Woodlouse": [
+    "Woodlice",
+    "Pill Bug"
+   ],
+   "Garden Snail": [
+    "Snail"
+   ],
+   "Green Lacewing": [
+    "Lacewing"
+   ],
+   "Peacock Butterfly": [
+    "Peacock"
+   ],
+   "Small Tortoiseshell": [
+    "Tortoiseshell"
+   ],
+   "Garden Spider": [
+    "Cross Spider"
+   ],
+   "Earthworm": [
+    "Worm",
+    "Common Earthworm"
+   ],
+   "Cranefly": [
+    "Daddy-long-legs",
+    "Crane Fly"
+   ],
+   "Common Wasp": [
+    "Wasp"
+   ],
+   "Cockchafer": [
+    "May Bug"
+   ],
+   "Aphid": [
+    "Greenfly",
+    "Blackfly"
+   ],
+   "Harlequin Ladybird": [
+    "Harlequin"
+   ],
+   "Seven-spot Ladybird": [
+    "Seven-spotted Ladybird"
+   ],
+   "Springtail": [
+    "Collembola"
+   ],
+   "Pseudoscorpion": [
+    "False Scorpion"
+   ],
+   "Glow-worm": [
+    "Glowworm"
+   ],
+   "Green Shieldbug": [
+    "Green Shield Bug"
+   ],
+   "Hornet": [
+    "European Hornet"
+   ],
+   "Leatherjacket": [
+    "Crane Fly Larva"
+   ]
+  },
+  "traps": {
+   "Hedgehog": "A mammal, not a minibeast.",
+   "Frog": "An amphibian, not a minibeast.",
+   "Mouse": "A mammal, not a minibeast.",
+   "Newt": "An amphibian, not a minibeast.",
+   "Bat": "A flying mammal, not a minibeast."
+  },
+  "fact": "The female glow-worm is wingless and glows to attract males, so she often looks more like a larva than an adult beetle."
+ },
+ {
+  "id": "sci-nat-british-trees",
+  "cat": "Nature",
+  "title": "Timber!",
+  "q": "A tree that grows in Britain",
+  "rule": "Trees that grow outdoors in Britain count, native or planted; shrubs and grasses do not.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Oak",
+    "Ash",
+    "Birch",
+    "Beech",
+    "Sycamore",
+    "Horse Chestnut"
+   ],
+   "hipster": [
+    "Hornbeam",
+    "Wych Elm"
+   ],
+   "body": [
+    "Hawthorn",
+    "Rowan",
+    "Holly",
+    "Elm",
+    "Poplar",
+    "Willow",
+    "Lime",
+    "Yew",
+    "Scots Pine",
+    "Larch",
+    "Norway Spruce",
+    "Douglas Fir",
+    "Cedar",
+    "London Plane",
+    "Walnut",
+    "Wild Cherry",
+    "Apple",
+    "Laburnum",
+    "Magnolia",
+    "Crab Apple",
+    "Field Maple",
+    "Sweet Chestnut",
+    "Monkey Puzzle",
+    "Whitebeam",
+    "Aspen",
+    "Alder",
+    "Leyland Cypress"
+   ],
+   "tail": [
+    "Sessile Oak",
+    "Turkey Oak",
+    "Holm Oak",
+    "Giant Sequoia",
+    "Robinia",
+    "Catalpa",
+    "Norway Maple",
+    "Ginkgo",
+    "Tulip Tree",
+    "Black Poplar",
+    "White Poplar",
+    "Grey Poplar",
+    "Goat Willow",
+    "Crack Willow",
+    "White Willow",
+    "Weeping Willow",
+    "Bird Cherry",
+    "Wild Pear",
+    "Service Tree"
+   ],
+   "deep": [
+    "Coast Redwood",
+    "Small-leaved Lime",
+    "Large-leaved Lime",
+    "Corsican Pine",
+    "Maritime Pine",
+    "Lodgepole Pine",
+    "Sitka Spruce",
+    "Western Red Cedar",
+    "Noble Fir",
+    "Grand Fir",
+    "Serbian Spruce",
+    "Italian Alder",
+    "Cork Oak",
+    "Japanese Maple"
+   ],
+   "outlier": [
+    "Dawn Redwood",
+    "Katsura Tree",
+    "Handkerchief Tree",
+    "Sweetgum",
+    "Juneberry"
+   ]
+  },
+  "alias": {
+   "Oak": [
+    "English Oak",
+    "Pedunculate Oak"
+   ],
+   "Ash": [
+    "Common Ash"
+   ],
+   "Birch": [
+    "Silver Birch"
+   ],
+   "Beech": [
+    "Common Beech",
+    "European Beech"
+   ],
+   "Sycamore": [
+    "Sycamore Maple"
+   ],
+   "Horse Chestnut": [
+    "Conker Tree"
+   ],
+   "Hornbeam": [
+    "Common Hornbeam"
+   ],
+   "Hawthorn": [
+    "May Tree",
+    "Quickthorn"
+   ],
+   "Rowan": [
+    "Mountain Ash"
+   ],
+   "Holly": [
+    "Common Holly",
+    "English Holly"
+   ],
+   "Elm": [
+    "English Elm"
+   ],
+   "Lime": [
+    "Linden",
+    "Lime Tree",
+    "Common Lime"
+   ],
+   "Yew": [
+    "English Yew"
+   ],
+   "Scots Pine": [
+    "Scotch Pine"
+   ],
+   "Larch": [
+    "European Larch"
+   ],
+   "Norway Spruce": [
+    "Spruce"
+   ],
+   "Douglas Fir": [
+    "Douglas-fir"
+   ],
+   "Cedar": [
+    "Cedar of Lebanon"
+   ],
+   "London Plane": [
+    "Plane",
+    "Plane Tree"
+   ],
+   "Walnut": [
+    "English Walnut",
+    "Common Walnut"
+   ],
+   "Wild Cherry": [
+    "Gean",
+    "Cherry"
+   ],
+   "Apple": [
+    "Apple Tree"
+   ],
+   "Laburnum": [
+    "Golden Chain Tree"
+   ],
+   "Crab Apple": [
+    "Crabapple"
+   ],
+   "Field Maple": [
+    "Hedge Maple"
+   ],
+   "Sweet Chestnut": [
+    "Chestnut",
+    "Spanish Chestnut"
+   ],
+   "Monkey Puzzle": [
+    "Monkey Puzzle Tree",
+    "Chile Pine",
+    "Araucaria"
+   ],
+   "Whitebeam": [
+    "White Beam"
+   ],
+   "Alder": [
+    "Common Alder"
+   ],
+   "Leyland Cypress": [
+    "Leylandii"
+   ],
+   "Sessile Oak": [
+    "Durmast Oak"
+   ],
+   "Holm Oak": [
+    "Holly Oak"
+   ],
+   "Giant Sequoia": [
+    "Wellingtonia"
+   ],
+   "Robinia": [
+    "False Acacia"
+   ],
+   "Catalpa": [
+    "Indian Bean Tree"
+   ],
+   "Norway Maple": [
+    "Maple"
+   ],
+   "Ginkgo": [
+    "Maidenhair Tree"
+   ],
+   "Tulip Tree": [
+    "Tulip Poplar",
+    "Yellow Poplar"
+   ],
+   "Coast Redwood": [
+    "Redwood"
+   ],
+   "Dawn Redwood": [
+    "Metasequoia"
+   ],
+   "Katsura Tree": [
+    "Katsura"
+   ],
+   "Handkerchief Tree": [
+    "Dove Tree",
+    "Ghost Tree"
+   ],
+   "Sweetgum": [
+    "Liquidambar",
+    "Sweet Gum"
+   ],
+   "Juneberry": [
+    "Amelanchier",
+    "Snowy Mespilus"
+   ]
+  },
+  "traps": {
+   "Bamboo": "A giant grass, not a tree.",
+   "Banana": "A giant herb, not a tree.",
+   "Coconut Palm": "Needs a tropical climate and does not grow outdoors in Britain.",
+   "Mango": "A tropical fruit tree, not grown outdoors in Britain.",
+   "Cactus": "A succulent, not a tree that grows in Britain."
+  },
+  "fact": "The dawn redwood was known only from fossils until 1941, when living trees were found in China."
+ },
+ {
+  "id": "sci-nat-garden-flowers",
+  "cat": "Nature",
+  "title": "In bloom",
+  "q": "A garden flower",
+  "rule": "Flowering plants grown in British gardens count, including bulbs and climbers; vegetables and houseplants do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Rose",
+    "Tulip",
+    "Daffodil",
+    "Sunflower",
+    "Daisy",
+    "Lily"
+   ],
+   "hipster": [
+    "Dahlia",
+    "Hollyhock"
+   ],
+   "body": [
+    "Pansy",
+    "Petunia",
+    "Geranium",
+    "Begonia",
+    "Hydrangea",
+    "Lavender",
+    "Marigold",
+    "Snapdragon",
+    "Foxglove",
+    "Sweet Pea",
+    "Carnation",
+    "Chrysanthemum",
+    "Peony",
+    "Iris",
+    "Crocus",
+    "Snowdrop",
+    "Bluebell",
+    "Primrose",
+    "Poppy",
+    "Cornflower",
+    "Aster",
+    "Delphinium",
+    "Lupin",
+    "Forget-me-not",
+    "Honeysuckle",
+    "Clematis",
+    "Wisteria",
+    "Fuchsia",
+    "Busy Lizzie",
+    "Cosmos",
+    "Nasturtium",
+    "Hyacinth",
+    "Lilac"
+   ],
+   "tail": [
+    "Anemone",
+    "Gladiolus",
+    "Freesia",
+    "Gerbera",
+    "Zinnia",
+    "Violet",
+    "Cowslip",
+    "Phlox",
+    "Agapanthus",
+    "Alstroemeria",
+    "Amaryllis",
+    "Cyclamen",
+    "Camellia",
+    "Azalea",
+    "Jasmine",
+    "Passion Flower",
+    "Morning Glory",
+    "Stock",
+    "Calendula",
+    "Columbine",
+    "Hellebore",
+    "Scabious"
+   ],
+   "deep": [
+    "Verbascum",
+    "Campanula",
+    "Penstemon",
+    "Gaillardia",
+    "Rudbeckia",
+    "Echinops",
+    "Dianthus",
+    "Lobelia",
+    "Wallflower",
+    "Veronica",
+    "Astilbe",
+    "Monarda",
+    "Rhododendron",
+    "Allium",
+    "Sweet William"
+   ],
+   "outlier": [
+    "Red-hot Poker",
+    "Monkshood",
+    "Foxtail Lily",
+    "Snake's Head Fritillary",
+    "Honesty"
+   ]
+  },
+  "alias": {
+   "Daffodil": [
+    "Narcissus"
+   ],
+   "Hollyhock": [
+    "Alcea"
+   ],
+   "Geranium": [
+    "Pelargonium"
+   ],
+   "Busy Lizzie": [
+    "Impatiens"
+   ],
+   "Marigold": [
+    "African Marigold",
+    "French Marigold"
+   ],
+   "Chrysanthemum": [
+    "Mum"
+   ],
+   "Sweet Pea": [
+    "Lathyrus"
+   ],
+   "Snapdragon": [
+    "Antirrhinum"
+   ],
+   "Foxglove": [
+    "Digitalis"
+   ],
+   "Peony": [
+    "Paeony"
+   ],
+   "Snowdrop": [
+    "Galanthus"
+   ],
+   "Bluebell": [
+    "Wild Hyacinth"
+   ],
+   "Cornflower": [
+    "Bachelor's Button"
+   ],
+   "Aster": [
+    "Michaelmas Daisy"
+   ],
+   "Lupin": [
+    "Lupine"
+   ],
+   "Forget-me-not": [
+    "Myosotis"
+   ],
+   "Honeysuckle": [
+    "Woodbine"
+   ],
+   "Clematis": [
+    "Traveller's Joy"
+   ],
+   "Nasturtium": [
+    "Tropaeolum"
+   ],
+   "Lilac": [
+    "Syringa"
+   ],
+   "Anemone": [
+    "Windflower"
+   ],
+   "Gladiolus": [
+    "Gladiola"
+   ],
+   "Gerbera": [
+    "Transvaal Daisy"
+   ],
+   "Agapanthus": [
+    "African Lily"
+   ],
+   "Alstroemeria": [
+    "Peruvian Lily"
+   ],
+   "Amaryllis": [
+    "Hippeastrum"
+   ],
+   "Passion Flower": [
+    "Passiflora"
+   ],
+   "Morning Glory": [
+    "Ipomoea"
+   ],
+   "Stock": [
+    "Matthiola"
+   ],
+   "Calendula": [
+    "Pot Marigold"
+   ],
+   "Columbine": [
+    "Aquilegia"
+   ],
+   "Hellebore": [
+    "Christmas Rose",
+    "Lenten Rose"
+   ],
+   "Verbascum": [
+    "Mullein"
+   ],
+   "Campanula": [
+    "Bellflower"
+   ],
+   "Penstemon": [
+    "Beardtongue"
+   ],
+   "Gaillardia": [
+    "Blanket Flower"
+   ],
+   "Rudbeckia": [
+    "Black-eyed Susan"
+   ],
+   "Echinops": [
+    "Globe Thistle"
+   ],
+   "Dianthus": [
+    "Pinks"
+   ],
+   "Veronica": [
+    "Speedwell"
+   ],
+   "Astilbe": [
+    "False Goat's Beard"
+   ],
+   "Monarda": [
+    "Bee Balm"
+   ],
+   "Red-hot Poker": [
+    "Kniphofia",
+    "Torch Lily"
+   ],
+   "Monkshood": [
+    "Aconitum"
+   ],
+   "Foxtail Lily": [
+    "Eremurus"
+   ],
+   "Honesty": [
+    "Lunaria"
+   ]
+  },
+  "traps": {
+   "Tomato": "A fruit grown as a vegetable, not a flower.",
+   "Cabbage": "A vegetable, not a flower.",
+   "Potato": "A vegetable grown for its tubers, not a flower.",
+   "Grass": "Lawn grass is grown for turf, not for its flowers.",
+   "Oak": "A tree, not a flowering garden plant."
+  },
+  "fact": "Honesty's flat, silvery seed pods are used in dried flower arrangements."
+ },
+ {
+  "id": "sci-nat-australian-animals",
+  "cat": "Animals",
+  "title": "Down under",
+  "q": "An animal native to Australia",
+  "rule": "Animals native to Australia count, including those on nearby islands; introduced species do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Kangaroo",
+    "Koala",
+    "Platypus",
+    "Emu",
+    "Wombat",
+    "Kookaburra"
+   ],
+   "hipster": [
+    "Echidna",
+    "Quokka"
+   ],
+   "body": [
+    "Tasmanian Devil",
+    "Dingo",
+    "Wallaby",
+    "Common Brushtail Possum",
+    "Cassowary",
+    "Superb Lyrebird",
+    "Thorny Devil",
+    "Greater Bilby",
+    "Sugar Glider",
+    "Galah",
+    "Sulphur-crested Cockatoo",
+    "Budgerigar",
+    "Rainbow Lorikeet",
+    "Australian Magpie",
+    "Frilled Lizard",
+    "Saltwater Crocodile",
+    "Redback Spider",
+    "Funnel-web Spider",
+    "Spotted-tailed Quoll"
+   ],
+   "tail": [
+    "Long-nosed Potoroo",
+    "Red-necked Pademelon",
+    "Antechinus",
+    "Wallaroo",
+    "Tree Kangaroo",
+    "Yellow-footed Rock-wallaby",
+    "Dunnart",
+    "Feathertail Glider",
+    "Greater Glider",
+    "Leadbeater's Possum",
+    "Bowerbird",
+    "Honeyeater",
+    "Frogmouth",
+    "Australian Pelican",
+    "Brolga",
+    "Jabiru",
+    "Cockatiel",
+    "Azure Kingfisher",
+    "Malleefowl",
+    "Lace Monitor",
+    "Shingleback",
+    "Bearded Dragon",
+    "Blue-tongued Skink",
+    "Southern Brown Bandicoot",
+    "Numbat"
+   ],
+   "deep": [
+    "Bettong",
+    "Mulgara",
+    "Hairy-nosed Wombat",
+    "Ghost Bat",
+    "Musky Rat-kangaroo",
+    "Western Ringtail Possum",
+    "Eastern Water Dragon",
+    "Regent Honeyeater",
+    "Rainbow Bee-eater"
+   ],
+   "outlier": [
+    "Honey Possum",
+    "Bridled Nailtail Wallaby",
+    "Kowari",
+    "Mountain Pygmy-possum",
+    "Gouldian Finch"
+   ]
+  },
+  "alias": {
+   "Kangaroo": [
+    "Roo"
+   ],
+   "Koala": [
+    "Koala Bear"
+   ],
+   "Platypus": [
+    "Duck-billed Platypus"
+   ],
+   "Wombat": [
+    "Common Wombat"
+   ],
+   "Kookaburra": [
+    "Laughing Kookaburra"
+   ],
+   "Echidna": [
+    "Spiny Anteater"
+   ],
+   "Quokka": [
+    "Short-tailed Scrub Wallaby"
+   ],
+   "Tasmanian Devil": [
+    "Devil"
+   ],
+   "Dingo": [
+    "Warrigal"
+   ],
+   "Common Brushtail Possum": [
+    "Brushtail Possum"
+   ],
+   "Superb Lyrebird": [
+    "Lyrebird"
+   ],
+   "Thorny Devil": [
+    "Moloch"
+   ],
+   "Greater Bilby": [
+    "Bilby"
+   ],
+   "Galah": [
+    "Rose-breasted Cockatoo"
+   ],
+   "Sulphur-crested Cockatoo": [
+    "Cockatoo"
+   ],
+   "Budgerigar": [
+    "Budgie"
+   ],
+   "Rainbow Lorikeet": [
+    "Lorikeet"
+   ],
+   "Redback Spider": [
+    "Redback"
+   ],
+   "Funnel-web Spider": [
+    "Funnelweb"
+   ],
+   "Spotted-tailed Quoll": [
+    "Tiger Quoll"
+   ],
+   "Long-nosed Potoroo": [
+    "Potoroo"
+   ],
+   "Red-necked Pademelon": [
+    "Pademelon"
+   ],
+   "Wallaroo": [
+    "Euro"
+   ],
+   "Australian Pelican": [
+    "Pelican"
+   ],
+   "Brolga": [
+    "Australian Crane"
+   ],
+   "Jabiru": [
+    "Black-necked Stork"
+   ],
+   "Cockatiel": [
+    "Quarrion"
+   ],
+   "Azure Kingfisher": [
+    "Kingfisher"
+   ],
+   "Malleefowl": [
+    "Mallee Fowl"
+   ],
+   "Shingleback": [
+    "Sleepy Lizard"
+   ],
+   "Blue-tongued Skink": [
+    "Blue-tongue Lizard"
+   ],
+   "Saltwater Crocodile": [
+    "Saltie"
+   ],
+   "Gouldian Finch": [
+    "Lady Gouldian Finch"
+   ]
+  },
+  "traps": {
+   "Lion": "Native to Africa and Asia, not Australia.",
+   "Raccoon": "Native to the Americas, not Australia.",
+   "Reindeer": "Native to the Arctic, not Australia.",
+   "Panda": "A bear native to China.",
+   "Fox": "Introduced to Australia, so not native."
+  },
+  "fact": "The honey possum is a tiny Australian marsupial that feeds on nectar and pollen, and it pollinates the plants it visits."
+ },
+ {
+  "id": "sci-nat-horse-breeds",
+  "cat": "Animals",
+  "title": "Hoof it",
+  "q": "A horse or pony breed",
+  "rule": "Recognised horse and pony breeds count; crossbreeds, hybrids and mixed-breed horses do not.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Arabian",
+    "Thoroughbred",
+    "Shetland Pony",
+    "Shire Horse",
+    "Clydesdale",
+    "Appaloosa"
+   ],
+   "hipster": [
+    "Friesian",
+    "Akhal-Teke"
+   ],
+   "body": [
+    "Lipizzaner",
+    "Percheron",
+    "Haflinger",
+    "Connemara",
+    "Welsh Cob",
+    "Hackney",
+    "Exmoor",
+    "Dartmoor",
+    "New Forest Pony",
+    "Highland Pony",
+    "Icelandic Horse",
+    "Andalusian",
+    "Quarter Horse",
+    "Paint Horse",
+    "Morgan",
+    "Tennessee Walking Horse",
+    "Standardbred",
+    "Hanoverian",
+    "Trakehner",
+    "Suffolk Punch",
+    "Cleveland Bay",
+    "Welsh Mountain Pony",
+    "Falabella",
+    "Lusitano",
+    "Dales Pony",
+    "Irish Draught"
+   ],
+   "tail": [
+    "Holsteiner",
+    "Oldenburg",
+    "Ardennes",
+    "Brabant",
+    "Barb",
+    "Marwari",
+    "Criollo",
+    "Paso Fino",
+    "Peruvian Paso",
+    "Caspian",
+    "Camargue",
+    "Knabstrupper",
+    "Frederiksborg",
+    "Jutland",
+    "Fjord Horse",
+    "Pottok",
+    "Hucul",
+    "Gypsy Vanner",
+    "Newfoundland Pony",
+    "Chincoteague Pony"
+   ],
+   "deep": [
+    "Kiger Mustang",
+    "Sorraia",
+    "Namib Desert Horse",
+    "Bashkir Curly",
+    "Yakut Horse",
+    "Karabakh Horse",
+    "Orlov Trotter",
+    "Timor Pony",
+    "Brumby"
+   ],
+   "outlier": [
+    "Waler",
+    "Don Horse",
+    "Vladimir Heavy Draft",
+    "Nokota",
+    "Kathiawari"
+   ]
+  },
+  "alias": {
+   "Arabian": [
+    "Arab"
+   ],
+   "Shetland Pony": [
+    "Shetland"
+   ],
+   "Shire Horse": [
+    "Shire"
+   ],
+   "Friesian": [
+    "Friesian Horse",
+    "Frisian"
+   ],
+   "Akhal-Teke": [
+    "Akhal Teke"
+   ],
+   "Lipizzaner": [
+    "Lipizzan"
+   ],
+   "Welsh Cob": [
+    "Cob"
+   ],
+   "Welsh Mountain Pony": [
+    "Welsh Pony"
+   ],
+   "Connemara": [
+    "Connemara Pony"
+   ],
+   "Quarter Horse": [
+    "American Quarter Horse"
+   ],
+   "Dartmoor": [
+    "Dartmoor Pony"
+   ],
+   "Exmoor": [
+    "Exmoor Pony"
+   ],
+   "New Forest Pony": [
+    "New Forest"
+   ],
+   "Highland Pony": [
+    "Highland"
+   ],
+   "Dales Pony": [
+    "Dales"
+   ],
+   "Suffolk Punch": [
+    "Suffolk"
+   ],
+   "Irish Draught": [
+    "Irish Draft"
+   ],
+   "Morgan": [
+    "Morgan Horse"
+   ],
+   "Pottok": [
+    "Basque Pony"
+   ],
+   "Hucul": [
+    "Huzul"
+   ],
+   "Fjord Horse": [
+    "Fjord"
+   ],
+   "Gypsy Vanner": [
+    "Gypsy Vanner Horse",
+    "Gypsy Cob"
+   ],
+   "Newfoundland Pony": [
+    "Newfoundland"
+   ],
+   "Chincoteague Pony": [
+    "Chincoteague"
+   ],
+   "Namib Desert Horse": [
+    "Namib Horse"
+   ],
+   "Orlov Trotter": [
+    "Orlov"
+   ],
+   "Karabakh Horse": [
+    "Karabakh"
+   ],
+   "Yakut Horse": [
+    "Yakut"
+   ],
+   "Waler": [
+    "Australian Waler"
+   ]
+  },
+  "traps": {
+   "Donkey": "A close relative of the horse, but a separate species.",
+   "Mule": "A hybrid of a horse and a donkey, not a breed.",
+   "Zebra": "A wild equid from Africa, not a horse breed.",
+   "Hinny": "A hybrid of a male donkey and a female horse, not a breed.",
+   "Unicorn": "A mythical creature."
+  },
+  "fact": "The Waler was an Australian horse breed that carried cavalry in the Boer War and the First World War."
+ }
+]
