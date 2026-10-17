@@ -1,0 +1,3102 @@
+[
+ {
+  "id": "geo-pl-country",
+  "cat": "World",
+  "title": "Passport stamps",
+  "q": "Any country",
+  "rule": "Sovereign states only; self-governing territories and disputed regions don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "France",
+    "Spain",
+    "Italy",
+    "Germany",
+    "United States"
+   ],
+   "hipster": [
+    "Liechtenstein",
+    "Bhutan"
+   ],
+   "body": [
+    "United Kingdom",
+    "Canada",
+    "Australia",
+    "Brazil",
+    "Mexico",
+    "China",
+    "Japan",
+    "India",
+    "Russia",
+    "Argentina",
+    "Egypt",
+    "Greece",
+    "Turkey",
+    "Sweden",
+    "Norway",
+    "Ireland",
+    "Netherlands",
+    "Portugal",
+    "Poland",
+    "Switzerland",
+    "Austria",
+    "Belgium",
+    "Denmark",
+    "Finland",
+    "Iceland",
+    "New Zealand",
+    "South Africa",
+    "Kenya",
+    "Nigeria",
+    "Morocco",
+    "Thailand",
+    "Vietnam",
+    "South Korea",
+    "Indonesia",
+    "Peru",
+    "Chile",
+    "Colombia",
+    "Cuba",
+    "Jamaica",
+    "Ukraine",
+    "Pakistan",
+    "Saudi Arabia",
+    "Israel",
+    "Iran",
+    "Iraq",
+    "Hungary",
+    "Romania",
+    "Czechia",
+    "Croatia",
+    "Singapore",
+    "Malaysia",
+    "Philippines",
+    "Ethiopia",
+    "Ghana",
+    "Tanzania",
+    "Afghanistan",
+    "North Korea",
+    "United Arab Emirates",
+    "Venezuela",
+    "Bangladesh",
+    "Qatar",
+    "Malta",
+    "Cyprus",
+    "Sri Lanka",
+    "Nepal",
+    "Syria",
+    "Libya",
+    "Fiji",
+    "Maldives",
+    "Mongolia"
+   ],
+   "tail": [
+    "Algeria",
+    "Angola",
+    "Belarus",
+    "Bolivia",
+    "Bulgaria",
+    "Cambodia",
+    "Cameroon",
+    "Costa Rica",
+    "Dominican Republic",
+    "Ecuador",
+    "El Salvador",
+    "Estonia",
+    "Gabon",
+    "Guatemala",
+    "Haiti",
+    "Honduras",
+    "Jordan",
+    "Kazakhstan",
+    "Kuwait",
+    "Latvia",
+    "Lebanon",
+    "Lithuania",
+    "Madagascar",
+    "Malawi",
+    "Mali",
+    "Mauritius",
+    "Mozambique",
+    "Myanmar",
+    "Namibia",
+    "Nicaragua",
+    "Niger",
+    "Oman",
+    "Panama",
+    "Paraguay",
+    "Senegal",
+    "Serbia",
+    "Somalia",
+    "Sudan",
+    "Tajikistan",
+    "Tunisia",
+    "Turkmenistan",
+    "Uganda",
+    "Uruguay",
+    "Uzbekistan",
+    "Yemen",
+    "Zambia",
+    "Zimbabwe",
+    "Luxembourg",
+    "Slovakia",
+    "Albania",
+    "Armenia",
+    "Azerbaijan",
+    "Bahamas",
+    "Bahrain",
+    "Barbados",
+    "Bosnia and Herzegovina",
+    "Botswana",
+    "Georgia",
+    "Moldova",
+    "Montenegro",
+    "North Macedonia",
+    "Papua New Guinea",
+    "Rwanda",
+    "Slovenia",
+    "Trinidad and Tobago",
+    "Andorra",
+    "Monaco",
+    "San Marino",
+    "Seychelles",
+    "Sierra Leone",
+    "South Sudan",
+    "Laos",
+    "Liberia",
+    "Brunei",
+    "Belize",
+    "Chad",
+    "Samoa",
+    "Tonga",
+    "Vatican City"
+   ],
+   "deep": [
+    "Antigua and Barbuda",
+    "Benin",
+    "Burkina Faso",
+    "Burundi",
+    "Central African Republic",
+    "Republic of the Congo",
+    "DR Congo",
+    "Côte d'Ivoire",
+    "Djibouti",
+    "Dominica",
+    "Equatorial Guinea",
+    "Eritrea",
+    "Gambia",
+    "Grenada",
+    "Guinea",
+    "Guyana",
+    "Kyrgyzstan",
+    "Mauritania",
+    "Saint Kitts and Nevis",
+    "Saint Lucia",
+    "Saint Vincent and the Grenadines",
+    "Solomon Islands",
+    "Suriname",
+    "Timor-Leste",
+    "Togo",
+    "Cabo Verde",
+    "Eswatini",
+    "Guinea-Bissau",
+    "Lesotho",
+    "Marshall Islands",
+    "Micronesia",
+    "Palau",
+    "Vanuatu"
+   ],
+   "outlier": [
+    "Tuvalu",
+    "Nauru",
+    "Kiribati",
+    "Sao Tome and Principe",
+    "Comoros"
+   ]
+  },
+  "alias": {
+   "United Kingdom": [
+    "UK",
+    "Britain",
+    "Great Britain",
+    "England",
+    "Scotland",
+    "Wales",
+    "Northern Ireland"
+   ],
+   "United States": [
+    "USA",
+    "US",
+    "United States of America",
+    "America"
+   ],
+   "Russia": [
+    "Russian Federation"
+   ],
+   "Czechia": [
+    "Czech Republic"
+   ],
+   "Netherlands": [
+    "Holland"
+   ],
+   "Turkey": [
+    "Türkiye",
+    "Turkiye"
+   ],
+   "Iran": [
+    "Persia"
+   ],
+   "Myanmar": [
+    "Burma"
+   ],
+   "Eswatini": [
+    "Swaziland"
+   ],
+   "Cabo Verde": [
+    "Cape Verde"
+   ],
+   "Côte d'Ivoire": [
+    "Ivory Coast"
+   ],
+   "North Macedonia": [
+    "Macedonia"
+   ],
+   "Timor-Leste": [
+    "East Timor"
+   ],
+   "DR Congo": [
+    "Democratic Republic of the Congo",
+    "DRC",
+    "Congo-Kinshasa"
+   ],
+   "Republic of the Congo": [
+    "Congo-Brazzaville",
+    "Republic of Congo"
+   ],
+   "South Korea": [
+    "Korea",
+    "Republic of Korea"
+   ],
+   "North Korea": [
+    "DPRK",
+    "Democratic People's Republic of Korea"
+   ],
+   "United Arab Emirates": [
+    "UAE",
+    "Emirates"
+   ],
+   "Vietnam": [
+    "Viet Nam"
+   ],
+   "Bahamas": [
+    "The Bahamas"
+   ],
+   "Gambia": [
+    "The Gambia"
+   ],
+   "Papua New Guinea": [
+    "PNG"
+   ],
+   "Saint Kitts and Nevis": [
+    "St Kitts and Nevis",
+    "St Kitts"
+   ],
+   "Saint Lucia": [
+    "St Lucia"
+   ],
+   "Saint Vincent and the Grenadines": [
+    "St Vincent",
+    "St Vincent and the Grenadines"
+   ],
+   "Sao Tome and Principe": [
+    "São Tomé and Príncipe"
+   ],
+   "Bosnia and Herzegovina": [
+    "Bosnia"
+   ],
+   "Trinidad and Tobago": [
+    "Trinidad",
+    "T&T"
+   ],
+   "Antigua and Barbuda": [
+    "Antigua"
+   ],
+   "Laos": [
+    "Lao People's Democratic Republic"
+   ],
+   "Micronesia": [
+    "Federated States of Micronesia"
+   ],
+   "Vatican City": [
+    "Vatican",
+    "Holy See"
+   ],
+   "Ireland": [
+    "Republic of Ireland",
+    "Eire"
+   ],
+   "Greece": [
+    "Hellas"
+   ],
+   "Kyrgyzstan": [
+    "Kyrgyz Republic"
+   ],
+   "Burkina Faso": [
+    "Upper Volta"
+   ],
+   "Ghana": [
+    "Gold Coast"
+   ],
+   "Belize": [
+    "British Honduras"
+   ],
+   "Cambodia": [
+    "Kampuchea"
+   ],
+   "Sri Lanka": [
+    "Ceylon"
+   ],
+   "Thailand": [
+    "Siam"
+   ]
+  },
+  "traps": {
+   "Taiwan": "Self-governing, but it isn't counted as a UN member state.",
+   "Kosovo": "Declared independence in 2008, but it isn't a UN member state.",
+   "Palestine": "Has observer status at the UN, not full member status.",
+   "Greenland": "An autonomous territory of Denmark, not a sovereign country.",
+   "Hong Kong": "A special administrative region of China, not a separate country."
+  },
+  "fact": "Vatican City covers about 0.44 square kilometres, making it the world's smallest sovereign state."
+ },
+ {
+  "id": "geo-pl-capital",
+  "cat": "World",
+  "title": "Capital idea",
+  "q": "A world capital city",
+  "rule": "Where a country has more than one capital, any of them counts.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Paris",
+    "London",
+    "Rome",
+    "Berlin",
+    "Madrid"
+   ],
+   "hipster": [
+    "Thimphu",
+    "Vaduz"
+   ],
+   "body": [
+    "Washington, D.C.",
+    "Buenos Aires",
+    "Canberra",
+    "Vienna",
+    "Brussels",
+    "Brasília",
+    "Ottawa",
+    "Santiago",
+    "Beijing",
+    "Bogotá",
+    "Havana",
+    "Prague",
+    "Copenhagen",
+    "Cairo",
+    "Addis Ababa",
+    "Helsinki",
+    "Accra",
+    "Athens",
+    "Budapest",
+    "Reykjavík",
+    "New Delhi",
+    "Jakarta",
+    "Tehran",
+    "Baghdad",
+    "Dublin",
+    "Jerusalem",
+    "Kingston",
+    "Tokyo",
+    "Nairobi",
+    "Kuala Lumpur",
+    "Mexico City",
+    "Rabat",
+    "Amsterdam",
+    "Wellington",
+    "Abuja",
+    "Oslo",
+    "Islamabad",
+    "Lima",
+    "Manila",
+    "Warsaw",
+    "Lisbon",
+    "Bucharest",
+    "Moscow",
+    "Riyadh",
+    "Singapore",
+    "Pretoria",
+    "Seoul",
+    "Stockholm",
+    "Bern",
+    "Bangkok",
+    "Ankara",
+    "Hanoi",
+    "Kyiv",
+    "Dhaka",
+    "Abu Dhabi",
+    "Doha",
+    "Kabul",
+    "Pyongyang",
+    "Valletta",
+    "Nicosia",
+    "Kathmandu",
+    "Colombo",
+    "Damascus",
+    "Beirut"
+   ],
+   "tail": [
+    "Algiers",
+    "Baku",
+    "Minsk",
+    "Sofia",
+    "Phnom Penh",
+    "San José",
+    "Zagreb",
+    "Santo Domingo",
+    "Quito",
+    "San Salvador",
+    "Tallinn",
+    "Suva",
+    "Tbilisi",
+    "Guatemala City",
+    "Port-au-Prince",
+    "Tegucigalpa",
+    "Amman",
+    "Astana",
+    "Kuwait City",
+    "Riga",
+    "Tripoli",
+    "Vilnius",
+    "Malé",
+    "Ulaanbaatar",
+    "Maputo",
+    "Naypyidaw",
+    "Windhoek",
+    "Managua",
+    "Niamey",
+    "Muscat",
+    "Panama City",
+    "Asunción",
+    "Sarajevo",
+    "Khartoum",
+    "Dushanbe",
+    "Tunis",
+    "Kampala",
+    "Montevideo",
+    "Tashkent",
+    "Caracas",
+    "Bratislava",
+    "Ljubljana",
+    "Mogadishu",
+    "Belgrade",
+    "Dakar",
+    "Tirana",
+    "Bishkek",
+    "Monaco",
+    "San Marino",
+    "Vatican City",
+    "Luxembourg City"
+   ],
+   "deep": [
+    "Yerevan",
+    "Luanda",
+    "St John's",
+    "Nassau",
+    "Manama",
+    "Bridgetown",
+    "Belmopan",
+    "Porto-Novo",
+    "Gaborone",
+    "Yaoundé",
+    "Bangui",
+    "N'Djamena",
+    "Brazzaville",
+    "Kinshasa",
+    "Yamoussoukro",
+    "Djibouti City",
+    "Roseau",
+    "Malabo",
+    "Asmara",
+    "Libreville",
+    "Banjul",
+    "St. George's",
+    "Conakry",
+    "Bissau",
+    "Georgetown",
+    "Vientiane",
+    "Monrovia",
+    "Antananarivo",
+    "Lilongwe",
+    "Bamako",
+    "Nouakchott",
+    "Port Louis",
+    "Chișinău",
+    "Podgorica",
+    "Skopje",
+    "Port Moresby",
+    "Kigali",
+    "Basseterre",
+    "Castries",
+    "Kingstown",
+    "Apia",
+    "São Tomé",
+    "Freetown",
+    "Honiara",
+    "Juba",
+    "Paramaribo",
+    "Dodoma",
+    "Dili",
+    "Lomé",
+    "Port of Spain",
+    "Ashgabat",
+    "Port Vila",
+    "Sana'a",
+    "Harare",
+    "Lusaka",
+    "Sucre",
+    "Bandar Seri Begawan",
+    "Praia",
+    "Moroni",
+    "South Tarawa",
+    "Victoria",
+    "Nukuʻalofa",
+    "Mbabane",
+    "Maseru",
+    "Gitega",
+    "Andorra la Vella",
+    "Ouagadougou"
+   ],
+   "outlier": [
+    "Funafuti",
+    "Ngerulmud",
+    "Palikir",
+    "Majuro",
+    "Yaren"
+   ]
+  },
+  "alias": {
+   "New Delhi": [
+    "Delhi"
+   ],
+   "Pretoria": [
+    "Cape Town",
+    "Bloemfontein"
+   ],
+   "Washington, D.C.": [
+    "Washington",
+    "Washington DC",
+    "Washington D.C."
+   ],
+   "Kyiv": [
+    "Kiev"
+   ],
+   "Bern": [
+    "Berne"
+   ],
+   "Sucre": [
+    "La Paz"
+   ],
+   "Gitega": [
+    "Bujumbura"
+   ],
+   "Colombo": [
+    "Sri Jayawardenepura Kotte"
+   ],
+   "Naypyidaw": [
+    "Naypyitaw",
+    "Nay Pyi Taw"
+   ],
+   "Sana'a": [
+    "Sanaa"
+   ],
+   "Luxembourg City": [
+    "Luxembourg"
+   ],
+   "Djibouti City": [
+    "Djibouti"
+   ],
+   "Astana": [
+    "Nur-Sultan"
+   ],
+   "Panama City": [
+    "Panama"
+   ],
+   "Vatican City": [
+    "Vatican"
+   ],
+   "Mexico City": [
+    "CDMX"
+   ],
+   "Dhaka": [
+    "Dacca"
+   ],
+   "Beijing": [
+    "Peking"
+   ],
+   "Harare": [
+    "Salisbury"
+   ],
+   "Ulaanbaatar": [
+    "Ulan Bator"
+   ],
+   "Kathmandu": [
+    "Katmandu"
+   ],
+   "Yerevan": [
+    "Erevan"
+   ],
+   "Belgrade": [
+    "Beograd"
+   ],
+   "Lisbon": [
+    "Lisboa"
+   ],
+   "Warsaw": [
+    "Warszawa"
+   ],
+   "Mogadishu": [
+    "Muqdisho"
+   ],
+   "Tehran": [
+    "Teheran"
+   ],
+   "Copenhagen": [
+    "København"
+   ],
+   "Prague": [
+    "Praha"
+   ],
+   "Vienna": [
+    "Wien"
+   ],
+   "Brussels": [
+    "Bruxelles",
+    "Brussel"
+   ],
+   "Havana": [
+    "La Habana"
+   ]
+  },
+  "traps": {
+   "Istanbul": "Turkey's largest city, but not the capital.",
+   "Sydney": "Australia's biggest city, but not the national capital.",
+   "New York": "The largest US city, but not the capital.",
+   "Rio de Janeiro": "A former capital of Brazil, not the current one."
+  },
+  "fact": "Nauru has no official capital, so Yaren is only the de facto seat of government."
+ },
+ {
+  "id": "geo-pl-london-landmark",
+  "cat": "London",
+  "title": "Sightseeing",
+  "q": "A London landmark",
+  "rule": "Landmarks inside Greater London count, not ones elsewhere in England.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Big Ben",
+    "Tower Bridge",
+    "London Eye",
+    "Buckingham Palace",
+    "Tower of London"
+   ],
+   "hipster": [
+    "Cutty Sark",
+    "Leadenhall Market"
+   ],
+   "body": [
+    "Houses of Parliament",
+    "Westminster Abbey",
+    "St Paul's Cathedral",
+    "Trafalgar Square",
+    "Piccadilly Circus",
+    "Nelson's Column",
+    "Shard",
+    "Gherkin",
+    "Kensington Palace",
+    "Covent Garden",
+    "Marble Arch",
+    "Royal Albert Hall",
+    "Wembley Stadium",
+    "O2 Arena",
+    "Abbey Road",
+    "Oxford Circus",
+    "Harrods",
+    "Camden Market",
+    "Borough Market",
+    "Carnaby Street",
+    "Portobello Road",
+    "Downing Street",
+    "Shakespeare's Globe",
+    "Regent Street",
+    "Millennium Bridge",
+    "London Bridge",
+    "Emirates Stadium",
+    "Stamford Bridge",
+    "Lord's Cricket Ground",
+    "Canary Wharf"
+   ],
+   "tail": [
+    "Cenotaph",
+    "Monument",
+    "Southbank Centre",
+    "Battersea Power Station",
+    "Royal Observatory",
+    "Hampton Court Palace",
+    "Kew Gardens",
+    "Liberty",
+    "Old Bailey",
+    "Bank of England",
+    "Royal Exchange",
+    "Lloyd's Building",
+    "Royal Opera House",
+    "Royal Festival Hall",
+    "Barbican Centre",
+    "Sky Garden",
+    "Admiralty Arch",
+    "Horse Guards Parade",
+    "Wellington Arch",
+    "Speakers' Corner",
+    "Highgate Cemetery",
+    "Waterloo Bridge",
+    "Westminster Bridge",
+    "Albert Bridge",
+    "Thames Barrier",
+    "Fleet Street",
+    "Baker Street",
+    "Bond Street",
+    "King's Road",
+    "Brick Lane",
+    "Savile Row",
+    "Harley Street",
+    "St James's Palace",
+    "Alexandra Palace",
+    "London Stadium",
+    "Twickenham Stadium",
+    "Kennington Oval",
+    "Savoy Hotel",
+    "Ritz London"
+   ],
+   "deep": [
+    "Heron Tower",
+    "Walkie-Talkie",
+    "Cheesegrater",
+    "Blackfriars Bridge",
+    "Chelsea Bridge",
+    "Hammersmith Bridge",
+    "Clarence House",
+    "Lambeth Palace",
+    "Eltham Palace",
+    "Churchill War Rooms",
+    "Jermyn Street",
+    "Old Royal Naval College",
+    "Petticoat Lane",
+    "Crystal Palace"
+   ],
+   "outlier": [
+    "Scalpel",
+    "Ye Olde Cheshire Cheese",
+    "Kensal Green Cemetery",
+    "Queen's House",
+    "Craven Cottage"
+   ]
+  },
+  "alias": {
+   "Big Ben": [
+    "Elizabeth Tower"
+   ],
+   "London Eye": [
+    "Millennium Wheel"
+   ],
+   "Tower of London": [
+    "The Tower"
+   ],
+   "Houses of Parliament": [
+    "Palace of Westminster"
+   ],
+   "St Paul's Cathedral": [
+    "St Paul's",
+    "Saint Paul's Cathedral",
+    "Saint Paul's"
+   ],
+   "Shard": [
+    "The Shard"
+   ],
+   "Gherkin": [
+    "The Gherkin",
+    "30 St Mary Axe"
+   ],
+   "Monument": [
+    "The Monument"
+   ],
+   "O2 Arena": [
+    "The O2",
+    "O2",
+    "Millennium Dome"
+   ],
+   "London Stadium": [
+    "Olympic Stadium"
+   ],
+   "Kennington Oval": [
+    "The Oval",
+    "Oval"
+   ],
+   "Churchill War Rooms": [
+    "Cabinet War Rooms"
+   ],
+   "Savoy Hotel": [
+    "The Savoy"
+   ],
+   "Ritz London": [
+    "The Ritz"
+   ],
+   "Shakespeare's Globe": [
+    "Globe Theatre",
+    "Globe"
+   ],
+   "Downing Street": [
+    "10 Downing Street",
+    "Number 10"
+   ],
+   "Walkie-Talkie": [
+    "20 Fenchurch Street",
+    "Walkie Talkie"
+   ],
+   "Cheesegrater": [
+    "Leadenhall Building"
+   ],
+   "Scalpel": [
+    "52 Lime Street"
+   ],
+   "Lloyd's Building": [
+    "Lloyd's of London",
+    "Lloyds Building"
+   ],
+   "Bank of England": [
+    "The Bank"
+   ],
+   "Wembley Stadium": [
+    "Wembley"
+   ],
+   "Lord's Cricket Ground": [
+    "Lord's"
+   ],
+   "Kew Gardens": [
+    "Royal Botanic Gardens, Kew"
+   ],
+   "Ye Olde Cheshire Cheese": [
+    "Cheshire Cheese"
+   ],
+   "Old Bailey": [
+    "Central Criminal Court"
+   ],
+   "Liberty": [
+    "Liberty London"
+   ],
+   "Queen's House": [
+    "The Queen's House"
+   ],
+   "Alexandra Palace": [
+    "Ally Pally"
+   ],
+   "Covent Garden": [
+    "Covent Garden Market"
+   ],
+   "Petticoat Lane": [
+    "Middlesex Street"
+   ],
+   "Leadenhall Market": [
+    "Leadenhall"
+   ]
+  },
+  "traps": {
+   "Eiffel Tower": "A famous landmark, but in Paris.",
+   "Statue of Liberty": "A famous landmark, but in New York.",
+   "Edinburgh Castle": "A famous castle, but in Scotland.",
+   "Stonehenge": "A prehistoric monument on Salisbury Plain, not in London.",
+   "Blackpool Tower": "A seaside landmark in Lancashire."
+  },
+  "fact": "Kensal Green Cemetery, opened in 1833, was one of London's first large garden cemeteries."
+ },
+ {
+  "id": "geo-pl-london-park",
+  "cat": "London",
+  "title": "Green space",
+  "q": "A London park",
+  "rule": "Royal parks, commons and heaths count when they're inside London.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Hyde Park",
+    "Regent's Park",
+    "Hampstead Heath",
+    "Richmond Park",
+    "Victoria Park"
+   ],
+   "hipster": [
+    "Primrose Hill",
+    "Clapham Common"
+   ],
+   "body": [
+    "Green Park",
+    "St James's Park",
+    "Greenwich Park",
+    "Kensington Gardens",
+    "Holland Park",
+    "Battersea Park",
+    "Bushy Park",
+    "Finsbury Park",
+    "Alexandra Park",
+    "Crystal Palace Park",
+    "Dulwich Park",
+    "Brockwell Park",
+    "Wimbledon Common",
+    "Peckham Rye",
+    "Tooting Common",
+    "Blackheath",
+    "Queen Elizabeth Olympic Park"
+   ],
+   "tail": [
+    "Southwark Park",
+    "Burgess Park",
+    "Ravenscourt Park",
+    "Clissold Park",
+    "Highbury Fields",
+    "Waterlow Park",
+    "Hackney Downs",
+    "Wandsworth Park",
+    "Gunnersbury Park",
+    "Osterley Park",
+    "Syon Park",
+    "Marble Hill Park",
+    "Russell Square",
+    "Kennington Park",
+    "Myatt's Fields"
+   ],
+   "deep": [
+    "Hainault Forest",
+    "Golders Hill Park",
+    "Highgate Wood",
+    "Hackney Marshes",
+    "Wanstead Park",
+    "Walpole Park",
+    "Boston Manor Park",
+    "Grovelands Park",
+    "Havering Country Park",
+    "Mitcham Common",
+    "Ham Common",
+    "Barnes Common",
+    "Bromley Common",
+    "Tooting Bec Common",
+    "Streatham Common",
+    "Wandsworth Common",
+    "Hilly Fields",
+    "Berkeley Square",
+    "Soho Square",
+    "Lincoln's Inn Fields"
+   ],
+   "outlier": [
+    "Gray's Inn Gardens",
+    "Queen's Wood",
+    "Coram's Fields",
+    "Oxleas Woods",
+    "Trent Park"
+   ]
+  },
+  "alias": {
+   "Regent's Park": [
+    "Regents Park",
+    "The Regent's Park"
+   ],
+   "Hampstead Heath": [
+    "Parliament Hill"
+   ],
+   "Victoria Park": [
+    "Vicky Park"
+   ],
+   "St James's Park": [
+    "St James Park"
+   ],
+   "Queen Elizabeth Olympic Park": [
+    "Olympic Park",
+    "Queen Elizabeth Park"
+   ],
+   "Lincoln's Inn Fields": [
+    "Lincolns Inn Fields"
+   ],
+   "Gray's Inn Gardens": [
+    "Grays Inn Gardens"
+   ]
+  },
+  "traps": {
+   "Central Park": "A famous park, but in New York.",
+   "Phoenix Park": "A huge park, but in Dublin.",
+   "Bois de Boulogne": "A large park on the edge of Paris.",
+   "Tiergarten": "A large park in the middle of Berlin.",
+   "Epping Forest": "A forest on London's edge, but not a park in the usual sense."
+  },
+  "fact": "Coram's Fields in Bloomsbury only lets adults in when they are accompanied by a child."
+ },
+ {
+  "id": "geo-pl-london-museum",
+  "cat": "London",
+  "title": "Gallery crawl",
+  "q": "A London museum",
+  "rule": "Museums and galleries count if they're inside Greater London.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "British Museum",
+    "Natural History Museum",
+    "Science Museum",
+    "Tate Modern",
+    "National Gallery"
+   ],
+   "hipster": [
+    "Sir John Soane's Museum",
+    "Wellcome Collection"
+   ],
+   "body": [
+    "Victoria and Albert Museum",
+    "Tate Britain",
+    "National Portrait Gallery",
+    "Imperial War Museum",
+    "Museum of London",
+    "Design Museum",
+    "Royal Academy of Arts",
+    "Madame Tussauds",
+    "London Transport Museum",
+    "Horniman Museum",
+    "Sherlock Holmes Museum",
+    "Royal Air Force Museum",
+    "Royal Museums Greenwich",
+    "Queen's Gallery",
+    "Saatchi Gallery"
+   ],
+   "tail": [
+    "Whitechapel Gallery",
+    "Dickens Museum",
+    "Florence Nightingale Museum",
+    "Freud Museum",
+    "Old Operating Theatre Museum",
+    "Museum of Docklands",
+    "Foundling Museum",
+    "Postal Museum",
+    "Bank of England Museum",
+    "Museum of the Home",
+    "Wallace Collection",
+    "Dulwich Picture Gallery",
+    "Courtauld Gallery",
+    "Hayward Gallery",
+    "Serpentine Galleries",
+    "Barbican Art Gallery",
+    "Estorick Collection",
+    "Leighton House Museum",
+    "Keats House",
+    "Kenwood House",
+    "Ham House",
+    "Sutton House",
+    "Carlyle's House",
+    "Linley Sambourne House",
+    "Wimbledon Lawn Tennis Museum",
+    "Brunel Museum",
+    "Garden Museum",
+    "Museum of Brands",
+    "Hunterian Museum",
+    "Petrie Museum",
+    "Grant Museum",
+    "Fan Museum",
+    "Migration Museum",
+    "Musical Museum",
+    "William Morris Gallery",
+    "Forty Hall",
+    "Bruce Castle Museum",
+    "Gunnersbury Park Museum",
+    "Orleans House Gallery"
+   ],
+   "deep": [
+    "Bethlem Museum of the Mind",
+    "Museum of Methodism",
+    "Kew Bridge Steam Museum",
+    "Guildhall Art Gallery",
+    "Ben Uri Gallery",
+    "Museum of Richmond",
+    "Pitzhanger Manor",
+    "Benjamin Franklin House"
+   ],
+   "outlier": [
+    "Dr Johnson's House",
+    "Handel House Museum",
+    "Pollock's Toy Museum",
+    "Cuming Museum",
+    "Ragged School Museum"
+   ]
+  },
+  "alias": {
+   "Victoria and Albert Museum": [
+    "V&A",
+    "V and A"
+   ],
+   "Natural History Museum": [
+    "NHM"
+   ],
+   "Imperial War Museum": [
+    "IWM"
+   ],
+   "Royal Academy of Arts": [
+    "Royal Academy"
+   ],
+   "Madame Tussauds": [
+    "Tussauds"
+   ],
+   "Royal Museums Greenwich": [
+    "National Maritime Museum"
+   ],
+   "Museum of the Home": [
+    "Geffrye Museum"
+   ],
+   "Royal Air Force Museum": [
+    "RAF Museum"
+   ],
+   "Sherlock Holmes Museum": [
+    "221B Baker Street"
+   ],
+   "Dickens Museum": [
+    "Charles Dickens Museum"
+   ],
+   "Museum of Docklands": [
+    "Museum of London Docklands"
+   ],
+   "Sir John Soane's Museum": [
+    "John Soane's Museum",
+    "Soane Museum"
+   ],
+   "Wellcome Collection": [
+    "Wellcome"
+   ],
+   "Kenwood House": [
+    "Kenwood"
+   ],
+   "Handel House Museum": [
+    "Handel House"
+   ],
+   "Dr Johnson's House": [
+    "Johnson's House"
+   ]
+  },
+  "traps": {
+   "Louvre": "A famous museum, but in Paris.",
+   "Metropolitan Museum": "A famous museum, but in New York.",
+   "Prado": "A famous museum, but in Madrid.",
+   "Rijksmuseum": "A famous museum, but in Amsterdam.",
+   "Guggenheim": "A famous museum, but not in London."
+  },
+  "fact": "The Wellcome Collection is free to enter and grew out of Henry Wellcome's collection of medical objects."
+ },
+ {
+  "id": "geo-pl-uk-island",
+  "cat": "UK",
+  "title": "Island time",
+  "q": "An island in the UK",
+  "rule": "Islands that are part of the UK; Crown Dependencies don't count.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Isle of Wight",
+    "Skye",
+    "Anglesey",
+    "Mull",
+    "Arran"
+   ],
+   "hipster": [
+    "Lindisfarne",
+    "Lundy"
+   ],
+   "body": [
+    "Great Britain",
+    "Islay",
+    "Jura",
+    "Iona",
+    "Lewis",
+    "Harris",
+    "North Uist",
+    "South Uist",
+    "Barra",
+    "Hayling Island",
+    "Canvey Island",
+    "Isle of Sheppey",
+    "Walney Island",
+    "St Michael's Mount",
+    "Isles of Scilly",
+    "Brownsea Island",
+    "Farne Islands",
+    "Rathlin Island",
+    "Bute",
+    "Great Cumbrae",
+    "Hoy",
+    "Unst",
+    "Rum",
+    "Eigg",
+    "Canna",
+    "Raasay",
+    "Coll",
+    "Tiree"
+   ],
+   "tail": [
+    "Eriskay",
+    "Benbecula",
+    "Lismore",
+    "Kerrera",
+    "Colonsay",
+    "Muck",
+    "Staffa",
+    "Ulva",
+    "Shapinsay",
+    "Westray",
+    "Sanday",
+    "Stronsay",
+    "Rousay",
+    "Yell",
+    "Whalsay",
+    "Bressay",
+    "Fetlar",
+    "Foula",
+    "Ailsa Craig",
+    "Little Cumbrae",
+    "Holy Isle",
+    "Inchkeith",
+    "Isle of May",
+    "Seil",
+    "Luing",
+    "Scalpay",
+    "Soay",
+    "Taransay",
+    "Berneray",
+    "Mingulay",
+    "Vatersay",
+    "Papa Westray",
+    "North Ronaldsay",
+    "South Ronaldsay",
+    "Eday",
+    "Ramsey Island",
+    "Skokholm",
+    "Caldey",
+    "Skomer",
+    "Puffin Island",
+    "Flat Holm",
+    "Mersea Island",
+    "Osea Island",
+    "Foulness",
+    "Hilbre Island",
+    "Piel Island",
+    "Burgh Island",
+    "Looe Island",
+    "Northey Island",
+    "Havergate Island",
+    "Coquet Island",
+    "Gigha",
+    "Fair Isle"
+   ],
+   "deep": [
+    "Gometra",
+    "Inch Kenneth",
+    "Vallay",
+    "Pabbay",
+    "Shuna",
+    "Easdale",
+    "Oronsay"
+   ],
+   "outlier": [
+    "Vaila",
+    "Papa Stour",
+    "Inchmickery",
+    "Pladda",
+    "Lunga"
+   ]
+  },
+  "alias": {
+   "Isle of Wight": [
+    "Wight",
+    "IoW"
+   ],
+   "Anglesey": [
+    "Ynys Môn",
+    "Isle of Anglesey"
+   ],
+   "Skye": [
+    "Isle of Skye"
+   ],
+   "Mull": [
+    "Isle of Mull"
+   ],
+   "Arran": [
+    "Isle of Arran"
+   ],
+   "Lindisfarne": [
+    "Holy Island of Lindisfarne"
+   ],
+   "Lundy": [
+    "Lundy Island"
+   ],
+   "Great Britain": [
+    "Britain",
+    "GB"
+   ],
+   "Islay": [
+    "Isle of Islay"
+   ],
+   "Jura": [
+    "Isle of Jura"
+   ],
+   "Iona": [
+    "Isle of Iona"
+   ],
+   "Lewis": [
+    "Isle of Lewis",
+    "Lewis and Harris"
+   ],
+   "Harris": [
+    "Isle of Harris"
+   ],
+   "North Uist": [
+    "Isle of North Uist"
+   ],
+   "South Uist": [
+    "Isle of South Uist"
+   ],
+   "Hayling Island": [
+    "Hayling"
+   ],
+   "Isle of Sheppey": [
+    "Sheppey"
+   ],
+   "Walney Island": [
+    "Walney"
+   ],
+   "Isles of Scilly": [
+    "Scilly",
+    "Scilly Isles"
+   ],
+   "Brownsea Island": [
+    "Brownsea"
+   ],
+   "Farne Islands": [
+    "Farne"
+   ],
+   "Rathlin Island": [
+    "Rathlin"
+   ],
+   "Bute": [
+    "Isle of Bute"
+   ],
+   "Great Cumbrae": [
+    "Cumbrae",
+    "Great Cumbrae Island"
+   ],
+   "Hoy": [
+    "Isle of Hoy"
+   ],
+   "Unst": [
+    "Isle of Unst"
+   ],
+   "Rum": [
+    "Rùm",
+    "Isle of Rum"
+   ],
+   "Eigg": [
+    "Isle of Eigg"
+   ],
+   "Canna": [
+    "Isle of Canna"
+   ],
+   "Raasay": [
+    "Isle of Raasay"
+   ],
+   "Coll": [
+    "Isle of Coll"
+   ],
+   "Tiree": [
+    "Isle of Tiree"
+   ],
+   "Canvey Island": [
+    "Canvey"
+   ],
+   "Ailsa Craig": [
+    "Ailsa"
+   ],
+   "Puffin Island": [
+    "Ynys Seiriol"
+   ],
+   "Flat Holm": [
+    "Flatholm"
+   ],
+   "Caldey": [
+    "Caldey Island"
+   ],
+   "Mersea Island": [
+    "Mersea"
+   ],
+   "Piel Island": [
+    "Piel"
+   ],
+   "Lismore": [
+    "Isle of Lismore"
+   ],
+   "Seil": [
+    "Isle of Seil"
+   ],
+   "Gigha": [
+    "Isle of Gigha"
+   ],
+   "Isle of May": [
+    "May Island"
+   ]
+  },
+  "traps": {
+   "Isle of Man": "A Crown Dependency with its own government, not part of the UK.",
+   "Jersey": "A Crown Dependency, so it doesn't count.",
+   "Ireland": "Shared between two countries, so it doesn't count as a UK island.",
+   "Tasmania": "An Australian island.",
+   "Corsica": "A French island in the Mediterranean."
+  },
+  "fact": "Lundy's name comes from the Old Norse for puffin island, and puffins still nest there."
+ },
+ {
+  "id": "geo-pl-med-island",
+  "cat": "World",
+  "title": "Sun and sea",
+  "q": "A Mediterranean island",
+  "rule": "Islands in the Mediterranean, including the Adriatic, Aegean and Ionian seas.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Sicily",
+    "Sardinia",
+    "Corsica",
+    "Crete",
+    "Cyprus"
+   ],
+   "hipster": [
+    "Capri",
+    "Ithaca"
+   ],
+   "body": [
+    "Majorca",
+    "Minorca",
+    "Ibiza",
+    "Corfu",
+    "Rhodes",
+    "Santorini",
+    "Mykonos",
+    "Elba",
+    "Ischia",
+    "Lampedusa",
+    "Djerba",
+    "Krk",
+    "Hvar",
+    "Lesbos",
+    "Chios",
+    "Samos",
+    "Kos",
+    "Naxos",
+    "Paros",
+    "Zakynthos",
+    "Kefalonia",
+    "Lefkada",
+    "Euboea",
+    "Aegina",
+    "Hydra",
+    "Milos",
+    "Gozo",
+    "Brac",
+    "Korcula",
+    "Pantelleria",
+    "Formentera",
+    "Malta"
+   ],
+   "tail": [
+    "Lemnos",
+    "Samothrace",
+    "Skiathos",
+    "Skopelos",
+    "Alonissos",
+    "Skyros",
+    "Thasos",
+    "Andros",
+    "Ios",
+    "Syros",
+    "Tinos",
+    "Kythera",
+    "Symi",
+    "Kalymnos",
+    "Patmos",
+    "Karpathos",
+    "Leros",
+    "Sifnos",
+    "Poros",
+    "Spetses",
+    "Salamis",
+    "Ikaria",
+    "Vis",
+    "Mljet",
+    "Pag",
+    "Rab",
+    "Cres",
+    "Losinj",
+    "Dugi Otok",
+    "Lastovo",
+    "Solta",
+    "Ustica",
+    "Favignana",
+    "Stromboli",
+    "Vulcano",
+    "Lipari",
+    "Salina",
+    "Panarea",
+    "Filicudi",
+    "Alicudi",
+    "Linosa",
+    "Ponza",
+    "Ventotene",
+    "Procida",
+    "Giglio",
+    "Capraia",
+    "Pianosa",
+    "Tavolara",
+    "La Maddalena",
+    "Asinara",
+    "Levanzo",
+    "Marettimo",
+    "Comino",
+    "Gavdos",
+    "Cabrera",
+    "Dragonera",
+    "Brijuni"
+   ],
+   "deep": [
+    "Lokrum",
+    "Ugljan",
+    "Pasman",
+    "Silba",
+    "Kerkennah",
+    "Bozcaada",
+    "Gokceada",
+    "Sazan",
+    "Filfla",
+    "St Paul's Island",
+    "Nisyros",
+    "Tilos",
+    "Kastellorizo",
+    "Kasos",
+    "Astypalaia",
+    "Folegandros",
+    "Serifos",
+    "Amorgos",
+    "Sikinos"
+   ],
+   "outlier": [
+    "Gorgona",
+    "Montecristo",
+    "Kimolos",
+    "Anafi",
+    "Olib"
+   ]
+  },
+  "alias": {
+   "Sicily": [
+    "Sicilia"
+   ],
+   "Sardinia": [
+    "Sardegna"
+   ],
+   "Corsica": [
+    "Corse"
+   ],
+   "Cyprus": [
+    "Kypros"
+   ],
+   "Ithaca": [
+    "Ithaki"
+   ],
+   "Majorca": [
+    "Mallorca"
+   ],
+   "Minorca": [
+    "Menorca"
+   ],
+   "Ibiza": [
+    "Eivissa"
+   ],
+   "Corfu": [
+    "Kerkyra"
+   ],
+   "Rhodes": [
+    "Rodos"
+   ],
+   "Santorini": [
+    "Thira",
+    "Thera"
+   ],
+   "Krk": [
+    "Veglia"
+   ],
+   "Lesbos": [
+    "Lesvos"
+   ],
+   "Chios": [
+    "Khios",
+    "Scio"
+   ],
+   "Kos": [
+    "Cos"
+   ],
+   "Zakynthos": [
+    "Zante"
+   ],
+   "Kefalonia": [
+    "Cephalonia"
+   ],
+   "Euboea": [
+    "Evia",
+    "Euboia"
+   ],
+   "Aegina": [
+    "Egina"
+   ],
+   "Hydra": [
+    "Idra"
+   ],
+   "Milos": [
+    "Melos"
+   ],
+   "Brac": [
+    "Brač"
+   ],
+   "Korcula": [
+    "Korčula"
+   ],
+   "Djerba": [
+    "Jerba"
+   ],
+   "Lemnos": [
+    "Limnos"
+   ],
+   "Samothrace": [
+    "Samothraki"
+   ],
+   "Skyros": [
+    "Skiros"
+   ],
+   "Alonissos": [
+    "Alonnisos"
+   ],
+   "Thasos": [
+    "Thassos"
+   ],
+   "Symi": [
+    "Simi"
+   ],
+   "Karpathos": [
+    "Scarpanto"
+   ],
+   "Kythera": [
+    "Cythera",
+    "Kythira"
+   ],
+   "Salamis": [
+    "Salamina"
+   ],
+   "Losinj": [
+    "Lošinj",
+    "Lussino"
+   ],
+   "Solta": [
+    "Šolta"
+   ],
+   "Mljet": [
+    "Meleda"
+   ],
+   "Vis": [
+    "Lissa"
+   ],
+   "Cres": [
+    "Cherso"
+   ],
+   "Rab": [
+    "Arbe"
+   ],
+   "Lastovo": [
+    "Lagosta"
+   ],
+   "Comino": [
+    "Kemmuna"
+   ],
+   "La Maddalena": [
+    "Maddalena"
+   ],
+   "Brijuni": [
+    "Brioni"
+   ],
+   "Kastellorizo": [
+    "Megisti",
+    "Kastelorizo"
+   ],
+   "Pasman": [
+    "Pašman"
+   ],
+   "Bozcaada": [
+    "Tenedos"
+   ],
+   "Gokceada": [
+    "Imbros",
+    "Gökçeada"
+   ],
+   "Sazan": [
+    "Sazani"
+   ],
+   "Astypalaia": [
+    "Astypalea"
+   ]
+  },
+  "traps": {
+   "Madeira": "An Atlantic island belonging to Portugal.",
+   "Canary Islands": "Atlantic islands, not in the Mediterranean.",
+   "Jamaica": "A Caribbean island.",
+   "Zanzibar": "An island off East Africa, in the Indian Ocean.",
+   "Bali": "An Indonesian island in the Indian Ocean."
+  },
+  "fact": "Kastellorizo is often called the easternmost inhabited Greek island, lying just off the Turkish coast."
+ },
+ {
+  "id": "geo-pl-uk-airport",
+  "cat": "UK",
+  "title": "Departures",
+  "q": "A UK airport",
+  "rule": "Any UK airport or airfield counts; Crown Dependencies don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Heathrow",
+    "Gatwick",
+    "Manchester",
+    "Stansted",
+    "Birmingham"
+   ],
+   "hipster": [
+    "Southend",
+    "Prestwick"
+   ],
+   "body": [
+    "Edinburgh",
+    "Glasgow",
+    "Bristol",
+    "Newcastle",
+    "Liverpool John Lennon",
+    "Leeds Bradford",
+    "East Midlands",
+    "London City",
+    "Belfast International",
+    "George Best Belfast City",
+    "Cardiff",
+    "Aberdeen",
+    "Luton",
+    "Southampton",
+    "Bournemouth",
+    "Exeter",
+    "Norwich"
+   ],
+   "tail": [
+    "Newquay Cornwall",
+    "Teesside International",
+    "Humberside",
+    "Blackpool",
+    "Inverness",
+    "Stornoway",
+    "Dundee",
+    "Wick",
+    "St Mary's",
+    "City of Derry",
+    "Anglesey Valley",
+    "Hawarden",
+    "Carlisle Lake District",
+    "Cambridge",
+    "Oxford"
+   ],
+   "deep": [
+    "Islay",
+    "Tiree",
+    "Barra",
+    "Benbecula",
+    "Campbeltown",
+    "Kirkwall",
+    "Sumburgh",
+    "Tingwall",
+    "Land's End",
+    "Denham",
+    "Duxford",
+    "Coventry",
+    "Gloucestershire",
+    "Cotswold",
+    "Wycombe Air Park",
+    "Farnborough",
+    "Shoreham",
+    "Redhill",
+    "Bristol Filton",
+    "Fairoaks",
+    "Thruxton",
+    "Popham",
+    "Sywell",
+    "Turweston",
+    "Halfpenny Green",
+    "Wellesbourne",
+    "Seething",
+    "Dunsfold Park",
+    "Old Warden",
+    "Compton Abbas"
+   ],
+   "outlier": [
+    "Bembridge",
+    "Lydd",
+    "Blackbushe",
+    "Elstree",
+    "Biggin Hill"
+   ]
+  },
+  "alias": {
+   "Heathrow": [
+    "London Heathrow",
+    "Heathrow Airport"
+   ],
+   "Gatwick": [
+    "London Gatwick",
+    "Gatwick Airport"
+   ],
+   "Stansted": [
+    "London Stansted"
+   ],
+   "Luton": [
+    "London Luton"
+   ],
+   "Manchester": [
+    "Manchester Airport"
+   ],
+   "Birmingham": [
+    "Birmingham Airport"
+   ],
+   "Edinburgh": [
+    "Edinburgh Airport"
+   ],
+   "Glasgow": [
+    "Glasgow Airport"
+   ],
+   "Bristol": [
+    "Bristol Airport"
+   ],
+   "Newcastle": [
+    "Newcastle International",
+    "Newcastle Airport"
+   ],
+   "Liverpool John Lennon": [
+    "Liverpool",
+    "Liverpool Airport"
+   ],
+   "Leeds Bradford": [
+    "Leeds",
+    "Leeds Bradford Airport"
+   ],
+   "London City": [
+    "City Airport",
+    "London City Airport"
+   ],
+   "Belfast International": [
+    "Belfast",
+    "Aldergrove"
+   ],
+   "George Best Belfast City": [
+    "Belfast City",
+    "Belfast City Airport"
+   ],
+   "Newquay Cornwall": [
+    "Newquay"
+   ],
+   "Teesside International": [
+    "Teesside",
+    "Durham Tees Valley"
+   ],
+   "Prestwick": [
+    "Glasgow Prestwick"
+   ],
+   "Wick": [
+    "John O'Groats"
+   ],
+   "St Mary's": [
+    "Isles of Scilly St Mary's",
+    "Scilly St Mary's"
+   ],
+   "City of Derry": [
+    "Derry",
+    "Londonderry",
+    "Eglinton"
+   ],
+   "Anglesey Valley": [
+    "Anglesey"
+   ],
+   "Carlisle Lake District": [
+    "Carlisle"
+   ],
+   "Cambridge": [
+    "Marshall Airport",
+    "Cambridge Airport"
+   ],
+   "Oxford": [
+    "Kidlington",
+    "Oxford Kidlington"
+   ],
+   "Tingwall": [
+    "Lerwick",
+    "Shetland Tingwall"
+   ],
+   "Land's End": [
+    "Lands End"
+   ],
+   "Bembridge": [
+    "Isle of Wight Bembridge"
+   ],
+   "Biggin Hill": [
+    "Biggin Hill Airport"
+   ],
+   "Elstree": [
+    "Elstree Aerodrome"
+   ],
+   "Lydd": [
+    "London Ashford"
+   ],
+   "Blackbushe": [
+    "Blackbushe Airport"
+   ]
+  },
+  "traps": {
+   "Dublin": "An Irish airport, not in the UK.",
+   "Charles de Gaulle": "A Paris airport.",
+   "Schiphol": "The main Dutch airport, in Amsterdam.",
+   "JFK": "A New York airport.",
+   "Ronaldsway": "An airport on the Isle of Man, which is a Crown Dependency."
+  },
+  "fact": "Biggin Hill was one of the RAF's key fighter stations during the Battle of Britain in 1940."
+ },
+ {
+  "id": "geo-pl-uk-tv-channel",
+  "cat": "UK",
+  "title": "Channel surfing",
+  "q": "A UK TV channel",
+  "rule": "Free-to-air and pay channels both count; streaming apps and regional services don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "BBC One",
+    "BBC Two",
+    "ITV",
+    "Channel 4",
+    "Channel 5"
+   ],
+   "hipster": [
+    "Dave",
+    "Yesterday"
+   ],
+   "body": [
+    "BBC Four",
+    "BBC News",
+    "CBBC",
+    "CBeebies",
+    "ITV2",
+    "ITV3",
+    "ITV4",
+    "Film4",
+    "E4",
+    "More4",
+    "Sky Sports",
+    "Sky Atlantic",
+    "Sky Arts",
+    "Sky News",
+    "Sky Cinema",
+    "Sky Living",
+    "Eurosport",
+    "Quest",
+    "Gold",
+    "Alibi",
+    "Drama",
+    "S4C",
+    "BBC Parliament",
+    "GB News",
+    "Sky One",
+    "TNT Sports"
+   ],
+   "tail": [
+    "BBC Three",
+    "BBC Alba",
+    "BBC Scotland",
+    "CITV",
+    "ITV Encore",
+    "ITVBe",
+    "5USA",
+    "5Star",
+    "5Action",
+    "Really",
+    "Eden",
+    "Blaze",
+    "Challenge",
+    "Discovery",
+    "Pick",
+    "STV",
+    "UTV",
+    "Sky Comedy",
+    "Sky Crime",
+    "Sky Documentaries",
+    "Sky Kids",
+    "Sky Max",
+    "Sky Showcase",
+    "Sky Witness",
+    "Sky History",
+    "Sky Nature",
+    "Sky Sports News",
+    "Sky Sports Premier League",
+    "Sky Sports Football",
+    "Sky Sports Main Event",
+    "Sky Sports Cricket",
+    "Sky Sports Golf",
+    "Sky Sports F1",
+    "Sky Sports Racing"
+   ],
+   "deep": [
+    "Sky Sports Arena",
+    "Sky Sports Action",
+    "Sky Sports Mix",
+    "Sky Mix"
+   ],
+   "outlier": [
+    "Forces TV",
+    "QVC",
+    "Premier Sports",
+    "Ideal World",
+    "Sky Replay"
+   ]
+  },
+  "alias": {
+   "BBC One": [
+    "BBC1"
+   ],
+   "BBC Two": [
+    "BBC2"
+   ],
+   "BBC Three": [
+    "BBC3"
+   ],
+   "BBC Four": [
+    "BBC4"
+   ],
+   "Channel 4": [
+    "Channel Four",
+    "C4"
+   ],
+   "Channel 5": [
+    "Channel Five",
+    "C5"
+   ],
+   "Sky One": [
+    "Sky 1"
+   ],
+   "TNT Sports": [
+    "BT Sport",
+    "BT Sport 1"
+   ],
+   "S4C": [
+    "Sianel Pedwar Cymru"
+   ],
+   "STV": [
+    "Scottish Television"
+   ],
+   "UTV": [
+    "Ulster Television"
+   ],
+   "Film4": [
+    "Film 4"
+   ],
+   "BBC Alba": [
+    "Alba"
+   ],
+   "QVC": [
+    "QVC UK"
+   ]
+  },
+  "traps": {
+   "HBO": "A US premium channel, not a UK one.",
+   "CNN": "A US news channel.",
+   "Fox": "A US broadcast network.",
+   "NBC": "A US broadcast network.",
+   "Al Jazeera": "A Qatar-based news channel."
+  },
+  "fact": "BBC Alba broadcasts mainly in Scottish Gaelic and launched in 2008."
+ },
+ {
+  "id": "geo-pl-uk-bank",
+  "cat": "UK",
+  "title": "High street",
+  "q": "A UK bank or building society",
+  "rule": "Brands count even if they're now owned by another group, and closed ones count too.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Barclays",
+    "HSBC",
+    "Lloyds",
+    "NatWest",
+    "Nationwide"
+   ],
+   "hipster": [
+    "Coutts"
+   ],
+   "body": [
+    "Santander",
+    "Halifax",
+    "TSB",
+    "Monzo",
+    "Starling",
+    "Virgin Money",
+    "Metro Bank",
+    "First Direct",
+    "Co-operative Bank",
+    "Royal Bank of Scotland",
+    "Bank of Scotland",
+    "Clydesdale",
+    "Danske Bank",
+    "Coventry Building Society",
+    "Chase UK",
+    "Yorkshire Bank",
+    "Abbey National",
+    "Midland Bank",
+    "Northern Rock",
+    "Bradford & Bingley",
+    "Woolwich",
+    "Alliance & Leicester",
+    "Cheltenham & Gloucester",
+    "Egg",
+    "Smile",
+    "Tesco Bank",
+    "Ulster Bank"
+   ],
+   "tail": [
+    "Sainsbury's Bank",
+    "M&S Bank",
+    "Atom",
+    "Zopa",
+    "Principality",
+    "Skipton",
+    "Leeds Building Society",
+    "Yorkshire Building Society",
+    "Newcastle Building Society",
+    "Manchester Building Society",
+    "Bath Building Society",
+    "Nottingham Building Society",
+    "Cumberland Building Society",
+    "West Bromwich Building Society",
+    "Furness Building Society",
+    "Chorley Building Society",
+    "Dudley Building Society",
+    "Penrith Building Society",
+    "Monmouthshire Building Society",
+    "Loughborough Building Society",
+    "Ipswich Building Society",
+    "Hinckley & Rugby Building Society",
+    "Saffron Building Society",
+    "Bristol & West",
+    "Allied Irish Banks",
+    "Dunfermline Building Society",
+    "Cahoot"
+   ],
+   "deep": [
+    "Kleinwort Benson",
+    "Drummonds",
+    "Bank of Ireland",
+    "Northern Bank",
+    "First Trust Bank",
+    "Hampshire Trust Bank",
+    "Paragon Bank",
+    "Shawbrook",
+    "Secure Trust Bank"
+   ],
+   "outlier": [
+    "Child & Co",
+    "Hoare's",
+    "Girobank",
+    "Birmingham Midshires",
+    "Adam & Company"
+   ]
+  },
+  "alias": {
+   "Barclays": [
+    "Barclays Bank"
+   ],
+   "HSBC": [
+    "Hongkong and Shanghai Banking Corporation"
+   ],
+   "Lloyds": [
+    "Lloyds Bank",
+    "Lloyds TSB"
+   ],
+   "NatWest": [
+    "National Westminster",
+    "National Westminster Bank"
+   ],
+   "Nationwide": [
+    "Nationwide Building Society"
+   ],
+   "Santander": [
+    "Santander UK"
+   ],
+   "Halifax": [
+    "Halifax Bank"
+   ],
+   "TSB": [
+    "Trustee Savings Bank"
+   ],
+   "Royal Bank of Scotland": [
+    "RBS"
+   ],
+   "Bank of Scotland": [
+    "BoS"
+   ],
+   "Co-operative Bank": [
+    "Co-op Bank",
+    "The Co-operative Bank"
+   ],
+   "Virgin Money": [
+    "Virgin Money UK",
+    "Virgin Bank"
+   ],
+   "Monzo": [
+    "Monzo Bank"
+   ],
+   "Starling": [
+    "Starling Bank"
+   ],
+   "First Direct": [
+    "firstdirect"
+   ],
+   "Coutts": [
+    "Coutts & Co"
+   ],
+   "Clydesdale": [
+    "Clydesdale Bank"
+   ],
+   "Danske Bank": [
+    "Danske"
+   ],
+   "Coventry Building Society": [
+    "Coventry BS"
+   ],
+   "Chase UK": [
+    "Chase"
+   ],
+   "Abbey National": [
+    "Abbey"
+   ],
+   "Midland Bank": [
+    "Midland"
+   ],
+   "Bradford & Bingley": [
+    "Bradford and Bingley",
+    "B&B"
+   ],
+   "Alliance & Leicester": [
+    "Alliance and Leicester",
+    "A&L"
+   ],
+   "Cheltenham & Gloucester": [
+    "Cheltenham and Gloucester",
+    "C&G"
+   ],
+   "Egg": [
+    "Egg Banking"
+   ],
+   "Smile": [
+    "Smile Bank"
+   ],
+   "Sainsbury's Bank": [
+    "Sainsburys Bank"
+   ],
+   "M&S Bank": [
+    "Marks and Spencer Bank",
+    "Marks & Spencer Bank"
+   ],
+   "Atom": [
+    "Atom Bank"
+   ],
+   "Zopa": [
+    "Zopa Bank"
+   ],
+   "Principality": [
+    "Principality Building Society"
+   ],
+   "Skipton": [
+    "Skipton Building Society"
+   ],
+   "Bristol & West": [
+    "Bristol and West"
+   ],
+   "Allied Irish Banks": [
+    "AIB"
+   ],
+   "Kleinwort Benson": [
+    "Kleinwort"
+   ],
+   "Drummonds": [
+    "Drummonds Bank"
+   ],
+   "Child & Co": [
+    "Child and Co"
+   ],
+   "Hoare's": [
+    "C. Hoare & Co",
+    "Hoares Bank"
+   ],
+   "Girobank": [
+    "Giro"
+   ],
+   "Birmingham Midshires": [
+    "Midshires"
+   ],
+   "Adam & Company": [
+    "Adam and Company"
+   ]
+  },
+  "traps": {
+   "Bank of America": "A US bank, not a UK one.",
+   "Citibank": "A US bank, not a UK one.",
+   "Wells Fargo": "A US bank.",
+   "Credit Suisse": "A Swiss bank.",
+   "Deutsche Bank": "A German bank with a UK arm, not a UK bank."
+  },
+  "fact": "Nationwide is the largest building society in the world."
+ },
+ {
+  "id": "geo-pl-uk-river",
+  "cat": "UK",
+  "title": "Riverbank",
+  "q": "A river in the UK",
+  "rule": "Rivers that flow through the UK, including Scotland, Wales and Northern Ireland.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Thames",
+    "Severn",
+    "Trent",
+    "Mersey",
+    "Tyne"
+   ],
+   "hipster": [
+    "Wye",
+    "Tweed"
+   ],
+   "body": [
+    "Clyde",
+    "Tay",
+    "Spey",
+    "Dee",
+    "Avon",
+    "Ouse",
+    "Wear",
+    "Tees",
+    "Forth",
+    "Exe",
+    "Medway",
+    "Cam",
+    "Nene",
+    "Itchen",
+    "Lune",
+    "Ribble",
+    "Wharfe",
+    "Aire",
+    "Don",
+    "Derwent",
+    "Irwell",
+    "Lagan",
+    "Bann",
+    "Foyle",
+    "Usk",
+    "Taff",
+    "Teifi",
+    "Test",
+    "Stour",
+    "Welland",
+    "Witham",
+    "Eden",
+    "Tame",
+    "Dove",
+    "Soar"
+   ],
+   "tail": [
+    "Calder",
+    "Kennet",
+    "Wandle",
+    "Brent",
+    "Lea",
+    "Wey",
+    "Cherwell",
+    "Yare",
+    "Wensum",
+    "Bure",
+    "Waveney",
+    "Orwell",
+    "Deben",
+    "Alde",
+    "Blackwater",
+    "Colne",
+    "Crouch",
+    "Arun",
+    "Adur",
+    "Dart",
+    "Teign",
+    "Parrett",
+    "Cree",
+    "Nith",
+    "Annan",
+    "Esk",
+    "Ayr",
+    "Doon",
+    "Irvine",
+    "Leven",
+    "Carron",
+    "Towy",
+    "Tawe",
+    "Neath",
+    "Conwy",
+    "Clwyd",
+    "Dyfi"
+   ],
+   "deep": [
+    "Lochy",
+    "Conon",
+    "Endrick",
+    "Teith",
+    "Gala",
+    "Rhymney",
+    "Ogmore",
+    "Cothi",
+    "Ystwyth",
+    "Rheidol",
+    "Mawddach",
+    "Alyn",
+    "Lugg",
+    "Arrow",
+    "Monnow",
+    "Irfon",
+    "Ogwen",
+    "Roe",
+    "Faughan",
+    "Mourne",
+    "Erne",
+    "Tummel",
+    "Garry",
+    "Isla",
+    "Ettrick",
+    "Yarrow",
+    "Almond",
+    "Earn",
+    "Teviot",
+    "Ness",
+    "Findhorn",
+    "Cuckmere",
+    "Hamble",
+    "Meon",
+    "Piddle",
+    "Frome",
+    "Otter",
+    "Axe",
+    "Tone",
+    "Ythan"
+   ],
+   "outlier": [
+    "Lossie",
+    "Deveron",
+    "Glaslyn",
+    "Quoile",
+    "Rother"
+   ]
+  },
+  "alias": {
+   "Cam": [
+    "Granta"
+   ],
+   "Lea": [
+    "Lee",
+    "River Lee"
+   ],
+   "Towy": [
+    "Tywi"
+   ],
+   "Dyfi": [
+    "Dovey"
+   ],
+   "Usk": [
+    "Wysg"
+   ],
+   "Taff": [
+    "Taf"
+   ],
+   "Neath": [
+    "Nedd"
+   ],
+   "Conwy": [
+    "Conway"
+   ],
+   "Ness": [
+    "River Ness"
+   ]
+  },
+  "traps": {
+   "Shannon": "Ireland's longest river, but in the Republic of Ireland.",
+   "Rhine": "A river through Germany and the Netherlands.",
+   "Seine": "A river in France.",
+   "Danube": "A river through central Europe.",
+   "Nile": "An African river."
+  },
+  "fact": "The River Cam was historically called the Granta in its upper reaches."
+ },
+ {
+  "id": "geo-pl-british-castle",
+  "cat": "UK",
+  "title": "Battlements",
+  "q": "A British castle",
+  "rule": "Castles in England, Scotland, Wales and Northern Ireland count, ruined or restored.",
+  "level": 2,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Windsor Castle",
+    "Edinburgh Castle",
+    "Warwick Castle",
+    "Stirling Castle",
+    "Dover Castle"
+   ],
+   "hipster": [
+    "Carisbrooke Castle",
+    "Tintagel Castle"
+   ],
+   "body": [
+    "Alnwick Castle",
+    "Bamburgh Castle",
+    "Leeds Castle",
+    "Caernarfon Castle",
+    "Conwy Castle",
+    "Balmoral Castle",
+    "Eilean Donan Castle",
+    "Arundel Castle",
+    "Hever Castle",
+    "Bodiam Castle",
+    "Lincoln Castle",
+    "Nottingham Castle",
+    "Kenilworth Castle",
+    "Pembroke Castle",
+    "Harlech Castle",
+    "Beaumaris Castle",
+    "Cardiff Castle",
+    "Urquhart Castle",
+    "Glamis Castle",
+    "Culzean Castle",
+    "Dunnottar Castle",
+    "Dunrobin Castle",
+    "Corfe Castle",
+    "Durham Castle",
+    "Chepstow Castle",
+    "Carrickfergus Castle"
+   ],
+   "tail": [
+    "Caerphilly Castle",
+    "Blair Castle",
+    "Inveraray Castle",
+    "Floors Castle",
+    "Cawdor Castle",
+    "Duart Castle",
+    "Dunvegan Castle",
+    "Doune Castle",
+    "Tantallon Castle",
+    "Craigievar Castle",
+    "Crathes Castle",
+    "Drum Castle",
+    "Fyvie Castle",
+    "Kilchurn Castle",
+    "Blackness Castle",
+    "Craigmillar Castle",
+    "Bothwell Castle",
+    "Dirleton Castle",
+    "Dunluce Castle",
+    "Lindisfarne Castle",
+    "Richmond Castle",
+    "Scarborough Castle",
+    "Pevensey Castle",
+    "Ludlow Castle",
+    "Tamworth Castle",
+    "Rochester Castle",
+    "Colchester Castle",
+    "Norwich Castle",
+    "Berkeley Castle",
+    "Sudeley Castle",
+    "Walmer Castle",
+    "Pontefract Castle",
+    "Skipton Castle",
+    "Knaresborough Castle",
+    "Tattershall Castle",
+    "Belvoir Castle",
+    "Newark Castle",
+    "Powderham Castle",
+    "Dunster Castle",
+    "Totnes Castle",
+    "Pendennis Castle",
+    "Chirk Castle",
+    "Powis Castle",
+    "Penrhyn Castle",
+    "Raglan Castle",
+    "Kidwelly Castle",
+    "Carew Castle",
+    "Manorbier Castle",
+    "Criccieth Castle",
+    "Rhuddlan Castle",
+    "Flint Castle",
+    "Denbigh Castle",
+    "Caerlaverock Castle"
+   ],
+   "deep": [
+    "Ravenscraig Castle",
+    "Neidpath Castle",
+    "Cardoness Castle",
+    "Oxford Castle",
+    "Ogmore Castle",
+    "Dolbadarn Castle",
+    "Cilgerran Castle",
+    "Herstmonceux Castle",
+    "Smailholm Castle",
+    "Carreg Cennen Castle",
+    "Threave Castle",
+    "Lochleven Castle",
+    "Berry Pomeroy Castle",
+    "St Mawes Castle",
+    "Compton Castle",
+    "Sherborne Castle",
+    "Okehampton Castle",
+    "Tutbury Castle",
+    "Peveril Castle",
+    "Bolsover Castle",
+    "Helmsley Castle",
+    "Conisbrough Castle",
+    "Deal Castle",
+    "Portchester Castle",
+    "Restormel Castle",
+    "Launceston Castle",
+    "Lewes Castle",
+    "Hermitage Castle",
+    "Huntly Castle",
+    "Dunollie Castle"
+   ],
+   "outlier": [
+    "Kisimul Castle",
+    "Castle Stalker",
+    "Dundrum Castle",
+    "Upnor Castle",
+    "Greenknowe Castle"
+   ]
+  },
+  "alias": {
+   "Windsor Castle": [
+    "Windsor"
+   ],
+   "Edinburgh Castle": [
+    "Edinburgh"
+   ],
+   "Warwick Castle": [
+    "Warwick"
+   ],
+   "Stirling Castle": [
+    "Stirling"
+   ],
+   "Dover Castle": [
+    "Dover"
+   ],
+   "Carisbrooke Castle": [
+    "Carisbrooke"
+   ],
+   "Tintagel Castle": [
+    "Tintagel"
+   ],
+   "Alnwick Castle": [
+    "Alnwick"
+   ],
+   "Bamburgh Castle": [
+    "Bamburgh"
+   ],
+   "Leeds Castle": [
+    "Leeds"
+   ],
+   "Caernarfon Castle": [
+    "Caernarvon Castle",
+    "Caernarfon"
+   ],
+   "Conwy Castle": [
+    "Conway Castle",
+    "Conwy"
+   ],
+   "Balmoral Castle": [
+    "Balmoral"
+   ],
+   "Eilean Donan Castle": [
+    "Eilean Donan"
+   ],
+   "Arundel Castle": [
+    "Arundel"
+   ],
+   "Hever Castle": [
+    "Hever"
+   ],
+   "Bodiam Castle": [
+    "Bodiam"
+   ],
+   "Lincoln Castle": [
+    "Lincoln"
+   ],
+   "Nottingham Castle": [
+    "Nottingham"
+   ],
+   "Kenilworth Castle": [
+    "Kenilworth"
+   ],
+   "Pembroke Castle": [
+    "Pembroke"
+   ],
+   "Harlech Castle": [
+    "Harlech"
+   ],
+   "Beaumaris Castle": [
+    "Beaumaris"
+   ],
+   "Cardiff Castle": [
+    "Cardiff"
+   ],
+   "Urquhart Castle": [
+    "Urquhart"
+   ],
+   "Glamis Castle": [
+    "Glamis"
+   ],
+   "Culzean Castle": [
+    "Culzean"
+   ],
+   "Dunnottar Castle": [
+    "Dunnottar"
+   ],
+   "Dunrobin Castle": [
+    "Dunrobin"
+   ],
+   "Corfe Castle": [
+    "Corfe"
+   ],
+   "Durham Castle": [
+    "Durham"
+   ],
+   "Chepstow Castle": [
+    "Chepstow"
+   ],
+   "Carrickfergus Castle": [
+    "Carrickfergus"
+   ],
+   "Caerphilly Castle": [
+    "Caerphilly"
+   ],
+   "Blair Castle": [
+    "Blair"
+   ],
+   "Inveraray Castle": [
+    "Inveraray"
+   ],
+   "Floors Castle": [
+    "Floors"
+   ],
+   "Cawdor Castle": [
+    "Cawdor"
+   ],
+   "Duart Castle": [
+    "Duart"
+   ],
+   "Dunvegan Castle": [
+    "Dunvegan"
+   ],
+   "Doune Castle": [
+    "Doune"
+   ],
+   "Tantallon Castle": [
+    "Tantallon"
+   ],
+   "Craigievar Castle": [
+    "Craigievar"
+   ],
+   "Crathes Castle": [
+    "Crathes"
+   ],
+   "Drum Castle": [
+    "Drum"
+   ],
+   "Fyvie Castle": [
+    "Fyvie"
+   ],
+   "Kilchurn Castle": [
+    "Kilchurn"
+   ],
+   "Blackness Castle": [
+    "Blackness"
+   ],
+   "Craigmillar Castle": [
+    "Craigmillar"
+   ],
+   "Bothwell Castle": [
+    "Bothwell"
+   ],
+   "Dirleton Castle": [
+    "Dirleton"
+   ],
+   "Dunluce Castle": [
+    "Dunluce"
+   ],
+   "Lindisfarne Castle": [
+    "Lindisfarne"
+   ],
+   "Richmond Castle": [
+    "Richmond"
+   ],
+   "Scarborough Castle": [
+    "Scarborough"
+   ],
+   "Pevensey Castle": [
+    "Pevensey"
+   ],
+   "Ludlow Castle": [
+    "Ludlow"
+   ],
+   "Tamworth Castle": [
+    "Tamworth"
+   ],
+   "Rochester Castle": [
+    "Rochester"
+   ],
+   "Colchester Castle": [
+    "Colchester"
+   ],
+   "Norwich Castle": [
+    "Norwich"
+   ],
+   "Berkeley Castle": [
+    "Berkeley"
+   ],
+   "Walmer Castle": [
+    "Walmer"
+   ],
+   "Pontefract Castle": [
+    "Pontefract"
+   ],
+   "Skipton Castle": [
+    "Skipton"
+   ],
+   "Knaresborough Castle": [
+    "Knaresborough"
+   ],
+   "Tattershall Castle": [
+    "Tattershall"
+   ],
+   "Belvoir Castle": [
+    "Belvoir"
+   ],
+   "Newark Castle": [
+    "Newark"
+   ],
+   "Powderham Castle": [
+    "Powderham"
+   ],
+   "Dunster Castle": [
+    "Dunster"
+   ],
+   "Totnes Castle": [
+    "Totnes"
+   ],
+   "Pendennis Castle": [
+    "Pendennis"
+   ],
+   "Chirk Castle": [
+    "Chirk"
+   ],
+   "Powis Castle": [
+    "Powis"
+   ],
+   "Penrhyn Castle": [
+    "Penrhyn"
+   ],
+   "Raglan Castle": [
+    "Raglan"
+   ],
+   "Kidwelly Castle": [
+    "Kidwelly"
+   ],
+   "Carew Castle": [
+    "Carew"
+   ],
+   "Manorbier Castle": [
+    "Manorbier"
+   ],
+   "Criccieth Castle": [
+    "Criccieth"
+   ],
+   "Rhuddlan Castle": [
+    "Rhuddlan"
+   ],
+   "Flint Castle": [
+    "Flint"
+   ],
+   "Denbigh Castle": [
+    "Denbigh"
+   ],
+   "Caerlaverock Castle": [
+    "Caerlaverock"
+   ],
+   "Ravenscraig Castle": [
+    "Ravenscraig"
+   ],
+   "Neidpath Castle": [
+    "Neidpath"
+   ],
+   "Cardoness Castle": [
+    "Cardoness"
+   ],
+   "Oxford Castle": [
+    "Oxford"
+   ],
+   "Ogmore Castle": [
+    "Ogmore"
+   ],
+   "Dolbadarn Castle": [
+    "Dolbadarn"
+   ],
+   "Cilgerran Castle": [
+    "Cilgerran"
+   ],
+   "Herstmonceux Castle": [
+    "Herstmonceux"
+   ],
+   "Smailholm Castle": [
+    "Smailholm"
+   ],
+   "Carreg Cennen Castle": [
+    "Carreg Cennen"
+   ],
+   "Threave Castle": [
+    "Threave"
+   ],
+   "Lochleven Castle": [
+    "Lochleven"
+   ],
+   "Berry Pomeroy Castle": [
+    "Berry Pomeroy"
+   ],
+   "St Mawes Castle": [
+    "St Mawes"
+   ],
+   "Compton Castle": [
+    "Compton"
+   ],
+   "Sherborne Castle": [
+    "Sherborne"
+   ],
+   "Okehampton Castle": [
+    "Okehampton"
+   ],
+   "Tutbury Castle": [
+    "Tutbury"
+   ],
+   "Peveril Castle": [
+    "Peveril"
+   ],
+   "Bolsover Castle": [
+    "Bolsover"
+   ],
+   "Helmsley Castle": [
+    "Helmsley"
+   ],
+   "Conisbrough Castle": [
+    "Conisbrough"
+   ],
+   "Deal Castle": [
+    "Deal"
+   ],
+   "Portchester Castle": [
+    "Portchester"
+   ],
+   "Restormel Castle": [
+    "Restormel"
+   ],
+   "Launceston Castle": [
+    "Launceston"
+   ],
+   "Lewes Castle": [
+    "Lewes"
+   ],
+   "Hermitage Castle": [
+    "Hermitage"
+   ],
+   "Huntly Castle": [
+    "Huntly"
+   ],
+   "Dunollie Castle": [
+    "Dunollie"
+   ],
+   "Kisimul Castle": [
+    "Kisimul"
+   ],
+   "Castle Stalker": [
+    "Stalker"
+   ],
+   "Dundrum Castle": [
+    "Dundrum"
+   ],
+   "Upnor Castle": [
+    "Upnor"
+   ],
+   "Greenknowe Castle": [
+    "Greenknowe"
+   ]
+  },
+  "traps": {
+   "Neuschwanstein Castle": "A famous castle, but in Germany.",
+   "Chambord": "A French château, not a British castle.",
+   "Blarney Castle": "An Irish castle in the Republic of Ireland.",
+   "Bran Castle": "A Romanian castle linked to the Dracula legend.",
+   "Himeji Castle": "A Japanese castle."
+  },
+  "fact": "Caerphilly Castle is the largest castle in Wales and is famous for its leaning tower."
+ }
+]

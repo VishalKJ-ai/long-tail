@@ -1,0 +1,3426 @@
+[
+  {
+    "id": "cul-scr-hogwarts-characters",
+    "cat": "Books",
+    "title": "Hogwarts roll call",
+    "q": "A Hogwarts book character",
+    "rule": "Named characters from J.K. Rowling's seven novels; a first name or a surname alone counts.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Harry Potter",
+        "Hermione Granger",
+        "Ron Weasley",
+        "Albus Dumbledore",
+        "Severus Snape",
+        "Rubeus Hagrid"
+      ],
+      "hipster": [
+        "Luna Lovegood",
+        "Fred Weasley"
+      ],
+      "body": [
+        "Lord Voldemort",
+        "Sirius Black",
+        "Draco Malfoy",
+        "Ginny Weasley",
+        "Minerva McGonagall",
+        "Neville Longbottom",
+        "Dobby",
+        "Hedwig",
+        "Bellatrix Lestrange",
+        "Remus Lupin",
+        "Cedric Diggory",
+        "Molly Weasley",
+        "Arthur Weasley",
+        "George Weasley",
+        "Lucius Malfoy",
+        "Dolores Umbridge",
+        "Peter Pettigrew",
+        "Fawkes",
+        "Crookshanks",
+        "Argus Filch",
+        "Dudley Dursley",
+        "Gilderoy Lockhart",
+        "Kreacher",
+        "Buckbeak",
+        "Viktor Krum",
+        "Fleur Delacour",
+        "Cho Chang",
+        "Horace Slughorn",
+        "Quirinus Quirrell",
+        "Nymphadora Tonks",
+        "Percy Weasley",
+        "Bill Weasley",
+        "Alastor Moody"
+      ],
+      "tail": [
+        "Charlie Weasley",
+        "Fluffy",
+        "Norbert",
+        "Filius Flitwick",
+        "Pomona Sprout",
+        "Sybill Trelawney",
+        "Kingsley Shacklebolt",
+        "Seamus Finnigan",
+        "Dean Thomas",
+        "Parvati Patil",
+        "Padma Patil",
+        "Lavender Brown",
+        "Oliver Wood",
+        "Vincent Crabbe",
+        "Gregory Goyle",
+        "Pansy Parkinson",
+        "Vernon Dursley",
+        "Petunia Dursley",
+        "Cornelius Fudge",
+        "Rufus Scrimgeour",
+        "Barty Crouch Jr",
+        "Ludo Bagman",
+        "Rita Skeeter",
+        "Fenrir Greyback",
+        "Madam Pomfrey",
+        "Peeves",
+        "Moaning Myrtle",
+        "Nearly Headless Nick",
+        "Mrs Norris",
+        "Nicolas Flamel",
+        "Hannah Abbott",
+        "Susan Bones",
+        "Ernie Macmillan",
+        "Colin Creevey",
+        "Xenophilius Lovegood",
+        "Godric Gryffindor",
+        "Salazar Slytherin",
+        "Gellert Grindelwald",
+        "Narcissa Malfoy",
+        "Lily Potter",
+        "James Potter",
+        "Aragog",
+        "Nagini",
+        "Griphook",
+        "Garrick Ollivander"
+      ],
+      "deep": [
+        "Marcus Flint",
+        "Terry Boot",
+        "Justin Finch-Fletchley",
+        "Dennis Creevey",
+        "Igor Karkaroff",
+        "Madame Maxime",
+        "Gabrielle Delacour",
+        "Aberforth Dumbledore",
+        "Kendra Dumbledore",
+        "Helena Ravenclaw",
+        "Helga Hufflepuff",
+        "Rowena Ravenclaw",
+        "Fat Friar",
+        "Bloody Baron",
+        "Marge Dursley",
+        "Winky",
+        "Firenze",
+        "Grawp",
+        "Blaise Zabini",
+        "Lee Jordan",
+        "Cormac McLaggen",
+        "Katie Bell",
+        "Angelina Johnson",
+        "Alicia Spinnet",
+        "Bathilda Bagshot"
+      ],
+      "outlier": [
+        "Mundungus Fletcher",
+        "Dedalus Diggle",
+        "Bartemius Crouch Sr",
+        "Ariana Dumbledore",
+        "Arabella Figg"
+      ]
+    },
+    "alias": {
+      "Hermione Granger": [
+        "Hermione",
+        "Granger"
+      ],
+      "Albus Dumbledore": [
+        "Dumbledore",
+        "Albus"
+      ],
+      "Severus Snape": [
+        "Snape",
+        "Severus",
+        "Professor Snape"
+      ],
+      "Rubeus Hagrid": [
+        "Hagrid",
+        "Rubeus"
+      ],
+      "Lord Voldemort": [
+        "Voldemort",
+        "Tom Riddle",
+        "Tom Marvolo Riddle",
+        "You-Know-Who"
+      ],
+      "Minerva McGonagall": [
+        "McGonagall",
+        "Minerva",
+        "Professor McGonagall"
+      ],
+      "Alastor Moody": [
+        "Mad-Eye Moody",
+        "Moody",
+        "Alastor"
+      ],
+      "Sirius Black": [
+        "Sirius",
+        "Padfoot"
+      ],
+      "Moaning Myrtle": [
+        "Myrtle",
+        "Myrtle Warren"
+      ],
+      "Argus Filch": [
+        "Filch",
+        "Argus"
+      ],
+      "Fred Weasley": [
+        "Fred"
+      ],
+      "Arabella Figg": [
+        "Mrs Figg",
+        "Figg",
+        "Arabella"
+      ],
+      "Harry Potter": [
+        "Harry"
+      ],
+      "Narcissa Malfoy": [
+        "Narcissa"
+      ],
+      "Lily Potter": [
+        "Lily Evans",
+        "Lily"
+      ],
+      "James Potter": [
+        "James"
+      ],
+      "Garrick Ollivander": [
+        "Ollivander",
+        "Mr Ollivander"
+      ],
+      "Blaise Zabini": [
+        "Zabini",
+        "Blaise"
+      ],
+      "Lee Jordan": [
+        "Lee"
+      ],
+      "Cormac McLaggen": [
+        "McLaggen",
+        "Cormac"
+      ],
+      "Katie Bell": [
+        "Katie"
+      ],
+      "Angelina Johnson": [
+        "Angelina"
+      ],
+      "Alicia Spinnet": [
+        "Alicia"
+      ],
+      "Bathilda Bagshot": [
+        "Bagshot",
+        "Bathilda"
+      ],
+      "Ron Weasley": [
+        "Ron",
+        "Ronald Weasley"
+      ],
+      "Luna Lovegood": [
+        "Luna"
+      ],
+      "Draco Malfoy": [
+        "Draco"
+      ],
+      "Ginny Weasley": [
+        "Ginny",
+        "Ginevra Weasley"
+      ],
+      "Neville Longbottom": [
+        "Neville",
+        "Longbottom"
+      ],
+      "Bellatrix Lestrange": [
+        "Bellatrix",
+        "Lestrange"
+      ],
+      "Remus Lupin": [
+        "Lupin",
+        "Remus"
+      ],
+      "Cedric Diggory": [
+        "Cedric",
+        "Diggory"
+      ],
+      "Molly Weasley": [
+        "Molly"
+      ],
+      "Arthur Weasley": [
+        "Arthur"
+      ],
+      "George Weasley": [
+        "George"
+      ],
+      "Lucius Malfoy": [
+        "Lucius"
+      ],
+      "Dolores Umbridge": [
+        "Umbridge",
+        "Dolores"
+      ],
+      "Peter Pettigrew": [
+        "Pettigrew",
+        "Wormtail",
+        "Scabbers"
+      ],
+      "Percy Weasley": [
+        "Percy"
+      ],
+      "Bill Weasley": [
+        "Bill",
+        "William Weasley"
+      ],
+      "Charlie Weasley": [
+        "Charlie",
+        "Charles Weasley"
+      ],
+      "Cho Chang": [
+        "Cho"
+      ],
+      "Gilderoy Lockhart": [
+        "Lockhart",
+        "Gilderoy"
+      ],
+      "Quirinus Quirrell": [
+        "Quirrell",
+        "Professor Quirrell"
+      ],
+      "Filius Flitwick": [
+        "Flitwick"
+      ],
+      "Pomona Sprout": [
+        "Sprout"
+      ],
+      "Sybill Trelawney": [
+        "Trelawney"
+      ],
+      "Horace Slughorn": [
+        "Slughorn"
+      ],
+      "Nymphadora Tonks": [
+        "Tonks"
+      ],
+      "Kingsley Shacklebolt": [
+        "Shacklebolt",
+        "Kingsley"
+      ],
+      "Seamus Finnigan": [
+        "Seamus",
+        "Finnigan"
+      ],
+      "Dean Thomas": [
+        "Dean"
+      ],
+      "Parvati Patil": [
+        "Parvati"
+      ],
+      "Padma Patil": [
+        "Padma"
+      ],
+      "Lavender Brown": [
+        "Lavender"
+      ],
+      "Oliver Wood": [
+        "Oliver"
+      ],
+      "Vincent Crabbe": [
+        "Crabbe"
+      ],
+      "Gregory Goyle": [
+        "Goyle"
+      ],
+      "Pansy Parkinson": [
+        "Pansy"
+      ],
+      "Dudley Dursley": [
+        "Dudley"
+      ],
+      "Vernon Dursley": [
+        "Vernon",
+        "Uncle Vernon"
+      ],
+      "Petunia Dursley": [
+        "Petunia",
+        "Aunt Petunia"
+      ],
+      "Cornelius Fudge": [
+        "Fudge"
+      ],
+      "Rufus Scrimgeour": [
+        "Scrimgeour"
+      ],
+      "Barty Crouch Jr": [
+        "Barty",
+        "Bartemius Crouch Jr"
+      ],
+      "Bartemius Crouch Sr": [
+        "Barty Crouch Sr",
+        "Mr Crouch"
+      ],
+      "Viktor Krum": [
+        "Krum"
+      ],
+      "Fleur Delacour": [
+        "Fleur"
+      ],
+      "Ludo Bagman": [
+        "Bagman"
+      ],
+      "Rita Skeeter": [
+        "Skeeter"
+      ],
+      "Fenrir Greyback": [
+        "Greyback"
+      ],
+      "Madam Pomfrey": [
+        "Poppy Pomfrey",
+        "Pomfrey"
+      ],
+      "Nearly Headless Nick": [
+        "Sir Nicholas",
+        "Sir Nicholas de Mimsy-Porpington"
+      ],
+      "Mrs Norris": [
+        "Norris"
+      ],
+      "Nicolas Flamel": [
+        "Flamel"
+      ],
+      "Hannah Abbott": [
+        "Hannah"
+      ],
+      "Susan Bones": [
+        "Susan"
+      ],
+      "Ernie Macmillan": [
+        "Ernie"
+      ],
+      "Colin Creevey": [
+        "Colin"
+      ],
+      "Xenophilius Lovegood": [
+        "Xenophilius"
+      ],
+      "Marcus Flint": [
+        "Flint"
+      ],
+      "Terry Boot": [
+        "Terry"
+      ],
+      "Justin Finch-Fletchley": [
+        "Justin",
+        "Finch-Fletchley"
+      ],
+      "Dennis Creevey": [
+        "Dennis"
+      ],
+      "Igor Karkaroff": [
+        "Karkaroff",
+        "Igor"
+      ],
+      "Madame Maxime": [
+        "Maxime",
+        "Olympe Maxime"
+      ],
+      "Gabrielle Delacour": [
+        "Gabrielle"
+      ],
+      "Aberforth Dumbledore": [
+        "Aberforth"
+      ],
+      "Gellert Grindelwald": [
+        "Grindelwald"
+      ],
+      "Kendra Dumbledore": [
+        "Kendra"
+      ],
+      "Helena Ravenclaw": [
+        "Grey Lady",
+        "Helena"
+      ],
+      "Godric Gryffindor": [
+        "Godric",
+        "Gryffindor"
+      ],
+      "Salazar Slytherin": [
+        "Salazar",
+        "Slytherin"
+      ],
+      "Helga Hufflepuff": [
+        "Helga",
+        "Hufflepuff"
+      ],
+      "Rowena Ravenclaw": [
+        "Rowena"
+      ],
+      "Marge Dursley": [
+        "Marge",
+        "Aunt Marge"
+      ],
+      "Mundungus Fletcher": [
+        "Mundungus",
+        "Dung Fletcher"
+      ],
+      "Dedalus Diggle": [
+        "Dedalus",
+        "Diggle"
+      ],
+      "Ariana Dumbledore": [
+        "Ariana"
+      ]
+    },
+    "traps": {
+      "Gandalf": "A wizard from Tolkien's Middle-earth, not from Hogwarts.",
+      "Hogwarts": "The school itself, not a character.",
+      "Quidditch": "A sport played at Hogwarts, not a person."
+    },
+    "fact": "Bartemius Crouch Sr is the father of Barty Crouch Jr, the Death Eater who impersonates Mad-Eye Moody in the fourth book."
+  },
+  {
+    "id": "cul-scr-simpsons-characters",
+    "cat": "TV",
+    "title": "Springfield census",
+    "q": "A Simpsons character",
+    "rule": "Named characters from the main cast and recurring figures; unnamed background extras don't count.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Homer Simpson",
+        "Bart Simpson",
+        "Marge Simpson",
+        "Lisa Simpson",
+        "Maggie Simpson"
+      ],
+      "hipster": [
+        "Lionel Hutz",
+        "Troy McClure"
+      ],
+      "body": [
+        "Ned Flanders",
+        "Moe Szyslak",
+        "Barney Gumble",
+        "Krusty the Clown",
+        "Sideshow Bob",
+        "Mr Burns",
+        "Waylon Smithers",
+        "Apu Nahasapeemapetilon",
+        "Milhouse Van Houten",
+        "Nelson Muntz",
+        "Ralph Wiggum",
+        "Chief Wiggum",
+        "Lenny Leonard",
+        "Carl Carlson",
+        "Principal Skinner",
+        "Edna Krabappel",
+        "Groundskeeper Willie",
+        "Comic Book Guy",
+        "Dr Hibbert",
+        "Kent Brockman",
+        "Patty Bouvier",
+        "Selma Bouvier",
+        "Maude Flanders",
+        "Abraham Simpson",
+        "Snowball II",
+        "Santa's Little Helper",
+        "Itchy",
+        "Scratchy",
+        "Reverend Lovejoy"
+      ],
+      "tail": [
+        "Rod Flanders",
+        "Todd Flanders",
+        "Hans Moleman",
+        "Sherri",
+        "Terri",
+        "Bumblebee Man",
+        "Otto Mann",
+        "Dr Nick Riviera",
+        "Duffman",
+        "Rainier Wolfcastle",
+        "Kang",
+        "Kodos",
+        "Professor Frink",
+        "Helen Lovejoy",
+        "Cletus Spuckler",
+        "Mayor Quimby",
+        "Fat Tony",
+        "Sea Captain",
+        "Superintendent Chalmers",
+        "Martin Prince",
+        "Lunchlady Doris",
+        "Gil Gunderson",
+        "Agnes Skinner",
+        "Kearney Zzyzwicz",
+        "Jimbo Jones",
+        "Dolph Starbeam",
+        "Frank Grimes",
+        "Disco Stu",
+        "Hank Scorpio",
+        "Sideshow Mel",
+        "Blinky",
+        "Mona Simpson"
+      ],
+      "deep": [
+        "Snake Jailbird",
+        "Jasper Beardley",
+        "Brandine Spuckler",
+        "Luann Van Houten",
+        "Kirk Van Houten",
+        "Bleeding Gums Murphy",
+        "Dr Marvin Monroe",
+        "Herb Powell",
+        "Drederick Tatum",
+        "Mr Largo"
+      ],
+      "outlier": [
+        "Mr Teeny",
+        "Lurleen Lumpkin",
+        "Ms Hoover"
+      ]
+    },
+    "alias": {
+      "Homer Simpson": [
+        "Homer"
+      ],
+      "Bart Simpson": [
+        "Bart"
+      ],
+      "Marge Simpson": [
+        "Marge"
+      ],
+      "Lisa Simpson": [
+        "Lisa"
+      ],
+      "Maggie Simpson": [
+        "Maggie"
+      ],
+      "Krusty the Clown": [
+        "Krusty",
+        "Herschel Krustofski"
+      ],
+      "Ned Flanders": [
+        "Flanders",
+        "Ned"
+      ],
+      "Moe Szyslak": [
+        "Moe"
+      ],
+      "Mr Burns": [
+        "Montgomery Burns",
+        "Charles Montgomery Burns",
+        "Burns",
+        "Monty Burns"
+      ],
+      "Waylon Smithers": [
+        "Smithers",
+        "Waylon"
+      ],
+      "Apu Nahasapeemapetilon": [
+        "Apu"
+      ],
+      "Milhouse Van Houten": [
+        "Milhouse"
+      ],
+      "Nelson Muntz": [
+        "Nelson",
+        "Muntz"
+      ],
+      "Principal Skinner": [
+        "Seymour Skinner",
+        "Skinner"
+      ],
+      "Edna Krabappel": [
+        "Mrs Krabappel",
+        "Miss Krabappel"
+      ],
+      "Chief Wiggum": [
+        "Clancy Wiggum"
+      ],
+      "Sideshow Bob": [
+        "Robert Terwilliger"
+      ],
+      "Abraham Simpson": [
+        "Grampa Simpson",
+        "Grandpa Simpson",
+        "Abe Simpson",
+        "Abe",
+        "Grampa"
+      ],
+      "Reverend Lovejoy": [
+        "Timothy Lovejoy"
+      ],
+      "Comic Book Guy": [
+        "Jeff Albertson"
+      ],
+      "Dr Hibbert": [
+        "Julius Hibbert",
+        "Hibbert",
+        "Doctor Hibbert"
+      ],
+      "Dr Nick Riviera": [
+        "Nick Riviera",
+        "Dr Nick",
+        "Riviera"
+      ],
+      "Mayor Quimby": [
+        "Joe Quimby",
+        "Quimby",
+        "Diamond Joe Quimby"
+      ],
+      "Groundskeeper Willie": [
+        "Willie"
+      ],
+      "Snowball II": [
+        "Snowball"
+      ],
+      "Ms Hoover": [
+        "Miss Hoover",
+        "Mrs Hoover",
+        "Elizabeth Hoover"
+      ],
+      "Hans Moleman": [
+        "Moleman"
+      ],
+      "Otto Mann": [
+        "Otto"
+      ],
+      "Dolph Starbeam": [
+        "Dolph"
+      ],
+      "Kearney Zzyzwicz": [
+        "Kearney"
+      ],
+      "Lunchlady Doris": [
+        "Doris"
+      ],
+      "Ralph Wiggum": [
+        "Ralph"
+      ],
+      "Barney Gumble": [
+        "Barney"
+      ],
+      "Lenny Leonard": [
+        "Lenny"
+      ],
+      "Carl Carlson": [
+        "Carl"
+      ],
+      "Kent Brockman": [
+        "Brockman"
+      ],
+      "Patty Bouvier": [
+        "Patty"
+      ],
+      "Selma Bouvier": [
+        "Selma"
+      ],
+      "Maude Flanders": [
+        "Maude"
+      ],
+      "Rod Flanders": [
+        "Rod"
+      ],
+      "Todd Flanders": [
+        "Todd"
+      ],
+      "Rainier Wolfcastle": [
+        "McBain",
+        "Wolfcastle"
+      ],
+      "Professor Frink": [
+        "Frink",
+        "John Frink"
+      ],
+      "Helen Lovejoy": [
+        "Mrs Lovejoy",
+        "Helen"
+      ],
+      "Cletus Spuckler": [
+        "Cletus"
+      ],
+      "Sea Captain": [
+        "Captain McCallister",
+        "Horatio McCallister"
+      ],
+      "Superintendent Chalmers": [
+        "Chalmers",
+        "Gary Chalmers"
+      ],
+      "Martin Prince": [
+        "Martin"
+      ],
+      "Gil Gunderson": [
+        "Gil"
+      ],
+      "Agnes Skinner": [
+        "Agnes"
+      ],
+      "Jimbo Jones": [
+        "Jimbo"
+      ],
+      "Frank Grimes": [
+        "Grimey",
+        "Grimes"
+      ],
+      "Disco Stu": [
+        "Stu"
+      ],
+      "Hank Scorpio": [
+        "Scorpio"
+      ],
+      "Sideshow Mel": [
+        "Mel"
+      ],
+      "Snake Jailbird": [
+        "Snake"
+      ],
+      "Jasper Beardley": [
+        "Jasper"
+      ],
+      "Brandine Spuckler": [
+        "Brandine"
+      ],
+      "Luann Van Houten": [
+        "Luann"
+      ],
+      "Kirk Van Houten": [
+        "Kirk"
+      ],
+      "Bleeding Gums Murphy": [
+        "Bleeding Gums"
+      ],
+      "Dr Marvin Monroe": [
+        "Marvin Monroe",
+        "Dr Monroe"
+      ],
+      "Mr Teeny": [
+        "Teeny"
+      ],
+      "Lurleen Lumpkin": [
+        "Lurleen"
+      ],
+      "Lionel Hutz": [
+        "Hutz"
+      ],
+      "Troy McClure": [
+        "McClure"
+      ],
+      "Mona Simpson": [
+        "Mona"
+      ],
+      "Herb Powell": [
+        "Herb"
+      ],
+      "Drederick Tatum": [
+        "Tatum"
+      ]
+    },
+    "traps": {
+      "Peter Griffin": "The lead of Family Guy, a different animated show.",
+      "Stewie Griffin": "Also Family Guy, not a Springfield resident.",
+      "Bob Belcher": "From Bob's Burgers, not The Simpsons."
+    },
+    "fact": "Herb Powell, Homer's long-lost half-brother, loses his car company after letting Homer design a new model for him."
+  },
+  {
+    "id": "cul-scr-star-wars-characters",
+    "cat": "Film",
+    "title": "Galactic roll call",
+    "q": "A Star Wars film character",
+    "rule": "Named characters who appear in the films; TV-only characters and unnamed generic roles don't qualify.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Luke Skywalker",
+        "Darth Vader",
+        "Han Solo",
+        "Princess Leia",
+        "Yoda",
+        "Obi-Wan Kenobi"
+      ],
+      "hipster": [
+        "Wedge Antilles",
+        "Nien Nunb"
+      ],
+      "body": [
+        "R2-D2",
+        "C-3PO",
+        "Chewbacca",
+        "Darth Maul",
+        "Palpatine",
+        "Padmé Amidala",
+        "Qui-Gon Jinn",
+        "Count Dooku",
+        "General Grievous",
+        "Mace Windu",
+        "Jabba the Hutt",
+        "Boba Fett",
+        "Jango Fett",
+        "Rey",
+        "Finn",
+        "Kylo Ren",
+        "BB-8",
+        "Poe Dameron",
+        "Captain Phasma",
+        "General Hux",
+        "Snoke",
+        "Admiral Ackbar",
+        "Jar Jar Binks",
+        "Lando Calrissian",
+        "Grand Moff Tarkin",
+        "Greedo",
+        "Wicket"
+      ],
+      "tail": [
+        "Biggs Darklighter",
+        "Jek Porkins",
+        "Dengar",
+        "Zuckuss",
+        "IG-88",
+        "Bossk",
+        "Bib Fortuna",
+        "Salacious Crumb",
+        "Max Rebo",
+        "Sy Snootles",
+        "Oola",
+        "Lobot",
+        "Nute Gunray",
+        "Shmi Skywalker",
+        "Cliegg Lars",
+        "Owen Lars",
+        "Beru Lars",
+        "Mon Mothma",
+        "Bail Organa",
+        "Jyn Erso",
+        "Cassian Andor",
+        "K-2SO",
+        "Orson Krennic",
+        "Saw Gerrera",
+        "Galen Erso",
+        "Lyra Erso",
+        "Chirrut Imwe",
+        "Baze Malbus",
+        "Bodhi Rook",
+        "Rose Tico",
+        "Vice Admiral Holdo",
+        "Maz Kanata",
+        "Unkar Plutt",
+        "Zorii Bliss",
+        "Babu Frik",
+        "Qi'ra",
+        "Enfys Nest",
+        "Tobias Beckett",
+        "L3-37",
+        "Dryden Vos",
+        "Val",
+        "Rio Durant",
+        "Watto",
+        "Sebulba",
+        "Zam Wesell",
+        "Admiral Piett"
+      ],
+      "deep": [
+        "Sio Bibble",
+        "Captain Panaka",
+        "Rune Haako",
+        "Ric Olié",
+        "Ponda Baba",
+        "General Veers",
+        "Moff Jerjerrod",
+        "Admiral Ozzel",
+        "Captain Needa"
+      ],
+      "outlier": [
+        "Lama Su",
+        "Jocasta Nu",
+        "Captain Typho",
+        "Mas Amedda"
+      ]
+    },
+    "alias": {
+      "Luke Skywalker": [
+        "Luke"
+      ],
+      "Darth Vader": [
+        "Anakin Skywalker",
+        "Anakin",
+        "Lord Vader",
+        "Vader"
+      ],
+      "Han Solo": [
+        "Han"
+      ],
+      "Princess Leia": [
+        "Leia",
+        "Leia Organa",
+        "Princess Leia Organa",
+        "General Leia"
+      ],
+      "Obi-Wan Kenobi": [
+        "Ben Kenobi",
+        "Obi-Wan"
+      ],
+      "Palpatine": [
+        "Emperor Palpatine",
+        "Darth Sidious",
+        "Sheev Palpatine"
+      ],
+      "Padmé Amidala": [
+        "Padme Amidala",
+        "Padme",
+        "Queen Amidala",
+        "Amidala"
+      ],
+      "Count Dooku": [
+        "Dooku",
+        "Darth Tyranus"
+      ],
+      "General Grievous": [
+        "Grievous"
+      ],
+      "Darth Maul": [
+        "Maul"
+      ],
+      "Jabba the Hutt": [
+        "Jabba"
+      ],
+      "Kylo Ren": [
+        "Ben Solo"
+      ],
+      "Admiral Ackbar": [
+        "Ackbar"
+      ],
+      "Jar Jar Binks": [
+        "Jar Jar"
+      ],
+      "Lando Calrissian": [
+        "Lando"
+      ],
+      "R2-D2": [
+        "Artoo",
+        "Artoo-Detoo"
+      ],
+      "C-3PO": [
+        "Threepio",
+        "See-Threepio"
+      ],
+      "Chewbacca": [
+        "Chewie"
+      ],
+      "Rey": [
+        "Rey Skywalker"
+      ],
+      "Finn": [
+        "FN-2187"
+      ],
+      "Poe Dameron": [
+        "Poe"
+      ],
+      "Rose Tico": [
+        "Rose"
+      ],
+      "Maz Kanata": [
+        "Maz"
+      ],
+      "Biggs Darklighter": [
+        "Biggs"
+      ],
+      "Vice Admiral Holdo": [
+        "Holdo",
+        "Amilyn Holdo"
+      ],
+      "Unkar Plutt": [
+        "Plutt"
+      ],
+      "Cassian Andor": [
+        "Cassian"
+      ],
+      "Jyn Erso": [
+        "Jyn"
+      ],
+      "Jek Porkins": [
+        "Porkins"
+      ],
+      "Tobias Beckett": [
+        "Beckett"
+      ],
+      "Zam Wesell": [
+        "Zam"
+      ],
+      "Admiral Piett": [
+        "Piett"
+      ],
+      "General Veers": [
+        "Veers"
+      ],
+      "Moff Jerjerrod": [
+        "Jerjerrod"
+      ],
+      "Admiral Ozzel": [
+        "Ozzel"
+      ],
+      "Captain Needa": [
+        "Needa"
+      ],
+      "Qui-Gon Jinn": [
+        "Qui-Gon"
+      ],
+      "Mace Windu": [
+        "Windu"
+      ],
+      "Boba Fett": [
+        "Boba"
+      ],
+      "Jango Fett": [
+        "Jango"
+      ],
+      "Captain Phasma": [
+        "Phasma"
+      ],
+      "General Hux": [
+        "Hux"
+      ],
+      "Snoke": [
+        "Supreme Leader Snoke"
+      ],
+      "Grand Moff Tarkin": [
+        "Tarkin",
+        "Wilhuff Tarkin"
+      ],
+      "Nute Gunray": [
+        "Gunray"
+      ],
+      "Shmi Skywalker": [
+        "Shmi"
+      ],
+      "Cliegg Lars": [
+        "Cliegg"
+      ],
+      "Owen Lars": [
+        "Owen"
+      ],
+      "Beru Lars": [
+        "Beru",
+        "Aunt Beru"
+      ],
+      "Mon Mothma": [
+        "Mothma"
+      ],
+      "Bail Organa": [
+        "Bail"
+      ],
+      "Orson Krennic": [
+        "Krennic",
+        "Director Krennic"
+      ],
+      "Saw Gerrera": [
+        "Saw"
+      ],
+      "Galen Erso": [
+        "Galen"
+      ],
+      "Lyra Erso": [
+        "Lyra"
+      ],
+      "Chirrut Imwe": [
+        "Chirrut"
+      ],
+      "Baze Malbus": [
+        "Baze"
+      ],
+      "Bodhi Rook": [
+        "Bodhi"
+      ],
+      "Zorii Bliss": [
+        "Zorii"
+      ],
+      "Babu Frik": [
+        "Babu"
+      ],
+      "Enfys Nest": [
+        "Enfys"
+      ],
+      "Dryden Vos": [
+        "Vos"
+      ],
+      "Rio Durant": [
+        "Rio"
+      ],
+      "L3-37": [
+        "L3"
+      ],
+      "Bib Fortuna": [
+        "Fortuna"
+      ],
+      "Salacious Crumb": [
+        "Salacious B. Crumb"
+      ],
+      "Sy Snootles": [
+        "Snootles"
+      ],
+      "Max Rebo": [
+        "Rebo"
+      ],
+      "Wedge Antilles": [
+        "Wedge"
+      ],
+      "Nien Nunb": [
+        "Nunb"
+      ],
+      "Sio Bibble": [
+        "Bibble"
+      ],
+      "Captain Panaka": [
+        "Panaka"
+      ],
+      "Rune Haako": [
+        "Haako"
+      ],
+      "Captain Typho": [
+        "Typho"
+      ],
+      "Mas Amedda": [
+        "Amedda"
+      ],
+      "Wicket": [
+        "Wicket W. Warrick"
+      ]
+    },
+    "traps": {
+      "Stormtrooper": "A generic soldier rather than a named character.",
+      "Ewok": "A species, not a single named character (Wicket is one).",
+      "Jedi": "A class of warriors, not a character."
+    },
+    "fact": "The 1997 Special Edition of A New Hope has Greedo fire first, changing the original scene where Han Solo shoots him."
+  },
+  {
+    "id": "cul-scr-middle-earth-characters",
+    "cat": "Books",
+    "title": "Middle-earth census",
+    "q": "A Middle-earth character",
+    "rule": "Named characters from Tolkien's novels and the films; unnamed races and creatures don't count.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Frodo Baggins",
+        "Gandalf",
+        "Aragorn",
+        "Gollum",
+        "Bilbo Baggins",
+        "Samwise Gamgee"
+      ],
+      "hipster": [
+        "Tom Bombadil",
+        "Radagast"
+      ],
+      "body": [
+        "Gimli",
+        "Legolas",
+        "Boromir",
+        "Meriadoc Brandybuck",
+        "Peregrin Took",
+        "Galadriel",
+        "Elrond",
+        "Arwen",
+        "Éowyn",
+        "Théoden",
+        "Saruman",
+        "Sauron",
+        "Faramir",
+        "Denethor",
+        "Treebeard",
+        "Smaug",
+        "Thorin Oakenshield",
+        "Thranduil",
+        "Bard the Bowman",
+        "Azog",
+        "Witch-king",
+        "Shelob",
+        "Grima Wormtongue",
+        "Éomer",
+        "Haldir"
+      ],
+      "tail": [
+        "Dwalin",
+        "Balin",
+        "Fili",
+        "Kili",
+        "Dori",
+        "Nori",
+        "Ori",
+        "Óin",
+        "Glóin",
+        "Bifur",
+        "Bofur",
+        "Bombur",
+        "Beorn",
+        "Bolg",
+        "Tauriel",
+        "Gothmog",
+        "Gamling",
+        "Rosie Cotton",
+        "Lobelia Sackville-Baggins",
+        "Bill Ferny",
+        "Barliman Butterbur",
+        "Goldberry",
+        "Elendil",
+        "Isildur",
+        "Gil-galad",
+        "Morgoth",
+        "Farmer Maggot",
+        "Celeborn",
+        "Glorfindel",
+        "Shadowfax",
+        "Gwaihir"
+      ],
+      "deep": [
+        "Déagol",
+        "Lúthien",
+        "Beren",
+        "Túrin",
+        "Fëanor",
+        "Eärendil",
+        "Glaurung",
+        "Ungoliant",
+        "Melian",
+        "Thingol",
+        "Tuor",
+        "Idril",
+        "Théodred",
+        "Bill the Pony",
+        "Fatty Bolger",
+        "Quickbeam",
+        "Old Man Willow",
+        "Húrin",
+        "Ancalagon",
+        "Finrod Felagund",
+        "Celebrimbor",
+        "Elros"
+      ],
+      "outlier": [
+        "Ioreth",
+        "Hama",
+        "Lurtz",
+        "Ted Sandyman"
+      ]
+    },
+    "alias": {
+      "Frodo Baggins": [
+        "Frodo"
+      ],
+      "Samwise Gamgee": [
+        "Sam",
+        "Samwise",
+        "Sam Gamgee",
+        "Gamgee"
+      ],
+      "Gandalf": [
+        "Gandalf the Grey",
+        "Gandalf the White",
+        "Mithrandir"
+      ],
+      "Aragorn": [
+        "Strider",
+        "Aragorn Elessar",
+        "Elessar",
+        "Estel"
+      ],
+      "Gollum": [
+        "Sméagol",
+        "Smeagol"
+      ],
+      "Bilbo Baggins": [
+        "Bilbo"
+      ],
+      "Legolas": [
+        "Legolas Greenleaf"
+      ],
+      "Thorin Oakenshield": [
+        "Thorin"
+      ],
+      "Bard the Bowman": [
+        "Bard"
+      ],
+      "Witch-king": [
+        "Witch-king of Angmar",
+        "Lord of the Nazgûl"
+      ],
+      "Saruman": [
+        "Saruman the White"
+      ],
+      "Tom Bombadil": [
+        "Bombadil"
+      ],
+      "Radagast": [
+        "Radagast the Brown"
+      ],
+      "Éomer": [
+        "Eomer"
+      ],
+      "Éowyn": [
+        "Eowyn"
+      ],
+      "Arwen": [
+        "Arwen Undómiel"
+      ],
+      "Théoden": [
+        "Theoden"
+      ],
+      "Déagol": [
+        "Deagol"
+      ],
+      "Meriadoc Brandybuck": [
+        "Merry",
+        "Merry Brandybuck",
+        "Meriadoc",
+        "Brandybuck"
+      ],
+      "Peregrin Took": [
+        "Pippin",
+        "Pippin Took",
+        "Pip",
+        "Peregrin",
+        "Took"
+      ],
+      "Fatty Bolger": [
+        "Fredegar Bolger"
+      ],
+      "Quickbeam": [
+        "Bregalad"
+      ],
+      "Ancalagon": [
+        "Ancalagon the Black"
+      ],
+      "Finrod Felagund": [
+        "Finrod"
+      ],
+      "Gimli": [
+        "Gimli son of Glóin"
+      ],
+      "Elrond": [
+        "Elrond Half-elven"
+      ],
+      "Galadriel": [
+        "Lady Galadriel"
+      ],
+      "Sauron": [
+        "Dark Lord",
+        "The Necromancer",
+        "Annatar"
+      ],
+      "Azog": [
+        "Azog the Defiler"
+      ],
+      "Grima Wormtongue": [
+        "Wormtongue",
+        "Grima"
+      ],
+      "Haldir": [
+        "Haldir of Lórien"
+      ],
+      "Farmer Maggot": [
+        "Maggot"
+      ],
+      "Rosie Cotton": [
+        "Rosie"
+      ],
+      "Lobelia Sackville-Baggins": [
+        "Lobelia"
+      ],
+      "Bill Ferny": [
+        "Ferny"
+      ],
+      "Barliman Butterbur": [
+        "Butterbur",
+        "Barliman"
+      ],
+      "Lúthien": [
+        "Luthien Tinúviel",
+        "Tinúviel"
+      ],
+      "Túrin": [
+        "Túrin Turambar"
+      ],
+      "Morgoth": [
+        "Melkor",
+        "Morgoth Bauglir"
+      ],
+      "Thingol": [
+        "Elu Thingol"
+      ],
+      "Ted Sandyman": [
+        "Sandyman"
+      ]
+    },
+    "traps": {
+      "Hobbit": "A race of people, not one named character.",
+      "Elf": "A race, not a named character.",
+      "Dumbledore": "A wizard from Hogwarts, not Middle-earth.",
+      "Nazgûl": "The Ringwraiths as a group; only the Witch-king is individually named in the main story."
+    },
+    "fact": "The Elves call Gandalf Mithrandir, which means Grey Pilgrim."
+  },
+  {
+    "id": "cul-scr-westeros-characters",
+    "cat": "TV",
+    "title": "Seven Kingdoms",
+    "q": "A Westeros character",
+    "rule": "Named people and named animals from the TV series, including those from across the Narrow Sea; unnamed extras don't qualify.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Jon Snow",
+        "Daenerys Targaryen",
+        "Tyrion Lannister",
+        "Cersei Lannister",
+        "Arya Stark",
+        "Ned Stark"
+      ],
+      "hipster": [
+        "Varys",
+        "Davos Seaworth"
+      ],
+      "body": [
+        "Sansa Stark",
+        "Bran Stark",
+        "Jaime Lannister",
+        "Robb Stark",
+        "Theon Greyjoy",
+        "Joffrey Baratheon",
+        "Tywin Lannister",
+        "Littlefinger",
+        "Stannis Baratheon",
+        "Brienne of Tarth",
+        "Sandor Clegane",
+        "Bronn",
+        "Jorah Mormont",
+        "Missandei",
+        "Ramsay Bolton",
+        "Night King",
+        "Hodor",
+        "Samwell Tarly",
+        "Tormund Giantsbane",
+        "Melisandre",
+        "Khal Drogo",
+        "Viserys Targaryen",
+        "Catelyn Stark",
+        "Euron Greyjoy",
+        "Margaery Tyrell",
+        "Oberyn Martell",
+        "Robert Baratheon",
+        "Jaqen H'ghar"
+      ],
+      "tail": [
+        "Renly Baratheon",
+        "Roose Bolton",
+        "Gilly",
+        "Ygritte",
+        "Yara Greyjoy",
+        "Olenna Tyrell",
+        "Ellaria Sand",
+        "Shae",
+        "Podrick Payne",
+        "Grey Worm",
+        "Beric Dondarrion",
+        "Thoros of Myr",
+        "Lancel Lannister",
+        "Pycelle",
+        "Qyburn",
+        "Walder Frey",
+        "Balon Greyjoy",
+        "Mace Tyrell",
+        "Loras Tyrell",
+        "Gendry",
+        "Hot Pie",
+        "Meera Reed",
+        "Jojen Reed",
+        "Osha",
+        "Shireen Baratheon",
+        "Qhorin Halfhand",
+        "Barristan Selmy",
+        "Daario Naharis",
+        "Hizdahr zo Loraq",
+        "Xaro Xhoan Daxos",
+        "Jeor Mormont",
+        "Rakharo",
+        "Gregor Clegane",
+        "Drogon",
+        "Rhaegal",
+        "Viserion",
+        "Myrcella Baratheon",
+        "Tommen Baratheon",
+        "Ghost",
+        "Nymeria",
+        "Lyanna Mormont",
+        "Rickon Stark",
+        "Syrio Forel",
+        "Mance Rayder",
+        "Lysa Arryn",
+        "High Sparrow",
+        "Benjen Stark"
+      ],
+      "deep": [
+        "Edd Tollett",
+        "Bowen Marsh",
+        "Janos Slynt",
+        "Alliser Thorne",
+        "Dontos Hollard",
+        "Summer",
+        "Shaggydog",
+        "Maester Aemon",
+        "Craster",
+        "Brynden Tully",
+        "Edmure Tully",
+        "Doran Martell",
+        "Illyrio Mopatis",
+        "Areo Hotah",
+        "Grey Wind",
+        "Maester Luwin",
+        "Ilyn Payne",
+        "Lyanna Stark"
+      ],
+      "outlier": [
+        "Pyat Pree",
+        "Lem Lemoncloak",
+        "Mirri Maz Duur",
+        "Kraznys mo Nakloz"
+      ]
+    },
+    "alias": {
+      "Jon Snow": [
+        "Aegon Targaryen",
+        "Lord Snow"
+      ],
+      "Daenerys Targaryen": [
+        "Dany",
+        "Khaleesi",
+        "Daenerys Stormborn",
+        "Daenerys",
+        "Mother of Dragons"
+      ],
+      "Tyrion Lannister": [
+        "Tyrion",
+        "The Imp"
+      ],
+      "Cersei Lannister": [
+        "Cersei"
+      ],
+      "Arya Stark": [
+        "Arya",
+        "Arry",
+        "Weasel"
+      ],
+      "Ned Stark": [
+        "Eddard Stark",
+        "Ned"
+      ],
+      "Varys": [
+        "Lord Varys",
+        "The Spider"
+      ],
+      "Davos Seaworth": [
+        "Ser Davos",
+        "Onion Knight"
+      ],
+      "Sansa Stark": [
+        "Sansa",
+        "Alayne Stone"
+      ],
+      "Bran Stark": [
+        "Bran",
+        "Brandon Stark"
+      ],
+      "Jaime Lannister": [
+        "Jaime",
+        "Kingslayer"
+      ],
+      "Littlefinger": [
+        "Petyr Baelish",
+        "Lord Baelish"
+      ],
+      "Brienne of Tarth": [
+        "Brienne"
+      ],
+      "Sandor Clegane": [
+        "The Hound",
+        "Hound",
+        "Sandor"
+      ],
+      "Night King": [
+        "Night's King"
+      ],
+      "Hodor": [
+        "Wylis"
+      ],
+      "Samwell Tarly": [
+        "Sam",
+        "Samwell"
+      ],
+      "Tormund Giantsbane": [
+        "Tormund"
+      ],
+      "Melisandre": [
+        "Red Woman"
+      ],
+      "Khal Drogo": [
+        "Drogo"
+      ],
+      "Euron Greyjoy": [
+        "Crow's Eye",
+        "Euron"
+      ],
+      "Oberyn Martell": [
+        "Oberyn",
+        "Red Viper"
+      ],
+      "Podrick Payne": [
+        "Podrick",
+        "Pod"
+      ],
+      "Renly Baratheon": [
+        "Renly"
+      ],
+      "Roose Bolton": [
+        "Lord Bolton",
+        "Roose"
+      ],
+      "Ramsay Bolton": [
+        "Ramsay Snow",
+        "Ramsay"
+      ],
+      "Walder Frey": [
+        "Lord Frey"
+      ],
+      "Mace Tyrell": [
+        "Mace"
+      ],
+      "Shireen Baratheon": [
+        "Shireen"
+      ],
+      "Viserys Targaryen": [
+        "Viserys"
+      ],
+      "Jorah Mormont": [
+        "Jorah"
+      ],
+      "Yara Greyjoy": [
+        "Yara",
+        "Asha Greyjoy",
+        "Asha"
+      ],
+      "Theon Greyjoy": [
+        "Theon",
+        "Reek"
+      ],
+      "Barristan Selmy": [
+        "Ser Barristan Selmy",
+        "Barristan",
+        "Barristan the Bold"
+      ],
+      "Dontos Hollard": [
+        "Ser Dontos Hollard",
+        "Dontos"
+      ],
+      "Robert Baratheon": [
+        "Robert",
+        "King Robert"
+      ],
+      "Jaqen H'ghar": [
+        "Jaqen"
+      ],
+      "Rickon Stark": [
+        "Rickon"
+      ],
+      "Syrio Forel": [
+        "Syrio"
+      ],
+      "Mance Rayder": [
+        "Mance"
+      ],
+      "Lysa Arryn": [
+        "Lysa"
+      ],
+      "Benjen Stark": [
+        "Benjen"
+      ],
+      "Maester Aemon": [
+        "Aemon"
+      ],
+      "Brynden Tully": [
+        "Blackfish",
+        "Brynden the Blackfish"
+      ],
+      "Edmure Tully": [
+        "Edmure"
+      ],
+      "Doran Martell": [
+        "Doran"
+      ],
+      "Illyrio Mopatis": [
+        "Illyrio"
+      ],
+      "Areo Hotah": [
+        "Hotah"
+      ],
+      "Maester Luwin": [
+        "Luwin"
+      ],
+      "Ilyn Payne": [
+        "Ilyn"
+      ],
+      "Gregor Clegane": [
+        "The Mountain",
+        "Mountain",
+        "Gregor"
+      ],
+      "Robb Stark": [
+        "Robb"
+      ],
+      "Joffrey Baratheon": [
+        "Joffrey"
+      ],
+      "Tywin Lannister": [
+        "Tywin"
+      ],
+      "Stannis Baratheon": [
+        "Stannis"
+      ],
+      "Catelyn Stark": [
+        "Catelyn",
+        "Cat"
+      ],
+      "Margaery Tyrell": [
+        "Margaery"
+      ],
+      "Olenna Tyrell": [
+        "Olenna",
+        "Queen of Thorns"
+      ],
+      "Loras Tyrell": [
+        "Loras",
+        "Knight of Flowers"
+      ],
+      "Ellaria Sand": [
+        "Ellaria"
+      ],
+      "Beric Dondarrion": [
+        "Beric",
+        "Lord Beric"
+      ],
+      "Thoros of Myr": [
+        "Thoros"
+      ],
+      "Lancel Lannister": [
+        "Lancel"
+      ],
+      "Pycelle": [
+        "Grand Maester Pycelle"
+      ],
+      "Balon Greyjoy": [
+        "Balon"
+      ],
+      "Meera Reed": [
+        "Meera"
+      ],
+      "Jojen Reed": [
+        "Jojen"
+      ],
+      "Qhorin Halfhand": [
+        "Qhorin"
+      ],
+      "Daario Naharis": [
+        "Daario"
+      ],
+      "Hizdahr zo Loraq": [
+        "Hizdahr"
+      ],
+      "Xaro Xhoan Daxos": [
+        "Xaro"
+      ],
+      "Jeor Mormont": [
+        "Old Bear",
+        "Jeor"
+      ],
+      "Edd Tollett": [
+        "Dolorous Edd",
+        "Edd"
+      ],
+      "Bowen Marsh": [
+        "Bowen"
+      ],
+      "Janos Slynt": [
+        "Slynt"
+      ],
+      "Alliser Thorne": [
+        "Thorne",
+        "Ser Alliser"
+      ],
+      "Myrcella Baratheon": [
+        "Myrcella"
+      ],
+      "Tommen Baratheon": [
+        "Tommen"
+      ],
+      "Pyat Pree": [
+        "Pyat"
+      ],
+      "Lem Lemoncloak": [
+        "Lem"
+      ],
+      "Mirri Maz Duur": [
+        "Mirri"
+      ],
+      "Kraznys mo Nakloz": [
+        "Kraznys"
+      ]
+    },
+    "traps": {
+      "Winterfell": "A castle, not a character.",
+      "Dothraki": "A people, not a single named character.",
+      "Iron Throne": "A seat of power, not a person."
+    },
+    "fact": "Hodor's real name is Wylis, which the Season 6 flashback reveals."
+  },
+  {
+    "id": "cul-scr-mushroom-kingdom-characters",
+    "cat": "Games",
+    "title": "Mushroom Kingdom",
+    "q": "A Mushroom Kingdom character",
+    "rule": "Named characters and enemy types from this series and its spin-offs, such as kart and sports games; unnamed generic enemies don't qualify.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Mario",
+        "Luigi",
+        "Princess Peach",
+        "Bowser",
+        "Yoshi",
+        "Toad"
+      ],
+      "hipster": [
+        "Pauline",
+        "Birdo"
+      ],
+      "body": [
+        "Wario",
+        "Waluigi",
+        "Donkey Kong",
+        "Princess Daisy",
+        "Rosalina",
+        "Goomba",
+        "Koopa Troopa",
+        "Boo",
+        "Shy Guy",
+        "Bowser Jr",
+        "Toadette",
+        "Lakitu",
+        "Chain Chomp",
+        "Piranha Plant",
+        "Bullet Bill",
+        "Hammer Bro",
+        "Kamek",
+        "Dry Bones",
+        "Blooper",
+        "Cheep Cheep",
+        "Thwomp",
+        "Monty Mole",
+        "Pokey",
+        "Spiny",
+        "Buzzy Beetle"
+      ],
+      "tail": [
+        "Diddy Kong",
+        "Dixie Kong",
+        "Funky Kong",
+        "King K. Rool",
+        "Kritter",
+        "Larry Koopa",
+        "Morton Koopa Jr",
+        "Wendy O. Koopa",
+        "Iggy Koopa",
+        "Roy Koopa",
+        "Lemmy Koopa",
+        "Ludwig von Koopa",
+        "Bob-omb",
+        "Fire Bro",
+        "Boomerang Bro",
+        "Ninji",
+        "Lava Bubble",
+        "Rocky Wrench",
+        "Wiggler",
+        "Fly Guy",
+        "Toadsworth",
+        "Captain Toad",
+        "King Boo",
+        "Petey Piranha",
+        "Luma",
+        "Koopa Paratroopa",
+        "Magikoopa",
+        "Dry Bowser",
+        "Whomp"
+      ],
+      "deep": [
+        "Tryclyde",
+        "Cackletta",
+        "Fawful",
+        "Bowletta",
+        "Mallow",
+        "Geno",
+        "Goombella",
+        "Boom Boom",
+        "Pom Pom",
+        "Nabbit",
+        "Cappy",
+        "Paragoomba"
+      ],
+      "outlier": [
+        "Fryguy",
+        "Mouser",
+        "Porcupuffer",
+        "Wart"
+      ]
+    },
+    "alias": {
+      "Mario": [
+        "Jumpman",
+        "Super Mario"
+      ],
+      "Princess Peach": [
+        "Peach",
+        "Princess Toadstool",
+        "Toadstool"
+      ],
+      "Bowser": [
+        "King Koopa",
+        "Koopa King",
+        "Bowser Koopa"
+      ],
+      "Donkey Kong": [
+        "DK"
+      ],
+      "Princess Daisy": [
+        "Daisy"
+      ],
+      "Koopa Troopa": [
+        "Koopa"
+      ],
+      "Bowser Jr": [
+        "Bowser Junior",
+        "Junior"
+      ],
+      "Diddy Kong": [
+        "Diddy"
+      ],
+      "King K. Rool": [
+        "King K Rool",
+        "K. Rool"
+      ],
+      "Morton Koopa Jr": [
+        "Morton"
+      ],
+      "Wendy O. Koopa": [
+        "Wendy"
+      ],
+      "Ludwig von Koopa": [
+        "Ludwig"
+      ],
+      "Koopa Paratroopa": [
+        "Paratroopa"
+      ],
+      "Hammer Bro": [
+        "Hammer Brother"
+      ],
+      "Chain Chomp": [
+        "Chomp"
+      ],
+      "Piranha Plant": [
+        "Piranha"
+      ],
+      "Bob-omb": [
+        "Bomb-omb"
+      ],
+      "Fire Bro": [
+        "Fire Brother"
+      ],
+      "Boomerang Bro": [
+        "Boomerang Brother"
+      ],
+      "Larry Koopa": [
+        "Larry"
+      ],
+      "Iggy Koopa": [
+        "Iggy"
+      ],
+      "Roy Koopa": [
+        "Roy"
+      ],
+      "Lemmy Koopa": [
+        "Lemmy"
+      ],
+      "Dixie Kong": [
+        "Dixie"
+      ],
+      "Funky Kong": [
+        "Funky"
+      ],
+      "Lava Bubble": [
+        "Podoboo"
+      ],
+      "Kamek": [
+        "Magikoopa Kamek"
+      ]
+    },
+    "traps": {
+      "Sonic": "Sega's hedgehog and a rival, not a Nintendo character.",
+      "Link": "From The Legend of Zelda, a different Nintendo series.",
+      "Pikachu": "A Pokémon, not a Mushroom Kingdom character.",
+      "Koopalings": "The group name for Bowser's seven kids; name one of them instead, such as Roy or Iggy."
+    },
+    "fact": "Mario was originally called Jumpman in the 1981 arcade game Donkey Kong."
+  },
+  {
+    "id": "cul-scr-star-trek-characters",
+    "cat": "TV",
+    "title": "Starfleet roll call",
+    "q": "A Star Trek character",
+    "rule": "Named characters in the Star Trek series and films; unnamed crew members don't count.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "James T. Kirk",
+        "Spock",
+        "Jean-Luc Picard",
+        "Data",
+        "Worf",
+        "Leonard McCoy"
+      ],
+      "hipster": [
+        "Harry Mudd",
+        "Ro Laren"
+      ],
+      "body": [
+        "Montgomery Scott",
+        "Nyota Uhura",
+        "Hikaru Sulu",
+        "Pavel Chekov",
+        "William Riker",
+        "Deanna Troi",
+        "Beverly Crusher",
+        "Geordi La Forge",
+        "Wesley Crusher",
+        "Kathryn Janeway",
+        "B'Elanna Torres",
+        "Tom Paris",
+        "Harry Kim",
+        "Seven of Nine",
+        "Benjamin Sisko",
+        "Kira Nerys",
+        "Odo",
+        "Quark",
+        "Jadzia Dax",
+        "Julian Bashir",
+        "Miles O'Brien",
+        "Chakotay",
+        "Tuvok",
+        "Neelix",
+        "Khan Noonien Singh",
+        "Sarek",
+        "Garak",
+        "Q"
+      ],
+      "tail": [
+        "Kes",
+        "Jonathan Archer",
+        "T'Pol",
+        "Weyoun",
+        "Rom",
+        "Nog",
+        "Zefram Cochrane",
+        "Martok",
+        "Christopher Pike",
+        "Lore",
+        "Gul Dukat",
+        "Kor",
+        "Kang",
+        "Amanda Grayson",
+        "Ezri Dax",
+        "Leeta",
+        "Vic Fontaine",
+        "Jake Sisko",
+        "Kasidy Yates",
+        "Keiko O'Brien",
+        "Lwaxana Troi",
+        "Alexander Rozhenko",
+        "K'Ehleyr",
+        "Miral Paris",
+        "Naomi Wildman",
+        "Hoshi Sato",
+        "Malcolm Reed",
+        "Trip Tucker",
+        "Phlox",
+        "Soval",
+        "Shran",
+        "Valeris",
+        "Christine Chapel",
+        "Gowron",
+        "Tasha Yar",
+        "Guinan",
+        "Borg Queen",
+        "Michael Burnham",
+        "Saru",
+        "Reginald Barclay"
+      ],
+      "deep": [
+        "Lursa",
+        "B'Etor",
+        "Tomalak",
+        "Janice Rand",
+        "Sylvia Tilly",
+        "Sela",
+        "Sybok",
+        "Philippa Georgiou",
+        "Paul Stamets"
+      ],
+      "outlier": [
+        "Gul Madred",
+        "Vorik",
+        "Tolian Soran",
+        "Lon Suder"
+      ]
+    },
+    "alias": {
+      "James T. Kirk": [
+        "Kirk",
+        "Captain Kirk",
+        "Jim Kirk"
+      ],
+      "Leonard McCoy": [
+        "McCoy",
+        "Bones",
+        "Dr McCoy",
+        "Doctor McCoy"
+      ],
+      "Spock": [
+        "Mr Spock"
+      ],
+      "Jean-Luc Picard": [
+        "Picard",
+        "Captain Picard",
+        "Jean-Luc"
+      ],
+      "Montgomery Scott": [
+        "Scotty",
+        "Scott"
+      ],
+      "Nyota Uhura": [
+        "Uhura"
+      ],
+      "Hikaru Sulu": [
+        "Sulu"
+      ],
+      "Pavel Chekov": [
+        "Chekov"
+      ],
+      "Christine Chapel": [
+        "Chapel",
+        "Nurse Chapel"
+      ],
+      "William Riker": [
+        "Riker",
+        "Will Riker"
+      ],
+      "Deanna Troi": [
+        "Troi",
+        "Deanna",
+        "Counselor Troi"
+      ],
+      "Beverly Crusher": [
+        "Crusher",
+        "Beverly"
+      ],
+      "Geordi La Forge": [
+        "Geordi",
+        "La Forge"
+      ],
+      "Kathryn Janeway": [
+        "Janeway",
+        "Captain Janeway"
+      ],
+      "B'Elanna Torres": [
+        "Torres",
+        "B'Elanna"
+      ],
+      "Tom Paris": [
+        "Paris",
+        "Tom"
+      ],
+      "Harry Kim": [
+        "Kim"
+      ],
+      "Seven of Nine": [
+        "Seven",
+        "Annika Hansen"
+      ],
+      "Benjamin Sisko": [
+        "Sisko",
+        "Ben Sisko"
+      ],
+      "Kira Nerys": [
+        "Kira"
+      ],
+      "Odo": [
+        "Constable Odo"
+      ],
+      "Jadzia Dax": [
+        "Dax",
+        "Jadzia"
+      ],
+      "Julian Bashir": [
+        "Bashir",
+        "Julian",
+        "Dr Bashir"
+      ],
+      "Miles O'Brien": [
+        "O'Brien",
+        "Miles"
+      ],
+      "Khan Noonien Singh": [
+        "Khan"
+      ],
+      "Zefram Cochrane": [
+        "Cochrane"
+      ],
+      "Christopher Pike": [
+        "Pike"
+      ],
+      "Gul Dukat": [
+        "Dukat"
+      ],
+      "Amanda Grayson": [
+        "Amanda"
+      ],
+      "Ezri Dax": [
+        "Ezri"
+      ],
+      "Lwaxana Troi": [
+        "Lwaxana"
+      ],
+      "Keiko O'Brien": [
+        "Keiko"
+      ],
+      "Harry Mudd": [
+        "Harcourt Fenton Mudd",
+        "Mudd"
+      ],
+      "Ro Laren": [
+        "Ro"
+      ],
+      "Borg Queen": [
+        "Queen of the Borg"
+      ],
+      "Michael Burnham": [
+        "Burnham"
+      ],
+      "Reginald Barclay": [
+        "Barclay",
+        "Reg Barclay"
+      ],
+      "Sylvia Tilly": [
+        "Tilly"
+      ],
+      "Philippa Georgiou": [
+        "Georgiou",
+        "Mirror Georgiou"
+      ],
+      "Paul Stamets": [
+        "Stamets"
+      ],
+      "Data": [
+        "Commander Data",
+        "Lieutenant Commander Data",
+        "Mr Data"
+      ],
+      "Worf": [
+        "Lieutenant Worf"
+      ],
+      "Wesley Crusher": [
+        "Wesley"
+      ],
+      "Garak": [
+        "Elim Garak"
+      ],
+      "Jonathan Archer": [
+        "Archer",
+        "Captain Archer"
+      ],
+      "Martok": [
+        "General Martok"
+      ],
+      "Vic Fontaine": [
+        "Vic"
+      ],
+      "Jake Sisko": [
+        "Jake"
+      ],
+      "Kasidy Yates": [
+        "Kasidy"
+      ],
+      "Alexander Rozhenko": [
+        "Alexander"
+      ],
+      "Miral Paris": [
+        "Miral"
+      ],
+      "Naomi Wildman": [
+        "Naomi"
+      ],
+      "Hoshi Sato": [
+        "Hoshi"
+      ],
+      "Malcolm Reed": [
+        "Reed"
+      ],
+      "Trip Tucker": [
+        "Tucker",
+        "Trip",
+        "Charles Tucker III"
+      ],
+      "Phlox": [
+        "Dr Phlox"
+      ],
+      "Tasha Yar": [
+        "Yar"
+      ],
+      "Janice Rand": [
+        "Rand",
+        "Yeoman Rand"
+      ],
+      "Gul Madred": [
+        "Madred"
+      ],
+      "Tolian Soran": [
+        "Soran"
+      ],
+      "Lon Suder": [
+        "Suder"
+      ]
+    },
+    "traps": {
+      "Vulcan": "A species, not a single character.",
+      "Enterprise": "A starship rather than a person.",
+      "Klingon": "A species, not one named character."
+    },
+    "fact": "Zefram Cochrane's warp flight in 2063 is the event that draws Vulcans to make first contact with Earth."
+  },
+  {
+    "id": "cul-scr-hyrule-characters",
+    "cat": "Games",
+    "title": "Hyrule roll call",
+    "q": "A Hyrule character",
+    "rule": "Named characters from Nintendo's Hyrule adventures, plus spin-offs; unnamed villagers and monsters don't count.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Link",
+        "Princess Zelda",
+        "Ganondorf",
+        "Navi",
+        "Epona",
+        "Midna"
+      ],
+      "hipster": [
+        "Tingle",
+        "Fi"
+      ],
+      "body": [
+        "Sheik",
+        "Malon",
+        "Saria",
+        "Darunia",
+        "Ruto",
+        "Nabooru",
+        "Rauru",
+        "Sidon",
+        "Revali",
+        "Urbosa",
+        "Daruk",
+        "Mipha",
+        "Kass",
+        "Purah",
+        "Tetra",
+        "Ghirahim",
+        "Groose",
+        "Skull Kid",
+        "Tatl",
+        "Mido",
+        "Deku Tree",
+        "Vaati",
+        "Zant",
+        "Agahnim",
+        "Impa"
+      ],
+      "tail": [
+        "Kaepora Gaebora",
+        "Anju",
+        "Kafei",
+        "Gohma",
+        "Morpha",
+        "Volvagia",
+        "Phantom Ganon",
+        "Ravio",
+        "Hylia",
+        "Demise",
+        "Nayru",
+        "Din",
+        "Farore",
+        "Talon",
+        "Beedle",
+        "Sahasrahla",
+        "Dark Link",
+        "King Zora",
+        "Riju",
+        "Yunobo",
+        "Teba",
+        "Twinrova",
+        "Happy Mask Salesman",
+        "Marin"
+      ],
+      "deep": [
+        "Bongo Bongo",
+        "Barinade",
+        "King Dodongo",
+        "Majora",
+        "Linebeck",
+        "Aryll",
+        "King of Red Lions",
+        "Hestu",
+        "Paya",
+        "King Rhoam",
+        "Cia",
+        "Romani",
+        "Lulu",
+        "Medli",
+        "Makar"
+      ],
+      "outlier": [
+        "Dampé",
+        "Ingo",
+        "Yuga"
+      ]
+    },
+    "alias": {
+      "Princess Zelda": [
+        "Zelda"
+      ],
+      "Ganondorf": [
+        "Ganon",
+        "Ganondorf Dragmire"
+      ],
+      "Twinrova": [
+        "Koume",
+        "Kotake"
+      ],
+      "Dark Link": [
+        "Shadow Link"
+      ],
+      "Deku Tree": [
+        "Great Deku Tree"
+      ],
+      "King Dodongo": [
+        "Dodongo"
+      ],
+      "Hylia": [
+        "Goddess Hylia"
+      ],
+      "Phantom Ganon": [
+        "Phantom Ganondorf"
+      ],
+      "King Rhoam": [
+        "Rhoam"
+      ],
+      "Ruto": [
+        "Princess Ruto"
+      ],
+      "Sidon": [
+        "Prince Sidon"
+      ],
+      "Kaepora Gaebora": [
+        "Kaepora"
+      ],
+      "Tetra": [
+        "Pirate Captain Tetra"
+      ]
+    },
+    "traps": {
+      "Triforce": "A sacred artefact, not a character.",
+      "Cucco": "A creature type rather than a named character.",
+      "Hyrule Castle": "A place, not a character."
+    },
+    "fact": "Tingle is a grown man who believes he is a fairy, and he first appears in Majora's Mask."
+  },
+  {
+    "id": "cul-scr-dahl-characters",
+    "cat": "Books",
+    "title": "Dahl's misfits",
+    "q": "A Roald Dahl character",
+    "rule": "Named characters from Dahl's children's books; named creatures and animals count.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Charlie Bucket",
+        "Willy Wonka",
+        "Matilda Wormwood",
+        "Miss Trunchbull",
+        "Augustus Gloop",
+        "BFG"
+      ],
+      "hipster": [
+        "Bruce Bogtrotter"
+      ],
+      "body": [
+        "Veruca Salt",
+        "Violet Beauregarde",
+        "Mike Teavee",
+        "Grandpa Joe",
+        "Oompa-Loompas",
+        "Mr Wormwood",
+        "Mrs Wormwood",
+        "Grandma Josephine",
+        "Sophie",
+        "Mr Fox",
+        "Mrs Fox",
+        "Badger",
+        "Mr Twit",
+        "Mrs Twit",
+        "Farmer Bean",
+        "Farmer Boggis",
+        "Farmer Bunce",
+        "Grand High Witch",
+        "Danny",
+        "Mr Hoppy",
+        "Lavender",
+        "George Kranky",
+        "Roly-Poly Bird",
+        "James Henry Trotter",
+        "Miss Honey"
+      ],
+      "tail": [
+        "Bonecruncher",
+        "Childchewer",
+        "Meatdripper",
+        "Maidmasher",
+        "Manhugger",
+        "Butcher Boy",
+        "Bloodbottler",
+        "Miss Spider",
+        "Earthworm",
+        "Centipede",
+        "Ladybird",
+        "Glow-worm",
+        "Old-Green-Grasshopper",
+        "Aunt Sponge",
+        "Aunt Spiker",
+        "Mrs Silver",
+        "Fleshlumpeater",
+        "Mr Bucket",
+        "Mrs Bucket",
+        "Grandpa George",
+        "Grandma Georgina",
+        "Slugworth",
+        "Gizzardgulper",
+        "Muggle-Wump",
+        "Enormous Crocodile",
+        "Grandmamma"
+      ],
+      "deep": [
+        "Mrs Gloop",
+        "Mr Gloop",
+        "Mr Salt",
+        "Mrs Salt",
+        "Mr Teavee",
+        "Mrs Teavee",
+        "Mr Beauregarde",
+        "Mrs Beauregarde",
+        "Trunky",
+        "Humpy-Rumpy",
+        "Amanda Thripp",
+        "Hortensia",
+        "Alfie",
+        "Victor Hazell"
+      ],
+      "outlier": [
+        "Silkworm",
+        "Bruno Jenkins",
+        "Mrs Phelps"
+      ]
+    },
+    "alias": {
+      "Charlie Bucket": [
+        "Charlie"
+      ],
+      "Willy Wonka": [
+        "Wonka",
+        "Mr Wonka"
+      ],
+      "Matilda Wormwood": [
+        "Matilda"
+      ],
+      "Miss Trunchbull": [
+        "Agatha Trunchbull",
+        "Trunchbull"
+      ],
+      "Miss Honey": [
+        "Jennifer Honey",
+        "Honey"
+      ],
+      "Augustus Gloop": [
+        "Augustus"
+      ],
+      "Veruca Salt": [
+        "Veruca"
+      ],
+      "Violet Beauregarde": [
+        "Violet"
+      ],
+      "Mike Teavee": [
+        "Mike"
+      ],
+      "Oompa-Loompas": [
+        "Oompa-Loompa",
+        "Oompa Loompa"
+      ],
+      "Mr Wormwood": [
+        "Harry Wormwood"
+      ],
+      "BFG": [
+        "Big Friendly Giant"
+      ],
+      "Mr Twit": [
+        "Twit"
+      ],
+      "Farmer Bean": [
+        "Bean"
+      ],
+      "Farmer Boggis": [
+        "Boggis"
+      ],
+      "Farmer Bunce": [
+        "Bunce"
+      ],
+      "James Henry Trotter": [
+        "James"
+      ],
+      "Aunt Sponge": [
+        "Sponge"
+      ],
+      "Aunt Spiker": [
+        "Spiker"
+      ],
+      "Mr Hoppy": [
+        "Hoppy"
+      ],
+      "Bruce Bogtrotter": [
+        "Bruce"
+      ],
+      "Miss Spider": [
+        "Spider"
+      ],
+      "Old-Green-Grasshopper": [
+        "Grasshopper"
+      ],
+      "Slugworth": [
+        "Mr Slugworth"
+      ],
+      "Enormous Crocodile": [
+        "Crocodile",
+        "The Enormous Crocodile"
+      ],
+      "Amanda Thripp": [
+        "Amanda"
+      ],
+      "Victor Hazell": [
+        "Hazell"
+      ],
+      "Mrs Wormwood": [
+        "Zinnia Wormwood"
+      ],
+      "Mr Fox": [
+        "Fantastic Mr Fox"
+      ],
+      "George Kranky": [
+        "George"
+      ],
+      "Ladybird": [
+        "Ladybug"
+      ],
+      "Bruno Jenkins": [
+        "Bruno"
+      ],
+      "Danny": [
+        "Danny Champion"
+      ]
+    },
+    "traps": {
+      "Chocolate Factory": "A location, not a character.",
+      "Snozzcumber": "A vegetable from the book, not a person.",
+      "Giant Peach": "The title of a book, not a character."
+    },
+    "fact": "The Oompa-Loompas were first described as African pygmies, a portrayal Dahl later rewrote."
+  },
+  {
+    "id": "cul-scr-doctor-who-foes",
+    "cat": "TV",
+    "title": "Time Lord foes",
+    "q": "A Doctor Who monster or villain",
+    "rule": "Named villains and monster species from the TV series; one-off unnamed creatures don't qualify.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Daleks",
+        "Cybermen",
+        "Davros",
+        "Weeping Angels",
+        "Sontarans",
+        "Master"
+      ],
+      "hipster": [
+        "Silurians",
+        "Zygons"
+      ],
+      "body": [
+        "Ood",
+        "Autons",
+        "Slitheen",
+        "Silence",
+        "Judoon",
+        "Sea Devils",
+        "Yeti",
+        "Vashta Nerada",
+        "Ice Warriors",
+        "Adipose",
+        "Toclafane",
+        "Krillitanes",
+        "Sycorax",
+        "Cybermats",
+        "Nestene Consciousness",
+        "Abzorbaloff",
+        "Headless Monks",
+        "Great Intelligence"
+      ],
+      "tail": [
+        "Rani",
+        "Omega",
+        "Rassilon",
+        "Krotons",
+        "Clockwork Droids",
+        "Pyroviles",
+        "Dalek Emperor",
+        "Wirrn",
+        "Mara",
+        "Sensorites",
+        "Macra",
+        "Dominators",
+        "Quarks",
+        "Zarbi",
+        "Gelth",
+        "Racnoss",
+        "Carrionites",
+        "Valeyard",
+        "Dalek Caan",
+        "Cult of Skaro",
+        "Cassandra",
+        "Prisoner Zero"
+      ],
+      "deep": [
+        "Sutekh",
+        "Scaroth",
+        "Morbius",
+        "Magnus Greel",
+        "Eldrad",
+        "Tobias Vaughn",
+        "Blon Slitheen",
+        "Dalek Supreme",
+        "Cyber Controller",
+        "Black Guardian",
+        "Terileptils",
+        "Axons",
+        "Kandyman",
+        "Rutans",
+        "Dalek Sec",
+        "Jagaroth"
+      ],
+      "outlier": [
+        "Sil",
+        "Kroll",
+        "Kaleds",
+        "Mandragora",
+        "Cyber-Leader"
+      ]
+    },
+    "alias": {
+      "Daleks": [
+        "Dalek"
+      ],
+      "Cybermen": [
+        "Cyberman"
+      ],
+      "Weeping Angels": [
+        "Weeping Angel"
+      ],
+      "Sontarans": [
+        "Sontaran"
+      ],
+      "Master": [
+        "Missy",
+        "The Master",
+        "Harold Saxon"
+      ],
+      "Silurians": [
+        "Silurian",
+        "Homo reptilia"
+      ],
+      "Zygons": [
+        "Zygon"
+      ],
+      "Autons": [
+        "Auton"
+      ],
+      "Silence": [
+        "The Silence"
+      ],
+      "Sea Devils": [
+        "Sea Devil"
+      ],
+      "Ice Warriors": [
+        "Ice Warrior"
+      ],
+      "Krillitanes": [
+        "Krillitane"
+      ],
+      "Cybermats": [
+        "Cybermat"
+      ],
+      "Nestene Consciousness": [
+        "Nestene"
+      ],
+      "Headless Monks": [
+        "Headless Monk"
+      ],
+      "Rani": [
+        "The Rani"
+      ],
+      "Dalek Emperor": [
+        "Emperor of the Daleks"
+      ],
+      "Great Intelligence": [
+        "The Intelligence",
+        "Intelligence"
+      ],
+      "Magnus Greel": [
+        "Weng-Chiang"
+      ],
+      "Blon Slitheen": [
+        "Blon Fel-Fotch Pasameer-Day Slitheen",
+        "Blon Fel-Fotch Passameer-Day Slitheen",
+        "Blon",
+        "Margaret Blaine"
+      ],
+      "Dalek Supreme": [
+        "Black Dalek",
+        "Supreme Dalek"
+      ],
+      "Dalek Caan": [
+        "Caan"
+      ],
+      "Cassandra": [
+        "Lady Cassandra"
+      ],
+      "Terileptils": [
+        "Terileptil"
+      ],
+      "Axons": [
+        "Axon",
+        "Axos"
+      ],
+      "Rutans": [
+        "Rutan"
+      ],
+      "Abzorbaloff": [
+        "Absorbaloff"
+      ],
+      "Sutekh": [
+        "Sutekh the Destroyer"
+      ],
+      "Scaroth": [
+        "Scaroth of the Jagaroth"
+      ],
+      "Tobias Vaughn": [
+        "Vaughn"
+      ],
+      "Mandragora": [
+        "Mandragora Helix"
+      ],
+      "Kaleds": [
+        "Kaled"
+      ]
+    },
+    "traps": {
+      "The Doctor": "The hero of the show, not a villain.",
+      "K-9": "The Doctor's robot dog companion, not a foe.",
+      "TARDIS": "The time machine, not a character."
+    },
+    "fact": "The Weeping Angels only move when no one is looking at them, and they feed on stored-up time energy."
+  },
+  {
+    "id": "cul-scr-bond-villains",
+    "cat": "Film",
+    "title": "Shaken, not stirred",
+    "q": "A James Bond villain",
+    "rule": "Named villains and their named henchmen from the Eon Productions films; unnamed henchmen don't qualify.",
+    "level": 2,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Dr No",
+        "Auric Goldfinger",
+        "Oddjob",
+        "Ernst Stavro Blofeld",
+        "Jaws",
+        "Francisco Scaramanga"
+      ],
+      "hipster": [
+        "Rosa Klebb"
+      ],
+      "body": [
+        "Mr Big",
+        "Tee Hee",
+        "Baron Samedi",
+        "Karl Stromberg",
+        "Max Zorin",
+        "Raoul Silva",
+        "Elliot Carver",
+        "Le Chiffre",
+        "Dominic Greene",
+        "Franz Sanchez",
+        "Renard",
+        "Elektra King",
+        "Emilio Largo",
+        "Hugo Drax",
+        "Gustav Graves",
+        "Mr White",
+        "Mr Hinx",
+        "Lyutsifer Safin",
+        "Xenia Onatopp",
+        "Alec Trevelyan",
+        "Miranda Frost",
+        "Helga Brandt",
+        "Irma Bunt",
+        "Nick Nack",
+        "Mr Wint"
+      ],
+      "tail": [
+        "Mr Kidd",
+        "Bambi",
+        "Thumper",
+        "Hai Fat",
+        "Sandor",
+        "Naomi",
+        "Aris Kristatos",
+        "Emile Locque",
+        "Kamal Khan",
+        "Gobinda",
+        "General Orlov",
+        "May Day",
+        "Scarpine",
+        "Dr Carl Mortner",
+        "Georgi Koskov",
+        "Brad Whitaker",
+        "Necros",
+        "Milton Krest",
+        "Dario",
+        "Heller",
+        "Ourumov",
+        "Boris Grishenko",
+        "Stamper",
+        "Henry Gupta",
+        "Max Denbigh"
+      ],
+      "deep": [
+        "Dr Kaufman",
+        "Zao",
+        "Dimitrios",
+        "Obanno",
+        "Carlos",
+        "Mr Slate",
+        "Patrice",
+        "Marco Sciarra",
+        "Logan Ash",
+        "Fiona Volpe",
+        "Mr Solo",
+        "Red Grant",
+        "Professor Dent",
+        "Gonzales",
+        "Mischka",
+        "Grischka",
+        "Kronsteen",
+        "Morzeny",
+        "General Medrano",
+        "Valenka",
+        "Mr Osato",
+        "Bert Saxby"
+      ],
+      "outlier": [
+        "Miss Taro",
+        "Count Lippe",
+        "Vargas",
+        "Primo",
+        "Chang"
+      ]
+    },
+    "alias": {
+      "Dr No": [
+        "Doctor No",
+        "Julius No"
+      ],
+      "Auric Goldfinger": [
+        "Goldfinger"
+      ],
+      "Ernst Stavro Blofeld": [
+        "Blofeld",
+        "Franz Oberhauser"
+      ],
+      "Francisco Scaramanga": [
+        "Scaramanga"
+      ],
+      "Rosa Klebb": [
+        "Klebb"
+      ],
+      "Mr Big": [
+        "Kananga",
+        "Dr Kananga"
+      ],
+      "Karl Stromberg": [
+        "Stromberg"
+      ],
+      "Max Zorin": [
+        "Zorin"
+      ],
+      "Raoul Silva": [
+        "Silva"
+      ],
+      "Elliot Carver": [
+        "Carver"
+      ],
+      "Dominic Greene": [
+        "Greene"
+      ],
+      "Franz Sanchez": [
+        "Sanchez"
+      ],
+      "Le Chiffre": [
+        "Chiffre"
+      ],
+      "Elektra King": [
+        "Elektra"
+      ],
+      "Hugo Drax": [
+        "Drax"
+      ],
+      "Gustav Graves": [
+        "Graves",
+        "Colonel Moon",
+        "Tan-Sun Moon",
+        "Colonel Tan-Sun Moon"
+      ],
+      "Miranda Frost": [
+        "Frost"
+      ],
+      "Mr Wint": [
+        "Wint"
+      ],
+      "Mr Kidd": [
+        "Kidd"
+      ],
+      "Mr Hinx": [
+        "Hinx"
+      ],
+      "Alec Trevelyan": [
+        "Janus",
+        "Trevelyan"
+      ],
+      "Georgi Koskov": [
+        "General Koskov",
+        "Koskov"
+      ],
+      "Stamper": [
+        "Mr Stamper"
+      ],
+      "Red Grant": [
+        "Donald Grant"
+      ],
+      "Emilio Largo": [
+        "Largo"
+      ],
+      "Dr Carl Mortner": [
+        "Dr Mortner",
+        "Carl Mortner",
+        "Mortner"
+      ],
+      "Max Denbigh": [
+        "C",
+        "Denbigh"
+      ],
+      "General Medrano": [
+        "Medrano"
+      ],
+      "Mr Osato": [
+        "Osato"
+      ],
+      "Bert Saxby": [
+        "Saxby"
+      ],
+      "Tee Hee": [
+        "Tee Hee Johnson"
+      ],
+      "Baron Samedi": [
+        "Samedi"
+      ],
+      "Renard": [
+        "Victor Zokas"
+      ],
+      "Helga Brandt": [
+        "Brandt"
+      ],
+      "Irma Bunt": [
+        "Bunt"
+      ],
+      "Xenia Onatopp": [
+        "Onatopp",
+        "Xenia"
+      ],
+      "Lyutsifer Safin": [
+        "Safin"
+      ],
+      "Mr White": [
+        "White"
+      ],
+      "Aris Kristatos": [
+        "Aristotle Kristatos",
+        "Kristatos"
+      ],
+      "Emile Locque": [
+        "Locque"
+      ],
+      "Kamal Khan": [
+        "Khan"
+      ],
+      "General Orlov": [
+        "Orlov"
+      ],
+      "Brad Whitaker": [
+        "Whitaker"
+      ],
+      "Milton Krest": [
+        "Krest"
+      ],
+      "Henry Gupta": [
+        "Gupta"
+      ],
+      "Ourumov": [
+        "General Ourumov"
+      ],
+      "Boris Grishenko": [
+        "Boris"
+      ],
+      "Fiona Volpe": [
+        "Volpe"
+      ],
+      "Professor Dent": [
+        "Dent"
+      ],
+      "Dr Kaufman": [
+        "Kaufman"
+      ]
+    },
+    "traps": {
+      "Moneypenny": "Bond's ally at MI6, not a villain.",
+      "Felix Leiter": "Bond's CIA friend, not a villain.",
+      "Q": "A gadget supplier, not a villain."
+    },
+    "fact": "Oddjob's bowler hat has a razor-sharp brim that he throws to kill, as seen in Goldfinger."
+  },
+  {
+    "id": "cul-scr-sodor-engines",
+    "cat": "TV",
+    "title": "Really useful engines",
+    "q": "A Sodor railway character",
+    "rule": "Named engines and characters from the Sodor stories; unnamed carriages and trucks don't count.",
+    "level": 1,
+    "surnames": false,
+    "tiers": {
+      "head": [
+        "Thomas",
+        "Percy",
+        "James",
+        "Gordon",
+        "Edward",
+        "Henry"
+      ],
+      "hipster": [
+        "Skarloey",
+        "Rheneas"
+      ],
+      "body": [
+        "Toby",
+        "Emily",
+        "Diesel",
+        "Duck",
+        "Donald",
+        "Douglas",
+        "Oliver",
+        "Daisy",
+        "Mavis",
+        "Bill",
+        "Ben",
+        "Annie",
+        "Clarabel",
+        "Bertie",
+        "Terence",
+        "Harold",
+        "Henrietta",
+        "Sir Topham Hatt",
+        "Spencer",
+        "Salty"
+      ],
+      "tail": [
+        "Stepney",
+        "Trevor",
+        "Murdoch",
+        "Lady",
+        "Cranky",
+        "Harvey",
+        "Hiro",
+        "Victor",
+        "Bulgy",
+        "Boco",
+        "Hank",
+        "Stanley",
+        "Rosie",
+        "Madge",
+        "Dennis",
+        "Bertram",
+        "Caitlin",
+        "Winston",
+        "Flynn",
+        "Paxton",
+        "Ferdinand",
+        "Byron",
+        "Bear",
+        "Porter",
+        "Fergus",
+        "Arthur",
+        "Diesel 10",
+        "Rocky",
+        "Charlie",
+        "Elizabeth",
+        "Molly",
+        "Neville",
+        "Belle",
+        "Rebecca",
+        "Nia"
+      ],
+      "deep": [
+        "Splatter",
+        "Dodge",
+        "Gator",
+        "Sir Handel",
+        "Peter Sam",
+        "Rusty",
+        "Duncan",
+        "Duke",
+        "Freddie",
+        "Whiff",
+        "Scruff",
+        "Samson",
+        "Skiff",
+        "Marion",
+        "Philip",
+        "Max",
+        "Monty",
+        "Toad",
+        "Bulstrode"
+      ],
+      "outlier": [
+        "Timothy",
+        "Mighty Mac",
+        "Smudger"
+      ]
+    },
+    "alias": {
+      "Sir Topham Hatt": [
+        "The Fat Controller",
+        "Fat Controller",
+        "Topham Hatt"
+      ],
+      "Mighty Mac": [
+        "Mac"
+      ],
+      "Sir Handel": [
+        "Handel"
+      ],
+      "Peter Sam": [
+        "Peter"
+      ],
+      "Diesel 10": [
+        "Diesel Ten"
+      ],
+      "Duck": [
+        "Montague"
+      ],
+      "Bertie": [
+        "Bertie the Bus"
+      ],
+      "Terence": [
+        "Terence the Tractor"
+      ],
+      "Harold": [
+        "Harold the Helicopter"
+      ]
+    },
+    "traps": {
+      "Sodor": "The island where the railway runs, not a character.",
+      "Tidmouth": "A town on Sodor, not an engine.",
+      "Brake van": "A type of railway carriage, not a named character."
+    },
+    "fact": "Thomas missed the first Railway Series book, The Three Railway Engines (1945), and debuted in the second, Thomas the Tank Engine, in 1946."
+  }
+]

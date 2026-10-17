@@ -242,20 +242,33 @@
     }
     return keyed.sort((a, b) => a[1] - b[1]).map((x) => x[0]);
   }
-  // Day d takes the next n cards of the cycle, easiest and broadest first.
+  // Each cycle is dealt into hands of n with no theme twice in a hand; leftovers wait for the next cycle.
+  const handCache = {};
+  function hands(pool, c, n) {
+    const k = c + ":" + n + ":" + pool.length;
+    if (handCache[k]) return handCache[k];
+    const queue = cycleOrder(pool, c);
+    const out = [];
+    while (queue.length >= n) {
+      const hand = [], fams = new Set();
+      while (hand.length < n) {
+        let j = queue.findIndex((p) => !fams.has(family(p)));
+        if (j < 0) j = 0;
+        const [p] = queue.splice(j, 1);
+        hand.push(p); fams.add(family(p));
+      }
+      out.push(hand);
+    }
+    return (handCache[k] = out);
+  }
+  // Day d's hand, easiest and broadest first.
   function dailySet(prompts, day, n) {
     n = n || 5;
     const pool = dailyPool(prompts);
-    const N = pool.length;
-    if (!N) return [];
-    const cache = {};
-    const out = [];
-    for (let i = day * n; out.length < Math.min(n, N); i++) {
-      const c = Math.floor(i / N);
-      cache[c] = cache[c] || cycleOrder(pool, c);
-      out.push(cache[c][i % N]);
-    }
-    return out.sort((a, b) => levelOf(a) - levelOf(b) || size(b) - size(a));
+    if (pool.length < n) return pool.slice();
+    const per = Math.floor(pool.length / n);
+    const hand = hands(pool, Math.floor(day / per), n)[day % per];
+    return hand.slice().sort((a, b) => levelOf(a) - levelOf(b) || size(b) - size(a));
   }
   // Endless and other shuffles: easier cards tend to come first, with some randomness.
   const rampShuffle = (prompts, r) => prompts.map((p) => [p, levelOf(p) + r() * 1.8]).sort((a, b) => a[1] - b[1]).map((x) => x[0]);
