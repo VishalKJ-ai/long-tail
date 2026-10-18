@@ -2555,35 +2555,514 @@
   },
   "alias": {
    "Cam": [
-    "Granta"
+    "Granta",
+    "River Cam",
+    "Cam River"
    ],
    "Lea": [
     "Lee",
-    "River Lee"
+    "River Lee",
+    "River Lea",
+    "Lea River"
    ],
    "Towy": [
-    "Tywi"
+    "Tywi",
+    "River Towy",
+    "Towy River"
    ],
    "Dyfi": [
-    "Dovey"
+    "Dovey",
+    "River Dyfi",
+    "Dyfi River"
    ],
    "Usk": [
-    "Wysg"
+    "Wysg",
+    "River Usk",
+    "Usk River"
    ],
    "Taff": [
-    "Taf"
+    "Taf",
+    "River Taff",
+    "Taff River"
    ],
    "Neath": [
-    "Nedd"
+    "Nedd",
+    "River Neath",
+    "Neath River"
    ],
    "Conwy": [
-    "Conway"
+    "Conway",
+    "River Conwy",
+    "Conwy River"
    ],
    "Ness": [
-    "River Ness"
+    "River Ness",
+    "Ness River"
    ],
    "Thames": [
-    "Isis"
+    "Isis",
+    "River Thames",
+    "Thames River"
+   ],
+   "Severn": [
+    "River Severn",
+    "Severn River"
+   ],
+   "Trent": [
+    "River Trent",
+    "Trent River"
+   ],
+   "Mersey": [
+    "River Mersey",
+    "Mersey River"
+   ],
+   "Tyne": [
+    "River Tyne",
+    "Tyne River"
+   ],
+   "Wye": [
+    "River Wye",
+    "Wye River"
+   ],
+   "Tweed": [
+    "River Tweed",
+    "Tweed River"
+   ],
+   "Clyde": [
+    "River Clyde",
+    "Clyde River"
+   ],
+   "Tay": [
+    "River Tay",
+    "Tay River"
+   ],
+   "Spey": [
+    "River Spey",
+    "Spey River"
+   ],
+   "Dee": [
+    "River Dee",
+    "Dee River"
+   ],
+   "Avon": [
+    "River Avon",
+    "Avon River"
+   ],
+   "Ouse": [
+    "River Ouse",
+    "Ouse River"
+   ],
+   "Wear": [
+    "River Wear",
+    "Wear River"
+   ],
+   "Tees": [
+    "River Tees",
+    "Tees River"
+   ],
+   "Forth": [
+    "River Forth",
+    "Forth River"
+   ],
+   "Exe": [
+    "River Exe",
+    "Exe River"
+   ],
+   "Medway": [
+    "River Medway",
+    "Medway River"
+   ],
+   "Nene": [
+    "River Nene",
+    "Nene River"
+   ],
+   "Itchen": [
+    "River Itchen",
+    "Itchen River"
+   ],
+   "Lune": [
+    "River Lune",
+    "Lune River"
+   ],
+   "Ribble": [
+    "River Ribble",
+    "Ribble River"
+   ],
+   "Wharfe": [
+    "River Wharfe",
+    "Wharfe River"
+   ],
+   "Aire": [
+    "River Aire",
+    "Aire River"
+   ],
+   "Don": [
+    "River Don",
+    "Don River"
+   ],
+   "Derwent": [
+    "River Derwent",
+    "Derwent River"
+   ],
+   "Irwell": [
+    "River Irwell",
+    "Irwell River"
+   ],
+   "Lagan": [
+    "River Lagan",
+    "Lagan River"
+   ],
+   "Bann": [
+    "River Bann",
+    "Bann River"
+   ],
+   "Foyle": [
+    "River Foyle",
+    "Foyle River"
+   ],
+   "Teifi": [
+    "River Teifi",
+    "Teifi River"
+   ],
+   "Test": [
+    "River Test",
+    "Test River"
+   ],
+   "Stour": [
+    "River Stour",
+    "Stour River"
+   ],
+   "Welland": [
+    "River Welland",
+    "Welland River"
+   ],
+   "Witham": [
+    "River Witham",
+    "Witham River"
+   ],
+   "Eden": [
+    "River Eden",
+    "Eden River"
+   ],
+   "Tame": [
+    "River Tame",
+    "Tame River"
+   ],
+   "Dove": [
+    "River Dove",
+    "Dove River"
+   ],
+   "Soar": [
+    "River Soar",
+    "Soar River"
+   ],
+   "Tamar": [
+    "River Tamar",
+    "Tamar River"
+   ],
+   "Calder": [
+    "River Calder",
+    "Calder River"
+   ],
+   "Kennet": [
+    "River Kennet",
+    "Kennet River"
+   ],
+   "Wandle": [
+    "River Wandle",
+    "Wandle River"
+   ],
+   "Brent": [
+    "River Brent",
+    "Brent River"
+   ],
+   "Wey": [
+    "River Wey",
+    "Wey River"
+   ],
+   "Cherwell": [
+    "River Cherwell",
+    "Cherwell River"
+   ],
+   "Yare": [
+    "River Yare",
+    "Yare River"
+   ],
+   "Wensum": [
+    "River Wensum",
+    "Wensum River"
+   ],
+   "Bure": [
+    "River Bure",
+    "Bure River"
+   ],
+   "Waveney": [
+    "River Waveney",
+    "Waveney River"
+   ],
+   "Orwell": [
+    "River Orwell",
+    "Orwell River"
+   ],
+   "Deben": [
+    "River Deben",
+    "Deben River"
+   ],
+   "Alde": [
+    "River Alde",
+    "Alde River"
+   ],
+   "Blackwater": [
+    "River Blackwater",
+    "Blackwater River"
+   ],
+   "Colne": [
+    "River Colne",
+    "Colne River"
+   ],
+   "Crouch": [
+    "River Crouch",
+    "Crouch River"
+   ],
+   "Arun": [
+    "River Arun",
+    "Arun River"
+   ],
+   "Adur": [
+    "River Adur",
+    "Adur River"
+   ],
+   "Dart": [
+    "River Dart",
+    "Dart River"
+   ],
+   "Teign": [
+    "River Teign",
+    "Teign River"
+   ],
+   "Parrett": [
+    "River Parrett",
+    "Parrett River"
+   ],
+   "Cree": [
+    "River Cree",
+    "Cree River"
+   ],
+   "Nith": [
+    "River Nith",
+    "Nith River"
+   ],
+   "Annan": [
+    "River Annan",
+    "Annan River"
+   ],
+   "Esk": [
+    "River Esk",
+    "Esk River"
+   ],
+   "Ayr": [
+    "River Ayr",
+    "Ayr River"
+   ],
+   "Doon": [
+    "River Doon",
+    "Doon River"
+   ],
+   "Irvine": [
+    "River Irvine",
+    "Irvine River"
+   ],
+   "Leven": [
+    "River Leven",
+    "Leven River"
+   ],
+   "Carron": [
+    "River Carron",
+    "Carron River"
+   ],
+   "Tawe": [
+    "River Tawe",
+    "Tawe River"
+   ],
+   "Clwyd": [
+    "River Clwyd",
+    "Clwyd River"
+   ],
+   "Lochy": [
+    "River Lochy",
+    "Lochy River"
+   ],
+   "Conon": [
+    "River Conon",
+    "Conon River"
+   ],
+   "Endrick": [
+    "River Endrick",
+    "Endrick River"
+   ],
+   "Teith": [
+    "River Teith",
+    "Teith River"
+   ],
+   "Gala": [
+    "River Gala",
+    "Gala River"
+   ],
+   "Rhymney": [
+    "River Rhymney",
+    "Rhymney River"
+   ],
+   "Ogmore": [
+    "River Ogmore",
+    "Ogmore River"
+   ],
+   "Cothi": [
+    "River Cothi",
+    "Cothi River"
+   ],
+   "Ystwyth": [
+    "River Ystwyth",
+    "Ystwyth River"
+   ],
+   "Rheidol": [
+    "River Rheidol",
+    "Rheidol River"
+   ],
+   "Mawddach": [
+    "River Mawddach",
+    "Mawddach River"
+   ],
+   "Alyn": [
+    "River Alyn",
+    "Alyn River"
+   ],
+   "Lugg": [
+    "River Lugg",
+    "Lugg River"
+   ],
+   "Arrow": [
+    "River Arrow",
+    "Arrow River"
+   ],
+   "Monnow": [
+    "River Monnow",
+    "Monnow River"
+   ],
+   "Irfon": [
+    "River Irfon",
+    "Irfon River"
+   ],
+   "Ogwen": [
+    "River Ogwen",
+    "Ogwen River"
+   ],
+   "Roe": [
+    "River Roe",
+    "Roe River"
+   ],
+   "Faughan": [
+    "River Faughan",
+    "Faughan River"
+   ],
+   "Mourne": [
+    "River Mourne",
+    "Mourne River"
+   ],
+   "Erne": [
+    "River Erne",
+    "Erne River"
+   ],
+   "Tummel": [
+    "River Tummel",
+    "Tummel River"
+   ],
+   "Garry": [
+    "River Garry",
+    "Garry River"
+   ],
+   "Isla": [
+    "River Isla",
+    "Isla River"
+   ],
+   "Ettrick": [
+    "River Ettrick",
+    "Ettrick River"
+   ],
+   "Yarrow": [
+    "River Yarrow",
+    "Yarrow River"
+   ],
+   "Almond": [
+    "River Almond",
+    "Almond River"
+   ],
+   "Earn": [
+    "River Earn",
+    "Earn River"
+   ],
+   "Teviot": [
+    "River Teviot",
+    "Teviot River"
+   ],
+   "Findhorn": [
+    "River Findhorn",
+    "Findhorn River"
+   ],
+   "Cuckmere": [
+    "River Cuckmere",
+    "Cuckmere River"
+   ],
+   "Hamble": [
+    "River Hamble",
+    "Hamble River"
+   ],
+   "Meon": [
+    "River Meon",
+    "Meon River"
+   ],
+   "Piddle": [
+    "River Piddle",
+    "Piddle River"
+   ],
+   "Frome": [
+    "River Frome",
+    "Frome River"
+   ],
+   "Otter": [
+    "River Otter",
+    "Otter River"
+   ],
+   "Axe": [
+    "River Axe",
+    "Axe River"
+   ],
+   "Tone": [
+    "River Tone",
+    "Tone River"
+   ],
+   "Ythan": [
+    "River Ythan",
+    "Ythan River"
+   ],
+   "Lossie": [
+    "River Lossie",
+    "Lossie River"
+   ],
+   "Deveron": [
+    "River Deveron",
+    "Deveron River"
+   ],
+   "Glaslyn": [
+    "River Glaslyn",
+    "Glaslyn River"
+   ],
+   "Quoile": [
+    "River Quoile",
+    "Quoile River"
+   ],
+   "Rother": [
+    "River Rother",
+    "Rother River"
    ]
   },
   "traps": {

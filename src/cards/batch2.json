@@ -1,0 +1,1855 @@
+[
+ {
+  "id": "cul-pop2-video-games",
+  "cat": "Video games",
+  "title": "Press start",
+  "q": "A video game franchise",
+  "rule": "A series of games sharing one name or world; one-off standalone games and game engines don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Mario",
+    "Pokémon",
+    "Minecraft",
+    "Tetris",
+    "Zelda"
+   ],
+   "hipster": [
+    "Metal Gear",
+    "Half-Life"
+   ],
+   "body": [
+    "Call of Duty",
+    "Sonic",
+    "Halo",
+    "Grand Theft Auto",
+    "Final Fantasy",
+    "Super Smash Bros.",
+    "Donkey Kong",
+    "Street Fighter",
+    "Mortal Kombat",
+    "Resident Evil",
+    "Assassin's Creed",
+    "Gran Turismo",
+    "Crash Bandicoot",
+    "Spyro",
+    "Pac-Man",
+    "Space Invaders",
+    "Animal Crossing",
+    "Kirby",
+    "Fire Emblem",
+    "Castlevania",
+    "Doom",
+    "Warcraft",
+    "Diablo",
+    "Sims",
+    "Battlefield",
+    "Tomb Raider",
+    "Need for Speed",
+    "Dragon Quest",
+    "Mega Man",
+    "Kingdom Hearts",
+    "Fallout",
+    "Portal",
+    "BioShock",
+    "Uncharted",
+    "God of War",
+    "Metroid",
+    "StarCraft",
+    "Civilization",
+    "Age of Empires",
+    "Banjo-Kazooie",
+    "Star Fox"
+   ],
+   "tail": [
+    "Ratchet & Clank",
+    "Jak and Daxter",
+    "Rayman",
+    "Wolfenstein",
+    "Silent Hill",
+    "Dark Souls",
+    "Bayonetta",
+    "Persona",
+    "Splatoon",
+    "Kid Icarus",
+    "Ape Escape",
+    "Dead Space",
+    "Tony Hawk's Pro Skater",
+    "Guitar Hero",
+    "Worms",
+    "Lemmings",
+    "Myst",
+    "Carmen Sandiego",
+    "Oddworld",
+    "Sly Cooper",
+    "Earthworm Jim",
+    "Rainbow Six",
+    "Hitman",
+    "Gears of War",
+    "Command & Conquer"
+   ],
+   "deep": [
+    "Xenoblade Chronicles",
+    "Shantae",
+    "Golden Sun",
+    "Breath of Fire",
+    "Monster Hunter",
+    "Yakuza",
+    "Ace Attorney",
+    "Katamari",
+    "Bomberman",
+    "Galaga",
+    "Frogger",
+    "Ogre Battle"
+   ],
+   "outlier": [
+    "Ys",
+    "Zork",
+    "Wizardry",
+    "Ultima",
+    "Gitaroo Man"
+   ]
+  },
+  "alias": {
+   "Mario": [
+    "Super Mario"
+   ],
+   "Pokémon": [
+    "Pocket Monsters"
+   ],
+   "Zelda": [
+    "The Legend of Zelda",
+    "Legend of Zelda"
+   ],
+   "Call of Duty": [
+    "COD"
+   ],
+   "Sonic": [
+    "Sonic the Hedgehog"
+   ],
+   "Grand Theft Auto": [
+    "GTA"
+   ],
+   "Final Fantasy": [
+    "FF"
+   ],
+   "Super Smash Bros.": [
+    "Smash Bros",
+    "Super Smash Brothers"
+   ],
+   "Sims": [
+    "The Sims"
+   ],
+   "Pac-Man": [
+    "Pacman",
+    "Puck Man"
+   ],
+   "Mega Man": [
+    "Megaman",
+    "Rockman"
+   ],
+   "Ratchet & Clank": [
+    "Ratchet and Clank"
+   ],
+   "Jak and Daxter": [
+    "Jak & Daxter"
+   ],
+   "Tony Hawk's Pro Skater": [
+    "Tony Hawks Pro Skater",
+    "Tony Hawk"
+   ],
+   "Command & Conquer": [
+    "Command and Conquer"
+   ],
+   "Need for Speed": [
+    "NFS"
+   ]
+  },
+  "traps": {
+   "Flappy Bird": "A huge hit, but a single standalone game that never grew into a series."
+  },
+  "fact": "Pac-Man launched in Japan as Puck Man, and the name was changed for Western release to stop vandals altering the P."
+ },
+ {
+  "id": "cul-pop2-cartoons",
+  "cat": "Cartoons",
+  "title": "Toon town",
+  "q": "A TV cartoon character",
+  "rule": "Any regular or recurring character from an animated TV series; characters who only appear in feature films don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Homer Simpson",
+    "Bart Simpson",
+    "Mickey Mouse",
+    "SpongeBob SquarePants",
+    "Bugs Bunny"
+   ],
+   "hipster": [
+    "Daffy Duck",
+    "Stewie Griffin"
+   ],
+   "body": [
+    "Lisa Simpson",
+    "Marge Simpson",
+    "Maggie Simpson",
+    "Peter Griffin",
+    "Scooby-Doo",
+    "Woody Woodpecker",
+    "Tom Cat",
+    "Jerry Mouse",
+    "Tweety",
+    "Sylvester",
+    "Fred Flintstone",
+    "Wilma Flintstone",
+    "Yogi Bear",
+    "Huckleberry Hound",
+    "Pluto",
+    "Donald Duck",
+    "Goofy",
+    "Minnie Mouse",
+    "Daisy Duck",
+    "Dora",
+    "Garfield",
+    "Snoopy",
+    "Patrick Star",
+    "Squidward Tentacles"
+   ],
+   "tail": [
+    "Eric Cartman",
+    "Kyle Broflovski",
+    "Stan Marsh",
+    "Kenny McCormick",
+    "Rick Sanchez",
+    "Morty Smith",
+    "Bob Belcher",
+    "Philip J. Fry",
+    "Turanga Leela",
+    "Bender Rodríguez",
+    "Daria Morgendorffer",
+    "Stimpy",
+    "Ren Höek",
+    "Peppa Pig",
+    "Bluey Heeler",
+    "Tommy Pickles",
+    "Arnold Shortman"
+   ],
+   "deep": [
+    "Dexter",
+    "Johnny Bravo",
+    "Doug Funnie",
+    "Courage the Cowardly Dog",
+    "Timmy Turner",
+    "Jimmy Neutron",
+    "Chuckie Finster",
+    "Mordecai"
+   ],
+   "outlier": [
+    "Quick Draw McGraw",
+    "Atom Ant",
+    "Captain Caveman",
+    "Dib",
+    "Baba Looey"
+   ]
+  },
+  "alias": {
+   "Homer Simpson": [
+    "Homer"
+   ],
+   "Bart Simpson": [
+    "Bart"
+   ],
+   "SpongeBob SquarePants": [
+    "SpongeBob",
+    "Sponge Bob"
+   ],
+   "Scooby-Doo": [
+    "Scooby Doo",
+    "Scooby"
+   ],
+   "Woody Woodpecker": [
+    "Woody"
+   ],
+   "Tweety": [
+    "Tweety Bird"
+   ],
+   "Sylvester": [
+    "Sylvester the Cat"
+   ],
+   "Dora": [
+    "Dora the Explorer"
+   ],
+   "Stimpy": [
+    "Stimpson J. Cat"
+   ],
+   "Ren Höek": [
+    "Ren Hoek",
+    "Ren"
+   ],
+   "Bender Rodríguez": [
+    "Bender",
+    "Bender Rodriguez"
+   ],
+   "Philip J. Fry": [
+    "Fry",
+    "Philip Fry"
+   ],
+   "Turanga Leela": [
+    "Leela"
+   ],
+   "Eric Cartman": [
+    "Cartman"
+   ],
+   "Kyle Broflovski": [
+    "Kyle"
+   ],
+   "Kenny McCormick": [
+    "Kenny"
+   ],
+   "Morty Smith": [
+    "Morty"
+   ],
+   "Rick Sanchez": [
+    "Rick"
+   ],
+   "Peppa Pig": [
+    "Peppa"
+   ],
+   "Bluey Heeler": [
+    "Bluey"
+   ],
+   "Arnold Shortman": [
+    "Arnold"
+   ],
+   "Courage the Cowardly Dog": [
+    "Courage"
+   ],
+   "Timmy Turner": [
+    "Timmy"
+   ],
+   "Jimmy Neutron": [
+    "Jimmy"
+   ],
+   "Johnny Bravo": [
+    "Johnny"
+   ],
+   "Quick Draw McGraw": [
+    "Quick Draw"
+   ]
+  },
+  "traps": {
+   "WALL-E": "A robot from a Pixar feature film, not a TV cartoon character."
+  },
+  "fact": "Quick Draw McGraw was a Hanna-Barbera cowboy horse, and his sidekick was a Mexican burro named Baba Looey."
+ },
+ {
+  "id": "cul-pop2-game-shows",
+  "cat": "Game shows",
+  "title": "Ding ding ding",
+  "q": "A UK TV game show",
+  "rule": "A competition or quiz format broadcast on British television; talk shows, sitcoms and reality series don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Countdown",
+    "Family Fortunes",
+    "Who Wants to Be a Millionaire?",
+    "Mastermind",
+    "Deal or No Deal"
+   ],
+   "hipster": [
+    "Pointless",
+    "Golden Balls"
+   ],
+   "body": [
+    "Blockbusters",
+    "Catchphrase",
+    "Price Is Right",
+    "Bullseye",
+    "Wheel of Fortune",
+    "Generation Game",
+    "Supermarket Sweep",
+    "Play Your Cards Right",
+    "Going for Gold",
+    "Gladiators",
+    "Chase",
+    "Weakest Link",
+    "Eggheads",
+    "University Challenge",
+    "Blankety Blank",
+    "Tipping Point",
+    "Crystal Maze",
+    "Fifteen to One",
+    "Treasure Hunt"
+   ],
+   "tail": [
+    "Krypton Factor",
+    "Only Connect",
+    "Sale of the Century",
+    "Strike It Lucky",
+    "Mr and Mrs",
+    "Ask the Family",
+    "Call My Bluff",
+    "Golden Shot",
+    "Bob's Full House",
+    "Big Break",
+    "Taskmaster",
+    "Fort Boyard",
+    "Knightmare",
+    "It's a Knockout",
+    "Million Pound Drop",
+    "Lingo",
+    "1% Club",
+    "Cube",
+    "Tenable",
+    "Password",
+    "Pictionary",
+    "Double Your Money",
+    "Take Your Pick"
+   ],
+   "deep": [
+    "Total Wipeout",
+    "Fear Factor",
+    "Concentration",
+    "Press Your Luck",
+    "Every Second Counts",
+    "Gambit",
+    "Split Second",
+    "Celebrity Squares",
+    "Connections",
+    "Catchword",
+    "Odd One Out",
+    "Hole in the Wall",
+    "Who Dares Wins",
+    "Name That Tune",
+    "Runaround",
+    "Winner Takes All"
+   ],
+   "outlier": [
+    "Telly Addicts",
+    "Give Us a Clue",
+    "Cheggers Plays Pop",
+    "Crosswits",
+    "Dotto"
+   ]
+  },
+  "alias": {
+   "Who Wants to Be a Millionaire?": [
+    "Who Wants to Be a Millionaire",
+    "Millionaire"
+   ],
+   "Price Is Right": [
+    "The Price Is Right"
+   ],
+   "Generation Game": [
+    "The Generation Game"
+   ],
+   "Chase": [
+    "The Chase"
+   ],
+   "Weakest Link": [
+    "The Weakest Link"
+   ],
+   "Crystal Maze": [
+    "The Crystal Maze"
+   ],
+   "Krypton Factor": [
+    "The Krypton Factor"
+   ],
+   "Mr and Mrs": [
+    "Mr. & Mrs.",
+    "Mr & Mrs"
+   ],
+   "Million Pound Drop": [
+    "The Million Pound Drop"
+   ],
+   "1% Club": [
+    "The 1% Club"
+   ],
+   "Cube": [
+    "The Cube"
+   ],
+   "It's a Knockout": [
+    "Its a Knockout"
+   ],
+   "Bob's Full House": [
+    "Bobs Full House"
+   ]
+  },
+  "traps": {
+   "Big Brother": "A reality series rather than a quiz or competition format.",
+   "Question Time": "A current affairs debate programme, not a game show."
+  },
+  "fact": "Pointless began on the BBC in 2009, with Alexander Armstrong hosting and Richard Osman as his assistant."
+ },
+ {
+  "id": "his-ppl-scientist",
+  "cat": "Science",
+  "title": "Eureka moment",
+  "q": "A famous scientist",
+  "rule": "Real people known mainly for scientific research; fictional detectives, novelists and science presenters don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Albert Einstein",
+    "Isaac Newton",
+    "Charles Darwin",
+    "Marie Curie",
+    "Stephen Hawking"
+   ],
+   "hipster": [
+    "Rosalind Franklin",
+    "Richard Feynman"
+   ],
+   "body": [
+    "Galileo Galilei",
+    "Louis Pasteur",
+    "Gregor Mendel",
+    "Nicolaus Copernicus",
+    "Johannes Kepler",
+    "Michael Faraday",
+    "James Clerk Maxwell",
+    "Antoine Lavoisier",
+    "Dmitri Mendeleev",
+    "Ernest Rutherford",
+    "Niels Bohr",
+    "Max Planck",
+    "Werner Heisenberg",
+    "Erwin Schrödinger",
+    "Alexander Fleming",
+    "Edward Jenner",
+    "Francis Crick",
+    "James Watson",
+    "Robert Hooke",
+    "Jane Goodall"
+   ],
+   "tail": [
+    "Carl Linnaeus",
+    "Henri Becquerel",
+    "Pierre Curie",
+    "Dorothy Hodgkin",
+    "Barbara McClintock",
+    "Lise Meitner",
+    "Tycho Brahe",
+    "Robert Boyle",
+    "Henry Cavendish",
+    "Joseph Priestley",
+    "Humphry Davy",
+    "Svante Arrhenius",
+    "Wolfgang Pauli",
+    "Max Born",
+    "William Thomson",
+    "Paul Dirac",
+    "Enrico Fermi",
+    "Linus Pauling",
+    "Rachel Carson",
+    "Joseph Lister",
+    "Robert Koch",
+    "Edmond Halley",
+    "Alfred Wegener"
+   ],
+   "deep": [
+    "Rudolf Virchow",
+    "Santiago Ramón y Cajal",
+    "Ivan Pavlov",
+    "Jean-Baptiste Lamarck",
+    "Alfred Russel Wallace",
+    "Hermann von Helmholtz",
+    "Thomas Hunt Morgan"
+   ],
+   "outlier": [
+    "Lazzaro Spallanzani",
+    "Theodosius Dobzhansky",
+    "Hans Krebs",
+    "Georges Cuvier",
+    "Ronald Fisher"
+   ]
+  },
+  "alias": {
+   "Albert Einstein": [
+    "Einstein"
+   ],
+   "Isaac Newton": [
+    "Newton"
+   ],
+   "Charles Darwin": [
+    "Darwin"
+   ],
+   "Stephen Hawking": [
+    "Hawking"
+   ],
+   "Marie Curie": [
+    "Madame Curie"
+   ],
+   "Galileo Galilei": [
+    "Galileo"
+   ],
+   "Nicolaus Copernicus": [
+    "Copernicus",
+    "Nicolas Copernicus"
+   ],
+   "Johannes Kepler": [
+    "Kepler"
+   ],
+   "Michael Faraday": [
+    "Faraday"
+   ],
+   "Dmitri Mendeleev": [
+    "Dmitry Mendeleev",
+    "Dmitri Mendeleyev"
+   ],
+   "Ernest Rutherford": [
+    "Rutherford"
+   ],
+   "Niels Bohr": [
+    "Bohr"
+   ],
+   "Max Planck": [
+    "Planck"
+   ],
+   "Alexander Fleming": [
+    "Fleming"
+   ],
+   "Edward Jenner": [
+    "Jenner"
+   ],
+   "William Thomson": [
+    "Lord Kelvin",
+    "Kelvin"
+   ]
+  },
+  "traps": {
+   "Sherlock Holmes": "A fictional detective who reasons like a scientist, but he isn't real.",
+   "Jules Verne": "A novelist who wrote about science, not a scientist himself."
+  },
+  "fact": "Lazzaro Spallanzani disproved spontaneous generation by showing that sealed flasks of broth stayed sterile."
+ },
+ {
+  "id": "spo-ppl-f1-winner",
+  "cat": "Sport",
+  "title": "Pole position",
+  "q": "A Formula 1 driver who has won a Grand Prix",
+  "rule": "Must have won at least one world championship race; drivers who only scored podiums or poles don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Lewis Hamilton",
+    "Michael Schumacher",
+    "Ayrton Senna",
+    "Sebastian Vettel",
+    "Max Verstappen"
+   ],
+   "hipster": [
+    "Juan Manuel Fangio",
+    "Jackie Stewart"
+   ],
+   "body": [
+    "Alain Prost",
+    "Nigel Mansell",
+    "Fernando Alonso",
+    "Damon Hill",
+    "Jenson Button",
+    "Kimi Räikkönen",
+    "Mika Häkkinen",
+    "Niki Lauda",
+    "Jack Brabham",
+    "Jim Clark",
+    "Nelson Piquet",
+    "Emerson Fittipaldi",
+    "Jacques Villeneuve",
+    "Felipe Massa",
+    "Charles Leclerc",
+    "Lando Norris",
+    "George Russell",
+    "Daniel Ricciardo",
+    "Valtteri Bottas",
+    "Nico Rosberg"
+   ],
+   "tail": [
+    "Mark Webber",
+    "James Hunt",
+    "Graham Hill",
+    "Mario Andretti",
+    "Jody Scheckter",
+    "Alberto Ascari",
+    "Stirling Moss",
+    "Carlos Sainz",
+    "Sergio Pérez",
+    "Giuseppe Farina",
+    "Juan Pablo Montoya",
+    "Ralf Schumacher",
+    "Rubens Barrichello",
+    "David Coulthard"
+   ],
+   "deep": [
+    "Gerhard Berger",
+    "Keke Rosberg",
+    "Jochen Rindt",
+    "Johnny Herbert",
+    "Eddie Irvine",
+    "Riccardo Patrese",
+    "Gilles Villeneuve",
+    "Ronnie Peterson",
+    "Jean Alesi",
+    "Heinz-Harald Frentzen",
+    "Jacques Laffite",
+    "Alan Jones",
+    "Denny Hulme",
+    "John Surtees",
+    "Pastor Maldonado",
+    "Carlos Reutemann"
+   ],
+   "outlier": [
+    "Michele Alboreto",
+    "Jacky Ickx",
+    "Phil Hill",
+    "Esteban Ocon",
+    "Pierre Gasly"
+   ]
+  },
+  "alias": {
+   "Juan Manuel Fangio": [
+    "Juan Fangio",
+    "Fangio"
+   ],
+   "Kimi Räikkönen": [
+    "Kimi Raikkonen"
+   ],
+   "Sergio Pérez": [
+    "Checo Pérez",
+    "Checo Perez",
+    "Sergio Perez"
+   ],
+   "Giuseppe Farina": [
+    "Nino Farina"
+   ],
+   "Carlos Sainz": [
+    "Carlos Sainz Jr",
+    "Carlos Sainz Jr."
+   ],
+   "Heinz-Harald Frentzen": [
+    "Heinz Harald Frentzen"
+   ]
+  },
+  "traps": {
+   "Michael Jordan": "A basketball legend, never a Formula 1 driver.",
+   "Dale Earnhardt": "A NASCAR champion, not a Formula 1 driver."
+  },
+  "fact": "Pastor Maldonado won the 2012 Spanish Grand Prix, Williams' first win since 2004."
+ },
+ {
+  "id": "his-ppl-novelist",
+  "cat": "Books",
+  "title": "Page turner",
+  "q": "A famous novelist",
+  "rule": "Must have written novels, not only plays, poetry or non-fiction; authors of children's picture books only don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Charles Dickens",
+    "Jane Austen",
+    "George Orwell",
+    "Agatha Christie",
+    "J. K. Rowling"
+   ],
+   "hipster": [
+    "Franz Kafka",
+    "Marcel Proust"
+   ],
+   "body": [
+    "Mark Twain",
+    "Leo Tolstoy",
+    "Fyodor Dostoevsky",
+    "Ernest Hemingway",
+    "F. Scott Fitzgerald",
+    "Victor Hugo",
+    "Emily Brontë",
+    "Charlotte Brontë",
+    "Thomas Hardy",
+    "Mary Shelley",
+    "Daniel Defoe",
+    "Jonathan Swift",
+    "Herman Melville",
+    "Virginia Woolf",
+    "Aldous Huxley",
+    "Ray Bradbury",
+    "Stephen King",
+    "Ian Fleming",
+    "Arthur Conan Doyle",
+    "Gabriel García Márquez"
+   ],
+   "tail": [
+    "Miguel de Cervantes",
+    "Gustave Flaubert",
+    "Honoré de Balzac",
+    "Émile Zola",
+    "Alexandre Dumas",
+    "Jules Verne",
+    "Henry James",
+    "Edith Wharton",
+    "Toni Morrison",
+    "Kurt Vonnegut",
+    "Joseph Heller",
+    "Vladimir Nabokov",
+    "Anthony Trollope",
+    "Wilkie Collins",
+    "Bram Stoker",
+    "Robert Louis Stevenson",
+    "Oscar Wilde",
+    "Roald Dahl"
+   ],
+   "deep": [
+    "Joseph Conrad",
+    "Thomas Mann",
+    "Hermann Hesse",
+    "Umberto Eco",
+    "Boris Pasternak",
+    "Ivan Turgenev",
+    "Nikolai Gogol",
+    "Zora Neale Hurston",
+    "Sinclair Lewis",
+    "Upton Sinclair",
+    "Theodore Dreiser"
+   ],
+   "outlier": [
+    "Ford Madox Ford",
+    "Eudora Welty",
+    "Italo Calvino",
+    "Mikhail Bulgakov",
+    "Willa Cather"
+   ]
+  },
+  "alias": {
+   "Jane Austen": [
+    "Jane Austin"
+   ],
+   "J. K. Rowling": [
+    "JK Rowling",
+    "J.K. Rowling"
+   ],
+   "Leo Tolstoy": [
+    "Leo Tolstoi",
+    "Lev Tolstoy"
+   ],
+   "Fyodor Dostoevsky": [
+    "Fyodor Dostoevskiy",
+    "Dostoyevsky"
+   ],
+   "Charlotte Brontë": [
+    "Charlotte Bronte"
+   ],
+   "Emily Brontë": [
+    "Emily Bronte"
+   ],
+   "Gabriel García Márquez": [
+    "Gabriel Garcia Marquez"
+   ],
+   "Mikhail Bulgakov": [
+    "Mikhail Bulgakov"
+   ],
+   "Miguel de Cervantes": [
+    "Cervantes"
+   ],
+   "Alexandre Dumas": [
+    "Alexandre Dumas père",
+    "Dumas"
+   ]
+  },
+  "traps": {
+   "Dr. Seuss": "Wrote children's picture books, not novels.",
+   "William Shakespeare": "A playwright and poet, not a novelist."
+  },
+  "fact": "Anthony Trollope wrote many of his novels while working full time as a Post Office official."
+ },
+ {
+  "id": "his-ppl-inventor",
+  "cat": "History",
+  "title": "Bright idea",
+  "q": "A famous inventor",
+  "rule": "Must be credited with inventing a notable device or process; people known mainly for business or licensing don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Thomas Edison",
+    "Alexander Graham Bell",
+    "Nikola Tesla",
+    "Leonardo da Vinci",
+    "Benjamin Franklin"
+   ],
+   "hipster": [
+    "Hedy Lamarr",
+    "Charles Babbage"
+   ],
+   "body": [
+    "Johannes Gutenberg",
+    "Samuel Morse",
+    "Guglielmo Marconi",
+    "Isaac Singer",
+    "Eli Whitney",
+    "Rudolf Diesel",
+    "Karl Benz",
+    "Louis Daguerre",
+    "Alfred Nobel",
+    "Charles Goodyear",
+    "John Logie Baird",
+    "Philo Farnsworth",
+    "Louis Braille",
+    "Alessandro Volta",
+    "Michael Faraday",
+    "Gottlieb Daimler",
+    "Joseph Swan",
+    "George Eastman",
+    "Tim Berners-Lee",
+    "Hiram Maxim"
+   ],
+   "tail": [
+    "Elisha Otis",
+    "Robert Watson-Watt",
+    "Christopher Cockerell",
+    "Edwin Land",
+    "Clarence Birdseye",
+    "Orville Wright",
+    "Wilbur Wright",
+    "Thomas Newcomen",
+    "Mikhail Kalashnikov",
+    "Igor Sikorsky",
+    "Ernst Ruska",
+    "Nikolaus Otto",
+    "Frank Whittle",
+    "Hans Geiger"
+   ],
+   "deep": [
+    "Lewis Waterman",
+    "Emile Berliner",
+    "Joseph Glidden",
+    "Wallace Carothers",
+    "Percy Spencer",
+    "Frederick McKinley Jones",
+    "Sylvan Goldman",
+    "Walter Hunt",
+    "Josephine Cochrane"
+   ],
+   "outlier": [
+    "Margaret Knight",
+    "Garrett Morgan",
+    "Mary Anderson",
+    "Chester Greenwood",
+    "Ottmar Mergenthaler"
+   ]
+  },
+  "alias": {
+   "Thomas Edison": [
+    "Tom Edison"
+   ],
+   "Leonardo da Vinci": [
+    "Da Vinci"
+   ],
+   "Johannes Gutenberg": [
+    "Johann Gutenberg"
+   ],
+   "Philo Farnsworth": [
+    "Philo Taylor Farnsworth"
+   ],
+   "Mikhail Kalashnikov": [
+    "Mikhail Kalashnikoff"
+   ],
+   "Hedy Lamarr": [
+    "Hedwig Kiesler"
+   ]
+  },
+  "traps": {
+   "Steve Jobs": "Co-founded Apple and is known mainly for business rather than invention."
+  },
+  "fact": "Hedy Lamarr and George Antheil patented a frequency-hopping radio system in 1942, decades before it was used in military radio."
+ },
+ {
+  "id": "geo-w-river",
+  "cat": "Geography",
+  "title": "Downstream",
+  "q": "A river anywhere in the world",
+  "rule": "Named rivers only; brooks, canals and underground channels don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Amazon",
+    "Nile",
+    "Mississippi",
+    "Thames",
+    "Yangtze"
+   ],
+   "hipster": [
+    "Congo",
+    "Ganges"
+   ],
+   "body": [
+    "Rhine",
+    "Seine",
+    "Volga",
+    "Mekong",
+    "Hudson",
+    "Colorado",
+    "Rio Grande",
+    "Zambezi",
+    "Niger",
+    "Orinoco",
+    "Euphrates",
+    "Tigris",
+    "Danube",
+    "Missouri",
+    "Ohio",
+    "Yukon",
+    "Indus",
+    "Murray",
+    "Brahmaputra",
+    "St. Lawrence"
+   ],
+   "tail": [
+    "Severn",
+    "Trent",
+    "Clyde",
+    "Shannon",
+    "Tagus",
+    "Loire",
+    "Dordogne",
+    "Vistula",
+    "Oder",
+    "Dnieper",
+    "Lena",
+    "Amur",
+    "Yenisei",
+    "Irrawaddy",
+    "Limpopo",
+    "Paraná",
+    "Uruguay",
+    "Magdalena",
+    "Mackenzie",
+    "Rhône"
+   ],
+   "deep": [
+    "Tees",
+    "Wye",
+    "Irwell",
+    "Ribble",
+    "Ouse",
+    "Lune",
+    "Exe",
+    "Dart",
+    "Kennet",
+    "Cam",
+    "Taff",
+    "Usk"
+   ],
+   "outlier": [
+    "Kolyma",
+    "Pechora",
+    "Tocantins",
+    "Madeira",
+    "Ottawa"
+   ]
+  },
+  "alias": {
+   "Yangtze": [
+    "Chang Jiang",
+    "Changjiang",
+    "River Yangtze",
+    "Yangtze River"
+   ],
+   "Congo": [
+    "Zaire",
+    "River Congo",
+    "Congo River"
+   ],
+   "Danube": [
+    "Donau",
+    "River Danube",
+    "Danube River"
+   ],
+   "Rhine": [
+    "Rhein",
+    "River Rhine",
+    "Rhine River"
+   ],
+   "Ganges": [
+    "Ganga",
+    "River Ganges",
+    "Ganges River"
+   ],
+   "Irrawaddy": [
+    "Ayeyarwady",
+    "River Irrawaddy",
+    "Irrawaddy River"
+   ],
+   "Dnieper": [
+    "Dnepr",
+    "River Dnieper",
+    "Dnieper River"
+   ],
+   "Vistula": [
+    "Wisla",
+    "River Vistula",
+    "Vistula River"
+   ],
+   "Oder": [
+    "Odra",
+    "River Oder",
+    "Oder River"
+   ],
+   "Tagus": [
+    "Tajo",
+    "River Tagus",
+    "Tagus River"
+   ],
+   "St. Lawrence": [
+    "Saint Lawrence",
+    "St Lawrence",
+    "River St. Lawrence",
+    "St. Lawrence River"
+   ],
+   "Rio Grande": [
+    "Rio Bravo",
+    "River Rio Grande",
+    "Rio Grande River"
+   ],
+   "Amazon": [
+    "River Amazon",
+    "Amazon River"
+   ],
+   "Nile": [
+    "River Nile",
+    "Nile River"
+   ],
+   "Mississippi": [
+    "River Mississippi",
+    "Mississippi River"
+   ],
+   "Thames": [
+    "River Thames",
+    "Thames River"
+   ],
+   "Seine": [
+    "River Seine",
+    "Seine River"
+   ],
+   "Volga": [
+    "River Volga",
+    "Volga River"
+   ],
+   "Mekong": [
+    "River Mekong",
+    "Mekong River"
+   ],
+   "Hudson": [
+    "River Hudson",
+    "Hudson River"
+   ],
+   "Colorado": [
+    "River Colorado",
+    "Colorado River"
+   ],
+   "Zambezi": [
+    "River Zambezi",
+    "Zambezi River"
+   ],
+   "Niger": [
+    "River Niger",
+    "Niger River"
+   ],
+   "Orinoco": [
+    "River Orinoco",
+    "Orinoco River"
+   ],
+   "Euphrates": [
+    "River Euphrates",
+    "Euphrates River"
+   ],
+   "Tigris": [
+    "River Tigris",
+    "Tigris River"
+   ],
+   "Missouri": [
+    "River Missouri",
+    "Missouri River"
+   ],
+   "Ohio": [
+    "River Ohio",
+    "Ohio River"
+   ],
+   "Yukon": [
+    "River Yukon",
+    "Yukon River"
+   ],
+   "Indus": [
+    "River Indus",
+    "Indus River"
+   ],
+   "Murray": [
+    "River Murray",
+    "Murray River"
+   ],
+   "Brahmaputra": [
+    "River Brahmaputra",
+    "Brahmaputra River"
+   ],
+   "Severn": [
+    "River Severn",
+    "Severn River"
+   ],
+   "Trent": [
+    "River Trent",
+    "Trent River"
+   ],
+   "Clyde": [
+    "River Clyde",
+    "Clyde River"
+   ],
+   "Shannon": [
+    "River Shannon",
+    "Shannon River"
+   ],
+   "Loire": [
+    "River Loire",
+    "Loire River"
+   ],
+   "Dordogne": [
+    "River Dordogne",
+    "Dordogne River"
+   ],
+   "Lena": [
+    "River Lena",
+    "Lena River"
+   ],
+   "Amur": [
+    "River Amur",
+    "Amur River"
+   ],
+   "Yenisei": [
+    "River Yenisei",
+    "Yenisei River"
+   ],
+   "Limpopo": [
+    "River Limpopo",
+    "Limpopo River"
+   ],
+   "Paraná": [
+    "River Paraná",
+    "Paraná River"
+   ],
+   "Uruguay": [
+    "River Uruguay",
+    "Uruguay River"
+   ],
+   "Magdalena": [
+    "River Magdalena",
+    "Magdalena River"
+   ],
+   "Mackenzie": [
+    "River Mackenzie",
+    "Mackenzie River"
+   ],
+   "Rhône": [
+    "River Rhône",
+    "Rhône River"
+   ],
+   "Tees": [
+    "River Tees",
+    "Tees River"
+   ],
+   "Wye": [
+    "River Wye",
+    "Wye River"
+   ],
+   "Irwell": [
+    "River Irwell",
+    "Irwell River"
+   ],
+   "Ribble": [
+    "River Ribble",
+    "Ribble River"
+   ],
+   "Ouse": [
+    "River Ouse",
+    "Ouse River"
+   ],
+   "Lune": [
+    "River Lune",
+    "Lune River"
+   ],
+   "Exe": [
+    "River Exe",
+    "Exe River"
+   ],
+   "Dart": [
+    "River Dart",
+    "Dart River"
+   ],
+   "Kennet": [
+    "River Kennet",
+    "Kennet River"
+   ],
+   "Cam": [
+    "River Cam",
+    "Cam River"
+   ],
+   "Taff": [
+    "River Taff",
+    "Taff River"
+   ],
+   "Usk": [
+    "River Usk",
+    "Usk River"
+   ],
+   "Kolyma": [
+    "River Kolyma",
+    "Kolyma River"
+   ],
+   "Pechora": [
+    "River Pechora",
+    "Pechora River"
+   ],
+   "Tocantins": [
+    "River Tocantins",
+    "Tocantins River"
+   ],
+   "Madeira": [
+    "River Madeira",
+    "Madeira River"
+   ],
+   "Ottawa": [
+    "River Ottawa",
+    "Ottawa River"
+   ]
+  },
+  "traps": {
+   "Lake Victoria": "A lake rather than a river, so it doesn't count.",
+   "Sahara": "A desert, not a watercourse."
+  },
+  "fact": "The Ottawa River forms much of the border between Ontario and Quebec, and the Canadian capital sits on its banks."
+ },
+ {
+  "id": "geo-w-sea",
+  "cat": "Geography",
+  "title": "Making waves",
+  "q": "A large body of salt water",
+  "rule": "Only named bodies of salt water count; gulfs, bays and straits don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Pacific",
+    "Atlantic",
+    "Indian",
+    "Mediterranean",
+    "Red"
+   ],
+   "hipster": [
+    "Baltic",
+    "Caspian"
+   ],
+   "body": [
+    "Caribbean",
+    "Arabian",
+    "Arctic",
+    "North",
+    "South China",
+    "Black",
+    "Adriatic",
+    "Aegean",
+    "Bering",
+    "Norwegian",
+    "Irish",
+    "Yellow",
+    "Coral",
+    "Southern",
+    "Philippine",
+    "Japan",
+    "Tasman",
+    "Java",
+    "Timor"
+   ],
+   "tail": [
+    "Ionian",
+    "Tyrrhenian",
+    "Ligurian",
+    "Balearic",
+    "Marmara",
+    "Andaman",
+    "Celebes",
+    "Sargasso",
+    "Weddell",
+    "Ross",
+    "Beaufort",
+    "Greenland",
+    "Labrador",
+    "Dead"
+   ],
+   "deep": [
+    "Bismarck",
+    "Solomon",
+    "Arafura",
+    "Banda",
+    "Kara",
+    "Laptev",
+    "Barents",
+    "Okhotsk",
+    "Sulu",
+    "Molucca",
+    "Flores"
+   ],
+   "outlier": [
+    "Chukchi",
+    "Scotia",
+    "East Siberian",
+    "Wandel",
+    "Lincoln"
+   ]
+  },
+  "alias": {
+   "Pacific": [
+    "Pacific Ocean"
+   ],
+   "Atlantic": [
+    "Atlantic Ocean"
+   ],
+   "Indian": [
+    "Indian Ocean"
+   ],
+   "Mediterranean": [
+    "Med",
+    "Mediterranean Sea"
+   ],
+   "Red": [
+    "Red Sea"
+   ],
+   "Baltic": [
+    "Baltic Sea"
+   ],
+   "Caspian": [
+    "Caspian Sea"
+   ],
+   "Caribbean": [
+    "Caribbean Sea"
+   ],
+   "Arabian": [
+    "Arabian Sea"
+   ],
+   "Arctic": [
+    "Arctic Ocean"
+   ],
+   "North": [
+    "North Sea"
+   ],
+   "South China": [
+    "South China Sea"
+   ],
+   "Black": [
+    "Black Sea"
+   ],
+   "Adriatic": [
+    "Adriatic Sea"
+   ],
+   "Aegean": [
+    "Aegean Sea"
+   ],
+   "Bering": [
+    "Bering Sea"
+   ],
+   "Norwegian": [
+    "Norwegian Sea"
+   ],
+   "Irish": [
+    "Irish Sea"
+   ],
+   "Yellow": [
+    "Yellow Sea"
+   ],
+   "Coral": [
+    "Coral Sea"
+   ],
+   "Southern": [
+    "Southern Ocean"
+   ],
+   "Philippine": [
+    "Philippine Sea"
+   ],
+   "Japan": [
+    "Sea of Japan",
+    "East Sea"
+   ],
+   "Tasman": [
+    "Tasman Sea"
+   ],
+   "Java": [
+    "Java Sea"
+   ],
+   "Timor": [
+    "Timor Sea"
+   ],
+   "Ionian": [
+    "Ionian Sea"
+   ],
+   "Tyrrhenian": [
+    "Tyrrhenian Sea"
+   ],
+   "Ligurian": [
+    "Ligurian Sea"
+   ],
+   "Balearic": [
+    "Balearic Sea"
+   ],
+   "Marmara": [
+    "Sea of Marmara"
+   ],
+   "Andaman": [
+    "Andaman Sea"
+   ],
+   "Celebes": [
+    "Celebes Sea"
+   ],
+   "Sargasso": [
+    "Sargasso Sea"
+   ],
+   "Weddell": [
+    "Weddell Sea"
+   ],
+   "Ross": [
+    "Ross Sea"
+   ],
+   "Beaufort": [
+    "Beaufort Sea"
+   ],
+   "Greenland": [
+    "Greenland Sea"
+   ],
+   "Labrador": [
+    "Labrador Sea"
+   ],
+   "Bismarck": [
+    "Bismarck Sea"
+   ],
+   "Solomon": [
+    "Solomon Sea"
+   ],
+   "Arafura": [
+    "Arafura Sea"
+   ],
+   "Banda": [
+    "Banda Sea"
+   ],
+   "Kara": [
+    "Kara Sea"
+   ],
+   "Laptev": [
+    "Laptev Sea"
+   ],
+   "Barents": [
+    "Barents Sea"
+   ],
+   "Okhotsk": [
+    "Sea of Okhotsk"
+   ],
+   "Sulu": [
+    "Sulu Sea"
+   ],
+   "Molucca": [
+    "Molucca Sea"
+   ],
+   "Flores": [
+    "Flores Sea"
+   ],
+   "Chukchi": [
+    "Chukchi Sea"
+   ],
+   "Scotia": [
+    "Scotia Sea"
+   ],
+   "East Siberian": [
+    "East Siberian Sea"
+   ],
+   "Wandel": [
+    "Wandel Sea"
+   ],
+   "Lincoln": [
+    "Lincoln Sea"
+   ],
+   "Dead": [
+    "Dead Sea"
+   ]
+  },
+  "traps": {
+   "Bay of Bengal": "A bay, which doesn't count.",
+   "Lake Superior": "A freshwater lake, not salt water."
+  },
+  "fact": "The Sargasso Sea is the only sea with no land borders; its edges are defined by ocean currents."
+ },
+ {
+  "id": "geo-w-island",
+  "cat": "Geography",
+  "title": "Castaway",
+  "q": "An island anywhere in the world",
+  "rule": "Any landmass fully surrounded by water counts, even if part of a country; continents and peninsulas don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Greenland",
+    "Iceland",
+    "Ireland",
+    "Cuba",
+    "Madagascar"
+   ],
+   "hipster": [
+    "Tasmania",
+    "Sumatra"
+   ],
+   "body": [
+    "Great Britain",
+    "Sicily",
+    "Sardinia",
+    "Crete",
+    "Corsica",
+    "Cyprus",
+    "Malta",
+    "Bali",
+    "Sri Lanka",
+    "Honshu",
+    "Borneo",
+    "New Guinea",
+    "Java",
+    "Jamaica",
+    "Puerto Rico",
+    "Tahiti",
+    "Fiji",
+    "Mallorca",
+    "Newfoundland"
+   ],
+   "tail": [
+    "Hokkaido",
+    "Kyushu",
+    "Luzon",
+    "Mindanao",
+    "Hispaniola",
+    "Baffin",
+    "Ellesmere",
+    "Sakhalin",
+    "Vancouver",
+    "Skye",
+    "Anglesey",
+    "Ibiza",
+    "Hawaii",
+    "Isle of Wight",
+    "Isle of Man",
+    "Jersey"
+   ],
+   "deep": [
+    "Wight",
+    "Lesbos",
+    "Rhodes",
+    "Corfu",
+    "Gotland",
+    "Bornholm",
+    "Zealand",
+    "Hainan",
+    "Taiwan",
+    "Kodiak",
+    "Socotra",
+    "Oahu",
+    "Maui",
+    "Kauai"
+   ],
+   "outlier": [
+    "Pitcairn",
+    "Tristan da Cunha",
+    "Lord Howe",
+    "Rapa Nui",
+    "Bouvet"
+   ]
+  },
+  "alias": {
+   "Great Britain": [
+    "Britain"
+   ],
+   "Sri Lanka": [
+    "Ceylon"
+   ],
+   "Mallorca": [
+    "Majorca"
+   ],
+   "Newfoundland": [
+    "Newfoundland Island"
+   ],
+   "Vancouver": [
+    "Vancouver Island"
+   ],
+   "Lord Howe": [
+    "Lord Howe Island"
+   ],
+   "Rapa Nui": [
+    "Easter Island"
+   ],
+   "Tasmania": [
+    "Van Diemen's Land"
+   ],
+   "Sumatra": [
+    "Sumatera"
+   ],
+   "Ireland": [
+    "Eire"
+   ],
+   "Hawaii": [
+    "Big Island",
+    "Hawaii Island"
+   ],
+   "Cuba": [
+    "Cuba Island"
+   ],
+   "Puerto Rico": [
+    "Porto Rico"
+   ]
+  },
+  "traps": {
+   "Australia": "A continent, so it doesn't count.",
+   "Florida": "A peninsula joined to the mainland, not an island."
+  },
+  "fact": "Bouvet Island, a remote uninhabited Norwegian territory, is often called the most isolated island on Earth."
+ },
+ {
+  "id": "geo-w-olympic-host",
+  "cat": "Sport",
+  "title": "Rings a bell",
+  "q": "A city that has hosted the Olympics",
+  "rule": "Summer or winter Games count; Paralympic-only hosts and cities that only bid don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "London",
+    "Paris",
+    "Athens",
+    "Los Angeles",
+    "Tokyo"
+   ],
+   "hipster": [
+    "Sochi",
+    "Calgary"
+   ],
+   "body": [
+    "Sydney",
+    "Beijing",
+    "Rome",
+    "Barcelona",
+    "Atlanta",
+    "Seoul",
+    "Moscow",
+    "Berlin",
+    "Rio de Janeiro",
+    "Mexico City",
+    "Munich",
+    "Montreal",
+    "Vancouver",
+    "Salt Lake City",
+    "Turin",
+    "Nagano",
+    "PyeongChang",
+    "Melbourne",
+    "Stockholm"
+   ],
+   "tail": [
+    "Oslo",
+    "Sapporo",
+    "Grenoble",
+    "Innsbruck",
+    "Amsterdam",
+    "Albertville",
+    "Sarajevo",
+    "Milan"
+   ],
+   "deep": [
+    "Lake Placid",
+    "St. Moritz",
+    "Garmisch-Partenkirchen",
+    "Lillehammer",
+    "Helsinki"
+   ],
+   "outlier": [
+    "Chamonix",
+    "Squaw Valley",
+    "Cortina d'Ampezzo",
+    "Antwerp",
+    "Saint Louis"
+   ]
+  },
+  "alias": {
+   "London": [
+    "Londres"
+   ],
+   "Athens": [
+    "Athina"
+   ],
+   "Los Angeles": [
+    "LA",
+    "L.A."
+   ],
+   "Rio de Janeiro": [
+    "Rio"
+   ],
+   "Mexico City": [
+    "Mexico"
+   ],
+   "Munich": [
+    "München",
+    "Muenchen"
+   ],
+   "Rome": [
+    "Roma"
+   ],
+   "Turin": [
+    "Torino"
+   ],
+   "Beijing": [
+    "Peking"
+   ],
+   "Salt Lake City": [
+    "Salt Lake"
+   ],
+   "PyeongChang": [
+    "Pyeongchang"
+   ],
+   "Milan": [
+    "Milano"
+   ],
+   "St. Moritz": [
+    "St Moritz",
+    "Saint Moritz"
+   ],
+   "Garmisch-Partenkirchen": [
+    "Garmisch"
+   ],
+   "Cortina d'Ampezzo": [
+    "Cortina"
+   ],
+   "Squaw Valley": [
+    "Olympic Valley"
+   ],
+   "Saint Louis": [
+    "St. Louis",
+    "St Louis"
+   ],
+   "Antwerp": [
+    "Anvers"
+   ]
+  },
+  "traps": {
+   "Toronto": "Hosted the 1976 Paralympic Games, not the Olympic ones.",
+   "Brisbane": "Awarded the 2032 Games but has not yet hosted an Olympics."
+  },
+  "fact": "Saint Louis hosted the 1904 Olympics as part of its World's Fair, and the Games ran for several months."
+ }
+]
