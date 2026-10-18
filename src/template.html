@@ -230,6 +230,12 @@ details.rc summary::-webkit-details-marker { display: none; }
 .rc-q { font-size: 14px; color: var(--ink-2); }
 .rc-you { font: 700 18px/1.2 var(--f); overflow-wrap: anywhere; }
 .rc-you.none { color: var(--ink-2); font-weight: 500; }
+.rc-better { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; font-size: 13px; color: var(--ink-2); margin-top: 3px; }
+.rc-better.top { color: var(--t-body); font-weight: 600; }
+.pick { display: inline-flex; align-items: center; gap: 5px; color: var(--ink); font-weight: 600; }
+.pick i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
+.pick small { color: var(--ink-2); font-weight: 500; font-size: 12px; }
+.rv-line .pick { margin-right: 10px; font-size: 15px; }
 .rc-pts { text-align: right; display: grid; gap: 2px; }
 .rc-pts b { font: 900 22px/1 var(--f); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
 .rc-pts small { font-size: 12px; color: var(--ink-2); white-space: nowrap; }
@@ -928,9 +934,9 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     $("rv-ans").textContent = res.name || "";
     const others = (key) => (p.tiers[key] || []).filter((n) => n !== res.name);
     const common = others("head").slice(0, 3);
-    const deep = [...others("outlier"), ...others("deep")].slice(0, 3);
+    const picks = betterPicks(p, res.tier, res.name);
     $("rv-common").innerHTML = common.length ? `<b>Most people say</b>${esc(common.join(", "))}` : "";
-    $("rv-deep").innerHTML = deep.length ? `<b>Deep cuts</b>${esc(deep.join(", "))}` : "";
+    $("rv-deep").innerHTML = picks.length ? `<b>You could've said</b>${picksHTML(picks)}` : "";
     const last = G.mode !== "practice" && G.i === N - 1;
     const next = $("btn-next");
     next.textContent = last ? "See your crate" : "Next track";
@@ -981,6 +987,13 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     };
     G.anim = setTimeout(tick, REDUCED ? 0 : 120);
   }
+  function betterPicks(p, tier, name) {
+    const from = Math.max(tier ? ORDER.indexOf(tier) + 1 : 0, ORDER.indexOf("tail"));
+    const out = [];
+    for (let i = from; i < ORDER.length; i++) { const n = (p.tiers[ORDER[i]] || []).find((x) => x !== name); if (n) out.push({ name: n, tier: ORDER[i] }); }
+    return out;
+  }
+  const picksHTML = (list) => list.map((x) => `<span class="pick"><i style="--c:${tc(x.tier)}"></i>${esc(x.name)} <small>${TIER[x.tier].pts}</small></span>`).join("");
   function showPrice(pts, label, c, onC) {
     const pr = $("price"), st = $("stage");
     pr.style.setProperty("--c", c);
@@ -1093,7 +1106,9 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     $("r-cards").innerHTML = G.cards.map((p, i) => {
       const r = G.results[i] || { tier: null, pts: 0 };
       const you = r.name ? `<span class="rc-you">${esc(r.name)}</span>` : `<span class="rc-you none">${r.out === "skip" ? "Skipped" : "No answer"}</span>`;
-      return `<details class="rc" data-i="${i}"><summary><span class="rc-art" style="--sl:${sleeveOf(p)[0]};--c:${r.tier ? tc(r.tier) : "var(--line-2)"}"></span><span class="rc-main"><span class="rc-q">${esc(p.q)}</span>${you}</span><span class="rc-pts"><b>${r.pts}</b><small>${r.tier ? esc(TIER[r.tier].name) : "No score"}</small></span><span class="rc-chev" aria-hidden="true"></span></summary><div class="rc-body"></div></details>`;
+      const bp = betterPicks(p, r.tier, r.name);
+      const better = bp.length ? `<span class="rc-better">Could've said ${picksHTML(bp)}</span>` : `<span class="rc-better top">Top answer. Nothing scores more.</span>`;
+      return `<details class="rc" data-i="${i}"><summary><span class="rc-art" style="--sl:${sleeveOf(p)[0]};--c:${r.tier ? tc(r.tier) : "var(--line-2)"}"></span><span class="rc-main"><span class="rc-q">${esc(p.q)}</span>${you}${better}</span><span class="rc-pts"><b>${r.pts}</b><small>${r.tier ? esc(TIER[r.tier].name) : "No score"}</small></span><span class="rc-chev" aria-hidden="true"></span></summary><div class="rc-body"></div></details>`;
     }).join("");
     for (const d of $("r-cards").querySelectorAll("details")) {
       d.addEventListener("toggle", () => {
@@ -1103,10 +1118,11 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         const SHOW = 8;
         const total = TIERS.reduce((n, t) => n + (p.tiers[t.key] || []).length, 0);
         const alias = p.alias || {};
-        const entries = TIERS.slice().reverse().map((t) => ({ t, list: (p.tiers[t.key] || []).slice().sort((x, y) => x.localeCompare(y)) }));
+        // answers are stored most popular first within each tier
+        const entries = TIERS.slice().reverse().map((t) => ({ t, list: (p.tiers[t.key] || []).slice() }));
         const keysOf = (n) => [LT.key(n), ...(alias[n] || []).map(LT.key)];
         const body = d.querySelector(".rc-body");
-        body.innerHTML = `<label class="rc-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input type="search" placeholder="Is your answer here? Search all ${total}" aria-label="Search the answers for ${esc(p.q)}" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"></label><p class="rc-verdict" hidden></p><div class="rc-rows"></div>` + (p.fact ? `<p class="rc-fact"><b>Did you know?</b> ${esc(p.fact)}</p>` : "");
+        body.innerHTML = `<label class="rc-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input type="search" placeholder="Is your answer here? Search all ${total}" title="Most popular first in each tier" aria-label="Search the answers for ${esc(p.q)}" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"></label><p class="rc-verdict" hidden></p><div class="rc-rows"></div>` + (p.fact ? `<p class="rc-fact"><b>Did you know?</b> ${esc(p.fact)}</p>` : "");
         const rowsBox = body.querySelector(".rc-rows"), verdict = body.querySelector(".rc-verdict"), input = body.querySelector("input");
         const draw = (q) => {
           const qk = LT.key(q);
@@ -1127,12 +1143,14 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
           const html = entries.map(({ t, list }) => {
             let items = qk.length >= 2 ? list.filter((n) => hit.includes(n) || keysOf(n).some((k) => k.includes(qk))) : list.slice();
             if (!items.length) return "";
-            if (r.name && items.includes(r.name)) items = [r.name, ...items.filter((n) => n !== r.name)];
             shown += items.length;
             const fmt = (n) => (n === r.name ? `<span class="me">${esc(n)}</span>` : hit.includes(n) ? `<span class="hit">${esc(n)}</span>` : esc(n));
             const cut = qk.length >= 2 ? items.length : SHOW;
-            const rest = items.slice(cut);
-            return `<div class="tr" style="--c:${tc(t.key)}"><div class="tr-k"><span><i></i>${esc(t.name)}</span><small>${t.pts} points</small></div><p class="tr-v">${items.slice(0, cut).map(fmt).join(", ")}${rest.length ? `<span class="more" hidden>, ${rest.map(fmt).join(", ")}</span> <button class="link more-btn" type="button">+${rest.length} more</button>` : ""}</p></div>`;
+            let head = items.slice(0, cut), rest = items.slice(cut);
+            const mineAt = r.name ? rest.indexOf(r.name) : -1;
+            const tailMine = mineAt >= 0 ? `, … ${fmt(r.name)}` : "";
+            if (mineAt >= 0) rest = rest.filter((n) => n !== r.name);
+            return `<div class="tr" style="--c:${tc(t.key)}"><div class="tr-k"><span><i></i>${esc(t.name)}</span><small>${t.pts} points</small></div><p class="tr-v">${head.map(fmt).join(", ")}${tailMine}${rest.length ? `<span class="more" hidden>, ${rest.map(fmt).join(", ")}</span> <button class="link more-btn" type="button">+${rest.length} more</button>` : ""}</p></div>`;
           }).join("");
           if (verdict.dataset.none) {
             delete verdict.dataset.none;

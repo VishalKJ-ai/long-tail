@@ -1,0 +1,2428 @@
+[
+ {
+  "id": "cul-pop2-taylor-swift-songs",
+  "cat": "Music",
+  "title": "Eras tour",
+  "q": "A Taylor Swift song",
+  "rule": "Any officially released song from her albums, deluxe editions, vault tracks, soundtracks or collaborations; covers of other artists' songs and songs she only wrote for others don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Shake It Off",
+    "Love Story",
+    "Blank Space",
+    "Anti-Hero",
+    "You Belong with Me"
+   ],
+   "hipster": [
+    "Cruel Summer",
+    "All Too Well"
+   ],
+   "body": [
+    "Bad Blood",
+    "Style",
+    "Wildest Dreams",
+    "Look What You Made Me Do",
+    "Lover",
+    "Willow",
+    "Cardigan",
+    "Fearless",
+    "Mine",
+    "Mean",
+    "Our Song",
+    "Teardrops on My Guitar",
+    "Tim McGraw",
+    "22",
+    "Red",
+    "I Knew You Were Trouble",
+    "We Are Never Ever Getting Back Together",
+    "Out of the Woods",
+    "...Ready for It?",
+    "Delicate",
+    "You Need to Calm Down",
+    "ME!",
+    "Karma",
+    "Lavender Haze",
+    "Fortnight",
+    "Down Bad",
+    "Back to December",
+    "Enchanted",
+    "Dear John",
+    "Begin Again",
+    "Everything Has Changed",
+    "Gorgeous",
+    "Welcome to New York",
+    "Fate of Ophelia",
+    "Safe & Sound",
+    "Fifteen",
+    "Picture to Burn",
+    "White Horse",
+    "Bejeweled",
+    "Champagne Problems",
+    "Betty"
+   ],
+   "tail": [
+    "Man",
+    "Paper Rings",
+    "Exile",
+    "August",
+    "Mirrorball",
+    "Sparks Fly",
+    "Speak Now",
+    "Long Live",
+    "Midnight Rain",
+    "Snow on the Beach",
+    "Getaway Car",
+    "End Game",
+    "I Did Something Bad",
+    "Don't Blame Me",
+    "King of My Heart",
+    "Call It What You Want",
+    "New Year's Day",
+    "Dress",
+    "Cornelia Street",
+    "London Boy",
+    "Soon You'll Get Better",
+    "Archer",
+    "Miss Americana & the Heartbreak Prince",
+    "I Forgot That You Existed",
+    "Last Great American Dynasty",
+    "My Tears Ricochet",
+    "Seven",
+    "Invisible String",
+    "Mad Woman",
+    "Gold Rush",
+    "Tolerate It",
+    "Happiness",
+    "Coney Island",
+    "Ivy",
+    "Cowboy Like Me",
+    "Marjorie",
+    "Maroon",
+    "You're on Your Own, Kid",
+    "Vigilante Shit",
+    "Mastermind",
+    "Tortured Poets Department",
+    "So Long, London",
+    "But Daddy I Love Him",
+    "Florida!!!",
+    "Elizabeth Taylor",
+    "Opalite",
+    "Should've Said No",
+    "Forever & Always",
+    "Way I Loved You",
+    "Stay Stay Stay",
+    "Treacherous",
+    "State of Grace",
+    "Sad Beautiful Tragic",
+    "Innocent",
+    "Haunted",
+    "Last Kiss",
+    "Never Grow Up",
+    "Story of Us",
+    "Better Than Revenge",
+    "Sweeter Than Fiction",
+    "Hey Stephen",
+    "Breathe",
+    "Tell Me Why",
+    "You're Not Sorry",
+    "Holy Ground",
+    "I Don't Wanna Live Forever",
+    "Today Was a Fairytale",
+    "Eyes Open",
+    "I Wish You Would",
+    "Clean",
+    "All You Had to Do Was Stay"
+   ],
+   "deep": [
+    "I Think He Knows",
+    "Daylight",
+    "Afterglow",
+    "False God",
+    "Death by a Thousand Cuts",
+    "It's Nice to Have a Friend",
+    "1",
+    "Illicit Affairs",
+    "This Is Me Trying",
+    "Epiphany",
+    "Peace",
+    "Hoax",
+    "Lakes",
+    "No Body, No Crime",
+    "Dorothea",
+    "Closure",
+    "Evermore",
+    "Long Story Short",
+    "'Tis the Damn Season",
+    "Right Where You Left Me",
+    "It's Time to Go",
+    "Question...?",
+    "Labyrinth",
+    "Sweet Nothing",
+    "Bigger Than the Whole Sky",
+    "Paris",
+    "High Infidelity",
+    "Glitch",
+    "Would've, Could've, Should've",
+    "Dear Reader",
+    "Hits Different",
+    "Great War",
+    "Guilty as Sin?",
+    "Fresh Out the Slammer",
+    "Who's Afraid of Little Old Me?",
+    "I Can Fix Him (No Really I Can)",
+    "loml",
+    "I Can Do It with a Broken Heart",
+    "Smallest Man Who Ever Lived",
+    "Alchemy",
+    "Clara Bow",
+    "My Boy Only Breaks His Favorite Toys",
+    "Black Dog",
+    "imgonnagetyouback",
+    "Albatross",
+    "Chloe or Sam or Sophia or Marcus",
+    "How Did It End?",
+    "So High School",
+    "I Hate It Here",
+    "thanK you aIMee",
+    "I Look in People's Windows",
+    "Prophecy",
+    "Cassandra",
+    "Peter",
+    "Bolter",
+    "Robin",
+    "Manuscript",
+    "Father Figure",
+    "Eldest Daughter",
+    "Ruin the Friendship",
+    "Actually Romantic",
+    "Wi$h Li$t",
+    "Wood",
+    "CANCELLED!",
+    "Honey",
+    "Life of a Showgirl",
+    "Wonderland",
+    "You Are in Love",
+    "New Romantics",
+    "How You Get the Girl",
+    "This Love",
+    "I Know Places",
+    "This Is Why We Can't Have Nice Things",
+    "Dancing with Our Hands Tied",
+    "So It Goes...",
+    "I Almost Do",
+    "Lucky One",
+    "Girl at Home",
+    "Come Back... Be Here",
+    "Ronan",
+    "Only the Young",
+    "Carolina",
+    "Beautiful Ghosts",
+    "Christmas Tree Farm",
+    "Highway Don't Care",
+    "Two Is Better Than One",
+    "Both of Us",
+    "Half of My Heart",
+    "Renegade",
+    "Birch",
+    "Joker and the Queen",
+    "Mary's Song",
+    "A Place in This World",
+    "Cold as You",
+    "Outside",
+    "Tied Together with a Smile",
+    "Stay Beautiful",
+    "Superman",
+    "Ours",
+    "If This Was a Movie",
+    "Jump Then Fall",
+    "Untouchable",
+    "Superstar",
+    "Other Side of the Door",
+    "Best Day",
+    "Change",
+    "Last Time",
+    "Starlight",
+    "Slut!",
+    "Say Don't Go",
+    "Now That We Don't Talk",
+    "Suburban Legends",
+    "Is It Over Now?",
+    "Better Man",
+    "Nothing New",
+    "Babe",
+    "Message in a Bottle",
+    "I Bet You Think About Me",
+    "Forever Winter",
+    "Run",
+    "Very First Night",
+    "You All Over Me",
+    "Mr. Perfectly Fine",
+    "We Were Happy",
+    "That's When",
+    "Don't You",
+    "Electric Touch",
+    "When Emma Falls in Love",
+    "I Can See You",
+    "Castles Crumbling",
+    "Timeless",
+    "Bye Bye Baby"
+   ],
+   "outlier": [
+    "Beautiful Eyes",
+    "I'm Only Me When I'm with You",
+    "Come in with the Rain",
+    "Foolish One",
+    "Crazier"
+   ]
+  },
+  "alias": {
+   "...Ready for It?": [
+    "Ready for It",
+    "Ready for It?"
+   ],
+   "We Are Never Ever Getting Back Together": [
+    "We Are Never Getting Back Together",
+    "Never Ever Getting Back Together",
+    "WANEGBT"
+   ],
+   "Love Story": [
+    "Love Story (Taylor's Version)"
+   ],
+   "All Too Well": [
+    "All Too Well (10 Minute Version)",
+    "All Too Well 10 Minute Version"
+   ],
+   "Safe & Sound": [
+    "Safe and Sound"
+   ],
+   "22": [
+    "Twenty Two",
+    "Twenty-Two"
+   ],
+   "Man": [
+    "The Man"
+   ],
+   "Archer": [
+    "The Archer"
+   ],
+   "1": [
+    "The 1",
+    "The One"
+   ],
+   "Last Great American Dynasty": [
+    "The Last Great American Dynasty"
+   ],
+   "Tortured Poets Department": [
+    "The Tortured Poets Department",
+    "TTPD"
+   ],
+   "Fate of Ophelia": [
+    "The Fate of Ophelia"
+   ],
+   "Life of a Showgirl": [
+    "The Life of a Showgirl"
+   ],
+   "Smallest Man Who Ever Lived": [
+    "The Smallest Man Who Ever Lived"
+   ],
+   "Alchemy": [
+    "The Alchemy"
+   ],
+   "Black Dog": [
+    "The Black Dog"
+   ],
+   "Albatross": [
+    "The Albatross"
+   ],
+   "Prophecy": [
+    "The Prophecy"
+   ],
+   "Bolter": [
+    "The Bolter"
+   ],
+   "Manuscript": [
+    "The Manuscript"
+   ],
+   "Great War": [
+    "The Great War"
+   ],
+   "Story of Us": [
+    "The Story of Us"
+   ],
+   "Way I Loved You": [
+    "The Way I Loved You"
+   ],
+   "Lucky One": [
+    "The Lucky One"
+   ],
+   "Best Day": [
+    "The Best Day"
+   ],
+   "Outside": [
+    "The Outside"
+   ],
+   "Last Time": [
+    "The Last Time"
+   ],
+   "Very First Night": [
+    "The Very First Night"
+   ],
+   "Other Side of the Door": [
+    "The Other Side of the Door"
+   ],
+   "Joker and the Queen": [
+    "The Joker and the Queen"
+   ],
+   "Lakes": [
+    "The Lakes"
+   ],
+   "Mary's Song": [
+    "Mary's Song (Oh My My My)",
+    "Oh My My My"
+   ],
+   "I Can Fix Him (No Really I Can)": [
+    "I Can Fix Him"
+   ],
+   "Wi$h Li$t": [
+    "Wish List"
+   ],
+   "CANCELLED!": [
+    "Cancelled"
+   ],
+   "So Long, London": [
+    "So Long London"
+   ],
+   "'Tis the Damn Season": [
+    "Tis the Damn Season"
+   ],
+   "You're on Your Own, Kid": [
+    "You're on Your Own Kid",
+    "Youre on Your Own Kid"
+   ],
+   "Would've, Could've, Should've": [
+    "Would've Could've Should've"
+   ],
+   "Miss Americana & the Heartbreak Prince": [
+    "Miss Americana and the Heartbreak Prince",
+    "Miss Americana"
+   ],
+   "Soon You'll Get Better": [
+    "Soon Youll Get Better"
+   ],
+   "Tim McGraw": [
+    "Tim McGraw (Taylor's Version)"
+   ],
+   "No Body, No Crime": [
+    "No Body No Crime",
+    "Nobody No Crime"
+   ],
+   "Come Back... Be Here": [
+    "Come Back Be Here"
+   ],
+   "Mr. Perfectly Fine": [
+    "Mr Perfectly Fine",
+    "Mister Perfectly Fine"
+   ],
+   "Forever & Always": [
+    "Forever and Always"
+   ],
+   "My Boy Only Breaks His Favorite Toys": [
+    "My Boy Only Breaks His Favourite Toys"
+   ],
+   "Christmas Tree Farm": [
+    "Christmas Tree Farm (Old Timey Version)"
+   ],
+   "Vigilante Shit": [
+    "Vigilante S***",
+    "Vigilante Sh*t"
+   ],
+   "Slut!": [
+    "Slut",
+    "S***!"
+   ],
+   "ME!": [
+    "Me"
+   ]
+  },
+  "traps": {
+   "Shake It Out": "That is a Florence + the Machine song, not a Taylor Swift one.",
+   "Love Me Like You Do": "Ellie Goulding sang that Fifty Shades film hit; Taylor's contribution to that franchise was a different song.",
+   "Teenage Dream": "That is a Katy Perry song.",
+   "Back to Black": "That is an Amy Winehouse song."
+  },
+  "fact": "The 10-minute-13-second 'All Too Well' became the longest song ever to top the Billboard Hot 100 when it debuted at No. 1 in November 2021."
+ },
+ {
+  "id": "cul-pop2-american-sitcoms",
+  "cat": "TV & film",
+  "title": "Canned laughter",
+  "q": "An American sitcom",
+  "rule": "Live-action situation comedies made for US television; animated series, sketch shows and non-US sitcoms don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Friends",
+    "Seinfeld",
+    "Big Bang Theory",
+    "Office",
+    "Modern Family",
+    "Cheers"
+   ],
+   "hipster": [
+    "Arrested Development",
+    "30 Rock"
+   ],
+   "body": [
+    "Frasier",
+    "How I Met Your Mother",
+    "Fresh Prince of Bel-Air",
+    "Brooklyn Nine-Nine",
+    "Parks and Recreation",
+    "Community",
+    "Everybody Loves Raymond",
+    "King of Queens",
+    "Two and a Half Men",
+    "Will & Grace",
+    "Scrubs",
+    "Malcolm in the Middle",
+    "That '70s Show",
+    "Golden Girls",
+    "I Love Lucy",
+    "Happy Days",
+    "M*A*S*H",
+    "All in the Family",
+    "Full House",
+    "Home Improvement",
+    "Saved by the Bell",
+    "Roseanne",
+    "Married... with Children",
+    "Brady Bunch",
+    "Gilligan's Island",
+    "Bewitched",
+    "New Girl",
+    "Curb Your Enthusiasm",
+    "It's Always Sunny in Philadelphia",
+    "Young Sheldon",
+    "Abbott Elementary",
+    "Black-ish",
+    "Good Place",
+    "Cosby Show",
+    "Three's Company",
+    "Family Ties",
+    "Mork & Mindy",
+    "Laverne & Shirley",
+    "Sabrina the Teenage Witch",
+    "2 Broke Girls",
+    "Superstore",
+    "Veep",
+    "Everybody Hates Chris",
+    "Boy Meets World",
+    "Mom"
+   ],
+   "tail": [
+    "I Dream of Jeannie",
+    "Mary Tyler Moore Show",
+    "Taxi",
+    "Diff'rent Strokes",
+    "ALF",
+    "Dick Van Dyke Show",
+    "Andy Griffith Show",
+    "Honeymooners",
+    "Odd Couple",
+    "Jeffersons",
+    "Sanford and Son",
+    "Good Times",
+    "Maude",
+    "Rhoda",
+    "Alice",
+    "WKRP in Cincinnati",
+    "Barney Miller",
+    "Soap",
+    "Night Court",
+    "Newhart",
+    "Bob Newhart Show",
+    "Mad About You",
+    "Ellen",
+    "Nanny",
+    "Wings",
+    "Coach",
+    "Designing Women",
+    "Murphy Brown",
+    "Dharma & Greg",
+    "3rd Rock from the Sun",
+    "Spin City",
+    "NewsRadio",
+    "Just Shoot Me!",
+    "Drew Carey Show",
+    "Martin",
+    "Living Single",
+    "Moesha",
+    "Family Matters",
+    "Step by Step",
+    "Blossom",
+    "Hannah Montana",
+    "Lizzie McGuire",
+    "iCarly",
+    "Drake & Josh",
+    "That's So Raven",
+    "Suite Life of Zack & Cody",
+    "Wizards of Waverly Place",
+    "Victorious",
+    "Zoey 101",
+    "Kenan & Kel",
+    "Kate & Allie",
+    "Who's the Boss?",
+    "Growing Pains",
+    "Facts of Life",
+    "Webster",
+    "Punky Brewster",
+    "Silver Spoons",
+    "Charles in Charge",
+    "Perfect Strangers",
+    "Mr. Belvedere",
+    "Empty Nest",
+    "Benson",
+    "Welcome Back, Kotter",
+    "Hogan's Heroes",
+    "Get Smart",
+    "Munsters",
+    "Addams Family",
+    "Beverly Hillbillies",
+    "Green Acres",
+    "Petticoat Junction",
+    "Leave It to Beaver",
+    "Mister Ed",
+    "My Three Sons",
+    "Partridge Family",
+    "Monkees",
+    "Happy Endings",
+    "Cougar Town",
+    "Raising Hope",
+    "Suburgatory",
+    "Middle",
+    "Goldbergs",
+    "Fresh Off the Boat",
+    "Last Man Standing",
+    "Mike & Molly",
+    "Hot in Cleveland",
+    "Mindy Project",
+    "Unbreakable Kimmy Schmidt",
+    "Silicon Valley",
+    "Ghosts",
+    "What We Do in the Shadows",
+    "Grown-ish",
+    "Fuller House",
+    "Rules of Engagement",
+    "Reba",
+    "George Lopez",
+    "My Name Is Earl",
+    "Becker",
+    "Joey",
+    "Larry Sanders Show",
+    "Bernie Mac Show",
+    "My Wife and Kids",
+    "Yes, Dear",
+    "According to Jim"
+   ],
+   "deep": [
+    "Caroline in the City",
+    "Suddenly Susan",
+    "Veronica's Closet",
+    "Cybill",
+    "Grace Under Fire",
+    "Hangin' with Mr. Cooper",
+    "Smart Guy",
+    "Sister, Sister",
+    "Parent 'Hood",
+    "Jamie Foxx Show",
+    "Wayans Bros.",
+    "Clueless",
+    "Unhappily Ever After",
+    "Herman's Head",
+    "Roc",
+    "Dear John",
+    "Evening Shade",
+    "Major Dad",
+    "Amen",
+    "227",
+    "Gimme a Break!",
+    "Mama's Family",
+    "Hogan Family",
+    "Small Wonder",
+    "Out of This World",
+    "My Two Dads",
+    "Square Pegs",
+    "Bosom Buddies",
+    "Joanie Loves Chachi",
+    "Flo",
+    "Fish",
+    "Chico and the Man",
+    "What's Happening!!",
+    "Archie Bunker's Place",
+    "Carter Country",
+    "Ropers",
+    "Hello, Larry",
+    "Phyllis",
+    "One Day at a Time",
+    "Make Room for Daddy",
+    "Father Knows Best",
+    "Adventures of Ozzie and Harriet",
+    "Burns and Allen",
+    "Our Miss Brooks",
+    "Dobie Gillis",
+    "Car 54, Where Are You?",
+    "McHale's Navy",
+    "F Troop",
+    "Flying Nun",
+    "My Favorite Martian",
+    "Patty Duke Show",
+    "That Girl",
+    "Julia",
+    "Family Affair",
+    "Courtship of Eddie's Father",
+    "Room 222",
+    "Gomer Pyle, U.S.M.C.",
+    "Mayberry R.F.D.",
+    "Lucy Show",
+    "Here's Lucy",
+    "Jack Benny Program",
+    "Donna Reed Show",
+    "Dennis the Menace",
+    "Hazel",
+    "Phil Silvers Show",
+    "Topper",
+    "My Little Margie",
+    "Gidget",
+    "Bachelor Father",
+    "Dream On",
+    "Ned & Stacey",
+    "Hope & Faith",
+    "Complete Savages",
+    "Oliver Beene",
+    "Greetings from Tucson",
+    "Anything but Love",
+    "Charlie & Co.",
+    "Duck Factory",
+    "Open All Night",
+    "Single Parents",
+    "Life in Pieces",
+    "Carmichael Show",
+    "American Housewife",
+    "Speechless",
+    "Great News",
+    "Conners",
+    "Neighborhood",
+    "Man with a Plan",
+    "Bob Hearts Abishola",
+    "Call Me Kat",
+    "Mythic Quest",
+    "Party Down",
+    "League",
+    "Workaholics",
+    "Reno 911!",
+    "Better Off Ted",
+    "Samantha Who?",
+    "New Adventures of Old Christine",
+    "Less Than Perfect",
+    "Coupling",
+    "Titus",
+    "Grounded for Life",
+    "Still Standing",
+    "8 Simple Rules",
+    "Even Stevens",
+    "Good Luck Charlie",
+    "Shake It Up",
+    "Austin & Ally",
+    "Jessie",
+    "Sam & Cat",
+    "Phil of the Future",
+    "Girl Meets World",
+    "Liv and Maddie",
+    "Big Time Rush",
+    "True Jackson, VP",
+    "Henry Danger",
+    "Thundermans"
+   ],
+   "outlier": [
+    "My Mother the Car",
+    "It's About Time",
+    "Camp Runamuck",
+    "Hathaways",
+    "Michael Richards Show"
+   ]
+  },
+  "alias": {
+   "Big Bang Theory": [
+    "The Big Bang Theory",
+    "TBBT"
+   ],
+   "Office": [
+    "The Office",
+    "The Office US",
+    "The Office (US)"
+   ],
+   "Fresh Prince of Bel-Air": [
+    "The Fresh Prince of Bel-Air",
+    "Fresh Prince",
+    "Fresh Prince of Bel Air"
+   ],
+   "How I Met Your Mother": [
+    "HIMYM"
+   ],
+   "Parks and Recreation": [
+    "Parks & Recreation",
+    "Parks and Rec",
+    "Parks & Rec"
+   ],
+   "King of Queens": [
+    "The King of Queens"
+   ],
+   "Golden Girls": [
+    "The Golden Girls"
+   ],
+   "Brady Bunch": [
+    "The Brady Bunch"
+   ],
+   "Cosby Show": [
+    "The Cosby Show"
+   ],
+   "Good Place": [
+    "The Good Place"
+   ],
+   "Nanny": [
+    "The Nanny"
+   ],
+   "Honeymooners": [
+    "The Honeymooners"
+   ],
+   "Odd Couple": [
+    "The Odd Couple"
+   ],
+   "Jeffersons": [
+    "The Jeffersons"
+   ],
+   "Munsters": [
+    "The Munsters"
+   ],
+   "Addams Family": [
+    "The Addams Family"
+   ],
+   "Beverly Hillbillies": [
+    "The Beverly Hillbillies"
+   ],
+   "Monkees": [
+    "The Monkees"
+   ],
+   "Partridge Family": [
+    "The Partridge Family"
+   ],
+   "Facts of Life": [
+    "The Facts of Life"
+   ],
+   "Goldbergs": [
+    "The Goldbergs"
+   ],
+   "Middle": [
+    "The Middle"
+   ],
+   "Conners": [
+    "The Conners"
+   ],
+   "Neighborhood": [
+    "The Neighborhood"
+   ],
+   "Mindy Project": [
+    "The Mindy Project"
+   ],
+   "Andy Griffith Show": [
+    "The Andy Griffith Show",
+    "Andy Griffith"
+   ],
+   "Dick Van Dyke Show": [
+    "The Dick Van Dyke Show",
+    "Dick Van Dyke"
+   ],
+   "Mary Tyler Moore Show": [
+    "The Mary Tyler Moore Show",
+    "Mary Tyler Moore"
+   ],
+   "Bob Newhart Show": [
+    "The Bob Newhart Show"
+   ],
+   "M*A*S*H": [
+    "MASH",
+    "M.A.S.H."
+   ],
+   "Married... with Children": [
+    "Married with Children"
+   ],
+   "That '70s Show": [
+    "That 70s Show"
+   ],
+   "3rd Rock from the Sun": [
+    "Third Rock from the Sun",
+    "3rd Rock",
+    "Third Rock"
+   ],
+   "Mork & Mindy": [
+    "Mork and Mindy"
+   ],
+   "Laverne & Shirley": [
+    "Laverne and Shirley"
+   ],
+   "Will & Grace": [
+    "Will and Grace"
+   ],
+   "Dharma & Greg": [
+    "Dharma and Greg"
+   ],
+   "Kate & Allie": [
+    "Kate and Allie"
+   ],
+   "2 Broke Girls": [
+    "Two Broke Girls"
+   ],
+   "Mike & Molly": [
+    "Mike and Molly"
+   ],
+   "Kenan & Kel": [
+    "Kenan and Kel"
+   ],
+   "Drake & Josh": [
+    "Drake and Josh"
+   ],
+   "Brooklyn Nine-Nine": [
+    "Brooklyn 99",
+    "Brooklyn 9-9"
+   ],
+   "Black-ish": [
+    "Blackish"
+   ],
+   "Fresh Off the Boat": [
+    "FOTB"
+   ],
+   "It's Always Sunny in Philadelphia": [
+    "Always Sunny",
+    "Always Sunny in Philadelphia"
+   ],
+   "I Dream of Jeannie": [
+    "I Dream of Genie"
+   ],
+   "Sanford and Son": [
+    "Sanford & Son"
+   ],
+   "Welcome Back, Kotter": [
+    "Welcome Back Kotter"
+   ],
+   "Suite Life of Zack & Cody": [
+    "The Suite Life of Zack and Cody",
+    "Suite Life of Zack and Cody",
+    "Suite Life"
+   ],
+   "Sabrina the Teenage Witch": [
+    "Sabrina"
+   ],
+   "Who's the Boss?": [
+    "Whos the Boss"
+   ],
+   "Wayans Bros.": [
+    "The Wayans Bros",
+    "Wayans Brothers",
+    "The Wayans Brothers"
+   ],
+   "Parent 'Hood": [
+    "The Parent Hood",
+    "The Parent 'Hood"
+   ],
+   "Jamie Foxx Show": [
+    "The Jamie Foxx Show"
+   ],
+   "Hogan Family": [
+    "The Hogan Family",
+    "Valerie"
+   ],
+   "Larry Sanders Show": [
+    "The Larry Sanders Show"
+   ],
+   "Bernie Mac Show": [
+    "The Bernie Mac Show"
+   ],
+   "Drew Carey Show": [
+    "The Drew Carey Show"
+   ],
+   "Phil Silvers Show": [
+    "The Phil Silvers Show",
+    "Sgt. Bilko",
+    "Sergeant Bilko"
+   ],
+   "Patty Duke Show": [
+    "The Patty Duke Show"
+   ],
+   "Donna Reed Show": [
+    "The Donna Reed Show"
+   ],
+   "Jack Benny Program": [
+    "The Jack Benny Program"
+   ],
+   "Lucy Show": [
+    "The Lucy Show"
+   ],
+   "Flying Nun": [
+    "The Flying Nun"
+   ],
+   "Courtship of Eddie's Father": [
+    "The Courtship of Eddie's Father"
+   ],
+   "Adventures of Ozzie and Harriet": [
+    "The Adventures of Ozzie and Harriet",
+    "Ozzie and Harriet"
+   ],
+   "Burns and Allen": [
+    "The George Burns and Gracie Allen Show",
+    "George Burns and Gracie Allen Show",
+    "Burns & Allen"
+   ],
+   "Dobie Gillis": [
+    "The Many Loves of Dobie Gillis",
+    "Many Loves of Dobie Gillis"
+   ],
+   "Make Room for Daddy": [
+    "The Danny Thomas Show",
+    "Danny Thomas Show"
+   ],
+   "Car 54, Where Are You?": [
+    "Car 54 Where Are You"
+   ],
+   "Gomer Pyle, U.S.M.C.": [
+    "Gomer Pyle USMC",
+    "Gomer Pyle"
+   ],
+   "Mythic Quest": [
+    "Mythic Quest: Raven's Banquet"
+   ],
+   "League": [
+    "The League"
+   ],
+   "Carmichael Show": [
+    "The Carmichael Show"
+   ],
+   "Duck Factory": [
+    "The Duck Factory"
+   ],
+   "Hathaways": [
+    "The Hathaways"
+   ],
+   "Michael Richards Show": [
+    "The Michael Richards Show"
+   ],
+   "Thundermans": [
+    "The Thundermans"
+   ],
+   "Ghosts": [
+    "Ghosts US",
+    "Ghosts (US)"
+   ],
+   "New Adventures of Old Christine": [
+    "The New Adventures of Old Christine",
+    "Old Christine"
+   ],
+   "Mama's Family": [
+    "Mamas Family"
+   ],
+   "Reno 911!": [
+    "Reno 911"
+   ],
+   "Hangin' with Mr. Cooper": [
+    "Hanging with Mr. Cooper",
+    "Hangin with Mr Cooper"
+   ]
+  },
+  "traps": {
+   "Simpsons": "An animated series, so it doesn't count on a live-action sitcom card.",
+   "Family Guy": "An animated series, so it doesn't count here.",
+   "Schitt's Creek": "A Canadian sitcom, not an American one.",
+   "Fawlty Towers": "A British sitcom.",
+   "Saturday Night Live": "A sketch show, not a sitcom."
+  },
+  "fact": "My Mother the Car (1965) starred Jerry Van Dyke as a man whose late mother comes back to life as a 1928 Porter automobile, voiced by Ann Sothern."
+ },
+ {
+  "id": "his-ppl-roman-emperor",
+  "cat": "History",
+  "title": "Imperial purple",
+  "q": "A Roman emperor",
+  "rule": "Anyone who held the imperial throne in Rome, East or West, up to the fall of Constantinople; Holy Roman emperors and rival claimants don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Nero",
+    "Augustus",
+    "Caligula",
+    "Marcus Aurelius",
+    "Constantine I",
+    "Hadrian"
+   ],
+   "hipster": [
+    "Commodus",
+    "Elagabalus"
+   ],
+   "body": [
+    "Tiberius",
+    "Claudius",
+    "Trajan",
+    "Vespasian",
+    "Titus",
+    "Domitian",
+    "Diocletian",
+    "Julian the Apostate",
+    "Septimius Severus",
+    "Caracalla",
+    "Theodosius I",
+    "Justinian I",
+    "Romulus Augustulus",
+    "Galba",
+    "Otho",
+    "Vitellius",
+    "Antoninus Pius",
+    "Nerva"
+   ],
+   "tail": [
+    "Lucius Verus",
+    "Pertinax",
+    "Didius Julianus",
+    "Geta",
+    "Macrinus",
+    "Severus Alexander",
+    "Maximinus Thrax",
+    "Gordian III",
+    "Philip the Arab",
+    "Decius",
+    "Valerian",
+    "Gallienus",
+    "Aurelian",
+    "Probus",
+    "Maximian",
+    "Galerius",
+    "Licinius",
+    "Constans",
+    "Constantius II",
+    "Jovian",
+    "Valentinian I",
+    "Valens",
+    "Gratian",
+    "Arcadius",
+    "Honorius",
+    "Heraclius",
+    "Constantine XI Palaiologos",
+    "Zeno",
+    "Marcian"
+   ],
+   "deep": [
+    "Trebonianus Gallus",
+    "Claudius Gothicus",
+    "Tacitus",
+    "Carus",
+    "Carinus",
+    "Numerian",
+    "Constantius I",
+    "Severus II",
+    "Maximinus Daza",
+    "Constantine II",
+    "Valentinian II",
+    "Valentinian III",
+    "Theodosius II",
+    "Leo I",
+    "Majorian",
+    "Anthemius",
+    "Julius Nepos",
+    "Gordian I",
+    "Gordian II",
+    "Pupienus",
+    "Balbinus",
+    "Basil II",
+    "Alexios I Komnenos",
+    "Justin I",
+    "Anastasius I"
+   ],
+   "outlier": [
+    "Glycerius",
+    "Libius Severus",
+    "Olybrius",
+    "Quintillus",
+    "Aemilian",
+    "Florian",
+    "Avitus",
+    "Petronius Maximus",
+    "Constantius III",
+    "Leo II"
+   ]
+  },
+  "alias": {
+   "Nero": [
+    "Nero Claudius Caesar"
+   ],
+   "Augustus": [
+    "Octavian",
+    "Caesar Augustus",
+    "Gaius Octavius",
+    "Octavius"
+   ],
+   "Caligula": [
+    "Gaius",
+    "Gaius Caesar",
+    "Gaius Caesar Germanicus"
+   ],
+   "Marcus Aurelius": [
+    "Marcus Aurelius Antoninus"
+   ],
+   "Constantine I": [
+    "Constantine the Great",
+    "Constantine",
+    "Flavius Valerius Constantinus"
+   ],
+   "Hadrian": [
+    "Hadrianus",
+    "Publius Aelius Hadrianus"
+   ],
+   "Commodus": [
+    "Lucius Aelius Aurelius Commodus"
+   ],
+   "Elagabalus": [
+    "Heliogabalus",
+    "Elagabal"
+   ],
+   "Tiberius": [
+    "Tiberius Caesar"
+   ],
+   "Trajan": [
+    "Traianus",
+    "Marcus Ulpius Traianus"
+   ],
+   "Vespasian": [
+    "Vespasianus"
+   ],
+   "Domitian": [
+    "Domitianus"
+   ],
+   "Diocletian": [
+    "Diocles",
+    "Diocletianus"
+   ],
+   "Julian the Apostate": [
+    "Julian",
+    "Julian II",
+    "Flavius Claudius Julianus"
+   ],
+   "Septimius Severus": [
+    "Lucius Septimius Severus"
+   ],
+   "Theodosius I": [
+    "Theodosius the Great",
+    "Theodosius"
+   ],
+   "Justinian I": [
+    "Justinian",
+    "Justinian the Great"
+   ],
+   "Romulus Augustulus": [
+    "Romulus Augustus",
+    "Augustulus"
+   ],
+   "Galba": [
+    "Servius Galba"
+   ],
+   "Otho": [
+    "Marcus Salvius Otho"
+   ],
+   "Vitellius": [
+    "Aulus Vitellius"
+   ],
+   "Antoninus Pius": [
+    "Antoninus"
+   ],
+   "Nerva": [
+    "Marcus Cocceius Nerva"
+   ],
+   "Severus Alexander": [
+    "Alexander Severus"
+   ],
+   "Maximinus Thrax": [
+    "Maximinus",
+    "Maximinus I",
+    "Maximin Thrax"
+   ],
+   "Gordian III": [
+    "Gordian"
+   ],
+   "Philip the Arab": [
+    "Philip",
+    "Philip I",
+    "Philippus Arabs"
+   ],
+   "Decius": [
+    "Trajan Decius"
+   ],
+   "Valerian": [
+    "Valerianus",
+    "Publius Licinius Valerianus"
+   ],
+   "Aurelian": [
+    "Aurelianus"
+   ],
+   "Maximian": [
+    "Maximianus"
+   ],
+   "Constantius I": [
+    "Constantius Chlorus",
+    "Chlorus"
+   ],
+   "Licinius": [
+    "Licinius I"
+   ],
+   "Constans": [
+    "Constans I"
+   ],
+   "Jovian": [
+    "Jovianus"
+   ],
+   "Valentinian I": [
+    "Valentinian"
+   ],
+   "Heraclius": [
+    "Heraclius I"
+   ],
+   "Constantine XI Palaiologos": [
+    "Constantine XI",
+    "Constantine Palaiologos"
+   ],
+   "Zeno": [
+    "Zeno the Isaurian"
+   ],
+   "Claudius Gothicus": [
+    "Claudius II"
+   ],
+   "Maximinus Daza": [
+    "Maximinus II",
+    "Maximin Daza"
+   ],
+   "Majorian": [
+    "Majorianus"
+   ],
+   "Julius Nepos": [
+    "Nepos"
+   ],
+   "Basil II": [
+    "Basil",
+    "Basil the Bulgar Slayer"
+   ],
+   "Alexios I Komnenos": [
+    "Alexius I Comnenus",
+    "Alexios Komnenos"
+   ],
+   "Libius Severus": [
+    "Severus III"
+   ],
+   "Leo I": [
+    "Leo",
+    "Leo the Thracian"
+   ],
+   "Anastasius I": [
+    "Anastasius"
+   ],
+   "Justin I": [
+    "Justin"
+   ],
+   "Trebonianus Gallus": [
+    "Gaius Vibius Trebonianus Gallus"
+   ],
+   "Theodosius II": [
+    "Theodosius the Calligrapher"
+   ]
+  },
+  "traps": {
+   "Julius Caesar": "Dictator of Rome, assassinated before the empire began.",
+   "Mark Antony": "A general and triumvir who never held the imperial title.",
+   "Pompey": "A general of the Republic, not an emperor.",
+   "Charlemagne": "Crowned in Rome in 800, but a Frankish ruler in the Holy Roman line.",
+   "Romulus": "The legendary founder and first king of Rome."
+  },
+  "fact": "In AD 238, the Year of the Six Emperors, Rome had six rulers in twelve months, including Pupienus and Balbinus, who shared the throne."
+ },
+ {
+  "id": "his-ppl-english-monarch",
+  "cat": "History",
+  "title": "Long live",
+  "q": "A king or queen of England or Britain",
+  "rule": "Anyone who reigned as monarch of England, Great Britain or the United Kingdom, including the Anglo-Saxon and Danish kings; consorts, regents and Scottish-only rulers don't count.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Henry VIII",
+    "Elizabeth I",
+    "Victoria",
+    "Elizabeth II",
+    "Charles III",
+    "William I"
+   ],
+   "hipster": [
+    "Richard III",
+    "Alfred the Great"
+   ],
+   "body": [
+    "Henry V",
+    "Charles I",
+    "Charles II",
+    "George III",
+    "George VI",
+    "George V",
+    "Edward VII",
+    "Edward VIII",
+    "John",
+    "Richard I",
+    "Henry VII",
+    "Edward I",
+    "Edward III",
+    "Mary I",
+    "Henry II",
+    "James I",
+    "William III",
+    "Anne",
+    "George IV",
+    "William IV",
+    "Harold II",
+    "Edward the Confessor",
+    "Canute",
+    "Stephen"
+   ],
+   "tail": [
+    "Edward II",
+    "Edward IV",
+    "Edward V",
+    "Edward VI",
+    "Henry III",
+    "Henry IV",
+    "Henry VI",
+    "Henry I",
+    "William II",
+    "James II",
+    "George II",
+    "George I",
+    "Richard II",
+    "Mary II",
+    "Lady Jane Grey",
+    "Matilda",
+    "Athelstan",
+    "Ethelred the Unready",
+    "Edmund Ironside"
+   ],
+   "deep": [
+    "Edward the Elder",
+    "Edmund I",
+    "Edgar the Peaceful",
+    "Edward the Martyr",
+    "Harold Harefoot",
+    "Eadred"
+   ],
+   "outlier": [
+    "Eadwig",
+    "Harthacnut",
+    "Sweyn Forkbeard"
+   ]
+  },
+  "alias": {
+   "William I": [
+    "William the Conqueror",
+    "William the Bastard",
+    "William",
+    "King William",
+    "King William I"
+   ],
+   "Henry VIII": [
+    "Henry",
+    "King Henry",
+    "King Henry VIII"
+   ],
+   "Elizabeth I": [
+    "Good Queen Bess",
+    "Gloriana",
+    "Virgin Queen",
+    "Elizabeth",
+    "Queen Elizabeth",
+    "Elizabeth Tudor",
+    "Queen Elizabeth I"
+   ],
+   "Elizabeth II": [
+    "Elizabeth Windsor",
+    "Queen Elizabeth the Second",
+    "Queen Elizabeth II",
+    "Queen Elizabeth II"
+   ],
+   "Charles III": [
+    "Prince Charles",
+    "Charles",
+    "King Charles",
+    "Charles Windsor",
+    "King Charles III"
+   ],
+   "Victoria": [
+    "Alexandrina Victoria",
+    "Queen Victoria"
+   ],
+   "Richard III": [
+    "Richard Crookback",
+    "Richard Plantagenet",
+    "Richard of Gloucester",
+    "King Richard III"
+   ],
+   "Alfred the Great": [
+    "Alfred",
+    "King Alfred",
+    "King Alfred the Great"
+   ],
+   "Henry V": [
+    "Harry of Monmouth",
+    "Prince Hal",
+    "King Henry V"
+   ],
+   "George III": [
+    "George",
+    "King George",
+    "Mad King George",
+    "Farmer George",
+    "King George III"
+   ],
+   "Charles II": [
+    "Merry Monarch",
+    "The Merry Monarch",
+    "King Charles II"
+   ],
+   "Edward VII": [
+    "Edward",
+    "King Edward",
+    "Bertie",
+    "King Edward VII"
+   ],
+   "Edward VIII": [
+    "Duke of Windsor",
+    "King Edward VIII"
+   ],
+   "George VI": [
+    "King George VI"
+   ],
+   "John": [
+    "John Lackland",
+    "Bad King John",
+    "Lackland",
+    "King John"
+   ],
+   "Richard I": [
+    "Richard the Lionheart",
+    "Richard Lionheart",
+    "Lionheart",
+    "Coeur de Lion",
+    "Richard",
+    "King Richard",
+    "King Richard I"
+   ],
+   "Henry VII": [
+    "Henry Tudor",
+    "King Henry VII"
+   ],
+   "Edward I": [
+    "Edward Longshanks",
+    "Longshanks",
+    "King Edward I"
+   ],
+   "Edward II": [
+    "Edward of Caernarfon",
+    "King Edward II"
+   ],
+   "Mary I": [
+    "Bloody Mary",
+    "Mary Tudor",
+    "Mary",
+    "Queen Mary",
+    "Mary Queen of England",
+    "Queen Mary I"
+   ],
+   "James I": [
+    "James VI",
+    "James VI and I",
+    "James",
+    "King James",
+    "James Stuart",
+    "King James I"
+   ],
+   "William III": [
+    "William of Orange",
+    "King William III"
+   ],
+   "Anne": [
+    "Queen Anne",
+    "Anne Stuart"
+   ],
+   "George I": [
+    "George of Hanover",
+    "King George I"
+   ],
+   "Harold II": [
+    "Harold Godwinson",
+    "Harold",
+    "King Harold",
+    "King Harold II"
+   ],
+   "Canute": [
+    "Cnut",
+    "Knut",
+    "Canute the Great",
+    "Cnut the Great",
+    "King Canute",
+    "Knud"
+   ],
+   "Stephen": [
+    "Stephen of Blois",
+    "King Stephen"
+   ],
+   "Matilda": [
+    "Empress Matilda",
+    "Maud",
+    "Empress Maud",
+    "Lady of the English",
+    "Queen Matilda"
+   ],
+   "Lady Jane Grey": [
+    "Jane Grey",
+    "Queen Jane",
+    "Lady Jane",
+    "Jane",
+    "Nine Days' Queen",
+    "Jane Dudley"
+   ],
+   "Athelstan": [
+    "Aethelstan",
+    "Aethelstan the Glorious",
+    "King Athelstan"
+   ],
+   "Ethelred the Unready": [
+    "Aethelred the Unready",
+    "Aethelred",
+    "Ethelred",
+    "Ethelred II",
+    "Aethelred II",
+    "King Ethelred the Unready"
+   ],
+   "Edmund Ironside": [
+    "Edmund II",
+    "Edmund the Ironside",
+    "King Edmund Ironside"
+   ],
+   "Edward the Elder": [
+    "Edward the Unconquered",
+    "King Edward the Elder"
+   ],
+   "Edgar the Peaceful": [
+    "Edgar",
+    "Edgar the Peaceable",
+    "King Edgar",
+    "King Edgar the Peaceful"
+   ],
+   "Sweyn Forkbeard": [
+    "Sweyn",
+    "Sven Forkbeard",
+    "Svein Forkbeard",
+    "Sweyn I",
+    "Sweyn Haraldsson",
+    "King Sweyn Forkbeard"
+   ],
+   "Eadwig": [
+    "Edwy",
+    "Eadwig the All-Fair",
+    "Edwy the Fair",
+    "King Eadwig"
+   ],
+   "Eadred": [
+    "Edred",
+    "King Eadred"
+   ],
+   "Harthacnut": [
+    "Hardicanute",
+    "Hardecanute",
+    "Harthacnut of Denmark",
+    "King Harthacnut"
+   ],
+   "Harold Harefoot": [
+    "Harold I",
+    "Harold I Harefoot",
+    "King Harold Harefoot"
+   ],
+   "Edmund I": [
+    "Edmund the Magnificent",
+    "Edmund the Elder",
+    "King Edmund I"
+   ],
+   "Edward the Martyr": [
+    "King Edward the Martyr"
+   ],
+   "Charles I": [
+    "King Charles I"
+   ],
+   "George V": [
+    "King George V"
+   ],
+   "Edward III": [
+    "King Edward III"
+   ],
+   "Henry II": [
+    "King Henry II"
+   ],
+   "George IV": [
+    "King George IV"
+   ],
+   "William IV": [
+    "King William IV"
+   ],
+   "Edward the Confessor": [
+    "King Edward the Confessor"
+   ],
+   "Edward IV": [
+    "King Edward IV"
+   ],
+   "Edward V": [
+    "King Edward V"
+   ],
+   "Edward VI": [
+    "King Edward VI"
+   ],
+   "Henry III": [
+    "King Henry III"
+   ],
+   "Henry IV": [
+    "King Henry IV"
+   ],
+   "Henry VI": [
+    "King Henry VI"
+   ],
+   "Henry I": [
+    "King Henry I"
+   ],
+   "William II": [
+    "King William II"
+   ],
+   "James II": [
+    "King James II"
+   ],
+   "George II": [
+    "King George II"
+   ],
+   "Richard II": [
+    "King Richard II"
+   ],
+   "Mary II": [
+    "Queen Mary II"
+   ]
+  },
+  "traps": {
+   "Oliver Cromwell": "Ruled as Lord Protector of the Commonwealth, never as king.",
+   "Prince Albert": "Queen Victoria's husband and consort, never a monarch himself.",
+   "Macbeth": "A king of Scotland, and a Shakespeare tragedy.",
+   "Robert the Bruce": "A king of Scotland, not of England.",
+   "King Arthur": "A legendary figure, not a documented English monarch."
+  },
+  "fact": "Harthacnut, who ruled England from 1040, reportedly collapsed and died while drinking at a wedding feast in 1042."
+ },
+ {
+  "id": "geo-w-us-state",
+  "cat": "World",
+  "title": "Stars and stripes",
+  "q": "A US state",
+  "rule": "The fifty states only; the capital district and overseas territories don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "California",
+    "Texas",
+    "Florida",
+    "New York",
+    "Alaska"
+   ],
+   "hipster": [
+    "Hawaii",
+    "Rhode Island"
+   ],
+   "body": [
+    "Georgia",
+    "Ohio",
+    "Arizona",
+    "Nevada",
+    "Colorado",
+    "Washington",
+    "Oregon",
+    "Louisiana",
+    "Virginia",
+    "Illinois",
+    "Michigan",
+    "Pennsylvania",
+    "Massachusetts",
+    "New Jersey",
+    "Utah",
+    "Montana",
+    "Alabama",
+    "Tennessee",
+    "North Carolina",
+    "Kentucky",
+    "Wyoming",
+    "Oklahoma"
+   ],
+   "tail": [
+    "South Carolina",
+    "Maine",
+    "New Mexico",
+    "Idaho",
+    "Wisconsin",
+    "Minnesota",
+    "Missouri",
+    "Indiana",
+    "Kansas",
+    "Iowa",
+    "Nebraska",
+    "Mississippi"
+   ],
+   "deep": [
+    "Arkansas",
+    "Connecticut",
+    "Vermont",
+    "New Hampshire",
+    "Maryland",
+    "Delaware"
+   ],
+   "outlier": [
+    "North Dakota",
+    "South Dakota",
+    "West Virginia"
+   ]
+  },
+  "alias": {
+   "Washington": [
+    "Washington State"
+   ],
+   "New York": [
+    "New York State"
+   ],
+   "Georgia": [
+    "Georgia USA"
+   ]
+  },
+  "traps": {
+   "Washington DC": "A federal district, not a state.",
+   "Puerto Rico": "A US territory, not a state.",
+   "Guam": "A US territory, not a state.",
+   "New England": "A region made up of several states, not a state itself."
+  },
+  "fact": "North and South Dakota joined the Union on the same day in 1889, and President Harrison shuffled the papers so nobody knows which was signed first."
+ },
+ {
+  "id": "geo-w-language",
+  "cat": "World",
+  "title": "Mother tongue",
+  "q": "A language",
+  "rule": "Any real language, living, dead or invented; dialects, scripts and programming languages don't count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "English",
+    "French",
+    "Spanish",
+    "German",
+    "Italian"
+   ],
+   "hipster": [
+    "Latin",
+    "Esperanto"
+   ],
+   "body": [
+    "Mandarin",
+    "Japanese",
+    "Russian",
+    "Portuguese",
+    "Arabic",
+    "Hindi",
+    "Welsh",
+    "Dutch",
+    "Greek",
+    "Polish",
+    "Swedish",
+    "Turkish",
+    "Korean",
+    "Cantonese",
+    "Hebrew",
+    "Irish",
+    "Norwegian",
+    "Danish",
+    "Finnish",
+    "Urdu",
+    "Swahili",
+    "Thai",
+    "Vietnamese",
+    "Czech",
+    "Punjabi",
+    "Bengali",
+    "Scottish Gaelic",
+    "Afrikaans",
+    "Persian",
+    "Hungarian"
+   ],
+   "tail": [
+    "Romanian",
+    "Ukrainian",
+    "Indonesian",
+    "Malay",
+    "Catalan",
+    "Basque",
+    "Icelandic",
+    "Maori",
+    "Zulu",
+    "Xhosa",
+    "Tamil",
+    "Telugu",
+    "Gujarati",
+    "Marathi",
+    "Nepali",
+    "Sanskrit",
+    "Tagalog",
+    "Yiddish",
+    "Bulgarian",
+    "Serbian",
+    "Croatian",
+    "Slovak",
+    "Slovene",
+    "Lithuanian",
+    "Latvian",
+    "Estonian",
+    "Albanian",
+    "Armenian",
+    "Georgian",
+    "Kurdish",
+    "Pashto",
+    "Amharic",
+    "Somali",
+    "Yoruba",
+    "Igbo",
+    "Hausa",
+    "Cornish",
+    "Manx",
+    "Breton",
+    "Galician",
+    "Maltese",
+    "British Sign Language",
+    "American Sign Language",
+    "Klingon",
+    "Old English",
+    "Ancient Greek",
+    "Hawaiian",
+    "Mongolian"
+   ],
+   "deep": [
+    "Burmese",
+    "Khmer",
+    "Lao",
+    "Sinhala",
+    "Malayalam",
+    "Kannada",
+    "Odia",
+    "Assamese",
+    "Sindhi",
+    "Tibetan",
+    "Uzbek",
+    "Kazakh",
+    "Azerbaijani",
+    "Belarusian",
+    "Macedonian",
+    "Bosnian",
+    "Luxembourgish",
+    "Frisian",
+    "Faroese",
+    "Occitan",
+    "Sami",
+    "Scots",
+    "Aramaic",
+    "Old Norse",
+    "Gothic",
+    "Sumerian",
+    "Akkadian",
+    "Wolof",
+    "Lingala",
+    "Shona",
+    "Sesotho",
+    "Malagasy",
+    "Quechua",
+    "Guarani",
+    "Nahuatl",
+    "Navajo",
+    "Cherokee",
+    "Inuktitut",
+    "Samoan",
+    "Tongan",
+    "Fijian",
+    "Haitian Creole",
+    "Jamaican Patois",
+    "Javanese",
+    "Hmong",
+    "Dothraki",
+    "Ladino",
+    "Coptic",
+    "Romansh",
+    "Corsican",
+    "Sardinian",
+    "Tigrinya",
+    "Oromo",
+    "Fula",
+    "Berber",
+    "Kikuyu",
+    "Chichewa",
+    "Kinyarwanda",
+    "Tahitian",
+    "Tok Pisin",
+    "Cebuano",
+    "Uyghur",
+    "Hakka",
+    "Sindarin",
+    "Kalaallisut",
+    "Tatar"
+   ],
+   "outlier": [
+    "Ainu",
+    "Pirahã",
+    "Rapa Nui",
+    "Warlpiri",
+    "Hittite"
+   ]
+  },
+  "alias": {
+   "Mandarin": [
+    "Chinese",
+    "Mandarin Chinese"
+   ],
+   "Persian": [
+    "Farsi",
+    "Dari"
+   ],
+   "Spanish": [
+    "Castilian"
+   ],
+   "Dutch": [
+    "Flemish"
+   ],
+   "Scottish Gaelic": [
+    "Gaelic",
+    "Scots Gaelic"
+   ],
+   "Irish": [
+    "Irish Gaelic"
+   ],
+   "Tagalog": [
+    "Filipino"
+   ],
+   "Bengali": [
+    "Bangla"
+   ],
+   "Punjabi": [
+    "Panjabi"
+   ],
+   "Burmese": [
+    "Myanmar"
+   ],
+   "Sinhala": [
+    "Sinhalese"
+   ],
+   "Odia": [
+    "Oriya"
+   ],
+   "Catalan": [
+    "Valencian"
+   ],
+   "Swahili": [
+    "Kiswahili"
+   ],
+   "Zulu": [
+    "isiZulu"
+   ],
+   "Xhosa": [
+    "isiXhosa"
+   ],
+   "Old English": [
+    "Anglo-Saxon"
+   ],
+   "Scots": [
+    "Lowland Scots"
+   ],
+   "Frisian": [
+    "West Frisian"
+   ],
+   "Luxembourgish": [
+    "Letzeburgesch"
+   ],
+   "Belarusian": [
+    "Belarussian",
+    "Byelorussian"
+   ],
+   "British Sign Language": [
+    "BSL"
+   ],
+   "American Sign Language": [
+    "ASL"
+   ],
+   "Haitian Creole": [
+    "Haitian",
+    "Kreyol"
+   ],
+   "Jamaican Patois": [
+    "Patois",
+    "Patwa",
+    "Jamaican Creole"
+   ],
+   "Sesotho": [
+    "Sotho"
+   ],
+   "Chichewa": [
+    "Chewa",
+    "Nyanja"
+   ],
+   "Kikuyu": [
+    "Gikuyu"
+   ],
+   "Fula": [
+    "Fulani",
+    "Fulfulde"
+   ],
+   "Berber": [
+    "Amazigh",
+    "Tamazight"
+   ],
+   "Kalaallisut": [
+    "Greenlandic"
+   ],
+   "Rapa Nui": [
+    "Easter Island language"
+   ],
+   "Ancient Greek": [
+    "Classical Greek"
+   ],
+   "Sindarin": [
+    "Elvish"
+   ],
+   "Old Norse": [
+    "Norse"
+   ],
+   "Cebuano": [
+    "Bisaya"
+   ],
+   "Hmong": [
+    "Miao"
+   ]
+  },
+  "traps": {
+   "Cockney": "A dialect of English, not a language in its own right.",
+   "Braille": "A writing system, not a language.",
+   "Python": "A programming language, which the rule excludes.",
+   "Morse code": "A code, not a language.",
+   "Sign language": "Too general; there are many separate sign languages."
+  },
+  "fact": "Pirahã, spoken by only a few hundred people in the Amazon rainforest, can be whistled or hummed as well as spoken."
+ },
+ {
+  "id": "geo-w-currency",
+  "cat": "World",
+  "title": "Pocket money",
+  "q": "A currency",
+  "rule": "Current or historic national currencies count; coins, subunits and cryptocurrencies don't.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Dollar",
+    "Pound",
+    "Euro",
+    "Yen",
+    "Rupee"
+   ],
+   "hipster": [
+    "Deutschmark",
+    "Peseta"
+   ],
+   "body": [
+    "Franc",
+    "Peso",
+    "Lira",
+    "Rouble",
+    "Rand",
+    "Krona",
+    "Krone",
+    "Yuan",
+    "Zloty",
+    "Real",
+    "Dinar",
+    "Dirham",
+    "Riyal",
+    "Rial",
+    "Shekel",
+    "Won",
+    "Baht",
+    "Shilling",
+    "Drachma",
+    "Guilder",
+    "Escudo",
+    "Punt",
+    "Schilling",
+    "Markka",
+    "Florin",
+    "Forint",
+    "Koruna",
+    "Ringgit",
+    "Rupiah",
+    "Dong",
+    "Naira",
+    "Cedi",
+    "Lev",
+    "Leu"
+   ],
+   "tail": [
+    "Hryvnia",
+    "Lek",
+    "Denar",
+    "Kuna",
+    "Tolar",
+    "Kroon",
+    "Lats",
+    "Litas",
+    "Taka",
+    "Kyat",
+    "Kip",
+    "Riel",
+    "Tugrik",
+    "Tenge",
+    "Manat",
+    "Lari",
+    "Dram",
+    "Som",
+    "Afghani",
+    "Ngultrum",
+    "Rufiyaa",
+    "Pataca",
+    "Kwacha",
+    "Kwanza",
+    "Metical",
+    "Birr",
+    "Dalasi",
+    "Leone",
+    "Quetzal",
+    "Lempira",
+    "Colón",
+    "Córdoba",
+    "Balboa",
+    "Bolívar",
+    "Boliviano",
+    "Guaraní",
+    "Sol",
+    "Gourde",
+    "Reichsmark",
+    "Livre",
+    "Thaler",
+    "ECU",
+    "Zaire",
+    "Cruzeiro",
+    "Sucre"
+   ],
+   "deep": [
+    "Pula",
+    "Loti",
+    "Lilangeni",
+    "Ariary",
+    "Ouguiya",
+    "Dobra",
+    "Nakfa",
+    "Somoni",
+    "Tala",
+    "Kina",
+    "Austral"
+   ],
+   "outlier": [
+    "Rentenmark",
+    "Inti",
+    "Cruzado",
+    "Pa'anga",
+    "Vatu"
+   ]
+  },
+  "alias": {
+   "Dollar": [
+    "US Dollar",
+    "American Dollar",
+    "Canadian Dollar",
+    "Australian Dollar",
+    "New Zealand Dollar"
+   ],
+   "Pound": [
+    "Pound Sterling",
+    "Sterling",
+    "British Pound",
+    "GBP",
+    "Quid"
+   ],
+   "Yen": [
+    "Japanese Yen"
+   ],
+   "Rupee": [
+    "Indian Rupee"
+   ],
+   "Peso": [
+    "Mexican Peso",
+    "Argentine Peso"
+   ],
+   "Deutschmark": [
+    "Deutsche Mark",
+    "D-Mark",
+    "German Mark",
+    "Mark"
+   ],
+   "Rouble": [
+    "Ruble",
+    "Russian Rouble"
+   ],
+   "Yuan": [
+    "Renminbi",
+    "RMB",
+    "Chinese Yuan"
+   ],
+   "Krona": [
+    "Swedish Krona",
+    "Icelandic Krona",
+    "Kronor"
+   ],
+   "Krone": [
+    "Danish Krone",
+    "Norwegian Krone",
+    "Kroner"
+   ],
+   "Real": [
+    "Brazilian Real",
+    "Reais"
+   ],
+   "Rand": [
+    "South African Rand"
+   ],
+   "Franc": [
+    "Swiss Franc",
+    "French Franc",
+    "Belgian Franc",
+    "CFA Franc"
+   ],
+   "Lira": [
+    "Italian Lira",
+    "Turkish Lira",
+    "Maltese Lira"
+   ],
+   "Shekel": [
+    "New Israeli Shekel",
+    "Sheqel"
+   ],
+   "Schilling": [
+    "Austrian Schilling"
+   ],
+   "Markka": [
+    "Finnish Markka",
+    "Finnmark"
+   ],
+   "Koruna": [
+    "Czech Koruna",
+    "Czech Crown",
+    "Slovak Koruna"
+   ],
+   "Zloty": [
+    "Polish Zloty"
+   ],
+   "Guilder": [
+    "Gulden",
+    "Dutch Guilder"
+   ],
+   "Punt": [
+    "Irish Punt"
+   ],
+   "Som": [
+    "Kyrgyz Som"
+   ],
+   "Tugrik": [
+    "Tögrög",
+    "Togrog"
+   ],
+   "Hryvnia": [
+    "Hryvna"
+   ],
+   "Leu": [
+    "Lei",
+    "Romanian Leu"
+   ],
+   "Lev": [
+    "Leva",
+    "Bulgarian Lev"
+   ],
+   "Taka": [
+    "Bangladeshi Taka"
+   ],
+   "Sol": [
+    "Nuevo Sol"
+   ],
+   "Livre": [
+    "French Livre"
+   ],
+   "Thaler": [
+    "Taler"
+   ],
+   "ECU": [
+    "Écu",
+    "European Currency Unit"
+   ],
+   "Won": [
+    "Korean Won"
+   ],
+   "Baht": [
+    "Thai Baht"
+   ],
+   "Ringgit": [
+    "Malaysian Ringgit"
+   ],
+   "Cedi": [
+    "Ghanaian Cedi"
+   ],
+   "Naira": [
+    "Nigerian Naira"
+   ],
+   "Shilling": [
+    "Kenyan Shilling"
+   ],
+   "Florin": [
+    "Aruban Florin"
+   ],
+   "Kroon": [
+    "Estonian Kroon"
+   ],
+   "Pa'anga": [
+    "Paanga"
+   ]
+  },
+  "traps": {
+   "Bitcoin": "A cryptocurrency, which the rule excludes.",
+   "Penny": "A subunit and coin, not a currency in its own right.",
+   "Cent": "A subunit, not a currency in its own right.",
+   "Doubloon": "A gold coin rather than a currency.",
+   "Crown": "Used in English for several currencies (krona, krone, koruna); give the specific name."
+  },
+  "fact": "The Rentenmark ended Germany's 1923 hyperinflation, when a single US dollar was worth around 4.2 trillion paper marks."
+ }
+]
