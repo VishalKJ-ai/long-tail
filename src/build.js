@@ -74,6 +74,7 @@ for (const p of cards) {
   const o = { id: p.id, cat: p.cat || "", title: p.title || "", q: p.q, rule: p.rule || "", tiers, fact: p.fact || "" };
   if (p.surnames) o.surnames = true;
   if (p.daily === false) o.daily = false;
+  if (p.curveball) o.curveball = true;
   o.level = p.level === 1 || p.level === 3 ? p.level : 2;
   if (Object.keys(alias).length) o.alias = alias;
   if (Object.keys(traps).length) o.traps = traps;

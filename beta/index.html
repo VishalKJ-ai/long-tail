@@ -133,6 +133,9 @@ body.on-home .mark { visibility: hidden; }
 .pip.now { border-color: var(--ink); }
 .pip.done { background: var(--c); border-color: var(--c); }
 .pip.miss { background: var(--line-2); border-color: var(--line-2); }
+.pips.ten { gap: 3px; }
+.pips.ten .pip { width: 20px; height: 20px; }
+@media (min-width: 480px) { .pips.ten { gap: 5px; } .pips.ten .pip { width: 26px; height: 26px; } }
 .hud-score { font: 800 26px/1 var(--f); font-variant-numeric: tabular-nums; display: flex; align-items: baseline; gap: 5px; letter-spacing: -0.02em; }
 .hud-score b { display: inline-block; font-weight: 800; }
 .hud-score small { font-size: 13px; font-weight: 500; color: var(--ink-2); letter-spacing: 0; }
@@ -145,6 +148,8 @@ body.on-home .mark { visibility: hidden; }
 .c-q { align-self: end; font-size: clamp(30px, 9vw, 44px); font-weight: 900; letter-spacing: -0.035em; line-height: 0.98; overflow-wrap: anywhere; hyphens: auto; }
 .c-q.mid { font-size: clamp(26px, 7.6vw, 36px); }
 .c-q.long { font-size: clamp(21px, 6.2vw, 30px); }
+.cb-badge { position: absolute; top: 10px; right: 10px; z-index: 1; border: 1.5px solid var(--t-outlier); border-radius: 4px; padding: 4px 8px; color: var(--t-outlier); font: 800 11px/1 var(--f); letter-spacing: 0.06em; text-transform: uppercase; }
+.sleeve.curve .trk { padding-right: 100px; }
 .vinyl { position: absolute; z-index: 1; top: 2.5%; left: 25%; width: 73%; aspect-ratio: 1; border-radius: 50%; background: repeating-radial-gradient(circle at 50% 50%, var(--vinyl) 0 2.2px, var(--groove) 2.2px 3px); display: grid; place-items: center; }
 .vinyl::before { content: ""; position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 30deg, transparent 0 12%, rgba(255, 255, 255, 0.1) 16%, transparent 22% 62%, rgba(255, 255, 255, 0.07) 66%, transparent 72%); }
 .vinyl-label { position: relative; width: 36%; aspect-ratio: 1; border-radius: 50%; background: var(--lc, var(--sl, var(--s-pink))); color: var(--lct, var(--s-ink)); display: grid; place-items: center; font: 900 clamp(12px, 3.6vw, 16px)/1 var(--f); }
@@ -206,6 +211,7 @@ body.on-home .mark { visibility: hidden; }
 /* results */
 .results { gap: 16px; }
 .r-top { display: grid; justify-items: center; text-align: center; gap: 6px; padding-top: 20px; }
+.r-left, .r-right { display: grid; gap: 16px; }
 .r-date { font-size: 15px; color: var(--ink-2); }
 .r-emoji { font-size: 64px; line-height: 1.1; }
 .r-name { font-size: 40px; font-weight: 900; letter-spacing: -0.04em; }
@@ -216,6 +222,7 @@ body.on-home .mark { visibility: hidden; }
 .squares { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
 .squares i { position: relative; width: 36px; height: 36px; background: var(--c, var(--line-2)); }
 .squares.grid { display: grid; grid-template-columns: repeat(3, 36px); justify-content: center; }
+.squares.grid5 { display: grid; grid-template-columns: repeat(5, 36px); justify-content: center; }
 .squares i::after { content: ""; position: absolute; inset: 34%; border-radius: 50%; background: var(--bg); opacity: 0.8; }
 .r-best { font-size: 16px; color: var(--ink-2); }
 .r-best b { color: var(--ink); }
@@ -256,6 +263,7 @@ details.rc summary::-webkit-details-marker { display: none; }
 .rc-art::after { content: ""; position: absolute; left: 0; top: 0; width: 42px; height: 42px; background: var(--sl); }
 .rc-main { display: grid; gap: 1px; min-width: 0; }
 .rc-q { font-size: 14px; color: var(--ink-2); }
+.cb-tag { font: 700 12px/1.3 var(--f); color: color-mix(in srgb, var(--t-outlier) 55%, var(--ink)); }
 .rc-you { font: 700 18px/1.2 var(--f); overflow-wrap: anywhere; }
 .rc-you.none { color: var(--ink-2); font-weight: 500; }
 .rc-better { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; font-size: 13px; color: var(--ink-2); margin-top: 3px; }
@@ -326,6 +334,25 @@ details.rc[open] .rc-chev { transform: rotate(225deg) translateY(-3px); }
 .eyebrow { font: 700 13px/1.3 var(--f); color: var(--ink-2); }
 .crate { display: grid; gap: 6px; font-size: 15px; }
 .fr-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 15px; }
+/* your library */
+.lib-shelf { display: grid; gap: 10px; }
+.lib-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.lib-tile { display: grid; justify-items: center; gap: 3px; padding: 14px 4px 12px; background: var(--surface); border-radius: 8px; text-align: center; min-width: 0; }
+.lib-tile.none { opacity: 0.35; }
+.lib-emo { font-size: 34px; line-height: 1.1; }
+.lib-tile.none .lib-emo { filter: grayscale(1); }
+.lib-tile b { font: 800 14px/1.2 var(--f); overflow-wrap: anywhere; }
+.lib-tile small { font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.lib-panel { display: grid; gap: 12px; padding: 16px; border: 1px solid var(--line); border-radius: 8px; }
+.lib-panel h3 { font: 800 20px/1.1 var(--f); letter-spacing: -0.02em; }
+.lib-verdict { display: grid; gap: 8px; font-size: 16px; }
+.lib-finds { display: grid; }
+.lib-find { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 11px 2px; border-bottom: 1px solid var(--line); }
+.lib-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--c); }
+.lib-find .lf-main { display: grid; gap: 1px; min-width: 0; }
+.lib-find b { font: 700 17px/1.25 var(--f); overflow-wrap: anywhere; }
+.lib-find small { font-size: 14px; color: var(--ink-2); overflow-wrap: anywhere; }
+.lf-no { font-size: 14px; color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 .toast { position: fixed; left: 50%; top: calc(64px + env(safe-area-inset-top, 0px)); transform: translate(-50%, -8px); background: var(--accent); color: var(--on-accent); padding: 11px 16px; border-radius: 6px; font-weight: 700; font-size: 15px; opacity: 0; pointer-events: none; transition: opacity 0.2s, transform 0.2s; z-index: 80; max-width: calc(100% - 32px); text-align: center; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
@@ -351,6 +378,19 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition: none !important; } }
 @media (max-height: 720px) { .wrap, .screen { gap: 13px; } .sleeve { width: 68%; } .vinyl { left: 18%; width: 64%; } .price { right: calc(32% + 10px); } }
 @media (max-width: 400px) { .pip { width: 23px; height: 23px; } .statrow { gap: 4px; } .tr { grid-template-columns: 6.4em minmax(0, 1fr); } }
+/* laptop: two columns from 960px; phones keep the single column above */
+@media (min-width: 960px) {
+  .wrap { max-width: 1040px; }
+  .splash { padding-top: clamp(40px, 10vh, 96px); }
+  .title { font-size: 58px; }
+  .sub { font-size: 26px; }
+  #s-play { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 48px; align-items: start; }
+  #s-play > .stage { grid-column: 1; grid-row: 1 / span 8; }
+  #s-play > :not(.stage) { grid-column: 2; }
+  #s-results { grid-template-columns: 380px minmax(0, 1fr); column-gap: 56px; align-items: start; }
+  .r-left { position: sticky; top: 16px; }
+  #s-archive, #s-packs, #s-library { max-width: 640px; margin-inline: auto; }
+}
 </style>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 </head>
@@ -361,7 +401,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     <button class="mark" id="btn-brand" type="button">Long Tail</button>
     <div class="top-r">
       <span class="streak" id="streak" hidden></span>
-      <button class="icon" id="btn-stats" type="button" aria-label="Statistics" title="Statistics"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 20V11M10 20V5M15 20v-8M20 20v-4"/></svg></button>
+      <button class="icon" id="btn-stats" type="button" aria-label="Your library" title="Your library"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 20V11M10 20V5M15 20v-8M20 20v-4"/></svg></button>
       <button class="icon" id="btn-sound" type="button" aria-label="Sound on" title="Sound"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path id="snd-wave" d="M16.5 8.5a5 5 0 0 1 0 7"/></svg></button>
     </div>
   </header>
@@ -377,7 +417,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <p class="h-line" id="h-streak" hidden></p>
       <p class="h-line" id="h-goal"></p>
       <p class="h-line" id="h-friends" hidden></p>
-      <div class="links"><button class="link" id="btn-archive" type="button">Past puzzles</button><button class="link" id="btn-packs" type="button">Theme packs</button><button class="link" id="btn-practice-home" type="button" hidden>Practice mode</button></div>
+      <div class="links"><button class="link" id="btn-archive" type="button">Past puzzles</button><button class="link" id="btn-packs" type="button">Theme packs</button><button class="link" id="btn-library" type="button">Your library</button><button class="link" id="btn-practice-home" type="button" hidden>Practice mode</button></div>
     </section>
 
     <section class="screen" id="s-play" hidden>
@@ -388,6 +428,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <div class="stage" id="stage">
         <div class="vinyl" aria-hidden="true"><span class="vinyl-label" id="vinyl-label"></span></div>
         <article class="sleeve" id="card" aria-live="polite">
+          <span class="cb-badge" id="cb-badge" hidden>Curveball</span>
           <span class="trk" id="c-meta">Track 1 of 5</span>
           <p class="c-title" id="c-title"></p>
           <h2 class="c-q" id="c-q"></h2>
@@ -423,29 +464,34 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     </section>
 
     <section class="screen results" id="s-results" hidden>
-      <div class="r-top">
-        <p class="r-date" id="r-date"></p>
-        <span class="r-emoji" id="r-emoji" aria-hidden="true"></span>
-        <h2 class="r-name" id="r-name"></h2>
-        <p class="r-tag" id="r-tag"></p>
-        <div class="r-score"><b id="r-score">0</b><span id="r-max">/ 500</span></div>
-        <p class="r-line" id="r-streak" hidden></p>
-        <p class="r-line" id="r-goal"></p>
-        <div class="squares" id="r-squares" aria-hidden="true"></div>
-        <p class="r-best" id="r-best" hidden></p>
+      <div class="r-left">
+        <div class="r-top">
+          <p class="r-date" id="r-date"></p>
+          <span class="r-emoji" id="r-emoji" aria-hidden="true"></span>
+          <h2 class="r-name" id="r-name"></h2>
+          <p class="r-tag" id="r-tag"></p>
+          <div class="r-score"><b id="r-score">0</b><span id="r-max">/ 500</span></div>
+          <p class="r-line" id="r-pbest" hidden></p>
+          <p class="r-line" id="r-streak" hidden></p>
+          <p class="r-line" id="r-goal"></p>
+          <div class="squares" id="r-squares" aria-hidden="true"></div>
+          <p class="r-best" id="r-best" hidden></p>
+        </div>
+        <div class="vs" id="r-versus" hidden></div>
+        <div class="share-box" id="r-share">
+          <button class="btn primary big" id="btn-share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>Share and challenge</button>
+          <label class="name-in" for="in-name">Sign your challenge as <input id="in-name" type="text" maxlength="24" placeholder="your name" autocomplete="nickname"></label>
+          <p class="countdown" id="r-next"></p>
+        </div>
       </div>
-      <div class="vs" id="r-versus" hidden></div>
-      <div class="share-box" id="r-share">
-        <button class="btn primary big" id="btn-share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>Share and challenge</button>
-        <label class="name-in" for="in-name">Sign your challenge as <input id="in-name" type="text" maxlength="24" placeholder="your name" autocomplete="nickname"></label>
-        <p class="countdown" id="r-next"></p>
+      <div class="r-right">
+        <button class="btn primary big" id="btn-pack-again" type="button" hidden></button>
+        <h3 class="sec-h">Your answers</h3>
+        <div class="rcs" id="r-cards"></div>
+        <h3 class="sec-h">Statistics</h3>
+        <div class="stats-wrap" id="r-stats"></div>
+        <div class="row"><button class="btn" id="btn-archive-r" type="button">Past puzzles</button><button class="btn" id="btn-packs-r" type="button">Theme packs</button><button class="btn" id="btn-library-r" type="button">Your library</button><button class="btn" id="btn-practice" type="button">Practice mode</button></div>
       </div>
-      <button class="btn primary big" id="btn-pack-again" type="button" hidden></button>
-      <h3 class="sec-h">Your answers</h3>
-      <div class="rcs" id="r-cards"></div>
-      <h3 class="sec-h">Statistics</h3>
-      <div class="stats-wrap" id="r-stats"></div>
-      <div class="row"><button class="btn" id="btn-archive-r" type="button">Past puzzles</button><button class="btn" id="btn-packs-r" type="button">Theme packs</button><button class="btn" id="btn-practice" type="button">Practice mode</button></div>
     </section>
 
     <section class="screen" id="s-archive" hidden>
@@ -454,8 +500,29 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     </section>
 
     <section class="screen" id="s-packs" hidden>
-      <div class="ar-head"><h2>Theme packs</h2><p class="fine">Nine random cards from one theme. Play as often as you like; packs don't change your streak or stats.</p></div>
+      <div class="ar-head"><h2>Theme packs</h2><p class="fine">A fixed set of tracks from one theme. Replay to beat your best. Packs don't change your streak or stats.</p></div>
       <div class="ar" id="pk-list"></div>
+    </section>
+
+    <section class="screen" id="s-library" hidden>
+      <div class="ar-head"><h2>Your library</h2><p class="fine">Everything you've found in daily and past puzzles.</p></div>
+      <div class="lib-shelf">
+        <p class="eyebrow" id="lib-count"></p>
+        <div class="lib-grid" id="lib-ranks"></div>
+      </div>
+      <div class="lib-panel">
+        <h3>The critic's verdict</h3>
+        <div class="lib-verdict" id="lib-critic"></div>
+      </div>
+      <div>
+        <h3 class="sec-h">Your finds</h3>
+        <div class="lib-finds" id="lib-finds"></div>
+        <button class="link" id="lib-more" type="button" hidden></button>
+      </div>
+      <div>
+        <h3 class="sec-h">Statistics</h3>
+        <div class="stats-wrap" id="lib-stats"></div>
+      </div>
     </section>
 
     <section class="screen results" id="s-over" hidden>
@@ -480,6 +547,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <li>Type one answer for each. The first right answer locks in.</li>
       <li>You get 30 seconds a card. A wrong guess costs 3.</li>
       <li>One card each day is a secret Double Track worth twice the points.</li>
+      <li>Track 9 is the hidden track: a curveball category that needs some lateral thinking.</li>
     </ul>
     <p class="eyebrow">For "A cheese":</p>
     <ul class="ladder">
@@ -740,7 +808,9 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   const family = (p) => String(p.id).split("-").slice(0, 2).join("-");
   const size = (p) => TIERS.reduce((a, t) => a + ((p.tiers && p.tiers[t.key]) || []).length, 0);
   const levelOf = (p) => (p.level === 1 || p.level === 3 ? p.level : 2);
-  const dailyPool = (prompts) => prompts.filter((p) => p.daily !== false && levelOf(p) < 3 && size(p) >= 40);
+  const dailyPool = (prompts) => prompts.filter((p) => !p.curveball && p.daily !== false && levelOf(p) < 3 && size(p) >= 40);
+  // Curveballs are lateral-thinking categories ("both a fruit and a colour"); one closes each day as the hidden track.
+  const curvePool = (prompts) => prompts.filter((p) => p.curveball && size(p) >= 15);
   function cycleOrder(pool, cycle) {
     const r = rng(0x9e3779b1 ^ (cycle * 7919 + 17));
     const fams = {};
@@ -775,11 +845,20 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   // Day d's hand, easiest and broadest first.
   function dailySet(prompts, day, n) {
     n = n || 9;
+    const curves = curvePool(prompts).sort((x, y) => (x.id < y.id ? -1 : 1));
+    const reg = n - (curves.length ? 1 : 0);
     const pool = dailyPool(prompts);
-    if (pool.length < n) return pool.slice();
-    const per = Math.floor(pool.length / n);
-    const hand = hands(pool, Math.floor(day / per), n)[day % per];
-    return hand.slice().sort((a, b) => levelOf(a) - levelOf(b) || size(b) - size(a));
+    let hand = pool.slice(0, reg);
+    if (pool.length >= reg) {
+      const per = Math.floor(pool.length / reg);
+      hand = hands(pool, Math.floor(day / per), reg)[day % per];
+    }
+    hand = hand.slice().sort((a, b) => levelOf(a) - levelOf(b) || size(b) - size(a));
+    if (curves.length) {
+      const cycle = Math.floor(day / curves.length);
+      hand.push(shuffle(curves, rng(0x5eed + cycle * 977))[day % curves.length]);
+    }
+    return hand;
   }
   // Endless and other shuffles: easier cards tend to come first, with some randomness.
   const rampShuffle = (prompts, r) => prompts.map((p) => [p, levelOf(p) + r() * 1.8]).sort((a, b) => a[1] - b[1]).map((x) => x[0]);
@@ -822,7 +901,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   const rankMin = (r, n) => Math.round((r.per * (n || 9)) / 10) * 10;
   const rank = (score, n) => RANKS.find((r) => score >= rankMin(r, n));
 
-  root.LT = { levelOf, rampShuffle, hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, family, size, words, key, buildIndex, match, rng, shuffle, dailyPool, dailySet, curve, RANKS, rank, rankMin };
+  root.LT = { levelOf, rampShuffle, hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, family, size, words, key, buildIndex, match, rng, shuffle, dailyPool, curvePool, dailySet, curve, RANKS, rank, rankMin };
 })(typeof window !== "undefined" ? window : globalThis);
 
 </script>
@@ -875,7 +954,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   // the nine cards run in three rows, easiest first
   const ROWS = ["Warm-up", "Tricky", "Deep end"];
   const rowOf = (i) => ROWS[Math.floor(i / 3)];
-  // theme packs: nine random cards from one theme, played any time
+  // theme packs: each theme's cards in a fixed order, cut into volumes of ten, played any time
   const inCats = (...cats) => (c) => cats.includes(c.cat);
   const PACKS = [
     { id: "music", name: "Music", emoji: "🎵", test: inCats("Music") },
@@ -886,8 +965,23 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     { id: "sport", name: "Sport & games", emoji: "⚽", test: inCats("Sport", "Football", "Games", "Motoring") },
     { id: "culture", name: "History & culture", emoji: "📚", test: inCats("History", "Books", "Literature", "Art", "Science") },
   ];
-  const packOf = (id) => PACKS.find((pk) => pk.id === id);
-  const packCards = (pk) => PROMPTS.filter((p) => pk.test(p) && LT.size(p) >= 25);
+  const PACK_SIZE = 10;
+  // a theme's cards easiest first (ties: most answers, then id), cut into consecutive volumes of ten;
+  // a partial tail is not shown, so every volume is a full set and the same every time
+  let VOLUMES = null;
+  function packVolumes() {
+    if (VOLUMES) return VOLUMES;
+    VOLUMES = PACKS.flatMap((theme) => {
+      const pool = PROMPTS.filter((p) => !p.curveball && theme.test(p) && LT.size(p) >= 25)
+        .sort((a, b) => LT.levelOf(a) - LT.levelOf(b) || LT.size(b) - LT.size(a) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+      return Array.from({ length: Math.floor(pool.length / PACK_SIZE) }, (_, i) => ({
+        id: `${theme.id}-${i + 1}`, name: theme.name, emoji: theme.emoji, vol: i + 1,
+        cards: pool.slice(i * PACK_SIZE, (i + 1) * PACK_SIZE),
+      }));
+    });
+    return VOLUMES;
+  }
+  const packOf = (id) => packVolumes().find((pk) => pk.id === id);
 
   // ---------- settings, analytics ----------
   const CFG = Object.assign({ siteUrl: "https://vishalkj-ai.github.io/long-tail/", goatcounter: "", plausible: "" }, window.LT_CONFIG || {});
@@ -1154,7 +1248,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   // ---------- screens ----------
   let G = null;
   function show(name) {
-    for (const s of ["home", "play", "results", "over", "archive", "packs"]) $("s-" + s).hidden = s !== name;
+    for (const s of ["home", "play", "results", "over", "archive", "packs", "library"]) $("s-" + s).hidden = s !== name;
     document.body.classList.toggle("on-home", name === "home");
     window.scrollTo(0, 0);
     if (name !== "results") clearInterval(countdownT);
@@ -1201,6 +1295,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   function renderPips() {
     const box = $("pips");
     if (G.mode === "practice") { box.innerHTML = `<span class="eyebrow">Practice · card ${G.i + 1}</span>`; return; }
+    box.classList.toggle("ten", G.cards.length === PACK_SIZE);
     box.innerHTML = G.cards.map((p, i) => {
       const r = G.results[i];
       if (r) return r.tier ? `<span class="pip done" style="--c:${tc(r.tier)}" title="${esc(TIER[r.tier].name)}"></span>` : `<span class="pip miss" title="Missed"></span>`;
@@ -1232,7 +1327,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     G = { mode: day === today() ? "daily" : "past", day, cards, st, results: (st.results || []).slice(), tried: new Set() };
     G.i = G.results.length;
     G.score = G.results.reduce((a, r) => a + (r.pts || 0), 0);
-    if (G.i >= N) return finishDaily();
+    if (G.i >= G.cards.length) return finishDaily();
     show("play");
     setScore(false);
     track(G.i ? "resume" : "start");
@@ -1250,14 +1345,17 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     $("tried").innerHTML = "";
     const pk = G.mode === "pack" ? packOf(G.pack) : null;
     $("c-meta").textContent = G.mode === "practice" ? `Track ${G.i + 1} · ${catOf(p)}`
-      : pk ? `Track ${G.i + 1} of ${N} · ${pk.name}`
-      : `Track ${G.i + 1} of ${N} · ${rowOf(G.i)}`;
+      : pk ? `Track ${G.i + 1} of ${G.cards.length} · ${pk.name}`
+      : p.curveball ? `Track ${G.i + 1} of ${G.cards.length} · Hidden track`
+      : `Track ${G.i + 1} of ${G.cards.length} · ${rowOf(G.i)}`;
+    $("cb-badge").hidden = !p.curveball;
+    $("card").classList.toggle("curve", !!p.curveball);
     $("c-title").textContent = p.title || "";
     $("c-q").textContent = p.q;
     $("c-rule").textContent = p.rule || "";
     $("c-rule").hidden = !p.rule;
     const stage = $("stage");
-    const [sl, slt] = sleeveOf(p);
+    const [sl, slt] = p.curveball ? ["var(--vinyl)", "var(--t-outlier)"] : sleeveOf(p);
     stage.style.setProperty("--sl", sl);
     stage.style.setProperty("--slt", slt);
     stage.style.removeProperty("--lc");
@@ -1441,7 +1539,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     const picks = betterPicks(p, res.tier, res.name);
     $("rv-common").innerHTML = common.length ? `<b>Most people say</b>${esc(common.join(", "))}` : "";
     $("rv-deep").innerHTML = picks.length ? `<b>You could've said</b>${picksHTML(picks)}` : "";
-    const last = G.mode !== "practice" && G.i === N - 1;
+    const last = G.mode !== "practice" && G.i === G.cards.length - 1;
     const next = $("btn-next");
     next.textContent = last ? (G.mode === "pack" ? "See results" : "See your crate") : "Next track";
     next.hidden = G.mode === "practice";
@@ -1526,7 +1624,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       if (G.i >= G.cards.length) { G.cards = G.cards.concat(practiceDeck()); }
       return beginCard();
     }
-    if (G.i >= N) return G.mode === "pack" ? finishPack() : finishDaily();
+    if (G.i >= G.cards.length) return G.mode === "pack" ? finishPack() : finishDaily();
     beginCard();
   }
   $("btn-next").addEventListener("click", () => { if (G && G.phase === "reveal") nextCard(); });
@@ -1541,16 +1639,21 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     showResults(true);
     flushStreakNotes();
   }
-  // a theme pack touches no daily storage, streak, stats, crate or friends
+  // a theme pack touches no daily storage, streak, stats, crate or friends; it keeps only its own best
   function finishPack() {
+    const pk = packOf(G.pack), all = store.get("packs", {}), e = all[pk.id] || { best: 0, plays: 0 };
+    G.newBest = e.plays > 0 && G.score > e.best;
+    G.packBest = Math.max(e.best, G.score);
+    store.set("packs", { ...all, [pk.id]: { best: G.packBest, plays: e.plays + 1 } });
     showResults(true);
+    if (G.newBest) confetti(80);
   }
   function loadDone(day) {
     const st = store.get(dayKey(day), null);
     if (!st || !st.done || !Array.isArray(st.ids)) return false;
     const cards = st.ids.map((id) => BY_ID[id]);
     if (cards.some((c) => !c)) return false;
-    G = { mode: day === today() ? "daily" : "past", day, cards, st, results: st.results || [], i: N };
+    G = { mode: day === today() ? "daily" : "past", day, cards, st, results: st.results || [], i: cards.length };
     G.score = G.results.reduce((a, r) => a + (r.pts || 0), 0);
     return true;
   }
@@ -1575,14 +1678,16 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   function showResults(fresh) {
     const r = LT.rank(G.score, G.cards.length);
     const pk = G.mode === "pack" ? packOf(G.pack) : null;
-    $("r-date").textContent = pk ? `Theme pack: ${pk.name}` : (`No. ${numOf(G.day)} · ${dateLabel(G.day)}` + (G.mode === "past" ? " · an earlier puzzle" : ""));
+    $("r-date").textContent = pk ? `${pk.name} · Vol. ${pk.vol} pack` :(`No. ${numOf(G.day)} · ${dateLabel(G.day)}` + (G.mode === "past" ? " · an earlier puzzle" : ""));
     const best = G.results.reduce((a, x) => (x.tier && (!a || x.pts > a.pts) ? x : a), null);
     $("r-best").hidden = !best || best.pts < 50;
     if (best) $("r-best").innerHTML = `Best find: <b>${esc(best.name)}</b> (${esc(TIER[best.tier].name.toLowerCase())})`;
     $("r-emoji").textContent = r.emoji;
     $("r-name").textContent = r.name;
     $("r-tag").textContent = r.tag;
-    $("r-max").textContent = `/ ${pk ? N * TIER.outlier.pts : MAX}`;
+    $("r-max").textContent = `/ ${pk ? G.cards.length * TIER.outlier.pts : MAX}`;
+    $("r-pbest").hidden = !pk;
+    if (pk) $("r-pbest").textContent = G.newBest ? "New best" : `Your best: ${G.packBest}`;
     const sNow = loadStats(), streakNow = liveStreak(sNow);
     const hitToday = G.mode === "daily" && sNow.last === G.day && MILESTONES.includes(sNow.streak);
     $("r-streak").hidden = G.mode !== "daily" || streakNow < 1;
@@ -1591,15 +1696,17 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     $("r-goal").textContent = `Goal: ${goal.text} ${goal.test(G.results) ? "✓" : "✗"}`;
     $("r-goal").hidden = !!pk;
     $("r-squares").innerHTML = squaresHTML(G.results);
-    $("r-squares").classList.toggle("grid", G.results.length === 9);
+    $("r-squares").classList.toggle("grid", G.cards.length === 9);
+    $("r-squares").classList.toggle("grid5", G.cards.length === PACK_SIZE);
     $("in-name").value = store.get("name", "") || "";
     renderVersus();
     renderCards();
     $("r-stats").innerHTML = statsHTML(G.mode === "daily" ? G.score : null);
-    $("btn-practice").hidden = false;
+    $("btn-practice").hidden = !!pk;
+    $("btn-archive-r").hidden = !!pk;
     $("r-share").hidden = !!pk;
     $("btn-pack-again").hidden = !pk;
-    if (pk) $("btn-pack-again").textContent = `Another ${pk.name} pack`;
+    if (pk) $("btn-pack-again").textContent = "Play again";
     show("results");
     renderStreak();
     const el = $("r-score");
@@ -1645,8 +1752,8 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       const you = r.name ? `<span class="rc-you">${esc(r.name)}</span>` : `<span class="rc-you none">${r.out === "skip" ? "Skipped" : "No answer"}</span>`;
       const bp = betterPicks(p, r.tier, r.name);
       const better = bp.length ? `<span class="rc-better">Could've said ${picksHTML(bp)}</span>` : `<span class="rc-better top">Top answer. Nothing scores more.</span>`;
-      const row = G.cards.length === N && i % 3 === 0 ? `<p class="rc-row">${rowOf(i)}</p>` : "";
-      return `${row}<details class="rc" data-i="${i}"><summary><span class="rc-art" style="--sl:${sleeveOf(p)[0]};--c:${r.tier ? tc(r.tier) : "var(--line-2)"}"></span><span class="rc-main"><span class="rc-q">${esc(p.q)}</span>${you}${better}</span><span class="rc-pts"><b>${r.pts}${r.double ? ` <span class="x2">×2</span>` : ""}</b><small>${r.tier ? esc(TIER[r.tier].name) : "No score"}</small></span><span class="rc-chev" aria-hidden="true"></span></summary><div class="rc-body"></div></details>`;
+      const row = G.mode !== "pack" && i % 3 === 0 ?`<p class="rc-row">${rowOf(i)}</p>` : "";
+      return `${row}<details class="rc" data-i="${i}"><summary><span class="rc-art" style="--sl:${sleeveOf(p)[0]};--c:${r.tier ? tc(r.tier) : "var(--line-2)"}"></span><span class="rc-main"><span class="rc-q">${p.curveball ? `<span class="cb-tag">Hidden track</span> ` : ""}${esc(p.q)}</span>${you}${better}</span><span class="rc-pts"><b>${r.pts}${r.double ? ` <span class="x2">×2</span>` : ""}</b><small>${r.tier ? esc(TIER[r.tier].name) : "No score"}</small></span><span class="rc-chev" aria-hidden="true"></span></summary><div class="rc-body"></div></details>`;
     }).join("");
     for (const d of $("r-cards").querySelectorAll("details")) {
       d.addEventListener("toggle", () => {
@@ -1758,7 +1865,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
 
   // ---------- practice ----------
   function practiceDeck() {
-    const pool = PROMPTS.filter((p) => LT.size(p) >= 30);
+    const pool = PROMPTS.filter((p) => LT.size(p) >= 30 && !p.curveball);
     return LT.rampShuffle(pool, LT.rng((Date.now() ^ (Math.random() * 1e9)) >>> 0));
   }
   function startPractice() {
@@ -1815,26 +1922,121 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   $("btn-archive").addEventListener("click", renderArchive);
   $("btn-archive-r").addEventListener("click", renderArchive);
 
-  // ---------- theme packs ----------
-  // nine random cards from one theme, easiest first; the same play as a daily, with nothing saved
-  function startPack(id) {
-    const pk = packOf(id), pool = pk ? packCards(pk) : [];
-    if (!pk || pool.length < N) return;
-    const deck = pool.slice();
-    for (let i = deck.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [deck[i], deck[j]] = [deck[j], deck[i]];
+  // ---------- your library ----------
+  // every daily and past game on this device, one row per card answered or missed
+  let libFinds = [];
+  const newestFirst = (a, b) => b.day - a.day || b.at - a.at;
+  function gatherLibrary() {
+    const out = [];
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (!k || !k.startsWith("lt:day11:")) continue;
+        const day = +k.slice("lt:day11:".length);
+        if (!(day >= LAUNCH)) continue;
+        const st = store.get(dayKey(day), null);
+        if (!st || !Array.isArray(st.results)) continue;
+        const ids = Array.isArray(st.ids) ? st.ids : [];
+        st.results.forEach((r, at) => {
+          const card = r && (BY_ID[r.id] || BY_ID[ids[at]]);
+          if (!card) return;
+          out.push({ card, day, at, name: r.name || "", tier: r.tier && TIER[r.tier] ? r.tier : null, pts: +r.pts || 0 });
+        });
+      }
+    } catch (e) { /* storage blocked */ }
+    return out;
+  }
+  // the critic is a dry record-shop snob: teases the answers, never the person, and always ends on a compliment
+  function criticHTML(res) {
+    const C = res.length;
+    if (C < 9) return `<p>Play a few more days and the critic will have opinions.</p>`;
+    const avg = res.reduce((a, x) => a + x.pts, 0) / C;
+    const answered = res.filter((x) => x.tier);
+    const misses = C - answered.length;
+    const cats = new Map();
+    for (const x of res) {
+      const c = catOf(x.card) || "Other";
+      const e = cats.get(c) || { cat: c, n: 0, pts: 0 };
+      e.n++; e.pts += x.pts;
+      cats.set(c, e);
     }
-    const cards = deck.slice(0, N).sort((a, b) => a.level - b.level || LT.size(b) - LT.size(a));
+    const solid = [...cats.values()].filter((e) => e.n >= 3).map((e) => ({ ...e, avg: e.pts / e.n }));
+    const weakest = solid.slice().sort((a, b) => a.avg - b.avg)[0];
+    const best = solid.filter((e) => e !== weakest).sort((a, b) => b.avg - a.avg)[0];
+    const given = new Map();
+    for (const x of answered) {
+      const e = given.get(x.name) || { name: x.name, tier: x.tier, n: 0 };
+      e.n++;
+      given.set(x.name, e);
+    }
+    const counts = [...given.values()];
+    const top = counts.slice().sort((a, b) => b.n - a.n)[0];
+    const hipster = counts.filter((e) => e.tier === "hipster").sort((a, b) => b.n - a.n)[0];
+    const grails = res.filter((x) => x.tier === "outlier").length;
+    const bestFind = answered.slice().sort(newestFirst).reduce((a, x) => (!a || x.pts > a.pts ? x : a), null);
+    const star = avg >= 52 ? "★★★★★ A crate full of B-sides and deep cuts. Frankly, intimidating."
+      : avg >= 40 ? "★★★★☆ Good taste, occasionally ruined by a chart hit."
+      : avg >= 28 ? "★★★☆☆ Solid, if a little safe. You definitely own a Now That's What I Call Music."
+      : avg >= 16 ? "★★☆☆☆ Mostly the hits. We respect the honesty."
+      : "★☆☆☆☆ You play it very, very safe. The radio thanks you.";
+    const notes = [];
+    if (top && top.n >= 2) notes.push(top.tier === "head"
+      ? `You've said ${esc(top.name)} ${top.n} times. It's a fine answer. It's also everyone's answer.`
+      : `You keep coming back to ${esc(top.name)}. We see you.`);
+    if (hipster) notes.push(`You said ${esc(hipster.name)}. Everyone says ${esc(hipster.name)}.`);
+    if (misses >= 3) notes.push(`${misses} cards ran out of time or got skipped. Big thoughts, slow fingers.`);
+    if (weakest) notes.push(`${esc(weakest.cat)} is your blind spot at ${Math.round(weakest.avg)} points a card.`);
+    let closer = null;
+    if (best) closer = `Genuinely sharp on ${esc(best.cat)}: ${Math.round(best.avg)} points a card.`;
+    else if (grails) closer = `${grails} holy grail${grails === 1 ? "" : "s"}. The shop would like to buy your collection.`;
+    else if (bestFind) closer = `Your best find so far: ${esc(bestFind.name)}.`;
+    return `<p><b>${star}</b></p>` + notes.slice(0, 3).map((t) => `<p>${t}</p>`).join("") + (closer ? `<p>${closer}</p>` : "");
+  }
+  const findRow = (x) => {
+    const t = esc(TIER[x.tier].name);
+    return `<div class="lib-find"><i class="lib-dot" style="--c:${tc(x.tier)}" role="img" aria-label="${t}" title="${t}"></i><div class="lf-main"><b>${esc(x.name)}</b><small>${esc(x.card.q)}</small></div><span class="lf-no">No. ${numOf(x.day)}</span></div>`;
+  };
+  function drawFinds(all) {
+    const finds = libFinds;
+    $("lib-finds").innerHTML = finds.length
+      ? (all ? finds : finds.slice(0, 20)).map(findRow).join("")
+      : `<p class="rc-empty">No deep cuts yet. They're out there.</p>`;
+    $("lib-more").hidden = all || finds.length <= 20;
+    $("lib-more").textContent = `Show all ${finds.length}`;
+  }
+  function renderLibrary() {
+    if (G) { stopClock(); clearTimeout(G.anim); G.paused = true; G.phase = "away"; }
+    const s = loadStats(), res = gatherLibrary();
+    libFinds = res.filter((x) => x.tier === "outlier" || x.tier === "deep").sort(newestFirst);
+    $("lib-count").textContent = `Ranks collected: ${s.dist.filter((n) => n > 0).length} of ${RANKS.length}`;
+    $("lib-ranks").innerHTML = RANKS.map((r, i) => ({ r, i })).reverse().map(({ r, i }) =>
+      `<div class="lib-tile${s.dist[i] ? "" : " none"}"><span class="lib-emo" aria-hidden="true">${r.emoji}</span><b>${esc(r.name)}</b><small>×${s.dist[i]}</small></div>`).join("");
+    $("lib-critic").innerHTML = criticHTML(res);
+    drawFinds(false);
+    $("lib-stats").innerHTML = statsHTML(null);
+    show("library");
+  }
+  $("btn-library").addEventListener("click", renderLibrary);
+  $("btn-library-r").addEventListener("click", renderLibrary);
+  $("lib-more").addEventListener("click", () => drawFinds(true));
+
+  // ---------- theme packs ----------
+  // one volume of ten cards, in its fixed order; the same play as a daily, with nothing saved but its best
+  function startPack(id) {
+    const pk = packOf(id);
+    if (!pk) return;
     track("pack_start", { pack: id });
-    G = { mode: "pack", pack: id, day: today(), cards, st: {}, results: [], tried: new Set(), i: 0, score: 0 };
+    G = { mode: "pack", pack: id, day: today(), cards: pk.cards.slice(), st: {}, results: [], tried: new Set(), i: 0, score: 0 };
     show("play");
     setScore(false);
     beginCard();
   }
   function renderPacks() {
-    const rows = PACKS.map((pk) => ({ pk, n: packCards(pk).length })).filter((x) => x.n >= N);
-    $("pk-list").innerHTML = rows.map(({ pk, n }) => `<button class="ar-row" type="button" data-pack="${pk.id}"><span class="ar-no pk-emo" aria-hidden="true">${pk.emoji}</span><span class="ar-date"><span class="pk-name">${esc(pk.name)}</span><span>${n} cards</span></span><span class="ar-st todo">Play</span><span class="rc-chev" aria-hidden="true"></span></button>`).join("");
+    const bests = store.get("packs", {});
+    $("pk-list").innerHTML = packVolumes().map((pk) => {
+      const b = bests[pk.id], line = b && b.plays ? `${PACK_SIZE} tracks · best ${b.best}` : `${PACK_SIZE} tracks · not played yet`;
+      return `<button class="ar-row" type="button" data-pack="${pk.id}"><span class="ar-no pk-emo" aria-hidden="true">${pk.emoji}</span><span class="ar-date"><span class="pk-name">${esc(pk.name)} · Vol. ${pk.vol}</span><span>${line}</span></span><span class="ar-st todo">Play</span><span class="rc-chev" aria-hidden="true"></span></button>`;
+    }).join("");
     for (const b of $("pk-list").querySelectorAll(".ar-row")) {
       b.addEventListener("click", () => { Sound.unlock(); startPack(b.dataset.pack); });
     }
@@ -1853,7 +2055,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   }
   const openDlg = (id) => { const d = $(id); if (d.showModal) d.showModal(); else d.setAttribute("open", ""); };
   $("btn-help").addEventListener("click", () => openDlg("dlg-help"));
-  $("btn-stats").addEventListener("click", () => { $("stats-body").innerHTML = statsHTML(null); openDlg("dlg-stats"); });
+  $("btn-stats").addEventListener("click", renderLibrary);
   function renderSound() {
     $("btn-sound").setAttribute("aria-label", Sound.on ? "Sound on" : "Sound off");
     $("snd-wave").setAttribute("d", Sound.on ? "M16.5 8.5a5 5 0 0 1 0 7" : "M16 9l5 6M21 9l-5 6");

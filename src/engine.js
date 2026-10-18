@@ -234,7 +234,9 @@
   const family = (p) => String(p.id).split("-").slice(0, 2).join("-");
   const size = (p) => TIERS.reduce((a, t) => a + ((p.tiers && p.tiers[t.key]) || []).length, 0);
   const levelOf = (p) => (p.level === 1 || p.level === 3 ? p.level : 2);
-  const dailyPool = (prompts) => prompts.filter((p) => p.daily !== false && levelOf(p) < 3 && size(p) >= 40);
+  const dailyPool = (prompts) => prompts.filter((p) => !p.curveball && p.daily !== false && levelOf(p) < 3 && size(p) >= 40);
+  // Curveballs are lateral-thinking categories ("both a fruit and a colour"); one closes each day as the hidden track.
+  const curvePool = (prompts) => prompts.filter((p) => p.curveball && size(p) >= 15);
   function cycleOrder(pool, cycle) {
     const r = rng(0x9e3779b1 ^ (cycle * 7919 + 17));
     const fams = {};
@@ -269,11 +271,20 @@
   // Day d's hand, easiest and broadest first.
   function dailySet(prompts, day, n) {
     n = n || 9;
+    const curves = curvePool(prompts).sort((x, y) => (x.id < y.id ? -1 : 1));
+    const reg = n - (curves.length ? 1 : 0);
     const pool = dailyPool(prompts);
-    if (pool.length < n) return pool.slice();
-    const per = Math.floor(pool.length / n);
-    const hand = hands(pool, Math.floor(day / per), n)[day % per];
-    return hand.slice().sort((a, b) => levelOf(a) - levelOf(b) || size(b) - size(a));
+    let hand = pool.slice(0, reg);
+    if (pool.length >= reg) {
+      const per = Math.floor(pool.length / reg);
+      hand = hands(pool, Math.floor(day / per), reg)[day % per];
+    }
+    hand = hand.slice().sort((a, b) => levelOf(a) - levelOf(b) || size(b) - size(a));
+    if (curves.length) {
+      const cycle = Math.floor(day / curves.length);
+      hand.push(shuffle(curves, rng(0x5eed + cycle * 977))[day % curves.length]);
+    }
+    return hand;
   }
   // Endless and other shuffles: easier cards tend to come first, with some randomness.
   const rampShuffle = (prompts, r) => prompts.map((p) => [p, levelOf(p) + r() * 1.8]).sort((a, b) => a[1] - b[1]).map((x) => x[0]);
@@ -316,6 +327,6 @@
   const rankMin = (r, n) => Math.round((r.per * (n || 9)) / 10) * 10;
   const rank = (score, n) => RANKS.find((r) => score >= rankMin(r, n));
 
-  root.LT = { levelOf, rampShuffle, hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, family, size, words, key, buildIndex, match, rng, shuffle, dailyPool, dailySet, curve, RANKS, rank, rankMin };
+  root.LT = { levelOf, rampShuffle, hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, family, size, words, key, buildIndex, match, rng, shuffle, dailyPool, curvePool, dailySet, curve, RANKS, rank, rankMin };
 })(typeof window !== "undefined" ? window : globalThis);
 
