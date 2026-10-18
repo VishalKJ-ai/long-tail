@@ -268,7 +268,7 @@
   }
   // Day d's hand, easiest and broadest first.
   function dailySet(prompts, day, n) {
-    n = n || 5;
+    n = n || 9;
     const pool = dailyPool(prompts);
     if (pool.length < n) return pool.slice();
     const per = Math.floor(pool.length / n);
@@ -303,18 +303,19 @@
     return (h.toString(36) + h2.toString(36)).padStart(len, "0").slice(-len);
   }
 
-  // Daily ranks out of 500. Most first games land between Sheep and Badger.
+  // Daily ranks by average points per card, so they scale with the number of cards in a day.
   const RANKS = [
-    { min: 410, name: "Unicorn", emoji: "🦄", tag: "Nobody else would." },
-    { min: 330, name: "Bat",     emoji: "🦇", tag: "You hear what others can't." },
-    { min: 260, name: "Owl",     emoji: "🦉", tag: "Up late with the B-sides." },
-    { min: 200, name: "Badger",  emoji: "🦡", tag: "You dug up some good ones." },
-    { min: 140, name: "Fox",     emoji: "🦊", tag: "A few crafty picks." },
-    { min: 80,  name: "Sheep",   emoji: "🐑", tag: "You followed the flock." },
-    { min: 0,   name: "Parrot",  emoji: "🦜", tag: "You repeated the hits." },
+    { per: 82, name: "Unicorn", emoji: "🦄", tag: "Nobody else would." },
+    { per: 66, name: "Bat",     emoji: "🦇", tag: "You hear what others can't." },
+    { per: 52, name: "Owl",     emoji: "🦉", tag: "Up late with the B-sides." },
+    { per: 40, name: "Badger",  emoji: "🦡", tag: "You dug up some good ones." },
+    { per: 28, name: "Fox",     emoji: "🦊", tag: "A few crafty picks." },
+    { per: 16, name: "Sheep",   emoji: "🐑", tag: "You followed the flock." },
+    { per: 0,  name: "Parrot",  emoji: "🦜", tag: "You repeated the hits." },
   ];
-  const rank = (score) => RANKS.find((r) => score >= r.min);
+  const rankMin = (r, n) => Math.round((r.per * (n || 9)) / 10) * 10;
+  const rank = (score, n) => RANKS.find((r) => score >= rankMin(r, n));
 
-  root.LT = { levelOf, rampShuffle, hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, family, size, words, key, buildIndex, match, rng, shuffle, dailyPool, dailySet, curve, RANKS, rank };
+  root.LT = { levelOf, rampShuffle, hash36, setLexicon, TIERS, TIER, MISS_SQ, GROUPS, groupOf, family, size, words, key, buildIndex, match, rng, shuffle, dailyPool, dailySet, curve, RANKS, rank, rankMin };
 })(typeof window !== "undefined" ? window : globalThis);
 
