@@ -551,34 +551,63 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
 
   // ---------- sound and feel ----------
   const Sound = (function () {
-    let ctx = null;
+    let ctx = null, master = null, wet = null;
     let on = store.get("sound", true);
     function ac() {
-      if (!ctx) { const C = window.AudioContext || window.webkitAudioContext; if (!C) return null; ctx = new C(); }
+      if (!ctx) {
+        const C = window.AudioContext || window.webkitAudioContext;
+        if (!C) return null;
+        ctx = new C();
+        master = ctx.createGain(); master.gain.value = 0.9; master.connect(ctx.destination);
+        // a short echo gives rarer finds a bigger, brighter tail
+        const delay = ctx.createDelay(1); delay.delayTime.value = 0.13;
+        const fb = ctx.createGain(); fb.gain.value = 0.32;
+        wet = ctx.createGain(); wet.gain.value = 0.28;
+        wet.connect(delay); delay.connect(fb); fb.connect(delay); delay.connect(master);
+      }
       if (ctx.state === "suspended") ctx.resume();
       return ctx;
     }
-    function tone(f, dur, type, vol, when) {
+    function tone(f, dur, type, vol, when, echo, slide) {
       if (!on) return;
       const c = ac(); if (!c) return;
       const t0 = c.currentTime + (when || 0);
       const o = c.createOscillator(), g = c.createGain();
-      o.type = type || "sine"; o.frequency.setValueAtTime(f, t0);
+      o.type = type || "sine";
+      o.frequency.setValueAtTime(f, t0);
+      if (slide) o.frequency.exponentialRampToValueAtTime(f * slide, t0 + dur);
       g.gain.setValueAtTime(0.0001, t0);
       g.gain.exponentialRampToValueAtTime(vol || 0.08, t0 + 0.012);
       g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
-      o.connect(g); g.connect(c.destination); o.start(t0); o.stop(t0 + dur + 0.03);
+      o.connect(g); g.connect(master); if (echo) g.connect(wet);
+      o.start(t0); o.stop(t0 + dur + 0.05);
     }
-    const SCALE = [392, 440, 523.25, 587.33, 659.25, 783.99];
+    // C major pentatonic over two octaves
+    const P = [523.25, 587.33, 659.25, 783.99, 880, 1046.5, 1174.66, 1318.51, 1567.98, 1760, 2093];
+    const note = (f, d, v, w, echo) => { tone(f, d, "triangle", v, w, echo); tone(f * 2, d * 0.8, "sine", v * 0.35, w, echo); };
+    const RUNS = { 2: [0, 2, 4], 3: [0, 2, 4, 5, 7], 4: [0, 2, 4, 5, 7, 9, 10], 5: [0, 2, 4, 5, 7, 8, 9, 10] };
     return {
       unlock() { if (on) ac(); },
       get on() { return on; },
       toggle() { on = !on; store.set("sound", on); if (on) ac(); return on; },
-      tick(i) { tone(SCALE[i] || 784, 0.09, "triangle", 0.07); },
+      tick(i) { note(P[i] || P[5], 0.09, 0.055, 0, false); },
+      count(i) { tone(1500 + (i % 6) * 110, 0.035, "square", 0.016); },
       land(i) {
-        const b = SCALE[i] || 784;
-        tone(b, 0.2, "triangle", 0.09); tone(b * 1.5, 0.24, "sine", 0.05, 0.05);
-        if (i >= 4) [1, 1.26, 1.5, 2].forEach((m, k) => tone(b * m, 0.32, "triangle", 0.07, 0.14 + k * 0.08));
+        if (i <= 0) { note(659.25, 0.18, 0.07, 0); return; }
+        if (i === 1) { note(587.33, 0.12, 0.06, 0); note(523.25, 0.22, 0.06, 0.1); return; }
+        const run = RUNS[i], step = i >= 4 ? 0.075 : 0.085, end = run.length * step;
+        run.forEach((k, j) => note(P[k], 0.24, 0.07, j * step, i >= 3));
+        if (i >= 3) [P[5], P[7], P[8]].forEach((f) => tone(f, i >= 4 ? 1.2 : 0.65, "sine", 0.045, end, true));
+        if (i >= 4) for (let j = 0; j < (i === 5 ? 16 : 8); j++) tone(2093 * (1 + (j % 4) * 0.25), 0.08, "triangle", 0.03 * (1 - j / 18), end + 0.05 + j * 0.055, true);
+        if (i === 5) {
+          tone(130.81, 0.7, "sine", 0.13, 0, false, 0.5);
+          [523.25, 659.25, 783.99, 1046.5].forEach((f) => tone(f, 2, "triangle", 0.04, end + 0.25, true));
+        }
+      },
+      rank(per) {
+        const n = per >= 82 ? 9 : per >= 66 ? 8 : per >= 52 ? 7 : per >= 40 ? 6 : per >= 28 ? 5 : 3;
+        for (let j = 0; j < n; j++) note(P[j], 0.26, 0.06, j * 0.085, n >= 6);
+        if (n >= 6) [P[5], P[7], P[9]].forEach((f) => tone(f, 1.5, "sine", 0.04, n * 0.085, true));
       },
       miss() { tone(233, 0.2, "sawtooth", 0.035); tone(175, 0.32, "sawtooth", 0.035, 0.13); },
       bad() { tone(150, 0.15, "square", 0.03); },
@@ -955,11 +984,17 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         tierEl.style.setProperty("--onc", onc(res.tier));
         tierEl.style.setProperty("--n", t.name.length);
         void tierEl.offsetWidth; tierEl.classList.add("go");
-        $("rv-pts").textContent = `+${t.pts}`;
+        if (ti >= 3 && !REDUCED) {
+          const steps = t.pts / 5;
+          let k2 = 0;
+          $("rv-pts").textContent = "+0";
+          const pay = () => { k2++; $("rv-pts").textContent = `+${k2 * 5}`; Sound.count(k2); if (k2 < steps) G.pay = setTimeout(pay, 900 / steps); };
+          G.pay = setTimeout(pay, 120);
+        } else $("rv-pts").textContent = `+${t.pts}`;
         $("rv-odds").textContent = ODDS[res.tier];
         showPrice(t.pts, t.name, tc(res.tier), onc(res.tier));
         Sound.land(ti);
-        buzz(ti >= 4 ? [30, 40, 60] : 25);
+        buzz(ti === 5 ? [40, 30, 40, 30, 140] : ti === 4 ? [30, 40, 70] : ti === 3 ? [25, 30, 40] : 20);
         if (ti >= 4 && G.mode !== "practice") confetti(ti === 5 ? 90 : 45);
         setScore(true);
       } else {
@@ -1008,6 +1043,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   }
   function nextCard() {
     clearTimeout(G.anim);
+    clearTimeout(G.pay);
     G.i++;
     if (G.mode === "practice") {
       if (G.i >= G.cards.length) { G.cards = G.cards.concat(practiceDeck()); }
@@ -1075,8 +1111,16 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     renderStreak();
     const el = $("r-score");
     if (fresh && !REDUCED) {
-      const t0 = performance.now(), dur = 900;
-      const step = (t) => { const f = Math.min(1, (t - t0) / dur); el.textContent = Math.round(G.score * (1 - Math.pow(1 - f, 3))); if (f < 1) requestAnimationFrame(step); };
+      const t0 = performance.now(), dur = 1300;
+      let lastTick = -1;
+      const step = (t) => {
+        const f = Math.min(1, (t - t0) / dur);
+        const v = Math.round(G.score * (1 - Math.pow(1 - f, 3)));
+        el.textContent = v;
+        const k = Math.floor(v / 30);
+        if (k !== lastTick) { lastTick = k; Sound.count(k); }
+        if (f < 1) requestAnimationFrame(step); else Sound.rank(r.per);
+      };
       requestAnimationFrame(step);
       if (r.per >= 66) confetti(110);
     } else el.textContent = G.score;
