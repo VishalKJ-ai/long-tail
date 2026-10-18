@@ -8,7 +8,7 @@ Play: https://vishalkj-ai.github.io/long-tail/
 - Nine cards a day in three rows that get harder, the same for everyone, new at midnight UTC. Each day's nine come from nine different themes.
 - The first right answer locks in. Wrong guesses cost 3 seconds. Close spellings get a "did you mean" check.
 - Record-shop theme, plain Wordle-style UI. Tiers: Chart hit 10, Overplayed 15, Album track 25, B-side 50, Deep cut 75, Holy grail 100.
-- Daily ranks by average points per card: Parrot, Sheep, Fox, Badger, Owl, Bat, Unicorn.
+- Daily ranks by average points per card: Parrot, Sheep, Zebra, Flamingo, Peacock, Panda, Unicorn.
 - Share: `Long Tail No. 11 🐺 Lone Wolf / 260/500 🟪⬜🟦🟩🟧 / Beat me: <link>`. The share is a 3x3 grid. The link makes friends play the same nine; everyone who plays from it and shares again joins the link, so a group chat builds a leaderboard with "who said what" for every card.
 - Past puzzles: play any earlier day (no effect on streak or stats).
 - Streak freezes (earn one per 7-day streak) and milestones; a secret Double Track card each day; a lifetime crate and taste profile; friends remembered from boards; a daily goal.

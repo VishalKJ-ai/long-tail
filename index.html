@@ -853,13 +853,13 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
 
   // Daily ranks by average points per card, so they scale with the number of cards in a day.
   const RANKS = [
-    { per: 82, name: "Unicorn", emoji: "🦄", tag: "Nobody else would." },
-    { per: 66, name: "Bat",     emoji: "🦇", tag: "You hear what others can't." },
-    { per: 52, name: "Owl",     emoji: "🦉", tag: "Up late with the B-sides." },
-    { per: 40, name: "Badger",  emoji: "🦡", tag: "You dug up some good ones." },
-    { per: 28, name: "Fox",     emoji: "🦊", tag: "A few crafty picks." },
-    { per: 16, name: "Sheep",   emoji: "🐑", tag: "You followed the flock." },
-    { per: 0,  name: "Parrot",  emoji: "🦜", tag: "You repeated the hits." },
+    { per: 82, name: "Unicorn",  emoji: "🦄", tag: "Nobody else would." },
+    { per: 66, name: "Panda",    emoji: "🐼", tag: "Rare. Properly rare." },
+    { per: 52, name: "Peacock",  emoji: "🦚", tag: "Showing off, and earning it." },
+    { per: 40, name: "Flamingo", emoji: "🦩", tag: "Standing out from the crowd." },
+    { per: 28, name: "Zebra",    emoji: "🦓", tag: "A few stripes of your own." },
+    { per: 16, name: "Sheep",    emoji: "🐑", tag: "You followed the flock." },
+    { per: 0,  name: "Parrot",   emoji: "🦜", tag: "You repeated the hits." },
   ];
   const rankMin = (r, n) => Math.round((r.per * (n || 9)) / 10) * 10;
   const rank = (score, n) => RANKS.find((r) => score >= rankMin(r, n));
