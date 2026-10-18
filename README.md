@@ -12,7 +12,10 @@ Play: https://vishalkj-ai.github.io/long-tail/
 - Share: `Long Tail No. 11 🐺 Lone Wolf / 260/500 🟪⬜🟦🟩🟧 / Beat me: <link>`. The share is a 3x3 grid. The link makes friends play the same nine; everyone who plays from it and shares again joins the link, so a group chat builds a leaderboard with "who said what" for every card.
 - Past puzzles: play any earlier day (no effect on streak or stats).
 - Streak freezes (earn one per 7-day streak) and milestones; a secret Double Track card each day; a lifetime crate and taste profile; friends remembered from boards; a daily goal.
-- Theme packs: nine random cards from one theme (Music, TV & film, Food & drink, World & travel, Animals & nature, Sport & games, History & culture), any time, no effect on stats.
+- Theme packs: fixed 10-card volumes per theme (e.g. World & travel · Vol. 2) with a best score each; no effect on stats.
+- Your library: rank shelf (collect all seven), the critic's verdict on your answers, your finds and stats.
+- Laptop layout: two columns from 960px.
+- Hidden track: the 9th daily card is a curveball (lateral-thinking) category when curveball cards exist.
 - Rows: Warm-up, Tricky, Deep end.
 - Practice mode after the daily: one 45-second clock, rarer answers add more time.
 
