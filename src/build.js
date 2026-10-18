@@ -117,7 +117,7 @@ if (arg("--site")) {
   const cut = html.indexOf('<div class="wrap">');
   const head = html.slice(0, cut), rest = html.slice(cut);
   const icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="20" cy="15" r="10" fill="#19191B"/><circle cx="20" cy="15" r="3" fill="#E9B208"/><rect x="2" y="4" width="20" height="21" fill="#EF6A9E"/><rect x="5" y="17" width="9" height="1.6" fill="#121213"/><rect x="5" y="20" width="9" height="1.6" fill="#121213"/></svg>';
-  const desc = "Everyone knows the hits. Name the deep cut. A daily rarity game: five categories, one answer each, and the rarer your answer the more it's worth.";
+  const desc = "Everyone knows the hits. Name the deep cut. A daily rarity game: nine categories, one answer each, and the rarer your answer the more it's worth. Challenge your group chat.";
   const site = "https://vishalkj-ai.github.io/long-tail/";
   const page = `<!doctype html>
 <html lang="en">
