@@ -303,15 +303,15 @@
     return (h.toString(36) + h2.toString(36)).padStart(len, "0").slice(-len);
   }
 
-  // Daily ranks out of 500. Most first games land between Cover band and Collector.
+  // Daily ranks out of 500. Most first games land between Sheep and Badger.
   const RANKS = [
-    { min: 410, name: "Before it was cool", emoji: "😎", tag: "Nobody had heard of these." },
-    { min: 330, name: "Tastemaker",   emoji: "🎧", tag: "Everyone will copy you tomorrow." },
-    { min: 260, name: "Crate digger", emoji: "📦", tag: "You dug deep today." },
-    { min: 200, name: "Collector",    emoji: "💿", tag: "A tidy little collection." },
-    { min: 140, name: "Indie kid",    emoji: "🎸", tag: "A few left-field picks." },
-    { min: 80,  name: "Cover band",   emoji: "🎤", tag: "Mostly other people's hits." },
-    { min: 0,   name: "Top 40",       emoji: "📻", tag: "You stuck to the hits." },
+    { min: 410, name: "Unicorn", emoji: "🦄", tag: "Nobody else would." },
+    { min: 330, name: "Bat",     emoji: "🦇", tag: "You hear what others can't." },
+    { min: 260, name: "Owl",     emoji: "🦉", tag: "Up late with the B-sides." },
+    { min: 200, name: "Badger",  emoji: "🦡", tag: "You dug up some good ones." },
+    { min: 140, name: "Fox",     emoji: "🦊", tag: "A few crafty picks." },
+    { min: 80,  name: "Sheep",   emoji: "🐑", tag: "You followed the flock." },
+    { min: 0,   name: "Parrot",  emoji: "🦜", tag: "You repeated the hits." },
   ];
   const rank = (score) => RANKS.find((r) => score >= r.min);
 
