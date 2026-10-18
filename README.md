@@ -11,6 +11,7 @@ Play: https://vishalkj-ai.github.io/long-tail/
 - Daily ranks by average points per card: Parrot, Sheep, Fox, Badger, Owl, Bat, Unicorn.
 - Share: `Long Tail No. 11 🐺 Lone Wolf / 260/500 🟪⬜🟦🟩🟧 / Beat me: <link>`. The share is a 3x3 grid. The link makes friends play the same nine; everyone who plays from it and shares again joins the link, so a group chat builds a leaderboard with "who said what" for every card.
 - Past puzzles: play any earlier day (no effect on streak or stats).
+- Streak freezes (earn one per 7-day streak) and milestones; a secret Double Track card each day; a lifetime crate and taste profile; friends remembered from boards; a daily goal.
 - Practice mode after the daily: one 45-second clock, rarer answers add more time.
 
 ## Source
