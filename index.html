@@ -258,6 +258,18 @@ details.rc[open] .rc-chev { transform: rotate(225deg) translateY(-3px); }
 .tr-v { font-size: 15px; line-height: 1.5; color: var(--ink-2); }
 .tr-v .me { color: var(--ink); font-weight: 800; box-shadow: inset 0 -0.45em 0 color-mix(in srgb, var(--c) 45%, transparent); }
 .tr-v .link { font-size: 14px; padding: 0; }
+.rc-search { display: flex; align-items: center; gap: 8px; border: 1.5px solid var(--line-2); border-radius: 8px; padding: 0 12px; margin: 2px 0 6px; background: var(--bg); }
+.rc-search:focus-within { border-color: var(--ink); }
+.rc-search svg { width: 18px; height: 18px; color: var(--ink-2); flex: none; }
+.rc-search input { flex: 1; min-width: 0; border: 0; outline: none; background: transparent; padding: 11px 0; font: 500 16px/1.2 var(--f); color: var(--ink); }
+.rc-search input::placeholder { color: var(--ink-2); font-weight: 400; }
+.rc-search input::-webkit-search-cancel-button { cursor: pointer; }
+.rc-verdict { font-size: 15px; padding: 4px 0 10px; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.rc-verdict .tag { display: inline-block; background: var(--c); color: var(--onc); font: 800 12px/1 var(--f); letter-spacing: 0.04em; text-transform: uppercase; padding: 5px 8px; border-radius: 4px; }
+.rc-verdict.no { color: var(--bad); font-weight: 600; }
+.rc-verdict.no small { color: var(--ink-2); font-weight: 400; font-size: 14px; }
+.tr-v .hit { color: var(--ink); font-weight: 800; background: color-mix(in srgb, var(--c) 28%, transparent); border-radius: 3px; padding: 0 3px; }
+.rc-empty { font-size: 15px; color: var(--ink-2); padding: 8px 0; border-top: 1px solid var(--line); }
 .rc-fact { font-size: 15px; color: var(--ink-2); padding-top: 10px; border-top: 1px solid var(--line); }
 .rc-fact b { color: var(--ink); }
 
@@ -268,7 +280,9 @@ details.rc[open] .rc-chev { transform: rotate(225deg) translateY(-3px); }
 .ar-row { appearance: none; background: none; border: 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 4.4em minmax(0, 1fr) auto auto; align-items: center; gap: 12px; padding: 14px 2px; text-align: left; cursor: pointer; color: var(--ink); font: inherit; width: 100%; }
 .ar-row:hover { background: var(--surface); }
 .ar-no { font-weight: 800; font-variant-numeric: tabular-nums; }
-.ar-date { color: var(--ink-2); font-size: 15px; }
+.ar-date { color: var(--ink-2); font-size: 15px; display: grid; gap: 5px; }
+.ar-sq { display: flex; gap: 3px; }
+.ar-sq i { width: 10px; height: 10px; background: var(--c); }
 .ar-st { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .ar-st.todo { font-size: 14px; border: 1px solid var(--ink); border-radius: 999px; padding: 5px 14px; }
 .ar-st.half { color: var(--ink-2); font-weight: 600; font-size: 14px; }
@@ -1339,7 +1353,8 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     const ms = (today() + 1) * 864e5 - Date.now();
     if (ms <= 0) { $("r-next").innerHTML = `Fresh stock is in. <button class="link" type="button" id="btn-new">Play it</button>`; clearInterval(countdownT); $("btn-new").onclick = () => { location.hash = ""; location.reload(); }; return; }
     const h = Math.floor(ms / 36e5), m = Math.floor((ms % 36e5) / 6e4), s = Math.floor((ms % 6e4) / 1000);
-    $("r-next").innerHTML = `Next puzzle in <b>${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}</b>`;
+    const next = LT.dailySet(PROMPTS, today() + 1, N)[0];
+    $("r-next").innerHTML = `Next puzzle in <b>${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}</b>` + (next ? `<br>Tomorrow opens with <b>${esc(next.title)}</b>` : "");
   }
   function squaresHTML(results) {
     return results.map((r) => `<i style="--c:${r.tier ? tc(r.tier) : "var(--line)"}" title="${r.tier ? esc(TIER[r.tier].name) : "Missed"}"></i>`).join("");
@@ -1398,18 +1413,51 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         if (!d.open || d.dataset.built) return;
         d.dataset.built = "1";
         const i = +d.dataset.i, p = G.cards[i], r = G.results[i] || {};
-        const SHOW = 6;
-        const rows = TIERS.slice().reverse().map((t) => {
-          let list = (p.tiers[t.key] || []).slice();
-          if (!list.length) return "";
-          if (r.name && list.includes(r.name)) list = [r.name, ...list.filter((n) => n !== r.name)];
-          const items = list.map((n) => (n === r.name ? `<span class="me">${esc(n)}</span>` : esc(n)));
-          const rest = items.slice(SHOW);
-          return `<div class="tr" style="--c:${tc(t.key)}"><div class="tr-k"><span><i></i>${esc(t.name)}</span><small>${t.pts} points</small></div><p class="tr-v">${items.slice(0, SHOW).join(", ")}${rest.length ? `<span class="more" hidden>, ${rest.join(", ")}</span> <button class="link more-btn" type="button">+${rest.length} more</button>` : ""}</p></div>`;
-        }).join("");
+        const SHOW = 8;
+        const total = TIERS.reduce((n, t) => n + (p.tiers[t.key] || []).length, 0);
+        const alias = p.alias || {};
+        const entries = TIERS.slice().reverse().map((t) => ({ t, list: (p.tiers[t.key] || []).slice().sort((x, y) => x.localeCompare(y)) }));
+        const keysOf = (n) => [LT.key(n), ...(alias[n] || []).map(LT.key)];
         const body = d.querySelector(".rc-body");
-        body.innerHTML = rows + (p.fact ? `<p class="rc-fact"><b>Did you know?</b> ${esc(p.fact)}</p>` : "");
-        for (const b of body.querySelectorAll(".more-btn")) b.addEventListener("click", () => { b.previousElementSibling.hidden = false; b.remove(); });
+        body.innerHTML = `<label class="rc-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input type="search" placeholder="Is your answer here? Search all ${total}" aria-label="Search the answers for ${esc(p.q)}" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"></label><p class="rc-verdict" hidden></p><div class="rc-rows"></div>` + (p.fact ? `<p class="rc-fact"><b>Did you know?</b> ${esc(p.fact)}</p>` : "");
+        const rowsBox = body.querySelector(".rc-rows"), verdict = body.querySelector(".rc-verdict"), input = body.querySelector("input");
+        const draw = (q) => {
+          const qk = LT.key(q);
+          const m = qk.length >= 2 ? LT.match(indexFor(p), q) : null;
+          const hit = m && m.status !== "trap" ? (m.entry ? [m.entry.name] : m.options.map((e) => e.name)) : [];
+          // verdict line, using the same matching as the game
+          if (qk.length < 2) verdict.hidden = true;
+          else {
+            verdict.hidden = false;
+            verdict.className = "rc-verdict";
+            if (m && m.status === "exact") verdict.innerHTML = `<span class="tag" style="--c:${tc(m.entry.tier)};--onc:${onc(m.entry.tier)}">${esc(TIER[m.entry.tier].name)}</span><span><b>${esc(m.entry.name)}</b> is on the list: ${m.entry.pts} points.</span>`;
+            else if (m && m.status === "suggest") verdict.innerHTML = `<span class="tag" style="--c:${tc(m.entry.tier)};--onc:${onc(m.entry.tier)}">${esc(TIER[m.entry.tier].name)}</span><span>Closest match: <b>${esc(m.entry.name)}</b>, ${m.entry.pts} points.</span>`;
+            else if (m && m.status === "ambiguous") verdict.innerHTML = `<span>Several answers match: ${m.options.map((e) => `<b>${esc(e.name)}</b>`).join(", ")}.</span>`;
+            else if (m && m.status === "trap") { verdict.classList.add("no"); verdict.innerHTML = `<span>Not accepted. <small>${esc(m.trap.why || "")}</small></span>`; }
+            else verdict.dataset.none = "1";
+          }
+          let shown = 0;
+          const html = entries.map(({ t, list }) => {
+            let items = qk.length >= 2 ? list.filter((n) => hit.includes(n) || keysOf(n).some((k) => k.includes(qk))) : list.slice();
+            if (!items.length) return "";
+            if (r.name && items.includes(r.name)) items = [r.name, ...items.filter((n) => n !== r.name)];
+            shown += items.length;
+            const fmt = (n) => (n === r.name ? `<span class="me">${esc(n)}</span>` : hit.includes(n) ? `<span class="hit">${esc(n)}</span>` : esc(n));
+            const cut = qk.length >= 2 ? items.length : SHOW;
+            const rest = items.slice(cut);
+            return `<div class="tr" style="--c:${tc(t.key)}"><div class="tr-k"><span><i></i>${esc(t.name)}</span><small>${t.pts} points</small></div><p class="tr-v">${items.slice(0, cut).map(fmt).join(", ")}${rest.length ? `<span class="more" hidden>, ${rest.map(fmt).join(", ")}</span> <button class="link more-btn" type="button">+${rest.length} more</button>` : ""}</p></div>`;
+          }).join("");
+          if (verdict.dataset.none) {
+            delete verdict.dataset.none;
+            if (shown) verdict.innerHTML = `<span>${shown} answer${shown === 1 ? "" : "s"} contain "${esc(q.trim())}".</span>`;
+            else { verdict.classList.add("no"); verdict.innerHTML = `<span>Not on our list.</span>`; }
+          }
+          rowsBox.innerHTML = shown ? html : "";
+          for (const b of rowsBox.querySelectorAll(".more-btn")) b.addEventListener("click", () => { b.previousElementSibling.hidden = false; b.remove(); });
+        };
+        input.addEventListener("input", () => draw(input.value));
+        input.addEventListener("keydown", (e) => { if (e.key === "Enter") input.blur(); });
+        draw("");
       });
     }
   }
@@ -1483,7 +1531,8 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       else if (st && st.results && st.results.length) status = `<span class="ar-st half">${st.results.length} of ${N}</span>`;
       else status = `<span class="ar-st todo">Play</span>`;
       const label = d === t ? "Today" : new Date(d * 864e5).toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
-      rows.push(`<button class="ar-row" type="button" data-day="${d}"><span class="ar-no">No. ${numOf(d)}</span><span class="ar-date">${label}</span>${status}<span class="rc-chev" aria-hidden="true"></span></button>`);
+      const mini = st && st.results && st.results.length ? `<span class="ar-sq">${st.results.map((r) => `<i style="--c:${r.tier ? tc(r.tier) : "var(--line-2)"}"></i>`).join("")}</span>` : "";
+      rows.push(`<button class="ar-row" type="button" data-day="${d}"><span class="ar-no">No. ${numOf(d)}</span><span class="ar-date">${label}${mini}</span>${status}<span class="rc-chev" aria-hidden="true"></span></button>`);
     }
     $("ar-list").innerHTML = rows.join("");
     for (const b of $("ar-list").querySelectorAll(".ar-row")) {

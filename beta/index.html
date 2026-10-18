@@ -1353,7 +1353,8 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     const ms = (today() + 1) * 864e5 - Date.now();
     if (ms <= 0) { $("r-next").innerHTML = `Fresh stock is in. <button class="link" type="button" id="btn-new">Play it</button>`; clearInterval(countdownT); $("btn-new").onclick = () => { location.hash = ""; location.reload(); }; return; }
     const h = Math.floor(ms / 36e5), m = Math.floor((ms % 36e5) / 6e4), s = Math.floor((ms % 6e4) / 1000);
-    $("r-next").innerHTML = `Next puzzle in <b>${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}</b>`;
+    const next = LT.dailySet(PROMPTS, today() + 1, N)[0];
+    $("r-next").innerHTML = `Next puzzle in <b>${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}</b>` + (next ? `<br>Tomorrow opens with <b>${esc(next.title)}</b>` : "");
   }
   function squaresHTML(results) {
     return results.map((r) => `<i style="--c:${r.tier ? tc(r.tier) : "var(--line)"}" title="${r.tier ? esc(TIER[r.tier].name) : "Missed"}"></i>`).join("");
@@ -1433,7 +1434,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
             else if (m && m.status === "suggest") verdict.innerHTML = `<span class="tag" style="--c:${tc(m.entry.tier)};--onc:${onc(m.entry.tier)}">${esc(TIER[m.entry.tier].name)}</span><span>Closest match: <b>${esc(m.entry.name)}</b>, ${m.entry.pts} points.</span>`;
             else if (m && m.status === "ambiguous") verdict.innerHTML = `<span>Several answers match: ${m.options.map((e) => `<b>${esc(e.name)}</b>`).join(", ")}.</span>`;
             else if (m && m.status === "trap") { verdict.classList.add("no"); verdict.innerHTML = `<span>Not accepted. <small>${esc(m.trap.why || "")}</small></span>`; }
-            else { verdict.classList.add("no"); verdict.innerHTML = `<span>Not on our list.</span>`; }
+            else verdict.dataset.none = "1";
           }
           let shown = 0;
           const html = entries.map(({ t, list }) => {
@@ -1446,7 +1447,12 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
             const rest = items.slice(cut);
             return `<div class="tr" style="--c:${tc(t.key)}"><div class="tr-k"><span><i></i>${esc(t.name)}</span><small>${t.pts} points</small></div><p class="tr-v">${items.slice(0, cut).map(fmt).join(", ")}${rest.length ? `<span class="more" hidden>, ${rest.map(fmt).join(", ")}</span> <button class="link more-btn" type="button">+${rest.length} more</button>` : ""}</p></div>`;
           }).join("");
-          rowsBox.innerHTML = shown ? html : `<p class="rc-empty">No answers contain "${esc(q.trim())}".</p>`;
+          if (verdict.dataset.none) {
+            delete verdict.dataset.none;
+            if (shown) verdict.innerHTML = `<span>${shown} answer${shown === 1 ? "" : "s"} contain "${esc(q.trim())}".</span>`;
+            else { verdict.classList.add("no"); verdict.innerHTML = `<span>Not on our list.</span>`; }
+          }
+          rowsBox.innerHTML = shown ? html : "";
           for (const b of rowsBox.querySelectorAll(".more-btn")) b.addEventListener("click", () => { b.previousElementSibling.hidden = false; b.remove(); });
         };
         input.addEventListener("input", () => draw(input.value));
