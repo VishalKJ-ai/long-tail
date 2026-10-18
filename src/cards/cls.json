@@ -177,7 +177,7 @@
   "title": "Join the dots",
   "q": "A constellation",
   "rule": "The 88 official IAU constellations count, by Latin or English name; asterisms, single stars and star clusters don't.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -1209,7 +1209,7 @@
   "title": "Round and round",
   "q": "A moon in our solar system",
   "rule": "Named natural satellites of planets and dwarf planets count; Earth's own, artificial ones and asteroid moons don't.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -1775,7 +1775,7 @@
   "title": "All the world's a stage",
   "q": "A Shakespeare character",
   "rule": "Named characters from Shakespeare's plays; unnamed roles, actors and the poems' characters don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -3200,7 +3200,7 @@
   "title": "Maestro",
   "q": "A classical composer",
   "rule": "Composers of Western classical music, from medieval to contemporary; film, pop and jazz composers don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": true,
   "tiers": {
    "head": [
@@ -3956,7 +3956,7 @@
   "title": "Deal me in",
   "q": "A card game",
   "rule": "Games played mainly with cards, including solo and trading-card games; games that use tiles, dice or a board as the main equipment don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [

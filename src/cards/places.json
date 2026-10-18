@@ -2170,7 +2170,7 @@
   "title": "High street",
   "q": "A UK bank or building society",
   "rule": "Brands count even if they're now owned by another group, and closed ones count too.",
-  "level": 2,
+  "level": 1,
   "surnames": false,
   "tiers": {
    "head": [

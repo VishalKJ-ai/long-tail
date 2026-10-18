@@ -5,7 +5,7 @@
   "title": "Press start",
   "q": "A video game franchise",
   "rule": "A series of games sharing one name or world; one-off standalone games and game engines don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -634,7 +634,7 @@
   "title": "Pole position",
   "q": "A Formula 1 driver who has won a Grand Prix",
   "rule": "Must have won at least one world championship race; drivers who only scored podiums or poles don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": true,
   "tiers": {
    "head": [

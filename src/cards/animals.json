@@ -413,7 +413,7 @@
   "title": "Purr-fect",
   "q": "A cat breed",
   "rule": "Recognised breeds from the major cat registries count; non-pedigree moggies and coat patterns like tabby do not.",
-  "level": 2,
+  "level": 1,
   "surnames": false,
   "tiers": {
    "head": [
@@ -1702,7 +1702,7 @@
   "title": "Timber!",
   "q": "A tree that grows in Britain",
   "rule": "Trees that grow outdoors in Britain count, native or planted; shrubs and grasses do not.",
-  "level": 2,
+  "level": 1,
   "surnames": false,
   "tiers": {
    "head": [
@@ -2415,7 +2415,7 @@
   "title": "Hoof it",
   "q": "A horse or pony breed",
   "rule": "Recognised horse and pony breeds count; crossbreeds, hybrids and mixed-breed horses do not.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [

@@ -782,7 +782,7 @@
   "title": "Last line",
   "q": "A famous football goalkeeper",
   "rule": "Anyone who played as a goalkeeper at senior level for a club or country counts; give the name they are best known by.",
-  "level": 1,
+  "level": 2,
   "surnames": true,
   "tiers": {
    "head": [
@@ -872,7 +872,7 @@
   "title": "Soundbite",
   "q": "A football TV or radio commentator or pundit",
   "rule": "Anyone who has commentated on or analysed football for a broadcaster, from any era, counts; give the name they are best known by.",
-  "level": 1,
+  "level": 2,
   "surnames": true,
   "tiers": {
    "head": [
@@ -1091,7 +1091,7 @@
   "title": "Highland fling",
   "q": "A Scottish professional football club",
   "rule": "Any club that has played in the Scottish Football League or the Scottish Premiership, past or present, counts; name it as commonly known.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -1208,7 +1208,7 @@
   "title": "Nine lives",
   "q": "A famous number 9 striker",
   "rule": "Any striker or centre-forward widely known for wearing the number 9 shirt, or for the classic No 9 role, at club or country level counts; give the name they are best known by.",
-  "level": 1,
+  "level": 2,
   "surnames": true,
   "tiers": {
    "head": [
@@ -1293,7 +1293,7 @@
   "title": "Kop idols",
   "q": "A Liverpool football club legend",
   "rule": "Any current or former Liverpool player, manager or coach who is widely celebrated by the club's supporters counts; give the name they are best known by.",
-  "level": 1,
+  "level": 2,
   "surnames": true,
   "tiers": {
    "head": [

@@ -370,7 +370,7 @@
   "title": "Rock royalty",
   "q": "A Queen song",
   "rule": "Queen studio album tracks and singles from 1973 to 1995, including the duet with David Bowie; live versions, covers and solo songs don't count.",
-  "level": 2,
+  "level": 1,
   "surnames": false,
   "tiers": {
    "head": [
@@ -773,7 +773,7 @@
   "title": "Curtain up",
   "q": "A stage musical",
   "rule": "The show must have played in London's West End or on Broadway; films, concerts and tours don't count.",
-  "level": 2,
+  "level": 1,
   "surnames": false,
   "tiers": {
    "head": [
@@ -970,7 +970,7 @@
   "title": "Floor filler",
   "q": "A named dance",
   "rule": "Named dances count, including ballroom, Latin, folk and street styles; single steps and dance troupes don't count.",
-  "level": 2,
+  "level": 1,
   "surnames": false,
   "tiers": {
    "head": [
@@ -1905,7 +1905,7 @@
   "title": "Ball games",
   "q": "A sport played with a ball",
   "rule": "Sports where a ball is the main object count; sports played with a puck, shuttlecock or disc don't.",
-  "level": 2,
+  "level": 1,
   "surnames": false,
   "tiers": {
    "head": [

@@ -1223,7 +1223,7 @@
   "title": "Middle-earth census",
   "q": "A Middle-earth character",
   "rule": "Named characters from Tolkien's novels and the films; unnamed races and creatures don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -1492,7 +1492,7 @@
   "title": "Seven Kingdoms",
   "q": "A Westeros character",
   "rule": "Named people and named animals from the TV series, including those from across the Narrow Sea; unnamed extras don't qualify.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -1914,7 +1914,7 @@
   "title": "Mushroom Kingdom",
   "q": "A Mushroom Kingdom character",
   "rule": "Named characters and enemy types from this series and its spin-offs, such as kart and sports games; unnamed generic enemies don't qualify.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -2112,7 +2112,7 @@
   "title": "Starfleet roll call",
   "q": "A Star Trek character",
   "rule": "Named characters in the Star Trek series and films; unnamed crew members don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -2447,7 +2447,7 @@
   "title": "Hyrule roll call",
   "q": "A Hyrule character",
   "rule": "Named characters from Nintendo's Hyrule adventures, plus spin-offs; unnamed villagers and monsters don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -2804,7 +2804,7 @@
   "title": "Time Lord foes",
   "q": "A Doctor Who monster or villain",
   "rule": "Named villains and monster species from the TV series; one-off unnamed creatures don't qualify.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [
@@ -3287,7 +3287,7 @@
   "title": "Really useful engines",
   "q": "A Sodor railway character",
   "rule": "Named engines and characters from the Sodor stories; unnamed carriages and trucks don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": false,
   "tiers": {
    "head": [

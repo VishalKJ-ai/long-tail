@@ -180,6 +180,8 @@ body.on-home .mark { visibility: hidden; }
 .rv-ans { font: 800 26px/1.1 var(--f); letter-spacing: -0.02em; overflow-wrap: anywhere; }
 .rv-ans:empty { display: none; }
 .rv-odds { font-size: 14px; color: var(--ink-2); }
+.rv-quip { font-size: 15px; font-style: italic; color: var(--ink-2); }
+.rv-quip:empty { display: none; }
 .rv-line { font-size: 15px; color: var(--ink-2); }
 .rv-line b { color: var(--ink); font-weight: 700; margin-right: 5px; }
 
@@ -412,6 +414,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         <div class="rv-head"><span class="rv-tier" id="rv-tier"></span><span class="rv-pts" id="rv-pts"></span></div>
         <p class="rv-ans" id="rv-ans"></p>
         <p class="rv-odds" id="rv-odds"></p>
+        <p class="rv-quip" id="rv-quip"></p>
         <button class="btn primary big" id="btn-next" type="button">Next track</button>
         <p class="rv-line" id="rv-common"></p>
         <p class="rv-line" id="rv-deep"></p>
@@ -532,6 +535,16 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     tail: "About 1 player in 30",
     deep: "About 1 player in 100",
     outlier: "Almost nobody says this",
+  };
+  // warm one-liners for the reveal; each card and day picks the same line on a replay
+  const QUIPS = {
+    head: ["A classic for a reason.", "Everyone's first thought.", "The crowd agrees with you.", "Can't argue with a classic.", "Safe hands. Solid start."],
+    hipster: ["Everyone's secret favourite.", "Feels clever. Lots of people agree.", "A crowd favourite in disguise.", "Not as rare as it feels.", "Popular for a reason."],
+    body: ["Nice. Off the main road.", "Album gold, hiding in plain sight.", "The record's hidden gem.", "Lovely, and well off the radar.", "Not the single, but a gem."],
+    tail: ["Ooh, a B-side.", "B-sides are where the good stuff hides.", "Rarer than a chart hit, and lovely.", "Off the tracklist, and worth the trip.", "A B-side with a bit of swagger."],
+    deep: ["That's a proper deep cut.", "Deep cut territory. Lovely.", "Not many tracks get this deep.", "The best stuff hides down here.", "Deep in the crate, and worth it."],
+    outlier: ["Holy grail. Take a bow.", "Almost nobody finds this one.", "A true collector's find.", "Rare as they come. Wonderful.", "Pure record-shop legend."],
+    miss: ["Happens to the best of us.", "Tricky one. Onward we go.", "Some tracks are sneaky like that.", "That one was a tough call.", "On to the next one."],
   };
   const REDUCED = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   const tc = (key) => `var(--t-${key})`;
@@ -1136,6 +1149,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     tierEl.textContent = "";
     $("rv-pts").textContent = "";
     $("rv-odds").textContent = "";
+    $("rv-quip").textContent = "";
     $("rv-ans").textContent = res.name || "";
     const others = (key) => (p.tiers[key] || []).filter((n) => n !== res.name);
     const common = others("head").slice(0, 3);
@@ -1185,6 +1199,12 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         showPrice(0, missLabel || "Missed", "var(--bad)", "var(--on-bad)");
         Sound.miss(); buzz(60);
       }
+      // quips: always for B-sides and rarer and for misses; about 1 in 3 for the common tiers; practice shows only deep cuts and grails
+      const qn = parseInt(LT.hash36(p.id + (G.day || ""), 6), 36);
+      const qPool = res.tier ? QUIPS[res.tier] : QUIPS.miss;
+      const qShow = G.mode === "practice" ? res.tier === "deep" || res.tier === "outlier"
+        : !res.tier || ["tail", "deep", "outlier"].includes(res.tier) || qn % 3 === 0;
+      $("rv-quip").textContent = qShow ? qPool[Math.floor(qn / 3) % qPool.length] : "";
       next.disabled = false;
       if (G.mode === "practice") G.anim = setTimeout(nextCard, res.tier ? 1100 : 900);
       else next.focus({ preventScroll: true });

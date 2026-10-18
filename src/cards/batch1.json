@@ -1055,7 +1055,7 @@
   "title": "Imperial purple",
   "q": "A Roman emperor",
   "rule": "Anyone who held the imperial throne in Rome, East or West, up to the fall of Constantinople; Holy Roman emperors and rival claimants don't count.",
-  "level": 1,
+  "level": 2,
   "surnames": true,
   "tiers": {
    "head": [
