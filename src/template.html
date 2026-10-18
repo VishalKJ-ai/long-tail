@@ -310,23 +310,6 @@ details.rc[open] .rc-chev { transform: rotate(225deg) translateY(-3px); }
 .crate { display: grid; gap: 6px; font-size: 15px; }
 .fr-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 15px; }
 /* your library */
-.lib-shelf { display: grid; gap: 10px; }
-.lib-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
-.lib-tile { display: grid; justify-items: center; gap: 3px; padding: 14px 4px 12px; background: var(--surface); border-radius: 8px; text-align: center; min-width: 0; }
-.lib-tile.none { opacity: 0.35; }
-.lib-emo { font-size: 34px; line-height: 1.1; }
-.lib-tile.none .lib-emo { filter: grayscale(1); }
-.lib-tile b { font: 800 14px/1.2 var(--f); overflow-wrap: anywhere; }
-.lib-tile small { font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-.lib-panel { display: grid; gap: 12px; padding: 16px; border: 1px solid var(--line); border-radius: 8px; }
-.lib-panel h3 { font: 800 20px/1.1 var(--f); letter-spacing: -0.02em; }
-.lib-verdict { display: grid; gap: 8px; font-size: 16px; }
-.lib-finds { display: grid; }
-.lib-find { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 11px 2px; border-bottom: 1px solid var(--line); }
-.lib-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--c); }
-.lib-find .lf-main { display: grid; gap: 1px; min-width: 0; }
-.lib-find b { font: 700 17px/1.25 var(--f); overflow-wrap: anywhere; }
-.lib-find small { font-size: 14px; color: var(--ink-2); overflow-wrap: anywhere; }
 .lf-no { font-size: 14px; color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 .toast { position: fixed; left: 50%; top: calc(64px + env(safe-area-inset-top, 0px)); transform: translate(-50%, -8px); background: var(--accent); color: var(--on-accent); padding: 11px 16px; border-radius: 6px; font-weight: 700; font-size: 15px; opacity: 0; pointer-events: none; transition: opacity 0.2s, transform 0.2s; z-index: 80; max-width: calc(100% - 32px); text-align: center; }
@@ -364,7 +347,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   #s-play > :not(.stage) { grid-column: 2; }
   #s-results { grid-template-columns: 380px minmax(0, 1fr); column-gap: 56px; align-items: start; }
   .r-left { position: sticky; top: 16px; }
-  #s-archive, #s-packs, #s-library { max-width: 640px; margin-inline: auto; }
+  #s-archive, #s-packs { max-width: 640px; margin-inline: auto; }
 }
 </style>
 <div class="wrap">
@@ -373,7 +356,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     <button class="mark" id="btn-brand" type="button">Long Tail</button>
     <div class="top-r">
       <span class="streak" id="streak" hidden></span>
-      <button class="icon" id="btn-stats" type="button" aria-label="Your library" title="Your library"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 20V11M10 20V5M15 20v-8M20 20v-4"/></svg></button>
+      <button class="icon" id="btn-stats" type="button" aria-label="Statistics" title="Statistics"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 20V11M10 20V5M15 20v-8M20 20v-4"/></svg></button>
       <button class="icon" id="btn-sound" type="button" aria-label="Sound on" title="Sound"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path id="snd-wave" d="M16.5 8.5a5 5 0 0 1 0 7"/></svg></button>
     </div>
   </header>
@@ -389,7 +372,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <p class="h-line" id="h-streak" hidden></p>
       <p class="h-line" id="h-goal"></p>
       <p class="h-line" id="h-friends" hidden></p>
-      <div class="links"><button class="link" id="btn-archive" type="button">Past puzzles</button><button class="link" id="btn-packs" type="button">Theme packs</button><button class="link" id="btn-library" type="button">Your library</button><button class="link" id="btn-practice-home" type="button" hidden>Practice mode</button></div>
+      <div class="links"><button class="link" id="btn-archive" type="button">Past puzzles</button><button class="link" id="btn-packs" type="button">Theme packs</button><button class="link" id="btn-practice-home" type="button" hidden>Practice mode</button></div>
     </section>
 
     <section class="screen" id="s-play" hidden>
@@ -462,7 +445,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         <div class="rcs" id="r-cards"></div>
         <h3 class="sec-h">Statistics</h3>
         <div class="stats-wrap" id="r-stats"></div>
-        <div class="row"><button class="btn" id="btn-archive-r" type="button">Past puzzles</button><button class="btn" id="btn-packs-r" type="button">Theme packs</button><button class="btn" id="btn-library-r" type="button">Your library</button><button class="btn" id="btn-practice" type="button">Practice mode</button></div>
+        <div class="row"><button class="btn" id="btn-archive-r" type="button">Past puzzles</button><button class="btn" id="btn-packs-r" type="button">Theme packs</button><button class="btn" id="btn-practice" type="button">Practice mode</button></div>
       </div>
     </section>
 
@@ -476,26 +459,6 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <div class="ar" id="pk-list"></div>
     </section>
 
-    <section class="screen" id="s-library" hidden>
-      <div class="ar-head"><h2>Your library</h2><p class="fine">Everything you've found in daily and past puzzles.</p></div>
-      <div class="lib-shelf">
-        <p class="eyebrow" id="lib-count"></p>
-        <div class="lib-grid" id="lib-ranks"></div>
-      </div>
-      <div class="lib-panel">
-        <h3>The critic's verdict</h3>
-        <div class="lib-verdict" id="lib-critic"></div>
-      </div>
-      <div>
-        <h3 class="sec-h">Your finds</h3>
-        <div class="lib-finds" id="lib-finds"></div>
-        <button class="link" id="lib-more" type="button" hidden></button>
-      </div>
-      <div>
-        <h3 class="sec-h">Statistics</h3>
-        <div class="stats-wrap" id="lib-stats"></div>
-      </div>
-    </section>
 
     <section class="screen results" id="s-over" hidden>
       <div class="r-top">
@@ -888,7 +851,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   // ---------- screens ----------
   let G = null;
   function show(name) {
-    for (const s of ["home", "play", "results", "over", "archive", "packs", "library"]) $("s-" + s).hidden = s !== name;
+    for (const s of ["home", "play", "results", "over", "archive", "packs"]) $("s-" + s).hidden = s !== name;
     document.body.classList.toggle("on-home", name === "home");
     window.scrollTo(0, 0);
     if (name !== "results") clearInterval(countdownT);
@@ -1562,103 +1525,6 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   $("btn-archive").addEventListener("click", renderArchive);
   $("btn-archive-r").addEventListener("click", renderArchive);
 
-  // ---------- your library ----------
-  // every daily and past game on this device, one row per card answered or missed
-  let libFinds = [];
-  const newestFirst = (a, b) => b.day - a.day || b.at - a.at;
-  function gatherLibrary() {
-    const out = [];
-    try {
-      for (let i = 0; i < localStorage.length; i++) {
-        const k = localStorage.key(i);
-        if (!k || !k.startsWith("lt:day11:")) continue;
-        const day = +k.slice("lt:day11:".length);
-        if (!(day >= LAUNCH)) continue;
-        const st = store.get(dayKey(day), null);
-        if (!st || !Array.isArray(st.results)) continue;
-        const ids = Array.isArray(st.ids) ? st.ids : [];
-        st.results.forEach((r, at) => {
-          const card = r && (BY_ID[r.id] || BY_ID[ids[at]]);
-          if (!card) return;
-          out.push({ card, day, at, name: r.name || "", tier: r.tier && TIER[r.tier] ? r.tier : null, pts: +r.pts || 0 });
-        });
-      }
-    } catch (e) { /* storage blocked */ }
-    return out;
-  }
-  // the critic is a dry record-shop snob: teases the answers, never the person, and always ends on a compliment
-  function criticHTML(res) {
-    const C = res.length;
-    if (C < 9) return `<p>Play a few more days and the critic will have opinions.</p>`;
-    const avg = res.reduce((a, x) => a + x.pts, 0) / C;
-    const answered = res.filter((x) => x.tier);
-    const misses = C - answered.length;
-    const cats = new Map();
-    for (const x of res) {
-      const c = catOf(x.card) || "Other";
-      const e = cats.get(c) || { cat: c, n: 0, pts: 0 };
-      e.n++; e.pts += x.pts;
-      cats.set(c, e);
-    }
-    const solid = [...cats.values()].filter((e) => e.n >= 3).map((e) => ({ ...e, avg: e.pts / e.n }));
-    const weakest = solid.slice().sort((a, b) => a.avg - b.avg)[0];
-    const best = solid.filter((e) => e !== weakest).sort((a, b) => b.avg - a.avg)[0];
-    const given = new Map();
-    for (const x of answered) {
-      const e = given.get(x.name) || { name: x.name, tier: x.tier, n: 0 };
-      e.n++;
-      given.set(x.name, e);
-    }
-    const counts = [...given.values()];
-    const top = counts.slice().sort((a, b) => b.n - a.n)[0];
-    const hipster = counts.filter((e) => e.tier === "hipster").sort((a, b) => b.n - a.n)[0];
-    const grails = res.filter((x) => x.tier === "outlier").length;
-    const bestFind = answered.slice().sort(newestFirst).reduce((a, x) => (!a || x.pts > a.pts ? x : a), null);
-    const star = avg >= 52 ? "★★★★★ A crate full of B-sides and deep cuts. Frankly, intimidating."
-      : avg >= 40 ? "★★★★☆ Good taste, occasionally ruined by a chart hit."
-      : avg >= 28 ? "★★★☆☆ Solid, if a little safe. You definitely own a Now That's What I Call Music."
-      : avg >= 16 ? "★★☆☆☆ Mostly the hits. We respect the honesty."
-      : "★☆☆☆☆ You play it very, very safe. The radio thanks you.";
-    const notes = [];
-    if (top && top.n >= 2) notes.push(top.tier === "head"
-      ? `You've said ${esc(top.name)} ${top.n} times. It's a fine answer. It's also everyone's answer.`
-      : `You keep coming back to ${esc(top.name)}. We see you.`);
-    if (hipster) notes.push(`You said ${esc(hipster.name)}. Everyone says ${esc(hipster.name)}.`);
-    if (misses >= 3) notes.push(`${misses} cards ran out of time or got skipped. Big thoughts, slow fingers.`);
-    if (weakest) notes.push(`${esc(weakest.cat)} is your blind spot at ${Math.round(weakest.avg)} points a card.`);
-    let closer = null;
-    if (best) closer = `Genuinely sharp on ${esc(best.cat)}: ${Math.round(best.avg)} points a card.`;
-    else if (grails) closer = `${grails} holy grail${grails === 1 ? "" : "s"}. The shop would like to buy your collection.`;
-    else if (bestFind) closer = `Your best find so far: ${esc(bestFind.name)}.`;
-    return `<p><b>${star}</b></p>` + notes.slice(0, 3).map((t) => `<p>${t}</p>`).join("") + (closer ? `<p>${closer}</p>` : "");
-  }
-  const findRow = (x) => {
-    const t = esc(TIER[x.tier].name);
-    return `<div class="lib-find"><i class="lib-dot" style="--c:${tc(x.tier)}" role="img" aria-label="${t}" title="${t}"></i><div class="lf-main"><b>${esc(x.name)}</b><small>${esc(x.card.q)}</small></div><span class="lf-no">No. ${numOf(x.day)}</span></div>`;
-  };
-  function drawFinds(all) {
-    const finds = libFinds;
-    $("lib-finds").innerHTML = finds.length
-      ? (all ? finds : finds.slice(0, 20)).map(findRow).join("")
-      : `<p class="rc-empty">No deep cuts yet. They're out there.</p>`;
-    $("lib-more").hidden = all || finds.length <= 20;
-    $("lib-more").textContent = `Show all ${finds.length}`;
-  }
-  function renderLibrary() {
-    if (G) { stopClock(); clearTimeout(G.anim); G.paused = true; G.phase = "away"; }
-    const s = loadStats(), res = gatherLibrary();
-    libFinds = res.filter((x) => x.tier === "outlier" || x.tier === "deep").sort(newestFirst);
-    $("lib-count").textContent = `Ranks collected: ${s.dist.filter((n) => n > 0).length} of ${RANKS.length}`;
-    $("lib-ranks").innerHTML = RANKS.map((r, i) => ({ r, i })).reverse().map(({ r, i }) =>
-      `<div class="lib-tile${s.dist[i] ? "" : " none"}"><span class="lib-emo" aria-hidden="true">${r.emoji}</span><b>${esc(r.name)}</b><small>×${s.dist[i]}</small></div>`).join("");
-    $("lib-critic").innerHTML = criticHTML(res);
-    drawFinds(false);
-    $("lib-stats").innerHTML = statsHTML(null);
-    show("library");
-  }
-  $("btn-library").addEventListener("click", renderLibrary);
-  $("btn-library-r").addEventListener("click", renderLibrary);
-  $("lib-more").addEventListener("click", () => drawFinds(true));
 
   // ---------- theme packs ----------
   // one volume of ten cards, in its fixed order; the same play as a daily, with nothing saved but its best
@@ -1695,7 +1561,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   }
   const openDlg = (id) => { const d = $(id); if (d.showModal) d.showModal(); else d.setAttribute("open", ""); };
   $("btn-help").addEventListener("click", () => openDlg("dlg-help"));
-  $("btn-stats").addEventListener("click", renderLibrary);
+  $("btn-stats").addEventListener("click", () => { $("stats-body").innerHTML = statsHTML(null); openDlg("dlg-stats"); });
   function renderSound() {
     $("btn-sound").setAttribute("aria-label", Sound.on ? "Sound on" : "Sound off");
     $("snd-wave").setAttribute("d", Sound.on ? "M16.5 8.5a5 5 0 0 1 0 7" : "M16 9l5 6M21 9l-5 6");
