@@ -124,6 +124,7 @@ body.on-home .mark { visibility: hidden; }
 .meta b { font-weight: 700; }
 .meta span { color: var(--ink-2); }
 .banner { background: var(--surface); border-radius: 8px; padding: 12px 14px; font-size: 16px; max-width: 34ch; }
+.h-line { font-size: 15px; color: var(--ink-2); max-width: 34ch; }
 
 /* play */
 .hud { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 14px; }
@@ -218,6 +219,7 @@ body.on-home .mark { visibility: hidden; }
 .squares i::after { content: ""; position: absolute; inset: 34%; border-radius: 50%; background: var(--bg); opacity: 0.8; }
 .r-best { font-size: 16px; color: var(--ink-2); }
 .r-best b { color: var(--ink); }
+.r-line { font-size: 15px; color: var(--ink-2); }
 .share-box { display: grid; gap: 10px; justify-items: center; }
 .share-box .btn { width: min(320px, 100%); }
 .name-in { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink-2); }
@@ -264,6 +266,7 @@ details.rc summary::-webkit-details-marker { display: none; }
 .rc-pts { text-align: right; display: grid; gap: 2px; }
 .rc-pts b { font: 900 22px/1 var(--f); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
 .rc-pts small { font-size: 12px; color: var(--ink-2); white-space: nowrap; }
+.x2 { display: inline-block; margin-left: 6px; vertical-align: middle; font: 800 11px/1 var(--f); letter-spacing: 0.04em; padding: 4px 5px; border-radius: 4px; background: var(--ink); color: var(--bg); }
 .rc-chev { width: 10px; height: 10px; border-right: 2px solid var(--ink-2); border-bottom: 2px solid var(--ink-2); transform: rotate(45deg) translateY(-3px); transition: transform 0.2s; }
 details.rc[open] .rc-chev { transform: rotate(225deg) translateY(-3px); }
 .rc-body { display: grid; gap: 0; padding: 0 0 14px; }
@@ -317,6 +320,8 @@ details.rc[open] .rc-chev { transform: rotate(225deg) translateY(-3px); }
 .dist-row.me .dist-bar { background: var(--t-body); color: var(--on-t-body); }
 .stats-wrap { display: grid; gap: 14px; }
 .eyebrow { font: 700 13px/1.3 var(--f); color: var(--ink-2); }
+.crate { display: grid; gap: 6px; font-size: 15px; }
+.fr-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 15px; }
 
 .toast { position: fixed; left: 50%; top: calc(64px + env(safe-area-inset-top, 0px)); transform: translate(-50%, -8px); background: var(--accent); color: var(--on-accent); padding: 11px 16px; border-radius: 6px; font-weight: 700; font-size: 15px; opacity: 0; pointer-events: none; transition: opacity 0.2s, transform 0.2s; z-index: 80; max-width: calc(100% - 32px); text-align: center; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
@@ -365,6 +370,9 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <div class="banner" id="h-challenge" hidden></div>
       <div class="cta"><button class="btn" id="btn-how" type="button">How to play</button><button class="btn primary" id="btn-play" type="button">Play</button></div>
       <p class="meta"><b id="h-date">Today</b><span id="h-no">No. 1</span><span>Nine categories · about four minutes</span></p>
+      <p class="h-line" id="h-streak" hidden></p>
+      <p class="h-line" id="h-goal"></p>
+      <p class="h-line" id="h-friends" hidden></p>
       <div class="links"><button class="link" id="btn-archive" type="button">Past puzzles</button><button class="link" id="btn-practice-home" type="button" hidden>Practice mode</button></div>
     </section>
 
@@ -417,6 +425,8 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         <h2 class="r-name" id="r-name"></h2>
         <p class="r-tag" id="r-tag"></p>
         <div class="r-score"><b id="r-score">0</b><span id="r-max">/ 500</span></div>
+        <p class="r-line" id="r-streak" hidden></p>
+        <p class="r-line" id="r-goal"></p>
         <div class="squares" id="r-squares" aria-hidden="true"></div>
         <p class="r-best" id="r-best" hidden></p>
       </div>
@@ -459,6 +469,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <li>Nine categories a day, the same for everyone. They get harder as you go.</li>
       <li>Type one answer for each. The first right answer locks in.</li>
       <li>You get 30 seconds a card. A wrong guess costs 3.</li>
+      <li>One card each day is a secret Double Track worth twice the points.</li>
     </ul>
     <p class="eyebrow">For "A cheese":</p>
     <ul class="ladder">
@@ -819,7 +830,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   const today = () => Math.floor(Date.now() / 864e5);
   const numOf = (day) => day - LAUNCH + 1;
   const N = 9, CARD_MS = 30000, WRONG_MS = 3000, PRACTICE_MS = 45000, PRACTICE_SKIP_MS = 3000;
-  const MAX = N * TIER.outlier.pts;
+  const MAX = (N + 1) * TIER.outlier.pts; // one card a day is a Double Track, worth twice
   const ORDER = TIERS.map((t) => t.key);
   const HEIGHTS = [100, 76, 56, 38, 25, 15];
   const ODDS = {
@@ -837,6 +848,20 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   const SLEEVES = [["var(--s-pink)", "var(--s-ink)"], ["var(--s-yellow)", "var(--s-ink)"], ["var(--s-blue)", "var(--s-paper)"], ["var(--s-green)", "var(--s-ink)"], ["var(--s-orange)", "var(--s-ink)"]];
   const sleeveOf = (p) => SLEEVES[parseInt(LT.hash36(p.id, 3), 36) % SLEEVES.length];
   const catOf = (p) => p.cat || LT.GROUPS[LT.groupOf(p)] || "";
+  // one secret Double Track a day, same card for everyone
+  const doubleIndex = (day) => parseInt(LT.hash36("dbl" + day, 4), 36) % N;
+  const MILESTONES = [3, 7, 14, 30, 50, 100], MAX_FREEZES = 2;
+  // daily goals, tested against the day's nine results
+  const GOALS = [
+    { id: "grail", text: "Find a holy grail", test: (r) => r.some((x) => x.tier === "outlier") },
+    { id: "nochart", text: "No chart hits today", test: (r) => r.filter((x) => x.tier).length >= 7 && !r.some((x) => x.tier === "head") },
+    { id: "all9", text: "Answer all nine", test: (r) => r.length === N && r.every((x) => x.tier) },
+    { id: "bsides", text: "Find three B-sides or rarer", test: (r) => r.filter((x) => ["tail", "deep", "outlier"].includes(x.tier)).length >= 3 },
+    { id: "last3", text: "Score 200+ on the last three cards", test: (r) => r.slice(-3).reduce((a, x) => a + x.pts, 0) >= 200 },
+    { id: "deepfirst", text: "Get a deep cut or better on the first card", test: (r) => ORDER.indexOf(r[0] && r[0].tier) >= ORDER.indexOf("deep") },
+    { id: "beat400", text: "Beat 400 points", test: (r) => r.reduce((a, x) => a + x.pts, 0) > 400 },
+  ];
+  const goalFor = (day) => GOALS[parseInt(LT.hash36("goal" + day, 4), 36) % GOALS.length];
 
   // ---------- settings, analytics ----------
   const CFG = Object.assign({ siteUrl: "https://vishalkj-ai.github.io/long-tail/", goatcounter: "", plausible: "" }, window.LT_CONFIG || {});
@@ -880,22 +905,38 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     let s = store.get("stats10", null);
     if (!s) {
       const old = store.get("stats", {});
-      s = { played: 0, streak: 0, maxStreak: 0, last: null, best: 0, total: 0, dist: RANKS.map(() => 0), practiceBest: 0 };
+      s = { played: 0, streak: 0, maxStreak: 0, last: null, best: 0, total: 0, dist: RANKS.map(() => 0), practiceBest: 0, freezes: 0, goalsDone: 0 };
       if (old && old.lastDay != null && old.lastDay >= today() - 1 && old.streak) { s.streak = old.streak; s.maxStreak = old.streak; s.last = old.lastDay; }
     }
     if (!Array.isArray(s.dist) || s.dist.length !== RANKS.length) s.dist = RANKS.map(() => 0);
+    s.freezes = Math.min(MAX_FREEZES, Math.max(0, +s.freezes || 0));
+    s.goalsDone = +s.goalsDone || 0;
     return s;
   }
-  const liveStreak = (s) => (s.last === today() || s.last === today() - 1 ? s.streak : 0);
-  function recordDaily(day, score) {
+  // a streak stays alive through missed days that streak freezes can cover
+  const liveStreak = (s) => (s.streak && s.last != null && today() - s.last - 1 <= s.freezes ? s.streak : 0);
+  const streakNotes = [];
+  function recordDaily(day, score, results) {
     const s = loadStats();
     if (s.last === day) return s;
-    s.streak = s.last === day - 1 ? s.streak + 1 : 1;
+    const missed = s.last == null ? 0 : day - s.last - 1;
+    if (missed > 0 && missed <= s.freezes && s.streak > 0) {
+      s.freezes -= missed;
+      streakNotes.push(`A streak freeze saved your ${s.streak}-day streak.`);
+      s.streak++;
+    } else s.streak = s.last === day - 1 ? s.streak + 1 : 1;
     s.maxStreak = Math.max(s.maxStreak || 0, s.streak);
+    if (MILESTONES.includes(s.streak)) { confetti(80); streakNotes.push(`${s.streak}-day streak.`); }
+    if (s.streak % 7 === 0 && s.freezes < MAX_FREEZES) { s.freezes++; streakNotes.push("You earned a streak freeze."); }
     s.last = day; s.played++; s.total += score; s.best = Math.max(s.best, score);
     s.dist[RANKS.indexOf(LT.rank(score, N))]++;
+    if (results && goalFor(day).test(results)) s.goalsDone++;
     store.set("stats10", s);
     return s;
+  }
+  // toasts are queued after the results screen opens, one after another
+  function flushStreakNotes() {
+    streakNotes.splice(0).forEach((text, i) => setTimeout(() => toast(text), i * 2800));
   }
 
   // ---------- sound and feel ----------
@@ -1025,7 +1066,8 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         let name = null;
         if (tier) for (const n of p.tiers[tier] || []) if (LT.hash36(n, 4) === seg.slice(6)) name = n;
         cards.push(p);
-        res.push({ id: p.id, name, tier, pts: tier ? TIER[tier].pts : 0 });
+        const dbl = !!tier && i === doubleIndex(day);
+        res.push({ id: p.id, name, tier, pts: tier ? TIER[tier].pts * (dbl ? 2 : 1) : 0, double: dbl });
       }
       if (!ok) continue;
       let who = "";
@@ -1036,6 +1078,52 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     return { day, cards: players[players.length - 1].cards, players };
   }
   const CH = decodeChallenge(location.hash);
+
+  // ---------- friends ----------
+  // everyone on a board you open is kept for 14 days; up to 20 friends
+  function saveFriends() {
+    const f = store.get("friends", {});
+    const me = myName().toLowerCase();
+    for (const pl of CH.players) {
+      if (!pl.who || pl.who.startsWith("Friend ") || (me && pl.who.toLowerCase() === me)) continue;
+      const e = Object.prototype.hasOwnProperty.call(f, pl.who) ? f[pl.who] : { days: {} };
+      e.days[CH.day] = pl.score;
+      e.days = Object.fromEntries(Object.keys(e.days).sort((a, b) => b - a).slice(0, 14).map((k) => [k, e.days[k]]));
+      f[pl.who] = e;
+    }
+    const names = Object.keys(f);
+    if (names.length > 20) {
+      const lastDay = (n) => Math.max(0, ...Object.keys((f[n] && f[n].days) || {}).map(Number));
+      names.sort((a, b) => lastDay(a) - lastDay(b)).slice(0, names.length - 20).forEach((n) => delete f[n]);
+    }
+    store.set("friends", f);
+  }
+  // friends with a score, most recent first, up to five
+  function friendRows() {
+    const f = store.get("friends", {});
+    return Object.keys(f).map((name) => {
+      const days = (f[name] && f[name].days) || {};
+      const keys = Object.keys(days).map(Number).sort((a, b) => b - a);
+      return { name, last: keys[0], best: Math.max(0, ...keys.map((k) => days[k])) };
+    }).filter((x) => x.last != null).sort((a, b) => b.last - a.last).slice(0, 5);
+  }
+  // home line about yesterday, when you and a friend both played it
+  function friendLine() {
+    const y = today() - 1;
+    const st = store.get(dayKey(y), null);
+    if (!st || !st.done) return "";
+    const mine = (st.results || []).reduce((a, r) => a + (r.pts || 0), 0);
+    const f = store.get("friends", {});
+    let top = null;
+    for (const name of Object.keys(f)) {
+      const sc = f[name] && f[name].days ? f[name].days[y] : undefined;
+      if (sc != null && (!top || sc > top.score)) top = { who: name, score: sc };
+    }
+    if (!top) return "";
+    const gap = Math.abs(top.score - mine);
+    if (!gap) return `Yesterday you tied ${top.who}`;
+    return top.score > mine ? `${top.who} beat you by ${gap} yesterday` : `Yesterday you beat ${top.who} by ${gap}`;
+  }
 
   // ---------- screens ----------
   let G = null;
@@ -1073,6 +1161,13 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     else if (st && st.results && st.results.length) $("btn-play").textContent = "Continue";
     else $("btn-play").textContent = CH && CH.day !== d ? `Play No. ${numOf(CH.day)}` : "Play";
     $("btn-practice-home").hidden = !doneToday;
+    const stats = loadStats(), streak = liveStreak(stats);
+    $("h-streak").hidden = streak < 1;
+    $("h-streak").textContent = `🔥 ${streak}-day streak${doneToday ? "" : " · play today to keep it"}${stats.freezes ? ` · ❄️ ${stats.freezes} saved` : ""}`;
+    $("h-goal").textContent = `Today's goal: ${goalFor(d).text}`;
+    const fl = CH ? "" : friendLine();
+    $("h-friends").hidden = !fl;
+    $("h-friends").textContent = fl;
     renderStreak();
     show("home");
   }
@@ -1272,7 +1367,8 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   function lockIn(entry) {
     pauseClock();
     const p = G.cards[G.i];
-    const res = { id: p.id, name: entry.name, tier: entry.tier, pts: TIER[entry.tier].pts };
+    const dbl = G.mode !== "practice" && G.i === doubleIndex(G.day);
+    const res = { id: p.id, name: entry.name, tier: entry.tier, pts: TIER[entry.tier].pts * (dbl ? 2 : 1), double: dbl };
     commit(res);
     reveal(res);
   }
@@ -1284,6 +1380,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     } else {
       G.st.deadline = null;
       saveDaily();
+      addToCrate(G.cards[G.i], res);
     }
   }
   function timeUp() {
@@ -1334,17 +1431,18 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
         tierEl.style.setProperty("--n", t.name.length);
         void tierEl.offsetWidth; tierEl.classList.add("go");
         if (ti >= 3 && !REDUCED) {
-          const steps = t.pts / 5;
+          const steps = res.pts / 5;
           let k2 = 0;
           $("rv-pts").textContent = "+0";
           const pay = () => { k2++; $("rv-pts").textContent = `+${k2 * 5}`; Sound.count(k2); if (k2 < steps) G.pay = setTimeout(pay, 900 / steps); };
           G.pay = setTimeout(pay, 120);
-        } else $("rv-pts").textContent = `+${t.pts}`;
+        } else $("rv-pts").textContent = `+${res.pts}`;
         $("rv-odds").textContent = ODDS[res.tier];
-        showPrice(t.pts, t.name, tc(res.tier), onc(res.tier));
+        showPrice(res.pts, res.double ? "Double track" : t.name, tc(res.tier), onc(res.tier));
         Sound.land(ti);
-        buzz(ti === 5 ? [40, 30, 40, 30, 140] : ti === 4 ? [30, 40, 70] : ti === 3 ? [25, 30, 40] : 20);
+        buzz(res.double ? [40, 30, 40, 30, 140, 60, 60, 160] : ti === 5 ? [40, 30, 40, 30, 140] : ti === 4 ? [30, 40, 70] : ti === 3 ? [25, 30, 40] : 20);
         if (ti >= 4 && G.mode !== "practice") confetti(ti === 5 ? 90 : 45);
+        if (res.double) { confetti(70); G.dbl = setTimeout(() => Sound.land(5), 1100); }
         setScore(true);
       } else {
         tierEl.textContent = missLabel || "Missed";
@@ -1393,6 +1491,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   function nextCard() {
     clearTimeout(G.anim);
     clearTimeout(G.pay);
+    clearTimeout(G.dbl);
     G.i++;
     if (G.mode === "practice") {
       if (G.i >= G.cards.length) { G.cards = G.cards.concat(practiceDeck()); }
@@ -1409,8 +1508,9 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     G.st.score = G.score;
     G.st.deadline = null;
     saveDaily();
-    if (G.mode === "daily") { recordDaily(G.day, G.score); track("finish", { score: G.score }); }
+    if (G.mode === "daily") { recordDaily(G.day, G.score, G.results); track("finish", { score: G.score }); }
     showResults(true);
+    flushStreakNotes();
   }
   function loadDone(day) {
     const st = store.get(dayKey(day), null);
@@ -1426,7 +1526,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     const sqs = G.results.map((x) => (x.tier ? TIER[x.tier].sq : LT.MISS_SQ));
     const grid = sqs.length === 9 ? [0, 3, 6].map((i) => sqs.slice(i, i + 3).join("")).join("\n") : sqs.join("");
     const group = CH && CH.day === G.day ? CH.players.length : 0;
-    return `Long Tail No. ${numOf(G.day)} ${r.emoji} ${r.name}\n${G.score}/${G.cards.length * TIER.outlier.pts}\n${grid}\n${group ? `Join our board (${group + 1} players)` : "Beat me"}: ${BASE_URL}#${encodeChallenge(G)}`;
+    return `Long Tail No. ${numOf(G.day)} ${r.emoji} ${r.name}\n${G.score}/${MAX}\n${grid}\n${group ? `Join our board (${group + 1} players)` : "Beat me"}: ${BASE_URL}#${encodeChallenge(G)}`;
   }
   let countdownT = null;
   function tickCountdown() {
@@ -1448,7 +1548,13 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     $("r-emoji").textContent = r.emoji;
     $("r-name").textContent = r.name;
     $("r-tag").textContent = r.tag;
-    $("r-max").textContent = `/ ${G.cards.length * TIER.outlier.pts}`;
+    $("r-max").textContent = `/ ${MAX}`;
+    const sNow = loadStats(), streakNow = liveStreak(sNow);
+    const hitToday = G.mode === "daily" && sNow.last === G.day && MILESTONES.includes(sNow.streak);
+    $("r-streak").hidden = G.mode !== "daily" || streakNow < 1;
+    $("r-streak").textContent = `🔥 ${streakNow}-day streak${hitToday ? " · new milestone" : ""}`;
+    const goal = goalFor(G.day);
+    $("r-goal").textContent = `Goal: ${goal.text} ${goal.test(G.results) ? "✓" : "✗"}`;
     $("r-squares").innerHTML = squaresHTML(G.results);
     $("r-squares").classList.toggle("grid", G.results.length === 9);
     $("in-name").value = store.get("name", "") || "";
@@ -1501,7 +1607,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       const you = r.name ? `<span class="rc-you">${esc(r.name)}</span>` : `<span class="rc-you none">${r.out === "skip" ? "Skipped" : "No answer"}</span>`;
       const bp = betterPicks(p, r.tier, r.name);
       const better = bp.length ? `<span class="rc-better">Could've said ${picksHTML(bp)}</span>` : `<span class="rc-better top">Top answer. Nothing scores more.</span>`;
-      return `<details class="rc" data-i="${i}"><summary><span class="rc-art" style="--sl:${sleeveOf(p)[0]};--c:${r.tier ? tc(r.tier) : "var(--line-2)"}"></span><span class="rc-main"><span class="rc-q">${esc(p.q)}</span>${you}${better}</span><span class="rc-pts"><b>${r.pts}</b><small>${r.tier ? esc(TIER[r.tier].name) : "No score"}</small></span><span class="rc-chev" aria-hidden="true"></span></summary><div class="rc-body"></div></details>`;
+      return `<details class="rc" data-i="${i}"><summary><span class="rc-art" style="--sl:${sleeveOf(p)[0]};--c:${r.tier ? tc(r.tier) : "var(--line-2)"}"></span><span class="rc-main"><span class="rc-q">${esc(p.q)}</span>${you}${better}</span><span class="rc-pts"><b>${r.pts}${r.double ? ` <span class="x2">×2</span>` : ""}</b><small>${r.tier ? esc(TIER[r.tier].name) : "No score"}</small></span><span class="rc-chev" aria-hidden="true"></span></summary><div class="rc-body"></div></details>`;
     }).join("");
     for (const d of $("r-cards").querySelectorAll("details")) {
       d.addEventListener("toggle", () => {
@@ -1559,13 +1665,36 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       });
     }
   }
+  // your crate: every card you have answered in a daily or past puzzle
+  function addToCrate(p, res) {
+    const c = store.get("crate", null) || { finds: {}, cats: {} };
+    if (res.tier) c.finds[res.tier] = (c.finds[res.tier] || 0) + 1;
+    const cat = catOf(p) || "Other";
+    const e = c.cats[cat] || { n: 0, pts: 0 };
+    e.n++; e.pts += res.pts;
+    c.cats[cat] = e;
+    store.set("crate", c);
+  }
+  function crateHTML() {
+    const c = store.get("crate", null) || {};
+    const finds = c.finds || {}, cats = c.cats || {};
+    const ranked = Object.keys(cats).filter((k) => cats[k].n >= 3)
+      .map((k) => ({ cat: k, avg: cats[k].pts / cats[k].n })).sort((a, b) => b.avg - a.avg);
+    const taste = ranked.length >= 2 ? `<p class="fine">Deep cutter in ${esc(ranked[0].cat)} · Mainstream in ${esc(ranked[ranked.length - 1].cat)}</p>` : "";
+    return `<div class="crate"><p class="eyebrow">Your crate</p><p>🟨 ${finds.outlier || 0} holy grails · 🟪 ${finds.deep || 0} deep cuts · 🟦 ${finds.tail || 0} B-sides</p>${taste}</div>`;
+  }
+  function friendsHTML() {
+    const rows = friendRows();
+    if (!rows.length) return "";
+    return `<p class="eyebrow">Friends</p><ul class="fr-list">${rows.map((x) => `<li>${esc(x.name)} · best ${x.best} · last No. ${numOf(x.last)}</li>`).join("")}</ul>`;
+  }
   function statsHTML(todayScore) {
     const s = loadStats();
     const avg = s.played ? Math.round(s.total / s.played) : 0;
     const max = Math.max(1, ...s.dist);
     const mine = todayScore == null ? -1 : RANKS.indexOf(LT.rank(todayScore, N));
     const dist = RANKS.map((r, i) => `<div class="dist-row${i === mine ? " me" : ""}"><span>${r.emoji} ${esc(r.name)}</span><div class="dist-bar" style="width:${Math.max(8, (s.dist[i] / max) * 100)}%">${s.dist[i]}</div></div>`).join("");
-    return `<div class="statrow"><div class="stat"><b>${s.played}</b><span>Played</span></div><div class="stat"><b>${liveStreak(s)}</b><span>Streak</span></div><div class="stat"><b>${s.best}</b><span>Best</span></div><div class="stat"><b>${avg}</b><span>Average</span></div></div><p class="eyebrow">Rank distribution</p><div class="dist">${dist}</div>${s.practiceBest ? `<p class="fine">Practice best: ${s.practiceBest}</p>` : ""}`;
+    return `<div class="statrow"><div class="stat"><b>${s.played}</b><span>Played</span></div><div class="stat"><b>${liveStreak(s)}</b><span>Streak</span></div><div class="stat"><b>${s.best}</b><span>Best</span></div><div class="stat"><b>${avg}</b><span>Average</span></div></div>${s.played ? `<p class="fine">Daily goals met: ${s.goalsDone} of ${s.played}</p>` : ""}<p class="eyebrow">Rank distribution</p><div class="dist">${dist}</div>${crateHTML()}${friendsHTML()}${s.practiceBest ? `<p class="fine">Practice best: ${s.practiceBest}</p>` : ""}`;
   }
   $("in-name").addEventListener("input", (e) => store.set("name", e.target.value.trim().slice(0, 24)));
   $("btn-share").addEventListener("click", async () => {
@@ -1700,6 +1829,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       s.played = Math.max(0, s.played - 1); s.total = Math.max(0, s.total - sc);
       const ri = RANKS.indexOf(LT.rank(sc, N)); s.dist[ri] = Math.max(0, (s.dist[ri] || 0) - 1);
       s.streak = Math.max(0, s.streak - 1); s.last = s.streak ? d - 1 : null;
+      if (st.results && goalFor(d).test(st.results)) s.goalsDone = Math.max(0, s.goalsDone - 1);
       store.set("stats10", s);
     }
     try { localStorage.removeItem("lt:" + dayKey(d)); } catch (e) { /* storage blocked */ }
@@ -1707,7 +1837,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     setTimeout(() => toast("Today's game has been reset."), 300);
   }
   renderSound();
-  if (CH) track("challenge_open");
+  if (CH) { track("challenge_open"); saveFriends(); }
   const bootDay = CH ? CH.day : today();
   if (loadDone(bootDay)) showResults(false);
   else renderHome();
