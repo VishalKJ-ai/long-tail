@@ -1,0 +1,1380 @@
+[
+ {
+  "id": "spo-fb-pl-footballer",
+  "cat": "Football",
+  "title": "Premier icons",
+  "q": "A Premier League footballer",
+  "rule": "Any player who appeared in a Premier League match, past or present, counts; give the name they are best known by.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Cristiano Ronaldo",
+    "David Beckham",
+    "Wayne Rooney",
+    "Steven Gerrard",
+    "Thierry Henry"
+   ],
+   "hipster": [
+    "Eric Cantona",
+    "Dennis Bergkamp"
+   ],
+   "body": [
+    "Alan Shearer",
+    "Frank Lampard",
+    "Michael Owen",
+    "Robbie Fowler",
+    "Ian Wright",
+    "Andy Cole",
+    "Dwight Yorke",
+    "Sergio Agüero",
+    "Mohamed Salah",
+    "Harry Kane",
+    "Sadio Mané",
+    "Kevin De Bruyne",
+    "Vincent Kompany",
+    "Paul Scholes",
+    "Ryan Giggs",
+    "Roy Keane",
+    "Gary Neville",
+    "Rio Ferdinand",
+    "John Terry",
+    "Ashley Cole",
+    "Jamie Vardy",
+    "Peter Crouch",
+    "Gareth Bale",
+    "Luis Suárez",
+    "Didier Drogba",
+    "Yaya Touré",
+    "Cesc Fàbregas",
+    "Peter Schmeichel",
+    "Ruud van Nistelrooy",
+    "Robbie Keane",
+    "Jermain Defoe",
+    "Emmanuel Adebayor",
+    "Sol Campbell",
+    "Teddy Sheringham",
+    "Gianfranco Zola",
+    "Nicolas Anelka"
+   ],
+   "tail": [
+    "Matt Le Tissier",
+    "Ledley King",
+    "Joe Cole",
+    "Glen Johnson",
+    "Michael Carrick",
+    "Kevin Phillips",
+    "Shaun Wright-Phillips",
+    "Les Ferdinand",
+    "Stan Collymore",
+    "Dion Dublin",
+    "Chris Sutton",
+    "Paul Dickov",
+    "Paolo Di Canio",
+    "Marc Overmars",
+    "Tony Yeboah",
+    "Hernán Crespo",
+    "Dietmar Hamann",
+    "Jaap Stam",
+    "Ole Gunnar Solskjær",
+    "Nwankwo Kanu",
+    "Mark Viduka",
+    "Juninho",
+    "Lee Bowyer",
+    "Richard Dunne",
+    "Kevin Davies"
+   ],
+   "deep": [
+    "Titus Bramble",
+    "Trevor Sinclair",
+    "Nolberto Solano",
+    "Nikos Dabizas",
+    "Patrick Berger",
+    "Gustavo Poyet",
+    "Paulo Wanchope"
+   ],
+   "outlier": [
+    "Efan Ekoku",
+    "Jens Lehmann"
+   ]
+  },
+  "alias": {
+   "Sergio Agüero": [
+    "Sergio Aguero",
+    "Kun Aguero"
+   ],
+   "Sadio Mané": [
+    "Sadio Mane"
+   ],
+   "Luis Suárez": [
+    "Luis Suarez"
+   ],
+   "Yaya Touré": [
+    "Yaya Toure"
+   ],
+   "Cesc Fàbregas": [
+    "Cesc Fabregas"
+   ],
+   "Ole Gunnar Solskjær": [
+    "Ole Gunnar Solskjaer",
+    "Ole Solskjaer"
+   ],
+   "Hernán Crespo": [
+    "Hernan Crespo"
+   ]
+  },
+  "traps": {
+   "Pelé": "He never played a Premier League match; his career was in Brazil, Italy and the United States.",
+   "Diego Maradona": "He played in Italy and Spain, never in England's top flight.",
+   "Zinedine Zidane": "He played in Italy and Spain, never in England's top flight.",
+   "Ronaldinho": "He played in Spain, Italy and Brazil, never in the Premier League."
+  },
+  "fact": "Michael Owen won the Ballon d'Or in 2001 while playing for Liverpool, the first English winner since Kevin Keegan in 1979."
+ },
+ {
+  "id": "spo-fb-england-international",
+  "cat": "Football",
+  "title": "Caps lock",
+  "q": "An England men's international",
+  "rule": "Any player who won at least one full senior cap for England; give the name they are best known by.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Wayne Rooney",
+    "David Beckham",
+    "Bobby Moore",
+    "Gary Lineker",
+    "Steven Gerrard"
+   ],
+   "hipster": [
+    "Stanley Matthews",
+    "Gordon Banks"
+   ],
+   "body": [
+    "Harry Kane",
+    "Geoff Hurst",
+    "Bobby Charlton",
+    "Jack Charlton",
+    "Gary Neville",
+    "Paul Gascoigne",
+    "Peter Shilton",
+    "Frank Lampard",
+    "John Terry",
+    "Ashley Cole",
+    "Michael Owen",
+    "Alan Shearer",
+    "Jordan Henderson",
+    "Raheem Sterling",
+    "Jude Bellingham",
+    "Declan Rice",
+    "Jordan Pickford",
+    "Marcus Rashford",
+    "Phil Foden",
+    "Kyle Walker",
+    "John Stones",
+    "Trent Alexander-Arnold",
+    "Jack Grealish",
+    "Bukayo Saka"
+   ],
+   "tail": [
+    "Ray Wilson",
+    "Roger Hunt",
+    "Nobby Stiles",
+    "Alan Ball",
+    "Martin Peters",
+    "Jimmy Greaves",
+    "Tom Finney",
+    "Billy Wright",
+    "Bryan Robson",
+    "Glenn Hoddle",
+    "Kevin Keegan",
+    "Trevor Brooking",
+    "Ray Clemence",
+    "Peter Crouch",
+    "Ashley Young",
+    "Joe Hart",
+    "Ledley King",
+    "Emile Heskey",
+    "Teddy Sheringham",
+    "Darren Anderton",
+    "Sol Campbell",
+    "Paul Ince",
+    "David Platt",
+    "Chris Waddle",
+    "John Barnes",
+    "Stuart Pearce",
+    "Terry Butcher",
+    "Viv Anderson"
+   ],
+   "deep": [
+    "Stan Mortensen",
+    "Tommy Lawton",
+    "Nat Lofthouse",
+    "Ian Wright",
+    "Gary Stevens",
+    "Dixie Dean",
+    "Peter Reid"
+   ],
+   "outlier": [
+    "Wilf Mannion",
+    "Eddie Hapgood",
+    "Raich Carter"
+   ]
+  },
+  "alias": {
+   "Trent Alexander-Arnold": [
+    "Trent Alexander Arnold"
+   ],
+   "Bobby Charlton": [
+    "Sir Bobby Charlton"
+   ]
+  },
+  "traps": {
+   "Ryan Giggs": "He played for Wales, never for England.",
+   "Gareth Bale": "He played for Wales, never for England.",
+   "Kenny Dalglish": "He played for Scotland, never for England.",
+   "Pelé": "He played for Brazil, never for England."
+  },
+  "fact": "Gordon Banks made his famous 1970 World Cup save from Pelé, a close-range header that he somehow kept out."
+ },
+ {
+  "id": "spo-fb-football-manager",
+  "cat": "Football",
+  "title": "Touchline boss",
+  "q": "A football club or national team manager",
+  "rule": "Anyone who held a senior head coach or manager role at a club or national team, even briefly or as caretaker for a match, counts.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Alex Ferguson",
+    "José Mourinho",
+    "Pep Guardiola",
+    "Arsène Wenger",
+    "Jürgen Klopp"
+   ],
+   "hipster": [
+    "Bob Paisley",
+    "Matt Busby"
+   ],
+   "body": [
+    "Brian Clough",
+    "Bill Shankly",
+    "Johan Cruyff",
+    "Kenny Dalglish",
+    "Harry Redknapp",
+    "Sam Allardyce",
+    "Terry Venables",
+    "Graham Taylor",
+    "Roy Hodgson",
+    "Gareth Southgate",
+    "Sven-Göran Eriksson",
+    "Fabio Capello",
+    "Carlo Ancelotti",
+    "Diego Simeone",
+    "Antonio Conte",
+    "Mauricio Pochettino",
+    "Louis van Gaal",
+    "Rafael Benítez",
+    "Claudio Ranieri",
+    "Ruud Gullit",
+    "Diego Maradona",
+    "Thomas Tuchel",
+    "Mikel Arteta",
+    "Unai Emery"
+   ],
+   "tail": [
+    "Don Revie",
+    "Howard Kendall",
+    "Joe Mercer",
+    "Ron Atkinson",
+    "Kevin Keegan",
+    "Glenn Hoddle",
+    "Steve Coppell",
+    "Mark Hughes",
+    "Alan Pardew",
+    "Ole Gunnar Solskjær",
+    "Julian Nagelsmann",
+    "Luis Enrique",
+    "Vicente del Bosque",
+    "Marcelo Bielsa",
+    "Ronald Koeman",
+    "Arrigo Sacchi",
+    "Enzo Maresca",
+    "Ange Postecoglou",
+    "Sean Dyche",
+    "Tony Pulis",
+    "Tommy Docherty",
+    "Alf Ramsey",
+    "Bobby Robson",
+    "Walter Smith",
+    "Jock Stein",
+    "Ron Greenwood",
+    "Terry Neill"
+   ],
+   "deep": [
+    "Helenio Herrera",
+    "Ernst Happel",
+    "Helmut Schön",
+    "Harry Catterick",
+    "Vujadin Boškov",
+    "Bora Milutinović",
+    "Jim Smith"
+   ],
+   "outlier": [
+    "Bob Stokoe",
+    "Lawrie McMenemy"
+   ]
+  },
+  "alias": {
+   "Alex Ferguson": [
+    "Sir Alex Ferguson"
+   ],
+   "Pep Guardiola": [
+    "Josep Guardiola"
+   ],
+   "Ole Gunnar Solskjær": [
+    "Ole Solskjaer"
+   ],
+   "Sven-Göran Eriksson": [
+    "Sven Eriksson"
+   ],
+   "Bobby Robson": [
+    "Sir Bobby Robson"
+   ],
+   "Alf Ramsey": [
+    "Sir Alf Ramsey"
+   ]
+  },
+  "traps": {
+   "Lionel Messi": "A brilliant player, but he has never managed a club or national team.",
+   "Cristiano Ronaldo": "A brilliant player, but he has never managed a club or national team.",
+   "Michael Jordan": "A basketball legend, not a football manager.",
+   "Pelé": "He never managed a club or national team."
+  },
+  "fact": "Jock Stein's Celtic became the first British club to win the European Cup, beating Inter Milan in 1967."
+ },
+ {
+  "id": "spo-fb-world-cup-winner",
+  "cat": "Football",
+  "title": "Trophy lifters",
+  "q": "A player who has won a FIFA World Cup",
+  "rule": "Any player in a World Cup-winning squad counts, even if they only played in the group stage or never came on; give the name they are best known by.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Pelé",
+    "Diego Maradona",
+    "Lionel Messi",
+    "Zinedine Zidane",
+    "Bobby Moore"
+   ],
+   "hipster": [
+    "Garrincha",
+    "Dino Zoff"
+   ],
+   "body": [
+    "Franz Beckenbauer",
+    "Ronaldo Nazário",
+    "Ronaldinho",
+    "Kylian Mbappé",
+    "Thierry Henry",
+    "Andrés Iniesta",
+    "Xavi",
+    "Gerd Müller",
+    "Miroslav Klose",
+    "Lothar Matthäus",
+    "Jürgen Klinsmann",
+    "Paolo Rossi",
+    "Gianluigi Buffon",
+    "Fabio Cannavaro",
+    "Andrea Pirlo",
+    "Francesco Totti",
+    "Alessandro Del Piero",
+    "Ángel Di María",
+    "Mario Kempes",
+    "Geoff Hurst",
+    "Bobby Charlton",
+    "Romário",
+    "Rivaldo",
+    "Cafu",
+    "Roberto Carlos",
+    "Sergio Ramos",
+    "Iker Casillas",
+    "Gerard Piqué",
+    "Manuel Neuer",
+    "Philipp Lahm",
+    "Thomas Müller",
+    "Bastian Schweinsteiger",
+    "Mario Götze",
+    "Gordon Banks",
+    "Didier Deschamps",
+    "Paul Pogba",
+    "Antoine Griezmann",
+    "N'Golo Kanté",
+    "Hugo Lloris"
+   ],
+   "tail": [
+    "Gaetano Scirea",
+    "Marco Tardelli",
+    "Giuseppe Bergomi",
+    "Claudio Gentile",
+    "Daniele De Rossi",
+    "Gennaro Gattuso",
+    "Luca Toni",
+    "Alessandro Nesta",
+    "Gianluca Zambrotta",
+    "Marco Materazzi",
+    "Jorge Valdano",
+    "Oscar Ruggeri",
+    "Daniel Passarella",
+    "Osvaldo Ardiles",
+    "Ubaldo Fillol",
+    "Marcel Desailly",
+    "Lilian Thuram",
+    "Emmanuel Petit",
+    "Laurent Blanc",
+    "Robert Pires",
+    "Youri Djorkaeff",
+    "Fabien Barthez",
+    "Olivier Giroud",
+    "Raphaël Varane",
+    "Benjamin Pavard",
+    "Blaise Matuidi",
+    "Jairzinho",
+    "Rivelino",
+    "Tostão",
+    "Carlos Alberto",
+    "Gérson",
+    "Didi",
+    "Vavá",
+    "Zagallo",
+    "Bebeto",
+    "Dunga",
+    "Julián Álvarez",
+    "Emiliano Martínez",
+    "Enzo Fernández",
+    "Rodrigo De Paul",
+    "Xabi Alonso",
+    "David Villa",
+    "Fernando Torres",
+    "Sergio Busquets",
+    "Cesc Fàbregas",
+    "Carles Puyol",
+    "Andreas Brehme",
+    "Rudi Völler",
+    "Jürgen Kohler"
+   ],
+   "deep": [
+    "Obdulio Varela",
+    "Juan Schiaffino",
+    "Alcides Ghiggia",
+    "Helmut Rahn",
+    "Fritz Walter",
+    "Wolfgang Overath",
+    "Sepp Maier",
+    "Berti Vogts",
+    "Paul Breitner",
+    "Uli Hoeneß",
+    "Sami Khedira",
+    "Per Mertesacker",
+    "Thomas Häßler",
+    "Giuseppe Meazza",
+    "Mats Hummels",
+    "Toni Kroos"
+   ],
+   "outlier": [
+    "Horst Eckel",
+    "Max Morlock",
+    "Bernd Hölzenbein",
+    "Ricardo Villa",
+    "Julian Draxler"
+   ]
+  },
+  "alias": {
+   "Ronaldo Nazário": [
+    "Ronaldo",
+    "Ronaldo Nazario"
+   ],
+   "Pelé": [
+    "Edson Arantes do Nascimento"
+   ],
+   "Lionel Messi": [
+    "Leo Messi"
+   ],
+   "Diego Maradona": [
+    "Maradona"
+   ]
+  },
+  "traps": {
+   "Johan Cruyff": "He played for the Netherlands, who lost two World Cup finals but never won the trophy.",
+   "Eusébio": "Portugal's great, but Portugal have never won the World Cup.",
+   "Cristiano Ronaldo": "Portugal have never won the World Cup, so he has no winners' medal.",
+   "Gary Lineker": "England reached a semi-final in his era, but he never won the World Cup."
+  },
+  "fact": "Alcides Ghiggia scored the goal that gave Uruguay the 1950 World Cup, silencing the huge crowd at Rio's Maracanã."
+ },
+ {
+  "id": "spo-fb-stadium",
+  "cat": "Football",
+  "title": "Pitch perfect",
+  "q": "A football venue",
+  "rule": "Any venue used for professional football, in the UK or anywhere in the world, counts; give its usual name.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Old Trafford",
+    "Anfield",
+    "Wembley Stadium",
+    "Camp Nou",
+    "Maracanã Stadium"
+   ],
+   "hipster": [
+    "San Siro",
+    "Hampden Park"
+   ],
+   "body": [
+    "Emirates Stadium",
+    "Stamford Bridge",
+    "Etihad Stadium",
+    "Villa Park",
+    "Goodison Park",
+    "St James' Park",
+    "Elland Road",
+    "Molineux Stadium",
+    "Tottenham Hotspur Stadium",
+    "White Hart Lane",
+    "Highbury",
+    "Ibrox Stadium",
+    "Celtic Park",
+    "Parc des Princes",
+    "Allianz Arena",
+    "Signal Iduna Park",
+    "Santiago Bernabéu",
+    "Estadio Azteca",
+    "Stade de France",
+    "Allianz Stadium",
+    "Selhurst Park",
+    "Stadium of Light",
+    "London Stadium",
+    "Carrow Road",
+    "Craven Cottage",
+    "Vicarage Road",
+    "Hillsborough",
+    "Ewood Park",
+    "Fratton Park",
+    "St Mary's Stadium"
+   ],
+   "tail": [
+    "Turf Moor",
+    "Bramall Lane",
+    "Portman Road",
+    "Deepdale",
+    "Kenilworth Road",
+    "Vitality Stadium",
+    "Brentford Community Stadium",
+    "Amex Stadium",
+    "Riverside Stadium",
+    "Ashton Gate",
+    "Pittodrie",
+    "Tynecastle Park",
+    "Easter Road",
+    "McDiarmid Park",
+    "Rugby Park",
+    "Fir Park",
+    "Dens Park",
+    "Tannadice Park",
+    "Firhill Stadium",
+    "Almondvale Stadium"
+   ],
+   "deep": [
+    "Priestfield Stadium",
+    "Gigg Lane",
+    "Ayresome Park",
+    "Roker Park",
+    "Filbert Street",
+    "Maine Road",
+    "Highfield Road",
+    "Sincil Bank",
+    "Plough Lane",
+    "Elm Park",
+    "Ninian Park",
+    "Victoria Ground",
+    "Valley Parade",
+    "Brisbane Road",
+    "Griffin Park",
+    "Boundary Park",
+    "Bloomfield Road",
+    "Edgeley Park",
+    "Bootham Crescent",
+    "Vale Park",
+    "Brunton Park",
+    "Sixfields",
+    "Field Mill",
+    "Prenton Park",
+    "Meadow Lane",
+    "Adams Park"
+   ],
+   "outlier": [
+    "Gay Meadow",
+    "Dell",
+    "Crabble Athletic Ground",
+    "Bescot Stadium"
+   ]
+  },
+  "alias": {
+   "Wembley Stadium": [
+    "Wembley",
+    "Empire Stadium"
+   ],
+   "Emirates Stadium": [
+    "Emirates"
+   ],
+   "Etihad Stadium": [
+    "Etihad"
+   ],
+   "Santiago Bernabéu": [
+    "Bernabeu"
+   ],
+   "Camp Nou": [
+    "Nou Camp"
+   ],
+   "Maracanã Stadium": [
+    "Maracana",
+    "Estádio do Maracanã"
+   ],
+   "San Siro": [
+    "Giuseppe Meazza",
+    "Stadio Giuseppe Meazza"
+   ],
+   "Hampden Park": [
+    "Hampden"
+   ],
+   "Dell": [
+    "The Dell"
+   ],
+   "Molineux Stadium": [
+    "Molineux"
+   ],
+   "Estadio Azteca": [
+    "Azteca"
+   ],
+   "Tottenham Hotspur Stadium": [
+    "Tottenham Stadium",
+    "New White Hart Lane"
+   ],
+   "St James' Park": [
+    "St James Park"
+   ],
+   "Signal Iduna Park": [
+    "Westfalenstadion",
+    "Westfalen Stadion"
+   ]
+  },
+  "traps": {
+   "Twickenham": "A rugby stadium in London, not a football ground.",
+   "Lord's": "A cricket ground in London, not a football ground.",
+   "Murrayfield": "A rugby stadium in Edinburgh, not a football ground.",
+   "Madison Square Garden": "An indoor arena in New York used for basketball and ice hockey, not football."
+  },
+  "fact": "Wembley's original name was the Empire Stadium, built for the 1924 British Empire Exhibition."
+ },
+ {
+  "id": "spo-fb-pl-club-nickname",
+  "cat": "Football",
+  "title": "Pet names",
+  "q": "A Premier League club's nickname",
+  "rule": "Give the nickname without a leading 'The'; any nickname that a current or former Premier League club is known by counts.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Gunners",
+    "Reds",
+    "Blues",
+    "Spurs",
+    "Toffees"
+   ],
+   "hipster": [
+    "Pensioners",
+    "Hammers"
+   ],
+   "body": [
+    "Red Devils",
+    "Citizens",
+    "Magpies",
+    "Foxes",
+    "Saints",
+    "Villans",
+    "Canaries",
+    "Seagulls",
+    "Eagles",
+    "Cottagers",
+    "Bees",
+    "Cherries",
+    "Forest",
+    "Black Cats",
+    "Toon",
+    "Sky Blues",
+    "Baggies",
+    "Potters",
+    "Wolves",
+    "Clarets",
+    "Owls",
+    "Blades",
+    "Swans",
+    "Trotters",
+    "Rovers",
+    "Tigers",
+    "Terriers"
+   ],
+   "tail": [
+    "Irons",
+    "Lilywhites",
+    "Whites",
+    "Albion"
+   ],
+   "deep": [
+    "Hatters",
+    "Rams",
+    "Latics",
+    "Peacocks",
+    "Hoops",
+    "Tractor Boys",
+    "Pompey",
+    "Boro"
+   ],
+   "outlier": [
+    "Tricky Trees",
+    "Hornets",
+    "Bluebirds"
+   ]
+  },
+  "alias": {
+   "Lilywhites": [
+    "Lily Whites"
+   ],
+   "Black Cats": [
+    "Blackcats"
+   ],
+   "Sky Blues": [
+    "Skyblues"
+   ],
+   "Tractor Boys": [
+    "Tractor Boy"
+   ],
+   "Red Devils": [
+    "Red Devil"
+   ]
+  },
+  "traps": {
+   "Cobblers": "A nickname for Northampton Town, which has never played in the Premier League.",
+   "Bulls": "No Premier League club has used this as its nickname."
+  },
+  "fact": "Chelsea's Pensioners nickname comes from the retired soldiers of the nearby Royal Hospital Chelsea."
+ },
+ {
+  "id": "spo-fb-famous-goalkeeper",
+  "cat": "Football",
+  "title": "Last line",
+  "q": "A famous football goalkeeper",
+  "rule": "Anyone who played as a goalkeeper at senior level for a club or country counts; give the name they are best known by.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Peter Schmeichel",
+    "Gordon Banks",
+    "Gianluigi Buffon",
+    "Iker Casillas",
+    "David Seaman"
+   ],
+   "hipster": [
+    "Lev Yashin",
+    "Dino Zoff"
+   ],
+   "body": [
+    "Manuel Neuer",
+    "Oliver Kahn",
+    "Peter Shilton",
+    "Ray Clemence",
+    "Jan Oblak",
+    "Thibaut Courtois",
+    "Edwin van der Sar",
+    "Alisson Becker",
+    "Ederson",
+    "Joe Hart",
+    "David de Gea",
+    "Jens Lehmann",
+    "Petr Čech",
+    "Hugo Lloris",
+    "Bruce Grobbelaar",
+    "Neville Southall",
+    "Sepp Maier"
+   ],
+   "tail": [
+    "Dida",
+    "Julio César",
+    "Kasper Schmeichel",
+    "Jerzy Dudek",
+    "Victor Valdés",
+    "Pepe Reina",
+    "Marc-André ter Stegen",
+    "Nigel Martyn",
+    "Tim Howard",
+    "Brad Friedel",
+    "Shay Given",
+    "Peter Bonetti",
+    "Alex Stepney",
+    "Pat Jennings",
+    "Nigel Spink",
+    "Mark Bosnich",
+    "Dave Beasant",
+    "Bob Wilson"
+   ],
+   "deep": [
+    "Harry Gregg",
+    "Jim Montgomery"
+   ],
+   "outlier": [
+    "Ron Springett",
+    "Gary Sprake",
+    "Tony Coton"
+   ]
+  },
+  "alias": {
+   "Lev Yashin": [
+    "Lev Jashin"
+   ],
+   "Oliver Kahn": [
+    "Oliver Khan"
+   ],
+   "Julio César": [
+    "Julio Cesar"
+   ],
+   "Pepe Reina": [
+    "Jose Reina"
+   ]
+  },
+  "traps": {
+   "Thierry Henry": "A famous striker who never played in goal.",
+   "Sergio Ramos": "A famous defender who never played in goal.",
+   "Pelé": "A famous forward; he never played as a goalkeeper."
+  },
+  "fact": "Lev Yashin is the only goalkeeper to have won the Ballon d'Or, which he did in 1963."
+ },
+ {
+  "id": "spo-fb-commentator-pundit",
+  "cat": "Football",
+  "title": "Soundbite",
+  "q": "A football TV or radio commentator or pundit",
+  "rule": "Anyone who has commentated on or analysed football for a broadcaster, from any era, counts; give the name they are best known by.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "John Motson",
+    "Alan Hansen",
+    "Gary Neville",
+    "Roy Keane",
+    "Alan Shearer"
+   ],
+   "hipster": [
+    "Clive Tyldesley",
+    "Guy Mowbray"
+   ],
+   "body": [
+    "Martin Tyler",
+    "Barry Davies",
+    "Brian Moore",
+    "Jamie Carragher",
+    "Ian Wright",
+    "Graeme Souness",
+    "Jamie Redknapp",
+    "Micah Richards",
+    "Rio Ferdinand",
+    "Chris Kamara",
+    "Andy Gray",
+    "Mark Lawrenson",
+    "Kenneth Wolstenholme",
+    "David Coleman",
+    "Ally McCoist",
+    "Glenn Hoddle",
+    "Matt Le Tissier",
+    "Robbie Savage",
+    "Jermaine Jenas",
+    "Steve McManaman",
+    "Martin Keown",
+    "Lee Dixon",
+    "Joe Cole",
+    "Dion Dublin",
+    "Terry Venables",
+    "Ian Darke",
+    "Peter Drury"
+   ],
+   "tail": [
+    "Kevin Keegan",
+    "Gordon Strachan",
+    "Ruud Gullit",
+    "Chris Sutton",
+    "Paul Merson",
+    "David Pleat",
+    "Stan Collymore",
+    "Trevor Brooking",
+    "Gary Newbon",
+    "Jon Champion",
+    "Jonathan Pearce",
+    "Alan Green",
+    "Chris Waddle"
+   ],
+   "deep": [
+    "Tony Gubba",
+    "Hugh Johns",
+    "Phil Neville"
+   ],
+   "outlier": [
+    "Bob Wilson",
+    "Alan Parry"
+   ]
+  },
+  "alias": {
+   "Ally McCoist": [
+    "Alistair McCoist"
+   ],
+   "Kenneth Wolstenholme": [
+    "Ken Wolstenholme"
+   ],
+   "Matt Le Tissier": [
+    "Matthew Le Tissier"
+   ]
+  },
+  "traps": {
+   "Eddie Waring": "A famous rugby league commentator, not a football one.",
+   "Bill McLaren": "A famous rugby union commentator, not a football one.",
+   "Richie Benaud": "A famous cricket commentator, not a football one.",
+   "Murray Walker": "A famous motor racing commentator, not a football one."
+  },
+  "fact": "Kenneth Wolstenholme was the BBC commentator for England's 1966 World Cup final win over West Germany."
+ },
+ {
+  "id": "spo-fb-position-tactic",
+  "cat": "Football",
+  "title": "Game plan",
+  "q": "A playing position or tactic",
+  "rule": "Use the English name for a role or tactic on the pitch; hyphenated and unhyphenated forms count.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Goalkeeper",
+    "Striker",
+    "Winger",
+    "Centre-back",
+    "Midfielder"
+   ],
+   "hipster": [
+    "False nine",
+    "Sweeper"
+   ],
+   "body": [
+    "Defender",
+    "Full-back",
+    "Right-back",
+    "Left-back",
+    "Wing-back",
+    "Defensive midfielder",
+    "Attacking midfielder",
+    "Number 10",
+    "Playmaker",
+    "Centre forward",
+    "Target man",
+    "Box-to-box",
+    "Tiki-taka",
+    "Gegenpressing",
+    "Catenaccio",
+    "Total football",
+    "Offside trap",
+    "Counter-attack",
+    "Parking the bus",
+    "High press",
+    "Holding midfielder"
+   ],
+   "tail": [
+    "Overlap",
+    "Underlap",
+    "Third man run",
+    "Through ball",
+    "Vertical play",
+    "Route One",
+    "Direct play",
+    "Zonal marking",
+    "Man-marking",
+    "Diamond",
+    "Sweeper keeper",
+    "Ball-playing defender",
+    "Deep-lying playmaker"
+   ],
+   "deep": [
+    "Pivot",
+    "Poacher",
+    "Second striker",
+    "Inside forward",
+    "Anchor"
+   ],
+   "outlier": [
+    "Christmas tree",
+    "Regista",
+    "Trequartista",
+    "Libero"
+   ]
+  },
+  "alias": {
+   "Centre-back": [
+    "Center-back",
+    "Centre-half",
+    "Center-half"
+   ],
+   "Centre forward": [
+    "Center forward"
+   ],
+   "Full-back": [
+    "Fullback"
+   ],
+   "Wing-back": [
+    "Wingback"
+   ],
+   "Number 10": [
+    "Number Ten",
+    "No. 10"
+   ],
+   "Tiki-taka": [
+    "Tiki taka"
+   ],
+   "Gegenpressing": [
+    "Counter-pressing",
+    "Gegen-pressing"
+   ],
+   "Counter-attack": [
+    "Counterattack",
+    "Counter attack"
+   ],
+   "Parking the bus": [
+    "Park the bus"
+   ],
+   "Box-to-box": [
+    "Box to box"
+   ],
+   "Route One": [
+    "Route 1"
+   ],
+   "Man-marking": [
+    "Man marking"
+   ],
+   "Sweeper keeper": [
+    "Sweeper-keeper"
+   ]
+  },
+  "traps": {
+   "Quarterback": "A position in American football, not association football.",
+   "Hooker": "A rugby union position, not a football one.",
+   "Point guard": "A basketball position, not a football one.",
+   "Shortstop": "A baseball position, not a football one."
+  },
+  "fact": "Catenaccio, the defensive system Italian clubs made famous, literally translates as door bolt."
+ },
+ {
+  "id": "spo-fb-scottish-club",
+  "cat": "Football",
+  "title": "Highland fling",
+  "q": "A Scottish professional football club",
+  "rule": "Any club that has played in the Scottish Football League or the Scottish Premiership, past or present, counts; name it as commonly known.",
+  "level": 1,
+  "surnames": false,
+  "tiers": {
+   "head": [
+    "Celtic",
+    "Rangers",
+    "Aberdeen",
+    "Hearts",
+    "Hibernian"
+   ],
+   "hipster": [
+    "Motherwell",
+    "Dundee United"
+   ],
+   "body": [
+    "Dundee",
+    "Kilmarnock",
+    "St Johnstone",
+    "St Mirren",
+    "Ross County",
+    "Livingston",
+    "Partick Thistle",
+    "Queen's Park",
+    "Falkirk",
+    "Dunfermline Athletic",
+    "Inverness Caledonian Thistle",
+    "Hamilton Academical",
+    "Greenock Morton",
+    "Ayr United",
+    "Dumbarton"
+   ],
+   "tail": [
+    "Raith Rovers",
+    "Queen of the South",
+    "Airdrieonians",
+    "Stenhousemuir",
+    "Arbroath",
+    "Montrose",
+    "Forfar Athletic",
+    "Peterhead",
+    "Cowdenbeath",
+    "East Fife",
+    "Brechin City",
+    "Alloa Athletic",
+    "Stranraer",
+    "Clyde",
+    "Albion Rovers",
+    "Annan Athletic",
+    "Edinburgh City",
+    "Cove Rangers",
+    "Elgin City",
+    "East Kilbride",
+    "Stirling Albion"
+   ],
+   "deep": [
+    "Third Lanark",
+    "Clydebank",
+    "Vale of Leven",
+    "Gretna"
+   ],
+   "outlier": [
+    "Renton",
+    "Cowlairs"
+   ]
+  },
+  "alias": {
+   "Hearts": [
+    "Heart of Midlothian",
+    "Heart of Midlothian FC"
+   ],
+   "Hibernian": [
+    "Hibs"
+   ],
+   "Rangers": [
+    "Glasgow Rangers"
+   ],
+   "Celtic": [
+    "Glasgow Celtic"
+   ],
+   "Queen's Park": [
+    "Queens Park"
+   ],
+   "Dunfermline Athletic": [
+    "Dunfermline"
+   ],
+   "Inverness Caledonian Thistle": [
+    "Inverness CT",
+    "Inverness Caley Thistle"
+   ],
+   "Hamilton Academical": [
+    "Hamilton",
+    "Accies"
+   ],
+   "Greenock Morton": [
+    "Morton"
+   ],
+   "St Johnstone": [
+    "Saint Johnstone"
+   ],
+   "Queen of the South": [
+    "Queen of the South FC"
+   ]
+  },
+  "traps": {
+   "Newcastle United": "An English club, not a Scottish one.",
+   "Ipswich Town": "An English club, not a Scottish one.",
+   "Cardiff City": "A Welsh club, not a Scottish one.",
+   "Sheffield Wednesday": "An English club, not a Scottish one."
+  },
+  "fact": "Queen's Park, founded in 1867, stayed an amateur club and is one of the oldest clubs in Scotland."
+ },
+ {
+  "id": "spo-fb-number-9-striker",
+  "cat": "Football",
+  "title": "Nine lives",
+  "q": "A famous number 9 striker",
+  "rule": "Any striker or centre-forward widely known for wearing the number 9 shirt, or for the classic No 9 role, at club or country level counts; give the name they are best known by.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Alan Shearer",
+    "Harry Kane",
+    "Ronaldo Nazário",
+    "Gerd Müller",
+    "Ian Rush"
+   ],
+   "hipster": [
+    "Robert Lewandowski",
+    "Filippo Inzaghi"
+   ],
+   "body": [
+    "Robbie Fowler",
+    "Luis Suárez",
+    "Erling Haaland",
+    "Karim Benzema",
+    "Fernando Torres",
+    "Romelu Lukaku",
+    "Roberto Firmino",
+    "Jamie Vardy",
+    "Gabriel Batistuta",
+    "Marco van Basten",
+    "Jimmy Greaves",
+    "Gabriel Jesus",
+    "Gonzalo Higuaín",
+    "Thierry Henry",
+    "Didier Drogba",
+    "Ruud van Nistelrooy",
+    "Peter Crouch",
+    "Michael Owen",
+    "Teddy Sheringham",
+    "Ian Wright",
+    "Andy Cole",
+    "Dwight Yorke"
+   ],
+   "tail": [
+    "Emile Heskey",
+    "Dion Dublin",
+    "Kevin Phillips",
+    "Les Ferdinand",
+    "Stan Collymore",
+    "Chris Sutton",
+    "Robbie Keane",
+    "Jermain Defoe",
+    "Hernán Crespo",
+    "Tony Yeboah",
+    "Diego Forlán",
+    "Carlos Tevez"
+   ],
+   "deep": [
+    "Dixie Dean",
+    "Hughie Gallacher",
+    "Tommy Lawton",
+    "Nat Lofthouse",
+    "Bobby Smith"
+   ],
+   "outlier": [
+    "Ted Drake",
+    "Joe Payne"
+   ]
+  },
+  "alias": {
+   "Ronaldo Nazário": [
+    "Ronaldo"
+   ],
+   "Teddy Sheringham": [
+    "Edward Sheringham"
+   ]
+  },
+  "traps": {
+   "Paul Scholes": "A midfielder rather than a striker.",
+   "Bobby Moore": "A central defender, not a striker.",
+   "Ray Wilson": "A full-back, not a striker."
+  },
+  "fact": "Joe Payne scored 10 goals for Luton Town in a single 1936 match against Bristol Rovers."
+ },
+ {
+  "id": "spo-fb-liverpool-legend",
+  "cat": "Football",
+  "title": "Kop idols",
+  "q": "A Liverpool football club legend",
+  "rule": "Any current or former Liverpool player, manager or coach who is widely celebrated by the club's supporters counts; give the name they are best known by.",
+  "level": 1,
+  "surnames": true,
+  "tiers": {
+   "head": [
+    "Steven Gerrard",
+    "Kenny Dalglish",
+    "Bill Shankly",
+    "Jamie Carragher",
+    "Ian Rush"
+   ],
+   "hipster": [
+    "Bob Paisley",
+    "Ian Callaghan"
+   ],
+   "body": [
+    "Robbie Fowler",
+    "Michael Owen",
+    "Luis Suárez",
+    "Mohamed Salah",
+    "Virgil van Dijk",
+    "Jürgen Klopp",
+    "Sadio Mané",
+    "Roberto Firmino",
+    "Fernando Torres",
+    "Xabi Alonso",
+    "Ian St John",
+    "Ron Yeats",
+    "John Barnes",
+    "Kevin Keegan",
+    "Emlyn Hughes",
+    "Graeme Souness",
+    "Alan Hansen",
+    "Phil Neal",
+    "Steve McManaman",
+    "Jamie Redknapp"
+   ],
+   "tail": [
+    "Ray Clemence",
+    "Tommy Smith",
+    "Chris Lawler",
+    "Peter Thompson",
+    "Steve Heighway",
+    "Jan Molby",
+    "Alan Kennedy",
+    "Ray Kennedy",
+    "Sammy Lee",
+    "Ronnie Whelan",
+    "Steve Nicol",
+    "Bruce Grobbelaar",
+    "Dietmar Hamann",
+    "Jerzy Dudek",
+    "Phil Thompson"
+   ],
+   "deep": [
+    "Roger Hunt",
+    "Tommy Lawrence",
+    "Jimmy Case",
+    "Terry McDermott",
+    "Gordon Milne",
+    "Gary McAllister"
+   ],
+   "outlier": [
+    "Gerry Byrne",
+    "Joe Fagan"
+   ]
+  },
+  "alias": {
+   "Mohamed Salah": [
+    "Mo Salah"
+   ],
+   "Bill Shankly": [
+    "Shanks"
+   ],
+   "Jamie Carragher": [
+    "Carra"
+   ]
+  },
+  "traps": {
+   "Frank Lampard": "A famous Chelsea midfielder who never played for Liverpool.",
+   "Ryan Giggs": "A Manchester United legend who never played for Liverpool.",
+   "David Beckham": "He never played for Liverpool, although he was a Manchester United and Real Madrid star."
+  },
+  "fact": "Joe Fagan won the league title and the European Cup in his first season as Liverpool manager, 1983-84."
+ }
+]
