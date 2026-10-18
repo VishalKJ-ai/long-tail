@@ -261,6 +261,20 @@ details.rc[open] .rc-chev { transform: rotate(225deg) translateY(-3px); }
 .rc-fact { font-size: 15px; color: var(--ink-2); padding-top: 10px; border-top: 1px solid var(--line); }
 .rc-fact b { color: var(--ink); }
 
+/* archive */
+.ar-head { display: grid; gap: 6px; padding-top: 18px; }
+.ar-head h2 { font-size: 30px; font-weight: 900; letter-spacing: -0.03em; }
+.ar { display: grid; }
+.ar-row { appearance: none; background: none; border: 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 4.4em minmax(0, 1fr) auto auto; align-items: center; gap: 12px; padding: 14px 2px; text-align: left; cursor: pointer; color: var(--ink); font: inherit; width: 100%; }
+.ar-row:hover { background: var(--surface); }
+.ar-no { font-weight: 800; font-variant-numeric: tabular-nums; }
+.ar-date { color: var(--ink-2); font-size: 15px; }
+.ar-st { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ar-st.todo { font-size: 14px; border: 1px solid var(--ink); border-radius: 999px; padding: 5px 14px; }
+.ar-st.half { color: var(--ink-2); font-weight: 600; font-size: 14px; }
+.ar-row .rc-chev { transform: rotate(-45deg); }
+.links { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; }
+
 /* stats */
 .statrow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; text-align: center; }
 .stat { display: grid; gap: 2px; }
@@ -320,7 +334,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <div class="banner" id="h-challenge" hidden></div>
       <div class="cta"><button class="btn" id="btn-how" type="button">How to play</button><button class="btn primary" id="btn-play" type="button">Play</button></div>
       <p class="meta"><b id="h-date">Today</b><span id="h-no">No. 1</span><span>Five categories · about three minutes</span></p>
-      <button class="link" id="btn-practice-home" type="button" hidden>Keep digging (practice mode)</button>
+      <div class="links"><button class="link" id="btn-archive" type="button">Past puzzles</button><button class="link" id="btn-practice-home" type="button" hidden>Practice mode</button></div>
     </section>
 
     <section class="screen" id="s-play" hidden>
@@ -385,7 +399,12 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
       <div class="rcs" id="r-cards"></div>
       <h3 class="sec-h">Statistics</h3>
       <div class="stats-wrap" id="r-stats"></div>
-      <button class="btn" id="btn-practice" type="button">Keep digging: practice mode</button>
+      <div class="row"><button class="btn" id="btn-archive-r" type="button">Past puzzles</button><button class="btn" id="btn-practice" type="button">Practice mode</button></div>
+    </section>
+
+    <section class="screen" id="s-archive" hidden>
+      <div class="ar-head"><h2>Past puzzles</h2><p class="fine">Play any day you missed. Past puzzles don't change your streak or stats.</p></div>
+      <div class="ar" id="ar-list"></div>
     </section>
 
     <section class="screen results" id="s-over" hidden>
@@ -947,7 +966,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   // ---------- screens ----------
   let G = null;
   function show(name) {
-    for (const s of ["home", "play", "results", "over"]) $("s-" + s).hidden = s !== name;
+    for (const s of ["home", "play", "results", "over", "archive"]) $("s-" + s).hidden = s !== name;
     document.body.classList.toggle("on-home", name === "home");
     window.scrollTo(0, 0);
     if (name !== "results") clearInterval(countdownT);
@@ -1453,6 +1472,34 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
     show("over");
   }
 
+  // ---------- archive ----------
+  function renderArchive() {
+    const t = today();
+    const rows = [];
+    for (let d = t; d >= LAUNCH; d--) {
+      const st = store.get(dayKey(d), null);
+      let status;
+      if (st && st.done) { const sc = (st.results || []).reduce((a, r) => a + (r.pts || 0), 0); status = `<span class="ar-st">${LT.rank(sc).emoji} ${sc}</span>`; }
+      else if (st && st.results && st.results.length) status = `<span class="ar-st half">${st.results.length} of ${N}</span>`;
+      else status = `<span class="ar-st todo">Play</span>`;
+      const label = d === t ? "Today" : new Date(d * 864e5).toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" });
+      rows.push(`<button class="ar-row" type="button" data-day="${d}"><span class="ar-no">No. ${numOf(d)}</span><span class="ar-date">${label}</span>${status}<span class="rc-chev" aria-hidden="true"></span></button>`);
+    }
+    $("ar-list").innerHTML = rows.join("");
+    for (const b of $("ar-list").querySelectorAll(".ar-row")) {
+      b.addEventListener("click", () => {
+        Sound.unlock();
+        const d = +b.dataset.day;
+        track(d === today() ? "start" : "archive_start");
+        if (loadDone(d)) showResults(false); else startDaily(d);
+      });
+    }
+    if (G) { stopClock(); G.paused = true; G.phase = "away"; }
+    show("archive");
+  }
+  $("btn-archive").addEventListener("click", renderArchive);
+  $("btn-archive-r").addEventListener("click", renderArchive);
+
   // ---------- dialogs and header ----------
   $("help-tiers").innerHTML = TIERS.map((t) => `<li style="--c:${tc(t.key)};--onc:${onc(t.key)}"><b class="sticker">${t.pts}</b><span class="lab">${esc(t.name)}<small>${esc(ODDS[t.key])}</small></span></li>`).join("");
   $("help-ranks").innerHTML = RANKS.slice().reverse().map((r) => `<li><span aria-hidden="true">${r.emoji}</span>${esc(r.name)}<b>${r.min}+</b></li>`).join("");
@@ -1498,6 +1545,20 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
   $("btn-back").addEventListener("click", () => { if (loadDone(today())) showResults(false); else renderHome(); });
 
   // ---------- boot ----------
+  // #reset-today clears today's game on this device and takes it back out of the stats
+  if (location.hash === "#reset-today") {
+    const d = today(), st = store.get(dayKey(d), null), s = loadStats();
+    if (st && st.done && s.last === d) {
+      const sc = (st.results || []).reduce((a, r) => a + (r.pts || 0), 0);
+      s.played = Math.max(0, s.played - 1); s.total = Math.max(0, s.total - sc);
+      const ri = RANKS.indexOf(LT.rank(sc)); s.dist[ri] = Math.max(0, (s.dist[ri] || 0) - 1);
+      s.streak = Math.max(0, s.streak - 1); s.last = s.streak ? d - 1 : null;
+      store.set("stats10", s);
+    }
+    try { localStorage.removeItem("lt:" + dayKey(d)); } catch (e) { /* storage blocked */ }
+    try { history.replaceState(null, "", location.pathname + location.search); } catch (e) { location.hash = ""; }
+    setTimeout(() => toast("Today's game has been reset."), 300);
+  }
   renderSound();
   if (CH) track("challenge_open");
   const bootDay = CH ? CH.day : today();

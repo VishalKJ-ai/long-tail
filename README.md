@@ -10,7 +10,8 @@ Play: https://vishalkj-ai.github.io/long-tail/
 - Record-shop theme, plain Wordle-style UI. Tiers: Chart hit 10, Overplayed 15, Album track 25, B-side 50, Deep cut 75, Holy grail 100.
 - Daily ranks out of 500: Parrot, Sheep, Fox, Badger, Owl, Bat, Unicorn.
 - Share: `Long Tail No. 11 🐺 Lone Wolf / 260/500 🟪⬜🟦🟩🟧 / Beat me: <link>`. The link makes a friend play the same five and shows a head-to-head.
-- Keep digging (practice) after the daily: one 45-second clock, rarer answers add more time.
+- Past puzzles: play any earlier day (no effect on streak or stats).
+- Practice mode after the daily: one 45-second clock, rarer answers add more time.
 
 ## Source
 - `src/cards/*.json`: the card bank (only cards with 40+ answers go into the daily rotation).
