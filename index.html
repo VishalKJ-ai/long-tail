@@ -1449,7 +1449,7 @@ dialog::backdrop { background: color-mix(in srgb, var(--bg) 55%, transparent); }
           }).join("");
           if (verdict.dataset.none) {
             delete verdict.dataset.none;
-            if (shown) verdict.innerHTML = `<span>${shown} answer${shown === 1 ? "" : "s"} contain "${esc(q.trim())}".</span>`;
+            if (shown) verdict.innerHTML = `<span>${shown} answer${shown === 1 ? " contains" : "s contain"} "${esc(q.trim())}".</span>`;
             else { verdict.classList.add("no"); verdict.innerHTML = `<span>Not on our list.</span>`; }
           }
           rowsBox.innerHTML = shown ? html : "";
